@@ -1,0 +1,9 @@
+read_code, read_term, cat1, cat2, version
+663U., Asthma management plan given, asthma_plan, NA, 3
+XaIQ4, Change in asthma management plan, asthma_plan, NA, 3
+XaIQD, Step up change in asthma management plan, asthma_plan, NA, 3
+XaIQE, Step down change in asthma management plan, asthma_plan, NA, 3
+XaJYe, Asthma clinical management plan, asthma_plan, NA, 3
+XaRFi, Patient has a written asthma personal action plan, asthma_plan, NA, 3
+XaYZB, Asthma self-management plan review, asthma_plan, NA, 3
+XaYb8, Asthma self-management plan agreed, asthma_plan, NA, 3

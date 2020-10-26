@@ -1,0 +1,16 @@
+read_code,read_term,cat1,cat2
+XaEFM,Peak flow rate,PEFR,PEFR
+XE2wr,Peak expiratory flow rate,PEFR,PEFR
+XE2rO,More than 80% of predicted peak flow rate,PEFR,>80% PEFR
+XE2rP,60-80% of predicted peak flow rate,PEFR,60-80% PEFR
+XE2rQ,Less than 60% of predicted peak flow rate,PEFR,<60% PEFR
+XaKbt,Predicted peak expiratory flow rate using EN 13826 standard,PEFR,predicted PEFR
+XaK6I,Peak expiratory flow rate measured using EN 13826 device,PEFR,PEFR
+XaIL1,Recorded/predicted peak expiratory flow rate ratio,PEFR,% predicted PEFR
+339H.,Predicted peak flow,PEFR,predicted PEFR
+339F.,60-80% of predicted peak flow rate,PEFR,60-80% PEFR
+339E.,More than 80% of predicted peak flow rate,PEFR,>80% PEFR
+339G.,Less than 60% of predicted peak flow rate,PEFR,<60% PEFR
+3395,Peak flow rate,PEFR,PEFR
+339p.,Predicted peak expiratory flow rate using EN 13826 standard,PEFR,predicted PEFR
+339o.,Peak expiratory flow rate measured using EN 13826 device,PEFR,PEFR

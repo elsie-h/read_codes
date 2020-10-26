@@ -1,0 +1,40 @@
+read_code, cat1, cat2, score, read_term
+XaXa0, RCGP3Q, general, NA, Royal College of Physicians asthma assessment three questions score
+XaNKw, RCGP3Q, general, NA, RCP (Royal College of Physicians) three questions
+XaX3n, RCGP3Q, general, NA, Asthma review using Royal College of Physicians three questions
+388t0, RCGP3Q, general, NA, Royal College of Physicians asthma assessment three questions score
+663O., RCGP3Q, sleeping, 0, Asthma not disturbing sleep
+663O0, RCGP3Q, sleeping, 0, Asthma never disturbs sleep
+663N., RCGP3Q, sleeping, 1, Asthma disturbing sleep
+66Yq., RCGP3Q, sleeping, 1, Asthma causes night time symptoms 1 to 2 times per week
+66Yr., RCGP3Q, sleeping, 1, Asthma causes symptoms most nights
+663N0, RCGP3Q, sleeping, 1, Asthma causing night waking
+663N1, RCGP3Q, sleeping, 1, Asthma disturbs sleep weekly
+663N2, RCGP3Q, sleeping, 1, Asthma disturbs sleep frequently
+XaY2V, RCGP3Q, sleeping, 0, Asthma never causes night symptoms
+XaIoE, RCGP3Q, sleeping, 1, Asthma night-time symptoms
+XaXZp, RCGP3Q, sleeping, 1, Asthma causes symptoms most nights
+XaINZ, RCGP3Q, sleeping, 1, Asthma causes night symptoms 1 to 2 times per month
+XaXZm, RCGP3Q, sleeping, 1, Asthma causes night time symptoms 1 to 2 times per week
+663s., RCGP3Q, day,	0, Asthma never causes daytime symptoms
+663t., RCGP3Q, day,	1, Asthma causes daytime symptoms 1 to 2 times per month
+663u., RCGP3Q, day,	1, Asthma causes daytime symptoms 1 to 2 times per week
+663v., RCGP3Q, day,	1, Asthma causes daytime symptoms most days
+663q., RCGP3Q, day,	1, Asthma daytime symptoms
+XaIIZ, RCGP3Q, day,	1, Asthma daytime symptoms
+XaINa, RCGP3Q, day,	0, Asthma never causes daytime symptoms
+XaINd, RCGP3Q, day,	1, Asthma causes daytime symptoms most days
+XaINc, RCGP3Q, day,	1, Asthma causes daytime symptoms 1 to 2 times per week
+XaINb, RCGP3Q, day,	1, Asthma causes daytime symptoms 1 to 2 times per month
+663Q., RCGP3Q, activities, 0, Asthma not limiting activities
+663f., RCGP3Q, activities, 0, Asthma never restricts exercise
+663e0, RCGP3Q, activities, 1, Asthma sometimes restricts exercise 
+663P., RCGP3Q, activities, 1, Asthma limiting activities
+663e., RCGP3Q, activities, 1, Asthma restricts exercise
+663e1, RCGP3Q, activities, 1, Asthma severely restricts exercise 
+XaIR3, RCGP3Q, activities, 1, Absent from work or school due to asthma
+XaXZs, RCGP3Q, activities, 1, Asthma limits activities 1 to 2 times per month
+XaXZu, RCGP3Q, activities, 1, Asthma limits activities 1 to 2 times per week
+XaXZx, RCGP3Q, activities, 1, Asthma limits activities most days
+XaINf, RCGP3Q, activitirs, 1, Asthma limits walking up hills or stairs  
+XaINg, RCGP3Q, activitirs, 1, Asthma limits walking on the flat         

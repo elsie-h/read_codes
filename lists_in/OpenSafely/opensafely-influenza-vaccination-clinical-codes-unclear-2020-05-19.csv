@@ -1,0 +1,18 @@
+,CTV3ID,CTV3PreferredTermDesc,CTV3Source,Category
+35,65E..,Influenza vaccination,CTV3Map_Code_And_Term,u
+36,68NV.,Influenza vacc consent given,CTV3Map_Code_And_Term,u
+37,XaLK4,Booster influenza vaccination,CTV3_Children,u
+38,XaLNG,First pandemic influenza vaccination,CTV3Map_Code_And_Term,u
+39,XaLNH,Second pandemic influenza vaccination,CTV3Map_Code_And_Term,u
+40,XaPw1,Consent given for pandemic influenza vaccination,CTV3Map_Code_And_Term,u
+41,XaZ0d,Seasonal influenza vaccination,CTV3Map_Code_And_Term,u
+42,XaZ0l,Consent given for seasonal influenza vaccination,CTV3Map_Code_And_Term,u
+43,Y0fd0,Optaflu,CTV3_Children,u
+44,Y1314,Mastaflu (MASTA),CTV3_Children,u
+45,Y3087,Invivac (Solvey),CTV3_Children,u
+46,ZV048,[V]Influenza vaccination,CTV3Map_Code_And_Term,u
+47,ZV048,[V]Influenza vaccination,CTV3Map_Code_Only,u
+48,F034G,Post influenza vaccination encephalitis,CTV3Map_Code_And_Term,u
+49,XaJ7u,[X]Influenza vaccine causing adverse effects therapeutic use,CTV3Map_Code_And_Term,u
+57,XaR54,Consent given for influenza A subtype H1N1 vaccination,CTV3Map_Code_And_Term,u
+58,XaVwE,Did not attend influenza A virus subtype H1N1 vaccination,CTV3_Children,u

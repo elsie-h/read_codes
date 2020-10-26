@@ -1,0 +1,14 @@
+read_code|read_term
+66YJ.|Asthma annual review
+66YK.|Asthma follow-up
+66YQ.|Asthma monitoring by nurse
+66YR.|Asthma monitoring by doctor
+8B3j.|Asthma medication review
+9OJA.|Asthma monitoring check done
+XE2Nb|Asthma monitoring check done
+XaIeq|Asthma annual review
+XaIer|Asthma follow-up
+XaIfK|Asthma medication review
+XaIu5|Asthma monitoring by nurse
+XaIu6|Asthma monitoring by doctor
+XM1Xb|Asthma monitoring
