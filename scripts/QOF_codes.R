@@ -4,7 +4,19 @@
 
 source('ssetup.R')
 
-cluster_names <- c('ASTEXC', 'AST', 'ASTSPIR', 'PEFR', 'SMOK', 'REV', 'RCPEXCER', 'RCPSLP', 'RCPDSYMP', 'SMOKASTEXC', 'SPEX', 'ASTRES', 'ASTTRT')
+cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
+                   'AST',  # Asthma
+                   'ASTSPIR', # Spirometry
+                   'PEFR', # PEFR
+                   'SMOK', # Smoking
+                   'REV', # Review
+                   'RCPEXCER', # RCGP 3Q exercise
+                   'RCPSLP', # RCGP 3Q sleep
+                   'RCPDSYMP', # RCGP 3Q day symptoms
+                   'SMOKASTEXC', # Refuse smoking status
+                   'SPEX', # Spirometry declined
+                   'ASTRES', # Asthma resolved
+                   'ASTTRT') # treatments
 cluster_names <- str_c(cluster_names, '_COD')
 
 clean_QOF <- function(.data, 
@@ -51,4 +63,4 @@ qof_codes <- qof_v36_v2 %>%
   full_join(qof_v38_v2, by = 'read_code') %>%
   full_join(qof_v38_v3, by = 'read_code')
 
-saveRDS(qof_codes, file = 'lists_in/QOF_codes.RDS', compress = FALSE)
+saveRDS(qof_codes, file = 'lists_in/QOF/QOF_codes.RDS', compress = FALSE)

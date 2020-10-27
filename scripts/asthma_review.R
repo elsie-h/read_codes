@@ -18,12 +18,13 @@ asthma_review %>%
 
 # asthma review codes are consistent across QOF v36-38
 
-asthma_review %>%
+asthma_review <- asthma_review %>%
   mutate(read_term = if_else(!is.na(v36_v2_term), v36_v2_term, v36_v3_term)) %>%
   select(read_code, read_term) %>%
   mutate(cat1 = 'asthma_review',
          cat2 = NA_character_,
-         score = NA_real_) %>%
+         score = NA_real_,
+         QOF = 1) %>%
   distinct()
 
 # check for duplicates in read_code
