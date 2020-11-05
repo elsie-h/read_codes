@@ -1,0 +1,14 @@
+id,term
+H3301,Extrins asthma with: [asthma attack] or [status asthmaticus]
+H3311,Intrins asthma with: [asthma attack] or [status asthmaticus]
+H33z0,(Severe asthma attack) or (status asthmaticus NOS)
+H33z1,Asthma attack (& NOS)
+X101y,Extrinsic asthma with asthma attack
+X1022,Intrinsic asthma with asthma attack
+XE0YW,Asthma attack
+XE0ZT,Asthma: [NOS] or [attack]
+XM0s2,Asthma attack NOS
+Y138a,Indicators - asthma attack
+Y139d,Indicators - asthma attack
+Y13a8,Asthma attack - reliever use more frequent than every
+Y13a9,Asthma attack - peak flow less than
