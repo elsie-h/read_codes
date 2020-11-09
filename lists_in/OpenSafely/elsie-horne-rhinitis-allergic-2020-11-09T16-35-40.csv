@@ -1,0 +1,41 @@
+id,term
+H120.,(Chronic rhinitis) or (catarrh unspecified)
+H1200,Chronic simple rhinitis
+H1201,(Catarrhal child) or (chronic catarrhal rhinitis)
+H1202,Chronic hypertrophic rhinitis
+H1203,Chronic atrophic rhinitis
+H1206,Chronic membranous rhinitis
+H1207,Chronic fibrinous rhinitis
+H120z,Chronic rhinitis NOS
+H17..,Rhinitis: [perennial] or [allergic]
+H170.,Pollinosis (& allergic rhinitis due to pollens)
+H171.,"Allergy: [rhinit, oth allergens][anim][hay fev][house dust]"
+H172.,(Hay fever) or (allergic rhinitis) due to unspecif allergen
+H17z.,Allergic rhinitis NOS
+H18..,Vasomotor rhinitis
+Hyu20,[X]Other seasonal allergic rhinitis
+Hyu21,[X]Other allergic rhinitis
+X00kv,Acute rhinitis
+X00kx,Acute irritant rhinitis
+X00ky,Rhinitis sicca
+X00kz,Rhinitis caseosa
+X00l0,Rhinitis medicamentosa
+X00l1,Eosinophilic non-allergic rhinitis
+X00l2,Non-infective non-allergic rhinitis
+X00l8,Hay fever - other allergen
+X00l9,Hay fever - unspecified allergen
+X00lA,Perennial allergic rhinitis
+X00lB,Perennial allergic rhinitis with seasonal variation
+X1020,Hay fever with asthma
+XE0Xx,Chronic rhinitis
+XE0Xy,Chronic catarrhal rhinitis
+XE0Y5,Allergic rhinitis
+XE0Y6,Allergic rhinitis due to other allergens
+XE0Y7,Allergic rhinitis due to unspecified allergen
+XE0Z5,(Allerg rhinitis: [NOS][perenn][season]) or (vasomotor rhin)
+XE2QI,Allergic rhinitis due to pollens
+XE2RT,Chronic rhinitis (& ozaena)
+Xa0lX,Seasonal allergic rhinitis
+Xa2dV,Ozaena
+XaNkV,Acute rhinosinusitis
+Y9979,Vasomotor and allergic rhinitis

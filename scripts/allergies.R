@@ -5,181 +5,253 @@ source('setup.R')
 mukherjee <- read_excel("lists_in/Mukherjee2016/Mukherjee2016_supinfo.xlsx", 
                         skip = 1) %>%
   filter(!(`Disease Area` %in% 'Asthma'),
-         `Allergy or not allergy` %in% 'A') %>%
+         !(Susannah %in% 'no')) %>%
+  filter((`Allergy or not allergy` %in% 'A')|
+           (Susannah %in% 'yes')) %>%
   select(read_code = Code, read_term = Term,
          `Disease Area`, `Type of code`) %>%
   mutate_at('read_term', list(~ str_trim(str_remove_all(., '\\.\\.\\.'), side = 'right')))
 
-# For now, only consider those that were categorised by Mukherjee at al. as 'Allergic'
-# May want to revise this at a later date, discuss with Susannah.
+# Function for joining V2 & CTV3 Read code tables
+# read_code_v2 = in version 2 list
+# read_code_v3.2 = in version 3 list but in version 2 terminology
+# read_code_v3 = only in version 3 list
+join_read <- function(data_v2, data_v3) {
+  
+  if (!all(names(data_v2) %in% c('read_code_v2', 'read_term'))) stop('Columns of data_v2 must be \'read_code_v2\' and \'read_term\'')
+  if (!all(names(data_v3) %in% c('id', 'term'))) stop('Columns of data_v3 must be \'id\' and \'term\'')
+  
+  tmp1 <- data_v2 %>% 
+    distinct() %>%
+    left_join(data_v3, by = c('read_code_v2' = 'id')) %>%
+    mutate(read_code_v3.2 = if_else(is.na(term),
+                                    read_code_v2,
+                                    NA_character_)) %>%
+    select(read_code_v2, read_code_v3.2, read_term)
+  
+  tmp2 <- data_v3 %>%
+    distinct() %>%
+    anti_join(data_v2, by = c('id' = 'read_code_v2')) %>%
+    rename(read_code_v3 = id, read_term = term)
+
+  tmp1 %>%
+    full_join(tmp2, by = 'read_term') %>%
+    select(read_term, read_code_v2, read_code_v3.2, read_code_v3)
+}
 
 ################################################################################
 # Anaphylaxis
 anaphylaxis_v2 <- mukherjee %>%
-  filter(`Disease Area` %in% 'Anaphylaxis')
+  filter(`Disease Area` %in% 'Anaphylaxis') %>%
+  select(read_code_v2 = read_code, read_term)
 
 #### Codes for anaphylaxis from manual search of CTV3 ####
-anaphylaxis_v3 <- tribble(~read_code_3, ~read_term
-                          ,'SN50.',	'Anaphylactic shock'
-                          ,'X70vi',	'Venom-induced anaphylaxis'
-                          ,'X70vl',	'Blood product-induced anaphylaxis'
-                          ,'X70vm',	'Food-induced anaphylaxis'
-                          ,'X70vr',	'Drug-induced anaphylaxis'
-                          ,'X70vu',	'Human protein-induced anaphylaxis'
-                          ,'X70vw',	'Aeroallergen-induced anaphylaxis'
-                          ,'SP34.',	'Anaphylactic shock due to serum'
-                          ,'X208h',	'Anaphylactoid shock'
-                          ,'X70vy',	'Blood and blood product-induced anaphylactoid reaction'
-                          ,'X70w1',	'Food-induced anaphylactoid reaction'
-                          ,'X70w2',	'Drug-induced anaphylactoid reaction'
-                          ,'X70w5',	'Ionic compound-induced anaphylactoid reaction'
-                          ,'X70w6',	'Dialysis membrane-induced anaphylactoid reaction'
-                          ,'X70w7',	'Exercise anaphylaxis'
-                          ,'X70w8',	'Cholinergic anaphylactoid reaction'
-                          ,'XaL31',	'H/O: anaphylactic shock'
-                          ,'SP34.',	'Anaphylactic shock due to serum'
-                          ,'X70vj',	'Anaphylactic shock due to bee sting'
-                          ,'X70vk',	'Anaphylactic shock due to wasp sting'
-                          ,'X70w1',	'Anaphylactic shock due to adverse food reaction'
-                          ,'SN501',	'Anaphylactic shock due to adverse effect of correct drug or medicament properly administered'
-                          ,'X70vn',	'Peanut-induced anaphylaxis'
-                          ,'X70vo',	'Seafood-induced anaphylaxis'
-                          ,'X70vp',	'Egg white-induced anaphylaxis'
-                          ,'X70vq',	'Cows milk protein-induced anaphylaxis'
-                          ,'X70vs',	'Penicillin-induced anaphylaxis'
-                          ,'X70vt',	'Insulin-induced anaphylaxis'
-                          ,'X70vu',	'Human protein-induced anaphylaxis'
-                          ,'X70vv',	'Seminal fluid-induced anaphylaxis'
-                          ,'X70vl',	'Blood product-induced anaphylaxis'
-                          ,'X70w9',	'Idiopathic anaphylaxis'
-                          ,'X70w9',	'Syndrome of idiopathic anaphylaxis'
-                          ,'XaG0G',	'[V]Personal history of food induced anaphylaxis'
-                          ,'D3100',	'Anaphylactoid purpura'
-                          ,'K0323',	'Anaphylactoid glomerulonephritis'
-                          ,'XaZmp',	'Anaphylactoid reaction due to haemodialysis'
-                          ,'X208h',	'Anaphylactoid shock'
-                          ,'X70vy',	'Blood and blood product-induced anaphylactoid reaction'
-                          ,'X70w1',	'Food-induced anaphylactoid reaction'
-                          ,'X70w2',	'Drug-induced anaphylactoid reaction'
-                          ,'X70w5',	'Ionic compound-induced anaphylactoid reaction'
-                          ,'X70w6',	'Dialysis membrane-induced anaphylactoid reaction'
-                          ,'X70w7',	'Exercise anaphylaxis'
-                          ,'X70w8',	'Cholinergic anaphylactoid reaction'
-                          ,'X7060',	'Post-infective Henoch-Schonlein purpura'
-                          ,'XE1BR',	'Anaphylactic urticaria'
-                          ,'XaL31',	'H/O: anaphylactic shock'
-                          ,'X30Lt',	'Anaphylactoid reaction to dialysis'
-                          ,'X70w3',	'NSAID-induced anaphylactoid reaction'
-                          ,'X70w4',	'Aspirin-induced anaphylactoid reaction'
-                          ,'X70vz',	'Whole blood-induced anaphylactoid reaction'
-                          ,'X70w0',	'Immunoglobulin-induced anaphylactoid reaction'
-                          ,'SN501',	'Anaphylactic shock due to adverse effect of correct drug or medicament properly administered') %>%
-  distinct()
-#########################################################
-
-anaphylaxis <- anaphylaxis_v2 %>% 
-  select(read_code_2 = read_code, read_term) %>%
-  full_join(anaphylaxis_v3, by = 'read_term')
+anaphylaxis_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-anaphylaxis-2020-11-09T13-56-17.csv")
+  
+# join to check how well the two lists correspond
+anaphylaxis <- join_read(data_v2 = anaphylaxis_v2,
+                         data_v3 = anaphylaxis_v3) %>%
+  filter(!(read_term %in% 'Allergic urticaria'))
 
 ################################################################################
 # Angioedema
 angioedema_v2 <- mukherjee %>%
-  filter(`Disease Area` %in% 'Angioedema')
+  filter(`Disease Area` %in% 'Angioedema') %>%
+  select(read_code_v2 = read_code, read_term)
 
 #### Codes for Angioedema from manual search of CTV3 ####
-angioedema_v3 <- tribble(~read_code_3, ~read_term
-                         ,'SN51.',	'Angioneurotic oedema'
-                         ,'C3760',	'C1 esterase inhibitor deficiency'
-                         ,'X70wH',	'ACE inhibitor-aggravated angio-oedema-urticaria'
-                         ,'X20IJ',	'Hereditary C1 esterase inhibitor deficiency - deficient factor'
-                         ,'X20IK',	'Hereditary C1 esterase inhibitor deficiency - dysfunctional factor'
-                         ,'X70wB',	'Acquired C1 esterase inhibitor deficiency'
-                         ,'X70wI',	'Chemical-aggravated angio-oedema-urticaria'
-                         ,'X70wJ',	'Azo-dye-induced angio-oedema-urticaria'
-                         ,'X70wK',	'Sodium benzoate-induced angio-oedema-urticaria'
-                         ,'X70wL',	'Latex-induced angio-oedema-urticaria'
-                         ,'X70wE',	'Drug-aggravated angio-oedema-urticaria'
-                         ,'X70wF',	'NSAID-induced angio-oedema-urticaria'
-                         ,'X70wG',	'Aspirin-induced angio-oedema-urticaria'
-                         ,'X70wH',	'ACE inhibitor-aggravated angio-oedema-urticaria'
-                         ,'Xa0WK',	'Penicillin-induced angio-oedema-urticaria'
-                         ,'X70wD',	'Food-induced angio-oedema-urticaria'
-                         ,'X70wC',	'Venom-induced angio-oedema-urticaria'
-                         ,'X508a',	'Vibratory angio-oedema'
-                         ,'X00nD',	'Angioneurotic oedema of larynx'
-                         ,'C3760',	'HANE - Hereditary angioneurotic oedema'
-                         ,'X70wH',	'ACE inhibitor-aggravated angio-oedema-urticaria'
-                         ,'X20IJ',	'Hereditary C1 esterase inhibitor deficiency - deficient factor'
-                         ,'X20IK',	'Hereditary C1 esterase inhibitor deficiency - dysfunctional factor'
-                         ,'X70wB',	'Acquired C1 esterase inhibitor deficiency'
-                         ,'X20IJ',	'Hereditary angioneurotic oedema - type 1'
-                         ,'X20IK',	'Hereditary angioneurotic oedema - type 2') %>% 
-  distinct()
-########################################################
+angioedema_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-angioedema-2020-11-09T13-43-48.csv")
 
-angioedema <- angioedema_v2 %>% 
-  select(read_code_2 = read_code, read_term) %>%
-  full_join(angioedema_v3, by = 'read_term')
+# join to check how well the two lists correspond
+angioedema <- join_read(data_v2 = angioedema_v2,
+                         data_v3 = angioedema_v3)
 
 ################################################################################
 # Conjunctivitis
 conjunctivitis_v2 <- mukherjee %>%
-  filter(`Disease Area` %in% 'Conjunctivitis')
+  filter(`Disease Area` %in% 'Conjunctivitis') %>%
+  select(read_code_v2 = read_code, read_term)
 
 #### Codes for allergic conjunctivits from manual search of CTV3 ####
-# I searched 'atopic|vernal|allergic conjunctivitis' in the read code browser
-# all results and their children included
-conjunctivitis_v3 <- tribble(~read_code_3, ~read_term
-                             ,'X00Zi', 'Atopic conjunctivitis'
-                             ,'X00Zj', 'Seasonal allergic conjunctivitis'
-                             ,'X00Zk', 'Perennial allergic conjunctivitis'
-                             ,'F4A31', 'Vernal conjunctivitis'
-                             ,'X00Zl', 'Giant papillary conjunctivitis'
-                             ,'XaF7u', 'Contact lens related giant papillary conjunctivitis'
-                             ,'F4C06', 'Acute atopic conjunctivitis'
-                             ,'XE16b', 'Other chronic allergic conjunctivitis'
-                             ,'X00Zk', 'Adult pattern atopic conjunctivitis')
-#####################################################################
-conjunctivitis <- conjunctivitis_v2 %>%
-  select(read_code_2 = read_code, read_term) %>%
-  full_join(conjunctivitis_v3, by = 'read_term')
+conjunctivitis_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-conjunctivitis-2020-11-09T13-18-07.csv")
+
+# join to check how well the two lists correspond
+conjunctivitis <- join_read(data_v2 = conjunctivitis_v2,
+                        data_v3 = conjunctivitis_v3)
 
 ################################################################################
 # Drug allergy
 drug_allergy_v2 <- mukherjee %>%
-  filter(`Disease Area` %in% 'Drug allergy')
+  filter(`Disease Area` %in% 'Drug allergy') %>%
+  select(read_code_v2 = read_code, read_term)
 
-drug_allergy_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-drug-allergy-2020-11-05T08-48-21.csv") %>%
-  rename(read_code_3 = id, read_term = term)
+drug_allergy_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-drug-allergy-2020-11-05T08-48-21.csv") 
 
-drug_allergy <- drug_allergy_v2 %>%
-  select(read_code_2 = read_code, read_term) %>%
-  full_join(drug_allergy_v3, by = 'read_term')
+# join to check how well the two lists correspond
+drug_allergy <- join_read(data_v2 = drug_allergy_v2,
+                            data_v3 = drug_allergy_v3)
 
 ################################################################################
 # Eczema
 eczema_v2 <- mukherjee %>%
-  filter(`Disease Area` %in% 'Eczema')
+  filter(`Disease Area` %in% 'Eczema') %>%
+  select(read_code_v2 = read_code, read_term)
+
+eczema_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-eczema-allergy-2020-11-09T13-28-09.csv") 
+
+# join to check how well the two lists correspond
+eczema <- join_read(data_v2 = eczema_v2,
+                          data_v3 = eczema_v3)
 
 ################################################################################
 
 # Food allergy
-food_allergy <- mukherjee %>%
-  filter(`Disease Area` %in% 'Food allergy')
+food_v2 <- mukherjee %>%
+  filter(`Disease Area` %in% 'Food allergy') %>%
+  select(read_code_v2 = read_code, read_term)
 
+food_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-food-allergy-2020-11-09T16-28-48.csv") 
+
+# join to check how well the two lists correspond
+food <- join_read(data_v2 = food_v2,
+                    data_v3 = food_v3)
+
+################################################################################
 # Rhinitis
-rhinitis <- mukherjee %>%
-  filter(`Disease Area` %in% 'Rhinitis')
+rhinitis_v2 <- mukherjee %>%
+  filter(`Disease Area` %in% 'Rhinitis') %>%
+  select(read_code_v2 = read_code, read_term)
 
+rhinitis_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-rhinitis-allergic-2020-11-09T16-35-40.csv") 
+
+# join to check how well the two lists correspond
+rhinitis <- join_read(data_v2 = rhinitis_v2,
+                  data_v3 = rhinitis_v3)
+
+################################################################################
 # Urticaria
-urticaria <- mukherjee %>%
-  filter(`Disease Area` %in% 'Urticaria')
+urticaria_v2 <- mukherjee %>%
+  filter(`Disease Area` %in% 'Urticaria') %>%
+  select(read_code_v2 = read_code, read_term)
 
+urticaria_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-urticaria-2020-11-09T13-40-47.csv") 
+
+# join to check how well the two lists correspond
+urticaria <- join_read(data_v2 = urticaria_v2,
+                      data_v3 = urticaria_v3)
+
+################################################################################
+# Venom
+venom_allergy <- mukherjee %>%
+  filter(`Disease Area` %in% 'Venom allergy') %>%
+  select(read_code_v2 = read_code, read_term)
+
+# my OpenSafely search for 'venom allergy' did not identify any codes 
+
+################################################################################
+#  Drugs
+
+# the Mukherjee paper did not include drugs for allergies, 
+# will have to idenfity v2 list manually
+
+drugs <- read_csv("lists_in/OpenSafely/elsie-horne-allergy-drug-2020-11-09T17-13-02.csv") %>%
+  rename(read_code_v3 = id, read_term = term)
+
+################################################################################
 # Other
-other <- mukherjee %>%
+other_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Other',
          # None of the read codes under 'Test' or 'Other' indicate that an allergy is present, only that it has been tested
          !(`Type of code` %in% c('Test',
                                  'Other')),
          !(read_term %in% c('Hypersens. skin test done',
-                       'Hypersens. skin test: no react')))
+                       'Hypersens. skin test: no react')))%>%
+  select(read_code_v2 = read_code, read_term)
+
+other_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-other-allergy-2020-11-09T17-09-26.csv") 
+
+# remove any that have appeared in other code lists
+all <- bind_rows(anaphylaxis,
+                 angioedema,
+                 conjunctivitis,
+                 drugs,
+                 drug_allergy,
+                 eczema,
+                 food,
+                 rhinitis,
+                 urticaria) %>%
+  select(-read_term) %>% 
+  pivot_longer(cols = 1:3) %>%
+  distinct(value) %>%
+  unlist() %>%
+  unname()
+
+# join to check how well the two lists correspond
+other <- join_read(data_v2 = filter(other_v2, !(read_code_v2 %in% all)),
+                       data_v3 = filter(other_v3, !(id %in% all))) 
+
+################################################################################
+# combine urticaria and angioedema and remove duplicates
+angioedema_urticaria <- bind_rows(angioedema, urticaria)
+
+angioedema_urticaria %>% 
+  group_by(read_term) %>%
+  count() %>%
+  ungroup() %>%
+  filter(n>1) %>%
+  select(read_term) %>%
+  left_join(angioedema_urticaria, by = 'read_term') %>%
+  print(n=100)
+# fine to just remove duplicated with distinct()
+
+angioedema_urticaria <- angioedema_urticaria %>%
+  distinct()
+
+################################################################################
+# food/drug/venom allergy
+# if someone has a code corresponding to angioedema, urticaria or anaphylaxis 
+# due to food/drug/venom allergy, include this under the corresponding list
+
+food_indicator <- str_c(c('food', 'peanut', 'seafood', 'egg', 'cow'), collapse = '|')
+
+drug_indicator <- str_c(c('drug', 'nsaid', 'aspirin', 'penicillin'), collapse = '|')
+
+venom_indicator <- str_c(c('venom', 'bee', 'wasp', 'insect'), collapse = '|')
+
+food <- food %>%
+  bind_rows(filter(anaphylaxis, 
+                   str_detect(read_term, 
+                              regex(food_indicator, 
+                                    ignore_case = TRUE))),
+            filter(angioedema_urticaria, 
+                   str_detect(read_term, 
+                              regex(food_indicator, 
+                                    ignore_case = TRUE)))
+            )
+
+
+drug_allergy <- drug_allergy %>%
+  bind_rows(filter(anaphylaxis, 
+                   str_detect(read_term, 
+                              regex(drug_indicator, 
+                                    ignore_case = TRUE))),
+            filter(angioedema_urticaria, 
+                   str_detect(read_term, 
+                              regex(drug_indicator, 
+                                    ignore_case = TRUE)))
+  )
+
+venom_allergy <- venom_allergy %>%
+  bind_rows(filter(anaphylaxis, 
+                   str_detect(read_term, 
+                              regex(venom_indicator, 
+                                    ignore_case = TRUE))),
+            filter(angioedema_urticaria, 
+                   str_detect(read_term, 
+                              regex(venom_indicator, 
+                                    ignore_case = TRUE))),
+            filter(drugs, 
+                   str_detect(read_term, 
+                              regex(venom_indicator, 
+                                    ignore_case = TRUE)))
+  )

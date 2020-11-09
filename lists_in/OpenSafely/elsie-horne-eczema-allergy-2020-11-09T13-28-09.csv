@@ -1,0 +1,289 @@
+id,term
+14F1.,H/O: eczema
+A5320,Herpes zoster with dermatitis of eyelid
+A5441,Herpes simplex eyelid dermatitis
+F4D3.,Non-infectious dermatosis of eyelid
+F4D31,Contact &/or allergic eyelid dermatitis
+F4D32,Ichthyosis of eyelid
+F4D33,Discoid lupus eyelid
+F4D3z,Non-infected eyelid dermatoses NOS
+F4D4.,Infective eyelid dermatitis of types resulting in deformity
+F4D5.,Other eyelid infective dermatitis
+F4D6.,Parasitic eyelid infestation
+FyuB4,[X]Parasitic infestation of eyelid in diseases CE
+FyuB5,[X]Involvement of eyelid in other infectious diseases CE
+G831.,Varicose veins of the leg with eczema
+M10..,Erythematosquamous dermatosis
+M100.,Seborrhoeic dermatitis of scalp
+M101.,Seborrhoeic dermatitis (& capitis)
+M103.,Parakeratosis
+M104.,Pityriasis simplex
+M10z.,Erythematosquamous dermatosis NOS
+M11..,Atopic dermatitis and related conditions
+M110.,Napkin dermatitis
+M111.,Atopic dermatitis
+M112.,Infantile eczema
+M113.,Flexural atopic dermatitis
+M114.,Allergic (intrinsic) eczema
+M115.,Besnier's prurigo
+M116.,Brocq's neurodermatitis
+M117.,Atopic neurodermatitis
+M118.,Infantile seborrhoeic dermatitis
+M1180,Cradle cap
+M118z,Infantile seborrhoeic dermatitis NOS
+M11z.,Atopic dermatitis NOS
+M12..,(Contact derm [& oth eczem]) or (contact ecz) or (occ derm)
+M120.,Contact dermatitis due to detergents
+M121.,Contact dermatitis due to oils &/or greases
+M122.,Contact dermatitis due to solvents
+M1220,Contact dermatitis due to chlorocompound
+M1221,Contact dermatitis due to cyclohexane
+M1222,Contact dermatitis due to ester
+M1223,Contact dermatitis due to glycol
+M1224,Contact dermatitis due to hydrocarbon
+M1225,Contact dermatitis due to ketone
+M122z,Contact dermatitis due to solvent NOS
+M123.,Drug-induced contact dermatitis
+M1230,Contact dermatitis due to arnica
+M1231,Contact dermatitis due to fungicides
+M1232,Contact dermatitis due to iodine
+M1233,Contact dermatitis due to keratolytics
+M1234,Contact dermatitis due to mercurials
+M1235,Contact dermatitis due to neomycin
+M1236,Contact dermatitis due to pediculocides
+M1237,Contact dermatitis due to phenols
+M1238,Contact dermatitis due to scabicides
+M123z,Contact dermatitis due to medicament NOS
+M124.,Contact dermatitis due to other chemical products
+M1240,Contact dermatitis due to acids
+M1241,Contact dermatitis due to adhesive plaster (& elastoplast)
+M1242,Contact dermatitis due to alkalis
+M1243,Contact dermatitis due to caustics
+M1244,Contact dermatitis due to dichromate
+M1245,Contact dermatitis due to insecticide
+M1246,Contact dermatitis due to nylon
+M1247,Contact dermatitis due to plastic
+M1248,Contact dermatitis due to rubber
+M124z,Contact dermatitis: other chemicals NOS
+M125.,Contact dermatitis due to food in contact with skin
+M1250,Contact dermatitis due to cereals
+M1251,Contact dermatitis due to fish
+M1252,Contact dermatitis due to flour
+M1253,Contact dermatitis due to fruit
+M1254,Contact dermatitis due to meat
+M1255,Contact dermatitis due to milk
+M125z,(Contact dermatitis due food NOS) or (egg contact dermatit)
+M126.,Contact dermatitis due to plants
+M1260,Contact dermatitis due to lacquer tree
+M1261,Contact dermatitis due to poison-ivy
+M1262,Contact dermatitis due to poison-oak
+M1263,Contact dermatitis due to poison-sumac
+M1264,Contact dermatitis due to poison-vine
+M1265,Contact dermatitis due to primrose
+M1266,Contact dermatitis due to ragweed
+M126z,Contact dermatitis due to plants NOS
+M127.,Contact dermatitis due to solar radiation
+M1270,Unspecified contact dermatitis due to solar radiation
+M1272,Hydroa aestivale
+M127z,Contact dermatitis due to solar radn NOS
+M128.,Allergic contact dermatitis
+M1280,Allergic contact dermatitis due to adhesives
+M1281,Allergic contact dermatitis due to cosmetics
+M1282,Allergic contact dermatitis due drugs in contact with skin
+M1283,Allergic contact dermatitis due to dyes
+M1284,Allergic contact dermatitis due to other chemical products
+M1285,Allergic contact dermatitis due to food in contact with skin
+M1286,"Allergic contact dermatitis due to plants, except food"
+M129.,Irritant contact dermatitis
+M1290,Irritant contact dermatitis due to cosmetics
+M1291,Irritant contact dermatitis due drugs in contact with skin
+M1292,Irritant contact dermatitis due to other chemical products
+M1293,Irritant contact dermatitis due to food in contact with skin
+M1294,"Irritant contact dermatitis due to plants, except food"
+M12y.,Contact dermatitis due to other specified agents
+M12y0,Contact dermatitis due to cosmetics (& [lanolin]/[perfume])
+M12y1,Contact dermatitis due to cold weather
+M12y2,Contact dermatitis due to dyes
+M12y3,Contact dermatitis due to furs
+M12y4,Contact dermatitis due to hot weather
+M12y5,Contact dermatitis due to infrared rays
+M12y6,Contact dermatitis due to jewellery
+M12y7,Contact dermatitis due to light (excluding sunlight)
+M12y8,(Contact dermatitis due to metals) or (nickel sensitivity)
+M12y9,Contact dermatitis due to preservatives
+M12yA,Contact dermatitis due to radiation NOS
+M12yB,Contact dermatitis due to ultraviolet rays (excluding sun)
+M12yC,Contact dermatitis due to X-rays
+M12yD,Contact dermatitis due to casting materials
+M12yz,Contact dermatitis: specified agent NOS
+M12z.,Contact dermatitis NOS
+M12z0,Dermatitis NOS
+M12z1,Eczema: [discoid] or [NOS]
+M12z3,Hand eczema
+M12zz,Contact dermatitis NOS
+M13..,Ingestion dermatitis
+M131.,Ingestion dermatitis due to food
+M13y.,Ingestion dermatitis due to other specified substance
+M13z.,Ingestion dermatitis NOS
+M1650,Pityriasis alba
+M17y.,Other lichen NEC
+M17yz,Other lichen NEC NOS
+M17z.,Lichen NOS
+M182.,Prurigo
+M1821,Hebra's prurigo
+M1822,Prurigo mitis
+M1823,Prurigo simplex
+M182z,Prurigo NOS
+M183.,Lichenification and lichen simplex chronicus
+M1830,Prurigo nodularis
+M1831,Lichen simplex
+M1832,Lichen simplex
+M183z,Lichenification NOS
+M1y0.,Discoid eczema
+M21A.,Asteatotic eczema
+M2520,Dyshidrosis unspecified
+M2521,Pompholyx unspecified
+M2522,Cheiropompholyx
+M2523,Podopompholyx
+M252z,Dyshidrosis NOS
+Myu2.,[X]Dermatitis and eczema
+Myu20,[X]Other seborrhoeic dermatitis
+Myu21,[X]Allergic contact dermatitis due to oth chemical products
+Myu23,[X]Allergic contact dermatitis due to other agents
+Myu24,[X]Irritant contact dermatitis due to oth chemical products
+Myu25,[X]Irritant contact dermatitis due to other agents
+Myu26,[X]Unspcfd contact dermatitis due to other chemical products
+Myu27,[X]Unspecified contact dermatitis due to other agents
+Myu28,[X]Dermatitis due to other substances taken internally
+Myu29,[X]Dermatitis due to unspecified substance taken internally
+Myu2A,[X]Other prurigo
+Myu2C,[X]Other specified dermatitis
+Ua1AR,Occupational eczema
+X00YO,Seborrhoeic blepharitis
+X00YQ,Sarcoid skin of eyelid
+X00YR,Rosacea skin of eyelid
+X00YS,Infectious dermatosis of eyelid
+X00YT,Bacterial dermatitis of eyelid
+X00YU,Impetigo of eyelid
+X00YV,Viral dermatitis of eyelid
+X00YW,Fungal dermatitis of eyelid
+X00iS,Neurodermatitis of external ear
+X30Cp,Peristomal dermatitis
+X40Fx,Nipple eczema
+X504O,Fibreglass dermatitis
+X504v,Photoallergic eczema
+X505H,Cactus dermatitis
+X505K,Eczema
+X505L,Hand eczema
+X505M,Constitutional eczema
+X505N,Atopic dermatitis of hands
+X505O,Inverse pattern atopic dermatitis
+X505P,Discoid atopic dermatitis
+X505Q,Erythrodermic atopic dermatitis
+X505R,Follicular atopic dermatitis
+X505S,Pruriginous atopic dermatitis
+X505T,Photosensitive atopic dermatitis
+X505U,Photoaggravated atopic dermatitis
+X505V,Constitutional eczema of hands and feet
+X505W,Acute cheiropodopompholyx
+X505X,Hyperkeratotic eczema of hands and feet
+X505Y,Discoid eczema of hands and feet
+X505Z,Constitutional eczema of hands
+X505a,Apron pattern of vesicular eczema of hands
+X505b,Hyperkeratotic fissured hand eczema
+X505c,Hyperkeratotic eczema of palms
+X505d,Constitutional discoid hand eczema
+X505e,Constitutional fingertip eczema
+X505f,Constitutional eczema of feet
+X505g,Acute podopompholyx
+X505h,Chronic podopompholyx
+X505i,Hyperkeratotic eczema of soles
+X505j,Discoid eczema
+X505k,Discoid hand eczema
+X505l,Psoriasiform eczema
+X505o,Truncal seborrhoeic dermatitis
+X505p,Flexural seborrhoeic dermatitis
+X505q,Seborrhoeide
+X505r,Grease contact dermatitis
+X505s,Oil contact dermatitis
+X505t,Elastoplast contact dermatitis
+X505u,Egg contact dermatitis
+X505v,Lanolin contact dermatitis
+X505w,Perfume contact dermatitis
+X505x,Allergic contact dermatitis
+X505y,Nickel sensitivity
+X505z,Implant allergic nickel contact dermatitis
+X5060,Ingested allergen contact dermatitis
+X5061,Photoallergic contact dermatitis
+X5062,Occupational allergic contact dermatitis
+X5063,Irritant contact dermatitis
+X5064,Acute irritant contact dermatitis
+X5065,Subacute irritant contact dermatitis
+X5066,Chronic irritant contact dermatitis
+X5067,Jacquet's dermatitis
+X5068,Saliva-induced contact dermatitis
+X5069,Faeces-induced contact dermatitis
+X506C,Brocq's neurodermatitis
+X506E,Subacute prurigo
+X506F,Chronic prurigo
+X506G,Dermographic prurigo
+X506H,Prurigo pigmentosa
+X506I,Juvenile plantar dermatosis
+X506J,Disseminated secondary eczema
+X506K,Gravitational eczema
+X506L,Chronic superficial scaly dermatitis
+X506M,Eosinophilic pustular folliculitis
+X506N,Exudative discoid and lichenoid dermatosis
+X506O,Papular eczema with elimination of papillary oedema
+X506Q,Asteatotic eczema
+X506T,Erythroderma
+X506U,Site-specific eczema
+X506j,Napkin psoriasis
+X50Gj,Eczematous drug eruption
+X50Gk,Seborrhoeic eczema-like eruption
+X50Gm,Drug-induced erythroderma
+XE16i,Contact or allergic eyelid dermatitis
+XE1An,Seborrhoeic dermatitis
+XE1Ap,Contact dermatitis and other eczemas
+XE1Aq,Contact dermatitis due to oils and greases
+XE1Ar,Contact dermatitis due to adhesive plaster
+XE1As,Contact dermatitis due to food NOS
+XE1At,Contact dermatitis due to cosmetics
+XE1Au,Contact dermatitis due to metals
+XE1Av,Eczema NOS
+XE1Aw,Ingestion dermatitis due to drugs
+XE1C4,Seborrhoeic dermatitis/eczema NOS
+XE1C6,Atopic eczema/dermatitis NOS
+XE1C8,Contact dermat/eczema (& [extrins allerg ecz][occupat ecz])
+XE1CA,Contact dermatitis: [chemicals] or [elastoplast allergy]
+XE1CE,Contact dermatitis: metals(& [nickel])
+XE1CG,(Contact dermat NOS) or (discoid eczema) or (nummul eczema)
+XE1CI,Dermatitis &/or eczemas NOS
+XE1CW,Neurodermatitis
+XE1Cu,(Pompholyx) or (cheiropompholyx) or (podopompholyx)
+XM1GA,Pompholyx
+Xa0WJ,Swimming pool dermatitis
+Xa0Wg,Baboon syndrome
+Xa0p8,Dermatitis of eyelid
+Xa13g,Coral dermatitis
+Xa1dl,Unclassifiable eczema
+Xa3gI,Contact dermatitis - chemicals
+Xa3gJ,Contact dermatitis - foods/plants
+Xa4jb,Nipple eczema
+Xa7lZ,Eczema of face
+Xa7lb,Eczema of wrist
+Xa9Bb,Contact dermatitis of eyelid
+Xa9CV,Contact dermatitis
+XaBml,Eczema of leg
+XaBmm,Eczema of foot
+XaBsL,Chronic lichenified atopic dermatitis
+XaEJY,Varicose veins of leg in long saph vein distribn with eczema
+XaEJZ,Varicose veins of leg in short saph vein distrib with eczema
+XaINK,Dry eczema
+XaINM,Exacerbation of eczema
+XaL2Q,Periocular dermatitis
+XaY4a,Pustular eczema
+XaYX9,Irritant contact dermatitis due to incontinence
+Y033e,Contact dermatitis due to dressing
+Y3295,Other atopic dermatitis
+Y7351,Intrinsic (allergic) eczema

@@ -1,0 +1,75 @@
+id,term
+C3760,C1 esterase inhibitor deficiency
+M28..,Urticaria
+M280.,Urticaria: [allergic] or [drug induced]
+M281.,Idiopathic urticaria
+M282.,Urticaria due to cold and heat
+M2820,Cold urticaria
+M2821,Heat urticaria
+M282z,Urticaria due to cold and heat NOS
+M283.,(Dermatographic urticaria) or (factitial urticaria)
+M284.,Vibratory urticaria
+M285.,Cholinergic urticaria
+M28y.,(Other specified urticaria) or (nettle rash)
+M28y0,Urticaria geographica
+M28y1,Menstrual urticaria
+M28y2,Urticaria persistans
+M28yz,Other specified urticaria NOS
+M28z.,(Urticaria NOS) or (hives)
+Myu4.,[X]Urticaria and erythema
+Myu40,[X]Other urticaria
+Myu42,[X]Other chronic figurate erythema
+PH321,Urticaria pigmentosa
+Q47y0,Urticaria neonatorum
+SN51.,Angio-oedema
+SP354,Urticaria due to serum
+X20IJ,Hereditary C1 esterase inhibitor defic - deficient factor
+X20IK,Hereditary C1 esterase inhib defic - dysfunctional factor
+X504R,Cold erythema - disorder
+X5050,Solar urticaria
+X506B,Non-immunological contact urticaria
+X508N,Drug-induced urticaria
+X508O,Erythema fugax
+X508P,Physical urticaria
+X508Q,Symptomatic dermographism
+X508R,Delayed dermographism
+X508S,Delayed pressure urticaria
+X508T,Familial cold urticaria
+X508U,Cold reflex urticaria
+X508V,Delayed cold sensitivity
+X508W,Persisting cholinergic urticaria
+X508X,Cholinergic pruritus
+X508Z,Reflex urticaria
+X508a,Vibratory angio-oedema
+X508b,Aquagenic urticaria
+X508c,Aquagenic pruritus
+X508e,Immune complex urticaria
+X70w7,Exercise anaphylaxis
+X70wB,Acquired C1 esterase inhibitor deficiency
+X70wC,Venom-induced angio-oedema-urticaria
+X70wD,Food-induced angio-oedema-urticaria
+X70wE,Drug-aggravated angio-oedema-urticaria
+X70wF,NSAID-induced angio-oedema-urticaria
+X70wG,Aspirin-induced angio-oedema-urticaria
+X70wH,ACE inhibitor-aggravated angio-oedema-urticaria
+X70wI,Chemical-aggravated angio-oedema-urticaria
+X70wJ,Azo-dye-induced angio-oedema-urticaria
+X70wK,Sodium benzoate-induced angio-oedema-urticaria
+X70wL,Latex-induced angio-oedema-urticaria
+XC0si,Minimal urticarial dose
+XE1BR,Allergic urticaria
+XE1BS,Other specified urticaria
+XE1BT,Urticaria NOS
+XE1D0,(Urticaria NOS) or (hives) or (pachydermia)
+XE1tH,(Angioneurotic oedema) or (urticaria)
+XE2aJ,Dermographism
+Xa0WK,Penicillin-induced angio-oedema-urticaria
+Xa8EW,Acute idiopathic urticaria
+Xa8EX,Chronic idiopathic urticaria
+Xa8EY,Idiopathic micropapular urticaria
+Xa8Ea,Idiopathic cold urticaria
+Xa8Eb,Cold urticaria with agglutinins
+Xa8Ec,Cold urticaria with cryoglobulins
+Xa8Ef,Bullous urticaria
+Xa8Eg,Arthus reaction
+Xa9DQ,Urticarial transfusion reaction
