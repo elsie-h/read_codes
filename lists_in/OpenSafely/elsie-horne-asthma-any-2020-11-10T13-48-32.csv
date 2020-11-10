@@ -1,0 +1,522 @@
+id,term
+13Y4.,Asthma society member
+14B4.,H/O: asthma
+173A.,Exercise-induced asthma
+663..,Respiratory disease monitoring (& [asthma] or [chronic])
+663F.,Oral steroids started
+663G.,Oral steroids stopped
+663N.,Asthma disturbing sleep
+663N0,Asthma causing night waking
+663N1,Asthma disturbs sleep weekly
+663N2,Asthma disturbs sleep frequently
+663O.,Asthma not disturbing sleep
+663O0,Asthma never disturbs sleep
+663P.,Asthma limiting activities
+663Q.,Asthma not limiting activities
+663U.,Asthma management plan given
+663V.,Asthma severity
+663V0,Occasional asthma
+663V1,Mild asthma
+663V2,Moderate asthma
+663V3,Severe asthma
+663W.,Asthma prophylactic medication used
+663Y.,Steroid dose inhaled daily
+663a.,Oral steroids used since last appointment
+663b.,Home nebuliser used since last appointment
+663c.,Nebulisation since last appointment
+663d.,Emergency asthma admission since last appointment
+663e.,Asthma restricts exercise
+663e0,Asthma sometimes restricts exercise
+663e1,Asthma severely restricts exercise
+663f.,Asthma never restricts exercise
+679J.,Health education - asthma
+68C3.,Asthma screening
+8791.,Further asthma - drug prevention
+8793.,Asthma control step 0
+8794.,Asthma control step 1
+8795.,Asthma control step 2
+8796.,Asthma control step 3
+8797.,Asthma control step 4
+8798.,Asthma control step 5
+8CE2.,Asthma leaflet given
+8H2P.,"Emergency admission, asthma"
+9N1d.,Seen in asthma clinic
+9OJ..,Asthma administration: [monitoring] or [clinic]
+9OJ1.,Attends asthma monitoring
+9OJ2.,Refuses asthma monitoring
+9OJ3.,Asthma monitor offer default
+9OJ4.,Asthma monitoring call first letter
+9OJ5.,Asthma monitoring call second letter
+9OJ6.,Asthma monitoring call third letter
+9OJ7.,Asthma monitoring call verbal invite
+9OJ8.,Asthma monitoring call telephone invite
+9OJ9.,Asthma monitoring deleted
+9OJA.,Asthma monitored (& check done)
+9OJZ.,Asthma monitoring admin.NOS
+9Q21.,Patient in asthma study
+G581.,(L ventric:[fail][imp func]) or (card asth) or (ac pulm oed)
+H3120,Chronic asthmatic bronchitis
+H33..,Asthma
+H330.,Asthma: [extrins - atop][allerg][pollen][childh][+ hay fev]
+H3300,(Hay fever + asthma) or (extr asthma without status asthmat)
+H3301,Extrins asthma with: [asthma attack] or [status asthmaticus]
+H330z,Extrinsic asthma NOS
+H331.,(Intrinsic asthma) or (late onset asthma)
+H3310,Intrinsic asthma without status asthmaticus
+H3311,Intrins asthma with: [asthma attack] or [status asthmaticus]
+H331z,Intrinsic asthma NOS
+H332.,Mixed asthma
+H33z.,Asthma unspecified
+H33z0,(Severe asthma attack) or (status asthmaticus NOS)
+H33z1,Asthma attack (& NOS)
+H33z2,Late onset asthma
+H33zz,(Asthma:[exerc ind][allerg NEC][NOS]) or (allerg bronch NEC)
+H44..,Pneumopathy due to inhalation of other dust
+H440.,Byssinosis
+H441.,Cannabinosis
+H44z.,Pneumopathy due to inhalation of other dust NOS
+H47y0,Detergent asthma
+SLE11,Theophylline poisoning
+SLF7.,Antiasthmatic poisoning
+SLF70,Aminophylline poisoning
+SLF7z,Antiasthmatic poisoning NOS
+TJF7.,Adverse reaction to antiasthmatics
+TJF70,Adverse reaction to salbutamol
+TJF71,Adverse reaction to ipratropium bromide
+TJF72,Adverse reaction to aminophylline
+TJF73,Adverse reaction to theophylline - asthma
+TJF74,Adverse reaction to sodium cromoglicate
+TJF75,Adverse reaction to oxitropium
+TJF7z,Adverse reaction to antiasthmatic NOS
+U60F6,"[X]Antiasthmats caus adverse effects in therapeut use, NEC"
+Ua1AX,Brittle asthma
+X101k,Byssinosis grade 3
+X101t,Childhood asthma
+X101u,Late onset asthma
+X101x,Allergic asthma
+X101y,Extrinsic asthma with asthma attack
+X101z,Allergic asthma NEC
+X1020,Hay fever with asthma
+X1021,Allergic non-atopic asthma
+X1022,Intrinsic asthma with asthma attack
+X1023,Drug-induced asthma
+X1024,Aspirin-sensitive asthma with nasal polyps
+X1025,Occupational asthma
+X1026,Baker's asthma
+X1027,Colophony asthma
+X1028,Grain worker's asthma
+X1029,Sulphite-induced asthma
+X102B,Mill fever
+X102C,Factitious asthma
+X102D,Status asthmaticus
+X102G,Asthmatic pulmonary eosinophilia
+X102Y,Acute cardiac pulmonary oedema
+X70s6,Poisoning by herbal asthma mixture
+X70sB,Poisoning by bronchodilator drug
+XE0YQ,Allergic atopic asthma
+XE0YR,Extrinsic asthma without status asthmaticus
+XE0YS,Extrinsic asthma with status asthmaticus
+XE0YT,Non-allergic asthma
+XE0YU,Intrinsic asthma with status asthmaticus
+XE0YV,Status asthmaticus NOS
+XE0YW,Asthma attack
+XE0YX,Asthma NOS
+XE0ZP,Extrinsic asthma - atopy (& pollen)
+XE0ZR,Asthma: [intrinsic] or [late onset]
+XE0ZT,Asthma: [NOS] or [attack]
+XE2Na,Asthma monitoring admin.
+XE2Nb,Asthma monitoring check done
+XM0s2,Asthma attack NOS
+XM1U3,Asthma clinic administration
+XM1Xb,Asthma monitoring
+Xa0lZ,Asthmatic bronchitis
+Xa1hD,Exacerbation of asthma
+Xa53v,Accidental poisoning by bronchodilator drug
+Xa53w,Intentional poisoning by bronchodilator drug
+Xa53x,Poisoning by bronchodilator drug of undetermined intent
+Xa53y,Accidental aminophylline poisoning
+Xa53z,Intentional aminophylline poisoning
+Xa540,Aminophylline poisoning of undetermined intent
+Xa541,Accidental theophylline poisoning
+Xa542,Intentional theophylline poisoning
+Xa543,Theophylline poisoning of undetermined intent
+Xa544,Accidental poisoning by herbal asthma mixture
+Xa545,Intentional poisoning by herbal asthma mixture
+Xa546,Poisoning by herbal asthma mixture of undetermined intent
+Xa8Hn,Asthma control steps
+Xa9zf,Acute asthma
+XaBAQ,Recent asthma management
+XaBU2,Asthma monitoring call
+XaBU3,Asthma monitoring status
+XaDZF,Antiasthmatic agent
+XaDvK,Asthma - currently active
+XaDvL,Asthma - currently dormant
+XaEES,Spacer device in use
+XaEKI,Flax-dressers' disease
+XaIIW,Asthma accident and emergency attendance since last visit
+XaIIX,Asthma treatment compliance satisfactory
+XaIIY,Asthma treatment compliance unsatisfactory
+XaIIZ,Asthma daytime symptoms
+XaINZ,Asthma causes night symptoms 1 to 2 times per month
+XaINa,Asthma never causes daytime symptoms
+XaINb,Asthma causes daytime symptoms 1 to 2 times per month
+XaINc,Asthma causes daytime symptoms 1 to 2 times per week
+XaINd,Asthma causes daytime symptoms most days
+XaINf,Asthma limits walking up hills or stairs
+XaINg,Asthma limits walking on the flat
+XaINh,Number of asthma exacerbations in past year
+XaINi,Number of times bronchodilator used in one week
+XaINj,Number of times bronchodilator used in 24 hours
+XaIOV,Asthma finding
+XaIQ4,Change in asthma management plan
+XaIQD,Step up change in asthma management plan
+XaIQE,Step down change in asthma management plan
+XaIR3,Absent from work or school due to asthma
+XaIRN,Asthma monitoring due
+XaIeq,Asthma annual review
+XaIer,Asthma follow-up
+XaIfK,Asthma medication review
+XaIoE,Asthma night-time symptoms
+XaIu5,Asthma monitoring by nurse
+XaIu6,Asthma monitoring by doctor
+XaIuG,Asthma confirmed
+XaIww,Asthma trigger
+XaJ2A,Did not attend asthma clinic
+XaJ4W,Exception reporting: asthma quality indicators
+XaJ4z,Excepted from asthma quality indicators: Patient unsuitable
+XaJ50,Excepted from asthma quality indicators: Informed dissent
+XaJFG,Aspirin-induced asthma
+XaJYe,Asthma clinical management plan
+XaJtu,Referral to asthma clinic
+XaJuw,Does not have asthma management plan
+XaKdk,Work aggravated asthma
+XaL05,Asthma outreach clinic
+XaLIm,Asthma trigger - respiratory infection
+XaLIn,Asthma trigger - seasonal
+XaLIr,Asthma trigger - animals
+XaLJS,Asthma trigger - cold air
+XaLJT,Asthma trigger - damp
+XaLJU,Asthma trigger - emotion
+XaLPE,Nocturnal asthma
+XaNKw,Royal College of Physicians asthma assessment
+XaNR9,Inhaler device in use
+XaObi,Asthma trigger - airborne dust
+XaObj,Asthma trigger - exercise
+XaObk,Asthma trigger - pollen
+XaObl,Asthma trigger - tobacco smoke
+XaObm,Asthma trigger - warm air
+XaQHq,Asthma control test
+XaQig,Asthma control questionnaire
+XaQih,Mini asthma quality of life questionnaire
+XaQij,Under care of asthma specialist nurse
+XaR8K,Did not attend asthma review
+XaRFi,Patient has a written asthma personal action plan
+XaRFj,Health education - asthma self management
+XaRFk,Health education - structured asthma discussion
+XaRFl,Health education - structured patient focused asthma discuss
+XaX3n,Asthma review using Roy Colleg of Physicians three questions
+XaXZm,Asthma causes night time symptoms 1 to 2 times per week
+XaXZp,Asthma causes symptoms most nights
+XaXZs,Asthma limits activities 1 to 2 times per month
+XaXZu,Asthma limits activities 1 to 2 times per week
+XaXZx,Asthma limits activities most days
+XaXa0,Royal College Physician asthma assessment 3 question score
+XaY2V,Asthma never causes night symptoms
+XaY2q,Seen in school asthma clinic
+XaYZB,Asthma self-management plan review
+XaYZh,Number days absent from school due to asthma in past 6 month
+XaYb8,Asthma self-management plan agreed
+XaYja,Asthma trigger - wind
+XaYpF,Asthma trigger - perfume
+Xaa7B,Chronic asthma with fixed airflow obstruction
+Xaa7Q,No asthma trigger identified by subject
+Xaam3,Asthma management plan declined
+Xab4X,Childhood Asthma Control Test
+Xabiu,Asthma monitorng invit SMS (short message servce) txt messge
+Xabj3,Asthma monitoring invitation email
+XabjA,Review of patient at risk of asthma
+XabjC,At risk of asthma
+Xac33,Asthma-chronic obstructive pulmonary disease overlap syndrom
+Xac8r,Telehealth asthma monitoring
+XacLz,Asthma monitoring SMS text message 1st invitation
+XacM0,Asthma monitoring SMS text message 2nd invitation
+XacM1,Asthma monitoring SMS text message 3rd invitation
+XacXj,At risk of severe asthma exacerbation
+XacXk,Severe asthma exacerbation risk assessment
+Xafdj,Acute severe exacerbation of asthma
+Xafdy,Moderate acute exacerbation of asthma
+Xafdz,Life threatening acute exacerbation of asthma
+Xaff0,Use of asthma symptom diary
+Y0017,Nocturnal Asthma
+Y0024,Asthma Control
+Y0030,Asthma Trigger Control
+Y0040,Asthma Trigger Cold Air
+Y0041,Asthma Trigger Smoke
+Y0045,Asthma Prophylaxis Drug ID
+Y0050,Asthma Trigger Emotion
+Y0052,Asthma Trigger Seasonal Text
+Y0053,Asthma Trigger Damp
+Y0055,Asthma Waking Up
+Y0065,Asthma Trigger Animals
+Y0092,Asthma Trigger Other Text
+Y0142,Asthma Trigger Other
+Y01eb,Asthma trigger - dust mites
+Y0429,Asthma Trigger Work Related
+Y0430,Asthma Trigger Exercise
+Y0431,Asthma Trigger Respiratory Infection
+Y0945,Asthma  - Unknown
+Y137e,Asthma guidance
+Y137f,Indicators - worsening asthma
+Y138a,Indicators - asthma attack
+Y139b,Asthma guidance
+Y139c,Indicators - worsening asthma
+Y139d,Indicators - asthma attack
+Y139e,Preventer inhaler dose am
+Y139f,Reliever inhaler dose (if needed)
+Y13a0,Reliever inhaler usage per week
+Y13a1,Worsening asthma - preventer inhaler increased dose
+Y13a2,Worsening asthma - reliever inhaler increased dose 4 hourly
+Y13a3,Worsening asthma - steroid Rescue dose prednisolone
+Y13a4,Worsening asthma - steroid Rescue dose prednisolone no. 5mg tabs
+Y13a5,Worsening asthma - steroid Rescue dose prednisolone no. days treatment
+Y13a6,Preventer inhaler dose pm
+Y13a7,Peak flow - worsening asthma - less than
+Y13a8,Asthma attack - reliever use more frequent than every
+Y13a9,Asthma attack - peak flow less than
+Y1b24,Acute severe exacerbation of allergic asthma
+Y1f90,Quality and Outcomes Framework asthma quality indicator-related care invitation (procedure)
+Y1f91,Excepted from asthma quality indicators - service unavailable (finding)
+Y1fe5,Reason for vaccine non-administration: Asthma Severity
+Y24e0,PC19Q I have asthma
+Y27b1,LTC care plan agreed using AIRMID - asthma
+Y28c4,Patient given licence for MyAsthma App
+Y3022,Child has out grown asthma
+Y5496,Asthma prophylaxis used
+Y6566,Emergency admission asthma
+Y6898,Further asthma - drug prevent.
+YA595,Asthma trigger - pollen
+YA596,Asthma trigger - perfumes
+YA597,Asthma trigger - warm air
+YA598,Asthma trigger - humidity
+YA599,Asthma trigger - wind
+YA600,Asthma trigger - cigarette smoke
+YA601,Asthma trigger - exercise
+c51q.,Taumasthman tablet
+c611.,Becloforte 250micrograms inhaler
+c612.,Becotide 50 inhaler
+c613.,Becotide 100micrograms Rotacap
+c614.,Becotide 200micrograms Rotacap
+c616.,Becotide 50micrograms/1mL nebuliser solution
+c617.,Becotide 100 inhaler
+c619.,Becodisk 100micrograms diskhaler 14x8
+c61A.,Beclometasone dipropionate 400mcg/blister disks+disk inh
+c61B.,Beclometasone dipropionate 400mcg/blister disks refill
+c61C.,Beclomethasone dipropionate 250mcg inh+spacer(large volume)
+c61D.,Beclometasone diprop 50mcg breath-actuated aerosol inhaler
+c61E.,Beclometasone diprop 250mcg breath-actuated aerosol inhaler
+c61F.,Beclometasone diprop 100mcg breath-actuated aerosol inhaler
+c61G.,Filair 50 inhaler
+c61H.,Filair 100micrograms inhaler
+c61J.,Filair Forte 250micrograms inhaler
+c61K.,Beclazone 50 inhaler
+c61L.,Beclazone 100 inhaler
+c61M.,Beclazone 250 inhaler
+c61N.,Beclazone 50 Easi-Breathe inhaler
+c61O.,Beclazone 100 Easi-Breathe inhaler
+c61P.,Beclazone 250 Easi-Breathe inhaler
+c61Q.,Becloforte Integra 250micrograms inhaler+compact spacer
+c61R.,Becloforte Integra 250micrograms refill
+c61S.,Beclomethasone dipropionate 250mcg inh+compact spacer
+c61T.,Beclomethasone dipropionate 250mcg compact spacer refill
+c61V.,Beclomethasone dipropionate 50mcg vortex metered dose inh
+c61W.,Asmabec 50micrograms Spacehaler
+c61X.,Beclomethasone dipropionate 100mcg vortex metered dose inh
+c61Y.,Asmabec 100micrograms Spacehaler
+c61Z.,Beclomethasone dipropionate 250mcg vortex metered dose inh
+c61a.,Becodisk 200micrograms diskhaler 14x8
+c61b.,Becotide 400micrograms Rotacap
+c61c.,Becodisk 100micrograms disk refill 14x8
+c61d.,Becodisk 200micrograms disk refill 14x8
+c61e.,Becodisk 400micrograms diskhaler 7x8
+c61f.,Becodisk 400micrograms disk refill 7x8
+c61g.,Becloforte VM 250micrograms inhaler+spacer(large volume)
+c61h.,Beclometasone dipropionate 400micrograms inhalation capsule
+c61i.,Becotide 200 inhaler
+c61j.,Aerobec 50mcg Autohaler
+c61k.,Aerobec Forte 250micrograms Autohaler
+c61l.,Aerobec 100mcg Autohaler
+c61m.,Becloforte diskhaler 400micrograms 14x8
+c61n.,Becloforte disks 400micrograms disk refill 14x8
+c61p.,Beclometasone dipropionate 100mcg/blister disk+disk inhaler
+c61q.,Beclometasone dipropionate 200mcg/blister disk+disk inhaler
+c61r.,Beclometasone dipropionate 100mcg/blister disks refill
+c61s.,Beclometasone dipropionate 200mcg/blister disks refill
+c61t.,Beclometasone dipropionate 250micrograms inhaler
+c61u.,Beclometasone dipropionate 200micrograms inhaler
+c61v.,Beclometasone dipropionate 50micrograms inhaler
+c61w.,Beclometasone dipropionate 100micrograms inhalation capsule
+c61x.,Beclometasone dipropionate 200micrograms inhalation capsule
+c61y.,Beclomethasone dipropionate 50mcg/1mL nebuliser solution
+c61z.,Beclometasone dipropionate 100micrograms inhaler
+c62..,Beclometasone compounds
+c621.,Ventide inhaler
+c622.,Ventide Rotacap
+c623.,Ventide paediatric Rotacap
+c62x.,Beclomethasone diprop+salbutamol 200mcg/400mcg inh capsule
+c62y.,Beclomethasone diprop+salbutamol 100mcg/200mcg inh capsule
+c62z.,Beclomethasone dipropionate+salbutamol 50mcg/100mcg inhaler
+c641.,Pulmicort 200micrograms inhaler 200dose
+c642.,Pulmicort 200micrograms refill 100dose
+c643.,Pulmicort 200micrograms refill 200dose
+c644.,Pulmicort LS 50micrograms inhaler
+c645.,Pulmicort LS 50micrograms inhaler refill
+c647.,Pulmicort 200micrograms inhaler 100dose
+c648.,Pulmicort 200micrograms Turbohaler 100dose
+c649.,Pulmicort 400micrograms Turbohaler 50dose
+c64A.,Budesonide 200micrograms inhaler refill
+c64E.,Pulmicort 200micrograms inhaler with NebuChamber
+c64F.,Budesonide 200micrograms/dose dry powder cartridge refill
+c64G.,Novolizer Budesonide 200micrograms/dose cartridge refill
+c64H.,Easyhaler Budesonide 100mcg breath-actuated dry powder inh
+c64I.,Easyhaler Budesonide 200mcg breath-actuated dry powder inh
+c64J.,Easyhaler Budesonide 400mcg breath-actuated dry powder inh
+c64a.,Pulmicort 500mcg Respules 2mL unit
+c64b.,Pulmicort 1mg Respules 2mL unit
+c64c.,Pulmicort 100micrograms Turbohaler 200dose
+c64d.,Budesonide 100micrograms breath-actuated dry powder inhaler
+c64e.,Budesonide 50micrograms inhaler refill
+c64g.,Budesonide 200micrograms breath-actuated dry powder inhaler
+c64h.,Budesonide 400micrograms breath-actuated dry powder inhaler
+c64i.,Budesonide 500micrograms/2mL nebulisation unit
+c64j.,Budesonide 1mg/2mL nebulisation unit
+c64k.,Budesonide 200 Cyclocap
+c64l.,Budesonide 400 Cyclocap
+c64m.,Budesonide 200micrograms inhalation capsule
+c64n.,Budesonide 400micrograms inhalation capsule
+c64o.,Budesonide 200micrograms inhaler with spacer device
+c64p.,Novolizer Budesonide 200micrograms/dose cartridge+inhaler
+c64u.,Budesonide 200micrograms/dose dry powder cartridge+inhaler
+c64v.,Budesonide 200micrograms inhaler
+c64w.,Budesonide refill 100dose
+c64x.,Budesonide refill 200dose
+c64y.,Budesonide 50micrograms inhaler
+c651.,Flixotide 50micrograms/blister disks+diskhaler
+c652.,Flixotide 100micrograms/blister disks+diskhaler
+c653.,Flixotide 250micrograms/blister disks+diskhaler
+c654.,Fluticasone propionate 50mcg/blister disks+disk inhaler
+c655.,Fluticasone propionate 100mcg/blister disks+disk inhaler
+c656.,Fluticasone propionate 250mcg/blister disks+disk inhaler
+c657.,Flixotide 50micrograms/blister disks refill
+c658.,Flixotide 100micrograms/blister disks refill
+c659.,Flixotide 250micrograms/blister disks refill
+c65A.,Fluticasone propionate 50micrograms/blister disks refill
+c65B.,Fluticasone propionate 100micrograms/blister disks refill
+c65C.,Fluticasone propionate 250micrograms/blister disks refill
+c65D.,Flixotide 25micrograms inhaler
+c65E.,Flixotide 50micrograms inhaler
+c65F.,Flixotide 125micrograms inhaler
+c65G.,Fluticasone propionate 25micrograms inhaler
+c65H.,Fluticasone propionate 50micrograms inhaler
+c65I.,Fluticasone propionate 125micrograms inhaler
+c65J.,Fluticasone propionate 250micrograms inhaler
+c65K.,Flixotide 250micrograms inhaler
+c65L.,Flixotide 500micrograms disks+diskhaler
+c65M.,Flixotide 500micrograms disks refill
+c65N.,Fluticasone propionate 500mcg/blister disks+disk inhaler
+c65O.,Fluticasone propionate 500micrograms/blister disks refill
+c65P.,Fluticasone propionate 50mcg breath-actuated dry pdr inhaler
+c65Q.,Fluticasone propionate 100mcg breath-actuate dry pdr inhaler
+c65R.,Fluticasone propionate 250mcg breath-actuate dry pdr inhaler
+c65S.,Fluticasone propionate 500mcg breath-actuate dry pdr inhaler
+c65T.,Flixotide 50micrograms Accuhaler
+c65U.,Flixotide 100micrograms Accuhaler
+c65V.,Flixotide 250micrograms Accuhaler
+c65W.,Flixotide 500micrograms Accuhaler
+c65X.,Fluticasone propionate 0.5mg/2mL nebulisation unit
+c65Y.,Fluticasone propionate 2mg/2mL nebulisation unit
+c65Z.,Flixotide 0.5mg/2mL Nebule
+c65a.,Flixotide 2mg/2mL Nebule
+c65b.,Fluticasone propionate 125micrograms CFC-free inhaler
+c65c.,Fluticasone propionate 250micrograms CFC-free inhaler
+c65d.,Flixotide 125micrograms Evohaler
+c65e.,Flixotide 250micrograms Evohaler
+c65f.,Fluticasone propionate 50micrograms CFC-free inhaler
+c65g.,Flixotide 50micrograms Evohaler
+c661.,Asmabec 250micrograms Spacehaler
+c662.,Becotide 50 Easi-Breathe inhaler
+c663.,Becotide 100 Easi-Breathe inhaler
+c664.,Becloforte Easi-Breathe 250micrograms inhaler
+c665.,Qvar 50 inhaler
+c666.,Qvar 100 inhaler
+c667.,Qvar 50 Autohaler
+c668.,Qvar 100 Autohaler
+c669.,Beclazone 200 inhaler
+c66A.,Beclometasone diprop 50mcg breath-actuated powder inhaler
+c66B.,Beclometasone diprop 100mcg breath-actuated powder inhaler
+c66C.,Beclometasone diprop 250mcg breath-actuated powder inhaler
+c66D.,Asmabec 50micrograms Clickhaler
+c66E.,Asmabec 100micrograms Clickhaler
+c66F.,Asmabec 250micrograms Clickhaler
+c66G.,Beclometasone diprop 400mcg breath-actuated powder inhaler
+c66H.,Beclometasone diprop 200mcg breath-actuated powder inhaler
+c66I.,Pulvinal Beclomethasone Diprop 100mcg breath-act dry pdr inh
+c66J.,Pulvinal Beclomethasone Diprop 200mcg breath-act dry pdr inh
+c66K.,Pulvinal Beclomethasone Diprop 400mcg breath-act dry pdr inh
+c66L.,Beclometasone 100 Cyclocap
+c66M.,Beclometasone 200 Cyclocap
+c66N.,Beclometasone 400 Cyclocap
+c66P.,Becodisk 100micrograms diskhaler 15x8
+c66Q.,Becodisk 200micrograms diskhaler 15x8
+c66R.,Becodisk 400microcgrams diskhaler 15x8
+c66S.,Becodisk 100micrograms disk refill 15x8
+c66T.,Becodisk 200micrograms disk refill 15x8
+c66U.,Becodisk 400micrograms disk refill 15x8
+c66V.,Beclometasone dipropionate 50micrograms CFC-free inhaler
+c66W.,Beclometasone dipropionate 100micrograms CFC-free inhaler
+c66X.,Beclometasone dipropionate 50mcg CFC-free br-act inhaler
+c66Y.,Beclometasone dipropionate 100mcg CFC-free br-act inhaler
+c66Z.,Qvar Easi-Breathe 50mcg CFC-free breath-act dry pdr inhaler
+c66a.,Qvar Easi-Breathe 100mcg CFC-free breath-act dry pdr inhaler
+c66b.,Easyhaler Beclometasone 200mcg breath-act dry powder inhaler
+c66c.,CLENIL MODULITE 50micrograms CFC-free inhaler
+c66d.,CLENIL MODULITE 100micrograms CFC-free inhaler
+c66e.,CLENIL MODULITE 200micrograms CFC-free inhaler
+c66f.,CLENIL MODULITE 250micrograms CFC-free inhaler
+c66g.,BECLOMETASONE DIPROPIONATE 200micrograms CFC-free inhaler
+c66h.,BECLOMETASONE DIPROPIONATE 250micrograms CFC-free inhaler
+c68..,Mometasone [respiratory use]
+c681.,Mometasone furoate 200mcg breath-actuated dry powder inhaler
+c682.,Mometasone furoate 400mcg breath-actuated dry powder inhaler
+c683.,Asmanex Twisthaler 200mcg breath-actuated dry powder inhaler
+c684.,Asmanex Twisthaler 400mcg breath-actuated dry powder inhaler
+c7...,Asthma prophylaxis
+c71..,Sodium cromoglicate [asthma]
+c71i.,INTAL 5mg CFC-free inhaler
+c71k.,SODIUM CROMOGLICATE 5mg CFC-free inhaler
+c73..,Ketotifen [asthma prophylaxis]
+c74..,Nedocromil sodium [asthma]
+c75..,MEPOLIZUMAB
+c751.,NUCALA 100mg powder for solution for injection
+c752.,MEPOLIZUMAB 100mg powder for solution for injection
+x0019,Beclometasone dipropionate+salbutamol
+x00Hx,Becloforte 400micrograms/blister disks refill
+x00Hy,Becodisks 100micrograms/blister disks refill
+x00Hz,Becodisks 200micrograms/blister disks refill
+x00I0,Becodisks 400micrograms/blister disks refill
+x00I1,Becloforte 400micrograms/blister disks+diskhaler
+x00I2,Becodisks 100micrograms disks+diskhaler
+x00I3,Becodisks 200micrograms/blister disks+diskhaler
+x00I4,Becodisks 400micrograms/blister disks+diskhaler
+x00QU,Pulmicort 200micrograms inhaler
+x00QV,Pulmicort 200micrograms inhaler refill
+x00bU,Pulmicort 500micrograms/2mL Respule
+x00bV,Pulmicort 1mg/2mL Respule
+x00gE,Pulmicort 100micrograms Turbohaler
+x00gF,Pulmicort 200micrograms Turbohaler
+x00gG,Pulmicort 400micrograms Turbohaler
+x00z6,Respiratory budesonide
+x00zA,Respiratory beclomethasone
+x01NO,Respiratory fluticasone
+x029g,Budesonide refill
+x02IG,Corticosteroids used in the treatment of asthma
+x05kq,Respiratory mometasone

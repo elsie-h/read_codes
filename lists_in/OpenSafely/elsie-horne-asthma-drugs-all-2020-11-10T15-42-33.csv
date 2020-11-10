@@ -1,0 +1,2452 @@
+id,term
+1267.,FH: Cholinesterase deficiency
+339A.,Peak flow rate before bronchodilation (& expiratory)
+339B.,Peak flow rate (& [expiratory]) after bronchodilation
+44C1.,Serum pseudocholinesterase (& level)
+44W1.,Level: [blood theophylline] or [aminophyll: (blood)(serum)]
+44W10,Theophylline level therapeutic
+44W11,Theophylline level low
+44W12,Theophylline level high
+4H45.,Amniotic fluid cholinesterase
+5783.,Radiobioassay - hydrocortisone
+663L.,Bronchodilators used more than once daily
+663M.,Bronchodilators used a maximum of once daily
+C31y6,Oxaluria NEC
+C37y4,Acatalasia
+D41y2,Pseudocholinesterase deficiency
+M285.,Cholinergic urticaria
+SLB0.,Parasympathomimetic poisoning
+SLB00,Acetylcholine poisoning
+SLB01,Anticholinesterase poisoning
+SLB02,Pilocarpine poisoning
+SLB0z,Cholinergic poisoning NOS
+SLE11,Theophylline poisoning
+SLF70,Aminophylline poisoning
+SyuFN,[X]Poisoning by other parasympathomimetics [cholinergics]
+SyuFP,"[X]Pois,oth parasympath [antichol/antimusc] & spasmolyt,NEC"
+T853.,Accidental poisoning by cholinergics
+T8530,Accidental poisoning by acetylcholine
+T8531,Accidental poisoning by anticholinesterase
+T8532,Accidental poisoning by pilocarpine
+T853z,Accidental poisoning by cholinergics NOS
+T854.,Accidental poisoning by anticholinergics
+T8540,Accidental poisoning by atropine
+T8541,Accidental poisoning by homatropine
+T8542,Accidental poisoning by hyoscine
+T8543,Accidental poisoning by quaternary ammonium derivatives
+T854z,Accidental poisoning by anticholinergics NOS
+TJ202,Adverse reaction to dexamethasone
+TJ204,Adverse reaction to hydrocortisone
+TJ205,Adverse reaction to methylprednisolone
+TJ206,Adverse reaction to prednisolone
+TJ207,Adverse reaction to prednisone
+TJ630,Adverse reaction to beclamide
+TJB04,Adverse reaction to acetylcholine
+TJB05,Adverse reaction to anticholinesterase
+TJE03,Adverse reaction to mercurophylline
+TJE11,Adverse reaction to theophylline (diuretic)
+TJF70,Adverse reaction to salbutamol
+TJF71,Adverse reaction to ipratropium bromide
+TJF72,Adverse reaction to aminophylline
+TJF73,Adverse reaction to theophylline - asthma
+U60A2,"[X]Methylxanthines caus adverse effects in therap use, NEC"
+U60B0,[X]Anticholinesterase agents caus adverse eff in therap use
+U60B1,[X]Oth parasympathomim [cholinergs] caus adv eff therap use
+U60B3,"[X]Oth parasympatholyt/spasmolyt caus adv eff ther use, NEC"
+U60J2,[X]Cholera vaccine caus adverse effects in therapeutic use
+Ub06Q,Choline supplementation
+Ub08Y,Choline
+X00Cd,Acetylcholine resynthesis deficiency
+X00Cf,Congenital end-plate acetylcholine receptor deficiency
+X00Ci,Putative defect in acetylcholine synthesis or packaging
+X00Cj,Congenital end-plate acetylcholinesterase deficiency
+X00Ck,Decr of motor end-plate potential wthout ACh receptor defic
+X00Cy,Cholinergic paralysis
+X20DW,Phosphatidylcholine-sterol acyltransferase deficiency
+X40Uo,Cytosine diphosphate choline phosphotransferase deficiency
+X40We,Disorder of peroxisomal function
+X40Wf,General loss of peroxisomal function
+X40Wg,Neonatal adrenoleucodystrophy
+X40Wh,Infantile Refsum's disease
+X40Wi,Loss of multiple peroxisomal functions
+X40Wj,Rhizomelic chondrodysplasia punctata
+X40Wk,Zellweger's-like syndrome
+X40Wl,Pseudoinfantile Refsum's disease
+X40Wm,Loss of single peroxisomal function
+X40Wn,X-linked adrenoleucodystrophy
+X40Wo,Peroxisomal thiolase deficiency
+X40Wp,Bifunctional peroxisomal enzyme deficiency
+X40Wq,Acyl-CoA oxidase deficiency
+X40Wr,Glutaryl-CoA oxidase deficiency
+X40Ws,Dihydroxycholestanoic acidae & trihydroxycholestanoic acidae
+X40Wu,Isol dihydroxyacetone phosphate acyltransferase deficiency
+X40Wv,Isolated alkyldihydroxyacetone phosphate synthase deficiency
+X40Xr,Choline deficiency
+X508W,Persisting cholinergic urticaria
+X508X,Cholinergic pruritus
+X70sB,Poisoning by bronchodilator drug
+X70w8,Cholinergic anaphylactoid reaction
+X770j,Aminophylline level
+X770k,Aminophylline: blood level
+X773g,Peroxisomal beta-oxidation
+X77X5,Cortisol day curve
+X77X6,Dexamethasone suppression test
+X77X7,Low dose dexamethasone suppression test
+X77X8,High dose dexamethasone suppression test
+X77XK,Hydrocortisone infusion test
+X77XL,Hydrocortisone suppression test
+X77e3,Methacholine challenge
+X78v2,Post-bronchodilation
+X78v3,Pre-bronchodilation
+X795w,Theophylline
+X797F,Podophyllin
+X797H,Podophyllin 20%
+X797I,Podophyllin 40%
+X80DE,Acetylcholinesterase
+X80Ef,Pseudocholinesterase
+X80FU,Cortisol
+X80FV,Free cortisol
+X80Gb,Tetrahydrocortisone
+X80HJ,Glutaric acid
+X80J4,Lysophosphatidylcholine
+X80J6,Phytanic acid
+X80Km,Peroxisomal disorder marker
+X80Kn,Bifunctional enzyme
+X80Kp,Dihydroxyacetone phosphate acyltransferase
+X80Kr,Glutaryl coenzyme A oxidase
+X80Ks,Peroxisomal oxidase
+X80Kt,Peroxisomal thiolase
+X80Kv,Phytanic acid oxidase
+X80Kw,Pipecolic acid
+X80Kx,Plasmalogen
+X80Ky,Very long chain fatty acid
+X80Kz,Very long chain fatty acyl-CoA synthase
+X80Mo,Bile acid
+X80Mq,Cholic acid
+X80Mr,Conjugated bile acids
+X80Ms,Deoxycholic acid
+X80Mt,Lithocholic acid
+X80OB,Lecithin
+X80d6,Acetylcholine receptor antibody
+X90JT,Podophyllin 10%
+XE11q,Acatalasaemia
+XE25a,Serum aminophylline level
+XE28E,Pseudocholinesterase (& level (& serum))
+XE2me,Serum pseudocholinesterase level
+XE2tB,Primary hyperoxaluria type I
+XE2ws,Peak flow rate after bronchodilation
+XE2xQ,Peak flow rate before bronchodilation
+XM0l5,Chenodeoxycholic acid
+XM15i,Bronchodilators used once daily
+XSFQf,Tetrahydrocortisone measurement
+XSJoY,Cholinesterase measurement
+Xa4x3,Beclamide poisoning
+Xa4x4,Accidental beclamide poisoning
+Xa4x5,Intentional beclamide poisoning
+Xa4x6,Beclamide poisoning of undetermined intent
+Xa52q,Accidental pilocarpine poisoning
+Xa52r,Intentional pilocarpine poisoning
+Xa52s,Pilocarpine poisoning of undetermined intent
+Xa52t,Accidental acetylcholine poisoning
+Xa52u,Intentional acetylcholine poisoning
+Xa52v,Acetylcholine poisoning of undetermined intent
+Xa52w,Accidental anticholinesterase poisoning
+Xa52x,Intentional anticholinesterase poisoning
+Xa52y,Anticholinesterase poisoning of undetermined intent
+Xa534,Salbutamol poisoning
+Xa535,Accidental salbutamol poisoning
+Xa536,Intentional salbutamol poisoning
+Xa537,Salbutamol poisoning of undetermined intent
+Xa53v,Accidental poisoning by bronchodilator drug
+Xa53w,Intentional poisoning by bronchodilator drug
+Xa53x,Poisoning by bronchodilator drug of undetermined intent
+Xa53y,Accidental aminophylline poisoning
+Xa53z,Intentional aminophylline poisoning
+Xa540,Aminophylline poisoning of undetermined intent
+Xa541,Accidental theophylline poisoning
+Xa542,Intentional theophylline poisoning
+Xa543,Theophylline poisoning of undetermined intent
+Xa5Jg,Beclamide adverse reaction
+Xa5M5,Acetylcholine chloride adverse reaction
+Xa5M6,Methacholine adverse reaction
+Xa5M7,Anticholinesterase parasympathomimetic adverse reaction
+Xa5M8,Physostigmine adverse reaction
+Xa5M9,Demecarium adverse reaction
+Xa5MA,Distigmine adverse reaction
+Xa5MB,Ecothiopate adverse reaction
+Xa5MC,Edrophonium adverse reaction
+Xa5MD,Pyridostigmine adverse reaction
+Xa5ME,Neostigmine adverse reaction
+Xa5MW,Salmeterol adverse reaction
+Xa5MX,Salbutamol adverse reaction
+Xa5MZ,Fenoterol adverse reaction
+Xa5Mb,Reproterol adverse reaction
+Xa5Mc,Rimiterol adverse reaction
+Xa5Me,Terbutaline adverse reaction
+Xa5My,Anticholinergic adverse reaction
+Xa5Mz,Antimuscarinic adverse reaction
+Xa5N0,Belladonna alkaloids adverse reaction
+Xa5N1,Piperidolate hydrochloride adverse reaction
+Xa5N2,Biperiden adverse reaction
+Xa5N3,Emepronium bromide adverse reaction
+Xa5N4,Terodiline hydrochloride adverse reaction
+Xa5N5,Lachesine chloride adverse reaction
+Xa5N6,Tropicamide adverse reaction
+Xa5N7,Hyoscine adverse reaction
+Xa5N8,Hyoscine hydrobromide adverse reaction
+Xa5N9,Atropine adverse reaction
+Xa5NA,Trihexyphenidyl adverse reaction
+Xa5NB,Benzatropine adverse reaction
+Xa5NC,Cyclopentolate adverse reaction
+Xa5ND,Glycopyrronium adverse reaction
+Xa5NE,Homatropine adverse reaction
+Xa5NF,Ipratropium adverse reaction
+Xa5NG,Methixene adverse reaction
+Xa5NH,Orphenadrine adverse reaction
+Xa5NI,Orphenadrine hydrochloride adverse reaction
+Xa5NJ,Orphenadrine citrate adverse reaction
+Xa5NK,Oxitropium adverse reaction
+Xa5NL,Oxybutynin adverse reaction
+Xa5NM,Procyclidine adverse reaction
+Xa5OS,Aminophylline adverse reaction
+Xa5OT,Choline theophyllinate adverse reaction
+Xa5OU,Theophylline adverse reaction
+Xa5OV,Bronchodilator preparations adverse reaction
+Xa5QI,Cholinesterase reactivator adverse reaction
+Xa5QJ,Pralidoxime adverse reaction
+Xa5Wo,Hydrocortisone adverse reaction
+Xa5Wp,Topical hydrocortisone adverse reaction
+Xa5Wq,Topical compound hydrocortisone preparation adverse reaction
+Xa5Wr,Prednisone adverse reaction
+Xa5X1,Beclometasone adverse reaction
+Xa5X9,Fluticasone adverse reaction
+Xa5XA,Mometasone adverse reaction
+Xa5XB,Dexamethasone adverse reaction
+Xa5XC,Topical dexamethasone adverse reaction
+Xa5XD,Topical compound dexamethasone preparation adverse reaction
+Xa5XE,Methylprednisolone adverse reaction
+Xa5XF,Prednisolone adverse reaction
+Xa5XG,Topical prednisolone adverse reaction
+Xa5XH,Prednisolone drops adverse reaction
+Xa5XI,Rectal prednisolone preparations adverse reaction
+Xa5XK,Budesonide adverse reaction
+Xa5XL,Topical budesonide adverse reaction
+Xa5dV,Moxisylyte adverse reaction
+Xa5i9,Beclamide allergy
+Xa5kY,Acetylcholine chloride allergy
+Xa5kZ,Methacholine allergy
+Xa5ka,Anticholinesterase parasympathomimetic allergy
+Xa5kb,Physostigmine allergy
+Xa5kc,Demecarium allergy
+Xa5kd,Distigmine allergy
+Xa5ke,Ecothiopate allergy
+Xa5kf,Edrophonium allergy
+Xa5kg,Pyridostigmine allergy
+Xa5kh,Neostigmine allergy
+Xa5kz,Salmeterol allergy
+Xa5l0,Salbutamol allergy
+Xa5l2,Fenoterol allergy
+Xa5l4,Reproterol allergy
+Xa5l5,Rimiterol allergy
+Xa5l7,Terbutaline allergy
+Xa5lR,Anticholinergic allergy
+Xa5lS,Antimuscarinic allergy
+Xa5lT,Belladonna alkaloids allergy
+Xa5lU,Piperidolate hydrochloride allergy
+Xa5lV,Biperiden allergy
+Xa5lW,Emepronium bromide allergy
+Xa5lX,Terodiline hydrochloride allergy
+Xa5lY,Lachesine chloride allergy
+Xa5lZ,Tropicamide allergy
+Xa5la,Hyoscine allergy
+Xa5lb,Hyoscine hydrobromide allergy
+Xa5lc,Atropine allergy
+Xa5ld,Trihexyphenidyl allergy
+Xa5le,Benzatropine allergy
+Xa5lf,Cyclopentolate allergy
+Xa5lg,Glycopyrronium allergy
+Xa5lh,Homatropine allergy
+Xa5li,Ipratropium allergy
+Xa5lj,Methixene allergy
+Xa5lk,Orphenadrine allergy
+Xa5ll,Orphenadrine hydrochloride allergy
+Xa5lm,Orphenadrine citrate allergy
+Xa5ln,Oxitropium allergy
+Xa5lo,Oxybutynin allergy
+Xa5lp,Procyclidine allergy
+Xa5mv,Aminophylline allergy
+Xa5mw,Choline theophyllinate allergy
+Xa5mx,Theophylline allergy
+Xa5my,Bronchodilator preparations allergy
+Xa5ok,Cholinesterase reactivator allergy
+Xa5ol,Pralidoxime allergy
+Xa5vH,Hydrocortisone allergy
+Xa5vI,Topical hydrocortisone allergy
+Xa5vJ,Topical compound hydrocortisone preparation allergy
+Xa5vK,Prednisone allergy
+Xa5vU,Beclometasone allergy
+Xa5vc,Fluticasone allergy
+Xa5vd,Mometasone allergy
+Xa5ve,Dexamethasone allergy
+Xa5vf,Topical dexamethasone allergy
+Xa5vg,Topical compound dexamethasone preparation allergy
+Xa5vh,Methylprednisolone allergy
+Xa5vi,Prednisolone allergy
+Xa5vj,Topical prednisolone allergy
+Xa5vk,Prednisolone drops allergy
+Xa5vl,Rectal prednisolone preparations allergy
+Xa5vn,Budesonide allergy
+Xa5vo,Topical budesonide allergy
+Xa61y,Moxisylyte allergy
+Xa6Fb,Beclamide overdose
+Xa6Fc,Accidental beclamide overdose
+Xa6Fd,Intentional beclamide overdose
+Xa6Fe,Beclamide overdose of undetermined intent
+Xa6Lw,Parasympathomimetic overdose
+Xa6Lx,Pilocarpine overdose
+Xa6Ly,Accidental pilocarpine overdose
+Xa6Lz,Intentional pilocarpine overdose
+Xa6M0,Pilocarpine overdose of undetermined intent
+Xa6M1,Acetylcholine overdose
+Xa6M2,Accidental acetylcholine overdose
+Xa6M3,Intentional acetylcholine overdose
+Xa6M4,Acetylcholine overdose of undetermined intent
+Xa6M5,Anticholinesterase overdose
+Xa6M6,Accidental anticholinesterase overdose
+Xa6M7,Intentional anticholinesterase overdose
+Xa6M8,Anticholinesterase overdose of undetermined intent
+Xa6MG,Salbutamol overdose
+Xa6MH,Accidental salbutamol overdose
+Xa6MI,Intentional salbutamol overdose
+Xa6MJ,Salbutamol overdose of undetermined intent
+Xa6MS,Anticholinergic drug overdose
+Xa6MT,Hyoscine overdose
+Xa6MU,Accidental hyoscine overdose
+Xa6MV,Intentional hyoscine overdose
+Xa6MW,Hyoscine overdose of undetermined intent
+Xa6MX,Atropine overdose
+Xa6MY,Accidental atropine overdose
+Xa6MZ,Intentional atropine overdose
+Xa6Ma,Atropine overdose of undetermined intent
+Xa6NB,Aminophylline overdose
+Xa6NC,Accidental aminophylline overdose
+Xa6ND,Intentional aminophylline overdose
+Xa6NE,Aminophylline overdose of undetermined intent
+Xa6NF,Theophylline overdose
+Xa6NG,Accidental theophylline overdose
+Xa6NH,Intentional theophylline overdose
+Xa6NI,Theophylline overdose of undetermined intent
+Xa6NJ,Bronchodilator preparations overdose
+Xa6NK,Accidental bronchodilator preparations overdose
+Xa6NL,Intentional bronchodilator preparations overdose
+Xa6NM,Bronchodilator preparations overdose of undetermined intent
+Xa6Tb,Prednisone overdose
+Xa6Tc,Accidental prednisone overdose
+Xa6Td,Intentional prednisone overdose
+Xa6Te,Prednisone overdose of undetermined intent
+Xa6Tf,Dexamethasone overdose
+Xa6Tg,Accidental dexamethasone overdose
+Xa6Th,Intentional dexamethasone overdose
+Xa6Ti,Dexamethasone overdose of undetermined intent
+Xa6bd,Intravenous hydrocortisone therapy
+Xa7kI,Bronchodilator
+Xa87H,Bronchodilator therapy
+Xa95Y,Salmonella tranoroa
+XaC0I,Subcutaneous injection of hydrocortisone acetate
+XaC0L,Injection of hydrocortisone acetate into shoulder joint
+XaC0M,Injection of hydrocortisone acetate into ankle joint
+XaC0N,Injection of hydrocortisone acetate into knee joint
+XaC2I,Methylprednisolone pulse therapy
+XaDt1,[X]Topical hydrocortisone adverse reaction
+XaEGA,Peak expiratory flow rate after bronchodilation
+XaEHe,Peak expiratory flow rate before bronchodilation
+XaEHu,Cortisol - serum
+XaEKx,Cholinesterase level
+XaEN4,Plasma cholinesterase level
+XaENn,Acetyl choline receptor antibody level
+XaERG,Peroxisomal antibody level
+XaERV,Serum cholinesterase level
+XaERm,Cholinesterase phenotype
+XaINi,Number of times bronchodilator used in one week
+XaINj,Number of times bronchodilator used in 24 hours
+XaIRs,Serum theophylline level
+XaIUY,Salbutamol reversibility
+XaIUZ,Negative reversibility test to salbutamol
+XaIUa,Ipratropium reversibility
+XaIUb,Negative reversibility test to ipratropium bromide
+XaIUd,Neg reversibil test to combinat of salbutamol + ipratrop br
+XaIUg,Positive reversibility test to salbutamol
+XaIUh,Positive reversibility test to ipratropium bromide
+XaIUj,Pos reversib test to combin of salbutamol + ipratropium br
+XaIaN,Roche number
+XaIay,Serum fluoride number
+XaIe0,Serum dibucaine number
+XaIp3,Cholinesterase genotype
+XaItU,Plasma theophylline level
+XaIxQ,FEV1 before bronchodilation
+XaIxR,FEV1 after bronchodilation
+XaJ3K,FVC after bronchodilation
+XaJ9D,FEV1/FVC ratio before bronchodilator
+XaJ9E,FEV1/FVC ratio after bronchodilator
+XaJEx,Red blood cell cholinesterase level
+XaJGJ,Serum prednisolone level
+XaJmV,Cholinesterase screen
+XaJq4,Ro-02-0683 number
+XaJq5,Serum propranolol number
+XaJr8,Intramuscular injection of methylprednisolone
+XaJuz,Reversibility trial by bronchodilator
+XaJv0,Reversibility trial by anticholinergic
+XaKLf,Acetylcholinesterase level
+XaKQA,Propanol number
+XaLcv,Bronchodil response inhaled therapy us simple meas airflow
+XaLcw,Broncho response inhaled therapy us complex measures airflow
+XaMo5,24 hour urine tetrahydrocortisone measurement
+XaMqi,Urine tetrahydrocortisone level
+XaMqj,Urine tetrahydrocortisone excretion per measured volume
+XaPpI,Forced vital capacity before bronchodilation
+XaVx3,Percentage predicted FEV1 after bronchodilation
+XaX4Y,Post overnight dexamethasone cortisol level
+XaXeg,Post bronchodilator spirometry
+XaYmL,Vital capacity after bronchodilation
+XaYpC,Percentage of predicted vital capacity after bronchodilation
+XaZ4m,Bronchodilator used infrequently
+XaZ5b,Bronchodilator not used in last month
+XaZyl,FEV1/VC ratio after bronchodilator
+XaZyt,FVC (forced vital capacity) after change of bronchodilator
+XaZyu,FVC post bronchodilator percentage change
+XaZz1,FEV1 after change of bronchodilator
+Xaa1y,Injection of hydrocortisone acetate into elbow joint
+XaaGl,Tetrahydrocortisone/creatinine ratio
+Xab2f,Percentage of predicted FVC after bronchodilation
+Xab4G,Urine tetrahydrocortisone:creatinine ratio
+Xab9H,Serum Roche number
+XabAc,Red blood cell acetylcholinesterase level
+XabAd,Serum acetylcholinesterase level
+XabAe,Serum butyrylcholinesterase level
+XagBE,Anticholinergic Cognitive Burden Scale score
+Y13a3,Worsening asthma - steroid Rescue dose prednisolone
+Y13a4,Worsening asthma - steroid Rescue dose prednisolone no. 5mg tabs
+Y13a5,Worsening asthma - steroid Rescue dose prednisolone no. days treatment
+Y1a15,Acetyl choline receptor antibody level
+Y1c91,LUNSER - Anticholinergic side effects subscale
+Y262f,"MFRA: Oral corticosteroid therapy eg prednisolone, for more than 3 months"
+Y283d,Adolescent X-linked adrenoleukodystrophy
+Y283e,Childhood cerebral X-linked adrenoleukodystrophy
+Y5721,Bronchodilators used > 1/day
+Y5722,Bronchodilators used 1/day
+Y8431,PFR after bronchodilation
+a41..,Atropine sulphate [antispasmodic]
+a411.,Atropine sulphate 600micrograms tablet
+a42..,Atropine methonitrate
+a421.,Eumydrin 0.6% solution
+a42z.,Atropine methonitrate 0.6% solution
+a44..,Belladonna alkaloids
+a441.,Aluminium hydroxide+belladonna mixture
+a442.,Belladonna paediatric 0.05mg/5mL liquid
+a443.,Magnesium trisilicate+belladonna 0.15mg tablet
+a444.,Alka-Donna tablet
+a445.,Alka-Donna suspension
+a446.,Aluhyde tablet
+a447.,Bellocarb tablet
+a448.,Carbellon tablet
+a449.,Neutradonna tablet
+a44a.,Neutradonna powder
+a44b.,Peptard 0.2mg tablet
+a44c.,Actonorm powder
+a45..,Dicyclomine hydrochloride
+a451.,Kolanticon gel
+a452.,Kolantyl gel
+a453.,Merbentyl 10mg tablet
+a454.,Merbentyl 10mg/5mL syrup
+a455.,Merbentyl 20mg tablet
+a45x.,Dicycloverine hydrochloride 20mg tablet
+a45y.,Dicycloverine hydrochloride 10mg tablet
+a45z.,Dicycloverine hydrochloride 10mg/5mL oral liquid
+a46..,Glycopyrronium bromide [antispasmodic]
+a461.,Robinul 2mg tablet
+a46z.,Glycopyrronium 2mg tablet
+a47..,Hyoscine butylbromide
+a471.,Buscopan 10mg tablet
+a472.,Buscopan 20mg/1mL injection
+a473.,Buscopan IBS Relief 10mg tablet
+a474.,BUSCOPAN CRAMPS 10mg tablets
+a47y.,Hyoscine butylbromide 10mg tablet
+a47z.,Hyoscine butylbromide 20mg/1mL injection
+a48..,Mepenzolate bromide
+a481.,Cantil 25mg tablet
+a482.,Cantil 12.5mg/5mL elixir
+a48y.,Mepenzolate bromide 25mg tablet
+a48z.,Mepenzolate brom 12.5mg/5mL elixir
+a49..,Pipenzolate bromide
+a491.,Piptal 5mg tablet
+a492.,Piptalin suspension
+a493.,Pipenzolate bromide suspension
+a49y.,Pipenzolate bromide+dimethicone 4mg/40mg/5mL oral suspension
+a49z.,Pipenzolate bromide 5mg tablet
+a4a..,Piperidolate hydrochloride
+a4a1.,Dactil 50mg tablet
+a4az.,Piperidolate hydrochloride 50mg tablet
+a4b..,Poldine methylsulphate
+a4b1.,Nacton 2mg tablet
+a4b2.,Nacton Forte 4mg tablet
+a4by.,Poldine methylsulphate 2mg tablet
+a4bz.,Poldine methylsulphate 4mg tablet
+a4c..,Propantheline bromide [antispasmodic]
+a4c1.,Propantheline bromide 15mg tablet
+a4c2.,Pro-Banthine 15mg tablet
+a513.,Alka-Donna-P tablet
+a514.,Alka-Donna-P mixture
+aa4..,Prednisolone [for preparations see rectal prednisolone]
+aa9..,Budesonide [gastro-intestinal]
+aa91.,Budesonide 3mg m/r capsule
+aa92.,Entocort CR 3mg m/r capsule
+aa93.,Budenofalk 3mg capsule
+aa94.,BUDENOFALK 9mg/sachet gastro-resistant granules
+aa95.,BUDESONIDE 9mg/sachet gastro-resistant granules
+aa96.,CORTIMENT 9mg m/r tablets
+aa97.,BUDESONIDE 9mg m/r tablets
+aa9z.,Budesonide 3mg capsule
+aaB..,BECLOMETASONE [GASTRO-INTESTINAL USE]
+aaB1.,CLIPPER 5mg e/c m/r tablets
+aaBz.,BECLOMETASONE DIPROPIONATE 5mg e/c m/r tablets
+ai1..,Rectal hydrocortisone
+ai11.,Hydrocortisone 25mg suppository
+ai12.,Colifoam 10% foam 20.8g
+ai13.,Cortenema 100mg/60mL enema
+ai14.,Hydrocortisone acetate 10% rectal foam
+ai15.,Hydrocortisone acetate 25mg suppository
+ai2..,Rectal prednisolone
+ai21.,Predenema 20mg/100mL standard tube retention enema
+ai22.,Predenema 20mg/100mL long tube retention enema
+ai23.,Predsol 20mg/100mL retention enema
+ai24.,Predsol 5mg suppository
+ai25.,Predfoam 20mg foam 25g
+ai26.,Prednisolone 20mg/100mL enema
+ai27.,Prednisolone 5mg suppository
+ai28.,Prednisolone 20mg rectal foam 20g
+ai29.,Prednisolone 20mg/100mL long tube retention enema
+ai2a.,Prednisolone 20mg/100mL standard tube retention enema
+ai2b.,PREDNISOLONE 20mg/dose rectal foam 25g
+ai3..,Rectal budesonide
+ai31.,Budesonide 2mg/100mL enema
+ai32.,Entocort 2mg/100mL enema
+ai33.,BUDENOFALK 2mg/actuation foam
+ai34.,BUDESONIDE 2mg/actuation foam
+aj1m.,Perinal spray
+aj1n.,Hydrocortisone+lidocaine 0.2%/1% spray
+au1..,Pralidoxime mesylate
+au11.,Pralidoxime mesylate 1g/5mL injection
+b711.,Mersalyl injection 2mL
+bb2..,Atropine sulphate [antiarrhythmic]
+bb21.,Atropine sulphate 400micrograms/1mL injection
+bb22.,Atropine sulphate 600micrograms/1mL injection
+bb23.,Atropine sulphate 15mg/25mL injection
+bb24.,Atropine sulphate 800micrograms/1mL injection
+bb25.,Atropine sulphate 1mg/1mL injection
+bb26.,Atropine sulphate 600micrograms/0.5mL injection
+bb27.,Atropine sulphate 1.25mg/1mL injection
+bb28.,Atropine sulphate 3mg/10mL prefilled syringe
+bb29.,Atropine sulphate 3mg/30mL prefilled syringe
+bb2A.,Min-I-Jet Atropine sulphate 3mg/30mL prefilled syringe
+bb2B.,Atropine sulphate 3mg/10mL injection
+bb2C.,Atropine sulphate 1mg/5mL prefilled syringe
+bb2D.,Atropine sulphate 600micrograms/1mL prefilled syringe
+bn5..,Moxisylyte
+bn51.,Opilon 40mg tablet
+bn52.,Opilon 5mg/1mL injection
+bn53.,Opilon 30mg/2mL injection
+bn5x.,Moxisylyte 40mg tablet
+bn5y.,Thymoxamine 5mg/1mL injection
+bn5z.,Thymoxamine 30mg/2mL injection
+c11..,Salbutamol [oral preparations]
+c111.,Asmaven 2mg tablet
+c112.,Asmaven 4mg tablet
+c113.,Cobutolin 2mg tablet
+c114.,Cobutolin 4mg tablet
+c115.,Salbulin 2mg tablet
+c116.,Salbulin 4mg tablet
+c117.,Salbulin 2mg/2mL liquid
+c118.,Ventolin 2mg tablet
+c119.,Ventolin 4mg tablet
+c11D.,Salapin 2mg/5mL sugar free syrup
+c11a.,Ventolin 8mg m/r tablet
+c11b.,Ventolin 2mg/5mL s/f syrup
+c11c.,Volmax 4mg m/r tablet
+c11d.,Volmax 8mg m/r tablet
+c11e.,Salbuvent 2mg tablet
+c11f.,Salbuvent 4mg tablet
+c11g.,Salbuvent 2mg/5mL syrup
+c11h.,Salbuvent 2mg/5mL syrup 2litre
+c11i.,Ventolin CR 4mg m/r tablet
+c11j.,Salbutamol 4mg m/r tablet
+c11k.,Ventolin CR 8mg m/r tablet
+c11m.,Libetist 2mg/5mL sugar free syrup
+c11n.,Salbutamol 4mg m/r capsule
+c11o.,Salbutamol 8mg m/r capsule
+c11p.,Ventmax SR 4mg m/r capsule
+c11q.,Ventmax SR 8mg m/r capsule
+c11v.,Salbutamol 4mg tablet
+c11w.,Salbutamol 2mg/2mL liquid
+c11x.,Salbutamol 2mg tablet
+c11y.,Salbutamol 8mg m/r tablet
+c11z.,Salbutamol 2mg/5mL sugar free syrup
+c12..,Salbutamol [parenteral preparations]
+c121.,Ventolin 250micrograms/5mL injection
+c122.,Ventolin 500micrograms/1mL injection
+c123.,Ventolin 5mg/5mL intravenous infusion
+c124.,Salbuvent 250micrograms/5mL injection
+c125.,Salbuvent 500micrograms/1mL injection
+c126.,Salbuvent 5mg/5mL intravenous infusion
+c12w.,Salbutamol 5mg/50mL injection
+c12x.,Salbutamol 250micrograms/5mL injection
+c12y.,Salbutamol 500micrograms/1mL injection
+c12z.,Salbutamol 5mg/5mL intravenous infusion
+c13..,Salbutamol [inhalation preparations]
+c131.,Asmaven 100micrograms inhaler
+c132.,Cobutolin 100micrograms inhaler
+c133.,Salbulin 100micrograms inhaler
+c134.,Ventolin 100micrograms inhaler
+c135.,Ventolin 2.5mg/2.5mL Nebule
+c136.,Ventolin 200micrograms Rotacap
+c137.,Ventolin 400micrograms Rotacap
+c139.,Ventolin 100mg/20mL nebuliser solution
+c13A.,Steri-Neb Salamol 2.5mg/2.5mL nebulisation unit
+c13B.,Steri-Neb Salamol 5mg/2.5mL nebulisation unit
+c13C.,Salbutamol 200micrograms/blister disks+disk inhaler
+c13D.,Salbutamol 400micrograms/blister disks+disk inhaler
+c13E.,Salbutamol 200micrograms/blister disks refill
+c13F.,Salbutamol 400micrograms/blister disks refill
+c13G.,Salbutamol 100micrograms breath-actuated aerosol inhaler
+c13H.,Salamol 100micrograms inhaler
+c13I.,Airomir 100micrograms CFC-free inhaler
+c13J.,Salbutamol 100micrograms CFC-free inhaler
+c13K.,Salamol Easi-Breathe 100mcg breath-actuated aerosol inhaler
+c13L.,Salbutamol 200micrograms breath-actuated dry powder inhaler
+c13M.,Ventolin 200micrograms Accuhaler
+c13N.,Salbutamol 100micrograms vortex metered dose inhaler
+c13O.,Ventolin Easi-Breathe 100microgram inhaler
+c13P.,Asmasal 100micrograms Spacehaler
+c13Q.,Asmasal 95micrograms Clickhaler
+c13R.,Salbutamol 100micrograms breath-actuated dry powder inhaler
+c13S.,Salbutamol 95micrograms breath-actuated dry powder inhaler
+c13T.,Ventolin 100micrograms Evohaler
+c13U.,Salbutamol 100mcg CFC-free breath-actuated aerosol inhaler
+c13V.,Airomir 100micrograms CFC-free Autohaler
+c13W.,Maxivent 2.5mg/2.5mL Steripoule
+c13X.,Maxivent 5mg/2.5mL Steripoule
+c13Y.,Salbulin 100micrograms CFC-free inhaler
+c13Z.,Salamol 100micrograms CFC-free inhaler
+c13a.,Aerolin-400 100micrograms inhaler
+c13c.,Aerolin Auto 100micrograms inhaler
+c13d.,Ventodisks 200micrograms diskhaler 14x8
+c13e.,Ventodisks 400micrograms diskhaler 14x8
+c13f.,Ventodisks 200micrograms disk refill 14x8
+c13g.,Ventodisks 400micrograms disk refill 14x8
+c13h.,Salbuvent 100micrograms inhaler
+c13i.,Salbuvent Rondo 100micrograms inhaler
+c13j.,Salbuvent 5mg/mL respirator solution
+c13l.,Aerolin 100micrograms Autohaler 200d
+c13m.,Ventolin 5mg/2.5mL Nebule
+c13n.,Aerolin 100micrograms Autohaler 100d
+c13o.,Salbutamol 5mg/2.5mL nebulisation unit
+c13p.,Maxivent 100micrograms inhaler
+c13q.,Salbutamol 200 Cyclocap
+c13r.,Salbutamol 400 Cyclocap
+c13s.,Ventolin Rotahaler
+c13v.,Salbutamol 100micrograms inhaler
+c13w.,Salbutamol 2.5mg/2.5mL nebulisation unit
+c13x.,Salbutamol 200micrograms inhalation capsule
+c13y.,Salbutamol 400micrograms inhalation capsule
+c13z.,Salbutamol 100mg/20mL nebuliser solution
+c14..,Terbutaline sulphate [respiratoty use]
+c141.,Bricanyl 5mg tablet
+c142.,Bricanyl 1.5mg/5mL s/f syrup
+c143.,Bricanyl 500micrograms/1mL injection
+c144.,Bricanyl 250micrograms inhaler
+c145.,Bricanyl 250micrograms inhaler refill
+c146.,Bricanyl 250micrograms spacer inhaler
+c147.,Bricanyl 5mg/2mL Respule
+c148.,Bricanyl 100mg/10mL nebuliser solution
+c149.,Bricanyl SA 7.5mg m/r tablet
+c14a.,Monovent 5mg tablet
+c14b.,Monovent 1.5mg/5mL syrup
+c14c.,Monovent SA 7.5mg m/r tablet
+c14e.,Bricanyl 2.5mg/5mL intravenous infusion
+c14f.,Bricanyl 500micrograms Turbohaler
+c14g.,Terbutaline 500micrograms inhaler
+c14h.,Terbutaline sulphate 2.5mg/5mL intravenous infusion
+c14i.,Terbutaline sulphate 200mg/20mL nebuliser solution
+c14j.,Terbutaline sulph 500mcg breath-actuated dry powder inhaler
+c14k.,Bricanyl 200mg/20mL respirator solution
+c14r.,Terbutaline sulphate 5mg tablet
+c14s.,Terbutaline sulphate 500micrograms/1mL injection
+c14t.,Terbutaline sulphate 250micrograms inhaler
+c14u.,Terbutaline sulphate 250micrograms inhaler refill
+c14v.,Terbutaline sulphate 250micrograms spacer inhaler
+c14w.,Terbutaline sulphate 5mg/2mL nebulisation unit
+c14x.,Terbutaline sulphate 100mg/10mL nebuliser solution
+c14y.,Terbutaline sulphate 7.5mg m/r tablet
+c14z.,Terbutaline sulphate 1.5mg/5mL syrup
+c15..,Fenoterol hydrobromide
+c151.,Berotec 200 inhaler
+c152.,Berotec 100mg/20mL nebuliser solution
+c153.,Berotec 100 inhaler
+c154.,Fenoterol hydrobromide 100micrograms inhaler
+c15y.,Fenoterol hydrobromide 200micrograms inhaler
+c15z.,Fenoterol hydrobromide 100mg/20mL nebuliser solution
+c16..,Pirbuterol
+c161.,Exirel 10mg capsule
+c162.,Exirel 15mg capsule
+c163.,Exirel 7.5mg/5mL syrup
+c164.,Exirel 200micrograms inhaler
+c16w.,Pirbuterol 10mg capsule
+c16x.,Pirbuterol 15mg capsule
+c16y.,Pirbuterol 7.5mg/5mL syrup
+c16z.,Pirbuterol 200micrograms inhaler
+c17..,Reproterol hydrochloride
+c171.,Bronchodil 20mg tablet
+c172.,Bronchodil 10mg/5mL elixir
+c173.,Bronchodil 500micrograms inhaler
+c174.,Bronchodil 10mg/mL respirator solution
+c17w.,Reproterol 20mg tablet
+c17x.,Reproterol 10mg/5mL elixir
+c17y.,Reproterol hydrochloride 500micrograms inhaler
+c17z.,Reproterol 10mg/mL respirator solution
+c18..,Rimiterol hydrobromide
+c181.,Pulmadil 200micrograms inhaler
+c182.,Pulmadil 200micrograms autohaler
+c183.,Pulmadil Auto 200micrograms refill cannister
+c184.,Rimiterol 200micrograms breath-actuated aerosol inhaler
+c18y.,Rimiterol hydrobromide 200micrograms inhaler
+c18z.,Rimiterol 200micrograms auto refill cannister
+c19..,Salmeterol product
+c191.,Salmeterol 25micrograms inhaler
+c192.,Serevent 25micrograms inhaler
+c193.,Serevent 50micrograms/blister disks+diskhaler
+c194.,Serevent 50micrograms/blister disks refill
+c195.,Salmeterol 50micrograms/blister disks+disk inhaler
+c196.,Salmeterol 50micrograms/blister disks refill
+c197.,Salmeterol 50micrograms breath-actuated dry powder inhaler
+c198.,Serevent 50micrograms Accuhaler
+c199.,Serevent 25micrograms Evohaler
+c19A.,NEOVENT 25micrograms CFC-free inhaler
+c19B.,VERTINE 25micrograms CFC-free inhaler
+c19z.,Salmeterol 25micrograms CFC-free inhaler
+c1A1.,Steri-Neb Saline nebulisation unit
+c1B..,Bambuterol hydrochloride
+c1B1.,Bambec 10mg tablet
+c1B2.,Bambec 20mg tablet
+c1B3.,Bambuterol hydrochloride 10mg tablet
+c1B4.,Bambuterol hydrochloride 20mg tablet
+c1C..,Formoterol
+c1C1.,Formoterol fumarate 12micrograms inhalation capsules+inhaler
+c1C2.,Foradil 12micrograms inhalation capsules+inhaler
+c1C3.,Formoterol fumarate 6micrograms breath-act dry powder inh
+c1C4.,Formoterol fumarate 12micrograms breath-act dry powder inh
+c1C5.,Oxis 6micrograms Turbohaler
+c1C6.,Oxis 12micrograms Turbohaler
+c1C7.,Atimos Modulite 12micrograms metered dose inhaler
+c1C8.,FORMOTEROL EASYHALER 12micrograms breath-act dry powder inh
+c1Cy.,FORMOTEROL FUMARATE DIHYDRATE 12mcg breath-act dry pdr inh
+c1Cz.,Formoterol fumarate dihydrate 12mcg metered dose inhaler
+c1D..,Salmeterol+fluticasone propionate
+c1D1.,Seretide 100 Accuhaler
+c1D2.,Seretide 250 Accuhaler
+c1D3.,Seretide 500 Accuhaler
+c1D4.,Seretide 50 Evohaler
+c1D5.,Seretide 125 Evohaler
+c1D6.,Seretide 250 Evohaler
+c1D7.,SIRDUPLA 25micrograms/125micrograms inhaler
+c1D8.,SIRDUPLA 25micrograms/250micrograms inhaler
+c1D9.,AIRFLUSAL FORSPIRO 50micrograms/500micrograms pdr inhaler
+c1Du.,Salmeterol+fluticasone propionate 25mcg/50mcg CFC-free inh
+c1Dv.,Salmeterol+fluticasone propionate 25mcg/125mcg CFC-free inh
+c1Dw.,Salmeterol+fluticasone propionate 25mcg/250mcg CFC-free inh
+c1Dx.,Salmeterol+fluticasone propionate 50mcg/100mcg b-act pdr inh
+c1Dy.,Salmeterol+fluticasone propionate 50mcg/250mcg b-act pdr inh
+c1Dz.,Salmeterol+fluticasone propionate 50mcg/500mcg b-act pdr inh
+c1E..,Salbutamol [inhalation preparations 2]
+c1E1.,Salamol Easi-Breathe 100mcg CFC-free breath-act aerosol inh
+c1E2.,Pulvinal Salbutamol 200mcg breath-act dry powder inhaler
+c1E3.,Ventodisks 200micrograms diskhaler 15x8
+c1E4.,Ventodisks 400micrograms diskhaler 15x8
+c1E5.,Ventodisks 200micrograms disk refill 15x8
+c1E6.,Ventodisks 400micrograms disk refill 15x8
+c1E7.,Easyhaler Salbutamol 100mcg breath-actuated dry powder inh
+c1E8.,Easyhaler Salbutamol 200mcg breath-actuated dry powder inh
+c1E9.,SALBULIN NOVOLIZER 100micrograms cartridge and inhaler
+c1EA.,SALBUTAMOL 100micrograms dry powder cartridge and inhaler
+c1EB.,SALBULIN NOVOLIZER 100micrograms dry powder cartridge refill
+c1EC.,SALBUTAMOL 100micrograms dry powder cartridge refill
+c1ED.,VENTOLIN 50mg/10mL respirator solution
+c1EE.,SALBUTAMOL 50mg/10mL respirator solution
+c1a..,Tulobuterol hydrochloride
+c1a1.,Tulobuterol hydrochloride 2mg tablet
+c1a2.,Brelomax 2mg tablet
+c1a3.,Respacal 2mg tablet
+c1a4.,Tulobuterol hydrochloride 1mg/5mL s/f liquid
+c1a5.,Respacal 1mg/5mL s/f liquid
+c1b..,INDACATEROL
+c1b1.,ONBREZ BREEZHALER 150micrograms inhalation capsules+inhaler
+c1b2.,INDACATEROL 150micrograms inhalation capsules+inhaler
+c1b3.,ONBREZ BREEZHALER 300micrograms inhalation capsules+inhaler
+c1b4.,INDACATEROL 300micrograms inhalation capsules+inhaler
+c1c..,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE
+c1c1.,FLUTIFORM 50micrograms/5micrograms inhaler
+c1c2.,FLUTIFORM 125micrograms/5micrograms inhaler
+c1c3.,FLUTIFORM 250micrograms/10micrograms inhaler
+c1cx.,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 250mcg/10mcg inh
+c1cy.,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 125mcg/5mcg inh
+c1cz.,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 50mcg/5mcg inh
+c1d..,OLODATEROL
+c1d1.,STRIVERDI RESPIMAT 2.5micrograms inhaler
+c1d2.,OLODATEROL 2.5micrograms inhaler
+c1e..,INDACATEROL+GLYCOPYRRONIUM
+c1e1.,ULTIBRO BREEZHALER 85mcg/43mcg inh powder capsules+inhaler
+c1e2.,INDACATEROL+GLYCOPYRRONIUM 85mcg/43mcg inh powder caps+inh
+c3...,Anticholinergic bronchodilators
+c31..,Ipratropium bromide product
+c311.,Atrovent 20micrograms inhaler
+c312.,Atrovent 500micrograms/2mL nebuliser solution unit dose vial
+c313.,Atrovent Forte 40micrograms inhaler
+c314.,Atrovent 250micrograms/1mL nebuliser solution unit dose vial
+c315.,Atrovent 20micrograms Autohaler
+c316.,Steri-Neb Ipratropium 250micrograms/1mL nebulisation unit
+c317.,Steri-Neb Ipratropium 500micrograms/2mL nebulisation unit
+c318.,Atrovent 40micrograms Aerocap
+c319.,Atrovent 40micrograms Aerocap+Aerohaler device
+c31A.,Ipratropium bromide 40micrograms inhalation capsule
+c31B.,Ipratropium bromide 40micrograms capsule+inhaler device
+c31C.,Respontin 250micrograms/1mL Nebule
+c31D.,Respontin 500micrograms/2mL Nebule
+c31E.,Tropiovent 250micrograms/1mL Steripoule
+c31F.,Tropiovent 500micrograms/2mL Steripoule
+c31G.,Atrovent 20micrograms CFC-free inhaler
+c31t.,Ipratropium bromide 20micrograms CFC-free inhaler
+c31u.,Ipratropium bromide 20mcg breath-actuated aerosol inhaler
+c31v.,Ipratropium bromide 250micrograms/1mL nebuliser solution
+c31w.,Ipratropium bromide 500micrograms/2mL nebuliser solution
+c31x.,Ipratropium bromide 20micrograms inhaler
+c31z.,Ipratropium bromide 40micrograms inhaler
+c32..,Oxitropium bromide
+c321.,Oxitropium 100micrograms/dose inhaler 200dose
+c322.,Oxivent 100micrograms/dose inhaler 200dose
+c323.,Oxivent 100micrograms Autohaler
+c324.,Oxitropium bromide 100mcg breath-actuated aerosol inhaler
+c33..,Tiotropium
+c331.,Tiotropium 18micrograms inhalation capsule
+c332.,Tiotropium 18micrograms capsule+inhaler device
+c333.,TIOTROPIUM 2.5micrograms inhalation carts+inhaler device
+c33x.,SPIRIVA RESPIMAT 2.5mcg cartridges+Respimat inhaler device
+c33y.,Spiriva Combopack 18mcg cap+HandiHaler inhlaler device
+c33z.,Spiriva 18micrograms inhalation capsule
+c34..,ACLIDINIUM
+c341.,EKLIRA GENUAIR 322micrograms/dose dry powder inhaler
+c342.,ACLIDINIUM 322micrograms/dose dry powder inhaler
+c35..,UMECLIDINIUM
+c351.,INCRUSE ELLIPTA 55micrograms/dose dry powder inhaler
+c352.,UMECLIDINIUM 55micrograms/dose dry powder inhaler
+c4...,Xanthine bronchodilators
+c41..,Aminophylline
+c411.,Aminophylline 100mg tablet
+c412.,Aminophylline 250mg/10mL injection
+c413.,Aminophylline 500mg/2mL injection
+c414.,Aminophylline 50mg suppository
+c415.,Aminophylline 100mg suppository
+c416.,Aminophylline 150mg suppository
+c417.,Aminophylline 180mg suppository
+c418.,Aminophylline 360mg suppository
+c419.,Theodrox tablet
+c41A.,Norphyllin 100mg tablet
+c41B.,Norphyllin SR 225mg m/r tablet
+c41C.,Norphyllin SR 350mg m/r tablet
+c41a.,Phyllocontin Continus 225mg m/r tablet
+c41b.,Phyllocontin Continus Forte 350mg m/r tablet
+c41c.,Phyllocontin Continus 100mg paediatric m/r tablet
+c41d.,Aminophylline 225mg m/r tablet
+c41e.,Pecram 225mg m/r tablet
+c41f.,Aminophylline 350mg m/r tablet
+c41g.,Aminophylline 100mg m/r tablet
+c41h.,Amnivent 225 SR m/r tablet
+c41i.,Amnivent 350 SR m/r tablet
+c41j.,Min-I-Jet Aminophylline 250mg/10mL prefilled syringe
+c41k.,Aminophylline 250mg/10mL prefilled syringe
+c41m.,Aminophylline hydrate 225mg m/r tablet
+c42..,Choline theophyllinate
+c421.,Choledyl 100mg tablet
+c422.,Choledyl 200mg tablet
+c423.,Choledyl 62.5mg/5mL syrup
+c424.,Sabidal SR-270 424mg m/r tablet
+c42w.,Choline theophyllinate 100mg tablet
+c42x.,Choline theophyllinate 200mg tablet
+c42y.,Choline theophyllinate 62.5mg/5mL syrup
+c42z.,Choline theophyllinate 424mg m/r tablet
+c43..,Theophylline product
+c431.,Biophylline 125mg/5mL syrup
+c432.,Nuelin 125mg tablet
+c433.,Nuelin 60mg/5mL liquid
+c434.,Lasma 300mg m/r tablet
+c435.,Nuelin SA 175mg m/r tablet
+c436.,Nuelin SA-250 m/r tablet
+c437.,Pro-Vent 300mg m/r capsule
+c438.,Slo-Phyllin 60mg m/r capsule
+c439.,Slo-Phyllin 125mg m/r capsule
+c43A.,Theophylline 200mg/10mL injection
+c43B.,Theophylline 10mg/5mL s/f oral solution
+c43a.,Slo-Phyllin 250mg m/r capsule
+c43b.,Theo-Dur 200mg m/r tablet
+c43c.,Theo-Dur 300mg m/r tablet
+c43d.,Theograd 350mg m/r tablet
+c43e.,Uniphyllin Continus 400mg m/r tablet
+c43f.,Uniphyllin Continus 200mg m/r tablet
+c43g.,Labophylline 200mg/10mL injection
+c43h.,Uniphyllin Continus 300mg m/r tablet
+c43i.,Biophylline 350mg m/r tablet
+c43j.,Biophylline 500mg m/r tablet
+c43k.,Theophylline 500mg m/r tablet
+c43m.,Theophylline 125mg/5mL syrup
+c43n.,Theophylline 125mg tablet
+c43o.,Theophylline 60mg/5mL liquid
+c43p.,Theophylline 175mg m/r tablet
+c43q.,Theophylline 250mg m/r tablet
+c43r.,Theophylline 300mg m/r capsule
+c43s.,Theophylline 60mg m/r capsule
+c43t.,Theophylline 125mg m/r capsule
+c43u.,Theophylline 250mg m/r capsule
+c43v.,Theophylline 200mg m/r tablet
+c43w.,Theophylline 300mg m/r tablet
+c43x.,Theophylline 350mg m/r tablet
+c43y.,Theophylline 400mg m/r tablet
+c43z.,Theophylline 200mg tablet
+c5...,Compound bronchodilators
+c51..,Compound bronchodilators A-Z
+c516.,Bricanyl compound tablet
+c517.,Bricanyl Expectorant elixir
+c51A.,Fenoterol+ipratropium 100micrograms/40micrograms inhaler
+c51B.,Fenoterol+ipratropium 100mcg/40mcg breath-act aerosl inhaler
+c51C.,Salbutamol+ipratropium 100micrograms/20micrograms inhaler
+c51D.,Combivent inhaler
+c51E.,Combivent Unit Dose Vial
+c51F.,Salbutamol+ipratropium 2.5mg/500mcg nebulisation unit
+c51G.,SALIPRANEB nebuliser solution 2.5mL
+c51H.,IPRATROPIUM BROMIDE+SALBUTAMOL 500mcg/2.5mg nebuliser soln
+c51I.,ANORO ELLIPTA 55micrograms/22micrograms dry powder inhaler
+c51J.,UMECLIDINIUM+VILANTEROL 55mcg/22mcg dry powder inhaler
+c51K.,DUAKLIR GENUAIR 340micrograms/12micrograms powder inhaler
+c51L.,ACLIDINIUM+FORMOTEROL FUMARATE DIHYD 340mcg/12mcg pdr inh
+c51M.,SPIOLTO RESPIMAT 2.5micrograms/2.5micrograms inhaler
+c51N.,TIOTROPIUM+OLODATEROL 2.5micrograms/2.5micrograms inhaler
+c51i.,Duovent inhaler
+c51t.,Franol tablet
+c51u.,Franol Plus tablet
+c51v.,Duovent UDV nebuliser solution 4mL
+c51w.,Fenoterol hydrobr+ipratropium br 500mcg/1.25mg neb unit 4mL
+c51x.,Duovent Autohaler
+c51y.,Ambiguous code-duplicated issue (new code x060n)
+c51z.,Ephedrine sulphate+theophylline 15mg/120mg tablet
+c52..,Bronchodilators + sedative
+c521.,Franol old tablet
+c522.,Franol Plus old tablet
+c523.,Franol Expectorant elixir
+c53..,COMPOUND BRONCHODILATORS [1]
+c531.,IPRAMOL STERI-NEB 2.5mg/500micrograms nebuliser soln 2.5mL
+c61..,Beclometasone dipropionate [respiratory use]
+c611.,Becloforte 250micrograms inhaler
+c612.,Becotide 50 inhaler
+c613.,Becotide 100micrograms Rotacap
+c614.,Becotide 200micrograms Rotacap
+c615.,Becotide Rotahaler
+c616.,Becotide 50micrograms/1mL nebuliser solution
+c617.,Becotide 100 inhaler
+c619.,Becodisk 100micrograms diskhaler 14x8
+c61A.,Beclometasone dipropionate 400mcg/blister disks+disk inh
+c61B.,Beclometasone dipropionate 400mcg/blister disks refill
+c61C.,Beclomethasone dipropionate 250mcg inh+spacer(large volume)
+c61D.,Beclometasone diprop 50mcg breath-actuated aerosol inhaler
+c61E.,Beclometasone diprop 250mcg breath-actuated aerosol inhaler
+c61F.,Beclometasone diprop 100mcg breath-actuated aerosol inhaler
+c61G.,Filair 50 inhaler
+c61H.,Filair 100micrograms inhaler
+c61J.,Filair Forte 250micrograms inhaler
+c61K.,Beclazone 50 inhaler
+c61L.,Beclazone 100 inhaler
+c61M.,Beclazone 250 inhaler
+c61N.,Beclazone 50 Easi-Breathe inhaler
+c61O.,Beclazone 100 Easi-Breathe inhaler
+c61P.,Beclazone 250 Easi-Breathe inhaler
+c61Q.,Becloforte Integra 250micrograms inhaler+compact spacer
+c61R.,Becloforte Integra 250micrograms refill
+c61S.,Beclomethasone dipropionate 250mcg inh+compact spacer
+c61T.,Beclomethasone dipropionate 250mcg compact spacer refill
+c61U.,Beclometasone rotahaler device
+c61V.,Beclomethasone dipropionate 50mcg vortex metered dose inh
+c61W.,Asmabec 50micrograms Spacehaler
+c61X.,Beclomethasone dipropionate 100mcg vortex metered dose inh
+c61Y.,Asmabec 100micrograms Spacehaler
+c61Z.,Beclomethasone dipropionate 250mcg vortex metered dose inh
+c61a.,Becodisk 200micrograms diskhaler 14x8
+c61b.,Becotide 400micrograms Rotacap
+c61c.,Becodisk 100micrograms disk refill 14x8
+c61d.,Becodisk 200micrograms disk refill 14x8
+c61e.,Becodisk 400micrograms diskhaler 7x8
+c61f.,Becodisk 400micrograms disk refill 7x8
+c61g.,Becloforte VM 250micrograms inhaler+spacer(large volume)
+c61h.,Beclometasone dipropionate 400micrograms inhalation capsule
+c61i.,Becotide 200 inhaler
+c61j.,Aerobec 50mcg Autohaler
+c61k.,Aerobec Forte 250micrograms Autohaler
+c61l.,Aerobec 100mcg Autohaler
+c61m.,Becloforte diskhaler 400micrograms 14x8
+c61n.,Becloforte disks 400micrograms disk refill 14x8
+c61p.,Beclometasone dipropionate 100mcg/blister disk+disk inhaler
+c61q.,Beclometasone dipropionate 200mcg/blister disk+disk inhaler
+c61r.,Beclometasone dipropionate 100mcg/blister disks refill
+c61s.,Beclometasone dipropionate 200mcg/blister disks refill
+c61t.,Beclometasone dipropionate 250micrograms inhaler
+c61u.,Beclometasone dipropionate 200micrograms inhaler
+c61v.,Beclometasone dipropionate 50micrograms inhaler
+c61w.,Beclometasone dipropionate 100micrograms inhalation capsule
+c61x.,Beclometasone dipropionate 200micrograms inhalation capsule
+c61y.,Beclomethasone dipropionate 50mcg/1mL nebuliser solution
+c61z.,Beclometasone dipropionate 100micrograms inhaler
+c62..,Beclometasone compounds
+c621.,Ventide inhaler
+c622.,Ventide Rotacap
+c623.,Ventide paediatric Rotacap
+c624.,Ventide Rotahaler
+c62x.,Beclomethasone diprop+salbutamol 200mcg/400mcg inh capsule
+c62y.,Beclomethasone diprop+salbutamol 100mcg/200mcg inh capsule
+c62z.,Beclomethasone dipropionate+salbutamol 50mcg/100mcg inhaler
+c64..,Budesonide [respiratory use]
+c641.,Pulmicort 200micrograms inhaler 200dose
+c642.,Pulmicort 200micrograms refill 100dose
+c643.,Pulmicort 200micrograms refill 200dose
+c644.,Pulmicort LS 50micrograms inhaler
+c645.,Pulmicort LS 50micrograms inhaler refill
+c647.,Pulmicort 200micrograms inhaler 100dose
+c648.,Pulmicort 200micrograms Turbohaler 100dose
+c649.,Pulmicort 400micrograms Turbohaler 50dose
+c64A.,Budesonide 200micrograms inhaler refill
+c64E.,Pulmicort 200micrograms inhaler with NebuChamber
+c64F.,Budesonide 200micrograms/dose dry powder cartridge refill
+c64G.,Novolizer Budesonide 200micrograms/dose cartridge refill
+c64H.,Easyhaler Budesonide 100mcg breath-actuated dry powder inh
+c64I.,Easyhaler Budesonide 200mcg breath-actuated dry powder inh
+c64J.,Easyhaler Budesonide 400mcg breath-actuated dry powder inh
+c64K.,PULMICORT 100micrograms CFC-free inhaler
+c64L.,BUDESONIDE 100micrograms CFC-free inhaler
+c64M.,PULMICORT 200micrograms CFC-free inhaler
+c64N.,BUDESONIDE 200micrograms CFC-free inhaler
+c64a.,Pulmicort 500mcg Respules 2mL unit
+c64b.,Pulmicort 1mg Respules 2mL unit
+c64c.,Pulmicort 100micrograms Turbohaler 200dose
+c64d.,Budesonide 100micrograms breath-actuated dry powder inhaler
+c64e.,Budesonide 50micrograms inhaler refill
+c64g.,Budesonide 200micrograms breath-actuated dry powder inhaler
+c64h.,Budesonide 400micrograms breath-actuated dry powder inhaler
+c64i.,Budesonide 500micrograms/2mL nebulisation unit
+c64j.,Budesonide 1mg/2mL nebulisation unit
+c64k.,Budesonide 200 Cyclocap
+c64l.,Budesonide 400 Cyclocap
+c64m.,Budesonide 200micrograms inhalation capsule
+c64n.,Budesonide 400micrograms inhalation capsule
+c64o.,Budesonide 200micrograms inhaler with spacer device
+c64p.,Novolizer Budesonide 200micrograms/dose cartridge+inhaler
+c64u.,Budesonide 200micrograms/dose dry powder cartridge+inhaler
+c64v.,Budesonide 200micrograms inhaler
+c64w.,Budesonide refill 100dose
+c64x.,Budesonide refill 200dose
+c64y.,Budesonide 50micrograms inhaler
+c65..,Fluticasone propionate [respiratory use]
+c651.,Flixotide 50micrograms/blister disks+diskhaler
+c652.,Flixotide 100micrograms/blister disks+diskhaler
+c653.,Flixotide 250micrograms/blister disks+diskhaler
+c654.,Fluticasone propionate 50mcg/blister disks+disk inhaler
+c655.,Fluticasone propionate 100mcg/blister disks+disk inhaler
+c656.,Fluticasone propionate 250mcg/blister disks+disk inhaler
+c657.,Flixotide 50micrograms/blister disks refill
+c658.,Flixotide 100micrograms/blister disks refill
+c659.,Flixotide 250micrograms/blister disks refill
+c65A.,Fluticasone propionate 50micrograms/blister disks refill
+c65B.,Fluticasone propionate 100micrograms/blister disks refill
+c65C.,Fluticasone propionate 250micrograms/blister disks refill
+c65D.,Flixotide 25micrograms inhaler
+c65E.,Flixotide 50micrograms inhaler
+c65F.,Flixotide 125micrograms inhaler
+c65G.,Fluticasone propionate 25micrograms inhaler
+c65H.,Fluticasone propionate 50micrograms inhaler
+c65I.,Fluticasone propionate 125micrograms inhaler
+c65J.,Fluticasone propionate 250micrograms inhaler
+c65K.,Flixotide 250micrograms inhaler
+c65L.,Flixotide 500micrograms disks+diskhaler
+c65M.,Flixotide 500micrograms disks refill
+c65N.,Fluticasone propionate 500mcg/blister disks+disk inhaler
+c65O.,Fluticasone propionate 500micrograms/blister disks refill
+c65P.,Fluticasone propionate 50mcg breath-actuated dry pdr inhaler
+c65Q.,Fluticasone propionate 100mcg breath-actuate dry pdr inhaler
+c65R.,Fluticasone propionate 250mcg breath-actuate dry pdr inhaler
+c65S.,Fluticasone propionate 500mcg breath-actuate dry pdr inhaler
+c65T.,Flixotide 50micrograms Accuhaler
+c65U.,Flixotide 100micrograms Accuhaler
+c65V.,Flixotide 250micrograms Accuhaler
+c65W.,Flixotide 500micrograms Accuhaler
+c65X.,Fluticasone propionate 0.5mg/2mL nebulisation unit
+c65Y.,Fluticasone propionate 2mg/2mL nebulisation unit
+c65Z.,Flixotide 0.5mg/2mL Nebule
+c65a.,Flixotide 2mg/2mL Nebule
+c65b.,Fluticasone propionate 125micrograms CFC-free inhaler
+c65c.,Fluticasone propionate 250micrograms CFC-free inhaler
+c65d.,Flixotide 125micrograms Evohaler
+c65e.,Flixotide 250micrograms Evohaler
+c65f.,Fluticasone propionate 50micrograms CFC-free inhaler
+c65g.,Flixotide 50micrograms Evohaler
+c66..,Beclometasone dipropionate [respiratory use 2]
+c661.,Asmabec 250micrograms Spacehaler
+c662.,Becotide 50 Easi-Breathe inhaler
+c663.,Becotide 100 Easi-Breathe inhaler
+c664.,Becloforte Easi-Breathe 250micrograms inhaler
+c665.,Qvar 50 inhaler
+c666.,Qvar 100 inhaler
+c667.,Qvar 50 Autohaler
+c668.,Qvar 100 Autohaler
+c669.,Beclazone 200 inhaler
+c66A.,Beclometasone diprop 50mcg breath-actuated powder inhaler
+c66B.,Beclometasone diprop 100mcg breath-actuated powder inhaler
+c66C.,Beclometasone diprop 250mcg breath-actuated powder inhaler
+c66D.,Asmabec 50micrograms Clickhaler
+c66E.,Asmabec 100micrograms Clickhaler
+c66F.,Asmabec 250micrograms Clickhaler
+c66G.,Beclometasone diprop 400mcg breath-actuated powder inhaler
+c66H.,Beclometasone diprop 200mcg breath-actuated powder inhaler
+c66I.,Pulvinal Beclomethasone Diprop 100mcg breath-act dry pdr inh
+c66J.,Pulvinal Beclomethasone Diprop 200mcg breath-act dry pdr inh
+c66K.,Pulvinal Beclomethasone Diprop 400mcg breath-act dry pdr inh
+c66L.,Beclometasone 100 Cyclocap
+c66M.,Beclometasone 200 Cyclocap
+c66N.,Beclometasone 400 Cyclocap
+c66P.,Becodisk 100micrograms diskhaler 15x8
+c66Q.,Becodisk 200micrograms diskhaler 15x8
+c66R.,Becodisk 400microcgrams diskhaler 15x8
+c66S.,Becodisk 100micrograms disk refill 15x8
+c66T.,Becodisk 200micrograms disk refill 15x8
+c66U.,Becodisk 400micrograms disk refill 15x8
+c66V.,Beclometasone dipropionate 50micrograms CFC-free inhaler
+c66W.,Beclometasone dipropionate 100micrograms CFC-free inhaler
+c66X.,Beclometasone dipropionate 50mcg CFC-free br-act inhaler
+c66Y.,Beclometasone dipropionate 100mcg CFC-free br-act inhaler
+c66Z.,Qvar Easi-Breathe 50mcg CFC-free breath-act dry pdr inhaler
+c66a.,Qvar Easi-Breathe 100mcg CFC-free breath-act dry pdr inhaler
+c66b.,Easyhaler Beclometasone 200mcg breath-act dry powder inhaler
+c66c.,CLENIL MODULITE 50micrograms CFC-free inhaler
+c66d.,CLENIL MODULITE 100micrograms CFC-free inhaler
+c66e.,CLENIL MODULITE 200micrograms CFC-free inhaler
+c66f.,CLENIL MODULITE 250micrograms CFC-free inhaler
+c66g.,BECLOMETASONE DIPROPIONATE 200micrograms CFC-free inhaler
+c66h.,BECLOMETASONE DIPROPIONATE 250micrograms CFC-free inhaler
+c67..,Budesonide+formoterol
+c671.,Symbicort 100/6 Turbohaler
+c672.,Symbicort 200/6 Turbohaler
+c673.,Symbicort 400/12 Turbohaler
+c674.,DUORESP SPIROMAX 160mcg/4.5mcg breath-act dry powder inhaler
+c675.,DUORESP SPIROMAX 320mcg/9mcg breath-act dry powder inhaler
+c67x.,Budesonide+formoterol fumarate 400/12mcg b-act dry pdr inh
+c67y.,Budesonide+formoterol fumarate 200/6mcg bth-act dry pdr inh
+c67z.,Budesonide+formoterol fumarate 100/6mcg bth-act dry pdr inh
+c68..,Mometasone [respiratory use]
+c681.,Mometasone furoate 200mcg breath-actuated dry powder inhaler
+c682.,Mometasone furoate 400mcg breath-actuated dry powder inhaler
+c683.,Asmanex Twisthaler 200mcg breath-actuated dry powder inhaler
+c684.,Asmanex Twisthaler 400mcg breath-actuated dry powder inhaler
+c69..,Ciclesonide
+c691.,Alvesco 160micrograms inhaler
+c692.,Alvesco 80micrograms inhaler
+c69y.,Ciclesonide 80micrograms inhaler
+c69z.,Ciclesonide 160micrograms inhaler
+c6A..,BECLOMETASONE+FORMOTEROL
+c6A1.,FOSTAIR 100micrograms/6micrograms inhaler
+c6A2.,FOSTAIR NEXTHALER 100micrograms/6micrograms powder inhaler
+c6A3.,FOSTAIR 200micrograms/6micrograms inhaler
+c6A4.,FOSTAIR NEXTHALER 200micrograms/6micrograms powder inhaler
+c6Aw.,BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg pdr inh
+c6Ax.,BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg inhaler
+c6Ay.,BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 100mcg/6mcg pdr inh
+c6Az.,BECLOMETASONE+FORMOTEROL 100micrograms/6micrograms inhaler
+c6B..,FLUTICASONE+VILANTEROL
+c6B1.,RELVAR ELLIPTA 184micrograms/22micrograms inhaler
+c6B2.,FLUTICASONE FUROATE+VILANTEROL 184mcg/22mcg dry pdr inhaler
+c6B3.,RELVAR ELLIPTA 92micrograms/22micrograms inhaler
+c6B4.,FLUTICASONE FUROATE+VILANTEROL 92mcg/22mcg dry pdr inhaler
+c71b.,Steri-Neb Cromogen 20mg/2mL nebulisation unit
+c722.,Aerocrom inhaler
+c723.,Aerocrom Syncroner inhaler+spacer
+c72y.,Sodium cromoglicate+salbutamol 1mg/100mcg inhaler+spacer
+c72z.,Sodium cromoglicate+salbutamol 1mg/100micrograms inhaler
+cA1..,Montelukast product
+cA11.,Montelukast 10mg tablet
+cA12.,Montelukast 5mg chewable tablet
+cA13.,Singulair 10mg tablet
+cA14.,Singulair Paediatric 5mg chewable tablet
+cA15.,Singulair Paediatric 4mg chewable tablet
+cA16.,Singulair Paediatric 4mg/sachet granules
+cA1y.,Montelukast 4mg/sachet granules
+cA1z.,Montelukast 4mg chewable tablet
+cA2..,Zafirlukast
+cA21.,Zafirlukast 20mg tablet
+cA22.,Accolate 20mg tablet
+dh8..,Hyoscine hydrobromide [central nervous system use]
+dh81.,Hyoscine hydrobromide 300micrograms tablet
+dh82.,Hyoscine 600micrograms tablets
+dh83.,Hyoscine [CNS] 400microgram/1ml injection
+dh84.,Hyoscine [CNS] 600microgram/1ml injection
+dh85.,Scopoderm TTS transdermal patch
+dh86.,Hyoscine 500micrograms/72hours transdermal patch
+dh87.,Hyoscine 1.5mg transdermal patch
+dh88.,Scopoderm 1.5mg transdermal patch
+dh89.,KWELLS 300micrograms tablets
+dh8A.,KWELLS KIDS 150micrograms tablets
+dh8B.,HYOSCINE HYDROBROMIDE 150micrograms tablets
+dh8C.,JOY-RIDES 150micrograms chewable tablets
+dn2..,Beclamide
+dn21.,Nydrane 500mg tablet
+dn2z.,Beclamide 500mg tablet
+dr...,Parkinsonism-anticholinergics
+dr1..,Trihexyphenidyl hydrochloride
+dr11.,Benzhexol 2mg tablets
+dr12.,Benzhexol 5mg tablets
+dr13.,Artane 2mg tablet
+dr14.,Artane 5mg tablet
+dr15.,Artane 5mg m/r capsule
+dr16.,Artane powder
+dr17.,Bentex 2mg tablet
+dr18.,Bentex 5mg tablet
+dr19.,Broflex 5mg/5mL syrup
+dr1A.,Trihexyphenidyl 2mg/5mL s/f oral solution
+dr1w.,Trihexyphenidyl hydrochloride 2mg tablet
+dr1x.,Trihexyphenidyl hydrochloride 5mg tablet
+dr1y.,Benzhexol hydrochloride 5mg m/r capsule
+dr1z.,Trihexyphenidyl hydrochloride 5mg/5mL syrup
+dr2..,Orphenadrine hydrochloride
+dr21.,Biorphen 25mg/5mL elixir
+dr22.,Disipal 50mg tablet
+dr23.,Disipal 40mg/2mL injection
+dr2w.,Orphenadrine hydrochloride 50mg/5mL syrup
+dr2x.,Orphenadrine hydrochloride 25mg/5mL oral liquid
+dr2y.,Orphenadrine hydrochloride 50mg tablet
+dr2z.,Orphenadrine 40mg/2mL injection
+dr3..,Benzatropine mesylate
+dr31.,Cogentin 2mg tablet
+dr32.,Cogentin 2mg/2mL injection
+dr3y.,Benzatropine mesylate 2mg tablet
+dr3z.,Benzatropine mesylate 2mg/2mL injection
+dr4..,Biperiden
+dr41.,Akineton 2mg tablet
+dr42.,Akineton 5mg/1mL injection
+dr4y.,Biperiden hydrochloride 2mg tablet
+dr4z.,Biperiden lactate 5mg/1mL injection
+dr5..,Methixene hydrochloride
+dr51.,Tremonil 5mg tablet
+dr5z.,Methixene HCl 5mg tablet
+dr6..,Procyclidine hydrochloride
+dr61.,Arpicolin 2.5mg/5mL syrup
+dr62.,Arpicolin 5mg/5mL syrup
+dr63.,Kemadrin 5mg tablet
+dr64.,Kemadrin 10mg/2mL injection
+dr65.,Muscinil 5mg tablet
+dr6w.,Procyclidine hydrochloride 2.5mg/5mL sugar free syrup
+dr6x.,Procyclidine hydrochloride 5mg/5mL sugar free syrup
+dr6y.,Procyclidine hydrochloride 5mg tablet
+dr6z.,Procyclidine hydrochloride 10mg/2mL injection
+dy...,Central acetylcholinesterase inhibitor
+dy1..,Donepezil hydrochloride
+dy11.,Donepezil hydrochloride 5mg tablet
+dy12.,Donepezil hydrochloride 10mg tablet
+dy13.,Aricept 5mg tablet
+dy14.,Aricept 10mg tablet
+dy15.,ARICEPT EVESS 5mg oro-dispersible tablets
+dy16.,ARICEPT EVESS 10mg oro-dispersible tablets
+dy1y.,DONEPEZIL HYDROCHLORIDE 10mg oro-dispersible tablets
+dy1z.,DONEPEZIL HYDROCHLORIDE 5mg oro-dispersible tablets
+dy2..,Rivastigmine
+dy21.,Rivastigmine 1.5mg capsule
+dy22.,Rivastigmine 3mg capsule
+dy23.,Rivastigmine 4.5mg capsule
+dy24.,Rivastigmine 6mg capsule
+dy25.,Exelon 1.5mg capsule
+dy26.,Exelon 3mg capsule
+dy27.,Exelon 4.5mg capsule
+dy28.,Exelon 6mg capsule
+dy29.,Rivastigmine 2mg/mL oral solution
+dy2A.,Exelon 2mg/mL oral solution
+dy2B.,EXELON 4.6mg/24hrs patches
+dy2C.,EXELON 9.5mg/24hrs patches
+dy2D.,RIVASTIGMINE 4.6mg/24hrs patches
+dy2E.,RIVASTIGMINE 9.5mg/24hrs patches
+dy2F.,NIMVASTID 1.5mg capsules
+dy2G.,NIMVASTID 3mg capsules
+dy2H.,NIMVASTID 4.5mg capsules
+dy2I.,NIMVASTID 6mg capsules
+dy2J.,EXELON 13.3mg/24hours transdermal patches
+dy2K.,RIVASTIGMINE 13.3mg/24hours transdermal patches
+dy2L.,ALZEST 4.6mg/24hours transdermal patches
+dy2M.,ALZEST 9.5mg/24hours transdermal patches
+dy2N.,PROMETAX 4.6mg/24hours transdermal patches
+dy2O.,PROMETAX 9.5mg/24hours transdermal patches
+dy2P.,SOMNITON 4.6mg/24hours transdermal patches
+dy2Q.,SOMNITON 9.5mg/24hours transdermal patches
+dy2R.,VOLEZE 4.6mg/24hours transdermal patches
+dy2S.,VOLEZE 9.5mg/24hours transdermal patches
+dy2T.,VOLEZE 13.3mg/24hours transdermal patches
+dy2U.,ELUDEN 4.6mg/24hours transdermal patches
+dy2V.,ELUDEN 9.5mg/24hours transdermal patches
+dy3..,Galantamine
+dy31.,Reminyl 4mg tablet
+dy32.,Reminyl 8mg tablet
+dy33.,Reminyl 12mg tablet
+dy34.,Reminyl 4mg/mL s/f oral solution
+dy35.,Reminyl XL 8mg m/r capsule
+dy36.,Reminyl XL 16mg m/r capsule
+dy37.,Reminyl XL 24mg m/r capsule
+dy38.,GALSYA XL 8mg m/r capsules
+dy39.,GALSYA XL 16mg m/r capsules
+dy3A.,GALSYA XL 24mg m/r capsules
+dy3B.,ACUMOR XL 8mg m/r capsules
+dy3C.,ACUMOR XL 16mg m/r capsules
+dy3D.,ACUMOR XL 24mg m/r capsules
+dy3E.,LOTPROSIN XL 8mg m/r capsules
+dy3F.,LOTPROSIN XL 16mg m/r capsules
+dy3G.,LOTPROSIN XL 24mg m/r capsules
+dy3H.,ELMINO XL 8mg m/r capsules
+dy3I.,ELMINO XL 16mg m/r capsules
+dy3J.,ELMINO XL 24mg m/r capsules
+dy3K.,LUVENTA XL 8mg m/r capsules
+dy3L.,LUVENTA XL 16mg m/r capsules
+dy3M.,LUVENTA XL 24mg m/r capsules
+dy3t.,Galantamine 8mg m/r capsule
+dy3u.,Galantamine 16mg m/r capsule
+dy3v.,Galantamine 24mg m/r capsule
+dy3w.,Galantamine 4mg/mL s/f oral solution
+dy3x.,Galantamine 4mg tablet
+dy3y.,Galantamine 8mg tablet
+dy3z.,Galantamine 12mg tablet
+fe3..,Dexamethasone [endocrine use]
+fe31.,Dexamethasone 500micrograms tablet
+fe32.,Dexamethasone 2mg tablet
+fe33.,Decadron 500micrograms tablet
+fe34.,Decadron 8mg/2mL injection
+fe35.,Decadron Shock-Pak 100mg/5mL injection
+fe36.,Oradexon 500micrograms tablet
+fe37.,Oradexon 2mg tablet
+fe38.,Oradexon 5mg/1mL injection
+fe39.,Oradexon 10mg/2mL injection
+fe3A.,Dexsol 2mg/5mL oral solution
+fe3B.,DEXAMETHASONE 10mg/5mL oral solution
+fe3C.,MARTAPAN 2mg/5mL oral solution
+fe3D.,DEXAMETHASONE 3.8mg/1mL solution for injection
+fe3p.,DEXAMETHASONE 6.6mg/2mL solution for injection
+fe3q.,DEXAMETHASONE 3.3mg/1mL solution for injection
+fe3r.,Dexamethasone 500micrograms/5mL oral solution
+fe3s.,Dexamethasone 2mg/5mL s/f oral solution
+fe3t.,Dexamethasone sodium phosphate 10mg/2mL injection
+fe3u.,Dexamethasone 2mg/5mL liquid
+fe3v.,Dexamethasone phosphate 120mg/5mL injection
+fe3w.,Dexamethasone phosphate 8mg/2mL injection
+fe3x.,Dexamethasone 100mg/5mL injection
+fe3z.,Dexamethasone phosphate 4mg/1mL injection
+fe4..,Hydrocortisone product
+fe41.,Hydrocortisone 10mg tablet
+fe42.,Hydrocortisone 20mg tablet
+fe43.,Hydrocortistab 20mg tablet
+fe44.,Hydrocortone 10mg tablet
+fe45.,Hydrocortone 20mg tablet
+fe46.,Hydrocortisone 100mg injection (pdr for recon)
+fe47.,Hydrocortisone 500mg/5mL injection
+fe48.,Efcortelan Soluble 100mg injection (pdr for recon)+diluent
+fe49.,Efcortesol 100mg/1mL injection
+fe4a.,Efcortesol 500mg/5mL injection
+fe4b.,Solu-Cortef 100mg injection (pdr for recon)+diluent
+fe4c.,Solu-Cortef 100mg injection (pdr for recon)
+fe4d.,Hydrocortisone 100mg/1mL injection
+fe4e.,PLENADREN 5mg m/r tablets
+fe4f.,HYDROCORTISONE 5mg m/r tablets
+fe4g.,PLENADREN 20mg m/r tablets
+fe4h.,HYDROCORTISONE 20mg m/r tablets
+fe4z.,Hydrocortisone 100mg/2mL injection (pdr for recon)+diluent
+fe5..,Methylprednisolone [endocrine use]
+fe51.,Medrone 2mg tablet
+fe52.,Medrone 4mg tablet
+fe53.,Medrone 16mg tablet
+fe54.,Min-I-Mix Methylprednisolone 500mg injection
+fe55.,Min-I-Mix Methylprednisolone 1g injection
+fe56.,Solu-Medrone 40mg injection (pdr for recon)+diluent
+fe57.,Solu-Medrone 125mg injection (pdr for recon)+diluent
+fe58.,Solu-Medrone 500mg injection (pdr for recon)+diluent
+fe59.,Solu-Medrone 1g injection (pdr for recon)+diluent
+fe5V.,Methylprednisolone acetate+lidocaine HCl 80/20mg/2mL inj
+fe5W.,Methylprednisolone acetate+lidocaine HCl 40/10mg/1mL inj
+fe5X.,Methylprednisolone acetate 120mg/3mL injection
+fe5Y.,Methylprednisolone 500mg/10mL injection
+fe5Z.,Methylprednisolone 1g/20mL injection
+fe5a.,Solu-Medrone 2g injection (pdr for recon)+diluent
+fe5b.,Depo-Medrone 40mg/1mL injection
+fe5c.,Depo-Medrone 80mg/2mL injection
+fe5d.,Depo-Medrone 80mg syringe
+fe5e.,Depo-Medrone 120mg/3mL injection
+fe5f.,Medrone 100mg tablet
+fe5g.,Methylprednisolone 500mg injection (pdr for recon)
+fe5h.,Methylprednisolone 1g injection (pdr for recon)
+fe5m.,Methylprednisolone 100mg tablet
+fe5n.,Methylprednisolone 2mg tablet
+fe5o.,Methylprednisolone 4mg tablet
+fe5p.,Methylprednisolone 16mg tablet
+fe5q.,Methylprednisolone 500mg injection
+fe5r.,Methylprednisolone 1g injection
+fe5s.,Methylprednisolone 40mg injection (pdr for recon)+diluent
+fe5t.,Methylprednisolone 125mg injection (pdr for recon)+diluent
+fe5u.,Methylprednisolone 500mg injection (pdr for recon)+diluent
+fe5v.,Methylprednisolone 1g injection (pdr for recon)+diluent
+fe5w.,Methylprednisolone 2g injection (pdr for recon)+diluent
+fe5x.,Methylprednisolone acetate 40mg/1mL injection
+fe5y.,Methylprednisolone acetate 80mg/2mL injection
+fe5z.,Methylprednisolone 200mg/5mL injection
+fe6..,Prednisolone [endocrine use]
+fe61.,Prednisolone 1mg tablet
+fe62.,Prednisolone 5mg tablet
+fe63.,Codelsol 32mg/2mL injection
+fe64.,Delta-Phoricol 5mg tablet
+fe65.,Deltacortril Enteric 2.5mg e/c tablet
+fe66.,Deltacortril Enteric 5mg e/c tablet
+fe67.,Deltalone 1mg tablet
+fe68.,Deltalone 5mg tablet
+fe69.,Deltastab 1mg tablet
+fe6a.,Deltastab 5mg tablet
+fe6b.,Deltastab 25mg/1mL injection
+fe6c.,Precortisyl 1mg tablet
+fe6d.,Precortisyl 5mg tablet
+fe6e.,Precortisyl Forte 25mg tablet
+fe6f.,Prednesol 5mg tablet
+fe6g.,Sintisone 5mg tablet
+fe6h.,Prednisolone 2.5mg e/c tablet
+fe6i.,Prednisolone 5mg e/c tablet
+fe6j.,Prednisolone 5mg soluble tablet
+fe6k.,Prednisolone 50mg tablet
+fe6l.,DILACORT 5mg gastro-resistant tablets
+fe6m.,DILACORT 2.5mg gastro-resistant tablets
+fe6n.,PEVANTI 2.5mg tablets
+fe6o.,PEVANTI 25mg tablets
+fe6p.,PEVANTI 5mg tablets
+fe6q.,PEVANTI 10mg tablets
+fe6r.,PEVANTI 20mg tablets
+fe6s.,PREDNISOLONE 20mg tablets
+fe6t.,PREDNISOLONE 10mg tablets
+fe6u.,Prednisolone 32mg/2mL injection
+fe6v.,Prednisolone 2.5mg tablet
+fe6y.,Prednisolone 125mg/5mL injection
+fe6z.,Prednisolone 25mg tablet
+fe7..,Prednisone
+fe71.,Prednisone 1mg tablet
+fe72.,Prednisone 5mg tablet
+fe73.,Decortisyl 5mg tablet
+fe74.,Econosone 1mg tablet
+fe75.,Econosone 5mg tablet
+fe76.,Prednisone 20mg tablet
+fe77.,LODOTRA 2mg m/r tablets
+fe78.,LODOTRA 5mg m/r tablets
+fe79.,LODOTRA 1mg m/r tablets
+fe7x.,PREDNISONE 5mg m/r tablets
+fe7y.,PREDNISONE 2mg m/r tablets
+fe7z.,PREDNISONE 1mg m/r tablets
+g24..,Salbutamol [obstetric]
+g25..,Terbutaline sulphate [myometrial relaxant]
+gc3..,Distigmine bromide [urinary]
+gc31.,Ubretid 5mg tablet
+gc32.,Ubretid 500micrograms/1mL injection
+gc3y.,Distigmine bromide 5mg tablet
+gc3z.,Distigmine bromide 500micrograms/1mL injection
+gd2..,Emepronium bromide
+gd21.,Cetiprin 100mg tablet
+gd2z.,Emepronium bromide 100mg tablet
+gd8..,Propantheline br [enuresis - no drugs here]
+gd9..,Terodiline hydrochloride
+gd91.,Terolin 12.5mg tablet
+gd92.,Micturin 12.5mg tablet
+gd93.,Micturin 25mg tablet
+gd9z.,Terodiline 12.5mg tablet
+gdA..,Tolterodine L-tartrate
+gdA1.,Tolterodine L-tartrate 1mg tablet
+gdA2.,Tolterodine L-tartrate 2mg tablet
+gdA3.,Detrusitol 1mg tablet
+gdA4.,Detrusitol 2mg tablet
+gdA5.,Tolterodine L-tartrate 4mg m/r capsule
+gdA6.,Detrusitol XL 4mg m/r capsule
+gdA7.,SANTIZOR XL 4mg m/r capsules
+gdA8.,MARIOSEA XL 4mg m/r capsules
+gdA9.,PREBLACON XL 4mg m/r capsules
+gdAA.,NEDITOL XL 4mg m/r capsules
+gdAB.,NEDITOL XL 2mg m/r capsules
+gdAC.,TOLTERODINE TARTRATE 2mg m/r capsules
+gdAD.,EFFLOSOMYL XL 4mg m/r capsules
+gdAE.,BLERONE XL 4mg m/r capsules
+gdAF.,INCONEX XL 4mg m/r capsules
+gdAG.,INCONEX XL 2mg m/r capsules
+gdB..,Trospium chloride
+gdB1.,Regurin 20mg tablet
+gdB2.,REGURIN XL 60mg m/r capsules
+gdB3.,FLOTROS 20mg tablets
+gdB4.,URAPLEX 20mg tablets
+gdBy.,TROSPIUM CHLORIDE 60mg m/r capsules
+gdBz.,Trospium chloride 20mg tablet
+gda..,Oxybutynin product
+gda1.,Oxybutynin hydrochloride 2.5mg tablet
+gda2.,Ditropan 2.5mg tablet
+gda3.,Oxybutynin hydrochloride 5mg tablet
+gda4.,Ditropan 5mg tablet
+gda5.,Oxybutynin hydrochloride 3mg tablet
+gda6.,Cystrin 3mg tablet
+gda7.,Cystrin 5mg tablet
+gda8.,Ditropan 2.5mg/5mL elixir
+gda9.,Oxybutynin hydrochloride 2.5mg/5mL elixir
+gdaA.,Oxybutynin hydrochloride 5mg/5mL s/f oral solution
+gdaB.,Contimin 2.5mg tablet
+gdaC.,Contimin 5mg tablet
+gdaD.,Urimin 5mg tablet
+gdaE.,Promictuline 2.5mg tablet
+gdaF.,Promictuline 5mg tablet
+gdaG.,Lyrinel XL 5mg m/r tablet
+gdaH.,Lyrinel XL 10mg m/r tablet
+gdaI.,Kentera 3.9mg/24hours transdermal patch
+gdax.,Oxybutynin 3.9mg/24hours transdermal patch
+gday.,Oxybutynin hydrochloride 5mg m/r tablet
+gdaz.,Oxybutynin hydrochloride 10mg m/r tablet
+gdc..,Propiverine hydrochloride
+gdc1.,Propiverine hydrochloride 15mg tablet
+gdc2.,Detrunorm 15mg tablet
+gdc3.,PROPIVERINE HYDROCHLORIDE 30mg m/r capsules
+gdc4.,DETRUNORM XL 30mg m/r capsules
+gdc5.,DETRUNORM XL 45mg m/r capsules
+gdc6.,PROPIVERINE HYDROCHLORIDE 45mg m/r capsules
+gdd..,Solifenacin
+gdd1.,Vesicare 5mg tablet
+gdd2.,Vesicare 10mg tablet
+gddy.,Solifenacin succinate 10mg tablet
+gddz.,Solifenacin succinate 5mg tablet
+gh4..,Thymoxamine hydrochloride [erectile dysfunction]
+gh41.,Thymoxamine hydrochloride 10mg prefilled syringe
+gh42.,Thymoxamine hydrochloride 20mg prefilled syringe
+gh43.,Erecnos 10mg prefilled syringe
+gh44.,Erecnos 20mg prefilled syringe
+j13..,Choline magnesium trisalicylate
+j131.,Trilisate 500mg tablet
+j13z.,Choline magnesium trisilicate 500mg tablet
+j41..,Dexamethasone sodium phosphate [musculoskeletal use]
+j413.,Oradexon 8mg/2mL injection
+j41z.,Dexamethasone sodium phosphate 5mg/1mL injection
+j42..,Hydrocortisone acetate [musculoskeletal use]
+j421.,Hydrocortisone acetate 25mg/1mL injection
+j422.,Hydrocortistab 125mg injection
+j423.,Hydrocortistab 25mg/1mL injection
+j43..,Methylprednisolone acetate [musculoskeletal use]
+j433.,Depo-Medrone 80mg/2mL syringe
+j435.,Depo-Medrone+Lidocaine 80mg/20mg/2mL injection
+j436.,Depo-Medrone+Lidocaine 40mg/10mg/1mL injection
+j43x.,Methylprednisolone acetate 80mg/2mL syringe
+j43z.,Methylprednis acetate 80mg/2mL vials
+j44..,Prednisolone acetate [musculoskeletal use]
+j44z.,Prednisolone acetate 25mg/1mL injection
+j45..,Prednisolone sod phos [musc-sk]
+j451.,Codelson 32mg/2mL injection
+j71..,Distigmine bromide [musculoskelstal use]
+j712.,Distigmine 5mg tablets
+j72..,Edrophonium chloride [neuromuscular transmission]
+j721.,Camsilon 10mg injection
+j73..,Neostigmine [neuromuscular transmission]
+j731.,Prostigmin 15mg tablet
+j732.,Prostigmin 500micrograms/1mL injection
+j733.,Prostigmin 2.5mg/1mL injection
+j73x.,Neostigmine bromide 15mg tablet
+j73y.,Neostigmine methylsulphate 500micrograms/1mL injection
+j73z.,Neostigmine methylsulphate 2.5mg/1mL injection
+j74..,Pyridostigmine bromide
+j741.,Mestinon 60mg tablet
+j742.,Mestinon 1mg/1mL injection
+j743.,Pyridostigmine bromide 60mg tablet
+j74z.,Pyridostigmine 1mg/1mL injection
+j86..,Orphenadrine citrate
+j861.,Norflex 100mg tablet
+j862.,Norflex 60mg/2mL injection
+j86y.,Orphenadrine 100mg tablet
+j86z.,Orphenadrine citrate 60mg/2mL injection
+k64..,Dexamethasone [eye]
+k641.,Maxidex eye drops 5mL
+k642.,Maxidex eye drops 10mL
+k643.,Maxitrol eye drops 5mL
+k644.,Maxitrol eye ointment 3.5g
+k645.,Dexamethasone sodium phosphate 0.1% single-use eye drops
+k646.,Minims Dexamethasone Na phosphate 0.1% s-d eye drops 0.5mL
+k647.,Dexamethasone+hypromellose 0.1%/0.5% eye drops
+k648.,Dexamethasone+tobramycin 0.1%/0.3% eye drops
+k649.,Tobradex eye drops 5mL
+k64A.,DEXAMETHASONE 700micrograms intravitreal implant+applicator
+k64B.,OZURDEX 700micrograms intravitreal implant in applicator
+k64C.,DROPODEX 0.1% single-use eye drops 0.4mL
+k64D.,DEXAFREE 1mg/mL single-use eye drops 0.4mL
+k64x.,Dexamethasone compound eye ointment
+k64y.,Dexamethasone eye drops
+k64z.,Dexamethasone eye ointment
+k66..,Hydrocortisone acetate [eye]
+k661.,Chloromycetin Hydrocortisone eye ointment 4g
+k662.,Cortucid eye ointment
+k666.,Neo-Cortef eye drops
+k667.,Hydrocortisone acetate 0.5% eye ointment
+k668.,Hydrocortisone acetate 1% eye ointment
+k669.,Hydrocortisone acetate 2.5% eye ointment
+k66A.,Neo-Cortef eye ointment
+k66B.,Hydrocortisone acet+neomycin sulph 1.5%/0.5% eye drops 10mL
+k66w.,Hydrocortisone acetate+chloramphenicol 0.5%/1% eye ointment
+k66x.,Hydrocortisone acetate eye ointment
+k66z.,Hydrocortisone acetate 1% eye drops
+k68..,Prednisolone sod phos [eye]
+k681.,Minims Prednisolone 0.5% single-use eye drops 0.5mL
+k682.,Predsol 0.5% eye drops 5mL
+k683.,Predsol 0.5% eye drops 10mL
+k684.,Predsol N eye drops 10mL
+k68x.,Prednisolone sodium phosphate 0.5% single-use eye drops
+k68y.,Prednisolone eye drops
+k68z.,Prednisolone 0.5% eye drops
+k6a..,Prednisolone acetate [eye]
+k6a1.,Prednisolone acet 1% eye drops 5mL
+k6a2.,Prednisolone acet 1% eye drops 10mL
+k6a3.,Pred Forte 1% eye drops 5mL
+k6a4.,Pred Forte 1% eye drops 10mL
+k71..,Atropine sulphate [eyes]
+k711.,Atropine sulphate 1% eye drops
+k712.,Atropine sulphate 1% eye ointment
+k713.,Isopto Atropine eye drops 5mL
+k714.,Minims Atropine sulphate single-use eye drops 0.5mL
+k715.,Opulets Atropine single-use eye drops 0.5mL
+k716.,Atropine sulphate 1% single-use eye drops
+k717.,ATROPINE SULPHATE 0.5% eye drops
+k72..,Cyclopentolate hydrochloride
+k721.,Minims Cyclopentolate 0.5% single-use eye drops 0.5mL
+k722.,Minims Cyclopentolate 1% single-use eye drops 0.5mL
+k723.,Mydrilate 0.5% eye drops 5mL
+k724.,Mydrilate 1% eye drops 5mL
+k725.,Opulets Cyclopentolate single-use eye drops 0.5mL
+k726.,Alnide 0.5% eye drops 5mL
+k727.,Alnide 1% eye drops 5mL
+k72w.,Cyclopentolate hydrochloride 1% eye drops
+k72x.,Cyclopentolate hydrochloride 0.5% eye drops
+k72y.,Cyclopentolate hydrochloride 1% single-use eye drops
+k72z.,Cyclopentolate hydrochloride 0.5% single-use eye drops
+k73..,Homatropine hydrobromide
+k731.,Homatropine hydrobromide 1% eye drops
+k732.,Homatropine hydrobromide 2% eye drops
+k733.,Minims Homatropine hydr. single-use eye drops 0.5mL
+k73z.,Homatropine hydrobromide 2% single-use eye drops
+k74..,Hyoscine hydrobromide [eye]
+k741.,Hyoscine hydrobromide 0.25% eye drops
+k75..,Lachesine chloride
+k751.,Lachesine 1% eye drops
+k77..,Tropicamide
+k771.,Minims Tropicamide 0.5% single-use eye drops 0.5mL
+k772.,Minims Tropicamide 1% single-use eye drops 0.5mL
+k773.,Mydriacyl 0.5% eye drops 5mL
+k774.,Mydriacyl 1% eye drops 5mL
+k775.,NODS Tropicamide 125micrograms ophthalmic applicator strip
+k77v.,Tropicamide 125micrograms ophthalmic applicator strip
+k77w.,Tropicamide 1% eye drops
+k77x.,Tropicamide 0.5% eye drops
+k77y.,Tropicamide 1% single-use eye drops
+k77z.,Tropicamide 0.5% single-use eye drops
+k86..,Demecarium bromide
+k861.,Tosmilen 0.25% eye drops
+k86z.,Demecarium bromide 0.25% eye drops
+k89..,Ecothiopate iodide
+k891.,Phospholine iodide 0.03% eye drops 5mL
+k892.,Phospholine iodide 0.06% eye drops 5mL
+k893.,Phospholine iodide 0.125% eye drops 5mL
+k894.,Phospholine iodide 0.25% eye drops 5mL
+k89w.,Ecothiopate iodide 0.03% eye drops
+k89x.,Ecothiopate iodide 0.06% eye drops
+k89y.,Ecothiopate iodide 0.125% eye drops
+k89z.,Ecothiopate iodide 0.25% eye drops
+k8c..,Physostigmine sulphate
+k8c1.,Physostigmine 0.25% eye drops
+k8c2.,Physostigmine 0.5% eye drops
+k8c3.,Physostigmine+pilocarpine 0.25%+2% eye drops
+k8c4.,Physostigmine+pilocarpine 0.25%+4% eye drops
+k8c5.,Physostigmine+pilocarpine 0.5%+4% eye drops
+kb1..,Acetylcholine chloride
+kb11.,Miochol eye irrigation solution 2mL
+kb12.,Miochol-E 1% intra-ocular irrigation (pdr for recon)+solvent
+kb13.,MIPHTEL 20mg pdr+solv for soln for intraocular irrigation
+kb1y.,ACETYLCHOLINE CL 20mg pdr+solv for intraocular irrigation
+kb1z.,Acetylcholine chloride 1% intra-ocular irrigation
+kb6..,Thymoxamine hydrochloride [eye]
+kb61.,Minims Thymoxamine single-use eye drops 0.5mL
+l22..,Prednisolone sodium phosphate [ear]
+l221.,Predsol ear drops 5mL
+l222.,Predsol 0.5% ear drops 10mL
+l22z.,Prednisolone 0.5% ear drops
+l355.,Gentisone HC ear drops 10mL
+l35z.,Gentamicin+hydrocortisone acetate 0.3%/1% ear drops
+l363.,Neo-Cortef ear drops 5mL
+l364.,Neo-Cortef ear ointment 3.9g
+l365.,Predsol N ear drops 5mL
+l366.,Predsol N ear drops 10mL
+l369.,Neo-Cortef ear drops 10mL
+l36B.,Neomycin+hydrocortisone 0.5%/1.5% ear drops
+l36t.,Prednisolone Na phos+neomycin sulph 0.5%/0.5% eye/ear drops
+l36u.,Neomycin+hydrocortisone 0.5%/1.5% eye/ear ointment
+l36v.,Neomycin+hydrocortisone 0.5%/1.5% eye/ear drops
+l412.,Otosporin ear drops 5mL
+l413.,Otosporin ear drops 10mL
+l415.,Sofradex eye/ear drops 10mL
+l416.,Sofradex eye/ear 5g ointment
+l419.,Terra-cortril ear drops 5mL
+l41b.,Otomize ear spray 5mL
+l511.,Audax ear drops 8mL
+l514.,Choline salicylate+glycerol 20%/12.6% ear drops
+l515.,Audax ear drops
+l81..,Beclometasone dipropionate [nose]
+l811.,Beconase 50micrograms nasal spray
+l812.,Beconase 50micrograms aqueous nasal spray
+l813.,Zonivent Aquanasal 50micrograms spray
+l814.,Beconase Allergy 50micrograms aqueous nasal spray
+l815.,Nasobec Aqueous 50micrograms nasal spray
+l816.,Nasobec Hayfever 50micrograms nasal spray
+l817.,Beclo-aqua 50 nasal spray
+l818.,Beclomist 50micrograms nasal spray
+l819.,Vivabec 50micrograms nasal spray
+l81a.,Care Hayfever Relief 50micrograms nasal spray
+l81b.,Rino Clenil 50micrograms nasal spray
+l81c.,Pollenase 50micrograms nasal spray
+l81d.,Vantage Hayfever Relief 50micrograms nasal spray
+l81e.,Beconase Hayfever Relief for Adults 50micrograms nasal spray
+l81y.,Beclomethasone dipropionate 50micrograms nasal spray
+l81z.,Beclometasone dipropionate 50micrograms aqueous nasal spray
+l83..,Budesonide [nose]
+l831.,Rhinocort 50micrograms nasal spray
+l832.,Rhinocort Aqua 100micrograms nasal spray
+l833.,Rhinocort Aqua 64micrograms nasal spray
+l83x.,Budesonide 64micrograms aqueous nasal spray
+l83y.,Budesonide 100micrograms aqueous nasal spray
+l83z.,Budesonide 50micrograms nasal spray
+l861.,Ipratropium 20micrograms nasal spray
+l862.,Rinatec 20micrograms nasal spray
+l863.,Ipratropium 0.03% aqueous nasal spray
+l864.,Rinatec 0.03% aqueous nasal spray
+l865.,RINATEC 21micrograms nasal spray
+l866.,IPRATROPIUM BROMIDE 21micrograms nasal spray
+l88..,Fluticasone [nose]
+l881.,Fluticasone propionate 50micrograms aqueous nasal spray
+l882.,Flixonase 50micrograms aqueous nasal spray
+l883.,Flixonase 400micrograms Nasule
+l884.,Flixonase Allergy 50micrograms aqueous nasal spray
+l885.,Nasofan Aqueous 50micrograms nasal spray
+l886.,AVAMYS 27.5micrograms nasal spray
+l887.,FLUTICASONE FUROATE 27.5micrograms nasal spray
+l88z.,Fluticasone propionate 400micrograms single-use nasal drops
+l8C..,Tramazoline hydrochloride+dexamethasone isonicotinate
+l8C1.,Dexa-Rhinaspray Duo aqueous nasal spray
+l8D..,Mometasone furoate monohydrate [nose]
+l8D1.,Nasonex 0.05% aqueous nasal spray
+l8Dz.,Mometasone furoate monohydrate 0.05% aqueous nasal spray
+l8E..,AZELASTINE HYDROCHLORIDE+FLUTICASONE PROPIONATE
+l8E1.,DYMISTA 137micrograms/50micrograms nasal spray
+l8E2.,AZELASTINE HCL+FLUTICASONE PROPION 137mcg/50mcg nasal spray
+lb42.,Corlan lozenge
+lb4z.,Hydrocortisone 2.5mg lozenge
+lb61.,Choline salicylate 8.7% oral gel
+lb62.,Bonjela 8.7% oral gel 10g
+lb64.,Teejel 8.7% oral gel 10g
+lb65.,Bonjela 8.7% oral gel 15g
+m41..,Hydrocortisone creams
+m411.,Hydrocortisone 1% cream 15g
+m412.,Hydrocortisone 1% cream 30g
+m413.,Hydrocortisone 1% cream 50g
+m414.,Hydrocortisone 1% cream 100g
+m415.,Hydrocortisone 0.1% cream 30g
+m416.,Hydrocortisone 0.125% cream
+m417.,Hydrocortisone 0.5% cream 15g
+m418.,Hydrocortisone 0.5% cream 30g
+m419.,Hydrocortisone 0.5% cream 50g
+m41A.,Hydrocortisone 2.5% cream 15g
+m41B.,Hydrocortisone 2.5% cream 30g
+m41C.,Hydrocortisone 2.5% cream 50g
+m41D.,Hydrocortisone 1% aqueous cream
+m41a.,Hydrocortisone 0.5% cream 100g
+m41b.,Hydrocortisone 2.5% cream
+m41c.,Cobadex 0.5% cream 20g
+m41d.,Cobadex 1% cream 20g
+m41e.,Dioderm 0.1% cream 30g
+m41f.,Dome-Cort 0.125% cream
+m41g.,Efcortelan 0.5% cream 15g
+m41h.,Efcortelan P 1% cream 15g
+m41i.,Efcortelan 1% cream 50g
+m41j.,Efcortelan 2.5% cream 15g
+m41k.,Hydrocortistab 1% cream 15g
+m41l.,Hydrocortisyl 1% cream 15g
+m41m.,Mildison Lipocream 1% cream 30g
+m41n.,Efcortelan 0.5% cream 30g
+m41o.,Efcortelan 1% cream 30g
+m41p.,Efcortelan 2.5% cream 30g
+m41q.,Dermacort cream
+m41r.,HC45 cream
+m41s.,Kerfoot hydrocortisone cream
+m41t.,Dayleve 0.1% cream 15g
+m41u.,Hydrocortisone 0.1% cream
+m41v.,Zenoxone 1% aqueous cream
+m41w.,Exe-Cort Hydrocortisone 1% cream 15g
+m42..,Hydrocortisone ointments
+m421.,Hydrocortisone 0.5% ointment 15g
+m422.,Hydrocortisone 1% ointment 15g
+m423.,Hydrocortisone 1% ointment 30g
+m424.,Hydrocortisone 1% ointment 100g
+m425.,Efcortelan 0.5% ointment 15g
+m426.,Efcortelan P 1% ointment 15g
+m427.,Efcortelan 1% ointment 50g
+m428.,Efcortelan 2.5% ointment 15g
+m429.,Hydrocortistab 1% ointment 15g
+m42A.,Hydrocortisone 2.5% ointment 15g
+m42B.,Hydrocortisone 2.5% ointment 30g
+m42C.,Hydrocortisone 2.5% ointment 50g
+m42D.,HYDROCORTISONE 1% ointment 50g
+m42a.,Hydrocortisyl 1% ointment 15g
+m42b.,Hydrocortisone 2.5% ointment
+m42c.,Efcortelan 0.5% ointment 30g
+m42d.,Efcortelan 1% ointment 30g
+m42e.,Efcortelan 2.5% ointment 30g
+m42f.,Lanacort ointment
+m42g.,Hydrocortisone acetate 1% ointment
+m43..,Hydrocortisone lotions/dressng
+m431.,Hydrocortisone 1% lotion
+m432.,Efcortelan 1% lotion 20mL
+m433.,Cortacream 1% band
+m44..,Hydrocortisone compound preprations
+m441.,Alphaderm cream 30g
+m442.,Alphaderm cream 100g
+m443.,Calmurid-HC cream 30g
+m444.,Calmurid-HC cream 100g
+m445.,Eczederm+hydrocort cream 25g
+m446.,Epifoam foam 10.6g
+m447.,Eurax-hydrocortisone cream 30g
+m448.,Sential cream 30g
+m449.,Sential cream 100g
+m44a.,Tri-cicatrin ointment 15g
+m44b.,Tri-cicatrin ointment 30g
+m44c.,Eurax-HC cream 15g
+m44d.,Calmurid HC cream 50g
+m44e.,HYDROMOL HC INTENSIVE cream 30g
+m44f.,HYDROMOL HC INTENSIVE cream 100g
+m44v.,Sential HC cream
+m44w.,Hydrocortisone+crotamiton 0.25%/10% cream
+m44x.,Hydrocortisone acetate+pramoxine hydrochloride 1.0/1.0% foam
+m44z.,Hydrocortisone+urea 1%/10% cream
+m45..,Hydrocortisone+antimicrobials
+m451.,Hydrocortisone/neomycin cream
+m452.,Barquinol-HC cream 15g
+m453.,Canesten-HC cream 30g
+m454.,Daktacort cream 30g
+m455.,Econacort cream 30g
+m456.,Framycort ointment 15g
+m457.,Fucidin-H cream 15g
+m458.,Fucidin-H cream 30g
+m459.,Fucidin-H gel 15g
+m45A.,Fucidin-H cream 60g
+m45B.,Fucidin-H ointment 60g
+m45C.,Daktacort HC cream 15g
+m45H.,Hydrocortisone+clioquinol 1%/3% ointment
+m45J.,Hydrocortisone+clioquinol 1%/3% cream
+m45M.,Hydrocortisone+oxytetracycline 50/150mg spray
+m45N.,Hydrocortisone+oxytetracycline 1.0/3% ointment
+m45S.,Hydrocortisone acetate+gentamicin 1%/0.3% cream
+m45T.,Hydrocortisone acetate+fucidic acid 1%/2% ointment
+m45U.,Hydrocortisone acetate+fusidic acid 1%/2% gel
+m45V.,Hydrocortisone acetate+fusidic acid 1%/2% cream
+m45W.,Hydrocortisone+econazole nitrate 1%/1% cream
+m45X.,Hydrocortisone+miconazole nitrate 1%/2% ointment
+m45Y.,Hydrocortisone+miconazole nitrate 1%/2% cream
+m45Z.,Hydrocortisone+clotrimazole 1%/1% cream
+m45a.,Fucidin-H gel 30g
+m45b.,Fucidin-H ointment 15g
+m45c.,Fucidin-H ointment 30g
+m45d.,Gentisone HC cream 15g
+m45e.,Gentisone HC ointment 15g
+m45f.,Gregoderm ointment 4g
+m45g.,Gregoderm ointment 15g
+m45h.,Hydroderm ointment
+m45i.,Nybadex ointment
+m45j.,Nystaform-HC 0.5% cream 15g
+m45k.,Nystaform-HC 0.5% cream 30g
+m45l.,Nystaform-HC 1% ointment 30g
+m45m.,Quinocort cream 30g
+m45n.,Terra-cortril ointment 15g
+m45o.,Terra-cortril ointment 30g
+m45p.,Terra-cortril spray 30mL
+m45q.,Terra-cortril spray 60mL
+m45r.,Terra-cortril Nystatin cream 30g
+m45s.,Timodine cream 30g
+m45t.,Vioform-hydrocortisone cream 30g
+m45u.,Vioform-hydrocortisone ointment 30g
+m45v.,Daktacort ointment 30g
+m45w.,Canesten Hydrocortisone cream 15g
+m45x.,Hydrocortisone+neomycin 1%/0.5% ointment
+m45y.,Hydrocortisone+neomycin 1%/0.5% cream
+m47..,Beclometasone diprop [skin]
+m471.,Propaderm 0.025% cream 15g
+m472.,Propaderm 0.025% cream 50g
+m473.,Propaderm 0.025% ointment 15g
+m474.,Propaderm 0.025% ointment 50g
+m475.,Propaderm A 0.025% ointment 15g
+m476.,Propaderm A 0.025% ointment 50g
+m477.,Propaderm C 0.025% cream
+m478.,Propaderm C 0.025% ointment
+m479.,Propaderm 0.025% cream 30g
+m47a.,Propaderm 0.025% ointment 30g
+m47b.,Propaderm A ointment 30g
+m47c.,Propaderm A cream 30g
+m47y.,Beclometasone dipropionate 0.025% cream
+m47z.,Beclometasone dipropionate 0.025% ointment
+m4l..,Hydrocortisone butyrate
+m4l1.,Locoid 0.1% cream 30g
+m4l2.,Locoid 0.1% cream 100g
+m4l3.,Locoid 0.1% lipocream 30g
+m4l4.,Locoid 0.1% ointment 30g
+m4l5.,Locoid 0.1% ointment 100g
+m4l6.,Locoid 0.1% scalp lotion 30mL
+m4l7.,Locoid 0.1% scalp lotion 100mL
+m4l8.,Locoid C 0.1% cream 30g
+m4l9.,Locoid C 0.1% ointment 30g
+m4la.,Locoid 0.1% lipocream 100g
+m4lb.,Locoid Crelo 0.1% emulsion
+m4lt.,Hydrocortisone butyrate 0.1% emulsion
+m4lu.,Hydrocortisone butyrate+chlorquinaldol 0.1%/3% ointment
+m4lv.,Hydrocortisone butyrate+chlorquinaldol 0.1%/3% cream
+m4lw.,Hydrocortisone butyrate 0.1% cream
+m4lx.,Hydrocortisone butyrate 0.1% lipocream
+m4ly.,Hydrocortisone butyrate 0.1% ointment
+m4lz.,Hydrocortisone butyrate 0.1% scalp lotion
+m4m..,Methylprednisolone acetate
+m4m1.,Neo-Medrone 0.25% cream 15g
+m4my.,Methylprednisolone/neomycin 0.25/0.5% cream 15g
+m4mz.,Methylprednisolone acet 0.25% cream
+m4o..,Budesonide Topical
+m4o1.,Budesonide 0.025% cream 30g
+m4o2.,Budesonide 0.025% cream 100g
+m4o3.,Budesonide 0.025% ointment 30g
+m4o4.,Budesonide 0.025% ointment 100g
+m4o5.,Preferid 0.025% cream 30g
+m4o6.,Preferid 0.025% cream 100g
+m4o7.,Preferid 0.025% ointment 30g
+m4o8.,Preferid 0.025% ointment 100g
+m4p..,Hydrocortisone acetate [topical]
+m4p1.,Hydrocal 1% cream
+m4p2.,Lanacort cream
+m4pz.,Hydrocortisone acetate 1% cream
+m4q..,Mometasone furoate [topical]
+m4q1.,Elocon cream 30g
+m4q2.,Elocon lotion 30mL
+m4q3.,Elocon ointment 30g
+m4q4.,Mometasone furoate 0.1% cream 30g
+m4q5.,Mometasone furoate 0.1% lotion 30mL
+m4q6.,Mometasone furoate 0.1% ointment 30g
+m4q7.,Mometasone furoate 0.1% cream
+m4q8.,Mometasone furoate 0.1% ointment
+m4q9.,Mometasone furoate 0.1% lotion
+m4qA.,Elocon cream 100g
+m4qB.,Elocon ointment 100g
+m4r..,Fluticasone propionate[skin]
+m4r1.,Cutivate 0.05% cream
+m4r2.,Fluticasone propionate 0.05% cream
+m4r3.,Cutivate 0.05% cream 15g
+m4r4.,Cutivate 0.05% cream 50g
+m4r5.,Fluticasone propionate 0.005% ointment
+m4r6.,Cutivate 0.005% ointment
+m4r7.,Cutivate 0.005% ointment 15g
+m4r8.,Cutivate 0.005% ointment 50g
+m4r9.,CUTIVATE 0.005% ointment 30g
+m4rA.,CUTIVATE 0.05% cream 30g
+m4s..,Mometasone furoate monohydrate
+m4s2.,Nasonex 0.05% aqueous nasal spray
+m51N.,Coal tar solution+hydrocortisone 3%/0.25% cream
+m51W.,Coal tar extract+hydrocortisone 3%/0.25% cream
+m51q.,Carbo-Cort cream 30g
+m661.,Actinac lotion 25mL x 2
+m662.,Medrone lotion 25mL
+m663.,Medrone lotion 75mL
+m664.,Neo-Medrone lotion 50mL
+m665.,Neo-Medrone lotion 75mL
+m666.,Quinoderm+hydrocortisone cream 30g
+m851.,Podophyllin compound 15% paint BP
+m852.,Posalfilin ointment 10g
+m853.,Podophyllin+salicylic acid 20/25% ointment
+mige.,Pyridostigmine 60mg tablet
+ml2..,Glycopyrrolate
+ml21.,Glycopyrrolate 100%w/w powder
+ml2z.,Robinul 100%w/w powder
+o3...,Anticholinergic premedications
+o31..,Atropine sulphate [premedication]
+o32..,Glycopyrronium bromide [anaesthesia]
+o321.,Robinul 200micrograms/1mL injection
+o322.,Robinul 600micrograms/3mL injection
+o323.,SEEBRI BREEZHALER 44micrograms inhalation capsules
+o324.,GLYCOPYRRONIUM 44micrograms inhalation capsules
+o32y.,Glycopyrronium bromide 200micrograms/1mL injection
+o32z.,Glycopyrronium bromide 600micrograms/3mL injection
+o33..,Hyoscine hydrobromide [anaesthesia]
+o331.,Hyoscine 400micrograms/mL injection
+o332.,Hyoscine 600micrograms/mL injection
+o7...,Anticholinesterases used in surgery
+o71..,Edrophonium chloride [anaesthesia]
+o711.,Camsilon 10mg/1mL injection
+o712.,Edrophonium chloride 10mg/1mL injection
+o72..,Neostigmine methylsulphate [anaesthesia]
+o724.,Robinul-Neostigmine injection 1mL
+o72x.,Neostigmine+glycopyrronium 2.5mg/500micrograms/1mL injection
+scmD.,Select DuoVent 110215 15mm-65mm clear drain ileobag+filter
+scmE.,Select DuoVent 110220 20mm clear drainable ileobag+filter
+scmF.,Select DuoVent 110227 27mm clear drainable ileobag+filter
+scmG.,Select DuoVent 110234 34mm clear drainable ileobag+filter
+scmH.,Select DuoVent 110241 41mm clear drainable ileobag+filter
+scmI.,Select DuoVent 110248 48mm clear drainable ileobag+filter
+scmJ.,Select DuoVent 110255 55mm clear drainable ileobag+filter
+scmK.,Select DuoVent 110315 15mm-65mm opaque drain ileobag+filter
+scmL.,Select DuoVent 110320 20mm opaque drainable ileobag+filter
+scmM.,Select DuoVent 110327 27mm opaque drainable ileobag+filter
+scmN.,Select DuoVent 110334 34mm opaque drainable ileobag+filter
+scmO.,Select DuoVent 110341 41mm opaque drainable ileobag+filter
+scmP.,Select DuoVent 110348 48mm opaque drainable ileobag+filter
+scmQ.,Select DuoVent 110355 55mm opaque drainable ileobag+filter
+scmR.,Select DuoVent 111200 15mm-65mm clear drain ileobag+filter
+scmS.,Select DuoVent 111215 15mm-65mm opaque drain ileobag+filter
+scmT.,Select DuoVent Mini 111220 20mm opaque drain ileobag+filter
+scmU.,Select DuoVent Mini 111227 27mm opaque drain ileobag+filter
+scmV.,Select DuoVent Mini 111234 34mm opaque drain ileobag+filter
+scmW.,Select DuoVent Mini 111241 41mm opaque drain ileobag+filter
+scmX.,Select DuoVent Mini 111248 48mm opaque drain ileobag+filter
+scmY.,Select DuoVent Mini 111255 55mm opaque drain ileobag+filter
+x0019,Beclometasone dipropionate+salbutamol
+x005p,Hydrocortisone+fusidic acid
+x005q,Hydrocortisone+gentamicin
+x005s,Hydrocortisone+pramoxine
+x005t,Hydrocortisone+sodium fusidate
+x005u,Hydrocortisone+chlorquinaldol
+x005v,Hydrocortisone+chloramphenicol
+x005x,Hydrocortisone+clioquinol
+x005y,Hydrocortisone+clotrimazole
+x005z,Hydrocortisone+crotamiton
+x0060,Hydrocortisone+dimeticone '350'
+x0061,Hydrocortisone+econazole
+x0062,Hydrocortisone+lidocaine
+x0063,Hydrocortisone+miconazole
+x0064,Hydrocortisone+neomycin
+x0066,Hydrocortisone+nystatin
+x0067,Hydrocortisone+oxytetracycline
+x0069,Hydrocortisone+potassium hydroxyquinoline
+x006A,Hydrocortisone+urea
+x006F,Hyoscine product
+x006b,Inhaled terbutaline
+x007b,Methacholine
+x007e,Methylprednisolone+lidocaine
+x007f,Methylprednisolone+neomycin
+x009T,Pipenzolate+dimeticone
+x00Af,Salbutamol product
+x00Aw,Sodium cromoglicate+salbutamol
+x00CE,Aerolin 100micrograms Autohaler
+x00FN,Alphaderm cream
+x00Fh,Budesonide 0.025% cream
+x00Fk,Calmurid HC cream
+x00Fm,Canesten HC cream
+x00Fn,Carbo-Cort cream
+x00Fv,Cobadex 0.5% cream
+x00Fw,Cobadex 1% cream
+x00G0,Daktacort cream
+x00G6,Dioderm cream
+x00GI,Econacort cream
+x00GM,Efcortelan 0.5% cream
+x00GN,Efcortelan 1% cream
+x00GO,Efcortelan 2.5% cream
+x00GU,Eurax-Hydrocortisone cream
+x00Ga,Fucidin H cream
+x00Gc,Gentisone HC cream
+x00Gl,Hydrocortisone 0.5% cream
+x00Gm,Hydrocortisone 1% cream
+x00Go,Hydrocortistab 1% cream
+x00Gp,Hydrocortisyl 1% cream
+x00Gw,Locoid 0.1% cream
+x00Gx,Locoid C 0.1% cream
+x00H1,Methylprednisolone acetate+neomycin sulphate 0.25/0.5% cream
+x00H2,Mildison Lipocream 1% cream
+x00H6,Neo-Medrone 0.25% cream
+x00H9,Nystaform-HC 0.5% cream
+x00HF,Preferid cream
+x00HH,Propaderm 0.025% cream
+x00HL,Quinocort cream
+x00HO,Quinoderm+hydrocortisone cream
+x00Hd,Terra-Cortril Nystatin cream
+x00He,Timodine cream
+x00Hu,Vioform Hydrocortisone cream
+x00Hx,Becloforte 400micrograms/blister disks refill
+x00Hy,Becodisks 100micrograms/blister disks refill
+x00Hz,Becodisks 200micrograms/blister disks refill
+x00I0,Becodisks 400micrograms/blister disks refill
+x00I1,Becloforte 400micrograms/blister disks+diskhaler
+x00I2,Becodisks 100micrograms disks+diskhaler
+x00I3,Becodisks 200micrograms/blister disks+diskhaler
+x00I4,Becodisks 400micrograms/blister disks+diskhaler
+x00IS,Atropine sulphate 0.031% eye drops
+x00IT,Atropine sulphate 0.062% eye drops
+x00IU,Atropine sulphate 0.1% eye drops
+x00IV,Atropine sulphate 0.125% eye drops
+x00IW,Atropine sulphate 0.25% eye drops
+x00IX,Atropine sulphate 0.5% eye drops
+x00IY,Atropine sulphate 1% preservative-free eye drops
+x00IZ,Atropine sulphate 2% eye drops
+x00Is,Cyclopentolate hydrochloride 1% preservative-free eye drops
+x00Iu,Dexamethasone 0.1% preservative-free eye drops
+x00Iv,Dexamethasone 0.1% eye drops
+x00J5,Eserine sulphate 1.0% eye drops
+x00JX,Homatropine hydrobromide 0.125% eye drops
+x00JY,Homatropine hydrobromide 0.25% eye drops
+x00JZ,Homatropine hydrobromide 0.5% eye drops
+x00Ja,Homatropine hydrobromide 1% preservative-free eye drops
+x00Jb,Homatropine hydrobromide 2% preservative-free eye drops
+x00Jc,Humorsol 0.25% eye drops
+x00Jd,Hyoscine hydrobromide 0.125% eye drops
+x00Je,Hyoscine hydrobromide 0.5% eye drops
+x00Jv,Maxidex eye drops
+x00Jw,Maxitrol eye drops
+x00Jx,Methacholine 2.5% preservative-free eye drops
+x00K3,Mydriacyl 0.5% eye drops
+x00K4,Mydriacyl 1% eye drops
+x00K5,Mydrilate 0.5% eye drops
+x00K6,Mydrilate 1% eye drops
+x00Kb,Pred Forte 1% eye drops
+x00Kc,Prednisolone 0.001% eye drops
+x00Kd,Prednisolone 0.003% eye drops
+x00Ke,Prednisolone 0.01% preservative-free eye drops
+x00Kf,Prednisolone 0.01% eye drops
+x00Kg,Prednisolone 0.03% preservative-free eye drops
+x00Kh,Prednisolone 0.03% eye drops
+x00Ki,Prednisolone 0.1% preservative-free eye drops
+x00Kj,Prednisolone 0.1% eye drops
+x00Kk,Prednisolone 0.3% preservative-free eye drops
+x00Kl,Prednisolone 0.3% eye drops
+x00Km,Prednisolone acetate 1% eye drops
+x00L3,Moxisylyte 0.5% preservative-free eye drops
+x00LO,Maxitrol eye ointment
+x00LR,Otosporin ear drops
+x00LV,Terra-Cortril ear drops
+x00La,Neo-Cortef eye/ear drops
+x00Lb,Otomize ear spray
+x00Lc,Predsol 0.5% eye/ear drops
+x00Ld,Predsol N eye/ear drops
+x00Le,Sofradex eye/ear drops
+x00Lg,Neo-Cortef eye/ear ointment
+x00Lh,Sofradex eye/ear ointment
+x00MF,Colifoam 10% foam
+x00MG,Epifoam foam
+x00Mo,Fucidin H gel
+x00QS,Oxitropium bromide 100micrograms inhaler
+x00QT,Oxivent 100mcg inhaler
+x00QU,Pulmicort 200micrograms inhaler
+x00QV,Pulmicort 200micrograms inhaler refill
+x00Qr,Atropine sulphate 500micrograms/1mL injection
+x00Qs,Atropine sulphate 2mg/1mL injection
+x00RO,Mersalyl sodium+theophylline 100mg/50mg/1mL injection
+x00SC,Miochol intra-ocular irrigation
+x00T5,Actinac lotion (pdr for recon)
+x00Tx,Locoid 0.1% lipocream
+x00W5,Atropine sulphate 500micrograms/5mL s/f solution
+x00Wf,Budesonide 0.025% ointment
+x00Wl,Daktacort ointment
+x00Wu,Efcortelan 0.5% ointment
+x00Wv,Efcortelan 1% ointment
+x00Ww,Efcortelan 2.5% ointment
+x00X0,Fucidin H ointment
+x00X2,Gregoderm ointment
+x00X5,Hydrocortisone 1% ointment
+x00X7,Hydrocortistab 1% ointment
+x00X8,Hydrocortisyl 1% ointment
+x00XB,Locoid 0.1% ointment
+x00XC,Locoid C 0.1% ointment
+x00XI,Nystaform-HC 1% ointment
+x00XJ,Posalfilin ointment
+x00XK,Preferid ointment
+x00XN,Propaderm ointment
+x00XQ,Terra-Cortril ointment
+x00XT,Tri-Cicatrin ointment
+x00XX,Vioform Hydrocortisone ointment
+x00YY,Atropine sulphate 500micrograms/5mL prefilled syringe
+x00YZ,Atropine sulphate 1mg/10mL prefilled syringe
+x00Yq,Min-I-Jet Atropine sulphate 500mcg/5mL prefilled syringe
+x00Yr,Min-I-Jet Atropine sulphate 1mg/10mL prefilled syringe
+x00aE,Hydrocortisone acetate powder
+x00bU,Pulmicort 500micrograms/2mL Respule
+x00bV,Pulmicort 1mg/2mL Respule
+x00bs,Locoid 0.1% scalp lotion
+x00cH,Minims Tropicamide 1% single-use eye drops
+x00cM,Minims Cyclopentolate 0.5% single-use eye drops
+x00cN,Minims Cyclopentolate 1% single-use eye drops
+x00cQ,Minims Homatropine 2% single-use eye drops
+x00cY,Minims Tropicamide 0.5% single-use eye drops
+x00cx,Terra-Cortril spray
+x00fM,Hyoscine hydrobromide 150micrograms tablet
+x00fO,Joy-rides tablet
+x00fS,Kwells tablet
+x00fT,Kwells Junior tablet
+x00gE,Pulmicort 100micrograms Turbohaler
+x00gF,Pulmicort 200micrograms Turbohaler
+x00gG,Pulmicort 400micrograms Turbohaler
+x00yI,Topical hydrocortisone
+x00yP,Oral prednisolone
+x00yo,Topical beclometasone
+x00z6,Respiratory budesonide
+x00z8,Topical budesonide
+x00zA,Respiratory beclomethasone
+x00zu,Prednisolone 20mg rectal foam
+x00zz,Duovent UDV nebuliser solution
+x0100,Fenoterol+ipratropium 500micrograms/1.25mg nebulisation unit
+x01Ck,Bambuterol
+x01Cl,Fenoterol
+x01Cn,Reproterol
+x01Co,Rimiterol
+x01Cq,Terbutaline
+x01Cr,Oral terbutaline
+x01Cs,Parenteral terbutaline
+x01Ct,Tulobuterol
+x01DC,Physostigmine
+x01DF,Anticholinesterase parasympathomimetic
+x01DG,Demecarium
+x01DH,Distigmine
+x01DI,Ecothiopate
+x01DJ,Edrophonium
+x01DK,Pyridostigmine
+x01DM,Anticholinergic
+x01DN,Antimuscarinic
+x01DO,Atropine
+x01DP,Oral atropine
+x01DQ,Parenteral atropine
+x01DR,Atropine eye preparations
+x01DS,Trihexyphenidyl
+x01DT,Benzatropine
+x01DU,Cyclopentolate
+x01DV,Alnide 0.5% eye drops
+x01DW,Alnide 1% eye drops
+x01DX,Opulets Cyclopentolate eye drops
+x01DY,Dicycloverine
+x01DZ,Glycopyrronium
+x01Da,Homatropine
+x01Db,Ipratropium
+x01Dc,Mepenzolate
+x01Dd,Methixene
+x01De,Orphenadrine
+x01Df,Oxitropium
+x01Dg,Oxybutynin
+x01Dh,Pipenzolate
+x01Di,Poldine
+x01Dj,Procyclidine
+x01Dk,Propantheline
+x01Ej,Oral aminophylline
+x01Ek,Parenteral aminophylline
+x01GN,Cholinesterase reactivator
+x01GO,Pralidoxime
+x01HF,Gentisone HC ear drops
+x01MQ,Beclometasone
+x01MT,Propaderm A cream
+x01MU,Propaderm A ointment
+x01MV,Nasal beclomethasone
+x01MY,Nasal budesonide
+x01Mh,Oral dexamethasone
+x01Mi,Parenteral dexamethasone
+x01Mj,Topical dexamethasone
+x01Mk,Topical compound dexamethasone preparation
+x01NN,Fluticasone
+x01NO,Respiratory fluticasone
+x01NP,Nasal fluticasone
+x01NQ,Topical fluticasone
+x01NR,Efcortelan 1% lotion
+x01NS,Hydrocortisone eye ointment
+x01NT,Rectal hydrocortisone preparations
+x01NU,Topical compound hydrocortisone preparation
+x01NV,Framycort ointment
+x01NW,Eczederm+hydrocortisone cream
+x01NX,Barquinol-HC cream
+x01NY,Gentisone HC ointment
+x01NZ,Parenteral hydrocortisone
+x01Na,Oral hydrocortisone
+x01Nb,Oral methylprednisolone
+x01Nc,Parenteral methylprednisolone
+x01Nd,Neo-Medrone lotion
+x01Ne,Medrone lotion
+x01Nf,Mometasone
+x01Nh,Elocon ointment
+x01Nj,Elocon scalp lotion
+x01Nl,Elocon cream
+x01Nm,Parenteral prednisolone
+x01Nn,Topical prednisolone
+x01No,Prednisolone drops
+x01Np,Rectal prednisolone preparations
+x025f,Predfoam 20mg enema
+x025g,Ventodisks 200micrograms/blister disks+diskhaler
+x025h,Ventodisks 400micrograms/blister disks+diskhaler
+x025i,Ventodisks 200mcg/blister disks refill
+x025j,Ventodisks 400mcg/blister disks refill
+x026v,Chloromycetin Hydrocortisone eye ointment
+x026w,Minims Prednisolone 0.5% single-use eye drops
+x026z,Isopto Atropine 1% eye drops
+x0270,Minims Atropine sulphate 1% single-use eye drops
+x027D,Dinnefords Teejel 8.7% oral gel
+x027E,Bonjela 8.7% oral gel
+x027S,Hydrocortisone 0.5% ointment
+x027x,Robinul-Neostigmine injection
+x029g,Budesonide refill
+x029p,Phospholine iodide 0.03% eye drops
+x029q,Phospholine iodide 0.06% eye drops
+x029r,Phospholine iodide 0.125% eye drops
+x029s,Phospholine iodide 0.25% eye drops
+x02IF,Bronchodilator preparations
+x02L3,Prednisolone sodium phosphate 0.5% eye/ear drops
+x02LT,Hyoscine hydrobromide 400micrograms/1mL injection
+x02LU,Hyoscine hydrobromide 600micrograms/1mL injection
+x02M3,Dexamethasone
+x02M4,Methylprednisolone
+x02M5,Prednisolone product
+x02MR,Neostigmine
+x02Me,Hyoscine hydrobromide
+x02Mk,Budesonide product
+x02Ss,Aerobec
+x02St,Aerobec Forte
+x02Sv,Aerocrom
+x02Sy,Airomir
+x02Tg,Amnivent SR
+x02Uk,Atrovent
+x02Ul,Atrovent Forte
+x02V2,Beclazone
+x02V3,Beclazone Easi-Breathe
+x02V4,Becloforte
+x02V5,Becloforte Integra
+x02V6,Becloforte VM
+x02VA,Becotide
+x02VS,Berotec
+x02Vx,Bricanyl
+x02Vy,Bricanyl SA
+x02W7,Bronchodil
+x02XG,Choledyl
+x02Xr,Combivent
+x02af,Duovent
+x02cg,Filair
+x02ch,Filair Forte
+x02ct,Flixotide
+x02dI,Franol
+x02dJ,Franol Plus
+x02iK,Maxivent
+x02jB,Min-I-Jet Aminophylline
+x02lJ,Norphyllin
+x02lK,Norphyllin SR
+x02lT,Nuelin
+x02lU,Nuelin SA
+x02nS,Phyllocontin Continus
+x02nT,Phyllocontin Continus Forte
+x02ok,Pulmadil
+x02ol,Pulmicort LS
+x02qI,Salamol
+x02qJ,Salamol Easi-Breathe
+x02qM,Salbulin
+x02qr,Serevent
+x02r1,Slo-Phyllin
+x02sc,Theo-Dur
+x02tm,Uniphyllin Continus
+x02uC,Ventide
+x02uD,Ventolin
+x03ai,Oral budesonide
+x03cY,Foradil
+x03d8,Ventodisks
+x03d9,Pulmicort
+x03dE,Becodisks
+x03ky,Canesten Hydrocortisone cream
+x03m3,Eurax HC cream
+x03n9,Hydrocortisone acetate+neomycin sulphate 1.5%/0.5% eye drops
+x03nq,Ventolin Easi-Breathe
+x03nr,Becloforte Easi-Breathe
+x03ns,Becotide 50 Easi-Breathe
+x03nt,Becotide 100 Easi-Breathe
+x03qg,Oral moxisylyte
+x03qh,Parenteral moxisylyte
+x03qi,Topical moxisylyte
+x03rB,Oxis
+x03rE,Asmabec
+x03sV,Duovent UDV
+x03vO,Filair 50
+x040J,Vioform Hydrocortisone
+x040r,Canesten Hydrocortisone
+x041S,Eurax-Hydrocortisone
+x0423,Minims Prednisolone
+x042N,Beclazone 100
+x042O,Beclazone 100 Easi-Breathe
+x042P,Beclazone 250
+x042Q,Beclazone 250 Easi-Breathe
+x042R,Beclazone 50
+x042S,Beclazone 50 Easi-Breathe
+x042U,Becotide 100
+x042V,Becotide 200
+x042W,Becotide 50
+x042Z,Berotec 100
+x042a,Berotec 200
+x046E,Nuelin SA-250
+x046S,Amnivent 225 SR
+x047m,Aerocrom Syncroner
+x047n,Aerolin
+x048Q,Steri-Neb Cromogen
+x048R,Steri-Neb Ipratropium
+x048S,Steri-Neb Salamol
+x048T,Steri-Neb Saline
+x04cV,Singulair
+x04cW,Singulair Paediatric
+x04oi,Respontin
+x04ok,Minims Dexamethasone Na phosphate 0.1% s-d eye drops
+x04ol,Minims Dexamethasone sodium phosphate
+x04oo,Tropiovent
+x04op,Asmaven
+x04pc,Dayleve 0.1% cream
+x04pk,Beclo-aqua 50
+x04sR,Qvar
+x04sS,Qvar 50
+x04sT,Qvar 100
+x04se,Beclomist
+x04u1,Accolate
+x04uu,Beclazone 200
+x04xm,Seretide 100
+x04xn,Seretide 250
+x04xo,Seretide 500
+x04yr,Atropine sulphate 0.5% eye ointment
+x052J,Antimuscarinic drug used in parkinsonism
+x0593,Seretide 50
+x0594,Seretide 125
+x05CG,Trospium
+x05Fg,Oral salbutamol preparations
+x05Fh,Parenteral salbutamol preparations
+x05Fi,Inhaled salbutamol preparations
+x05J2,Symbicort
+x05JB,Dexamethasone+tobramycin
+x05JC,Tobradex eye drops
+x05Jz,Acetylcholine chloride - chemical
+x05Kr,Aminophylline - chemical
+x05Ks,Aminophylline hydrate - chemical
+x05Lo,Beclamide - chemical
+x05N4,Pulvinal Salbutamol
+x05N5,Pulvinal Beclomethasone
+x05YY,Daktacort HC cream
+x05gG,Spiriva
+x05kq,Respiratory mometasone
+x05kr,Nasal mometasone
+x05ks,Topical mometasone
+x05kt,Asmanex
+x05mc,Rino Clenil
+x05r8,Exe-Cort Hydrocortisone 1% cream
+x05r9,Exe-Cort Hydrocortisone
+x05tY,Novolizer Budesonide
+x05v8,Easyhaler Salbutamol
+x05wM,Alvesco
+x05yr,Atimos Modulite
+x060n,Ephedrine hydrochloride+theophylline 11mg/120mg tablet

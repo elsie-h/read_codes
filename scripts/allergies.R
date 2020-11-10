@@ -36,7 +36,8 @@ join_read <- function(data_v2, data_v3) {
 
   tmp1 %>%
     full_join(tmp2, by = 'read_term') %>%
-    select(read_term, read_code_v2, read_code_v3.2, read_code_v3)
+    select(read_term, read_code_v2, read_code_v3.2, read_code_v3) %>%
+    distinct()
 }
 
 ################################################################################
@@ -154,8 +155,8 @@ venom_allergy <- mukherjee %>%
 # the Mukherjee paper did not include drugs for allergies, 
 # will have to idenfity v2 list manually
 
-drugs <- read_csv("lists_in/OpenSafely/elsie-horne-allergy-drug-2020-11-09T17-13-02.csv") %>%
-  rename(read_code_v3 = id, read_term = term)
+# drugs <- read_csv("lists_in/OpenSafely/elsie-horne-allergy-drug-2020-11-10T09-35-38.csv") %>%
+#   rename(read_code_v3 = id, read_term = term)
 
 ################################################################################
 # Other
@@ -174,7 +175,7 @@ other_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-other-allergy-2020-11-09T1
 all <- bind_rows(anaphylaxis,
                  angioedema,
                  conjunctivitis,
-                 drugs,
+                 # drugs,
                  drug_allergy,
                  eczema,
                  food,
@@ -249,9 +250,25 @@ venom_allergy <- venom_allergy %>%
             filter(angioedema_urticaria, 
                    str_detect(read_term, 
                               regex(venom_indicator, 
-                                    ignore_case = TRUE))),
-            filter(drugs, 
-                   str_detect(read_term, 
-                              regex(venom_indicator, 
                                     ignore_case = TRUE)))
+            # ,filter(drugs, 
+            #        str_detect(read_term, 
+            #                   regex(venom_indicator, 
+            #                         ignore_case = TRUE)))
   )
+
+################################################################################
+allergies <- bind_rows(
+  mutate(anaphylaxis, variable = 'anaphylaxis'),
+  mutate(angioedema_urticaria, variable = 'angioedema or urticaria'),
+  mutate(conjunctivitis, variable = 'conjunctivitis'),
+  mutate(drug_allergy, variable = 'drug allergy'),
+  # mutate(drugs, variable = 'drugs'),
+  mutate(eczema, variable = 'eczema'),
+  mutate(food, variable = 'food allergy'),
+  mutate(other, variable = 'other'),
+  mutate(rhinitis, variable = 'rhinitis'),
+  mutate(venom_allergy, variable = 'venom allergy')) %>%
+  select(variable, everything())
+
+write.csv(allergies, file = 'lists_out/allergies.csv')

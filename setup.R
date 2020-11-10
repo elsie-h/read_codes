@@ -20,13 +20,11 @@ read_cprd <- function(name) {
     distinct()
 }
 
-# function for cleaning code lists from the Nwaru2020 paper
-clean_nwaru <- function(.data, cat1_string) {
-  .data %>%
-    gather() %>%
-    select(read_code = value) %>%
-    mutate_at('read_code', list(~ str_remove_all(., '\\\"'))) %>%
-    mutate_at('read_code', list(~ str_trim(., side = 'both'))) %>%
-    mutate(read_term = NA_character_,
-           cat2 = cat1_string)
+# function for reading code lists from the Nwaru2020 paper
+read_nwaru <- function(variable) {
+  filename <- str_c('lists_in/Nwaru2020/cl_', variable,'_nwaru')
+
+    read_table2(file = filename, col_names = FALSE) %>%
+    pivot_longer(cols = 1:ncol(.)) %>%
+    transmute(read_code = str_remove_all(value, '\\"|,'))
 }
