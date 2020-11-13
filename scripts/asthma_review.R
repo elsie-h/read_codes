@@ -17,6 +17,7 @@ asthma_review %>%
   select(read_code, contains('_v3_'))
 
 # asthma review codes are consistent across QOF v36-38
+# will have to assume that pre-36 were consistent too, as they're no longer available
 
 asthma_review <- asthma_review %>%
   mutate(read_term = if_else(!is.na(v36_v2_term), v36_v2_term, v36_v3_term)) %>%
@@ -30,4 +31,16 @@ asthma_review <- asthma_review %>%
 # check for duplicates in read_code
 asthma_review$read_code[duplicated(asthma_review$read_code)]
 
+# save the code list
 saveRDS(asthma_review, file = 'lists_out/asthma_review.RDS', compress = FALSE)
+
+# table for appendix
+asthma_review %>%
+  arrange(read_term) %>%
+  select(`Read code` = read_code, 
+         `Term` = read_term) %>%
+  xtable(caption = 'Asthma review Read codes from QOF business rules (see \\sectionref{cha:ehr:methods} for methods)',
+         label = 'tab:app:rc_asthma_review',
+         align=c('l',"p{2cm}","p{10cm}")) %>%
+  print_xtable_multi(filename = 'asthma_reviews')
+

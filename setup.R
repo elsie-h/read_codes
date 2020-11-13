@@ -6,6 +6,7 @@ library(stringr)
 library(readr)
 library(readxl)
 library(tidyr)
+library(xtable)
 
 #### Functions ####
 read_cprd <- function(name) {
@@ -27,4 +28,32 @@ read_nwaru <- function(variable) {
     read_table2(file = filename, col_names = FALSE) %>%
     pivot_longer(cols = 1:ncol(.)) %>%
     transmute(read_code = str_remove_all(value, '\\"|,'))
+}
+
+#### path for latex tables ####
+latex_table_path <- '/Users/elsiehorne/Docs/thesis_repo/thesis_tex/tables/rc_'
+
+# xtable single page
+print_xtable_single <- function(.data, filename) {
+  print(.data,
+        include.colnames = T,
+        include.rownames = F,
+        caption.placement = 'top',
+        file = str_c(latex_table_path, filename),
+        comment = F,
+        booktabs = T,
+        floating = F)
+}
+
+# xtable single page
+print_xtable_multi <- function(.data, filename) {
+  print(.data,
+        include.colnames = T,
+        include.rownames = F,
+        caption.placement = 'top',
+        file = str_c(latex_table_path, filename),
+        comment = F,
+        booktabs = T,
+        tabular.environment = "longtable",
+        floating = F)
 }
