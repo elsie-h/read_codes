@@ -222,7 +222,7 @@ asthma_drugs <- asthma_drugs %>%
 
 saveRDS(asthma_drugs, file = 'lists_out/asthma_drugs.RDS', compress = FALSE)
 
-write.csv(asthma_drugs, file = 'lists_out/asthma_drugs.csv')
+write.csv(arrange(asthma_drugs, cat2, read_term), file = 'lists_out/asthma_drugs.csv')
 
 # latex tables
 drug_list <- asthma_drugs %>%
