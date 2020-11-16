@@ -16,10 +16,11 @@ cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'SMOKASTEXC', # Refuse smoking status
                    'SPEX', # Spirometry declined
                    'ASTRES', # Asthma resolved
-                   'ASTTRT',
-                   'DEPR',
-                   'FLU',
-                   'OSTEO') # treatments
+                   'ASTTRT', # asthma treatments
+                   'DEPR', # depression
+                   'FLU', # flu vaccination
+                   'OSTEO',  # osteoporosis
+                   'COPD') # copd
 cluster_names <- str_c(cluster_names, '_COD')
 
 clean_QOF <- function(.data, 

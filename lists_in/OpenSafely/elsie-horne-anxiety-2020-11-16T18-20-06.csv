@@ -1,0 +1,220 @@
+id,term
+13WB.,Maternal: [concern] or [anxiety]
+1B1..,General nervous symptoms
+1B11.,No nervous symptoms
+1B12.,"[""Nerves""] or [nervousness] or [nervous tension]"
+1B13.,Anxiousness (& symptom)
+1B1H.,(Fear) or (frightened) or (apprehension)
+1B1Z.,General nervous symptom NOS
+E200.,Anxiety disorder
+E2000,Anxiety state unspecified
+E2002,Generalised anxiety disorder
+E2004,Chronic anxiety
+E2005,Recurrent anxiety
+E200z,Anxiety state NOS
+E202.,Phobic disorders (& [social] or [phobic anxiety])
+E2020,Phobia unspecified
+E2021,Agoraphobia with panic attacks
+E2022,Agoraphobia without mention of panic attacks
+E2023,"Social phobia, fear of eating in public"
+E2024,"Social phobia, fear of public speaking"
+E2025,"Social phobia, fear of public washing"
+E2026,Acrophobia
+E2027,Animal phobia
+E2028,Claustrophobia
+E2029,Fear of crowds
+E202A,Fear of flying
+E202B,Cancer phobia
+E202C,Dental phobia
+E202E,Fear of pregnancy
+E2920,Separation anxiety disorder
+Eu40.,[X]Phobic anxiety disorders
+Eu400,[X]Agoraphobia (& [no hist panic disord][with panic disord])
+Eu402,[X]Specif (isol) phobia (& [acro][animal][claustro][simple])
+Eu40y,[X]Other phobic anxiety disorders
+Eu40z,"[X]Phobic anxiety disorder, unspecified"
+Eu41.,[X]Other anxiety disorders
+Eu410,[X]Panic disorder [episodic paroxysmal anxiety]
+Eu412,[X]Mixed anxiety and depress disord (& mild anxiet depressn)
+Eu413,[X]Other mixed anxiety disorders
+Eu41y,[X] Anxiety disord: [other specified] or [anxiety hysteria]
+Eu41z,"[X]Anxiety disorder, unspecified"
+Eu515,[X] Nightmares or dream anxiety disorder
+Eu930,[X]Separation anxiety disorder of childhood
+Ua1Fo,Recognising anxiety (InPS+developmental)
+Ua1Fp,Acknowledging anxiety
+Ua1qS,Panic attack
+Ua1qU,Fear of walking
+Ua1qV,Fear of mobilising
+Ua1qW,Fear of disconnection from ventilator
+Ua1qX,Fear of being left alone during period of dependence
+Ua1qY,Fear of being left alone
+Ua1qa,Fear of dentist
+Ua1qc,Fear of not coping with treatment
+Ua1qd,Fear of lifts
+Ua1qe,Fear of thunderstorm
+Ua1qf,Terrified
+Ua1qg,Anxiety about treatment
+Ua1qh,Anxiety about forced dependence
+Ua1qi,Anxiety about loss of control
+Ua1qj,Anxiety about resuming sexual relations
+Ua1qk,Worried about not coping with baby
+Ua1ql,Worried about being a bad father
+Ua1qm,Worried about being a bad mother
+Ua1qn,Anxiety about not coping with parenthood
+Ua1qo,Anxiety about making mistakes
+Ua1qp,Anxiety about altered body image
+Ua1qs,Fear of wetting self in public
+Ua1qt,Fear of losing control of bowels in public
+Ua2Dl,Alleviating anxiety
+Ub0qs,Anxiety management training
+X00RP,Organic anxiety disorder
+X00SV,Agoraphobia
+X00SW,Social phobia
+X00SX,Specific phobia
+X00SY,Needle phobia
+X00SZ,Situational panic attack
+X00Sa,Non-situational panic attack
+X00Sb,Mixed anxiety and depressive disorder
+X00Sc,Anxiety hysteria
+X00Sd,Stage fright
+X00Se,Examination fear
+X761N,Anxiety and fear
+X761P,Ill-at-ease
+X761T,Anxiety about body function or health
+X761U,Fear of losing control of bowels
+X761V,Fear of wetting self
+X761W,Fear of vomiting in public
+X761X,Fear of having a fit
+X761Y,Fear of choking
+X761Z,Anxiety about blushing
+X761a,Fear of swallowing
+X761b,Fear of collapsing
+X761c,Fear of fainting
+X761d,Fear of having a heart attack
+X761e,Fear of shaking
+X761f,Fear of sweating
+X761g,Fear of dying
+X761h,Fear of going crazy
+X761i,Fear of losing emotional control
+X761j,Fear of becoming fat
+X761k,Anxiety about behaviour or performance
+X761l,Fear of appearing ridiculous
+X761m,Fear of saying the wrong thing
+X761n,Fear of going out
+X761p,Fear of empty streets
+X761q,Fear of open spaces
+X761r,Fear of crossing streets
+X761t,Fear of transport
+X761u,Social fear
+X761v,Fear of activities in public
+X761w,Fear of eating in public
+X761x,Fear of public speaking
+X761y,Fear of using public toilets
+X761z,Fear of writing in public
+X7620,Fear of social group activities
+X7621,Fear of being in a small group
+X7622,Fear of social gatherings
+X7623,Fear of speaking on the phone
+X7624,Fear of speaking to people in authority
+X7625,Fear of being laughed at
+X7626,Fear of being watched
+X7627,Specific fear
+X7628,Fear of natural phenomena
+X7629,Fear of the dark
+X762A,Fear of animals
+X762B,Fear of feathers
+X762C,Fear of enclosed spaces
+X762E,Fear of tunnels
+X762F,Fear of phone boxes
+X762G,Fear of flying
+X762H,Flying phobia
+X762I,Fear associated with illness and body function
+X762J,Fear of anaesthetic
+X762K,Fear of general anaesthetic
+X762L,Fear of awareness under general anaesthetic
+X762M,Fear of not waking from general anaesthetic
+X762N,Fear of local anaesthetic
+X762O,Fear of problem after anaesthetic
+X762R,Fear of surgical masks
+X762S,Fear of hospitals
+X762T,Fear of death
+X762U,Fear of contracting disease
+X762V,Fear of infection
+X762W,Fear of contracting venereal disease
+X762X,Fear of contracting HIV infection
+X762Y,Fear of contracting radiation sickness
+X762Z,Fear of the bogey man
+X762a,Fear of ghosts
+X762b,Fear of school
+X78wp,Apprehension
+XE0ra,Nervousness
+XE0rb,Feeling anxious
+XE0ri,Fear
+XE1Y7,Panic disorder
+XE1YA,Phobic anxiety disorder
+XE1YB,Phobic disorder NOS
+XE1Zj,[X]Other specified anxiety disorders
+XE1aW,(Anxiety state (& [states][panic attack])) or (pseudocyesis)
+XE2Po,Maternal concern
+XM00G,Separation anxiety
+XM0Ak,School phobia
+XM1OD,Hydrophobia
+Xa00r,Fear of heights
+Xa00s,Fear of water
+Xa0XB,Fear relating to body function
+Xa0XG,Anxiety about losing control of bowels
+Xa0XH,Anxiety about wetting self
+Xa0XI,Anxiety about vomiting in public
+Xa0XJ,Anxiety about having a fit
+Xa0XK,Anxiety about choking
+Xa0XM,Anxiety about swallowing
+Xa0XN,Anxiety about collapsing
+Xa0XO,Anxiety about shaking
+Xa0XP,Anxiety about sweating
+Xa0XQ,Anxiety about dying
+Xa0XR,Anxiety about going crazy
+Xa0XS,Anxiety about losing emotional control
+Xa0XU,Anxiety about becoming fat
+Xa0XX,Anxiety about fainting
+Xa0XY,Anxiety about having a heart attack
+Xa0Xc,Anxiety about appearing ridiculous
+Xa0Xd,Anxiety about saying the wrong thing
+Xa19B,Performance anxiety
+Xa1Ev,Fear of needles
+Xa1a8,Examination phobia
+Xa3Vj,Panic
+Xa3Vk,Fear of insects
+Xa3Vl,Fear of birds
+Xa3WH,Fear associated with healthcare
+Xa3WI,Fear of blood
+Xa3WJ,Fear of getting cancer
+Xa3Xk,Level of anxiety
+Xa3Ys,Character trait observations of level of anxiety
+Xa3Yt,Anxious character
+Xa3Yu,Over-anxious character
+Xa3Yv,Fearful character
+Xa7k9,Parental anxiety
+Xa7kB,Anxiety attack
+Xa7lj,Cancer phobia
+Xa7lx,Pre-examination nerves
+XaABU,Castration anxiety complex
+XaB96,Other phobias
+XaECG,Anxiety counselling
+XaEG0,Dysmorphophobia
+XaIvf,Fear of falling
+XaL0q,Referral for guided self-help for anxiety
+XaMFU,Paruresis
+XaP8d,Stranger anxiety
+XaXwe,Health anxiety inventory short week score
+Xaafv,Anxiety about breathlessness
+Xab9G,Patient given advice about management of anxiety
+Xaef0,Referral for psychological management of anxiety
+XafF0,Signposting to Anxiety UK
+Y00ef,Food phobia
+Y0a86,Social situations due to a fear of being embarrassed or making a fool of myself
+Y0a87,Certain situations because of a fear of having a panic attack or other distressing symptoms
+Y0a88,Certain situations because of a fear of particular objects or activities
+Y10e3,NDTMS - YP anxiety status
+Y1b16,IPS Anxiety/Depression level
+Y5448,Anxiety with depression
