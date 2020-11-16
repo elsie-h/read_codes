@@ -26,7 +26,7 @@ ethnicity_latex_table <- function(.data) {
   
   category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
   
-  caption <- str_c('Ethnicity Read codes for \\emph{\'', category, '\'} category (return to \\nameref{cha:ehr:methods:pre:ethnicity} methods)')
+  caption <- str_c('Read codes for \\emph{\'', category, '\'} category (return to \\nameref{cha:ehr:methods:pre:ethnicity} methods)')
   label <- str_c('tab:app:rc_', category_)
   
   table <- .data %>%

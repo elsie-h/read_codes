@@ -2,7 +2,7 @@
 # All downloaded from:
 # https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof
 
-source('ssetup.R')
+source('setup.R')
 
 cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'AST',  # Asthma
@@ -16,7 +16,10 @@ cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'SMOKASTEXC', # Refuse smoking status
                    'SPEX', # Spirometry declined
                    'ASTRES', # Asthma resolved
-                   'ASTTRT') # treatments
+                   'ASTTRT',
+                   'DEPR',
+                   'FLU',
+                   'OSTEO') # treatments
 cluster_names <- str_c(cluster_names, '_COD')
 
 clean_QOF <- function(.data, 

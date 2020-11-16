@@ -62,7 +62,7 @@ spirometry$read_code[duplicated(spirometry$read_code)]
 
 saveRDS(spirometry, file = 'lists_out/spirometry.RDS', compress = FALSE)
 
-# table for appendix: PEFR
+# table for appendix
 spirometry_table <- spirometry %>%
   mutate_at('cat2', list(~ case_when(. %in% 'FEV1FVC ratio or percent' ~ 'FEV1/FVC',
                                      . %in% '% predicted PEFR' ~ 'ppPEFR',
