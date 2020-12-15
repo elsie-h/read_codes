@@ -1,0 +1,2 @@
+The files in this subfolder were put together by myself, either through manual search using the NHS Read code browser, or by editing existing code lists.
+I put together these lists before I had decided to create a public repo for all my lists, so I'm afraid I cannot remember the exact sources!

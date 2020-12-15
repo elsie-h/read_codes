@@ -1,0 +1,1 @@
+All files in this subfolder were downloaded from [NHS Digital](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof)
