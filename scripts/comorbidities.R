@@ -31,6 +31,59 @@ comorbs_data <- bind_rows(lapply(comorbs,
                                           cat2 = x,
                                           version = 2))) 
 
+
+################################################################################
+#### Diabetes ####
+diabetes_qof <- read_csv('lists_in/QOF/QOF_codes.csv')  %>%
+  filter_at(vars(ends_with('id')), any_vars(. %in% 'DM_COD')) 
+
+# diabetes_qof %>%
+#   select(contains('_v2_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v2 the same
+# diabetes_qof %>%
+#   select(contains('_v3_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v3 the same
+
+diabetes_qof <- diabetes_qof %>%
+  mutate(read_term_qof = case_when(!is.na(v38_v2_term) ~ v38_v2_term,
+                                   !is.na(v38_v3_term) ~ v38_v3_term,
+                                   TRUE ~ NA_character_)) %>%
+  distinct(read_code, read_term_qof) %>%
+  mutate(QOF = 'Yes')
+
+diabetes <- diabetes_qof %>%
+  rename(read_term = read_term_qof)
+
+################################################################################
+#### Coronary Heart Disease ####
+CHD_qof <- read_csv('lists_in/QOF/QOF_codes.csv')  %>%
+  filter_at(vars(ends_with('id')), any_vars(. %in% 'CHD_COD')) 
+
+# CHD_qof %>%
+#   select(contains('_v2_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v2 the same
+# CHD_qof %>%
+#   select(contains('_v3_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v3 the same
+
+CHD_qof <- CHD_qof %>%
+  mutate(read_term_qof = case_when(!is.na(v38_v2_term) ~ v38_v2_term,
+                                   !is.na(v38_v3_term) ~ v38_v3_term,
+                                   TRUE ~ NA_character_)) %>%
+  distinct(read_code, read_term_qof) %>%
+  mutate(QOF = 'Yes')
+
+CHD <- CHD_qof %>%
+  rename(read_term = read_term_qof)
+
 ################################################################################
 #### Hypertension ####
 hypertension_os <- read_csv("lists_in/OpenSafely/opensafely-hypertension-2020-04-28.csv") %>%
@@ -260,8 +313,11 @@ osteoporosis <- osteoporosis_cprd %>%
 
 comorbidities_all <- bind_rows(depression %>% mutate(cat2 = 'Depression'),
                                anxiety %>% mutate(cat2 = 'Anxiety'),
+                               CHD %>% mutate(cat2 = 'CHD'),
                                copd %>% mutate(cat2 = 'COPD'),
+                               diabetes %>% mutate(cat2 = 'diabetes'),
                                gord %>% mutate(cat2 = 'GORD'),
+                               hypertension %>% mutate(cat2 = 'Hypertension'),
                                nasal_polyp %>% mutate(cat2 = 'Nasal polyps'),
                                osteoporosis %>% mutate(cat2 = 'Osteoporosis')) %>%
   mutate(cat1 = 'comorbidities') %>%

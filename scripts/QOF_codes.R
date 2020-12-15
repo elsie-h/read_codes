@@ -22,7 +22,8 @@ cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'OSTEO',  # osteoporosis
                    'HYP', # hypertension
                    'COPD', # copd
-                   'CHD') # coronary heart disease
+                   'CHD', # coronary heart disease
+                   'DM') # diabetes
 cluster_names <- str_c(cluster_names, '_COD')
 
 clean_QOF <- function(.data, 

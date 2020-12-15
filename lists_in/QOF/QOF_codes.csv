@@ -1026,6 +1026,79 @@ Eu33y,DEPR_COD,[X]Other recurrent depressive disorders,1,NA,NA,NA,DEPR_COD,[X]Ot
 Eu33z,DEPR_COD,"[X]Recurrent depressive disorder, unspecified",1,DEPR_COD,[X] Depression recurrent: [unspecified] or [monopolar NOS],1,DEPR_COD,"[X]Recurrent depressive disorder, unspecified",1,DEPR_COD,[X] Depression recurrent: [unspecified] or [monopolar NOS],1,DEPR_COD,"[X]Recurrent depressive disorder, unspecified",1,DEPR_COD,[X] Depression recurrent: [unspecified] or [monopolar NOS],1
 Eu341,DEPR_COD,[X]Dysthymia,1,NA,NA,NA,DEPR_COD,[X]Dysthymia,1,NA,NA,NA,DEPR_COD,[X]Dysthymia,1,NA,NA,NA
 Eu412,DEPR_COD,[X]Mixed anxiety and depressive disorder,1,NA,NA,NA,DEPR_COD,[X]Mixed anxiety and depressive disorder,1,NA,NA,NA,DEPR_COD,[X]Mixed anxiety and depressive disorder,1,NA,NA,NA
+C10..,DM_COD,Diabetes mellitus,1,DM_COD,Diabetes mellitus,1,DM_COD,Diabetes mellitus,1,DM_COD,Diabetes mellitus,1,DM_COD,Diabetes mellitus,1,DM_COD,Diabetes mellitus,1
+C109J,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA
+C109K,DM_COD,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1,NA,NA,NA
+C10C.,DM_COD,Diabetes mellitus autosomal dominant,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant,1,NA,NA,NA
+C10D.,DM_COD,Diabetes mellitus autosomal dominant type 2,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant type 2,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant type 2,1,NA,NA,NA
+C10E.,DM_COD,Type 1 diabetes mellitus,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus,1,NA,NA,NA
+C10E0,DM_COD,Type 1 diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with renal complications,1,NA,NA,NA
+C10E1,DM_COD,Type 1 diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ophthalmic complications,1,NA,NA,NA
+C10E2,DM_COD,Type 1 diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with neurological complications,1,NA,NA,NA
+C10E3,DM_COD,Type 1 diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with multiple complications,1,NA,NA,NA
+C10E4,DM_COD,Unstable type 1 diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type 1 diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type 1 diabetes mellitus,1,NA,NA,NA
+C10E5,DM_COD,Type 1 diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ulcer,1,NA,NA,NA
+C10E6,DM_COD,Type 1 diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gangrene,1,NA,NA,NA
+C10E7,DM_COD,Type 1 diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with retinopathy,1,NA,NA,NA
+C10E8,DM_COD,Type 1 diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus - poor control,1,NA,NA,NA
+C10E9,DM_COD,Type 1 diabetes mellitus maturity onset,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus maturity onset,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus maturity onset,1,NA,NA,NA
+C10EA,DM_COD,Type 1 diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus without complication,1,NA,NA,NA
+C10EB,DM_COD,Type 1 diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with mononeuropathy,1,NA,NA,NA
+C10EC,DM_COD,Type 1 diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with polyneuropathy,1,NA,NA,NA
+C10ED,DM_COD,Type 1 diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with nephropathy,1,NA,NA,NA
+C10EE,DM_COD,Type 1 diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA
+C10EF,DM_COD,Type 1 diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with diabetic cataract,1,NA,NA,NA
+C10EG,DM_COD,Type 1 diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with peripheral angiopathy,1,NA,NA,NA
+C10EH,DM_COD,Type 1 diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with arthropathy,1,NA,NA,NA
+C10EJ,DM_COD,Type 1 diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA
+C10EK,DM_COD,Type 1 diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent proteinuria,1,NA,NA,NA
+C10EL,DM_COD,Type 1 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA
+C10EM,DM_COD,Type 1 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidosis,1,NA,NA,NA
+C10EN,DM_COD,Type 1 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA
+C10EP,DM_COD,Type 1 diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with exudative maculopathy,1,NA,NA,NA
+C10EQ,DM_COD,Type 1 diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gastroparesis,1,NA,NA,NA
+C10ER,DM_COD,Latent autoimmune diabetes mellitus in adult,1,NA,NA,NA,DM_COD,Latent autoimmune diabetes mellitus in adult,1,NA,NA,NA,DM_COD,Latent autoimmune diabetes mellitus in adult,1,NA,NA,NA
+C10F.,DM_COD,Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus,1,NA,NA,NA
+C10F0,DM_COD,Type 2 diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with renal complications,1,NA,NA,NA
+C10F1,DM_COD,Type 2 diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ophthalmic complications,1,NA,NA,NA
+C10F2,DM_COD,Type 2 diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with neurological complications,1,NA,NA,NA
+C10F3,DM_COD,Type 2 diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with multiple complications,1,NA,NA,NA
+C10F4,DM_COD,Type 2 diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ulcer,1,NA,NA,NA
+C10F5,DM_COD,Type 2 diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with gangrene,1,NA,NA,NA
+C10F6,DM_COD,Type 2 diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with retinopathy,1,NA,NA,NA
+C10F7,DM_COD,Type 2 diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus - poor control,1,NA,NA,NA
+C10F9,DM_COD,Type 2 diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus without complication,1,NA,NA,NA
+C10FA,DM_COD,Type 2 diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with mononeuropathy,1,NA,NA,NA
+C10FB,DM_COD,Type 2 diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with polyneuropathy,1,NA,NA,NA
+C10FC,DM_COD,Type 2 diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with nephropathy,1,NA,NA,NA
+C10FD,DM_COD,Type 2 diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA
+C10FE,DM_COD,Type 2 diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with diabetic cataract,1,NA,NA,NA
+C10FF,DM_COD,Type 2 diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with peripheral angiopathy,1,NA,NA,NA
+C10FG,DM_COD,Type 2 diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with arthropathy,1,NA,NA,NA
+C10FH,DM_COD,Type 2 diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA
+C10FJ,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA
+C10FK,DM_COD,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1,NA,NA,NA
+C10FL,DM_COD,Type 2 diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with persistent proteinuria,1,NA,NA,NA
+C10FM,DM_COD,Type 2 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA
+C10FN,DM_COD,Type 2 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidosis,1,NA,NA,NA
+C10FP,DM_COD,Type 2 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA
+C10FQ,DM_COD,Type 2 diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with exudative maculopathy,1,NA,NA,NA
+C10FR,DM_COD,Type 2 diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with gastroparesis,1,NA,NA,NA
+C10FS,DM_COD,Maternally inherited diabetes mellitus,1,NA,NA,NA,DM_COD,Maternally inherited diabetes mellitus,1,NA,NA,NA,DM_COD,Maternally inherited diabetes mellitus,1,NA,NA,NA
+C10G.,DM_COD,Secondary pancreatic diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus,1,NA,NA,NA
+C10G0,DM_COD,Secondary pancreatic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus without complication,1,NA,NA,NA
+C10H.,DM_COD,Diabetes mellitus induced by non-steroid drugs,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs,1,NA,NA,NA
+C10H0,DM_COD,Diabetes mellitus induced by non-steroid drugs without complication,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs without complication,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs without complication,1,NA,NA,NA
+C10M.,DM_COD,Lipoatrophic diabetes mellitus,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus,1,NA,NA,NA
+C10M0,DM_COD,Lipoatrophic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus without complication,1,NA,NA,NA
+C10N.,DM_COD,Secondary diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus,1,NA,NA,NA
+C10N0,DM_COD,Secondary diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus without complication,1,NA,NA,NA
+C10N1,DM_COD,Cystic fibrosis related diabetes mellitus,1,NA,NA,NA,DM_COD,Cystic fibrosis related diabetes mellitus,1,NA,NA,NA,DM_COD,Cystic fibrosis related diabetes mellitus,1,NA,NA,NA
+C10P.,DM_COD,Diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Diabetes mellitus in remission,1,NA,NA,NA
+C10P0,DM_COD,Type I diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type I diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type I diabetes mellitus in remission,1,NA,NA,NA
+C10P1,DM_COD,Type II diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type II diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type II diabetes mellitus in remission,1,NA,NA,NA
+C10Q.,DM_COD,Maturity onset diabetes of the young type 5,1,NA,NA,NA,DM_COD,Maturity onset diabetes of the young type 5,1,NA,NA,NA,DM_COD,Maturity onset diabetes of the young type 5,1,NA,NA,NA
+PKyP.,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA
 65E20,FLU_COD,Seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA
 65E21,FLU_COD,First intranasal seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,First intranasal seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,First intranasal seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA
 65E22,FLU_COD,Second intranasal seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,Second intranasal seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,Second intranasal seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA
@@ -1537,6 +1610,114 @@ XSGol,NA,NA,NA,DEPR_COD,Moderate major depression,1,NA,NA,NA,DEPR_COD,Moderate m
 XSGom,NA,NA,NA,DEPR_COD,Severe major depression without psychotic features,1,NA,NA,NA,DEPR_COD,Severe major depression without psychotic features,1,NA,NA,NA,DEPR_COD,Severe major depression without psychotic features,1
 XSGon,NA,NA,NA,DEPR_COD,Severe major depression with psychotic features,1,NA,NA,NA,DEPR_COD,Severe major depression with psychotic features,1,NA,NA,NA,DEPR_COD,Severe major depression with psychotic features,1
 XSKr7,NA,NA,NA,DEPR_COD,Cotard syndrome,1,NA,NA,NA,DEPR_COD,Cotard syndrome,1,NA,NA,NA,DEPR_COD,Cotard syndrome,1
+C1010,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidosis,1
+C1011,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidosis,1,NA,NA,NA,DM_COD,Type 2 diabetes mellitus with ketoacidosis,1
+C1030,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with ketoacidotic coma,1
+C1031,NA,NA,NA,DM_COD,Type II diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with ketoacidotic coma,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with ketoacidotic coma,1
+C1080,NA,NA,NA,DM_COD,Type I diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with renal complications,1
+C1081,NA,NA,NA,DM_COD,Type I diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with ophthalmic complications,1
+C1082,NA,NA,NA,DM_COD,Type I diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with neurological complications,1
+C1083,NA,NA,NA,DM_COD,Type I diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with multiple complications,1
+C1085,NA,NA,NA,DM_COD,Type I diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with ulcer,1
+C1086,NA,NA,NA,DM_COD,Type I diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with gangrene,1
+C1087,NA,NA,NA,DM_COD,Type I diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with retinopathy,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1088,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type I diabetes mellitus - poor control,1
+C1089,NA,NA,NA,DM_COD,Type I diabetes mellitus maturity onset,1,NA,NA,NA,DM_COD,Type I diabetes mellitus maturity onset,1,NA,NA,NA,DM_COD,Type I diabetes mellitus maturity onset,1
+C1090,NA,NA,NA,DM_COD,Type II diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with renal complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with renal complications,1
+C1091,NA,NA,NA,DM_COD,Type II diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with ophthalmic complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with ophthalmic complications,1
+C1092,NA,NA,NA,DM_COD,Type II diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with neurological complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with neurological complications,1
+C1093,NA,NA,NA,DM_COD,Type II diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with multiple complications,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with multiple complications,1
+C1094,NA,NA,NA,DM_COD,Type II diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with ulcer,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with ulcer,1
+C1095,NA,NA,NA,DM_COD,Type II diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with gangrene,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with gangrene,1
+C1096,NA,NA,NA,DM_COD,Type II diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with retinopathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with retinopathy,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+C1097,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1,NA,NA,NA,DM_COD,Type II diabetes mellitus - poor control,1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X008t,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1,NA,NA,NA,DM_COD,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",1
+X40J4,NA,NA,NA,DM_COD,Type I diabetes mellitus,1,NA,NA,NA,DM_COD,Type I diabetes mellitus,1,NA,NA,NA,DM_COD,Type I diabetes mellitus,1
+X40J5,NA,NA,NA,DM_COD,Type II diabetes mellitus,1,NA,NA,NA,DM_COD,Type II diabetes mellitus,1,NA,NA,NA,DM_COD,Type II diabetes mellitus,1
+X40J6,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1,NA,NA,NA,DM_COD,Insulin treated Type 2 diabetes mellitus,1
+X40JA,NA,NA,NA,DM_COD,Secondary diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus,1
+X40JB,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus,1
+X40JC,NA,NA,NA,DM_COD,Secondary endocrine diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary endocrine diabetes mellitus,1,NA,NA,NA,DM_COD,Secondary endocrine diabetes mellitus,1
+X40JG,NA,NA,NA,DM_COD,Genetic syndromes of diabetes mellitus,1,NA,NA,NA,DM_COD,Genetic syndromes of diabetes mellitus,1,NA,NA,NA,DM_COD,Genetic syndromes of diabetes mellitus,1
+X40JI,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant,1
+X40JJ,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant type 2,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant type 2,1,NA,NA,NA,DM_COD,Diabetes mellitus autosomal dominant type 2,1
+X40JO,NA,NA,NA,DM_COD,Congenital lipoatrophic diabetes,1,NA,NA,NA,DM_COD,Congenital lipoatrophic diabetes,1,NA,NA,NA,DM_COD,Congenital lipoatrophic diabetes,1
+X40JS,NA,NA,NA,DM_COD,Hyperproinsulinemia,1,NA,NA,NA,DM_COD,Hyperproinsulinemia,1,NA,NA,NA,DM_COD,Hyperproinsulinemia,1
+X40JY,NA,NA,NA,DM_COD,Insulin-dependent diabetes mellitus secretory diarrhoea syndrome,1,NA,NA,NA,DM_COD,Insulin-dependent diabetes mellitus secretory diarrhoea syndrome,1,NA,NA,NA,DM_COD,Insulin-dependent diabetes mellitus secretory diarrhoea syndrome,1
+X40JZ,NA,NA,NA,DM_COD,Diabetes-deafness syndrome maternally transmitted,1,NA,NA,NA,DM_COD,Diabetes-deafness syndrome maternally transmitted,1,NA,NA,NA,DM_COD,Diabetes-deafness syndrome maternally transmitted,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xa4g7,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1,NA,NA,NA,DM_COD,Unstable type I diabetes mellitus,1
+Xaagd,NA,NA,NA,DM_COD,Diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Diabetes mellitus in remission,1
+Xaage,NA,NA,NA,DM_COD,Type I diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type I diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type I diabetes mellitus in remission,1
+Xaagf,NA,NA,NA,DM_COD,Type II diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type II diabetes mellitus in remission,1,NA,NA,NA,DM_COD,Type II diabetes mellitus in remission,1
+XacoB,NA,NA,NA,DM_COD,Maturity onset diabetes of the young type 5,1,NA,NA,NA,DM_COD,Maturity onset diabetes of the young type 5,1,NA,NA,NA,DM_COD,Maturity onset diabetes of the young type 5,1
+XaELP,NA,NA,NA,DM_COD,Type I diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type I diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type I diabetes mellitus without complication,1
+XaELQ,NA,NA,NA,DM_COD,Type II diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type II diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Type II diabetes mellitus without complication,1
+XaEnn,NA,NA,NA,DM_COD,Type I diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with mononeuropathy,1
+XaEno,NA,NA,NA,DM_COD,Type I diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with polyneuropathy,1
+XaEnp,NA,NA,NA,DM_COD,Type II diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with mononeuropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with mononeuropathy,1
+XaEnq,NA,NA,NA,DM_COD,Type II diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with polyneuropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with polyneuropathy,1
+XaF04,NA,NA,NA,DM_COD,Type I diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with nephropathy,1
+XaF05,NA,NA,NA,DM_COD,Type II diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with nephropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with nephropathy,1
+XaFm8,NA,NA,NA,DM_COD,Type I diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with diabetic cataract,1
+XaFmA,NA,NA,NA,DM_COD,Type II diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with diabetic cataract,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with diabetic cataract,1
+XaFmK,NA,NA,NA,DM_COD,Type I diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with peripheral angiopathy,1
+XaFmL,NA,NA,NA,DM_COD,Type I diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with arthropathy,1
+XaFmM,NA,NA,NA,DM_COD,Type I diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with neuropathic arthropathy,1
+XaFn7,NA,NA,NA,DM_COD,Type II diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with peripheral angiopathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with peripheral angiopathy,1
+XaFn8,NA,NA,NA,DM_COD,Type II diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with arthropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with arthropathy,1
+XaFn9,NA,NA,NA,DM_COD,Type II diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with neuropathic arthropathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with neuropathic arthropathy,1
+XaFWG,NA,NA,NA,DM_COD,Type I diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type I diabetes mellitus with hypoglycaemic coma,1
+XaFWI,NA,NA,NA,DM_COD,Type II diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with hypoglycaemic coma,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with hypoglycaemic coma,1
+XaIrf,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type II diabetes mellitus,1,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type II diabetes mellitus,1,NA,NA,NA,DM_COD,Hyperosmolar non-ketotic state in type II diabetes mellitus,1
+XaIzM,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent proteinuria,1
+XaIzN,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with persistent microalbuminuria,1
+XaIzQ,NA,NA,NA,DM_COD,Type II diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with persistent proteinuria,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with persistent proteinuria,1
+XaIzR,NA,NA,NA,DM_COD,Type II diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with persistent microalbuminuria,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with persistent microalbuminuria,1
+XaJlL,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary pancreatic diabetes mellitus without complication,1
+XaJlM,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs without complication,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs without complication,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs without complication,1
+XaJlQ,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes mellitus without complication,1
+XaJlR,NA,NA,NA,DM_COD,Secondary diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus without complication,1,NA,NA,NA,DM_COD,Secondary diabetes mellitus without complication,1
+XaJQp,NA,NA,NA,DM_COD,Type II diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with exudative maculopathy,1
+XaJSr,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with exudative maculopathy,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with exudative maculopathy,1
+XaJUI,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs,1,NA,NA,NA,DM_COD,Diabetes mellitus induced by non-steroid drugs,1
+XaKyW,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type 1 diabetes mellitus with gastroparesis,1
+XaKyX,NA,NA,NA,DM_COD,Type II diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with gastroparesis,1,NA,NA,NA,DM_COD,Type II diabetes mellitus with gastroparesis,1
+XaMzI,NA,NA,NA,DM_COD,Cystic fibrosis related diabetes mellitus,1,NA,NA,NA,DM_COD,Cystic fibrosis related diabetes mellitus,1,NA,NA,NA,DM_COD,Cystic fibrosis related diabetes mellitus,1
+XaOPt,NA,NA,NA,DM_COD,Maternally inherited diabetes mellitus,1,NA,NA,NA,DM_COD,Maternally inherited diabetes mellitus,1,NA,NA,NA,DM_COD,Maternally inherited diabetes mellitus,1
+XaOPu,NA,NA,NA,DM_COD,Latent autoimmune diabetes mellitus in adult,1,NA,NA,NA,DM_COD,Latent autoimmune diabetes mellitus in adult,1,NA,NA,NA,DM_COD,Latent autoimmune diabetes mellitus in adult,1
+XM1Xk,NA,NA,NA,DM_COD,Unstable diabetes,1,NA,NA,NA,DM_COD,Unstable diabetes,1,NA,NA,NA,DM_COD,Unstable diabetes,1
+XSETe,NA,NA,NA,DM_COD,Lipoatrophic diabetes,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes,1,NA,NA,NA,DM_COD,Lipoatrophic diabetes,1
+XSETH,NA,NA,NA,DM_COD,Maturity onset diabetes mellitus in young,1,NA,NA,NA,DM_COD,Maturity onset diabetes mellitus in young,1,NA,NA,NA,DM_COD,Maturity onset diabetes mellitus in young,1
+XSETK,NA,NA,NA,DM_COD,Drug-induced diabetes mellitus,1,NA,NA,NA,DM_COD,Drug-induced diabetes mellitus,1,NA,NA,NA,DM_COD,Drug-induced diabetes mellitus,1
+XSETp,NA,NA,NA,DM_COD,Diabetes mellitus due to insulin receptor antibodies,1,NA,NA,NA,DM_COD,Diabetes mellitus due to insulin receptor antibodies,1,NA,NA,NA,DM_COD,Diabetes mellitus due to insulin receptor antibodies,1
 x006a,NA,NA,NA,FLU_COD,Inactivated Influenza surface antigen sub-unit vaccine,1,NA,NA,NA,FLU_COD,Inactivated Influenza surface antigen sub-unit vaccine,1,NA,NA,NA,FLU_COD,Inactivated Influenza surface antigen sub-unit vaccine,1
 x006Z,NA,NA,NA,FLU_COD,Inactivated Influenza split virion vaccine,1,NA,NA,NA,FLU_COD,Inactivated Influenza split virion vaccine,1,NA,NA,NA,FLU_COD,Inactivated Influenza split virion vaccine,1
 x00Yd,NA,NA,NA,FLU_COD,Fluvirin vaccine prefilled syringe,1,NA,NA,NA,FLU_COD,Fluvirin vaccine prefilled syringe,1,NA,NA,NA,FLU_COD,Fluvirin vaccine prefilled syringe,1

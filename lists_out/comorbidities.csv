@@ -388,6 +388,163 @@ Y10e3,No,NDTMS - YP anxiety status,Anxiety,comorbidities
 Y1b16,No,IPS Anxiety/Depression level,Anxiety,comorbidities
 Y5448,No,Anxiety with depression,Anxiety,comorbidities
 173f.,No,Anxiety about breathlessness,Anxiety,comorbidities
+G3...,Yes,Ischaemic heart disease,CHD,comorbidities
+G30..,Yes,Acute myocardial infarction,CHD,comorbidities
+G300.,Yes,Acute anterolateral infarction,CHD,comorbidities
+G301.,Yes,Other specified anterior myocardial infarction,CHD,comorbidities
+G3010,Yes,Acute anteroapical infarction,CHD,comorbidities
+G3011,Yes,Acute anteroseptal infarction,CHD,comorbidities
+G301z,Yes,Anterior myocardial infarction NOS,CHD,comorbidities
+G302.,Yes,Acute inferolateral infarction,CHD,comorbidities
+G303.,Yes,Acute inferoposterior infarction,CHD,comorbidities
+G304.,Yes,Posterior myocardial infarction NOS,CHD,comorbidities
+G305.,Yes,Lateral myocardial infarction NOS,CHD,comorbidities
+G306.,Yes,True posterior myocardial infarction,CHD,comorbidities
+G307.,Yes,Acute subendocardial infarction,CHD,comorbidities
+G3070,Yes,Acute non-Q wave infarction,CHD,comorbidities
+G3071,Yes,Acute non-ST segment elevation myocardial infarction,CHD,comorbidities
+G308.,Yes,Inferior myocardial infarction NOS,CHD,comorbidities
+G309.,Yes,Acute Q-wave infarct,CHD,comorbidities
+G30B.,Yes,Acute posterolateral myocardial infarction,CHD,comorbidities
+G30X.,Yes,Acute transmural myocardial infarction of unspecified site,CHD,comorbidities
+G30X0,Yes,Acute ST segment elevation myocardial infarction,CHD,comorbidities
+G30y.,Yes,Other acute myocardial infarction,CHD,comorbidities
+G30y0,Yes,Acute atrial infarction,CHD,comorbidities
+G30y1,Yes,Acute papillary muscle infarction,CHD,comorbidities
+G30y2,Yes,Acute septal infarction,CHD,comorbidities
+G30yz,Yes,Other acute myocardial infarction NOS,CHD,comorbidities
+G30z.,Yes,Acute myocardial infarction NOS,CHD,comorbidities
+G31..,Yes,Other acute and subacute ischaemic heart disease,CHD,comorbidities
+G311.,Yes,Preinfarction syndrome,CHD,comorbidities
+G3110,Yes,Myocardial infarction aborted,CHD,comorbidities
+G3111,Yes,Unstable angina,CHD,comorbidities
+G3112,Yes,Angina at rest,CHD,comorbidities
+G3113,Yes,Refractory angina,CHD,comorbidities
+G3114,Yes,Worsening angina,CHD,comorbidities
+G3115,Yes,Acute coronary syndrome,CHD,comorbidities
+G311z,Yes,Preinfarction syndrome NOS,CHD,comorbidities
+G312.,Yes,Coronary thrombosis not resulting in myocardial infarction,CHD,comorbidities
+G31y.,Yes,Other acute and subacute ischaemic heart disease,CHD,comorbidities
+G31y0,Yes,Acute coronary insufficiency,CHD,comorbidities
+G31y1,Yes,Microinfarction of heart,CHD,comorbidities
+G31y2,Yes,Subendocardial ischaemia,CHD,comorbidities
+G31y3,Yes,Transient myocardial ischaemia,CHD,comorbidities
+G31yz,Yes,Other acute and subacute ischaemic heart disease NOS,CHD,comorbidities
+G32..,Yes,Old myocardial infarction,CHD,comorbidities
+G33..,Yes,Angina pectoris,CHD,comorbidities
+G330.,Yes,Angina decubitus,CHD,comorbidities
+G3300,Yes,Nocturnal angina,CHD,comorbidities
+G330z,Yes,Angina decubitus NOS,CHD,comorbidities
+G33z.,Yes,Angina pectoris NOS,CHD,comorbidities
+G33z0,Yes,Status anginosus,CHD,comorbidities
+G33z1,Yes,Stenocardia,CHD,comorbidities
+G33z2,Yes,Syncope anginosa,CHD,comorbidities
+G33z3,Yes,Angina on effort,CHD,comorbidities
+G33z4,Yes,Ischaemic chest pain,CHD,comorbidities
+G33z5,Yes,Post infarct angina,CHD,comorbidities
+G33z6,Yes,New onset angina,CHD,comorbidities
+G33z7,Yes,Stable angina,CHD,comorbidities
+G33zz,Yes,Angina pectoris NOS,CHD,comorbidities
+G34..,Yes,Other chronic ischaemic heart disease,CHD,comorbidities
+G340.,Yes,Coronary atherosclerosis,CHD,comorbidities
+G3400,Yes,Single coronary vessel disease,CHD,comorbidities
+G3401,Yes,Double coronary vessel disease,CHD,comorbidities
+G342.,Yes,Atherosclerotic cardiovascular disease,CHD,comorbidities
+G343.,Yes,Ischaemic cardiomyopathy,CHD,comorbidities
+G344.,Yes,Silent myocardial ischaemia,CHD,comorbidities
+G34y.,Yes,Other specified chronic ischaemic heart disease,CHD,comorbidities
+G34y0,Yes,Chronic coronary insufficiency,CHD,comorbidities
+G34y1,Yes,Chronic myocardial ischaemia,CHD,comorbidities
+G34yz,Yes,Other specified chronic ischaemic heart disease NOS,CHD,comorbidities
+G34z.,Yes,Other chronic ischaemic heart disease NOS,CHD,comorbidities
+G34z0,Yes,Asymptomatic coronary heart disease,CHD,comorbidities
+G35..,Yes,Subsequent myocardial infarction,CHD,comorbidities
+G350.,Yes,Subsequent myocardial infarction of anterior wall,CHD,comorbidities
+G351.,Yes,Subsequent myocardial infarction of inferior wall,CHD,comorbidities
+G353.,Yes,Subsequent myocardial infarction of other sites,CHD,comorbidities
+G35X.,Yes,Subsequent myocardial infarction of unspecified site,CHD,comorbidities
+G38..,Yes,Postoperative myocardial infarction,CHD,comorbidities
+G380.,Yes,Postoperative transmural myocardial infarction of anterior wall,CHD,comorbidities
+G381.,Yes,Postoperative transmural myocardial infarction of inferior wall,CHD,comorbidities
+G382.,Yes,Postoperative transmural myocardial infarction of other sites,CHD,comorbidities
+G383.,Yes,Postoperative transmural myocardial infarction of unspecified site,CHD,comorbidities
+G384.,Yes,Postoperative subendocardial myocardial infarction,CHD,comorbidities
+G38z.,Yes,"Postoperative myocardial infarction, unspecified",CHD,comorbidities
+G39..,Yes,Coronary microvascular disease,CHD,comorbidities
+G3y..,Yes,Other specified ischaemic heart disease,CHD,comorbidities
+G3z..,Yes,Ischaemic heart disease NOS,CHD,comorbidities
+Gyu3.,Yes,[X]Ischaemic heart diseases,CHD,comorbidities
+Gyu30,Yes,[X]Other forms of angina pectoris,CHD,comorbidities
+Gyu32,Yes,[X]Other forms of acute ischaemic heart disease,CHD,comorbidities
+Gyu33,Yes,[X]Other forms of chronic ischaemic heart disease,CHD,comorbidities
+Gyu34,Yes,[X]Acute transmural myocardial infarction of unspecified site,CHD,comorbidities
+Gyu35,Yes,[X]Subsequent myocardial infarction of other sites,CHD,comorbidities
+Gyu36,Yes,[X]Subsequent myocardial infarction of unspecified site,CHD,comorbidities
+Ua1eH,Yes,Ischaemic chest pain,CHD,comorbidities
+X2006,Yes,Triple vessel disease of the heart,CHD,comorbidities
+X2007,Yes,Angina at rest,CHD,comorbidities
+X2008,Yes,Stable angina,CHD,comorbidities
+X2009,Yes,Unstable angina,CHD,comorbidities
+X200a,Yes,Silent myocardial infarction,CHD,comorbidities
+X200A,Yes,New onset angina,CHD,comorbidities
+X200C,Yes,Myocardial ischaemia,CHD,comorbidities
+X200D,Yes,Silent myocardial ischaemia,CHD,comorbidities
+X200E,Yes,Myocardial infarction,CHD,comorbidities
+X200G,Yes,Acute Q wave infarction - anteroseptal,CHD,comorbidities
+X200H,Yes,Acute non-Q wave infarction - anteroseptal,CHD,comorbidities
+X200I,Yes,Acute Q wave infarction - anterolateral,CHD,comorbidities
+X200J,Yes,Acute non-Q wave infarction - anterolateral,CHD,comorbidities
+X200K,Yes,Acute inferior myocardial infarction,CHD,comorbidities
+X200L,Yes,Acute Q wave infarction - inferior,CHD,comorbidities
+X200M,Yes,Acute non-Q wave infarction - inferior,CHD,comorbidities
+X200N,Yes,Acute Q wave infarction - inferolateral,CHD,comorbidities
+X200O,Yes,Acute non-Q wave infarction - inferolateral,CHD,comorbidities
+X200P,Yes,Acute lateral myocardial infarction,CHD,comorbidities
+X200Q,Yes,Acute Q wave infarction - lateral,CHD,comorbidities
+X200R,Yes,Acute non-Q wave infarction - lateral,CHD,comorbidities
+X200S,Yes,Acute widespread myocardial infarction,CHD,comorbidities
+X200T,Yes,Acute Q wave infarction - widespread,CHD,comorbidities
+X200U,Yes,Acute non-Q wave infarction - widespread,CHD,comorbidities
+X200V,Yes,Acute posterior myocardial infarction,CHD,comorbidities
+X200W,Yes,Old anterior myocardial infarction,CHD,comorbidities
+X200X,Yes,Old inferior myocardial infarction,CHD,comorbidities
+X200Y,Yes,Old lateral myocardial infarction,CHD,comorbidities
+X200Z,Yes,Old posterior myocardial infarction,CHD,comorbidities
+Xa0YL,Yes,Acute anterior myocardial infarction,CHD,comorbidities
+Xa1dP,Yes,Ischaemic myocardial dysfunction,CHD,comorbidities
+Xa1dQ,Yes,Stunned myocardium,CHD,comorbidities
+Xa1dR,Yes,Hibernating myocardium,CHD,comorbidities
+Xa7nH,Yes,Exercise-induced angina,CHD,comorbidities
+XaAC3,Yes,Acute Q wave myocardial infarction,CHD,comorbidities
+XaAzi,Yes,Acute non-Q wave infarction,CHD,comorbidities
+XaD2b,Yes,Postoperative myocardial infarction,CHD,comorbidities
+XaD2d,Yes,Postoperative transmural myocardial infarction of anterior wall,CHD,comorbidities
+XaD2e,Yes,Postoperative transmural myocardial infarction of inferior wall,CHD,comorbidities
+XaD2f,Yes,Postoperative transmural myocardial infarction of other sites,CHD,comorbidities
+XaD2g,Yes,Postoperative transmural myocardial infarction of unspecified site,CHD,comorbidities
+XaD2h,Yes,Postoperative subendocardial myocardial infarction,CHD,comorbidities
+XaD2i,Yes,"Postoperative myocardial infarction, unspecified",CHD,comorbidities
+XaEgZ,Yes,Non-Q wave myocardial infarction,CHD,comorbidities
+XaEXt,Yes,Post infarct angina,CHD,comorbidities
+XaFsG,Yes,Refractory angina,CHD,comorbidities
+XaFsH,Yes,Transient myocardial ischaemia,CHD,comorbidities
+XaG1Q,Yes,Asymptomatic coronary heart disease,CHD,comorbidities
+XaIf1,Yes,First myocardial infarction,CHD,comorbidities
+XaINF,Yes,Acute coronary syndrome,CHD,comorbidities
+XaIwM,Yes,Acute ST segment elevation myocardial infarction,CHD,comorbidities
+XaIwY,Yes,Acute non-ST segment elevation myocardial infarction,CHD,comorbidities
+XaJX0,Yes,Acute posterolateral myocardial infarction,CHD,comorbidities
+XaYYq,Yes,Coronary microvascular disease,CHD,comorbidities
+XE0Uh,Yes,Acute myocardial infarction,CHD,comorbidities
+XE0Ui,Yes,Worsening angina,CHD,comorbidities
+XE0WA,Yes,Myocardial infarction (& [acute]) or coronary thrombosis,CHD,comorbidities
+XE0WC,Yes,Acute/subacute ischaemic heart disease NOS,CHD,comorbidities
+XE0WE,Yes,Heart disease: [arteriosclerotic] or [chronic ischaemic NOS],CHD,comorbidities
+XE0WG,Yes,Chronic ischaemic heart disease NOS,CHD,comorbidities
+XE2aA,Yes,Old myocardial infarction,CHD,comorbidities
+XE2uV,Yes,Ischaemic heart disease,CHD,comorbidities
+XM0rN,Yes,Coronary atherosclerosis,CHD,comorbidities
+XSDT6,Yes,Coronary artery atheroma,CHD,comorbidities
 H3100,Yes,Chronic catarrhal bronchitis,COPD,comorbidities
 H310.,Yes,Simple chronic bronchitis,COPD,comorbidities
 H310z,Yes,Simple chronic bronchitis NOS,COPD,comorbidities
@@ -516,6 +673,159 @@ X101q,Yes,Congenital lobar emphysema,COPD,comorbidities
 X102z,Yes,Bronchiolitis obliterans with usual interstitial pneumonitis,COPD,comorbidities
 Xaa7C,Yes,Eosinophilic bronchitis,COPD,comorbidities
 XE0YO,Yes,Atrophic (senile) emphysema,COPD,comorbidities
+C10..,Yes,Diabetes mellitus,diabetes,comorbidities
+C109J,Yes,Insulin treated Type 2 diabetes mellitus,diabetes,comorbidities
+C109K,Yes,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,diabetes,comorbidities
+C10C.,Yes,Diabetes mellitus autosomal dominant,diabetes,comorbidities
+C10D.,Yes,Diabetes mellitus autosomal dominant type 2,diabetes,comorbidities
+C10E.,Yes,Type 1 diabetes mellitus,diabetes,comorbidities
+C10E0,Yes,Type 1 diabetes mellitus with renal complications,diabetes,comorbidities
+C10E1,Yes,Type 1 diabetes mellitus with ophthalmic complications,diabetes,comorbidities
+C10E2,Yes,Type 1 diabetes mellitus with neurological complications,diabetes,comorbidities
+C10E3,Yes,Type 1 diabetes mellitus with multiple complications,diabetes,comorbidities
+C10E4,Yes,Unstable type 1 diabetes mellitus,diabetes,comorbidities
+C10E5,Yes,Type 1 diabetes mellitus with ulcer,diabetes,comorbidities
+C10E6,Yes,Type 1 diabetes mellitus with gangrene,diabetes,comorbidities
+C10E7,Yes,Type 1 diabetes mellitus with retinopathy,diabetes,comorbidities
+C10E8,Yes,Type 1 diabetes mellitus - poor control,diabetes,comorbidities
+C10E9,Yes,Type 1 diabetes mellitus maturity onset,diabetes,comorbidities
+C10EA,Yes,Type 1 diabetes mellitus without complication,diabetes,comorbidities
+C10EB,Yes,Type 1 diabetes mellitus with mononeuropathy,diabetes,comorbidities
+C10EC,Yes,Type 1 diabetes mellitus with polyneuropathy,diabetes,comorbidities
+C10ED,Yes,Type 1 diabetes mellitus with nephropathy,diabetes,comorbidities
+C10EE,Yes,Type 1 diabetes mellitus with hypoglycaemic coma,diabetes,comorbidities
+C10EF,Yes,Type 1 diabetes mellitus with diabetic cataract,diabetes,comorbidities
+C10EG,Yes,Type 1 diabetes mellitus with peripheral angiopathy,diabetes,comorbidities
+C10EH,Yes,Type 1 diabetes mellitus with arthropathy,diabetes,comorbidities
+C10EJ,Yes,Type 1 diabetes mellitus with neuropathic arthropathy,diabetes,comorbidities
+C10EK,Yes,Type 1 diabetes mellitus with persistent proteinuria,diabetes,comorbidities
+C10EL,Yes,Type 1 diabetes mellitus with persistent microalbuminuria,diabetes,comorbidities
+C10EM,Yes,Type 1 diabetes mellitus with ketoacidosis,diabetes,comorbidities
+C10EN,Yes,Type 1 diabetes mellitus with ketoacidotic coma,diabetes,comorbidities
+C10EP,Yes,Type 1 diabetes mellitus with exudative maculopathy,diabetes,comorbidities
+C10EQ,Yes,Type 1 diabetes mellitus with gastroparesis,diabetes,comorbidities
+C10ER,Yes,Latent autoimmune diabetes mellitus in adult,diabetes,comorbidities
+C10F.,Yes,Type 2 diabetes mellitus,diabetes,comorbidities
+C10F0,Yes,Type 2 diabetes mellitus with renal complications,diabetes,comorbidities
+C10F1,Yes,Type 2 diabetes mellitus with ophthalmic complications,diabetes,comorbidities
+C10F2,Yes,Type 2 diabetes mellitus with neurological complications,diabetes,comorbidities
+C10F3,Yes,Type 2 diabetes mellitus with multiple complications,diabetes,comorbidities
+C10F4,Yes,Type 2 diabetes mellitus with ulcer,diabetes,comorbidities
+C10F5,Yes,Type 2 diabetes mellitus with gangrene,diabetes,comorbidities
+C10F6,Yes,Type 2 diabetes mellitus with retinopathy,diabetes,comorbidities
+C10F7,Yes,Type 2 diabetes mellitus - poor control,diabetes,comorbidities
+C10F9,Yes,Type 2 diabetes mellitus without complication,diabetes,comorbidities
+C10FA,Yes,Type 2 diabetes mellitus with mononeuropathy,diabetes,comorbidities
+C10FB,Yes,Type 2 diabetes mellitus with polyneuropathy,diabetes,comorbidities
+C10FC,Yes,Type 2 diabetes mellitus with nephropathy,diabetes,comorbidities
+C10FD,Yes,Type 2 diabetes mellitus with hypoglycaemic coma,diabetes,comorbidities
+C10FE,Yes,Type 2 diabetes mellitus with diabetic cataract,diabetes,comorbidities
+C10FF,Yes,Type 2 diabetes mellitus with peripheral angiopathy,diabetes,comorbidities
+C10FG,Yes,Type 2 diabetes mellitus with arthropathy,diabetes,comorbidities
+C10FH,Yes,Type 2 diabetes mellitus with neuropathic arthropathy,diabetes,comorbidities
+C10FJ,Yes,Insulin treated Type 2 diabetes mellitus,diabetes,comorbidities
+C10FK,Yes,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,diabetes,comorbidities
+C10FL,Yes,Type 2 diabetes mellitus with persistent proteinuria,diabetes,comorbidities
+C10FM,Yes,Type 2 diabetes mellitus with persistent microalbuminuria,diabetes,comorbidities
+C10FN,Yes,Type 2 diabetes mellitus with ketoacidosis,diabetes,comorbidities
+C10FP,Yes,Type 2 diabetes mellitus with ketoacidotic coma,diabetes,comorbidities
+C10FQ,Yes,Type 2 diabetes mellitus with exudative maculopathy,diabetes,comorbidities
+C10FR,Yes,Type 2 diabetes mellitus with gastroparesis,diabetes,comorbidities
+C10FS,Yes,Maternally inherited diabetes mellitus,diabetes,comorbidities
+C10G.,Yes,Secondary pancreatic diabetes mellitus,diabetes,comorbidities
+C10G0,Yes,Secondary pancreatic diabetes mellitus without complication,diabetes,comorbidities
+C10H.,Yes,Diabetes mellitus induced by non-steroid drugs,diabetes,comorbidities
+C10H0,Yes,Diabetes mellitus induced by non-steroid drugs without complication,diabetes,comorbidities
+C10M.,Yes,Lipoatrophic diabetes mellitus,diabetes,comorbidities
+C10M0,Yes,Lipoatrophic diabetes mellitus without complication,diabetes,comorbidities
+C10N.,Yes,Secondary diabetes mellitus,diabetes,comorbidities
+C10N0,Yes,Secondary diabetes mellitus without complication,diabetes,comorbidities
+C10N1,Yes,Cystic fibrosis related diabetes mellitus,diabetes,comorbidities
+C10P.,Yes,Diabetes mellitus in remission,diabetes,comorbidities
+C10P0,Yes,Type I diabetes mellitus in remission,diabetes,comorbidities
+C10P1,Yes,Type II diabetes mellitus in remission,diabetes,comorbidities
+C10Q.,Yes,Maturity onset diabetes of the young type 5,diabetes,comorbidities
+PKyP.,Yes,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",diabetes,comorbidities
+C1010,Yes,Type 1 diabetes mellitus with ketoacidosis,diabetes,comorbidities
+C1011,Yes,Type 2 diabetes mellitus with ketoacidosis,diabetes,comorbidities
+C1030,Yes,Type 1 diabetes mellitus with ketoacidotic coma,diabetes,comorbidities
+C1031,Yes,Type II diabetes mellitus with ketoacidotic coma,diabetes,comorbidities
+C1080,Yes,Type I diabetes mellitus with renal complications,diabetes,comorbidities
+C1081,Yes,Type I diabetes mellitus with ophthalmic complications,diabetes,comorbidities
+C1082,Yes,Type I diabetes mellitus with neurological complications,diabetes,comorbidities
+C1083,Yes,Type I diabetes mellitus with multiple complications,diabetes,comorbidities
+C1085,Yes,Type I diabetes mellitus with ulcer,diabetes,comorbidities
+C1086,Yes,Type I diabetes mellitus with gangrene,diabetes,comorbidities
+C1087,Yes,Type I diabetes mellitus with retinopathy,diabetes,comorbidities
+C1088,Yes,Type I diabetes mellitus - poor control,diabetes,comorbidities
+C1089,Yes,Type I diabetes mellitus maturity onset,diabetes,comorbidities
+C1090,Yes,Type II diabetes mellitus with renal complications,diabetes,comorbidities
+C1091,Yes,Type II diabetes mellitus with ophthalmic complications,diabetes,comorbidities
+C1092,Yes,Type II diabetes mellitus with neurological complications,diabetes,comorbidities
+C1093,Yes,Type II diabetes mellitus with multiple complications,diabetes,comorbidities
+C1094,Yes,Type II diabetes mellitus with ulcer,diabetes,comorbidities
+C1095,Yes,Type II diabetes mellitus with gangrene,diabetes,comorbidities
+C1096,Yes,Type II diabetes mellitus with retinopathy,diabetes,comorbidities
+C1097,Yes,Type II diabetes mellitus - poor control,diabetes,comorbidities
+X008t,Yes,"Diabetes insipidus, diabetes mellitus, optic atrophy and deafness",diabetes,comorbidities
+X40J4,Yes,Type I diabetes mellitus,diabetes,comorbidities
+X40J5,Yes,Type II diabetes mellitus,diabetes,comorbidities
+X40J6,Yes,Insulin treated Type 2 diabetes mellitus,diabetes,comorbidities
+X40JA,Yes,Secondary diabetes mellitus,diabetes,comorbidities
+X40JB,Yes,Secondary pancreatic diabetes mellitus,diabetes,comorbidities
+X40JC,Yes,Secondary endocrine diabetes mellitus,diabetes,comorbidities
+X40JG,Yes,Genetic syndromes of diabetes mellitus,diabetes,comorbidities
+X40JI,Yes,Diabetes mellitus autosomal dominant,diabetes,comorbidities
+X40JJ,Yes,Diabetes mellitus autosomal dominant type 2,diabetes,comorbidities
+X40JO,Yes,Congenital lipoatrophic diabetes,diabetes,comorbidities
+X40JS,Yes,Hyperproinsulinemia,diabetes,comorbidities
+X40JY,Yes,Insulin-dependent diabetes mellitus secretory diarrhoea syndrome,diabetes,comorbidities
+X40JZ,Yes,Diabetes-deafness syndrome maternally transmitted,diabetes,comorbidities
+Xa4g7,Yes,Unstable type I diabetes mellitus,diabetes,comorbidities
+Xaagd,Yes,Diabetes mellitus in remission,diabetes,comorbidities
+Xaage,Yes,Type I diabetes mellitus in remission,diabetes,comorbidities
+Xaagf,Yes,Type II diabetes mellitus in remission,diabetes,comorbidities
+XacoB,Yes,Maturity onset diabetes of the young type 5,diabetes,comorbidities
+XaELP,Yes,Type I diabetes mellitus without complication,diabetes,comorbidities
+XaELQ,Yes,Type II diabetes mellitus without complication,diabetes,comorbidities
+XaEnn,Yes,Type I diabetes mellitus with mononeuropathy,diabetes,comorbidities
+XaEno,Yes,Type I diabetes mellitus with polyneuropathy,diabetes,comorbidities
+XaEnp,Yes,Type II diabetes mellitus with mononeuropathy,diabetes,comorbidities
+XaEnq,Yes,Type II diabetes mellitus with polyneuropathy,diabetes,comorbidities
+XaF04,Yes,Type I diabetes mellitus with nephropathy,diabetes,comorbidities
+XaF05,Yes,Type II diabetes mellitus with nephropathy,diabetes,comorbidities
+XaFm8,Yes,Type I diabetes mellitus with diabetic cataract,diabetes,comorbidities
+XaFmA,Yes,Type II diabetes mellitus with diabetic cataract,diabetes,comorbidities
+XaFmK,Yes,Type I diabetes mellitus with peripheral angiopathy,diabetes,comorbidities
+XaFmL,Yes,Type I diabetes mellitus with arthropathy,diabetes,comorbidities
+XaFmM,Yes,Type I diabetes mellitus with neuropathic arthropathy,diabetes,comorbidities
+XaFn7,Yes,Type II diabetes mellitus with peripheral angiopathy,diabetes,comorbidities
+XaFn8,Yes,Type II diabetes mellitus with arthropathy,diabetes,comorbidities
+XaFn9,Yes,Type II diabetes mellitus with neuropathic arthropathy,diabetes,comorbidities
+XaFWG,Yes,Type I diabetes mellitus with hypoglycaemic coma,diabetes,comorbidities
+XaFWI,Yes,Type II diabetes mellitus with hypoglycaemic coma,diabetes,comorbidities
+XaIrf,Yes,Hyperosmolar non-ketotic state in type II diabetes mellitus,diabetes,comorbidities
+XaIzM,Yes,Type 1 diabetes mellitus with persistent proteinuria,diabetes,comorbidities
+XaIzN,Yes,Type 1 diabetes mellitus with persistent microalbuminuria,diabetes,comorbidities
+XaIzQ,Yes,Type II diabetes mellitus with persistent proteinuria,diabetes,comorbidities
+XaIzR,Yes,Type II diabetes mellitus with persistent microalbuminuria,diabetes,comorbidities
+XaJlL,Yes,Secondary pancreatic diabetes mellitus without complication,diabetes,comorbidities
+XaJlM,Yes,Diabetes mellitus induced by non-steroid drugs without complication,diabetes,comorbidities
+XaJlQ,Yes,Lipoatrophic diabetes mellitus without complication,diabetes,comorbidities
+XaJlR,Yes,Secondary diabetes mellitus without complication,diabetes,comorbidities
+XaJQp,Yes,Type II diabetes mellitus with exudative maculopathy,diabetes,comorbidities
+XaJSr,Yes,Type 1 diabetes mellitus with exudative maculopathy,diabetes,comorbidities
+XaJUI,Yes,Diabetes mellitus induced by non-steroid drugs,diabetes,comorbidities
+XaKyW,Yes,Type 1 diabetes mellitus with gastroparesis,diabetes,comorbidities
+XaKyX,Yes,Type II diabetes mellitus with gastroparesis,diabetes,comorbidities
+XaMzI,Yes,Cystic fibrosis related diabetes mellitus,diabetes,comorbidities
+XaOPt,Yes,Maternally inherited diabetes mellitus,diabetes,comorbidities
+XaOPu,Yes,Latent autoimmune diabetes mellitus in adult,diabetes,comorbidities
+XM1Xk,Yes,Unstable diabetes,diabetes,comorbidities
+XSETe,Yes,Lipoatrophic diabetes,diabetes,comorbidities
+XSETH,Yes,Maturity onset diabetes mellitus in young,diabetes,comorbidities
+XSETK,Yes,Drug-induced diabetes mellitus,diabetes,comorbidities
+XSETp,Yes,Diabetes mellitus due to insulin receptor antibodies,diabetes,comorbidities
 171J.,No,Reflux cough,GORD,comorbidities
 1957.,No,Gastric reflux,GORD,comorbidities
 760L0,No,Antireflux fundoplication using thoracic approach,GORD,comorbidities
@@ -594,6 +904,156 @@ XaK99,No,Laryngopharyngeal reflux,GORD,comorbidities
 XaLCS,No,Reflux cough,GORD,comorbidities
 J10y6,No,Barrett's oesophagus,GORD,comorbidities
 J1025,No,Barrett's ulcer of oesophagus,GORD,comorbidities
+6624.,No,Borderline hyperten:yearly obs,Hypertension,comorbidities
+6627.,No,Good hypertension control,Hypertension,comorbidities
+6628.,No,Poor hypertension control,Hypertension,comorbidities
+662F.,No,Hypertension treatm. started,Hypertension,comorbidities
+662G.,No,Hypertensive treatm.changed,Hypertension,comorbidities
+662O.,No,On treatment for hypertension,Hypertension,comorbidities
+662b.,No,Moderate hypertension control,Hypertension,comorbidities
+662c.,No,Hypertension six month review,Hypertension,comorbidities
+662d.,No,Hypertension annual review,Hypertension,comorbidities
+662r.,No,Trial withdrawal of antihypertensive therapy,Hypertension,comorbidities
+7Q01.,No,High cost hypertension drugs,Hypertension,comorbidities
+8B26.,No,Antihypertensive therapy,Hypertension,comorbidities
+8BL0.,No,Patient on maximal tolerated antihypertensive therapy,Hypertension,comorbidities
+8I3N.,No,Hypertension treatment refused,Hypertension,comorbidities
+F4042,No,Blind hypertensive eye,Hypertension,comorbidities
+F4213,No,Hypertensive retinopathy,Hypertension,comorbidities
+G2...,Yes,Hypertensive disease,Hypertension,comorbidities
+G20..,Yes,Essential hypertension,Hypertension,comorbidities
+G200.,Yes,Malignant essential hypertension,Hypertension,comorbidities
+G201.,Yes,Benign essential hypertension,Hypertension,comorbidities
+G202.,Yes,Systolic hypertension,Hypertension,comorbidities
+G203.,Yes,Diastolic hypertension,Hypertension,comorbidities
+G20z.,Yes,Essential hypertension NOS,Hypertension,comorbidities
+G21..,No,Hypertensive heart disease,Hypertension,comorbidities
+G210.,No,Malignant hypertensive heart disease,Hypertension,comorbidities
+G2100,No,Malignant hypertensive heart disease without CCF,Hypertension,comorbidities
+G2101,No,Malignant hypertensive heart disease with CCF,Hypertension,comorbidities
+G211.,No,Benign hypertensive heart disease,Hypertension,comorbidities
+G2110,No,Benign hypertensive heart disease without CCF,Hypertension,comorbidities
+G2111,No,Benign hypertensive heart disease with CCF,Hypertension,comorbidities
+G21z.,No,Hypertensive heart disease NOS,Hypertension,comorbidities
+G21z0,No,"Hypertensiv:[cardiomeg][heart dis NOS, no congest card fail]",Hypertension,comorbidities
+G21z1,No,Hypertensive heart disease NOS with CCF,Hypertension,comorbidities
+G21zz,No,Hypertensive heart disease NOS,Hypertension,comorbidities
+G22..,No,Hypertensive renal disease (& [nephrosclerosis]),Hypertension,comorbidities
+G220.,No,Malignant hypertensive renal disease,Hypertension,comorbidities
+G221.,No,Benign hypertensive renal disease,Hypertension,comorbidities
+G222.,No,Hypertensive renal disease with renal failure,Hypertension,comorbidities
+G22z.,No,(Renal hypertension) or (hypertensive renal disease NOS),Hypertension,comorbidities
+G23..,No,Hypertensive heart and renal disease,Hypertension,comorbidities
+G230.,No,Malignant hypertensive heart and renal disease,Hypertension,comorbidities
+G231.,No,Benign hypertensive heart and renal disease,Hypertension,comorbidities
+G232.,No,Hypertensive heart&renal dis wth (congestive) heart failure,Hypertension,comorbidities
+G233.,No,Hypertensive heart and renal disease with renal failure,Hypertension,comorbidities
+G234.,No,Hyperten heart&renal dis+both(congestv)heart and renal fail,Hypertension,comorbidities
+G23z.,No,Hypertensive heart and renal disease NOS,Hypertension,comorbidities
+G2y..,Yes,Other specified hypertensive disease,Hypertension,comorbidities
+G2z..,Yes,Hypertensive disease NOS,Hypertension,comorbidities
+G672.,No,Hypertensive encephalopathy,Hypertension,comorbidities
+G672.,No,Hypertensive crisis,Hypertension,comorbidities
+Gyu2.,Yes,[X]Hypertensive diseases,Hypertension,comorbidities
+L122.,No,Other pre-existing hypertension in preg/childbirth/puerp,Hypertension,comorbidities
+L1220,No,Other pre-existing hypertension in preg/childb/puerp unspec,Hypertension,comorbidities
+L1221,No,Other pre-existing hypertension in preg/childb/puerp - deliv,Hypertension,comorbidities
+L1223,No,Other pre-exist hypertension in preg/childb/puerp-not deliv,Hypertension,comorbidities
+L122z,No,Other pre-existing hypertension in preg/childb/puerp NOS,Hypertension,comorbidities
+L127.,No,Pre-eclampsia or eclampsia with pre-existing hypertension,Hypertension,comorbidities
+L127z,No,Pre-eclampsia or eclampsia + pre-existing hypertension NOS,Hypertension,comorbidities
+L128.,No,Pre-exist hypertension compl preg childbirth and puerperium,Hypertension,comorbidities
+L1280,No,Pre-exist hyperten heart dis compl preg childbth+puerperium,Hypertension,comorbidities
+L1282,No,Pre-exist 2ndry hypertens comp preg childbth and puerprum,Hypertension,comorbidities
+TJC7.,No,Adverse reaction to other antihypertensives,Hypertension,comorbidities
+TJC7z,No,Adverse reaction to antihypertensives NOS,Hypertension,comorbidities
+U60C5,No,"[X]Oth antihyperten drug caus advers eff in therap use, NEC",Hypertension,comorbidities
+U60C5,No,[X] Adverse reaction to other antihypertensives,Hypertension,comorbidities
+U60C5,No,[X] Adverse reaction to antihypertensives NOS,Hypertension,comorbidities
+61462,No,Hypertension induced by oral contraceptive pill,Hypertension,comorbidities
+G24..,Yes,Secondary hypertension,Hypertension,comorbidities
+G240.,Yes,Secondary malignant hypertension,Hypertension,comorbidities
+G2400,No,Secondary malignant renovascular hypertension,Hypertension,comorbidities
+G240z,Yes,Secondary malignant hypertension NOS,Hypertension,comorbidities
+G241.,Yes,Secondary benign hypertension,Hypertension,comorbidities
+G2410,No,Secondary benign renovascular hypertension,Hypertension,comorbidities
+G241z,Yes,Secondary benign hypertension NOS,Hypertension,comorbidities
+G244.,Yes,Hypertension secondary to endocrine disorders,Hypertension,comorbidities
+G24z.,Yes,Secondary hypertension NOS,Hypertension,comorbidities
+G24z0,Yes,Secondary renovascular hypertension NOS,Hypertension,comorbidities
+G24z1,No,Hypertension secondary to drug,Hypertension,comorbidities
+G24zz,Yes,Secondary hypertension NOS,Hypertension,comorbidities
+Gyu21,No,[X]Hypertension secondary to other renal disorders,Hypertension,comorbidities
+2466.,No,O/E - BP reading raised,Hypertension,comorbidities
+2467.,No,O/E - BP reading very high,Hypertension,comorbidities
+662..,No,Cardiac disease monitoring (& [hypertension]),Hypertension,comorbidities
+6629.,No,Hypertension:follow-up default,Hypertension,comorbidities
+662H.,No,Hypertension treatm.stopped,Hypertension,comorbidities
+662P.,No,Hypertension monitoring,Hypertension,comorbidities
+8HT5.,No,Referral to hypertension clinic,Hypertension,comorbidities
+9N1y2,No,Seen in hypertension clinic,Hypertension,comorbidities
+9OI1.,No,Attends hypertension monitoring,Hypertension,comorbidities
+9OI3.,No,Hypertension monitoring offer default,Hypertension,comorbidities
+9OI4.,No,Hypertension monitoring first letter,Hypertension,comorbidities
+9OI5.,No,Hypertension monitoring second letter,Hypertension,comorbidities
+9OI6.,No,Hypertension monitoring third letter,Hypertension,comorbidities
+9OI7.,No,Hypertension monitoring verbal invite,Hypertension,comorbidities
+9OI8.,No,Hypertension monitoring telephone invite,Hypertension,comorbidities
+9OIZ.,No,Hypertens.monitoring admin.NOS,Hypertension,comorbidities
+F4211,No,Hypertensive retinopathy,Hypertension,comorbidities
+G210z,No,Malignant hypertensive heart disease NOS,Hypertension,comorbidities
+G211z,No,Benign hypertensive heart disease NOS,Hypertension,comorbidities
+Gyu20,Yes,[X]Other secondary hypertension,Hypertension,comorbidities
+L1222,No,Oth pre-exist hypert in preg/childb/puerp -del with p/n comp,Hypertension,comorbidities
+L1224,No,Other pre-exist hypertension in preg/childb/puerp + p/n comp,Hypertension,comorbidities
+L1281,No,Pre-exist hyperten heart renal dis comp preg chldbirth/puerp,Hypertension,comorbidities
+XE0Ub,Yes,Hypertension,Hypertension,comorbidities
+XE0Uc,Yes,Essential hypertension,Hypertension,comorbidities
+XE0Ud,Yes,Essential hypertension NOS,Hypertension,comorbidities
+XE0Ue,No,Hypertensive heart disease NOS without CCF,Hypertension,comorbidities
+XE0Uf,No,Hypertensive renal disease,Hypertension,comorbidities
+XE0VM,No,Hypertensive encephalopathy,Hypertension,comorbidities
+XE0W8,No,(Hypertensive disease) or (hypertension),Hypertension,comorbidities
+XE0xu,No,Pregnancy with hypertension (& [pre-existing]),Hypertension,comorbidities
+XE2NY,No,Hypertension monitoring admin.,Hypertension,comorbidities
+XE2NZ,No,Hypertension monitoring check done,Hypertension,comorbidities
+XM1Qp,No,Cardiomegaly - hypertensive,Hypertension,comorbidities
+XM1U2,No,Hypertension clinic admin.,Hypertension,comorbidities
+XM1YA,No,Hypertension monitoring,Hypertension,comorbidities
+XSDSb,Yes,Diastolic hypertension,Hypertension,comorbidities
+Xa0Cs,Yes,Labile hypertension,Hypertension,comorbidities
+Xa0kX,No,Renovascular hypertension,Hypertension,comorbidities
+Xa0lt,No,Pre-existing hypertension complicating pregnancy,Hypertension,comorbidities
+Xa3fQ,Yes,Malignant hypertension,Hypertension,comorbidities
+Xa8HD,No,On treatment for hypertension,Hypertension,comorbidities
+XaBLq,No,Antihypertensive therapy,Hypertension,comorbidities
+XaIy8,No,Moderate hypertension control,Hypertension,comorbidities
+XaIyD,No,Hypertension six month review,Hypertension,comorbidities
+XaIyE,No,Hypertension annual review,Hypertension,comorbidities
+XaJ5h,No,Patient on maximal tolerated antihypertensive therapy,Hypertension,comorbidities
+XaJYi,No,Hypertension clinical management plan,Hypertension,comorbidities
+XaM5f,No,High cost hypertension drugs,Hypertension,comorbidities
+XaM5n,No,Other specified high cost hypertension drugs,Hypertension,comorbidities
+XaM5p,No,High cost hypertension drugs NOS,Hypertension,comorbidities
+XaXOi,No,Hypertension 9 month review,Hypertension,comorbidities
+XaZWm,Yes,Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011),Hypertension,comorbidities
+XaZWn,Yes,Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011),Hypertension,comorbidities
+XaZbT,No,Hypertension resistant to drug therapy,Hypertension,comorbidities
+XaZbz,Yes,Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011),Hypertension,comorbidities
+XaZzo,No,Nocturnal hypertension,Hypertension,comorbidities
+Xab9L,Yes,Stage 1 hypertension (NICE 2011) without evidence of end organ damage,Hypertension,comorbidities
+Xab9M,Yes,Stage 1 hypertension (NICE 2011) with evidence of end organ damage,Hypertension,comorbidities
+Xafj3,No,Hypertension monitoring invitation short msg service txt msg,Hypertension,comorbidities
+Xafj4,No,Hypertension mnitoring short msg service text msg 1st invitn,Hypertension,comorbidities
+Xafj5,No,Hypertension mnitoring short msg service text msg 2nd invitn,Hypertension,comorbidities
+Xafj6,No,Hypertension mnitoring short msg service text msg 3rd invitn,Hypertension,comorbidities
+XagLb,No,Hypertension monitoring invitation email,Hypertension,comorbidities
+Y1328,No,Refractory Hypertension,Hypertension,comorbidities
+G25..,Yes,Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011),Hypertension,comorbidities
+G250.,Yes,Stage 1 hypertension (NICE 2011) without evidence of end organ damage,Hypertension,comorbidities
+G251.,Yes,Stage 1 hypertension (NICE 2011) with evidence of end organ damage,Hypertension,comorbidities
+G26..,Yes,Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011),Hypertension,comorbidities
+G28..,Yes,Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011),Hypertension,comorbidities
 2D33.,No,O/E - nasal polyp present,Nasal polyps,comorbidities
 74029,No,Excision of polyp of nasal septum,Nasal polyps,comorbidities
 74029,No,Nasal septum polypectomy,Nasal polyps,comorbidities
