@@ -1,0 +1,46 @@
+id,term
+1712.,Dry cough
+1713.,Productive cough -clear sputum
+1714.,Productive cough -green sputum
+1715.,Productive cough-yellow sputum
+1716.,(Coughing up phlegm) or (productive cough NOS)
+1717.,Night cough present
+1719.,Chesty cough
+171A.,Chronic cough
+171C.,Morning cough
+171D.,Evening cough
+171Z.,Cough symptom NOS
+173B.,Nocturnal cough / wheeze
+A33..,(Whooping cough) or (Bordetella)
+A33y.,Whooping cough - other specified organism
+A33yz,Other whooping cough NOS
+A33z.,Whooping cough NOS
+Ayu39,[X]Whooping cough due to other Bordetella species
+Ayu3A,"[X]Whooping cough, unspecified"
+H243.,Pertussis pneumonia
+H3101,Smokers' cough
+X76Hy,Productive cough
+X76Hz,Nocturnal cough
+X76I0,Cough when swallowing
+X76I1,Tracheal oesophageal fistula cough
+XE0Qw,Whooping cough
+XE0qn,Cough
+XE0qo,Productive cough NOS
+XM0Ch,C/O - cough
+XM1QR,Spasmodic cough
+Xa2kc,Persistent cough
+Xa4fM,Croupy cough
+Xa4fN,Barking cough
+Xa6a9,Increasing frequency of cough
+Xa7mD,Allergic cough
+Xa7u9,Brassy cough
+Xa7uA,Bovine cough
+Xa7uB,Effective cough
+XaBmo,Cough on exercise
+XaFwR,Unexplained cough
+XaIO1,Cough with fever
+XaLCS,Reflux cough
+XaYYO,Episodic dry cough
+Y01ed,Acute cough
+Y9896,Whooping cough - pertussis
+Y9897,Whooping cough pneumonia

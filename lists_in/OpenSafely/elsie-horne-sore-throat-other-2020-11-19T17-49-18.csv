@@ -1,0 +1,82 @@
+id,term
+2DC3.,Inflamed throat
+A34..,Streptococcal sore throat with scarlatina
+A3402,Streptococcal pharyngitis
+A3403,Streptococcal tonsillitis
+A341.,Scarlet fever
+A34z.,Streptococcal sore throat with scarlatina NOS
+A740.,Herpangina
+A772.,Viral pharyngoconjunctivitis
+A986.,Gonococcal pharyngitis
+AA1..,(Vincent's angina) or (trench mouth)
+AA11.,Acute necrotising ulcerative gingivitis
+AA12.,Vincent's angina - pharyngitis
+AA1z.,Vincent's: [angina NOS] or [laryngitis] or [tonsillitis]
+Ayu55,[X]Other Vincent's infections
+H00..,(Acute nasopharyngitis or rhinitis) or (common cold)
+H02..,Throat: [acute pharyngitis]/[sore NOS (& viral)]/[infection]
+H020.,Acute gangrenous pharyngitis
+H021.,Acute phlegmonous pharyngitis
+H022.,Acute ulcerative pharyngitis
+H023.,Acute bacterial pharyngitis
+H0230,Acute pneumococcal pharyngitis
+H0231,Acute staphylococcal pharyngitis
+H023z,Acute bacterial pharyngitis NOS
+H024.,Acute viral pharyngitis
+H025.,Allergic pharyngitis
+H02z.,Acute pharyngitis NOS
+H03..,Tonsillitis (& acute)
+H030.,Acute erythematous tonsillitis
+H031.,Acute follicular tonsillitis
+H032.,Acute ulcerative tonsillitis
+H033.,Acute catarrhal tonsillitis
+H034.,Acute gangrenous tonsillitis
+H035.,Acute bacterial tonsillitis
+H0350,Acute pneumococcal tonsillitis
+H0351,Acute staphylococcal tonsillitis
+H035z,Acute bacterial tonsillitis NOS
+H036.,Acute viral tonsillitis
+H037.,Recurrent acute tonsillitis
+H03z.,Acute tonsillitis NOS
+H050.,Acute laryngopharyngitis
+H053.,Tracheopharyngitis
+H14y6,Lingular tonsillitis
+H1y21,Pharynx or nasopharynx cellulitis
+H1y22,Parapharyngeal abscess
+H1y23,Retropharyngeal abscess
+H1y26,Pharynx or nasopharynx abscess
+H2711,Influenza with pharyngitis
+Hyu01,[X]Acute pharyngitis due to other specified organisms
+Hyu02,[X]Acute tonsillitis due to other specified organisms
+Hyu28,[X]Other abscess of pharynx
+X00mG,Pharyngitis
+X00mH,Acute herpes simplex pharyngitis
+X00mI,Acute herpes zoster pharyngitis
+X00mJ,Enteroviral lymphonodular pharyngitis
+X00mL,Glandular fever pharyngitis
+X00mN,Meningococcal pharyngitis
+X00mP,Chlamydial pharyngitis
+X00mS,Acute pharyngeal candidiasis
+X00mq,Vincent's tonsillitis
+X00mr,Acute infection of tonsillar remnant
+X00ms,Acute peritonsillitis
+X00n2,Vincent's laryngitis
+X5021,Staphylococcal scarlatina
+X70Pk,Vincent's infection
+XE0S4,Acute necrotising ulcerative gingivostomatitis
+XE0S5,Vincent's angina NOS
+XE0Xl,Common cold
+XE0Xn,Acute pharyngitis
+XE0Yn,(Ac nasopharyng)/(com cold)/(ac coryza)/(ac rhinit)/(sniffl)
+XE0Yr,Throat: [acute pharyngitis] or [infection NOS] or [sore]
+XE0Yv,Ac resp infec: [NOS][pharyngotracheitis][tracheopharyngitis]
+XE2aC,Acute tonsillitis
+Xa0lc,Acute necrotising ulcerative gingivitis
+Xa7I0,Tonsillitis
+Xa7lm,Uvulitis
+Xa9Bu,Acute lingual tonsillitis
+XaDuG,Infective pharyngitis
+XaDuI,Infective tonsillitis
+Y5293,Acute recurrent tonsillitis
+Y9313,Strep. throat and scarlatina
+Y9314,Strep.throat + scarlatina NOS

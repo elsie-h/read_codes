@@ -1,0 +1,28 @@
+code,coding_system,description,entity,list_name,upload_date
+16L..00,Read,Influenza-like symptoms,diagnostic,745 - res70: Cough/cold,2018-11-26
+171..00,Read,Cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+171..11,Read,C/O - cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+1712,Read,Dry cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+1713,Read,Productive cough -clear sputum,diagnostic,745 - res70: Cough/cold,2018-11-26
+1714,Read,Productive cough -green sputum,diagnostic,745 - res70: Cough/cold,2018-11-26
+1715,Read,Productive cough-yellow sputum,diagnostic,745 - res70: Cough/cold,2018-11-26
+1716,Read,Productive cough NOS,diagnostic,745 - res70: Cough/cold,2018-11-26
+1716.11,Read,Coughing up phlegm,diagnostic,745 - res70: Cough/cold,2018-11-26
+1719,Read,Chesty cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+1719.11,Read,Bronchial cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+171B.00,Read,Persistent cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+171F.00,Read,Cough with fever,diagnostic,745 - res70: Cough/cold,2018-11-26
+171Z.00,Read,Cough symptom NOS,diagnostic,745 - res70: Cough/cold,2018-11-26
+A33..00,Read,Whooping cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..00,Read,Acute nasopharyngitis,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..11,Read,Common cold,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..12,Read,Coryza - acute,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..13,Read,Febrile cold,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..14,Read,Nasal catarrh - acute,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..15,Read,Pyrexial cold,diagnostic,745 - res70: Cough/cold,2018-11-26
+H00..16,Read,Rhinitis - acute,diagnostic,745 - res70: Cough/cold,2018-11-26
+H07..00,Read,Chest cold,diagnostic,745 - res70: Cough/cold,2018-11-26
+H27z.11,Read,Flu like illness,diagnostic,745 - res70: Cough/cold,2018-11-26
+H27z.12,Read,Influenza like illness,diagnostic,745 - res70: Cough/cold,2018-11-26
+R062.00,Read,[D]Cough,diagnostic,745 - res70: Cough/cold,2018-11-26
+R2...13,Read,cold,diagnostic,745 - res70: Cough/cold,2018-11-26

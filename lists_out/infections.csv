@@ -1,0 +1,239 @@
+read_code_v2,read_term,cat2,read_code_v3.2,read_code_v3
+H27..,Influenza,influenza,H27..,NA
+H271.,Influenza with other respiratory manifestation,influenza,H271.,NA
+H2710,Influenza with laryngitis,influenza,H2710,NA
+H2711,Influenza with pharyngitis,influenza,NA,NA
+H271z,Influenza with respiratory manifestations NOS,influenza,H271z,NA
+H27y.,Influenza with other manifestations,influenza,H27y.,NA
+H27y0,Influenza with encephalopathy,influenza,H27y0,NA
+H27y1,Influenza with gastrointestinal tract involvement,influenza,H27y1,NA
+H27yz,Influenza with other manifestations NOS,influenza,H27yz,NA
+H29..,Avian influenza,influenza,NA,XaMih
+NA,Haemophilus influenzae septicaemia,influenza,NA,A3841
+NA,Haemophilus influenzae infection,influenza,NA,A3B5.
+NA,"[X]Haemophilus influenzae infection, unspecified",influenza,NA,Ayu3U
+NA,[X]H influenzae as cause/diseases classified/other chapters,influenza,NA,AyuKC
+NA,Acute myocarditis - influenzal,influenza,NA,G5203
+NA,Acute haemophilus influenzae laryngitis,influenza,NA,H0404
+NA,(Influenza like illness) or (influenza NOS),influenza,NA,H27z.
+NA,"[X]Flu+oth respiratory manifestations,'flu virus identified",influenza,NA,Hyu04
+NA,"[X]Influenza+other manifestations,influenza virus identified",influenza,NA,Hyu05
+NA,"[X]Influenza+oth respiratory manifestatns,virus not identifd",influenza,NA,Hyu06
+NA,"[X]Influenza with other manifestations, virus not identified",influenza,NA,Hyu07
+NA,Influenza virus,influenza,NA,X73lf
+NA,Influenza virus A and B,influenza,NA,X73lg
+NA,Influenza virus A,influenza,NA,X73lh
+NA,Influenza virus B,influenza,NA,X73li
+NA,Influenza virus C,influenza,NA,X73lj
+NA,Paramyxovirus,influenza,NA,X73lJ
+NA,Parainfluenza virus type 1,influenza,NA,X73lK
+NA,Parainfluenza virus type 2,influenza,NA,X73lL
+NA,Parainfluenza virus type 3,influenza,NA,X73lM
+NA,Parainfluenza virus type 4,influenza,NA,X73lN
+NA,Mumps virus,influenza,NA,X73lO
+NA,Parainfluenza virus,influenza,NA,Xa8VO
+NA,Encephalitis due to influenza,influenza,NA,XaC1s
+NA,Encephalitis due to influenza-virus identified,influenza,NA,XaC2H
+NA,Encephalitis due to influenza-specific virus not identified,influenza,NA,XaEGX
+NA,Influenza due to zoonotic influenza virus,influenza,NA,XaeVK
+NA,Influenza due to pandemic influenza virus,influenza,NA,XaeVL
+NA,Influenza due to seasonal influenza virus,influenza,NA,XaeVM
+NA,Influenza with pneumonia due to seasonal influenza virus,influenza,NA,XaeVN
+NA,Influenza-like symptoms,influenza,NA,XaIBK
+NA,Human parainfluenza virus detected,influenza,NA,XaPOk
+NA,Influenza due to Influenza A virus subtype H1N1,influenza,NA,XaQQp
+NA,Influenza NOS,influenza,NA,XE0YK
+NA,(Influenza NOS) or (influenza-like illness),influenza,NA,XE0ZJ
+NA,Influenza-like illness,influenza,NA,XM0rz
+NA,Flu-like illness NOS,influenza,NA,XM0s0
+NA,Swine influenza,influenza,NA,Y0b97
+NA,Pneumonia/influenza NOS,influenza,NA,Y8508
+16L..,Influenza-like symptoms,URTI,NA,NA
+171..,Cough,URTI,NA,XE0qn
+1712,Dry cough,URTI,1712,NA
+1713,Productive cough -clear sputum,URTI,1713,NA
+1714,Productive cough -green sputum,URTI,1714,NA
+1715,Productive cough-yellow sputum,URTI,1715,NA
+1716,Productive cough NOS,URTI,1716,XE0qo
+1719,Chesty cough,URTI,1719,NA
+171B.,Persistent cough,URTI,NA,Xa2kc
+171F.,Cough with fever,URTI,NA,XaIO1
+171Z.,Cough symptom NOS,URTI,171Z.,NA
+1C9..,Sore throat symptom,URTI,1C9..,XE0sE
+1C9Z.,Sore throat symptom NOS,URTI,1C9Z.,NA
+A34..,Streptococcal sore throat and scarlatina,URTI,A34..,NA
+A340.,Streptococcal sore throat,URTI,A340.,NA
+A3400,Streptococcal angina,URTI,A3400,NA
+A3401,Streptococcal laryngitis,URTI,A3401,NA
+A3402,Streptococcal pharyngitis,URTI,A3402,NA
+A3403,Streptococcal tonsillitis,URTI,A3403,NA
+A340z,Streptococcal sore throat NOS,URTI,A340z,NA
+A341.,Scarlet fever - scarlatina,URTI,A341.,NA
+A34z.,Streptococcal sore throat with scarlatina NOS,URTI,A34z.,NA
+AA1..,Vincent's angina,URTI,AA1..,NA
+AA10.,Vincent's stomatitis,URTI,NA,NA
+AA11.,Vincent's gingivitis,URTI,AA11.,NA
+AA12.,Vincent's pharyngitis,URTI,AA12.,NA
+AA1z.,Vincent's angina NOS,URTI,AA1z.,XE0S5
+H0...,Acute respiratory infections,URTI,NA,NA
+H00..,Acute nasopharyngitis,URTI,H00..,NA
+H02..,Acute pharyngitis,URTI,H02..,XE0Xn
+H021.,Acute phlegmonous pharyngitis,URTI,H021.,NA
+H022.,Acute ulcerative pharyngitis,URTI,H022.,NA
+H023.,Acute bacterial pharyngitis,URTI,H023.,NA
+H023z,Acute bacterial pharyngitis NOS,URTI,H023z,NA
+H02z.,Acute pharyngitis NOS,URTI,H02z.,NA
+H03..,Acute tonsillitis,URTI,H03..,XE2aC
+H030.,Acute erythematous tonsillitis,URTI,H030.,NA
+H031.,Acute follicular tonsillitis,URTI,H031.,NA
+H032.,Acute ulcerative tonsillitis,URTI,H032.,NA
+H033.,Acute catarrhal tonsillitis,URTI,H033.,NA
+H035.,Acute bacterial tonsillitis,URTI,H035.,NA
+H0351,Acute staphylococcal tonsillitis,URTI,H0351,NA
+H035z,Acute bacterial tonsillitis NOS,URTI,H035z,NA
+H037.,Recurrent acute tonsillitis,URTI,H037.,NA
+H03z.,Acute tonsillitis NOS,URTI,H03z.,NA
+H04..,Acute laryngitis and tracheitis,URTI,NA,NA
+H040.,Acute laryngitis,URTI,NA,NA
+H0400,Acute oedematous laryngitis,URTI,NA,NA
+H0401,Acute ulcerative laryngitis,URTI,NA,NA
+H0402,Acute catarrhal laryngitis,URTI,NA,NA
+H0403,Acute phlegmonous laryngitis,URTI,NA,NA
+H0406,Acute suppurative laryngitis,URTI,NA,NA
+H040x,Acute bacterial laryngitis unspecified,URTI,NA,NA
+H040z,Acute laryngitis NOS,URTI,NA,NA
+H041.,Acute tracheitis,URTI,NA,NA
+H0410,Acute tracheitis without obstruction,URTI,NA,NA
+H0411,Acute tracheitis with obstruction,URTI,NA,NA
+H041z,Acute tracheitis NOS,URTI,NA,NA
+H042.,Acute laryngotracheitis,URTI,NA,NA
+H0420,Acute laryngotracheitis without obstruction,URTI,NA,NA
+H0421,Acute laryngotracheitis with obstruction,URTI,NA,NA
+H042z,Acute laryngotracheitis NOS,URTI,NA,NA
+H043.,Acute epiglottitis (non strep),URTI,NA,NA
+H0430,Acute epiglottitis without obstruction,URTI,NA,NA
+H0432,Acute obstructive laryngitis,URTI,NA,NA
+H043z,Acute epiglottitis NOS,URTI,NA,NA
+H04z.,Acute laryngitis and tracheitis NOS,URTI,NA,NA
+H05..,Other acute upper respiratory infections,URTI,H05..,NA
+H050.,Acute laryngopharyngitis,URTI,H050.,NA
+H051.,Acute upper respiratory tract infection,URTI,NA,NA
+H052.,Pharyngotracheitis,URTI,NA,NA
+H053.,Tracheopharyngitis,URTI,H053.,NA
+H054.,Recurrent upper respiratory tract infection,URTI,H054.,NA
+H055.,Pharyngolaryngitis,URTI,NA,NA
+H05y.,Other upper respiratory infections of multiple sites,URTI,H05y.,NA
+H05z.,Upper respiratory infection NOS,URTI,H05z.,XE0Xq
+H0y..,Other specified acute respiratory infections,URTI,NA,NA
+H0z..,Acute respiratory infection NOS,URTI,NA,NA
+H14y5,Caseous tonsillitis,URTI,NA,NA
+H14y6,Lingular tonsillitis,URTI,H14y6,NA
+H1601,Chronic catarrhal laryngitis,URTI,NA,NA
+H27z.,Flu like illness,URTI,NA,NA
+Hyu0.,[X]Acute upper respiratory infections,URTI,NA,NA
+Hyu01,[X]Acute pharyngitis due to other specified organisms,URTI,Hyu01,NA
+Hyu02,[X]Acute tonsillitis due to other specified organisms,URTI,Hyu02,NA
+J083.,Oral cellulitis and abscess,URTI,NA,NA
+J0836,Uvulitis,URTI,NA,Xa7lm
+R041.,[D]Throat pain,URTI,NA,NA
+R062.,[D]Cough,URTI,NA,NA
+R2...,cold,URTI,NA,NA
+NA,Night cough present,URTI,NA,1717
+NA,Chronic cough,URTI,NA,171A.
+NA,Morning cough,URTI,NA,171C.
+NA,Evening cough,URTI,NA,171D.
+NA,Nocturnal cough / wheeze,URTI,NA,173B.
+NA,Has a sore throat,URTI,NA,1C92.
+NA,Inflamed throat,URTI,NA,2DC3.
+NA,Herpangina,URTI,NA,A740.
+NA,Viral pharyngoconjunctivitis,URTI,NA,A772.
+NA,Gonococcal pharyngitis,URTI,NA,A986.
+NA,[X]Other Vincent's infections,URTI,NA,Ayu55
+NA,Acute gangrenous pharyngitis,URTI,NA,H020.
+NA,Acute pneumococcal pharyngitis,URTI,NA,H0230
+NA,Acute staphylococcal pharyngitis,URTI,NA,H0231
+NA,Acute viral pharyngitis,URTI,NA,H024.
+NA,Allergic pharyngitis,URTI,NA,H025.
+NA,Acute gangrenous tonsillitis,URTI,NA,H034.
+NA,Acute pneumococcal tonsillitis,URTI,NA,H0350
+NA,Acute viral tonsillitis,URTI,NA,H036.
+NA,Acute viral laryngitis unspecified,URTI,NA,H040w
+NA,Chronic infective rhinitis,URTI,NA,H1204
+NA,Peritonsillar abscess,URTI,NA,H15..
+NA,Pharynx or nasopharynx cellulitis,URTI,NA,H1y21
+NA,Parapharyngeal abscess,URTI,NA,H1y22
+NA,Retropharyngeal abscess,URTI,NA,H1y23
+NA,Pharynx or nasopharynx abscess,URTI,NA,H1y26
+NA,Abscess of vocal cords,URTI,NA,H1y50
+NA,Abscess of larynx,URTI,NA,H1y75
+NA,Influenza with pharyngitis,URTI,NA,H2711
+NA,[X]Other acute upper respiratory infections/multiple sites,URTI,NA,Hyu03
+NA,[X]Other abscess of pharynx,URTI,NA,Hyu28
+NA,Abscess of nasal cavity,URTI,NA,X00lM
+NA,Pharyngitis,URTI,NA,X00mG
+NA,Acute herpes simplex pharyngitis,URTI,NA,X00mH
+NA,Acute herpes zoster pharyngitis,URTI,NA,X00mI
+NA,Enteroviral lymphonodular pharyngitis,URTI,NA,X00mJ
+NA,Glandular fever pharyngitis,URTI,NA,X00mL
+NA,Meningococcal pharyngitis,URTI,NA,X00mN
+NA,Chlamydial pharyngitis,URTI,NA,X00mP
+NA,Vincent's tonsillitis,URTI,NA,X00mq
+NA,Acute infection of tonsillar remnant,URTI,NA,X00mr
+NA,Acute peritonsillitis,URTI,NA,X00ms
+NA,Acute pharyngeal candidiasis,URTI,NA,X00mS
+NA,Vincent's laryngitis,URTI,NA,X00n2
+NA,Viral epiglottitis,URTI,NA,X00n7
+NA,Acute upper respiratory infection,URTI,NA,X1002
+NA,Viral upper respiratory tract infection NOS,URTI,NA,X1003
+NA,Streptococcal stomatitis,URTI,NA,X20RL
+NA,Staphylococcal scarlatina,URTI,NA,X5021
+NA,Cutaneous streptococcal ulcer,URTI,NA,X70IA
+NA,Vincent's infection,URTI,NA,X70Pk
+NA,Rhinovirus,URTI,NA,X73mX
+NA,Human rhinovirus,URTI,NA,X73mY
+NA,Supraglottic abscess,URTI,NA,X76bv
+NA,Subglottic abscess,URTI,NA,X76c1
+NA,Productive cough,URTI,NA,X76Hy
+NA,Nocturnal cough,URTI,NA,X76Hz
+NA,Cough when swallowing,URTI,NA,X76I0
+NA,Tracheal oesophageal fistula cough,URTI,NA,X76I1
+NA,Acute necrotising ulcerative gingivitis,URTI,NA,Xa0lc
+NA,Viral upper respiratory tract infection,URTI,NA,Xa1sb
+NA,Infection of the upper respiratory tract,URTI,NA,Xa2o8
+NA,Croupy cough,URTI,NA,Xa4fM
+NA,Barking cough,URTI,NA,Xa4fN
+NA,Increasing frequency of cough,URTI,NA,Xa6a9
+NA,Tonsillitis,URTI,NA,Xa7I0
+NA,Allergic cough,URTI,NA,Xa7mD
+NA,Brassy cough,URTI,NA,Xa7u9
+NA,Bovine cough,URTI,NA,Xa7uA
+NA,Effective cough,URTI,NA,Xa7uB
+NA,Acute viral laryngotracheitis,URTI,NA,Xa86D
+NA,Acute lingual tonsillitis,URTI,NA,Xa9Bu
+NA,Sore throat,URTI,NA,Xa9zW
+NA,Cough on exercise,URTI,NA,XaBmo
+NA,Infective pharyngitis,URTI,NA,XaDuG
+NA,Infective laryngitis,URTI,NA,XaDuH
+NA,Infective tonsillitis,URTI,NA,XaDuI
+NA,Unexplained cough,URTI,NA,XaFwR
+NA,Reflux cough,URTI,NA,XaLCS
+NA,Episodic dry cough,URTI,NA,XaYYO
+NA,Acute necrotising ulcerative gingivostomatitis,URTI,NA,XE0S4
+NA,Throat symptoms (& sore throat symptom),URTI,NA,XE0vJ
+NA,Common cold,URTI,NA,XE0Xl
+NA,Nasal septal abscess,URTI,NA,XE0Y9
+NA,(Ac nasopharyng)/(com cold)/(ac coryza)/(ac rhinit)/(sniffl),URTI,NA,XE0Yn
+NA,Throat: [acute pharyngitis] or [infection NOS] or [sore],URTI,NA,XE0Yr
+NA,Ac resp infec: [NOS][pharyngotracheitis][tracheopharyngitis],URTI,NA,XE0Yv
+NA,Abscess of nose (& septum),URTI,NA,XE0Z7
+NA,C/O - cough,URTI,NA,XM0Ch
+NA,Nasal abscess,URTI,NA,XM0rr
+NA,Spasmodic cough,URTI,NA,XM1QR
+NA,Nasal infection,URTI,NA,XM1QU
+NA,Acute cough,URTI,NA,Y01ed
+NA,Infection of upper respiratory tract caused by severe acute respiratory syndrome coronavirus 2 (disorder),URTI,NA,Y210b
+NA,Acute recurrent tonsillitis,URTI,NA,Y5293
+NA,Strep. throat and scarlatina,URTI,NA,Y9313
+NA,Strep.throat + scarlatina NOS,URTI,NA,Y9314
+NA,Whooping cough - pertussis,URTI,NA,Y9896
+NA,Whooping cough pneumonia,URTI,NA,Y9897

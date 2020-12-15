@@ -27,3 +27,14 @@ asthma_plan <- read_delim("lists_in/Elsie/cl_asthma_plan_elsie",
 asthma_plan$read_code[duplicated(asthma_plan$read_code)]
 
 saveRDS(asthma_plan, file = 'lists_out/asthma_plan.RDS', compress = FALSE)
+
+# table for appendix
+asthma_plan %>%
+  arrange(read_term) %>%
+  select(`Read code` = read_code, 
+         `Term` = read_term) %>%
+  xtable(caption = 'Read codes from emergency asthma management plan (see \\nameref{cha:ehr:methods:pre:asthma_plan} for methods)',
+         label = 'tab:app:rc_asthma_plan',
+         align=c('l',"p{2cm}","p{10cm}")) %>%
+  print_xtable_multi(filename = 'asthma_plan')
+

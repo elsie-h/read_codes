@@ -1,0 +1,739 @@
+read_code,QOF,read_term,cat2,cat1
+8BK0.,No,Depression management programme,Depression,comorbidities
+8CAa.,No,Patient given advice about management of depression,Depression,comorbidities
+8HHq.,No,Referral for guided self-help for depression,Depression,comorbidities
+9H90.,No,Depression annual review,Depression,comorbidities
+9H91.,No,Depression medication review,Depression,comorbidities
+9H92.,No,Depression interim review,Depression,comorbidities
+9HA0.,No,On depression register,Depression,comorbidities
+9k40.,No,Depression - enhanced service completed,Depression,comorbidities
+9k4..,No,Depression - enhanced services administration,Depression,comorbidities
+9kQ..,No,On full dose long term treatment depression - enh serv admin,Depression,comorbidities
+9Ov0.,No,Depression monitoring first letter,Depression,comorbidities
+9Ov1.,No,Depression monitoring second letter,Depression,comorbidities
+9Ov2.,No,Depression monitoring third letter,Depression,comorbidities
+9Ov3.,No,Depression monitoring verbal invite,Depression,comorbidities
+9Ov4.,No,Depression monitoring telephone invite,Depression,comorbidities
+9Ov..,No,Depression monitoring administration,Depression,comorbidities
+E0013,Yes,Presenile dementia with depression,Depression,comorbidities
+E0021,Yes,Senile dementia with depression,Depression,comorbidities
+E0043,No,Arteriosclerotic dementia with depression,Depression,comorbidities
+E1120,Yes,"Single major depressive episode, unspecified",Depression,comorbidities
+E1121,Yes,"Single major depressive episode, mild",Depression,comorbidities
+E1122,Yes,"Single major depressive episode, moderate",Depression,comorbidities
+E1123,Yes,"Single major depressive episode, severe, without mention of psychosis",Depression,comorbidities
+E1124,Yes,"Single major depressive episode, severe, with psychosis",Depression,comorbidities
+E1125,Yes,"Single major depressive episode, in partial or unspecified remission",Depression,comorbidities
+E1126,Yes,"Single major depressive episode, in full remission",Depression,comorbidities
+E112.,Yes,Single major depressive episode,Depression,comorbidities
+E112z,Yes,Single major depressive episode NOS,Depression,comorbidities
+E1130,Yes,"Recurrent major depressive episodes, unspecified",Depression,comorbidities
+E1131,Yes,"Recurrent major depressive episodes, mild",Depression,comorbidities
+E1132,Yes,"Recurrent major depressive episodes, moderate",Depression,comorbidities
+E1133,Yes,"Recurrent major depressive episodes, severe, without mention of psychosis",Depression,comorbidities
+E1134,Yes,"Recurrent major depressive episodes, severe, with psychosis",Depression,comorbidities
+E1135,Yes,"Recurrent major depressive episodes, in partial or unspecified remission",Depression,comorbidities
+E1136,Yes,"Recurrent major depressive episodes, in full remission",Depression,comorbidities
+E1137,Yes,Recurrent depression,Depression,comorbidities
+E113.,Yes,Recurrent major depressive episode,Depression,comorbidities
+E113z,Yes,Recurrent major depressive episode NOS,Depression,comorbidities
+E118.,Yes,Seasonal affective disorder,Depression,comorbidities
+E11..,No,Depressive psychoses,Depression,comorbidities
+E11y2,Yes,Atypical depressive disorder,Depression,comorbidities
+E11z2,Yes,Masked depression,Depression,comorbidities
+E130.,Yes,Reactive depressive psychosis,Depression,comorbidities
+E135.,Yes,Agitated depression,Depression,comorbidities
+E2003,Yes,Anxiety with depression,Depression,comorbidities
+E291.,Yes,Prolonged depressive reaction,Depression,comorbidities
+E2B1.,Yes,Chronic depression,Depression,comorbidities
+E2B..,Yes,Depressive disorder NEC,Depression,comorbidities
+Eu204,Yes,[X]Post-schizophrenic depression,Depression,comorbidities
+Eu251,Yes,"[X]Schizoaffective disorder, depressive type",Depression,comorbidities
+Eu320,Yes,[X]Mild depressive episode,Depression,comorbidities
+Eu321,Yes,[X]Moderate depressive episode,Depression,comorbidities
+Eu322,Yes,[X]Severe depressive episode without psychotic symptoms,Depression,comorbidities
+Eu323,Yes,[X]Severe depressive episode with psychotic symptoms,Depression,comorbidities
+Eu324,Yes,[X]Mild depression,Depression,comorbidities
+Eu325,Yes,"[X]Major depression, mild",Depression,comorbidities
+Eu326,Yes,"[X]Major depression, moderately severe",Depression,comorbidities
+Eu327,Yes,"[X]Major depression, severe without psychotic symptoms",Depression,comorbidities
+Eu328,Yes,"[X]Major depression, severe with psychotic symptoms",Depression,comorbidities
+Eu329,No,"[X]Single major depr ep, severe with psych, psych in remiss",Depression,comorbidities
+Eu32A,No,"[X]Recurr major depr ep, severe with psych, psych in remiss",Depression,comorbidities
+Eu32.,Yes,[X]Depressive episode,Depression,comorbidities
+Eu32y,Yes,[X]Other depressive episodes,Depression,comorbidities
+Eu32z,Yes,"[X]Depressive episode, unspecified",Depression,comorbidities
+Eu330,Yes,"[X]Recurrent depressive disorder, current episode mild",Depression,comorbidities
+Eu331,Yes,"[X]Recurrent depressive disorder, current episode moderate",Depression,comorbidities
+Eu332,Yes,"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms",Depression,comorbidities
+Eu333,Yes,"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms",Depression,comorbidities
+Eu334,Yes,"[X]Recurrent depressive disorder, currently in remission",Depression,comorbidities
+Eu33.,Yes,[X]Recurrent depressive disorder,Depression,comorbidities
+Eu33y,Yes,[X]Other recurrent depressive disorders,Depression,comorbidities
+Eu33z,Yes,"[X]Recurrent depressive disorder, unspecified",Depression,comorbidities
+Eu341,Yes,[X]Dysthymia,Depression,comorbidities
+Eu412,Yes,[X]Mixed anxiety and depressive disorder,Depression,comorbidities
+E1154,No,"Bipolar affect disord, now depressed, severe with psychosis",Depression,comorbidities
+E2112,No,Dysthymia,Depression,comorbidities
+Eu413,No,[X]Other mixed anxiety disorders,Depression,comorbidities
+X00S8,Yes,Post-schizophrenic depression,Depression,comorbidities
+X00SO,Yes,Depressive disorder,Depression,comorbidities
+X00SQ,Yes,Agitated depression,Depression,comorbidities
+X00SR,Yes,Endogenous depression,Depression,comorbidities
+X00SS,Yes,Endogenous depression first episode,Depression,comorbidities
+X00SU,Yes,Masked depression,Depression,comorbidities
+X00Sb,Yes,Mixed anxiety and depressive disorder,Depression,comorbidities
+X761L,Yes,Seasonal affective disorder,Depression,comorbidities
+XE1Y0,Yes,Single major depressive episode,Depression,comorbidities
+XE1Y1,Yes,Recurrent major depressive episodes,Depression,comorbidities
+XE1YC,Yes,Reactive depression,Depression,comorbidities
+XE1YD,No,Neurasthenia,Depression,comorbidities
+XE1ZY,Yes,[X]Severe depressive episode without psychotic symptoms,Depression,comorbidities
+XE1ZZ,Yes,[X]Severe depressive episode with psychotic symptoms,Depression,comorbidities
+XE1Za,Yes,[X]Other depressive episodes,Depression,comorbidities
+XE1Zb,Yes,"[X]Depressive episode, unspecified",Depression,comorbidities
+XE1Zc,No,[X]Recurrent depressive disorder,Depression,comorbidities
+XE1Zd,Yes,"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms",Depression,comorbidities
+XE1Ze,Yes,"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms",Depression,comorbidities
+XE1Zf,Yes,"[X]Recurrent depressive disorder, unspecified",Depression,comorbidities
+XE2un,No,"Schizoaffective disorder, depressive type",Depression,comorbidities
+XM1GC,Yes,Endogenous depression - recurrent,Depression,comorbidities
+XSEGJ,Yes,Major depressive disorder,Depression,comorbidities
+XSGok,Yes,Mild major depression,Depression,comorbidities
+XSGol,Yes,Moderate major depression,Depression,comorbidities
+XSGom,Yes,Severe major depression without psychotic features,Depression,comorbidities
+XSGon,Yes,Severe major depression with psychotic features,Depression,comorbidities
+XSKr7,Yes,Cotard syndrome,Depression,comorbidities
+Xa0wV,Yes,Recurrent brief depressive disorder,Depression,comorbidities
+XaB9J,Yes,Depression NOS,Depression,comorbidities
+XaCHo,No,"[X]Manic-depress psychosis,depressd,no psychotic symptoms",Depression,comorbidities
+XaCHr,Yes,[X] Single episode agitated depression without psychotic symptoms,Depression,comorbidities
+XaCHs,Yes,[X] Single episode major depression without psychotic symptoms,Depression,comorbidities
+XaCIs,Yes,Mild depression,Depression,comorbidities
+XaCIt,Yes,Moderate depression,Depression,comorbidities
+XaCIu,Yes,Severe depression,Depression,comorbidities
+XaX53,No,"Single major depress ep, severe with psych, psych in remissn",Depression,comorbidities
+XaX54,No,"Recurr major depress ep, severe with psych, psych in remissn",Depression,comorbidities
+XagU1,Yes,"Recurrent reactive depressive episodes, severe, with psychosis",Depression,comorbidities
+XagUK,Yes,Prolonged single episode of reactive depression,Depression,comorbidities
+XE1aY,Yes,Depression: [reactive (neurotic)] or [postnatal],Depression,comorbidities
+1B1H.,No,Fear,Anxiety,comorbidities
+1B1V.,No,C/O - panic attack,Anxiety,comorbidities
+1Bb..,No,Specific fear,Anxiety,comorbidities
+225J.,No,O/E - panic attack,Anxiety,comorbidities
+225K.,No,O/E - fearful mood,Anxiety,comorbidities
+285..,No,"Neurotic condition, insight present",Anxiety,comorbidities
+286..,No,Poor insight into neurotic condition,Anxiety,comorbidities
+8G52.,No,Antiphobic therapy,Anxiety,comorbidities
+8G94.,No,Anxiety management training,Anxiety,comorbidities
+8HHp.,No,Referral for guided self-help for anxiety,Anxiety,comorbidities
+9N54.,No,Encounter for fear,Anxiety,comorbidities
+E2000,No,Anxiety state unspecified,Anxiety,comorbidities
+E2001,No,Panic disorder,Anxiety,comorbidities
+E2001,No,Panic attack,Anxiety,comorbidities
+E2002,No,Generalised anxiety disorder,Anxiety,comorbidities
+E2003,No,Anxiety with depression,Anxiety,comorbidities
+E2004,No,Chronic anxiety,Anxiety,comorbidities
+E2005,No,Recurrent anxiety,Anxiety,comorbidities
+E200.,No,Anxiety states,Anxiety,comorbidities
+E200z,No,Anxiety state NOS,Anxiety,comorbidities
+E201B,No,Compensation neurosis,Anxiety,comorbidities
+E2020,No,Phobia unspecified,Anxiety,comorbidities
+E2021,No,Agoraphobia with panic attacks,Anxiety,comorbidities
+E2022,No,Agoraphobia without mention of panic attacks,Anxiety,comorbidities
+E2023,No,"Social phobia, fear of eating in public",Anxiety,comorbidities
+E2024,No,"Social phobia, fear of public speaking",Anxiety,comorbidities
+E2025,No,"Social phobia, fear of public washing",Anxiety,comorbidities
+E2026,No,Acrophobia,Anxiety,comorbidities
+E2027,No,Animal phobia,Anxiety,comorbidities
+E2028,No,Claustrophobia,Anxiety,comorbidities
+E2029,No,Fear of crowds,Anxiety,comorbidities
+E202A,No,Fear of flying,Anxiety,comorbidities
+E202B,No,Cancer phobia,Anxiety,comorbidities
+E202C,No,Dental phobia,Anxiety,comorbidities
+E202D,No,Fear of death,Anxiety,comorbidities
+E202.,No,Phobic disorders,Anxiety,comorbidities
+E202.,No,Social phobic disorders,Anxiety,comorbidities
+E202.,No,Phobic anxiety,Anxiety,comorbidities
+E202E,No,Fear of pregnancy,Anxiety,comorbidities
+E202z,No,Phobic disorder NOS,Anxiety,comorbidities
+E20..,No,Neurotic disorders,Anxiety,comorbidities
+E20y1,No,Writer's cramp neurosis,Anxiety,comorbidities
+E20y2,No,Other occupational neurosis,Anxiety,comorbidities
+E20y3,No,Psychasthenic neurosis,Anxiety,comorbidities
+E20y.,No,Other neurotic disorders,Anxiety,comorbidities
+E20yz,No,Other neurotic disorder NOS,Anxiety,comorbidities
+E20z.,No,Neurotic disorder NOS,Anxiety,comorbidities
+Eu341,No,[X]Depressive neurosis,Anxiety,comorbidities
+Eu341,No,[X]Neurotic depression,Anxiety,comorbidities
+Eu341,No,[X]Persistant anxiety depression,Anxiety,comorbidities
+Eu400,No,[X]Agoraphobia,Anxiety,comorbidities
+Eu400,No,[X]Agoraphobia without history of panic disorder,Anxiety,comorbidities
+Eu400,No,[X]Panic disorder with agoraphobia,Anxiety,comorbidities
+Eu401,No,[X]Social phobias,Anxiety,comorbidities
+Eu401,No,[X]Social neurosis,Anxiety,comorbidities
+Eu402,No,[X]Specific (isolated) phobias,Anxiety,comorbidities
+Eu402,No,[X]Acrophobia,Anxiety,comorbidities
+Eu402,No,[X]Animal phobias,Anxiety,comorbidities
+Eu402,No,[X]Claustrophobia,Anxiety,comorbidities
+Eu402,No,[X]Simple phobia,Anxiety,comorbidities
+Eu403,No,[X]Needle phobia,Anxiety,comorbidities
+Eu40.,No,[X]Phobic anxiety disorders,Anxiety,comorbidities
+Eu40y,No,[X]Other phobic anxiety disorders,Anxiety,comorbidities
+Eu40z,No,"[X]Phobic anxiety disorder, unspecified",Anxiety,comorbidities
+Eu40z,No,[X]Phobia NOS,Anxiety,comorbidities
+Eu40z,No,[X]Phobic state NOS,Anxiety,comorbidities
+Eu410,No,[X]Panic disorder [episodic paroxysmal anxiety],Anxiety,comorbidities
+Eu410,No,[X]Panic attack,Anxiety,comorbidities
+Eu410,No,[X]Panic state,Anxiety,comorbidities
+Eu411,No,[X]Generalized anxiety disorder,Anxiety,comorbidities
+Eu411,No,[X]Anxiety neurosis,Anxiety,comorbidities
+Eu411,No,[X]Anxiety reaction,Anxiety,comorbidities
+Eu411,No,[X]Anxiety state,Anxiety,comorbidities
+Eu412,No,[X]Mixed anxiety and depressive disorder,Anxiety,comorbidities
+Eu412,No,[X]Mild anxiety depression,Anxiety,comorbidities
+Eu413,No,[X]Other mixed anxiety disorders,Anxiety,comorbidities
+Eu41.,No,[X]Other anxiety disorders,Anxiety,comorbidities
+Eu41y,No,[X]Other specified anxiety disorders,Anxiety,comorbidities
+Eu41y,No,[X]Anxiety hysteria,Anxiety,comorbidities
+Eu41z,No,"[X]Anxiety disorder, unspecified",Anxiety,comorbidities
+Eu41z,No,[X]Anxiety NOS,Anxiety,comorbidities
+Z481.,No,Phobia counselling,Anxiety,comorbidities
+Z4L1.,No,Anxiety counselling,Anxiety,comorbidities
+ZV112,No,[V]Personal history of neurosis,Anxiety,comorbidities
+13WB.,No,Maternal: [concern] or [anxiety],Anxiety,comorbidities
+1B1..,No,General nervous symptoms,Anxiety,comorbidities
+1B11.,No,No nervous symptoms,Anxiety,comorbidities
+1B12.,No,"[""Nerves""] or [nervousness] or [nervous tension]",Anxiety,comorbidities
+1B13.,No,Anxiousness (& symptom),Anxiety,comorbidities
+1B1Z.,No,General nervous symptom NOS,Anxiety,comorbidities
+E2920,No,Separation anxiety disorder,Anxiety,comorbidities
+Eu515,No,[X] Nightmares or dream anxiety disorder,Anxiety,comorbidities
+Eu930,No,[X]Separation anxiety disorder of childhood,Anxiety,comorbidities
+Ua1Fo,No,Recognising anxiety (InPS+developmental),Anxiety,comorbidities
+Ua1Fp,No,Acknowledging anxiety,Anxiety,comorbidities
+Ua1qS,No,Panic attack,Anxiety,comorbidities
+Ua1qU,No,Fear of walking,Anxiety,comorbidities
+Ua1qV,No,Fear of mobilising,Anxiety,comorbidities
+Ua1qW,No,Fear of disconnection from ventilator,Anxiety,comorbidities
+Ua1qX,No,Fear of being left alone during period of dependence,Anxiety,comorbidities
+Ua1qY,No,Fear of being left alone,Anxiety,comorbidities
+Ua1qa,No,Fear of dentist,Anxiety,comorbidities
+Ua1qc,No,Fear of not coping with treatment,Anxiety,comorbidities
+Ua1qd,No,Fear of lifts,Anxiety,comorbidities
+Ua1qe,No,Fear of thunderstorm,Anxiety,comorbidities
+Ua1qf,No,Terrified,Anxiety,comorbidities
+Ua1qg,No,Anxiety about treatment,Anxiety,comorbidities
+Ua1qh,No,Anxiety about forced dependence,Anxiety,comorbidities
+Ua1qi,No,Anxiety about loss of control,Anxiety,comorbidities
+Ua1qj,No,Anxiety about resuming sexual relations,Anxiety,comorbidities
+Ua1qk,No,Worried about not coping with baby,Anxiety,comorbidities
+Ua1ql,No,Worried about being a bad father,Anxiety,comorbidities
+Ua1qm,No,Worried about being a bad mother,Anxiety,comorbidities
+Ua1qn,No,Anxiety about not coping with parenthood,Anxiety,comorbidities
+Ua1qo,No,Anxiety about making mistakes,Anxiety,comorbidities
+Ua1qp,No,Anxiety about altered body image,Anxiety,comorbidities
+Ua1qs,No,Fear of wetting self in public,Anxiety,comorbidities
+Ua1qt,No,Fear of losing control of bowels in public,Anxiety,comorbidities
+Ua2Dl,No,Alleviating anxiety,Anxiety,comorbidities
+Ub0qs,No,Anxiety management training,Anxiety,comorbidities
+X00RP,No,Organic anxiety disorder,Anxiety,comorbidities
+X00SV,No,Agoraphobia,Anxiety,comorbidities
+X00SW,No,Social phobia,Anxiety,comorbidities
+X00SX,No,Specific phobia,Anxiety,comorbidities
+X00SY,No,Needle phobia,Anxiety,comorbidities
+X00SZ,No,Situational panic attack,Anxiety,comorbidities
+X00Sa,No,Non-situational panic attack,Anxiety,comorbidities
+X00Sb,No,Mixed anxiety and depressive disorder,Anxiety,comorbidities
+X00Sc,No,Anxiety hysteria,Anxiety,comorbidities
+X00Sd,No,Stage fright,Anxiety,comorbidities
+X00Se,No,Examination fear,Anxiety,comorbidities
+X761N,No,Anxiety and fear,Anxiety,comorbidities
+X761P,No,Ill-at-ease,Anxiety,comorbidities
+X761T,No,Anxiety about body function or health,Anxiety,comorbidities
+X761U,No,Fear of losing control of bowels,Anxiety,comorbidities
+X761V,No,Fear of wetting self,Anxiety,comorbidities
+X761W,No,Fear of vomiting in public,Anxiety,comorbidities
+X761X,No,Fear of having a fit,Anxiety,comorbidities
+X761Y,No,Fear of choking,Anxiety,comorbidities
+X761Z,No,Anxiety about blushing,Anxiety,comorbidities
+X761a,No,Fear of swallowing,Anxiety,comorbidities
+X761b,No,Fear of collapsing,Anxiety,comorbidities
+X761c,No,Fear of fainting,Anxiety,comorbidities
+X761d,No,Fear of having a heart attack,Anxiety,comorbidities
+X761e,No,Fear of shaking,Anxiety,comorbidities
+X761f,No,Fear of sweating,Anxiety,comorbidities
+X761g,No,Fear of dying,Anxiety,comorbidities
+X761h,No,Fear of going crazy,Anxiety,comorbidities
+X761i,No,Fear of losing emotional control,Anxiety,comorbidities
+X761j,No,Fear of becoming fat,Anxiety,comorbidities
+X761k,No,Anxiety about behaviour or performance,Anxiety,comorbidities
+X761l,No,Fear of appearing ridiculous,Anxiety,comorbidities
+X761m,No,Fear of saying the wrong thing,Anxiety,comorbidities
+X761n,No,Fear of going out,Anxiety,comorbidities
+X761p,No,Fear of empty streets,Anxiety,comorbidities
+X761q,No,Fear of open spaces,Anxiety,comorbidities
+X761r,No,Fear of crossing streets,Anxiety,comorbidities
+X761t,No,Fear of transport,Anxiety,comorbidities
+X761u,No,Social fear,Anxiety,comorbidities
+X761v,No,Fear of activities in public,Anxiety,comorbidities
+X761w,No,Fear of eating in public,Anxiety,comorbidities
+X761x,No,Fear of public speaking,Anxiety,comorbidities
+X761y,No,Fear of using public toilets,Anxiety,comorbidities
+X761z,No,Fear of writing in public,Anxiety,comorbidities
+X7620,No,Fear of social group activities,Anxiety,comorbidities
+X7621,No,Fear of being in a small group,Anxiety,comorbidities
+X7622,No,Fear of social gatherings,Anxiety,comorbidities
+X7623,No,Fear of speaking on the phone,Anxiety,comorbidities
+X7624,No,Fear of speaking to people in authority,Anxiety,comorbidities
+X7625,No,Fear of being laughed at,Anxiety,comorbidities
+X7626,No,Fear of being watched,Anxiety,comorbidities
+X7627,No,Specific fear,Anxiety,comorbidities
+X7628,No,Fear of natural phenomena,Anxiety,comorbidities
+X7629,No,Fear of the dark,Anxiety,comorbidities
+X762A,No,Fear of animals,Anxiety,comorbidities
+X762B,No,Fear of feathers,Anxiety,comorbidities
+X762C,No,Fear of enclosed spaces,Anxiety,comorbidities
+X762E,No,Fear of tunnels,Anxiety,comorbidities
+X762F,No,Fear of phone boxes,Anxiety,comorbidities
+X762G,No,Fear of flying,Anxiety,comorbidities
+X762H,No,Flying phobia,Anxiety,comorbidities
+X762I,No,Fear associated with illness and body function,Anxiety,comorbidities
+X762J,No,Fear of anaesthetic,Anxiety,comorbidities
+X762K,No,Fear of general anaesthetic,Anxiety,comorbidities
+X762L,No,Fear of awareness under general anaesthetic,Anxiety,comorbidities
+X762M,No,Fear of not waking from general anaesthetic,Anxiety,comorbidities
+X762N,No,Fear of local anaesthetic,Anxiety,comorbidities
+X762O,No,Fear of problem after anaesthetic,Anxiety,comorbidities
+X762R,No,Fear of surgical masks,Anxiety,comorbidities
+X762S,No,Fear of hospitals,Anxiety,comorbidities
+X762T,No,Fear of death,Anxiety,comorbidities
+X762U,No,Fear of contracting disease,Anxiety,comorbidities
+X762V,No,Fear of infection,Anxiety,comorbidities
+X762W,No,Fear of contracting venereal disease,Anxiety,comorbidities
+X762X,No,Fear of contracting HIV infection,Anxiety,comorbidities
+X762Y,No,Fear of contracting radiation sickness,Anxiety,comorbidities
+X762Z,No,Fear of the bogey man,Anxiety,comorbidities
+X762a,No,Fear of ghosts,Anxiety,comorbidities
+X762b,No,Fear of school,Anxiety,comorbidities
+X78wp,No,Apprehension,Anxiety,comorbidities
+XE0ra,No,Nervousness,Anxiety,comorbidities
+XE0rb,No,Feeling anxious,Anxiety,comorbidities
+XE0ri,No,Fear,Anxiety,comorbidities
+XE1Y7,No,Panic disorder,Anxiety,comorbidities
+XE1YA,No,Phobic anxiety disorder,Anxiety,comorbidities
+XE1YB,No,Phobic disorder NOS,Anxiety,comorbidities
+XE1Zj,No,[X]Other specified anxiety disorders,Anxiety,comorbidities
+XE1aW,No,(Anxiety state (& [states][panic attack])) or (pseudocyesis),Anxiety,comorbidities
+XE2Po,No,Maternal concern,Anxiety,comorbidities
+XM00G,No,Separation anxiety,Anxiety,comorbidities
+XM0Ak,No,School phobia,Anxiety,comorbidities
+XM1OD,No,Hydrophobia,Anxiety,comorbidities
+Xa00r,No,Fear of heights,Anxiety,comorbidities
+Xa00s,No,Fear of water,Anxiety,comorbidities
+Xa0XB,No,Fear relating to body function,Anxiety,comorbidities
+Xa0XG,No,Anxiety about losing control of bowels,Anxiety,comorbidities
+Xa0XH,No,Anxiety about wetting self,Anxiety,comorbidities
+Xa0XI,No,Anxiety about vomiting in public,Anxiety,comorbidities
+Xa0XJ,No,Anxiety about having a fit,Anxiety,comorbidities
+Xa0XK,No,Anxiety about choking,Anxiety,comorbidities
+Xa0XM,No,Anxiety about swallowing,Anxiety,comorbidities
+Xa0XN,No,Anxiety about collapsing,Anxiety,comorbidities
+Xa0XO,No,Anxiety about shaking,Anxiety,comorbidities
+Xa0XP,No,Anxiety about sweating,Anxiety,comorbidities
+Xa0XQ,No,Anxiety about dying,Anxiety,comorbidities
+Xa0XR,No,Anxiety about going crazy,Anxiety,comorbidities
+Xa0XS,No,Anxiety about losing emotional control,Anxiety,comorbidities
+Xa0XU,No,Anxiety about becoming fat,Anxiety,comorbidities
+Xa0XX,No,Anxiety about fainting,Anxiety,comorbidities
+Xa0XY,No,Anxiety about having a heart attack,Anxiety,comorbidities
+Xa0Xc,No,Anxiety about appearing ridiculous,Anxiety,comorbidities
+Xa0Xd,No,Anxiety about saying the wrong thing,Anxiety,comorbidities
+Xa19B,No,Performance anxiety,Anxiety,comorbidities
+Xa1Ev,No,Fear of needles,Anxiety,comorbidities
+Xa1a8,No,Examination phobia,Anxiety,comorbidities
+Xa3Vj,No,Panic,Anxiety,comorbidities
+Xa3Vk,No,Fear of insects,Anxiety,comorbidities
+Xa3Vl,No,Fear of birds,Anxiety,comorbidities
+Xa3WH,No,Fear associated with healthcare,Anxiety,comorbidities
+Xa3WI,No,Fear of blood,Anxiety,comorbidities
+Xa3WJ,No,Fear of getting cancer,Anxiety,comorbidities
+Xa3Xk,No,Level of anxiety,Anxiety,comorbidities
+Xa3Ys,No,Character trait observations of level of anxiety,Anxiety,comorbidities
+Xa3Yt,No,Anxious character,Anxiety,comorbidities
+Xa3Yu,No,Over-anxious character,Anxiety,comorbidities
+Xa3Yv,No,Fearful character,Anxiety,comorbidities
+Xa7k9,No,Parental anxiety,Anxiety,comorbidities
+Xa7kB,No,Anxiety attack,Anxiety,comorbidities
+Xa7lj,No,Cancer phobia,Anxiety,comorbidities
+Xa7lx,No,Pre-examination nerves,Anxiety,comorbidities
+XaABU,No,Castration anxiety complex,Anxiety,comorbidities
+XaB96,No,Other phobias,Anxiety,comorbidities
+XaECG,No,Anxiety counselling,Anxiety,comorbidities
+XaEG0,No,Dysmorphophobia,Anxiety,comorbidities
+XaIvf,No,Fear of falling,Anxiety,comorbidities
+XaL0q,No,Referral for guided self-help for anxiety,Anxiety,comorbidities
+XaMFU,No,Paruresis,Anxiety,comorbidities
+XaP8d,No,Stranger anxiety,Anxiety,comorbidities
+XaXwe,No,Health anxiety inventory short week score,Anxiety,comorbidities
+Xaafv,No,Anxiety about breathlessness,Anxiety,comorbidities
+Xab9G,No,Patient given advice about management of anxiety,Anxiety,comorbidities
+Xaef0,No,Referral for psychological management of anxiety,Anxiety,comorbidities
+XafF0,No,Signposting to Anxiety UK,Anxiety,comorbidities
+Y00ef,No,Food phobia,Anxiety,comorbidities
+Y0a86,No,Social situations due to a fear of being embarrassed or making a fool of myself,Anxiety,comorbidities
+Y0a87,No,Certain situations because of a fear of having a panic attack or other distressing symptoms,Anxiety,comorbidities
+Y0a88,No,Certain situations because of a fear of particular objects or activities,Anxiety,comorbidities
+Y10e3,No,NDTMS - YP anxiety status,Anxiety,comorbidities
+Y1b16,No,IPS Anxiety/Depression level,Anxiety,comorbidities
+Y5448,No,Anxiety with depression,Anxiety,comorbidities
+173f.,No,Anxiety about breathlessness,Anxiety,comorbidities
+H3100,Yes,Chronic catarrhal bronchitis,COPD,comorbidities
+H310.,Yes,Simple chronic bronchitis,COPD,comorbidities
+H310z,Yes,Simple chronic bronchitis NOS,COPD,comorbidities
+H3110,Yes,Purulent chronic bronchitis,COPD,comorbidities
+H3111,Yes,Fetid chronic bronchitis,COPD,comorbidities
+H311.,Yes,Mucopurulent chronic bronchitis,COPD,comorbidities
+H311z,Yes,Mucopurulent chronic bronchitis NOS,COPD,comorbidities
+H3120,Yes,Chronic asthmatic bronchitis,COPD,comorbidities
+H3121,Yes,Emphysematous bronchitis,COPD,comorbidities
+H3122,No,Acute exacerbation of chronic obstructive airways disease,COPD,comorbidities
+H3123,Yes,Bronchiolitis obliterans,COPD,comorbidities
+H312.,Yes,Obstructive chronic bronchitis,COPD,comorbidities
+H312z,Yes,Obstructive chronic bronchitis NOS,COPD,comorbidities
+H313.,Yes,Mixed simple and mucopurulent chronic bronchitis,COPD,comorbidities
+H31..,Yes,Chronic bronchitis,COPD,comorbidities
+H31y1,Yes,Chronic tracheobronchitis,COPD,comorbidities
+H31y.,Yes,Other chronic bronchitis,COPD,comorbidities
+H31yz,Yes,Other chronic bronchitis NOS,COPD,comorbidities
+H31z.,Yes,Chronic bronchitis NOS,COPD,comorbidities
+H3200,Yes,Segmental bullous emphysema,COPD,comorbidities
+H3201,Yes,Zonal bullous emphysema,COPD,comorbidities
+H3202,Yes,Giant bullous emphysema,COPD,comorbidities
+H3203,Yes,Bullous emphysema with collapse,COPD,comorbidities
+H320.,Yes,Chronic bullous emphysema,COPD,comorbidities
+H320z,Yes,Chronic bullous emphysema NOS,COPD,comorbidities
+H321.,Yes,Panlobular emphysema,COPD,comorbidities
+H322.,Yes,Centrilobular emphysema,COPD,comorbidities
+H32..,Yes,Emphysema,COPD,comorbidities
+H32y0,Yes,Acute vesicular emphysema,COPD,comorbidities
+H32y1,Yes,Atrophic (senile) emphysema,COPD,comorbidities
+H32y2,Yes,MacLeod's unilateral emphysema,COPD,comorbidities
+H32y.,Yes,Other emphysema,COPD,comorbidities
+H32yz,Yes,Other emphysema NOS,COPD,comorbidities
+H32z.,Yes,Emphysema NOS,COPD,comorbidities
+H36..,Yes,Mild chronic obstructive pulmonary disease,COPD,comorbidities
+H37..,Yes,Moderate chronic obstructive pulmonary disease,COPD,comorbidities
+H38..,Yes,Severe chronic obstructive pulmonary disease,COPD,comorbidities
+H39..,Yes,Very severe chronic obstructive pulmonary disease,COPD,comorbidities
+H3A..,Yes,End stage chronic obstructive airways disease,COPD,comorbidities
+H3...,Yes,Chronic obstructive pulmonary disease,COPD,comorbidities
+H3y0.,No,Chronic obstruct pulmonary dis with acute lower resp infectn,COPD,comorbidities
+H3y1.,No,"Chron obstruct pulmonary dis wth acute exacerbation, unspec",COPD,comorbidities
+H3y..,Yes,Other specified chronic obstructive airways disease,COPD,comorbidities
+H3z..,Yes,Chronic obstructive airways disease NOS,COPD,comorbidities
+H4640,Yes,Chronic emphysema due to chemical fumes,COPD,comorbidities
+H4641,Yes,Obliterative bronchiolitis due to chemical fumes,COPD,comorbidities
+H5832,Yes,Eosinophilic bronchitis,COPD,comorbidities
+Hyu30,Yes,[X]Other emphysema,COPD,comorbidities
+Hyu31,Yes,[X]Other specified chronic obstructive pulmonary disease,COPD,comorbidities
+X101i,No,"Chron obstruct pulmonary dis wth acute exacerbation, unspec",COPD,comorbidities
+X101j,Yes,Occupational chronic bronchitis,COPD,comorbidities
+X101n,Yes,Pulmonary emphysema,COPD,comorbidities
+X101o,Yes,Pulmonary emphysema in alpha-1 PI deficiency,COPD,comorbidities
+X101p,Yes,Toxic emphysema,COPD,comorbidities
+X101r,Yes,Scar emphysema,COPD,comorbidities
+XE0YP,Yes,Other emphysema NOS,COPD,comorbidities
+XaEIV,Yes,Mild chronic obstructive pulmonary disease,COPD,comorbidities
+XaEIW,Yes,Moderate chronic obstructive pulmonary disease,COPD,comorbidities
+XaEIY,Yes,Severe chronic obstructive pulmonary disease,COPD,comorbidities
+XaIND,Yes,End stage chronic obstructive airways disease,COPD,comorbidities
+XaIQT,No,Chronic obstructive pulmonary disease monitoring,COPD,comorbidities
+XaIQg,No,Interstitial pulmonary emphysema,COPD,comorbidities
+XaIRO,No,Chronic obstructive pulmonary disease monitoring due,COPD,comorbidities
+XaIUt,No,COPD self-management plan given,COPD,comorbidities
+XaIes,No,Chronic obstructive pulmonary disease follow-up,COPD,comorbidities
+XaIet,No,Chronic obstructive pulmonary disease annual review,COPD,comorbidities
+XaIu7,No,Chronic obstructive pulmonary disease monitoring by nurse,COPD,comorbidities
+XaIu8,No,Chronic obstructive pulmonary disease monitoring by doctor,COPD,comorbidities
+XaJFu,No,Admit COPD emergency,COPD,comorbidities
+XaJYf,No,Chronic obstructive pulmonary disease clini management plan,COPD,comorbidities
+XaJlS,No,Chronic obstructive pulmonary disease monitoring admin,COPD,comorbidities
+XaJlT,No,Chronic obstructive pulmonary disease monitoring 1st letter,COPD,comorbidities
+XaJlU,No,Chronic obstructive pulmonary disease monitoring 2nd letter,COPD,comorbidities
+XaJlV,No,Chronic obstructive pulmonary disease monitoring 3rd letter,COPD,comorbidities
+XaJlW,No,Chronic obstructive pulmonary disease monitoring verb invite,COPD,comorbidities
+XaJlY,No,Chronic obstructive pulmonary disease monitor phone invite,COPD,comorbidities
+XaK8Q,No,Chronic obstructive pulmonary disease finding,COPD,comorbidities
+XaK8R,No,COPD accident and emergency attendance since last visit,COPD,comorbidities
+XaK8S,No,Emergency COPD admission since last appointment,COPD,comorbidities
+XaK8U,No,Number of COPD exacerbations in past year,COPD,comorbidities
+XaKv8,No,Chronic obstructive pulmonary disease disturbs sleep,COPD,comorbidities
+XaKv9,No,Chronic obstructive pulmonary disease does not disturb sleep,COPD,comorbidities
+XaKzy,No,Multiple COPD emergency hospital admissions,COPD,comorbidities
+XaLqj,No,Health education - chronic obstructive pulmonary disease,COPD,comorbidities
+XaN4a,Yes,Very severe chronic obstructive pulmonary disease,COPD,comorbidities
+XaPZH,No,COPD patient unsuitable for pulmonary rehabilitation,COPD,comorbidities
+XaPls,No,Referred for COPD structured smoking assessment,COPD,comorbidities
+XaPlu,No,COPD structured smoking assessment declined,COPD,comorbidities
+XaPzu,No,At risk of chronic obstructive pulmonary diseas exacerbation,COPD,comorbidities
+XaRCG,No,Step down change in COPD management plan,COPD,comorbidities
+XaRCH,No,Step up change in COPD management plan,COPD,comorbidities
+XaW9D,No,Issue of chronic obstructive pulmonary disease rescue pack,COPD,comorbidities
+XaXCa,No,Chronic obstructive pulmonary disease 3 monthly review,COPD,comorbidities
+XaXCb,No,Chronic obstructive pulmonary disease 6 monthly review,COPD,comorbidities
+XaXnt,No,GP OOH service notified of COPD care plan,COPD,comorbidities
+XaXzy,No,Preferred place of care for next exacerbation of COPD,COPD,comorbidities
+XaY05,No,Chronic obstructiv pulmonary disease medication optimisation,COPD,comorbidities
+XaY0w,No,Referral to COPD community nursing team,COPD,comorbidities
+XaYZO,No,COPD self-management plan review,COPD,comorbidities
+XaYbA,No,COPD self-management plan agreed,COPD,comorbidities
+XaZ6U,No,On chronic obstructive pulmonary disease supprtv cre pathway,COPD,comorbidities
+XaZ8t,No,Has chronic obstructive pulmonary disease care plan,COPD,comorbidities
+XaZd1,No,Acute non-infective exacerbation of COPD,COPD,comorbidities
+XaZee,No,Chronic obstructive pulmonary disease care pathway,COPD,comorbidities
+XaZoz,No,Seen in chronic obstructive pulmonary disease clinic,COPD,comorbidities
+XaavA,No,Shared care chronic obstructive pulmonary disease monitoring,COPD,comorbidities
+Xac33,Yes,Asthma-chronic obstructive pulmonary disease overlap syndrom,COPD,comorbidities
+Xac8s,No,Telehealth chronic obstructive pulmonary disease monitoring,COPD,comorbidities
+XafhZ,No,COPD monitoring email invitation,COPD,comorbidities
+Xafhe,No,COPD monitring short message service text message invitation,COPD,comorbidities
+Xafir,No,COPD monitoring SMS text message first invitation,COPD,comorbidities
+Xafit,No,COPD monitoring SMS text message second invitation,COPD,comorbidities
+Xafiu,No,COPD monitoring SMS text message third invitation,COPD,comorbidities
+Y1f1b,No,Chronic obstructive pulmonary disease monitoring invitation,COPD,comorbidities
+Y1f94,No,Quality and Outcomes Framework chronic obstructive pulmonary disease quality indicator-related care invitation (procedure),COPD,comorbidities
+H582.,No,Compensatory emphysema,COPD,comorbidities
+XE0YM,Yes,Purulent chronic bronchitis,COPD,comorbidities
+XE0ZN,Yes,Chronic: [bronchitis NOS] or [tracheobronchitis],COPD,comorbidities
+Xa35l,No,Acute infective exacerbation chronic obstruct airway disease,COPD,comorbidities
+XE0YN,Yes,Bullous emphysema with collapse,COPD,comorbidities
+H3B..,Yes,Asthma-chronic obstructive pulmonary disease overlap syndrome,COPD,comorbidities
+X101k,Yes,Byssinosis grade 3,COPD,comorbidities
+X101l,Yes,Bronchiolitis obliterans,COPD,comorbidities
+X101m,Yes,Drug-induced bronchiolitis obliterans,COPD,comorbidities
+X101q,Yes,Congenital lobar emphysema,COPD,comorbidities
+X102z,Yes,Bronchiolitis obliterans with usual interstitial pneumonitis,COPD,comorbidities
+Xaa7C,Yes,Eosinophilic bronchitis,COPD,comorbidities
+XE0YO,Yes,Atrophic (senile) emphysema,COPD,comorbidities
+171J.,No,Reflux cough,GORD,comorbidities
+1957.,No,Gastric reflux,GORD,comorbidities
+760L0,No,Antireflux fundoplication using thoracic approach,GORD,comorbidities
+760L1,No,Antireflux operation using thoracic approach NEC,GORD,comorbidities
+760L1,No,Antireflux procedure using thoracic approach NEC,GORD,comorbidities
+760L2,No,Antireflux fundoplication using abdominal approach,GORD,comorbidities
+760L3,No,Antireflux gastropexy,GORD,comorbidities
+760L3,No,Antireflux gastroplasty,GORD,comorbidities
+760L4,No,Antireflux procedure and gastroplasty HFQ,GORD,comorbidities
+760L.,No,Antireflux operations,GORD,comorbidities
+760L.,No,Oesophageal reflux operations,GORD,comorbidities
+760Ly,No,Other specified antireflux operation,GORD,comorbidities
+760Lz,No,Antireflux operation NOS,GORD,comorbidities
+760M.,No,Revision of antireflux operations,GORD,comorbidities
+760Mz,No,Revision of antireflux operation NOS,GORD,comorbidities
+J1011,No,Reflux oesophagitis,GORD,comorbidities
+J1011,No,Acid reflux,GORD,comorbidities
+J1011,No,Gastro-oesophageal reflux with oesophagitis,GORD,comorbidities
+J1011,No,Oesophageal reflux with oesophagitis,GORD,comorbidities
+J10y4,No,Oesopheal reflux without mention of oesophagitis,GORD,comorbidities
+J10y4,No,Oesophageal reflux,GORD,comorbidities
+J10y4,No,Gastro-oesophageal reflux,GORD,comorbidities
+J10y4,No,Acid reflux,GORD,comorbidities
+J10y5,No,Laryngopharyngeal reflux,GORD,comorbidities
+760L5,No,Insertion of Angelchik prosthesis,GORD,comorbidities
+760L6,No,Oesophagogastric fundoplasty (& [Thal] or [Nissen]),GORD,comorbidities
+760M0,No,Revision of fundoplication of stomach,GORD,comorbidities
+760M1,No,Adjustment to Angelchik prosthesis,GORD,comorbidities
+760M2,No,Removal of Angelchik prosthesis,GORD,comorbidities
+760My,No,Other specified revision of antireflux operation,GORD,comorbidities
+76130,No,Gastroplasty NEC,GORD,comorbidities
+76180,No,Gastropexy NEC,GORD,comorbidities
+J1016,No,(Ulcerative oesophagitis) or (Barrett's oesophagus),GORD,comorbidities
+J1020,No,Gastro-oesophageal reflux disease with ulceration,GORD,comorbidities
+J1025,No,Barrett's ulcer of oesophagus,GORD,comorbidities
+X20UN,No,Total fundoplication,GORD,comorbidities
+X20UO,No,Total fundoplication using abdominal approach,GORD,comorbidities
+X20UP,No,Partial fundoplication,GORD,comorbidities
+X20UQ,No,Partial fundoplication using abdominal approach,GORD,comorbidities
+X20UR,No,Anterior gastropexy,GORD,comorbidities
+X20US,No,Posterior gastropexy,GORD,comorbidities
+X20UT,No,Gastroplasty,GORD,comorbidities
+X20UU,No,Longitudinal gastroplasty,GORD,comorbidities
+X20UV,No,Collis-Belsey procedure,GORD,comorbidities
+X20UW,No,Collis-Nissen procedure,GORD,comorbidities
+X20UX,No,V-Y gastroplasty,GORD,comorbidities
+X20UY,No,Antireflux prosthesis procedure,GORD,comorbidities
+X20UZ,No,Replacement of implanted antireflux prosthesis,GORD,comorbidities
+X3003,No,Gastro-oesophageal reflux disease,GORD,comorbidities
+X3004,No,Biliary oesophagitis,GORD,comorbidities
+X3005,No,Peptic stricture of oesophagus,GORD,comorbidities
+X3007,No,Barrett's oesophagus with oesophagitis,GORD,comorbidities
+X77H1,No,Acid reflux status,GORD,comorbidities
+XE0CY,No,Antireflux operation,GORD,comorbidities
+XE0CZ,No,Antireflux fundoplication using thoracic approach,GORD,comorbidities
+XE0Ca,No,Antireflux fundoplication using abdominal approach,GORD,comorbidities
+XE0Cb,No,Antireflux gastropexy,GORD,comorbidities
+XE0Cc,No,Oesophagogastric fundoplasty,GORD,comorbidities
+XE0aL,No,Gastro-oesophageal reflux disease with oesophagitis,GORD,comorbidities
+XE0aO,No,Gastro-oesophageal reflux disease without oesophagitis,GORD,comorbidities
+XE0bv,No,Oesophagitis (& [reflux]) or oesophageal reflux,GORD,comorbidities
+XM009,No,Total fundoplication using thoracic approach,GORD,comorbidities
+Xa1q7,No,Peptic oesophagitis,GORD,comorbidities
+Xa3lg,No,Cardioplasty,GORD,comorbidities
+Xa84y,No,Partial fundoplication using thoracic approach,GORD,comorbidities
+Xa84z,No,Fundoplication,GORD,comorbidities
+Xa8Oq,No,Gastropexy,GORD,comorbidities
+Xa8bS,No,Adjustment of implanted antireflux prosthesis,GORD,comorbidities
+Xa8bT,No,Removal of implanted antireflux prosthesis,GORD,comorbidities
+Xa9Bz,No,Barrett's oesophagus,GORD,comorbidities
+XaB18,No,Revision gastropexy,GORD,comorbidities
+XaDt8,No,Insertion of antireflux prosthesis,GORD,comorbidities
+XaEY7,No,Laparoscopic Nissen fundoplication using abdominal approach,GORD,comorbidities
+XaEYg,No,Endoscopic Nissen fundoplication using thoracic approach,GORD,comorbidities
+XaK99,No,Laryngopharyngeal reflux,GORD,comorbidities
+XaLCS,No,Reflux cough,GORD,comorbidities
+J10y6,No,Barrett's oesophagus,GORD,comorbidities
+J1025,No,Barrett's ulcer of oesophagus,GORD,comorbidities
+2D33.,No,O/E - nasal polyp present,Nasal polyps,comorbidities
+74029,No,Excision of polyp of nasal septum,Nasal polyps,comorbidities
+74029,No,Nasal septum polypectomy,Nasal polyps,comorbidities
+74060,No,Nasal polypectomy,Nasal polyps,comorbidities
+74067,No,Nasal polypectomy using auto-debrider,Nasal polyps,comorbidities
+7416F,No,Functional endoscopic sinus surg - polypectomy nasal sinus,Nasal polyps,comorbidities
+H1100,No,Choanal polyp,Nasal polyps,comorbidities
+H1101,No,Nasopharyngeal polyp,Nasal polyps,comorbidities
+H110.,No,Polyp of nasal cavity,Nasal polyps,comorbidities
+H110z,No,Polyp of nasal cavity NOS,Nasal polyps,comorbidities
+H1110,No,Woakes' ethmoiditis,Nasal polyps,comorbidities
+H111.,No,Polypoid sinus degeneration,Nasal polyps,comorbidities
+H111z,No,Polypoid sinus degeneration NOS,Nasal polyps,comorbidities
+H11..,No,Nasal polyps,Nasal polyps,comorbidities
+H11y0,No,Polyp of frontal sinus,Nasal polyps,comorbidities
+H11y1,No,Polyp of ethmoidal sinus,Nasal polyps,comorbidities
+H11y2,No,Polyp of maxillary sinus,Nasal polyps,comorbidities
+H11y2,No,Antral (maxillary) polyp,Nasal polyps,comorbidities
+H11y3,No,Polyp of sphenoidal sinus,Nasal polyps,comorbidities
+H11y.,No,Other polyp of sinus,Nasal polyps,comorbidities
+H11y.,No,Nasal sinus polyps,Nasal polyps,comorbidities
+H11yz,No,Other polyp of sinus NOS,Nasal polyps,comorbidities
+H11z.,No,Nasal polyp NOS,Nasal polyps,comorbidities
+Hyu23,No,[X]Other polyp of sinus,Nasal polyps,comorbidities
+X1024,No,Aspirin-sensitive asthma with nasal polyps,Nasal polyps,comorbidities
+XE0Xv,No,Other polyp of sinus,Nasal polyps,comorbidities
+XE0Xw,No,Maxillary sinus polyp,Nasal polyps,comorbidities
+Xa0MF,No,Nasal sinus polyp,Nasal polyps,comorbidities
+XaBDP,No,Nasal septal polypectomy,Nasal polyps,comorbidities
+XaBlB,No,Nasal polyp sample,Nasal polyps,comorbidities
+XaDyR,No,Nasal polypectomy using auto-debrider,Nasal polyps,comorbidities
+Y7731,No,Nasal polyps,Nasal polyps,comorbidities
+14GB.,No,History of osteoporosis,Osteoporosis,comorbidities
+58EG.,No,Hip DXA scan result osteoporotic,Osteoporosis,comorbidities
+58EM.,No,Lumbar DXA scan result osteoporotic,Osteoporosis,comorbidities
+58EV.,No,Femoral neck DEXA scan result osteoporotic,Osteoporosis,comorbidities
+66a..,No,Osteoporosis monitoring,Osteoporosis,comorbidities
+9kj0.,No,Bone sparing drug treatment offered for osteoporosis - ESA,Osteoporosis,comorbidities
+9kj..,No,Osteoporosis - enhanced services administration,Osteoporosis,comorbidities
+9Od0.,No,Attends osteoporosis monitoring,Osteoporosis,comorbidities
+9Od2.,No,Osteoporosis monitoring default,Osteoporosis,comorbidities
+9Od3.,No,Osteoporosis monitoring first letter,Osteoporosis,comorbidities
+9Od4.,No,Osteoporosis monitoring second letter,Osteoporosis,comorbidities
+9Od5.,No,Osteoporosis monitoring third letter,Osteoporosis,comorbidities
+9Od6.,No,Osteoporosis monitoring verbal invitation,Osteoporosis,comorbidities
+9Od7.,No,Osteoporosis monitoring telephone invitation,Osteoporosis,comorbidities
+9Od8.,No,Osteoporosis monitoring deleted,Osteoporosis,comorbidities
+9Od9.,No,Osteoporosis monitoring check done,Osteoporosis,comorbidities
+9Od..,No,Osteoporosis monitoring administration,Osteoporosis,comorbidities
+N3300,Yes,"Osteoporosis, unspecified",Osteoporosis,comorbidities
+N3301,Yes,Senile osteoporosis,Osteoporosis,comorbidities
+N3302,Yes,Postmenopausal osteoporosis,Osteoporosis,comorbidities
+N3303,Yes,Idiopathic osteoporosis,Osteoporosis,comorbidities
+N3304,Yes,Dissuse osteoporosis,Osteoporosis,comorbidities
+N3305,Yes,Drug-induced osteoporosis,Osteoporosis,comorbidities
+N3306,Yes,Postoophorectomy osteoporosis,Osteoporosis,comorbidities
+N3307,Yes,Postsurgical malabsorption osteoporosis,Osteoporosis,comorbidities
+N330A,Yes,Osteoporosis in endocrine disorders,Osteoporosis,comorbidities
+N330B,Yes,Vertebral osteoporosis,Osteoporosis,comorbidities
+N330C,Yes,Osteoporosis localized to spine,Osteoporosis,comorbidities
+N330D,Yes,Osteoporosis due to corticosteroids,Osteoporosis,comorbidities
+N330.,Yes,Osteoporosis,Osteoporosis,comorbidities
+N330z,Yes,Osteoporosis NOS,Osteoporosis,comorbidities
+N3312,Yes,Postoophorectomy osteoporosis with pathological fracture,Osteoporosis,comorbidities
+N3313,Yes,Osteoporosis of disuse with pathological fracture,Osteoporosis,comorbidities
+N3314,Yes,Postsurgical malabsorption osteoporosis with path fracture,Osteoporosis,comorbidities
+N3315,Yes,Drug-induced osteoporosis with pathological fracture,Osteoporosis,comorbidities
+N3316,Yes,Idiopathic osteoporosis with pathological fracture,Osteoporosis,comorbidities
+N3318,Yes,Osteoporosis + pathological fracture lumbar vertebrae,Osteoporosis,comorbidities
+N3319,Yes,Osteoporosis + pathological fracture thoracic vertebrae,Osteoporosis,comorbidities
+N331A,Yes,Osteoporosis + pathological fracture cervical vertebrae,Osteoporosis,comorbidities
+N331B,Yes,Postmenopausal osteoporosis with pathological fracture,Osteoporosis,comorbidities
+N331H,Yes,Collapse of cervical vertebra due to osteoporosis,Osteoporosis,comorbidities
+N331J,Yes,Collapse of lumbar vertebra due to osteoporosis,Osteoporosis,comorbidities
+N331K,Yes,Collapse of thoracic vertebra due to osteoporosis,Osteoporosis,comorbidities
+N331L,Yes,Collapse of vertebra due to osteoporosis NOS,Osteoporosis,comorbidities
+N331M,Yes,Fragility fracture due to unspecified osteoporosis,Osteoporosis,comorbidities
+N331M,Yes,Minimal trauma fracture due to unspecified osteoporosis,Osteoporosis,comorbidities
+N331N,No,Fragility fracture,Osteoporosis,comorbidities
+N331N,No,Minimal trauma fracture,Osteoporosis,comorbidities
+N3746,Yes,Osteoporotic kyphosis,Osteoporosis,comorbidities
+NyuB0,Yes,[X]Other osteoporosis with pathological fracture,Osteoporosis,comorbidities
+NyuB1,Yes,[X]Other osteoporosis,Osteoporosis,comorbidities
+NyuB2,Yes,[X]Osteoporosis in other disorders classified elsewhere,Osteoporosis,comorbidities
+NyuB8,Yes,[X]Unspecified osteoporosis with pathological fracture,Osteoporosis,comorbidities
+N3308,No,Localised osteoporosis - Lequesne,Osteoporosis,comorbidities
+N3309,No,Osteoporosis in multiple myelomatosis,Osteoporosis,comorbidities
+X70As,Yes,Idiopathic osteoporosis in pregnancy,Osteoporosis,comorbidities
+X70At,Yes,Adult idiopathic generalised osteoporosis,Osteoporosis,comorbidities
+X70Au,No,Juvenile idiopathic generalised osteoporosis,Osteoporosis,comorbidities
+X70Av,Yes,Secondary generalised osteoporosis,Osteoporosis,comorbidities
+X70Aw,No,Regional migrating osteoporosis,Osteoporosis,comorbidities
+X70Ax,No,Transient osteoporosis of hip,Osteoporosis,comorbidities
+X70Ay,No,Transient osteoporosis of hip in pregnancy,Osteoporosis,comorbidities
+X70Az,No,Disappearing bone disease,Osteoporosis,comorbidities
+X70B0,No,Secondary localised osteoporosis,Osteoporosis,comorbidities
+X70B1,No,Post-irradiation osteoporosis,Osteoporosis,comorbidities
+X78BC,No,Osteoporosis with pseudoglioma,Osteoporosis,comorbidities
+XE1GA,Yes,Localised disuse osteoporosis,Osteoporosis,comorbidities
+Xa0AZ,Yes,Primary osteoporosis,Osteoporosis,comorbidities
+Xa1k0,No,Regional osteoporosis,Osteoporosis,comorbidities
+XaC12,Yes,Osteoporosis localised to spine,Osteoporosis,comorbidities
+XaD2s,Yes,Collapse of cervical vertebra due to osteoporosis,Osteoporosis,comorbidities
+XaD4I,Yes,Collapse of lumbar vertebra due to osteoporosis,Osteoporosis,comorbidities
+XaD4J,Yes,Collapse of thoracic vertebra due to osteoporosis,Osteoporosis,comorbidities
+XaD4K,Yes,Collapse of vertebra due to osteoporosis NOS,Osteoporosis,comorbidities
+XaIIp,Yes,Fragility fracture due to unspecified osteoporosis,Osteoporosis,comorbidities
+XaIP4,Yes,Osteoporosis due to corticosteroids,Osteoporosis,comorbidities
+XaISP,No,Osteoporosis monitoring administration,Osteoporosis,comorbidities
+XaISQ,No,Attends osteoporosis monitoring,Osteoporosis,comorbidities
+XaISR,No,Refuses osteoporosis monitoring,Osteoporosis,comorbidities
+XaISS,No,Osteoporosis monitoring default,Osteoporosis,comorbidities
+XaIST,No,Osteoporosis monitoring first letter,Osteoporosis,comorbidities
+XaISU,No,Osteoporosis monitoring second letter,Osteoporosis,comorbidities
+XaISV,No,Osteoporosis monitoring third letter,Osteoporosis,comorbidities
+XaISW,No,Osteoporosis monitoring verbal invitation,Osteoporosis,comorbidities
+XaISX,No,Osteoporosis monitoring telephone invitation,Osteoporosis,comorbidities
+XaISY,No,Osteoporosis monitoring deleted,Osteoporosis,comorbidities
+XaISZ,No,Osteoporosis monitoring check done,Osteoporosis,comorbidities
+XaISa,No,Osteoporosis risk assessment done,Osteoporosis,comorbidities
+XaISb,No,Osteoporosis risk assessment refused,Osteoporosis,comorbidities
+XaISc,No,Osteoporosis risk assessment defaulted,Osteoporosis,comorbidities
+XaISd,No,Osteoporosis monitoring,Osteoporosis,comorbidities
+XaISe,No,Initial osteoporosis assessment,Osteoporosis,comorbidities
+XaISf,No,Follow-up osteoporosis assessment,Osteoporosis,comorbidities
+XaISg,No,Osteoporosis treatment started,Osteoporosis,comorbidities
+XaISh,No,Osteoporosis treatment stopped,Osteoporosis,comorbidities
+XaISi,No,Osteoporosis treatment changed,Osteoporosis,comorbidities
+XaISj,No,Osteoporosis - no treatment,Osteoporosis,comorbidities
+XaISk,No,Osteoporosis - dietary advice,Osteoporosis,comorbidities
+XaISl,No,Osteoporosis - dietary assessment,Osteoporosis,comorbidities
+XaISm,No,Osteoporosis - exercise advice,Osteoporosis,comorbidities
+XaISn,No,Osteoporosis - falls prevention,Osteoporosis,comorbidities
+XaISo,No,Osteoporosis - treatment response,Osteoporosis,comorbidities
+XaISq,No,Osteoporosis - no treatment response,Osteoporosis,comorbidities
+XaISr,No,Bone density scan due,Osteoporosis,comorbidities
+XaISs,No,X-ray evidence of poor mineralisation,Osteoporosis,comorbidities
+XaISt,No,Refer to osteoporosis specialist,Osteoporosis,comorbidities
+XaISu,No,Refer for falls assessment,Osteoporosis,comorbidities
+XaISx,No,Seen in osteoporosis clinic,Osteoporosis,comorbidities
+XaJdn,No,Referral to osteoporosis clinic,Osteoporosis,comorbidities
+XaQR9,No,Osteoporosis enhanced services administration,Osteoporosis,comorbidities
+X70CK,Yes,Osteoporotic vertebral collapse,Osteoporosis,comorbidities

@@ -1,0 +1,61 @@
+id,term
+A3841,Haemophilus influenzae septicaemia
+A3B5.,Haemophilus influenzae infection
+Ayu3U,"[X]Haemophilus influenzae infection, unspecified"
+AyuKC,[X]H influenzae as cause/diseases classified/other chapters
+G5203,Acute myocarditis - influenzal
+H0404,Acute haemophilus influenzae laryngitis
+H0608,Acute haemophilus influenzae bronchitis
+H060C,Acute parainfluenza virus bronchitis
+H2...,Pneumonia and influenza
+H222.,Haemophilus influenzae pneumonia
+H27..,Influenza
+H270.,Influenzal pneumonia
+H2700,Influenza with bronchopneumonia
+H2701,"Influenza with pneumonia, influenza virus identified"
+H270z,Influenza with pneumonia NOS
+H271.,Influenza with other respiratory manifestation
+H2710,Influenza with laryngitis
+H2711,Influenza with pharyngitis
+H271z,Influenza with respiratory manifestations NOS
+H27y.,Influenza with other manifestations
+H27y0,Influenza with encephalopathy
+H27y1,Influenza with gastrointestinal tract involvement
+H27yz,Influenza with other manifestations NOS
+H27z.,(Influenza like illness) or (influenza NOS)
+H2y..,Other specified pneumonia or influenza
+H2z..,Pneumonia or influenza NOS
+Hyu04,"[X]Flu+oth respiratory manifestations,'flu virus identified"
+Hyu05,"[X]Influenza+other manifestations,influenza virus identified"
+Hyu06,"[X]Influenza+oth respiratory manifestatns,virus not identifd"
+Hyu07,"[X]Influenza with other manifestations, virus not identified"
+X73lJ,Paramyxovirus
+X73lK,Parainfluenza virus type 1
+X73lL,Parainfluenza virus type 2
+X73lM,Parainfluenza virus type 3
+X73lN,Parainfluenza virus type 4
+X73lO,Mumps virus
+X73lf,Influenza virus
+X73lg,Influenza virus A and B
+X73lh,Influenza virus A
+X73li,Influenza virus B
+X73lj,Influenza virus C
+XE0YK,Influenza NOS
+XE0ZF,Pneumonia and influenza &/or pneumonia
+XE0ZJ,(Influenza NOS) or (influenza-like illness)
+XM0rz,Influenza-like illness
+XM0s0,Flu-like illness NOS
+Xa8VO,Parainfluenza virus
+XaC1s,Encephalitis due to influenza
+XaC2H,Encephalitis due to influenza-virus identified
+XaEGX,Encephalitis due to influenza-specific virus not identified
+XaIBK,Influenza-like symptoms
+XaMih,Avian influenza
+XaPOk,Human parainfluenza virus detected
+XaQQp,Influenza due to Influenza A virus subtype H1N1
+XaeVK,Influenza due to zoonotic influenza virus
+XaeVL,Influenza due to pandemic influenza virus
+XaeVM,Influenza due to seasonal influenza virus
+XaeVN,Influenza with pneumonia due to seasonal influenza virus
+Y0b97,Swine influenza
+Y8508,Pneumonia/influenza NOS

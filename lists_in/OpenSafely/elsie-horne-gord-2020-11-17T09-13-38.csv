@@ -1,0 +1,65 @@
+id,term
+760L.,Antireflux operations (& oesophageal)
+760L0,Transthor antireflux fundoplicn (& [Belsey] or [Nissen])
+760L1,Antireflux operation using thoracic approach NEC
+760L2,Transabdominal antireflux fundoplication (& Nissen)
+760L3,Antireflux operatn: [gastropexy (& Hill)] or [gastroplasty]
+760L4,Antireflux procedure and gastroplasty HFQ
+760L5,Insertion of Angelchik prosthesis
+760L6,Oesophagogastric fundoplasty (& [Thal] or [Nissen])
+760Ly,Other specified antireflux operation
+760Lz,Antireflux operation NOS
+760M.,Revision of antireflux operations
+760M0,Revision of fundoplication of stomach
+760M1,Adjustment to Angelchik prosthesis
+760M2,Removal of Angelchik prosthesis
+760My,Other specified revision of antireflux operation
+760Mz,Revision of antireflux operation NOS
+76130,Gastroplasty NEC
+76180,Gastropexy NEC
+J1011,Acid reflux &/or oesophagitis
+J1016,(Ulcerative oesophagitis) or (Barrett's oesophagus)
+J1020,Gastro-oesophageal reflux disease with ulceration
+J1025,Barrett's ulcer of oesophagus
+J10y4,Oesophageal reflux (& [without mention of oesophagitis])
+X20UN,Total fundoplication
+X20UO,Total fundoplication using abdominal approach
+X20UP,Partial fundoplication
+X20UQ,Partial fundoplication using abdominal approach
+X20UR,Anterior gastropexy
+X20US,Posterior gastropexy
+X20UT,Gastroplasty
+X20UU,Longitudinal gastroplasty
+X20UV,Collis-Belsey procedure
+X20UW,Collis-Nissen procedure
+X20UX,V-Y gastroplasty
+X20UY,Antireflux prosthesis procedure
+X20UZ,Replacement of implanted antireflux prosthesis
+X3003,Gastro-oesophageal reflux disease
+X3004,Biliary oesophagitis
+X3005,Peptic stricture of oesophagus
+X3007,Barrett's oesophagus with oesophagitis
+X77H1,Acid reflux status
+XE0CY,Antireflux operation
+XE0CZ,Antireflux fundoplication using thoracic approach
+XE0Ca,Antireflux fundoplication using abdominal approach
+XE0Cb,Antireflux gastropexy
+XE0Cc,Oesophagogastric fundoplasty
+XE0aL,Gastro-oesophageal reflux disease with oesophagitis
+XE0aO,Gastro-oesophageal reflux disease without oesophagitis
+XE0bv,Oesophagitis (& [reflux]) or oesophageal reflux
+XM009,Total fundoplication using thoracic approach
+Xa1q7,Peptic oesophagitis
+Xa3lg,Cardioplasty
+Xa84y,Partial fundoplication using thoracic approach
+Xa84z,Fundoplication
+Xa8Oq,Gastropexy
+Xa8bS,Adjustment of implanted antireflux prosthesis
+Xa8bT,Removal of implanted antireflux prosthesis
+Xa9Bz,Barrett's oesophagus
+XaB18,Revision gastropexy
+XaDt8,Insertion of antireflux prosthesis
+XaEY7,Laparoscopic Nissen fundoplication using abdominal approach
+XaEYg,Endoscopic Nissen fundoplication using thoracic approach
+XaK99,Laryngopharyngeal reflux
+XaLCS,Reflux cough

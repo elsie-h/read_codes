@@ -1,0 +1,232 @@
+id,term
+.A22.,Pulmonary tuberculosis
+A0222,Salmonella pneumonia
+A054.,Amoebic lung abscess
+A11..,Pulmonary tuberculosis
+A110.,Infiltrative lung tuberculosis
+A111.,Nodular lung tuberculosis
+A112.,Tuberculosis of lung with cavitation
+A113.,Tuberculosis of bronchus
+A114.,Tuberculous fibrosis of lung
+A115.,Tuberculous bronchiectasis
+A116.,Tuberculous pneumonia
+A117.,Tuberculous pneumothorax
+A11y.,Other specified pulmonary tuberculosis
+A11z.,Pulmonary tuberculosis NOS
+A120.,Tuberculosis of pleura
+A1202,Tuberculous hydrothorax
+A120z,Tuberculous pleurisy NOS
+A1220,Isolated tracheal tuberculosis
+A1221,Isolated bronchial tuberculosis
+A1240,TB lung confirm sputum microscopy with or without culture
+A1241,"Tuberculosis of lung, confirmed by culture only"
+A1242,"Tuberculosis of lung, confirmed histologically"
+A1243,"Tuberculosis of lung, confirmed by unspecified means"
+A1246,"Tuberculous pleurisy, conf bacteriologically/histologically"
+A1251,Tuberculosis lung bact and histological examin not done
+A203.,Primary pneumonic plague
+A204.,Secondary pneumonic plague
+A205.,"Pneumonic plague, unspecified"
+A33y.,Whooping cough - other specified organism
+A33yz,Other whooping cough NOS
+A33z.,Whooping cough NOS
+A3By1,Eaton's agent infection
+A3By4,Mycoplasmal pneumonia
+A521.,Chickenpox pneumonia
+A73x.,Ornithosis with other specified complications
+A73y.,Ornithosis with unspecified complications
+A73z.,Unspecified Ornithosis
+AB30.,Primary pulmonary coccidioidomycosis
+AB405,Histoplasma capsulatum with pneumonia
+AB415,Pulmonary African histoplasmosis
+AB501,Primary pulmonary blastomycosis
+AB504,Acute pulmonary blastomycosis
+AB511,Pulmonary paracoccidioidomycosis
+AD04.,Toxoplasma pneumonitis
+Ayu39,[X]Whooping cough due to other Bordetella species
+Ayu3A,"[X]Whooping cough, unspecified"
+H06..,Acute bronchitis and bronchiolitis
+H0603,Acute purulent bronchitis
+H0606,Acute pneumococcal bronchitis
+H0607,Acute streptococcal bronchitis
+H0608,Acute haemophilus influenzae bronchitis
+H0609,Acute Neisseria catarrhalis bronchitis
+H060B,Acute coxsackievirus bronchitis
+H060C,Acute parainfluenza virus bronchitis
+H060D,Acute respiratory syncytial virus bronchitis
+H060E,Acute bronchitis due to rhinovirus
+H060F,Acute echovirus bronchitis
+H060w,Acute viral bronchitis unspecified
+H060x,Acute bacterial bronchitis unspecified
+H061.,Acute bronchiolitis
+H0610,Acute capillary bronchiolitis
+H0611,Acute obliterating bronchiolitis
+H0612,Acute bronchiolitis with bronchospasm
+H0613,Acute exudative bronchiolitis
+H0614,Obliterating fibrous bronchiolitis
+H0615,Acute bronchiolitis due to respiratory syncytial virus
+H0616,Acute bronchiolitis due to other specified organisms
+H061z,Acute bronchiolitis NOS
+H06z.,Acute bronchitis or bronchiolitis NOS
+H06z0,Chest infection (& NOS)
+H07..,Chest cold
+H1yz0,Tracheal abscess
+H2...,Pneumonia and influenza
+H20..,Viral pneumonia (& chest infection)
+H200.,Adenoviral pneumonia
+H201.,Pneumonia due to respiratory syncytial virus
+H202.,Parainfluenzal pneumonia
+H20y.,Viral pneumonia NEC
+H20z.,Viral pneumonia NOS
+H21..,Pneumococcal pneumonia (& lobar)
+H22..,Other bacterial pneumonia
+H220.,Pneumonia due to Klebsiella pneumoniae
+H221.,Pseudomonal pneumonia
+H222.,Haemophilus influenzae pneumonia
+H223.,Streptococcal pneumonia
+H2230,Group B streptococcal pneumonia
+H224.,Staphylococcal pneumonia
+H22y.,Pneumonia due to other specified bacteria
+H22y0,Escherichia coli pneumonia
+H22y1,Proteus pneumonia
+H22y2,Legionella pneumonia
+H22yz,Pneumonia due to bacteria NOS
+H22z.,Bacterial pneumonia NOS
+H23..,Pneumonia due to other specified organisms
+H231.,Mycoplasmal pneumonia
+H232.,Pneumonia due to pleuropneumonia-like organism
+H23z.,Pneumonia due to specified organism NOS
+H24..,(Pneumonia) or (chest infection) with infectious diseases EC
+H240.,Measles pneumonia
+H241.,Cytomegalovirus pneumonia
+H243.,Pertussis pneumonia
+H244.,Tularaemia pneumonia
+H245.,Anthrax pneumonia
+H246.,Pneumonia with aspergillosis
+H247.,Pneumonia with other systemic mycoses
+H2470,Candidal pneumonia
+H247z,Pneumonia with systemic mycosis NOS
+H24y.,Pneumonia with other infectious diseases EC
+H24y0,Actinomycotic pneumonia
+H24y1,Nocardial pneumonia
+H24y2,Pneumocystis carinii pneumonia
+H24y5,Toxoplasma pneumonia
+H24y6,Typhoid pneumonia
+H24y7,Chickenpox pneumonia
+H24yz,Pneumonia with other infectious diseases EC NOS
+H24z.,Pneumonia with infectious diseases EC NOS
+H26..,Pneumonia due to unspecified organism
+H260.,Lobar pneumonia due to unspecified organism
+H261.,Basal pneumonia due to unspecified organism
+H270.,Influenzal pneumonia
+H2700,Influenza with bronchopneumonia
+H2701,"Influenza with pneumonia, influenza virus identified"
+H270z,Influenza with pneumonia NOS
+H2y..,Other specified pneumonia or influenza
+H2z..,Pneumonia or influenza NOS
+H311.,Mucopurulent chronic bronchitis
+H3110,Purulent chronic bronchitis
+H311z,Mucopurulent chronic bronchitis NOS
+H313.,Mixed simple and mucopurulent chronic bronchitis
+H341.,Post-infective bronchiectasis
+H5109,Pneumococcal pleurisy
+H510A,Staphylococcal pleurisy
+H510B,Streptococcal pleurisy
+H530.,Lung abscess
+H5300,Single lung abscess
+H5301,Multiple lung abscesses
+H5303,Abscess of lung with pneumonia
+H530z,Abscess of lung NOS
+Hyu08,[X]Other viral pneumonia
+Hyu09,[X]Pneumonia due to other aerobic gram-negative bacteria
+Hyu0A,[X]Other bacterial pneumonia
+Hyu0B,[X]Pneumonia due to other specified infectious organisms
+Hyu0C,[X]Pneumonia in bacterial diseases classified elsewhere
+Hyu0D,[X]Pneumonia in viral diseases classified elsewhere
+Hyu0E,[X]Pneumonia in mycoses classified elsewhere
+Hyu0F,[X]Pneumonia in parasitic diseases classified elsewhere
+Hyu0H,"[X]Other pneumonia, organism unspecified"
+Hyu1.,[X]Other acute lower respiratory infections
+Hyu10,[X]Acute bronchitis due to other specified organisms
+Hyu11,[X]Acute bronchiolitis due to other specified organisms
+Q3100,Congenital staphylococcal pneumonia
+Q3101,Congenital group A haemolytic streptococcal pneumonia
+Q3102,Congenital group B haemolytic streptococcal pneumonia
+Q3103,Congenital Escherichia coli pneumonia
+Q3104,Congenital pseudomonal pneumonia
+Q3106,Congenital chlamydial pneumonia
+Qyu31,[X]Congenital pneumonia due to other bacterial agents
+Qyu32,[X]Congenital pneumonia due to other organisms
+SP132,Postoperative chest infection
+X1004,Infection of lower respiratory tract
+X1006,Chest infection - unspecified bronchitis
+X1007,Acute bacterial bronchitis
+X1009,Acute mycoplasmal bronchitis
+X100A,Acute chlamydial bronchitis
+X100B,Acute viral bronchitis
+X100C,Acute viral bronchiolitis
+X100D,Acute bronchiolitis due to adenovirus
+X100G,Atypical pneumonia
+X100H,Bacterial pneumonia
+X100J,Pneumococcal pneumonia
+X100K,Pneumonic plague
+X100L,Meningococcal pneumonia
+X100N,Chlamydial pneumonia
+X100O,Neonatal chlamydial pneumonia
+X100R,Fungal pneumonia
+X100S,Pulmonary mucormycosis
+X100V,Chronic pulmonary coccidioidomycosis
+X100W,Pulmonary blastomycosis
+X100Y,Mycobacterial pneumonia
+X100b,Pneumonia due to parasitic infestation
+X100d,Rickettsial pneumonia
+X100e,Glandular fever pneumonia
+X100f,Mononuclear interstitial pneumonia
+X100g,Herpes simplex pneumonia
+X100h,Giant cell pneumonia
+X100j,Chronic bronchial sepsis
+X101K,Tuberculous chylothorax
+X104U,Tracheal sepsis
+X104j,Tuberculous bronchopleural fistula
+X104k,Bronchial sepsis
+X70RK,Acute pulmonary histoplasmosis capsulati
+X70RL,Chronic pulmonary histoplasmosis capsulati
+X70RZ,Acute pulmonary African histoplasmosis
+X70Ra,Chronic pulmonary African histoplasmosis
+X70Rg,Chronic pulmonary blastomycosis
+X70Ua,Capillaria aerophila chest infection
+XE0Qw,Whooping cough
+XE0Xs,Chest infection NOS
+XE0Xt,Acute lower respiratory tract infection
+XE0YG,Viral pneumonia
+XE0YH,Pneumococcal lobar pneumonia
+XE0YI,Pneumonia with infectious diseases EC
+XE0YJ,Bronchopneumonia due to unspecified organism
+XE0YM,Purulent chronic bronchitis
+XE0Yt,Acute: [bronchitis]/[chest infections]/[tracheobronchitis]
+XE2b5,Psittacosis
+XE2wL,Tuberculous pleural empyema
+Xa0Aa,Congenital rubella pneumonitis
+Xa0B7,Congenital viral pneumonia
+Xa0B8,Congenital bacterial pneumonia
+Xa0Y7,Non-tuberculous mycobacterial pneumonia
+Xa97Y,Tuberculosis of trachea
+Xa97Z,Pulmonary mycobacterium avium-intracellulare infection
+XaBE9,Basal pneumonia due to unspecified organism
+XaBM8,Recurrent chest infection
+XaBfJ,Secondary bacterial pneumonia
+XaDcV,Viral lower respiratory infection
+XaDsa,Infective pneumonia
+XaDsb,Congenital infective pneumonia
+XaDtB,Acute infective bronchitis
+XaDth,Acute infective tracheobronchitis
+XaDtl,Legionnaire's disease
+XaEW2,Infective pleurisy
+XaEW3,Bacterial pleurisy
+XaEW4,Viral pleurisy
+XaYYt,Acute bronchiolitis due to human metapneumovirus
+XaYYu,Pneumonia due to human metapneumovirus
+XaYby,Hantavirus pulmonary syndrome
+XaeVN,Influenza with pneumonia due to seasonal influenza virus
+XaeVO,Pneumonia due to Gram negative bacteria
+Y210a,Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)

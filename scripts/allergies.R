@@ -150,15 +150,6 @@ venom_allergy <- mukherjee %>%
 # my OpenSafely search for 'venom allergy' did not identify any codes 
 
 ################################################################################
-#  Drugs
-
-# the Mukherjee paper did not include drugs for allergies, 
-# will have to idenfity v2 list manually
-
-# drugs <- read_csv("lists_in/OpenSafely/elsie-horne-allergy-drug-2020-11-10T09-35-38.csv") %>%
-#   rename(read_code_v3 = id, read_term = term)
-
-################################################################################
 # Other
 other_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Other',
@@ -259,16 +250,68 @@ venom_allergy <- venom_allergy %>%
 
 ################################################################################
 allergies <- bind_rows(
-  mutate(anaphylaxis, variable = 'anaphylaxis'),
-  mutate(angioedema_urticaria, variable = 'angioedema or urticaria'),
-  mutate(conjunctivitis, variable = 'conjunctivitis'),
-  mutate(drug_allergy, variable = 'drug allergy'),
-  # mutate(drugs, variable = 'drugs'),
-  mutate(eczema, variable = 'eczema'),
-  mutate(food, variable = 'food allergy'),
-  mutate(other, variable = 'other'),
-  mutate(rhinitis, variable = 'rhinitis'),
-  mutate(venom_allergy, variable = 'venom allergy')) %>%
-  select(variable, everything())
+  mutate(anaphylaxis, cat2 = 'anaphylaxis'),
+  mutate(angioedema_urticaria, cat2 = 'angioedema or urticaria'),
+  mutate(conjunctivitis, cat2 = 'conjunctivitis'),
+  mutate(drug_allergy, cat2 = 'drug allergy'),
+  # mutate(drugs, cat2 = 'drugs'),
+  mutate(eczema, cat2 = 'eczema'),
+  mutate(food, cat2 = 'food allergy'),
+  mutate(other, cat2 = 'other'),
+  mutate(rhinitis, cat2 = 'rhinitis'),
+  mutate(venom_allergy, cat2 = 'venom allergy')) %>%
+  select(cat2, everything()) %>%
+  pivot_longer(cols = starts_with('read_code')) %>%
+  rename(read_code = value) %>%
+  select(-name) %>%
+  filter(!is.na(read_code)) %>%
+  mutate_at('cat2', list(~ case_when(read_code %in% c('H1711', 'H1710')
+                                     ~ 'other',
+                                     (. %in% 'other') &
+                                       str_detect(read_term, 
+                                                regex('bee|wasp|insect|venom', 
+                                                      ignore_case = T))
+                                     ~ 'venom allergy',
+                                    TRUE ~ .))) %>%
+  distinct(cat2, read_code, .keep_all = TRUE) %>%
+  # remove based on Susannah's feedback
+  filter(!(read_code %in% c('A5320', 'A5441', 'F4D33', 'F4D4.',
+                            'F4D6.', 'FyuB4', 'FyuB5', 'G831.',
+                            'M10..', 'M103.', 'M10z.', 'X00YQ',
+                            'X00YR', 'X00YS', 'X00YT', 'X00YU',
+                            'X00YV', 'X00YW', 'X506H', 'X506j',
+                            'X00kv', 'X00kz', 'X00l0', 'X00l1',
+                            'X00l2', 'XE2RT', 'Xa2dV', 'XaNkV',
+                            'D2101', 'M1100', 'SN520'))) %>%
+  mutate_at('cat2', list(~ if_else(. %in% 'other', 'other allergy', .)))
 
-write.csv(allergies, file = 'lists_out/allergies.csv')
+saveRDS(allergies, fil = 'lists_out/allergies.RDS', compress = TRUE)
+# write.csv(allergies, file = 'lists_out/allergies.csv')
+
+# latex tables
+allergies_list <- allergies %>%
+  group_split(cat2)
+
+allergies_latex_table <- function(.data) {
+  category <- .data %>%
+    distinct(cat2) %>% 
+    unlist() %>% 
+    unname()
+  
+  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
+  
+  caption <- str_c('Read codes for \\emph{\'', category, '\'} (return to \\nameref{cha:ehr:methods:pre:allergy} methods)')
+  label <- str_c('tab:app:rc_', category_)
+  
+  table <- .data %>%
+    arrange(read_term) %>%
+    select(`Read code` = read_code, 
+           `Term` = read_term) %>%
+    xtable(caption = caption,
+           label = label,
+           align=c('l',"p{2cm}","p{10cm}")) %>%
+    print_xtable_multi(filename = category_)
+  
+}
+
+lapply(allergies_list, allergies_latex_table)

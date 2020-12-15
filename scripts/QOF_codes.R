@@ -20,7 +20,9 @@ cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'DEPR', # depression
                    'FLU', # flu vaccination
                    'OSTEO',  # osteoporosis
-                   'COPD') # copd
+                   'HYP', # hypertension
+                   'COPD', # copd
+                   'CHD') # coronary heart disease
 cluster_names <- str_c(cluster_names, '_COD')
 
 clean_QOF <- function(.data, 
@@ -67,4 +69,4 @@ qof_codes <- qof_v36_v2 %>%
   full_join(qof_v38_v2, by = 'read_code') %>%
   full_join(qof_v38_v3, by = 'read_code')
 
-saveRDS(qof_codes, file = 'lists_in/QOF/QOF_codes.RDS', compress = FALSE)
+write_csv(qof_codes, path = 'lists_in/QOF/QOF_codes.csv')

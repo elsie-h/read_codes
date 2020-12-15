@@ -1,0 +1,36 @@
+code,coding_system,description,entity,list_name,upload_date
+1C9..00,Read,Sore throat symptom,diagnostic,747 - res70: Sore throat,2018-11-26
+1C9..11,Read,Throat soreness,diagnostic,747 - res70: Sore throat,2018-11-26
+1C9Z.00,Read,Sore throat symptom NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+AA1..00,Read,Vincent's angina,diagnostic,747 - res70: Sore throat,2018-11-26
+AA10.00,Read,Vincent's stomatitis,diagnostic,747 - res70: Sore throat,2018-11-26
+AA11.00,Read,Vincent's gingivitis,diagnostic,747 - res70: Sore throat,2018-11-26
+AA1..11,Read,Trench mouth,diagnostic,747 - res70: Sore throat,2018-11-26
+AA12.00,Read,Vincent's pharyngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+AA1z.00,Read,Vincent's angina NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+AA1z.11,Read,Vincent's laryngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+AA1z.12,Read,Vincent's tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H02..00,Read,Acute pharyngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H021.00,Read,Acute phlegmonous pharyngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H02..11,Read,Sore throat NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+H02..12,Read,Viral sore throat NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+H02..13,Read,Throat infection - pharyngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H022.00,Read,Acute ulcerative pharyngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H023.00,Read,Acute bacterial pharyngitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H023z00,Read,Acute bacterial pharyngitis NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+H02z.00,Read,Acute pharyngitis NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+H03..00,Read,Acute tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H030.00,Read,Acute erythematous tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H031.00,Read,Acute follicular tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H03..11,Read,Throat infection - tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H03..12,Read,Tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H032.00,Read,Acute ulcerative tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H033.00,Read,Acute catarrhal tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H035.00,Read,Acute bacterial tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H035100,Read,Acute staphylococcal tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H035z00,Read,Acute bacterial tonsillitis NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+H037.00,Read,Recurrent acute tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H03z.00,Read,Acute tonsillitis NOS,diagnostic,747 - res70: Sore throat,2018-11-26
+H14y500,Read,Caseous tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+H14y600,Read,Lingular tonsillitis,diagnostic,747 - res70: Sore throat,2018-11-26
+R041.00,Read,[D]Throat pain,diagnostic,747 - res70: Sore throat,2018-11-26

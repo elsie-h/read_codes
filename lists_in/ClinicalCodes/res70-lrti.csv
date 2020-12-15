@@ -1,0 +1,47 @@
+code,coding_system,description,entity,list_name,upload_date
+H06..00,Read,Acute bronchitis and bronchiolitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060.00,Read,Acute bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060000,Read,Acute fibrinous bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060.11,Read,Acute wheezy bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060300,Read,Acute purulent bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060400,Read,Acute croupous bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060500,Read,Acute tracheobronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060600,Read,Acute pneumococcal bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060700,Read,Acute streptococcal bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060800,Read,Acute haemophilus influenzae bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H060A00,Read,Acute bronchitis due to mycoplasma pneumoniae,diagnostic,736 - res70: LRTI,2018-11-26
+H060x00,Read,Acute bacterial bronchitis unspecified,diagnostic,736 - res70: LRTI,2018-11-26
+H060z00,Read,Acute bronchitis NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H061.00,Read,Acute bronchiolitis,diagnostic,736 - res70: LRTI,2018-11-26
+H061000,Read,Acute capillary bronchiolitis,diagnostic,736 - res70: LRTI,2018-11-26
+H061200,Read,Acute bronchiolitis with bronchospasm,diagnostic,736 - res70: LRTI,2018-11-26
+H061300,Read,Acute exudative bronchiolitis,diagnostic,736 - res70: LRTI,2018-11-26
+H061z00,Read,Acute bronchiolitis NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H062.00,Read,Acute lower respiratory tract infection,diagnostic,736 - res70: LRTI,2018-11-26
+H06z.00,Read,Acute bronchitis or bronchiolitis NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H06z000,Read,Chest infection NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H06z011,Read,Chest infection,diagnostic,736 - res70: LRTI,2018-11-26
+H06z100,Read,Lower resp tract infection,diagnostic,736 - res70: LRTI,2018-11-26
+H06z111,Read,Respiratory tract infection,diagnostic,736 - res70: LRTI,2018-11-26
+H06z112,Read,Acute lower respiratory tract infection,diagnostic,736 - res70: LRTI,2018-11-26
+H06z200,Read,Recurrent chest infection,diagnostic,736 - res70: LRTI,2018-11-26
+H24..11,Read,Chest infection with infectious disease EC,diagnostic,736 - res70: LRTI,2018-11-26
+H30..00,Read,Bronchitis unspecified,diagnostic,736 - res70: LRTI,2018-11-26
+H300.00,Read,Tracheobronchitis NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H301.00,Read,Laryngotracheobronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H30..11,Read,Chest infection - unspecified bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H30..12,Read,Recurrent wheezy bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H302.00,Read,Wheezy bronchitis,diagnostic,736 - res70: LRTI,2018-11-26
+H30z.00,Read,Bronchitis NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H34..00,Read,Bronchiectasis,diagnostic,736 - res70: LRTI,2018-11-26
+H340.00,Read,Recurrent bronchiectasis,diagnostic,736 - res70: LRTI,2018-11-26
+H341.00,Read,Post-infective bronchiectasis,diagnostic,736 - res70: LRTI,2018-11-26
+H34z.00,Read,Bronchiectasis NOS,diagnostic,736 - res70: LRTI,2018-11-26
+H50..00,Read,Empyema,diagnostic,736 - res70: LRTI,2018-11-26
+H500100,Read,Empyema with bronchopleural fistula,diagnostic,736 - res70: LRTI,2018-11-26
+H501200,Read,Pleural empyema,diagnostic,736 - res70: LRTI,2018-11-26
+H501400,Read,Purulent pleurisy,diagnostic,736 - res70: LRTI,2018-11-26
+H51..00,Read,Pleurisy,diagnostic,736 - res70: LRTI,2018-11-26
+H510300,Read,Acute dry pleurisy,diagnostic,736 - res70: LRTI,2018-11-26
+H510900,Read,Pneumococcal pleurisy,diagnostic,736 - res70: LRTI,2018-11-26
+H583200,Read,Eosinophilic bronchitis,diagnostic,736 - res70: LRTI,2018-11-26

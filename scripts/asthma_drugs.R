@@ -5,33 +5,7 @@
 # cat2: ICS, ICSLABA, LABA, LTRA, methylxanthine, OCS, omalizumab, SABA, SABASAMA, SAMA
 # score: NA
 
-
-# rms_drugs_all <- bind_rows(read_delim("lists_in/RMS/dl_ics_inh_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-#                            read_delim("lists_in/RMS/dl_laba_lama_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = read_term),
-#                            read_delim("lists_in/RMS/dl_lama_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-#                            read_delim("lists_in/RMS/dl_ltra_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-#                            read_delim("lists_in/RMS/dl_saba_inh_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-#                            read_delim("lists_in/RMS/dl_sama_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-#                            read_delim("lists_in/RMS/dl_step3_inh_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-#                            read_delim("lists_in/RMS/dl_theo_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#                              select(read_code, product_name = MX_PRODUCT_NAME),
-# )
-# 
-# 
-# product_names <- rms_drugs_all %>%
-#   select(product_name) %>%
-#   unlist() %>%
-#   unname()
-# 
-# drug_names <- unique(unname(sapply(product_names, function(x) str_split(x, ' ')[[1]][1])))
-#  search all in opensafely.
+source('setup.R')
 
 QOF_drugs <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
   filter_at(vars(ends_with('_id')), any_vars(. %in% 'ASTTRT_COD')) %>%
@@ -220,16 +194,25 @@ asthma_drugs <- asthma_drugs %>%
                                      str_detect(read_term, regex('Terbutaline', ignore_case = T)) ~ 'SABA',
                                      TRUE ~ '??'))) 
 
-saveRDS(asthma_drugs, file = 'lists_out/asthma_drugs.RDS', compress = FALSE)
+spacer <- asthma_drugs %>% 
+  filter(str_detect(read_term, 'spacer')) %>%
+  mutate(cat2 = 'spacer')
 
-write.csv(arrange(asthma_drugs, cat2, read_term), file = 'lists_out/asthma_drugs.csv')
+asthma_drugs <- asthma_drugs %>%
+  filter(!(cat2 %in% c('group', 'adrenaline', '??', 'spacer'))) %>%
+  bind_rows(spacer) %>%
+  mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y')))
+
+saveRDS(asthma_drugs, file = 'lists_out/asthma_drugs.RDS', compress = FALSE)
 
 # latex tables
 drug_list <- asthma_drugs %>%
   select(-cat1) %>%
-  mutate_at('cat2', list(~ case_when(. %in% c('methylxanthine', 'omalizumab') ~ str_to_sentence(.),
+  mutate_at('cat2', list(~ case_when(. %in% c('methylxanthine', 'biologic') ~ str_to_sentence(.),
                                      . %in% 'ICSLABA' ~ 'ICS-LABA combo',
+                                     . %in% 'ICSSABA' ~ 'ICS-SABA combo',
                                      . %in% 'SABASAMA' ~ 'SABA-SAMA combo',
+                                     . %in% 'LABALAMA' ~ 'LABA-LAMA combo',
                                      TRUE ~ .))) %>%
   group_split(cat2)
 
@@ -241,19 +224,20 @@ drug_latex_table <- function(.data) {
   
   category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
   
-  caption <- str_c('Ethnicity Read codes for \\emph{\'', category, '\'} category (return to \\nameref{cha:ehr:methods:pre:ethnicity} methods)')
+  caption <- str_c('Read codes for \\emph{\'', category, '\'} prescription group (return to \\nameref{cha:ehr:methods:pre:asthma_prescriptions} methods)')
   label <- str_c('tab:app:rc_', category_)
   
   table <- .data %>%
     arrange(read_term) %>%
     select(`Read code` = read_code, 
-           `Term` = read_term) %>%
+           `Term` = read_term,
+           QOF) %>%
     xtable(caption = caption,
            label = label,
-           align=c('l',"p{2cm}","p{10cm}")) %>%
+           align=c('l',"p{2cm}","p{8cm}","p{2cm}")) %>%
     print_xtable_multi(filename = category_)
   
 }
 
-lapply(ethncity_list, ethnicity_latex_table)
+lapply(drug_list, drug_latex_table)
 

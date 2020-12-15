@@ -1,0 +1,14 @@
+code,coding_system,description,entity,list_name,upload_date
+A34..00,Read,Streptococcal sore throat and scarlatina,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A340.00,Read,Streptococcal sore throat,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A340000,Read,Streptococcal angina,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A340100,Read,Streptococcal laryngitis,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A340200,Read,Streptococcal pharyngitis,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A340300,Read,Streptococcal tonsillitis,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A340z00,Read,Streptococcal sore throat NOS,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A341.00,Read,Scarlet fever - scarlatina,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A341.11,Read,Scarlet fever,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A341.12,Read,Scarlatina,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+A34z.00,Read,Streptococcal sore throat with scarlatina NOS,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+J083.00,Read,Oral cellulitis and abscess,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26
+J083600,Read,Uvulitis,diagnostic,749 - res70: Sore throat_bacterial,2018-11-26

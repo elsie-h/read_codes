@@ -27,3 +27,16 @@ exacerbation <- exacerbation_elsie %>%
 exacerbation$read_code[duplicated(exacerbation$read_code)]
 
 saveRDS(exacerbation, file = 'lists_out/exacerbation.RDS', compress = FALSE)
+
+# table for appendix
+exacerbation %>% filter(cat2 %in% 'number')
+
+exacerbation %>%
+  arrange(read_term) %>%
+  filter(!(cat2 %in% 'number')) %>%
+  select(`Read code` = read_code, 
+         `Term` = read_term) %>%
+  xtable(caption = 'Read codes from asthma exacerbations (see \\nameref{cha:ehr:methods:pre:exacerbation} for methods)',
+         label = 'tab:app:rc_exacerbation',
+         align=c('l',"p{2cm}","p{10cm}")) %>%
+  print_xtable_multi(filename = 'exacerbation')

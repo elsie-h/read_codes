@@ -1,0 +1,41 @@
+code,coding_system,description,entity,list_name,upload_date
+H0...00,Read,Acute respiratory infections,diagnostic,748 - res70: URTI,2018-11-26
+H04..00,Read,Acute laryngitis and tracheitis,diagnostic,748 - res70: URTI,2018-11-26
+H040.00,Read,Acute laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H040000,Read,Acute oedematous laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H040100,Read,Acute ulcerative laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H040200,Read,Acute catarrhal laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H040300,Read,Acute phlegmonous laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H040600,Read,Acute suppurative laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H040x00,Read,Acute bacterial laryngitis unspecified,diagnostic,748 - res70: URTI,2018-11-26
+H040z00,Read,Acute laryngitis NOS,diagnostic,748 - res70: URTI,2018-11-26
+H041.00,Read,Acute tracheitis,diagnostic,748 - res70: URTI,2018-11-26
+H041000,Read,Acute tracheitis without obstruction,diagnostic,748 - res70: URTI,2018-11-26
+H041100,Read,Acute tracheitis with obstruction,diagnostic,748 - res70: URTI,2018-11-26
+H041z00,Read,Acute tracheitis NOS,diagnostic,748 - res70: URTI,2018-11-26
+H042.00,Read,Acute laryngotracheitis,diagnostic,748 - res70: URTI,2018-11-26
+H042000,Read,Acute laryngotracheitis without obstruction,diagnostic,748 - res70: URTI,2018-11-26
+H042100,Read,Acute laryngotracheitis with obstruction,diagnostic,748 - res70: URTI,2018-11-26
+H042.11,Read,Laryngotracheitis,diagnostic,748 - res70: URTI,2018-11-26
+H042z00,Read,Acute laryngotracheitis NOS,diagnostic,748 - res70: URTI,2018-11-26
+H043.00,Read,Acute epiglottitis (non strep),diagnostic,748 - res70: URTI,2018-11-26
+H043000,Read,Acute epiglottitis without obstruction,diagnostic,748 - res70: URTI,2018-11-26
+H043200,Read,Acute obstructive laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H043z00,Read,Acute epiglottitis NOS,diagnostic,748 - res70: URTI,2018-11-26
+H04z.00,Read,Acute laryngitis and tracheitis NOS,diagnostic,748 - res70: URTI,2018-11-26
+H05..00,Read,Other acute upper respiratory infections,diagnostic,748 - res70: URTI,2018-11-26
+H050.00,Read,Acute laryngopharyngitis,diagnostic,748 - res70: URTI,2018-11-26
+H051.00,Read,Acute upper respiratory tract infection,diagnostic,748 - res70: URTI,2018-11-26
+H052.00,Read,Pharyngotracheitis,diagnostic,748 - res70: URTI,2018-11-26
+H053.00,Read,Tracheopharyngitis,diagnostic,748 - res70: URTI,2018-11-26
+H054.00,Read,Recurrent upper respiratory tract infection,diagnostic,748 - res70: URTI,2018-11-26
+H055.00,Read,Pharyngolaryngitis,diagnostic,748 - res70: URTI,2018-11-26
+H05y.00,Read,Other upper respiratory infections of multiple sites,diagnostic,748 - res70: URTI,2018-11-26
+H05z.00,Read,Upper respiratory infection NOS,diagnostic,748 - res70: URTI,2018-11-26
+H05z.11,Read,Upper respiratory tract infection NOS,diagnostic,748 - res70: URTI,2018-11-26
+H0y..00,Read,Other specified acute respiratory infections,diagnostic,748 - res70: URTI,2018-11-26
+H0z..00,Read,Acute respiratory infection NOS,diagnostic,748 - res70: URTI,2018-11-26
+H160100,Read,Chronic catarrhal laryngitis,diagnostic,748 - res70: URTI,2018-11-26
+Hyu0.00,Read,[X]Acute upper respiratory infections,diagnostic,748 - res70: URTI,2018-11-26
+Hyu0100,Read,[X]Acute pharyngitis due to other specified organisms,diagnostic,748 - res70: URTI,2018-11-26
+Hyu0200,Read,[X]Acute tonsillitis due to other specified organisms,diagnostic,748 - res70: URTI,2018-11-26

@@ -17,6 +17,7 @@ read_cprd <- function(name) {
   rc_ <- suppressMessages(read_csv(file)) %>%
     select(read_code = `Read code`,
            read_term = Descr) %>%
+    mutate_at('read_code', list(~ str_pad(., width = 5, side = 'right', pad = '.'))) %>%
     mutate_at('read_code', list(~ str_extract(., pattern = '^.{5}'))) %>%
     distinct()
 }

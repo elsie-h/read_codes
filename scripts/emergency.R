@@ -23,3 +23,13 @@ emergency <- read_delim("lists_in/Elsie/cl_hospitalisation_elsie",
 emergency$read_code[duplicated(emergency$read_code)]
 
 saveRDS(emergency, file = 'lists_out/emergency.RDS', compress = FALSE)
+
+# table for appendix
+emergency %>%
+  arrange(read_term) %>%
+  select(`Read code` = read_code, 
+         `Term` = read_term) %>%
+  xtable(caption = 'Read codes from emergency asthma events (see \\nameref{cha:ehr:methods:pre:emergency} for methods)',
+         label = 'tab:app:rc_emergency',
+         align=c('l',"p{2cm}","p{10cm}")) %>%
+  print_xtable_multi(filename = 'emergency')
