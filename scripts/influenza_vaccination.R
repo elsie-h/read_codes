@@ -6,7 +6,7 @@
 
 source('setup.R')
 
-fluvac_qof <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+fluvac_qof <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('id')), any_vars(. %in% 'FLU_COD')) 
 
 fluvac_qof %>%
@@ -27,7 +27,7 @@ fluvac_qof <- fluvac_qof %>%
   distinct(read_code, read_term) %>%
   mutate(cat1 = 'influenza_vaccination', cat2 = NA_character_)
 
-saveRDS(fluvac_qof, file = 'lists_out/influenza_vaccination.RDS', compress = FALSE)
+write_csv(fluvac_qof, path = 'lists_out/influenza_vaccination.csv')
 
 # table for appendix
 fluvac_qof %>%

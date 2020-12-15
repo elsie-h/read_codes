@@ -1,865 +1,791 @@
-"","read_code","cat2","QOF","read_term","cat1"
-"1","c514.","??",1,"*ASMA-VYDRIN spray","asthma_drug"
-"2","c515.","??",1,"*ASMA-VYDRIN spray 120mL","asthma_drug"
-"3","c518.","??",1,"*BRONCHILATOR inhaler","asthma_drug"
-"4","c51f.","??",1,"*CAM mixture","asthma_drug"
-"5","c225.","??",1,"*CAM SF 15mg/5mL mixture","asthma_drug"
-"6","c71c.","??",1,"*CROMOGEN 5mg inhaler","asthma_drug"
-"7","c51g.","??",1,"*DUO-AUTOHALER inhaler","asthma_drug"
-"8","c711.","??",1,"*INTAL 1mg inhaler","asthma_drug"
-"9","c713.","??",1,"*INTAL 20mg spincaps","asthma_drug"
-"10","c71a.","??",1,"*INTAL 5mg Autohaler","asthma_drug"
-"11","c716.","??",1,"*INTAL 5mg inhaler","asthma_drug"
-"12","c721.","??",1,"*INTAL COMPOUND spincaps","asthma_drug"
-"13","c712.","??",1,"*INTAL HALERMATIC insufflator","asthma_drug"
-"14","c714.","??",1,"*INTAL SPINHALER insufflator","asthma_drug"
-"15","c734.","??",1,"*KETOTIFEN 1mg capsules","asthma_drug"
-"16","c73x.","??",1,"*KETOTIFEN 1mg capsules","asthma_drug"
-"17","c73y.","??",1,"*KETOTIFEN 1mg tablets","asthma_drug"
-"18","c73z.","??",1,"*KETOTIFEN 1mg/5mL elixir","asthma_drug"
-"19","c51l.","??",1,"*MEDIHALER DUO inhaler","asthma_drug"
-"20","c742.","??",1,"*NEDOCROMIL SODIUM 2mg inhaler","asthma_drug"
-"21","c51o.","??",1,"*RYBAR NO-1 inhaler","asthma_drug"
-"22","c51p.","??",1,"*RYBAR NO-2 inhaler","asthma_drug"
-"23","c741.","??",1,"*TILADE MINT 2mg inhaler","asthma_drug"
-"24","c743.","??",1,"*TILADE MINT 2mg inhaler","asthma_drug"
-"25","c731.","??",1,"*ZADITEN 1mg capsules","asthma_drug"
-"26","c723.","??",1,"AEROCROM SYNCRONER inhaler + spacer device","asthma_drug"
-"27","c226.","??",1,"CAM 4mg/5mL sugar free mixture","asthma_drug"
-"28","c71j.","??",1,"CROMOGEN EASI-BREATHE 5mg breath-actuated aerosol inhaler","asthma_drug"
-"29","c51h.","??",1,"DUO-AUTOHALER refill cannister","asthma_drug"
-"30","c22..","??",1,"EPHEDRINE HYDROCHLORIDE [RESPIRATORY USE]","asthma_drug"
-"31","c221.","??",1,"EPHEDRINE HYDROCHLORIDE 15mg tablets","asthma_drug"
-"32","c224.","??",1,"EPHEDRINE HYDROCHLORIDE 15mg/5mL elixir","asthma_drug"
-"33","c222.","??",1,"EPHEDRINE HYDROCHLORIDE 30mg tablets","asthma_drug"
-"34","c227.","??",1,"EPHEDRINE HYDROCHLORIDE 4mg/5mL sugar free mixture","asthma_drug"
-"35","c223.","??",1,"EPHEDRINE HYDROCHLORIDE 60mg tablets","asthma_drug"
-"36","x01EF","??",1,"Inhaled sodium cromoglycate","asthma_drug"
-"37","c715.","??",1,"INTAL 20mg/2mL nebuliser solution","asthma_drug"
-"38","c71i.","??",1,"INTAL 5mg CFC-free inhaler","asthma_drug"
-"39","c71d.","??",1,"INTAL FISONAIR 5mg inhaler + spacer device","asthma_drug"
-"40","c71g.","??",1,"INTAL SYNCRONER 5mg inhaler + spacer device 2x112dose","asthma_drug"
-"41","x01EG","??",1,"Intal Syncroner inhaler+spacer","asthma_drug"
-"42","x02LJ","??",1,"Ketotifen","asthma_drug"
-"43","c8b..","??",1,"Ketotifen [antihistamine]","asthma_drug"
-"44","c73..","??",1,"KETOTIFEN [ASTHMA PROPHYLAXIS]","asthma_drug"
-"45","c735.","??",1,"KETOTIFEN 1mg tablets","asthma_drug"
-"46","c736.","??",1,"KETOTIFEN 1mg/5mL elixir","asthma_drug"
-"47","x01EJ","??",1,"Nedocromil","asthma_drug"
-"48","c74..","??",1,"NEDOCROMIL SODIUM [ASTHMA]","asthma_drug"
-"49","c746.","??",1,"NEDOCROMIL SODIUM 2mg CFC-free inhaler","asthma_drug"
-"50","c745.","??",1,"NEDOCROMIL SODIUM 2mg inhaler + spacer","asthma_drug"
-"51","c51n.","??",1,"RYBARVIN INHALANT solution 30mL","asthma_drug"
-"52","c71..","??",1,"SODIUM CROMOGLICATE [ASTHMA]","asthma_drug"
-"53","c717.","??",1,"SODIUM CROMOGLICATE 20mg inhalation capsules","asthma_drug"
-"54","c718.","??",1,"SODIUM CROMOGLICATE 20mg/2mL nebuliser solution","asthma_drug"
-"55","c71h.","??",1,"SODIUM CROMOGLICATE 5mg breath-actuated aerosol inhaler","asthma_drug"
-"56","c71k.","??",1,"SODIUM CROMOGLICATE 5mg CFC-free inhaler","asthma_drug"
-"57","c719.","??",1,"SODIUM CROMOGLICATE 5mg inhaler","asthma_drug"
-"58","c71e.","??",1,"SODIUM CROMOGLICATE 5mg inhaler + spacer device","asthma_drug"
-"59","c72..","??",1,"SODIUM CROMOGLICATE COMPOUNDS","asthma_drug"
-"60","x00Av","??",1,"Sodium cromoglicate+isoprenaline sulphate","asthma_drug"
-"61","c71f.","??",1,"SODIUM CROMOGLYCATE 5mg auto inhaler","asthma_drug"
-"62","c71b.","??",1,"STERI-NEB CROMOGEN 20mg nebulisation units","asthma_drug"
-"63","c747.","??",1,"TILADE 2mg CFC-free inhaler","asthma_drug"
-"64","c744.","??",1,"TILADE MINT SYNCRONER 2mg inhaler","asthma_drug"
-"65","c732.","??",1,"ZADITEN 1mg tablets","asthma_drug"
-"66","c733.","??",1,"ZADITEN 1mg/5mL elixir","asthma_drug"
-"67","c212.","adrenaline",1,"*ADRENALINE 1mg/1mL injection","asthma_drug"
-"68","c51b.","adrenaline",1,"*BROVON MIDGET inhaler","asthma_drug"
-"69","c51e.","adrenaline",1,"*BROVON pressurised inhaler","asthma_drug"
-"70","c519.","adrenaline",1,"*BROVON spray 20mL","asthma_drug"
-"71","c51a.","adrenaline",1,"*BROVON spray 50mL","asthma_drug"
-"72","c21..","adrenaline",1,"ADRENALINE [RESP]","asthma_drug"
-"73","c216.","adrenaline",1,"ADRENALINE 280micrograms inhaler","asthma_drug"
-"74","c211.","adrenaline",1,"ADRENALINE 500microgram/0.5mL injection","asthma_drug"
-"75","c511.","adrenaline",1,"ADRENALINE+ATROPINE COMPOUND spray","asthma_drug"
-"76","c51c.","adrenaline",1,"BROVON RESERVOIR+CLOSURE","asthma_drug"
-"77","c51d.","adrenaline",1,"BROVON RUBBER BULB","asthma_drug"
-"78","c51k.","adrenaline",1,"ISO-BROVON PLUS pressurised inhaler","asthma_drug"
-"79","c51j.","adrenaline",1,"ISO-BROVON pressurised inhaler","asthma_drug"
-"80","c213.","adrenaline",1,"MEDIHALER-EPI 280micrograms inhaler","asthma_drug"
-"81","c215.","adrenaline",1,"MIN-I-JET ADREN 1mg/1mL injection","asthma_drug"
-"82","c214.","adrenaline",1,"MIN-I-JET ADREN 500microgram/0.5mL injection","asthma_drug"
-"83","c75..","biologic",1,"MEPOLIZUMAB","asthma_drug"
-"84","c752.","biologic",1,"MEPOLIZUMAB 100mg powder for solution for injection","asthma_drug"
-"85","c751.","biologic",1,"NUCALA 100mg powder for solution for injection","asthma_drug"
-"86","ck1..","biologic",1,"OMALIZUMAB","asthma_drug"
-"87","ck11.","biologic",1,"OMALIZUMAB 150mg injection(pdr for recon)+solvent","asthma_drug"
-"88","ck15.","biologic",1,"OMALIZUMAB 150mg/1mL soln for injection prefilled syringe","asthma_drug"
-"89","ck13.","biologic",1,"OMALIZUMAB 75mg/0.5mL soln for injection prefilled syringe","asthma_drug"
-"90","ck12.","biologic",1,"XOLAIR 150mg injection(pdr for recon)+solvent","asthma_drug"
-"91","ck16.","biologic",1,"XOLAIR 150mg/1mL solution for injection prefilled syringe","asthma_drug"
-"92","ck14.","biologic",1,"XOLAIR 75mg/0.5mL solution for injection prefilled syringe","asthma_drug"
-"93","c51y.","group",1,"AMBIGUOUS CODE-DUPLICATED ISSUE","asthma_drug"
-"94","c3...","group",1,"ANTICHOLINERGIC BRONCHODILATORS","asthma_drug"
-"95","c7...","group",1,"ASTHMA PROPHYLAXIS","asthma_drug"
-"96","c62..","group",1,"BECLOMETASONE COMPOUNDS","asthma_drug"
-"97","c5...","group",1,"COMPOUND BRONCHODILATORS","asthma_drug"
-"98","c53..","group",1,"COMPOUND BRONCHODILATORS [1]","asthma_drug"
-"99","c51..","group",1,"COMPOUND BRONCHODILATORS A-Z","asthma_drug"
-"100","c6...","group",1,"CORTICOSTEROIDS [RESPIRATORY USE]","asthma_drug"
-"101","x02IG","group",1,"Corticosteroids used in the treatment of asthma","asthma_drug"
-"102","c2...","group",1,"OTHER ADRENOCEPTOR STIMULANTS","asthma_drug"
-"103","c1...","group",1,"SELECTIVE BETA-ADRENOCEPTOR STIMULANT","asthma_drug"
-"104","c4...","group",1,"XANTHINE BRONCHODILATORS","asthma_drug"
-"105","c63..","ICS",1,"*BETAMETHASONE VALERATE","asthma_drug"
-"106","c631.","ICS",1,"*BEXTASOL 100microgram inhaler","asthma_drug"
-"107","c621.","ICS",1,"*VENTIDE inhaler","asthma_drug"
-"108","c61l.","ICS",1,"Aerobec 100mcg Autohaler","asthma_drug"
-"109","c61j.","ICS",1,"Aerobec 50mcg Autohaler","asthma_drug"
-"110","c61k.","ICS",1,"Aerobec Forte 250micrograms Autohaler","asthma_drug"
-"111","c691.","ICS",1,"Alvesco 160micrograms inhaler","asthma_drug"
-"112","c692.","ICS",1,"Alvesco 80micrograms inhaler","asthma_drug"
-"113","c66E.","ICS",1,"Asmabec 100micrograms Clickhaler","asthma_drug"
-"114","c61Y.","ICS",1,"Asmabec 100micrograms Spacehaler","asthma_drug"
-"115","c66F.","ICS",1,"Asmabec 250micrograms Clickhaler","asthma_drug"
-"116","c661.","ICS",1,"Asmabec 250micrograms Spacehaler","asthma_drug"
-"117","c66D.","ICS",1,"Asmabec 50micrograms Clickhaler","asthma_drug"
-"118","c61W.","ICS",1,"Asmabec 50micrograms Spacehaler","asthma_drug"
-"119","c683.","ICS",1,"Asmanex Twisthaler 200mcg breath-actuated dry powder inhaler","asthma_drug"
-"120","c684.","ICS",1,"Asmanex Twisthaler 400mcg breath-actuated dry powder inhaler","asthma_drug"
-"121","c61O.","ICS",1,"Beclazone 100 Easi-Breathe inhaler","asthma_drug"
-"122","c61L.","ICS",1,"Beclazone 100 inhaler","asthma_drug"
-"123","c669.","ICS",1,"Beclazone 200 inhaler","asthma_drug"
-"124","c61P.","ICS",1,"Beclazone 250 Easi-Breathe inhaler","asthma_drug"
-"125","c61M.","ICS",1,"Beclazone 250 inhaler","asthma_drug"
-"126","c61N.","ICS",1,"Beclazone 50 Easi-Breathe inhaler","asthma_drug"
-"127","c61K.","ICS",1,"Beclazone 50 inhaler","asthma_drug"
-"128","c611.","ICS",1,"Becloforte 250micrograms inhaler","asthma_drug"
-"129","x00Hx","ICS",1,"Becloforte 400micrograms/blister disks refill","asthma_drug"
-"130","x00I1","ICS",1,"Becloforte 400micrograms/blister disks+diskhaler","asthma_drug"
-"131","c61m.","ICS",1,"Becloforte diskhaler 400micrograms 14x8","asthma_drug"
-"132","c61n.","ICS",1,"Becloforte disks 400micrograms disk refill 14x8","asthma_drug"
-"133","c664.","ICS",1,"Becloforte Easi-Breathe 250micrograms inhaler","asthma_drug"
-"134","c61Q.","ICS",1,"Becloforte Integra 250micrograms inhaler+compact spacer","asthma_drug"
-"135","c61R.","ICS",1,"Becloforte Integra 250micrograms refill","asthma_drug"
-"136","c61g.","ICS",1,"Becloforte VM 250micrograms inhaler+spacer(large volume)","asthma_drug"
-"137","c66L.","ICS",1,"Beclometasone 100 Cyclocap","asthma_drug"
-"138","c66M.","ICS",1,"Beclometasone 200 Cyclocap","asthma_drug"
-"139","c66N.","ICS",1,"Beclometasone 400 Cyclocap","asthma_drug"
-"140","c61F.","ICS",1,"Beclometasone diprop 100mcg breath-actuated aerosol inhaler","asthma_drug"
-"141","c66B.","ICS",1,"Beclometasone diprop 100mcg breath-actuated powder inhaler","asthma_drug"
-"142","c66H.","ICS",1,"Beclometasone diprop 200mcg breath-actuated powder inhaler","asthma_drug"
-"143","c61E.","ICS",1,"Beclometasone diprop 250mcg breath-actuated aerosol inhaler","asthma_drug"
-"144","c66C.","ICS",1,"Beclometasone diprop 250mcg breath-actuated powder inhaler","asthma_drug"
-"145","c66G.","ICS",1,"Beclometasone diprop 400mcg breath-actuated powder inhaler","asthma_drug"
-"146","c61D.","ICS",1,"Beclometasone diprop 50mcg breath-actuated aerosol inhaler","asthma_drug"
-"147","c66A.","ICS",1,"Beclometasone diprop 50mcg breath-actuated powder inhaler","asthma_drug"
-"148","c66..","ICS",1,"Beclometasone dipropionate [respiratory use 2]","asthma_drug"
-"149","c61..","ICS",1,"Beclometasone dipropionate [respiratory use]","asthma_drug"
-"150","c66Y.","ICS",1,"Beclometasone dipropionate 100mcg CFC-free br-act inhaler","asthma_drug"
-"151","c61p.","ICS",1,"Beclometasone dipropionate 100mcg/blister disk+disk inhaler","asthma_drug"
-"152","c61r.","ICS",1,"Beclometasone dipropionate 100mcg/blister disks refill","asthma_drug"
-"153","c66W.","ICS",1,"Beclometasone dipropionate 100micrograms CFC-free inhaler","asthma_drug"
-"154","c61w.","ICS",1,"Beclometasone dipropionate 100micrograms inhalation capsule","asthma_drug"
-"155","c61z.","ICS",1,"Beclometasone dipropionate 100micrograms inhaler","asthma_drug"
-"156","c61q.","ICS",1,"Beclometasone dipropionate 200mcg/blister disk+disk inhaler","asthma_drug"
-"157","c61s.","ICS",1,"Beclometasone dipropionate 200mcg/blister disks refill","asthma_drug"
-"158","c66g.","ICS",1,"BECLOMETASONE DIPROPIONATE 200micrograms CFC-free inhaler","asthma_drug"
-"159","c61x.","ICS",1,"Beclometasone dipropionate 200micrograms inhalation capsule","asthma_drug"
-"160","c61u.","ICS",1,"Beclometasone dipropionate 200micrograms inhaler","asthma_drug"
-"161","c66h.","ICS",1,"BECLOMETASONE DIPROPIONATE 250micrograms CFC-free inhaler","asthma_drug"
-"162","c61t.","ICS",1,"Beclometasone dipropionate 250micrograms inhaler","asthma_drug"
-"163","c61B.","ICS",1,"Beclometasone dipropionate 400mcg/blister disks refill","asthma_drug"
-"164","c61A.","ICS",1,"Beclometasone dipropionate 400mcg/blister disks+disk inh","asthma_drug"
-"165","c61h.","ICS",1,"Beclometasone dipropionate 400micrograms inhalation capsule","asthma_drug"
-"166","c66X.","ICS",1,"Beclometasone dipropionate 50mcg CFC-free br-act inhaler","asthma_drug"
-"167","c66V.","ICS",1,"Beclometasone dipropionate 50micrograms CFC-free inhaler","asthma_drug"
-"168","c61v.","ICS",1,"Beclometasone dipropionate 50micrograms inhaler","asthma_drug"
-"169","c61U.","ICS",1,"Beclometasone rotahaler device","asthma_drug"
-"170","c61X.","ICS",1,"Beclomethasone dipropionate 100mcg vortex metered dose inh","asthma_drug"
-"171","c61T.","ICS",1,"Beclomethasone dipropionate 250mcg compact spacer refill","asthma_drug"
-"172","c61S.","ICS",1,"Beclomethasone dipropionate 250mcg inh+compact spacer","asthma_drug"
-"173","c61C.","ICS",1,"Beclomethasone dipropionate 250mcg inh+spacer(large volume)","asthma_drug"
-"174","c61Z.","ICS",1,"Beclomethasone dipropionate 250mcg vortex metered dose inh","asthma_drug"
-"175","c61V.","ICS",1,"Beclomethasone dipropionate 50mcg vortex metered dose inh","asthma_drug"
-"176","c61y.","ICS",1,"Beclomethasone dipropionate 50mcg/1mL nebuliser solution","asthma_drug"
-"177","c61c.","ICS",1,"Becodisk 100micrograms disk refill 14x8","asthma_drug"
-"178","c66S.","ICS",1,"Becodisk 100micrograms disk refill 15x8","asthma_drug"
-"179","c619.","ICS",1,"Becodisk 100micrograms diskhaler 14x8","asthma_drug"
-"180","c66P.","ICS",1,"Becodisk 100micrograms diskhaler 15x8","asthma_drug"
-"181","c61d.","ICS",1,"Becodisk 200micrograms disk refill 14x8","asthma_drug"
-"182","c66T.","ICS",1,"Becodisk 200micrograms disk refill 15x8","asthma_drug"
-"183","c61a.","ICS",1,"Becodisk 200micrograms diskhaler 14x8","asthma_drug"
-"184","c66Q.","ICS",1,"Becodisk 200micrograms diskhaler 15x8","asthma_drug"
-"185","c66R.","ICS",1,"Becodisk 400microcgrams diskhaler 15x8","asthma_drug"
-"186","c66U.","ICS",1,"Becodisk 400micrograms disk refill 15x8","asthma_drug"
-"187","c61f.","ICS",1,"Becodisk 400micrograms disk refill 7x8","asthma_drug"
-"188","c61e.","ICS",1,"Becodisk 400micrograms diskhaler 7x8","asthma_drug"
-"189","x00I2","ICS",1,"Becodisks 100micrograms disks+diskhaler","asthma_drug"
-"190","x00Hy","ICS",1,"Becodisks 100micrograms/blister disks refill","asthma_drug"
-"191","x00Hz","ICS",1,"Becodisks 200micrograms/blister disks refill","asthma_drug"
-"192","x00I3","ICS",1,"Becodisks 200micrograms/blister disks+diskhaler","asthma_drug"
-"193","x00I0","ICS",1,"Becodisks 400micrograms/blister disks refill","asthma_drug"
-"194","x00I4","ICS",1,"Becodisks 400micrograms/blister disks+diskhaler","asthma_drug"
-"195","c663.","ICS",1,"Becotide 100 Easi-Breathe inhaler","asthma_drug"
-"196","c617.","ICS",1,"Becotide 100 inhaler","asthma_drug"
-"197","c613.","ICS",1,"Becotide 100micrograms Rotacap","asthma_drug"
-"198","c61i.","ICS",1,"Becotide 200 inhaler","asthma_drug"
-"199","c614.","ICS",1,"Becotide 200micrograms Rotacap","asthma_drug"
-"200","c61b.","ICS",1,"Becotide 400micrograms Rotacap","asthma_drug"
-"201","c662.","ICS",1,"Becotide 50 Easi-Breathe inhaler","asthma_drug"
-"202","c612.","ICS",1,"Becotide 50 inhaler","asthma_drug"
-"203","c616.","ICS",1,"Becotide 50micrograms/1mL nebuliser solution","asthma_drug"
-"204","c615.","ICS",1,"Becotide Rotahaler","asthma_drug"
-"205","c63z.","ICS",1,"BETAMETHASONE 100micrograms inhaler","asthma_drug"
-"206","c64..","ICS",1,"Budesonide [respiratory use]","asthma_drug"
-"207","c64d.","ICS",1,"Budesonide 100micrograms breath-actuated dry powder inhaler","asthma_drug"
-"208","c64L.","ICS",1,"BUDESONIDE 100micrograms CFC-free inhaler","asthma_drug"
-"209","c64j.","ICS",1,"Budesonide 1mg/2mL nebulisation unit","asthma_drug"
-"210","c64k.","ICS",1,"Budesonide 200 Cyclocap","asthma_drug"
-"211","c64g.","ICS",1,"Budesonide 200micrograms breath-actuated dry powder inhaler","asthma_drug"
-"212","c64N.","ICS",1,"BUDESONIDE 200micrograms CFC-free inhaler","asthma_drug"
-"213","c64m.","ICS",1,"Budesonide 200micrograms inhalation capsule","asthma_drug"
-"214","c64v.","ICS",1,"Budesonide 200micrograms inhaler","asthma_drug"
-"215","c64A.","ICS",1,"Budesonide 200micrograms inhaler refill","asthma_drug"
-"216","c64o.","ICS",1,"Budesonide 200micrograms inhaler with spacer device","asthma_drug"
-"217","c64z.","ICS",1,"BUDESONIDE 200micrograms spacer inhaler","asthma_drug"
-"218","c64F.","ICS",1,"Budesonide 200micrograms/dose dry powder cartridge refill","asthma_drug"
-"219","c64u.","ICS",1,"Budesonide 200micrograms/dose dry powder cartridge+inhaler","asthma_drug"
-"220","c64l.","ICS",1,"Budesonide 400 Cyclocap","asthma_drug"
-"221","c64h.","ICS",1,"Budesonide 400micrograms breath-actuated dry powder inhaler","asthma_drug"
-"222","c64n.","ICS",1,"Budesonide 400micrograms inhalation capsule","asthma_drug"
-"223","c64i.","ICS",1,"Budesonide 500micrograms/2mL nebulisation unit","asthma_drug"
-"224","c64y.","ICS",1,"Budesonide 50micrograms inhaler","asthma_drug"
-"225","c64e.","ICS",1,"Budesonide 50micrograms inhaler refill","asthma_drug"
-"226","c64B.","ICS",1,"BUDESONIDE 50micrograms spacer inhaler","asthma_drug"
-"227","x029g","ICS",1,"Budesonide refill","asthma_drug"
-"228","c64w.","ICS",1,"Budesonide refill 100dose","asthma_drug"
-"229","c64x.","ICS",1,"Budesonide refill 200dose","asthma_drug"
-"230","c69..","ICS",1,"CICLESONIDE","asthma_drug"
-"231","c69z.","ICS",1,"Ciclesonide 160micrograms inhaler","asthma_drug"
-"232","c69y.","ICS",1,"Ciclesonide 80micrograms inhaler","asthma_drug"
-"233","c66d.","ICS",1,"CLENIL MODULITE 100micrograms CFC-free inhaler","asthma_drug"
-"234","c66e.","ICS",1,"CLENIL MODULITE 200micrograms CFC-free inhaler","asthma_drug"
-"235","c66f.","ICS",1,"CLENIL MODULITE 250micrograms CFC-free inhaler","asthma_drug"
-"236","c66c.","ICS",1,"CLENIL MODULITE 50micrograms CFC-free inhaler","asthma_drug"
-"237","c66b.","ICS",1,"Easyhaler Beclometasone 200mcg breath-act dry powder inhaler","asthma_drug"
-"238","c64H.","ICS",1,"Easyhaler Budesonide 100mcg breath-actuated dry powder inh","asthma_drug"
-"239","c64I.","ICS",1,"Easyhaler Budesonide 200mcg breath-actuated dry powder inh","asthma_drug"
-"240","c64J.","ICS",1,"Easyhaler Budesonide 400mcg breath-actuated dry powder inh","asthma_drug"
-"241","c61H.","ICS",1,"Filair 100micrograms inhaler","asthma_drug"
-"242","c61G.","ICS",1,"Filair 50 inhaler","asthma_drug"
-"243","c61J.","ICS",1,"Filair Forte 250micrograms inhaler","asthma_drug"
-"244","c65Z.","ICS",1,"Flixotide 0.5mg/2mL Nebule","asthma_drug"
-"245","c65U.","ICS",1,"Flixotide 100micrograms Accuhaler","asthma_drug"
-"246","c658.","ICS",1,"Flixotide 100micrograms/blister disks refill","asthma_drug"
-"247","c652.","ICS",1,"Flixotide 100micrograms/blister disks+diskhaler","asthma_drug"
-"248","c65d.","ICS",1,"Flixotide 125micrograms Evohaler","asthma_drug"
-"249","c65F.","ICS",1,"Flixotide 125micrograms inhaler","asthma_drug"
-"250","c65V.","ICS",1,"Flixotide 250micrograms Accuhaler","asthma_drug"
-"251","c65e.","ICS",1,"Flixotide 250micrograms Evohaler","asthma_drug"
-"252","c65K.","ICS",1,"Flixotide 250micrograms inhaler","asthma_drug"
-"253","c659.","ICS",1,"Flixotide 250micrograms/blister disks refill","asthma_drug"
-"254","c653.","ICS",1,"Flixotide 250micrograms/blister disks+diskhaler","asthma_drug"
-"255","c65D.","ICS",1,"Flixotide 25micrograms inhaler","asthma_drug"
-"256","c65a.","ICS",1,"Flixotide 2mg/2mL Nebule","asthma_drug"
-"257","c65W.","ICS",1,"Flixotide 500micrograms Accuhaler","asthma_drug"
-"258","c65M.","ICS",1,"Flixotide 500micrograms disks refill","asthma_drug"
-"259","c65L.","ICS",1,"Flixotide 500micrograms disks+diskhaler","asthma_drug"
-"260","c65T.","ICS",1,"Flixotide 50micrograms Accuhaler","asthma_drug"
-"261","c65g.","ICS",1,"Flixotide 50micrograms Evohaler","asthma_drug"
-"262","c65E.","ICS",1,"Flixotide 50micrograms inhaler","asthma_drug"
-"263","c657.","ICS",1,"Flixotide 50micrograms/blister disks refill","asthma_drug"
-"264","c651.","ICS",1,"Flixotide 50micrograms/blister disks+diskhaler","asthma_drug"
-"265","c65..","ICS",1,"Fluticasone propionate [respiratory use]","asthma_drug"
-"266","c65X.","ICS",1,"Fluticasone propionate 0.5mg/2mL nebulisation unit","asthma_drug"
-"267","c65Q.","ICS",1,"Fluticasone propionate 100mcg breath-actuate dry pdr inhaler","asthma_drug"
-"268","c655.","ICS",1,"Fluticasone propionate 100mcg/blister disks+disk inhaler","asthma_drug"
-"269","c65B.","ICS",1,"Fluticasone propionate 100micrograms/blister disks refill","asthma_drug"
-"270","c65b.","ICS",1,"Fluticasone propionate 125micrograms CFC-free inhaler","asthma_drug"
-"271","c65I.","ICS",1,"Fluticasone propionate 125micrograms inhaler","asthma_drug"
-"272","c65R.","ICS",1,"Fluticasone propionate 250mcg breath-actuate dry pdr inhaler","asthma_drug"
-"273","c656.","ICS",1,"Fluticasone propionate 250mcg/blister disks+disk inhaler","asthma_drug"
-"274","c65c.","ICS",1,"Fluticasone propionate 250micrograms CFC-free inhaler","asthma_drug"
-"275","c65J.","ICS",1,"Fluticasone propionate 250micrograms inhaler","asthma_drug"
-"276","c65C.","ICS",1,"Fluticasone propionate 250micrograms/blister disks refill","asthma_drug"
-"277","c65G.","ICS",1,"Fluticasone propionate 25micrograms inhaler","asthma_drug"
-"278","c65Y.","ICS",1,"Fluticasone propionate 2mg/2mL nebulisation unit","asthma_drug"
-"279","c65S.","ICS",1,"Fluticasone propionate 500mcg breath-actuate dry pdr inhaler","asthma_drug"
-"280","c65N.","ICS",1,"Fluticasone propionate 500mcg/blister disks+disk inhaler","asthma_drug"
-"281","c65O.","ICS",1,"Fluticasone propionate 500micrograms/blister disks refill","asthma_drug"
-"282","c65P.","ICS",1,"Fluticasone propionate 50mcg breath-actuated dry pdr inhaler","asthma_drug"
-"283","c654.","ICS",1,"Fluticasone propionate 50mcg/blister disks+disk inhaler","asthma_drug"
-"284","c65f.","ICS",1,"Fluticasone propionate 50micrograms CFC-free inhaler","asthma_drug"
-"285","c65H.","ICS",1,"Fluticasone propionate 50micrograms inhaler","asthma_drug"
-"286","c65A.","ICS",1,"Fluticasone propionate 50micrograms/blister disks refill","asthma_drug"
-"287","c68..","ICS",1,"MOMETASONE [RESPIRATORY USE]","asthma_drug"
-"288","c681.","ICS",1,"Mometasone furoate 200mcg breath-actuated dry powder inhaler","asthma_drug"
-"289","c682.","ICS",1,"Mometasone furoate 400mcg breath-actuated dry powder inhaler","asthma_drug"
-"290","c64G.","ICS",1,"Novolizer Budesonide 200micrograms/dose cartridge refill","asthma_drug"
-"291","c64p.","ICS",1,"Novolizer Budesonide 200micrograms/dose cartridge+inhaler","asthma_drug"
-"292","c64K.","ICS",1,"PULMICORT 100micrograms CFC-free inhaler","asthma_drug"
-"293","x00gE","ICS",1,"Pulmicort 100micrograms Turbohaler","asthma_drug"
-"294","c64c.","ICS",1,"Pulmicort 100micrograms Turbohaler 200dose","asthma_drug"
-"295","c64b.","ICS",1,"Pulmicort 1mg Respules 2mL unit","asthma_drug"
-"296","x00bV","ICS",1,"Pulmicort 1mg/2mL Respule","asthma_drug"
-"297","c64M.","ICS",1,"PULMICORT 200micrograms CFC-free inhaler","asthma_drug"
-"298","x00QU","ICS",1,"Pulmicort 200micrograms inhaler","asthma_drug"
-"299","c647.","ICS",1,"Pulmicort 200micrograms inhaler 100dose","asthma_drug"
-"300","c641.","ICS",1,"Pulmicort 200micrograms inhaler 200dose","asthma_drug"
-"301","x00QV","ICS",1,"Pulmicort 200micrograms inhaler refill","asthma_drug"
-"302","c64E.","ICS",1,"Pulmicort 200micrograms inhaler with NebuChamber","asthma_drug"
-"303","c642.","ICS",1,"Pulmicort 200micrograms refill 100dose","asthma_drug"
-"304","c643.","ICS",1,"Pulmicort 200micrograms refill 200dose","asthma_drug"
-"305","c64C.","ICS",1,"PULMICORT 200micrograms spacer inhaler","asthma_drug"
-"306","x00gF","ICS",1,"Pulmicort 200micrograms Turbohaler","asthma_drug"
-"307","c648.","ICS",1,"Pulmicort 200micrograms Turbohaler 100dose","asthma_drug"
-"308","x00gG","ICS",1,"Pulmicort 400micrograms Turbohaler","asthma_drug"
-"309","c649.","ICS",1,"Pulmicort 400micrograms Turbohaler 50dose","asthma_drug"
-"310","c64a.","ICS",1,"Pulmicort 500mcg Respules 2mL unit","asthma_drug"
-"311","x00bU","ICS",1,"Pulmicort 500micrograms/2mL Respule","asthma_drug"
-"312","c644.","ICS",1,"Pulmicort LS 50micrograms inhaler","asthma_drug"
-"313","c645.","ICS",1,"Pulmicort LS 50micrograms inhaler refill","asthma_drug"
-"314","c64D.","ICS",1,"PULMICORT LS 50micrograms spacer inhaler","asthma_drug"
-"315","c66I.","ICS",1,"Pulvinal Beclomethasone Diprop 100mcg breath-act dry pdr inh","asthma_drug"
-"316","c66J.","ICS",1,"Pulvinal Beclomethasone Diprop 200mcg breath-act dry pdr inh","asthma_drug"
-"317","c66K.","ICS",1,"Pulvinal Beclomethasone Diprop 400mcg breath-act dry pdr inh","asthma_drug"
-"318","c668.","ICS",1,"Qvar 100 Autohaler","asthma_drug"
-"319","c666.","ICS",1,"Qvar 100 inhaler","asthma_drug"
-"320","c667.","ICS",1,"Qvar 50 Autohaler","asthma_drug"
-"321","c665.","ICS",1,"Qvar 50 inhaler","asthma_drug"
-"322","c66a.","ICS",1,"Qvar Easi-Breathe 100mcg CFC-free breath-act dry pdr inhaler","asthma_drug"
-"323","c66Z.","ICS",1,"Qvar Easi-Breathe 50mcg CFC-free breath-act dry pdr inhaler","asthma_drug"
-"324","x00zA","ICS",1,"Respiratory beclomethasone","asthma_drug"
-"325","x00z6","ICS",1,"Respiratory budesonide","asthma_drug"
-"326","x01NO","ICS",1,"Respiratory fluticasone","asthma_drug"
-"327","x05kq","ICS",1,"Respiratory mometasone","asthma_drug"
-"328","c1D9.","ICSLABA",1,"AIRFLUSAL FORSPIRO 50micrograms/500micrograms pdr inhaler","asthma_drug"
-"329","c6Ay.","ICSLABA",1,"BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 100mcg/6mcg pdr inh","asthma_drug"
-"330","c6Ax.","ICSLABA",1,"BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg inhaler","asthma_drug"
-"331","c6Aw.","ICSLABA",1,"BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg pdr inh","asthma_drug"
-"332","c6A..","ICSLABA",1,"BECLOMETASONE+FORMOTEROL","asthma_drug"
-"333","c6Az.","ICSLABA",1,"BECLOMETASONE+FORMOTEROL 100micrograms/6micrograms inhaler","asthma_drug"
-"334","c67..","ICSLABA",1,"Budesonide+formoterol","asthma_drug"
-"335","c67z.","ICSLABA",1,"Budesonide+formoterol fumarate 100/6mcg bth-act dry pdr inh","asthma_drug"
-"336","c67y.","ICSLABA",1,"Budesonide+formoterol fumarate 200/6mcg bth-act dry pdr inh","asthma_drug"
-"337","c67x.","ICSLABA",1,"Budesonide+formoterol fumarate 400/12mcg b-act dry pdr inh","asthma_drug"
-"338","c674.","ICSLABA",1,"DUORESP SPIROMAX 160mcg/4.5mcg breath-act dry powder inhaler","asthma_drug"
-"339","c675.","ICSLABA",1,"DUORESP SPIROMAX 320mcg/9mcg breath-act dry powder inhaler","asthma_drug"
-"340","c6B2.","ICSLABA",1,"FLUTICASONE FUROATE+VILANTEROL 184mcg/22mcg dry pdr inhaler","asthma_drug"
-"341","c6B4.","ICSLABA",1,"FLUTICASONE FUROATE+VILANTEROL 92mcg/22mcg dry pdr inhaler","asthma_drug"
-"342","c1c..","ICSLABA",1,"FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE","asthma_drug"
-"343","c1cy.","ICSLABA",1,"FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 125mcg/5mcg inh","asthma_drug"
-"344","c1cx.","ICSLABA",1,"FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 250mcg/10mcg inh","asthma_drug"
-"345","c1cz.","ICSLABA",1,"FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 50mcg/5mcg inh","asthma_drug"
-"346","c6B..","ICSLABA",1,"FLUTICASONE+VILANTEROL","asthma_drug"
-"347","c1c2.","ICSLABA",1,"FLUTIFORM 125micrograms/5micrograms inhaler","asthma_drug"
-"348","c1c3.","ICSLABA",1,"FLUTIFORM 250micrograms/10micrograms inhaler","asthma_drug"
-"349","c1c1.","ICSLABA",1,"FLUTIFORM 50micrograms/5micrograms inhaler","asthma_drug"
-"350","c6A1.","ICSLABA",1,"FOSTAIR 100micrograms/6micrograms inhaler","asthma_drug"
-"351","c6A2.","ICSLABA",1,"FOSTAIR NEXTHALER 100micrograms/6micrograms powder inhaler","asthma_drug"
-"352","c6B1.","ICSLABA",1,"RELVAR ELLIPTA 184micrograms/22micrograms inhaler","asthma_drug"
-"353","c6B3.","ICSLABA",1,"RELVAR ELLIPTA 92micrograms/22micrograms inhaler","asthma_drug"
-"354","c1D..","ICSLABA",1,"Salmeterol+fluticasone propionate","asthma_drug"
-"355","c1Dv.","ICSLABA",1,"Salmeterol+fluticasone propionate 25mcg/125mcg CFC-free inh","asthma_drug"
-"356","c1Dw.","ICSLABA",1,"Salmeterol+fluticasone propionate 25mcg/250mcg CFC-free inh","asthma_drug"
-"357","c1Du.","ICSLABA",1,"Salmeterol+fluticasone propionate 25mcg/50mcg CFC-free inh","asthma_drug"
-"358","c1Dx.","ICSLABA",1,"Salmeterol+fluticasone propionate 50mcg/100mcg b-act pdr inh","asthma_drug"
-"359","c1Dy.","ICSLABA",1,"Salmeterol+fluticasone propionate 50mcg/250mcg b-act pdr inh","asthma_drug"
-"360","c1Dz.","ICSLABA",1,"Salmeterol+fluticasone propionate 50mcg/500mcg b-act pdr inh","asthma_drug"
-"361","c1D1.","ICSLABA",1,"Seretide 100 Accuhaler","asthma_drug"
-"362","c1D5.","ICSLABA",1,"Seretide 125 Evohaler","asthma_drug"
-"363","c1D2.","ICSLABA",1,"Seretide 250 Accuhaler","asthma_drug"
-"364","c1D6.","ICSLABA",1,"Seretide 250 Evohaler","asthma_drug"
-"365","c1D4.","ICSLABA",1,"Seretide 50 Evohaler","asthma_drug"
-"366","c1D3.","ICSLABA",1,"Seretide 500 Accuhaler","asthma_drug"
-"367","c1D7.","ICSLABA",1,"SIRDUPLA 25micrograms/125micrograms inhaler","asthma_drug"
-"368","c1D8.","ICSLABA",1,"SIRDUPLA 25micrograms/250micrograms inhaler","asthma_drug"
-"369","c671.","ICSLABA",1,"Symbicort 100/6 Turbohaler","asthma_drug"
-"370","c672.","ICSLABA",1,"Symbicort 200/6 Turbohaler","asthma_drug"
-"371","c673.","ICSLABA",1,"Symbicort 400/12 Turbohaler","asthma_drug"
-"372","c624.","ICSSABA",1,"*VENTIDE Rotahaler device","asthma_drug"
-"373","x0019","ICSSABA",1,"Beclometasone dipropionate+salbutamol","asthma_drug"
-"374","c62y.","ICSSABA",1,"Beclomethasone dipropionate+salbutamol 100micrograms/200micrograms paediatric inhalation capsule","asthma_drug"
-"375","c62x.","ICSSABA",1,"Beclomethasone dipropionate+salbutamol 200micrograms/400micrograms inhalation capsule","asthma_drug"
-"376","c62z.","ICSSABA",1,"Beclomethasone dipropionate+salbutamol 50micrograms/100micrograms inhaler","asthma_drug"
-"377","c6A3.","ICSSABA",1,"FOSTAIR 200micrograms/6micrograms inhaler","asthma_drug"
-"378","c6A4.","ICSSABA",1,"FOSTAIR NEXTHALER 200micrograms/6micrograms powder inhaler","asthma_drug"
-"379","c51m.","LABA",1,"*NETHAPRIN DOSPAN m/r tablets","asthma_drug"
-"380","c1C7.","LABA",1,"Atimos Modulite 12micrograms metered dose inhaler","asthma_drug"
-"381","c1B1.","LABA",1,"BAMBEC 10mg tablets","asthma_drug"
-"382","c1B2.","LABA",1,"BAMBEC 20mg tablets","asthma_drug"
-"383","x01Ck","LABA",1,"Bambuterol","asthma_drug"
-"384","c1B..","LABA",1,"BAMBUTEROL HYDROCHLORIDE","asthma_drug"
-"385","c1B3.","LABA",1,"BAMBUTEROL HYDROCHLORIDE 10mg tablets","asthma_drug"
-"386","c1B4.","LABA",1,"BAMBUTEROL HYDROCHLORIDE 20mg tablets","asthma_drug"
-"387","c1C2.","LABA",1,"Foradil 12micrograms inhalation capsules+inhaler","asthma_drug"
-"388","c1C..","LABA",1,"Formoterol","asthma_drug"
-"389","c1C8.","LABA",1,"FORMOTEROL EASYHALER 12micrograms breath-act dry powder inh","asthma_drug"
-"390","c1C4.","LABA",1,"Formoterol fumarate 12micrograms breath-act dry powder inh","asthma_drug"
-"391","c1C1.","LABA",1,"Formoterol fumarate 12micrograms inhalation capsules+inhaler","asthma_drug"
-"392","c1C3.","LABA",1,"Formoterol fumarate 6micrograms breath-act dry powder inh","asthma_drug"
-"393","c1Cy.","LABA",1,"FORMOTEROL FUMARATE DIHYDRATE 12mcg breath-act dry pdr inh","asthma_drug"
-"394","c1Cz.","LABA",1,"Formoterol fumarate dihydrate 12mcg metered dose inhaler","asthma_drug"
-"395","c1b..","LABA",NA,"INDACATEROL","asthma_drug"
-"396","c1b2.","LABA",NA,"INDACATEROL 150micrograms inhalation capsules+inhaler","asthma_drug"
-"397","c1b4.","LABA",NA,"INDACATEROL 300micrograms inhalation capsules+inhaler","asthma_drug"
-"398","c19A.","LABA",1,"NEOVENT 25micrograms CFC-free inhaler","asthma_drug"
-"399","c1d..","LABA",NA,"OLODATEROL","asthma_drug"
-"400","c1d2.","LABA",NA,"OLODATEROL 2.5micrograms inhaler","asthma_drug"
-"401","c1b1.","LABA",NA,"ONBREZ BREEZHALER 150micrograms inhalation capsules+inhaler","asthma_drug"
-"402","c1b3.","LABA",NA,"ONBREZ BREEZHALER 300micrograms inhalation capsules+inhaler","asthma_drug"
-"403","c1C6.","LABA",1,"Oxis 12micrograms Turbohaler","asthma_drug"
-"404","c1C5.","LABA",1,"Oxis 6micrograms Turbohaler","asthma_drug"
-"405","c19z.","LABA",1,"Salmeterol 25micrograms CFC-free inhaler","asthma_drug"
-"406","c191.","LABA",1,"Salmeterol 25micrograms inhaler","asthma_drug"
-"407","c197.","LABA",1,"Salmeterol 50micrograms breath-actuated dry powder inhaler","asthma_drug"
-"408","c196.","LABA",1,"Salmeterol 50micrograms/blister disks refill","asthma_drug"
-"409","c195.","LABA",1,"Salmeterol 50micrograms/blister disks+disk inhaler","asthma_drug"
-"410","c19..","LABA",1,"Salmeterol product","asthma_drug"
-"411","c199.","LABA",1,"Serevent 25micrograms Evohaler","asthma_drug"
-"412","c192.","LABA",1,"Serevent 25micrograms inhaler","asthma_drug"
-"413","c198.","LABA",1,"Serevent 50micrograms Accuhaler","asthma_drug"
-"414","c194.","LABA",1,"Serevent 50micrograms/blister disks refill","asthma_drug"
-"415","c193.","LABA",1,"Serevent 50micrograms/blister disks+diskhaler","asthma_drug"
-"416","c1d1.","LABA",NA,"STRIVERDI RESPIMAT 2.5micrograms inhaler","asthma_drug"
-"417","c19B.","LABA",1,"VERTINE 25micrograms CFC-free inhaler","asthma_drug"
-"418","c51L.","LABALAMA",1,"ACLIDINIUM+FORMOTEROL FUMARATE DIHYD 340mcg/12mcg pdr inh","asthma_drug"
-"419","c51I.","LABALAMA",1,"ANORO ELLIPTA 55micrograms/22micrograms dry powder inhaler","asthma_drug"
-"420","c51K.","LABALAMA",1,"DUAKLIR GENUAIR 340micrograms/12micrograms powder inhaler","asthma_drug"
-"421","c51J.","LABALAMA",1,"UMECLIDINIUM+VILANTEROL 55mcg/22mcg dry powder inhaler","asthma_drug"
-"422","c34..","LAMA",1,"ACLIDINIUM","asthma_drug"
-"423","c342.","LAMA",1,"ACLIDINIUM 322micrograms/dose dry powder inhaler","asthma_drug"
-"424","c341.","LAMA",1,"EKLIRA GENUAIR 322micrograms/dose dry powder inhaler","asthma_drug"
-"425","c351.","LAMA",1,"INCRUSE ELLIPTA 55micrograms/dose dry powder inhaler","asthma_drug"
-"426","c33z.","LAMA",1,"SPIRIVA 18micrograms inhalation capsules","asthma_drug"
-"427","c33y.","LAMA",1,"SPIRIVA COMBOPACK 18micrograms capsules with HandiHaler inhaler device","asthma_drug"
-"428","c33x.","LAMA",1,"SPIRIVA RESPIMAT 2.5micrograms inhalation cartridges with Respimat inhaler device","asthma_drug"
-"429","c33..","LAMA",1,"TIOTROPIUM","asthma_drug"
-"430","c332.","LAMA",1,"TIOTROPIUM 18micrograms capsules with inhaler device","asthma_drug"
-"431","c331.","LAMA",1,"TIOTROPIUM 18micrograms inhalation capsules","asthma_drug"
-"432","c333.","LAMA",1,"TIOTROPIUM 2.5micrograms inhalation cartridges with inhaler device","asthma_drug"
-"433","c35..","LAMA",1,"UMECLIDINIUM","asthma_drug"
-"434","c352.","LAMA",1,"UMECLIDINIUM 55micrograms/dose dry powder inhaler","asthma_drug"
-"435","cA22.","LTRA",1,"Accolate 20mg tablet","asthma_drug"
-"436","cA...","LTRA",1,"Leukotriene receptor antagonist","asthma_drug"
-"437","cA11.","LTRA",1,"Montelukast 10mg tablet","asthma_drug"
-"438","cA1z.","LTRA",1,"Montelukast 4mg chewable tablet","asthma_drug"
-"439","cA1y.","LTRA",1,"Montelukast 4mg/sachet granules","asthma_drug"
-"440","cA12.","LTRA",1,"Montelukast 5mg chewable tablet","asthma_drug"
-"441","cA1..","LTRA",1,"Montelukast product","asthma_drug"
-"442","cA13.","LTRA",1,"Singulair 10mg tablet","asthma_drug"
-"443","cA15.","LTRA",1,"Singulair Paediatric 4mg chewable tablet","asthma_drug"
-"444","cA16.","LTRA",1,"Singulair Paediatric 4mg/sachet granules","asthma_drug"
-"445","cA14.","LTRA",1,"Singulair Paediatric 5mg chewable tablet","asthma_drug"
-"446","cA2..","LTRA",1,"Zafirlukast","asthma_drug"
-"447","cA21.","LTRA",1,"Zafirlukast 20mg tablet","asthma_drug"
-"448","c51t.","methylxanthine",1,"*FRANOL NEW 11mg/120mg tablets","asthma_drug"
-"449","c51q.","methylxanthine",1,"*TAUMASTHMAN tablets","asthma_drug"
-"450","c51s.","methylxanthine",1,"*TEDRAL elixir","asthma_drug"
-"451","c51r.","methylxanthine",1,"*TEDRAL tablets","asthma_drug"
-"452","c41..","methylxanthine",1,"Aminophylline","asthma_drug"
-"453","c41g.","methylxanthine",1,"Aminophylline 100mg m/r tablet","asthma_drug"
-"454","c415.","methylxanthine",1,"Aminophylline 100mg suppository","asthma_drug"
-"455","c411.","methylxanthine",1,"Aminophylline 100mg tablet","asthma_drug"
-"456","c416.","methylxanthine",1,"Aminophylline 150mg suppository","asthma_drug"
-"457","c417.","methylxanthine",1,"Aminophylline 180mg suppository","asthma_drug"
-"458","c41d.","methylxanthine",1,"Aminophylline 225mg m/r tablet","asthma_drug"
-"459","c412.","methylxanthine",1,"Aminophylline 250mg/10mL injection","asthma_drug"
-"460","c41k.","methylxanthine",1,"Aminophylline 250mg/10mL prefilled syringe","asthma_drug"
-"461","c41f.","methylxanthine",1,"Aminophylline 350mg m/r tablet","asthma_drug"
-"462","c418.","methylxanthine",1,"Aminophylline 360mg suppository","asthma_drug"
-"463","c413.","methylxanthine",1,"Aminophylline 500mg/2mL injection","asthma_drug"
-"464","c414.","methylxanthine",1,"Aminophylline 50mg suppository","asthma_drug"
-"465","c41m.","methylxanthine",1,"Aminophylline hydrate 225mg m/r tablet","asthma_drug"
-"466","c41h.","methylxanthine",1,"Amnivent 225 SR m/r tablet","asthma_drug"
-"467","c41i.","methylxanthine",1,"Amnivent 350 SR m/r tablet","asthma_drug"
-"468","c431.","methylxanthine",1,"Biophylline 125mg/5mL syrup","asthma_drug"
-"469","c43i.","methylxanthine",1,"Biophylline 350mg m/r tablet","asthma_drug"
-"470","c43j.","methylxanthine",1,"Biophylline 500mg m/r tablet","asthma_drug"
-"471","c421.","methylxanthine",NA,"Choledyl 100mg tablet","asthma_drug"
-"472","c422.","methylxanthine",NA,"Choledyl 200mg tablet","asthma_drug"
-"473","c423.","methylxanthine",NA,"Choledyl 62.5mg/5mL syrup","asthma_drug"
-"474","c42..","methylxanthine",NA,"Choline theophyllinate","asthma_drug"
-"475","c42w.","methylxanthine",NA,"Choline theophyllinate 100mg tablet","asthma_drug"
-"476","c42x.","methylxanthine",NA,"Choline theophyllinate 200mg tablet","asthma_drug"
-"477","c42z.","methylxanthine",NA,"Choline theophyllinate 424mg m/r tablet","asthma_drug"
-"478","c42y.","methylxanthine",NA,"Choline theophyllinate 62.5mg/5mL syrup","asthma_drug"
-"479","c51u.","methylxanthine",1,"FRANOL PLUS NEW 15mg/120mg tablets","asthma_drug"
-"480","c43g.","methylxanthine",1,"Labophylline 200mg/10mL injection","asthma_drug"
-"481","c434.","methylxanthine",1,"Lasma 300mg m/r tablet","asthma_drug"
-"482","c41j.","methylxanthine",1,"Min-I-Jet Aminophylline 250mg/10mL prefilled syringe","asthma_drug"
-"483","c41A.","methylxanthine",1,"Norphyllin 100mg tablet","asthma_drug"
-"484","c41B.","methylxanthine",1,"Norphyllin SR 225mg m/r tablet","asthma_drug"
-"485","c41C.","methylxanthine",1,"Norphyllin SR 350mg m/r tablet","asthma_drug"
-"486","c432.","methylxanthine",1,"Nuelin 125mg tablet","asthma_drug"
-"487","c433.","methylxanthine",1,"Nuelin 60mg/5mL liquid","asthma_drug"
-"488","c435.","methylxanthine",1,"Nuelin SA 175mg m/r tablet","asthma_drug"
-"489","c436.","methylxanthine",1,"Nuelin SA-250 m/r tablet","asthma_drug"
-"490","x01Ej","methylxanthine",1,"Oral aminophylline","asthma_drug"
-"491","x01Ek","methylxanthine",1,"Parenteral aminophylline","asthma_drug"
-"492","c41e.","methylxanthine",1,"Pecram 225mg m/r tablet","asthma_drug"
-"493","c41c.","methylxanthine",1,"Phyllocontin Continus 100mg paediatric m/r tablet","asthma_drug"
-"494","c41a.","methylxanthine",1,"Phyllocontin Continus 225mg m/r tablet","asthma_drug"
-"495","c41b.","methylxanthine",1,"Phyllocontin Continus Forte 350mg m/r tablet","asthma_drug"
-"496","c437.","methylxanthine",1,"Pro-Vent 300mg m/r capsule","asthma_drug"
-"497","c424.","methylxanthine",NA,"Sabidal SR-270 424mg m/r tablet","asthma_drug"
-"498","c439.","methylxanthine",1,"Slo-Phyllin 125mg m/r capsule","asthma_drug"
-"499","c43a.","methylxanthine",1,"Slo-Phyllin 250mg m/r capsule","asthma_drug"
-"500","c438.","methylxanthine",1,"Slo-Phyllin 60mg m/r capsule","asthma_drug"
-"501","c43b.","methylxanthine",1,"Theo-Dur 200mg m/r tablet","asthma_drug"
-"502","c43c.","methylxanthine",1,"Theo-Dur 300mg m/r tablet","asthma_drug"
-"503","c419.","methylxanthine",1,"Theodrox tablet","asthma_drug"
-"504","c43d.","methylxanthine",1,"Theograd 350mg m/r tablet","asthma_drug"
-"505","c43B.","methylxanthine",1,"Theophylline 10mg/5mL s/f oral solution","asthma_drug"
-"506","c43t.","methylxanthine",1,"Theophylline 125mg m/r capsule","asthma_drug"
-"507","c43n.","methylxanthine",1,"Theophylline 125mg tablet","asthma_drug"
-"508","c43m.","methylxanthine",1,"Theophylline 125mg/5mL syrup","asthma_drug"
-"509","c43p.","methylxanthine",1,"Theophylline 175mg m/r tablet","asthma_drug"
-"510","c43v.","methylxanthine",1,"Theophylline 200mg m/r tablet","asthma_drug"
-"511","c43z.","methylxanthine",1,"Theophylline 200mg tablet","asthma_drug"
-"512","c43A.","methylxanthine",1,"Theophylline 200mg/10mL injection","asthma_drug"
-"513","c43u.","methylxanthine",1,"Theophylline 250mg m/r capsule","asthma_drug"
-"514","c43q.","methylxanthine",1,"Theophylline 250mg m/r tablet","asthma_drug"
-"515","c43r.","methylxanthine",1,"Theophylline 300mg m/r capsule","asthma_drug"
-"516","c43w.","methylxanthine",1,"Theophylline 300mg m/r tablet","asthma_drug"
-"517","c43x.","methylxanthine",1,"Theophylline 350mg m/r tablet","asthma_drug"
-"518","c43y.","methylxanthine",1,"Theophylline 400mg m/r tablet","asthma_drug"
-"519","c43k.","methylxanthine",1,"Theophylline 500mg m/r tablet","asthma_drug"
-"520","c43s.","methylxanthine",1,"Theophylline 60mg m/r capsule","asthma_drug"
-"521","c43o.","methylxanthine",1,"Theophylline 60mg/5mL liquid","asthma_drug"
-"522","c43..","methylxanthine",1,"Theophylline product","asthma_drug"
-"523","c43f.","methylxanthine",1,"Uniphyllin Continus 200mg m/r tablet","asthma_drug"
-"524","c43h.","methylxanthine",1,"Uniphyllin Continus 300mg m/r tablet","asthma_drug"
-"525","c43e.","methylxanthine",1,"Uniphyllin Continus 400mg m/r tablet","asthma_drug"
-"526","fe12.","OCS",NA,"*BETNESOL 500micrograms tabs","asthma_drug"
-"527","fe23.","OCS",NA,"*CORTELAN 25mg tablets","asthma_drug"
-"528","fe22.","OCS",NA,"*CORTISONE 25mg tablets","asthma_drug"
-"529","fe21.","OCS",NA,"*CORTISONE 5mg tablets","asthma_drug"
-"530","fe25.","OCS",NA,"*CORTISTAB 25mg tablets","asthma_drug"
-"531","fe24.","OCS",NA,"*CORTISTAB 5mg tablets","asthma_drug"
-"532","fe26.","OCS",NA,"*CORTISYL 25mg tablets","asthma_drug"
-"533","fe6w.","OCS",NA,"*PREDNISOLONE 2.5mg tablets","asthma_drug"
-"534","fe1y.","OCS",NA,"BETAMETHASONE 500microgram tablets","asthma_drug"
-"535","fe1x.","OCS",NA,"BETAMETHASONE 500micrograms soluble tablets","asthma_drug"
-"536","fe11.","OCS",NA,"BETNELAN 500micrograms tablets","asthma_drug"
-"537","fe33.","OCS",NA,"Decadron 500micrograms tablet","asthma_drug"
-"538","fe73.","OCS",NA,"Decortisyl 5mg tablet","asthma_drug"
-"539","fe64.","OCS",NA,"Delta-Phoricol 5mg tablet","asthma_drug"
-"540","fe65.","OCS",NA,"Deltacortril Enteric 2.5mg e/c tablet","asthma_drug"
-"541","fe66.","OCS",NA,"Deltacortril Enteric 5mg e/c tablet","asthma_drug"
-"542","fe67.","OCS",NA,"Deltalone 1mg tablet","asthma_drug"
-"543","fe68.","OCS",NA,"Deltalone 5mg tablet","asthma_drug"
-"544","fe69.","OCS",NA,"Deltastab 1mg tablet","asthma_drug"
-"545","fe6a.","OCS",NA,"Deltastab 5mg tablet","asthma_drug"
-"546","fe3..","OCS",NA,"Dexamethasone [endocrine use]","asthma_drug"
-"547","fe3B.","OCS",NA,"DEXAMETHASONE 10mg/5mL oral solution","asthma_drug"
-"548","fe32.","OCS",NA,"Dexamethasone 2mg tablet","asthma_drug"
-"549","fe3u.","OCS",NA,"Dexamethasone 2mg/5mL liquid","asthma_drug"
-"550","fe3s.","OCS",NA,"Dexamethasone 2mg/5mL s/f oral solution","asthma_drug"
-"551","fe31.","OCS",NA,"Dexamethasone 500micrograms tablet","asthma_drug"
-"552","fe3r.","OCS",NA,"Dexamethasone 500micrograms/5mL oral solution","asthma_drug"
-"553","fe3A.","OCS",NA,"Dexsol 2mg/5mL oral solution","asthma_drug"
-"554","fe6m.","OCS",NA,"DILACORT 2.5mg gastro-resistant tablets","asthma_drug"
-"555","fe6l.","OCS",NA,"DILACORT 5mg gastro-resistant tablets","asthma_drug"
-"556","fe74.","OCS",NA,"Econosone 1mg tablet","asthma_drug"
-"557","fe75.","OCS",NA,"Econosone 5mg tablet","asthma_drug"
-"558","fe41.","OCS",NA,"Hydrocortisone 10mg tablet","asthma_drug"
-"559","fe4h.","OCS",NA,"HYDROCORTISONE 20mg m/r tablets","asthma_drug"
-"560","fe42.","OCS",NA,"Hydrocortisone 20mg tablet","asthma_drug"
-"561","fe4f.","OCS",NA,"HYDROCORTISONE 5mg m/r tablets","asthma_drug"
-"562","fe4..","OCS",NA,"Hydrocortisone product","asthma_drug"
-"563","fe43.","OCS",NA,"Hydrocortistab 20mg tablet","asthma_drug"
-"564","fe44.","OCS",NA,"Hydrocortone 10mg tablet","asthma_drug"
-"565","fe45.","OCS",NA,"Hydrocortone 20mg tablet","asthma_drug"
-"566","fe79.","OCS",NA,"LODOTRA 1mg m/r tablets","asthma_drug"
-"567","fe77.","OCS",NA,"LODOTRA 2mg m/r tablets","asthma_drug"
-"568","fe78.","OCS",NA,"LODOTRA 5mg m/r tablets","asthma_drug"
-"569","fe3C.","OCS",NA,"MARTAPAN 2mg/5mL oral solution","asthma_drug"
-"570","fe5f.","OCS",NA,"Medrone 100mg tablet","asthma_drug"
-"571","fe53.","OCS",NA,"Medrone 16mg tablet","asthma_drug"
-"572","fe51.","OCS",NA,"Medrone 2mg tablet","asthma_drug"
-"573","fe52.","OCS",NA,"Medrone 4mg tablet","asthma_drug"
-"574","fe5..","OCS",NA,"Methylprednisolone [endocrine use]","asthma_drug"
-"575","fe5m.","OCS",NA,"Methylprednisolone 100mg tablet","asthma_drug"
-"576","fe5p.","OCS",NA,"Methylprednisolone 16mg tablet","asthma_drug"
-"577","fe5n.","OCS",NA,"Methylprednisolone 2mg tablet","asthma_drug"
-"578","fe5o.","OCS",NA,"Methylprednisolone 4mg tablet","asthma_drug"
-"579","fe37.","OCS",NA,"Oradexon 2mg tablet","asthma_drug"
-"580","fe36.","OCS",NA,"Oradexon 500micrograms tablet","asthma_drug"
-"581","x01MW","OCS",NA,"Oral betamethasone","asthma_drug"
-"582","x01Mh","OCS",NA,"Oral dexamethasone","asthma_drug"
-"583","x01Na","OCS",NA,"Oral hydrocortisone","asthma_drug"
-"584","x01Nb","OCS",NA,"Oral methylprednisolone","asthma_drug"
-"585","x00yP","OCS",NA,"Oral prednisolone","asthma_drug"
-"586","fe6q.","OCS",NA,"PEVANTI 10mg tablets","asthma_drug"
-"587","fe6n.","OCS",NA,"PEVANTI 2.5mg tablets","asthma_drug"
-"588","fe6r.","OCS",NA,"PEVANTI 20mg tablets","asthma_drug"
-"589","fe6o.","OCS",NA,"PEVANTI 25mg tablets","asthma_drug"
-"590","fe6p.","OCS",NA,"PEVANTI 5mg tablets","asthma_drug"
-"591","fe4g.","OCS",NA,"PLENADREN 20mg m/r tablets","asthma_drug"
-"592","fe4e.","OCS",NA,"PLENADREN 5mg m/r tablets","asthma_drug"
-"593","fe6c.","OCS",NA,"Precortisyl 1mg tablet","asthma_drug"
-"594","fe6d.","OCS",NA,"Precortisyl 5mg tablet","asthma_drug"
-"595","fe6e.","OCS",NA,"Precortisyl Forte 25mg tablet","asthma_drug"
-"596","fe6f.","OCS",NA,"Prednesol 5mg tablet","asthma_drug"
-"597","fe6..","OCS",NA,"Prednisolone [endocrine use]","asthma_drug"
-"598","fe6t.","OCS",NA,"PREDNISOLONE 10mg tablets","asthma_drug"
-"599","fe61.","OCS",NA,"Prednisolone 1mg tablet","asthma_drug"
-"600","fe6h.","OCS",NA,"Prednisolone 2.5mg e/c tablet","asthma_drug"
-"601","fe6v.","OCS",NA,"Prednisolone 2.5mg tablet","asthma_drug"
-"602","fe6s.","OCS",NA,"PREDNISOLONE 20mg tablets","asthma_drug"
-"603","fe6z.","OCS",NA,"Prednisolone 25mg tablet","asthma_drug"
-"604","fe6k.","OCS",NA,"Prednisolone 50mg tablet","asthma_drug"
-"605","fe6i.","OCS",NA,"Prednisolone 5mg e/c tablet","asthma_drug"
-"606","fe6j.","OCS",NA,"Prednisolone 5mg soluble tablet","asthma_drug"
-"607","fe62.","OCS",NA,"Prednisolone 5mg tablet","asthma_drug"
-"608","fe7..","OCS",NA,"Prednisone","asthma_drug"
-"609","fe7z.","OCS",NA,"PREDNISONE 1mg m/r tablets","asthma_drug"
-"610","fe71.","OCS",NA,"Prednisone 1mg tablet","asthma_drug"
-"611","fe76.","OCS",NA,"Prednisone 20mg tablet","asthma_drug"
-"612","fe7y.","OCS",NA,"PREDNISONE 2mg m/r tablets","asthma_drug"
-"613","fe7x.","OCS",NA,"PREDNISONE 5mg m/r tablets","asthma_drug"
-"614","fe72.","OCS",NA,"Prednisone 5mg tablet","asthma_drug"
-"615","fe6g.","OCS",NA,"Sintisone 5mg tablet","asthma_drug"
-"616","c722.","SABA",1,"*AEROCROM inhaler","asthma_drug"
-"617","c252.","SABA",1,"*ALUPENT 10mg/5mL syrup","asthma_drug"
-"618","c251.","SABA",1,"*ALUPENT 20mg tablets","asthma_drug"
-"619","c254.","SABA",1,"*ALUPENT 750micrograms inhaler","asthma_drug"
-"620","c513.","SABA",1,"*ALUPENT EXPECTORANT mixture","asthma_drug"
-"621","c153.","SABA",1,"*BEROTEC 100micrograms inhaler","asthma_drug"
-"622","c151.","SABA",1,"*BEROTEC 200micrograms inhaler","asthma_drug"
-"623","c516.","SABA",1,"*BRICANYL COMPOUND tablets","asthma_drug"
-"624","c517.","SABA",1,"*BRICANYL EXPECTORANT elixir","asthma_drug"
-"625","c25w.","SABA",1,"*ORCIPRENALINE 10mg/5mL syrup","asthma_drug"
-"626","c25v.","SABA",1,"*ORCIPRENALINE 20mg tablets","asthma_drug"
-"627","c13b.","SABA",1,"*ROTAHALER DEVICE","asthma_drug"
-"628","c11B.","SABA",1,"*SALBUTAMOL 4mg m/r tablets","asthma_drug"
-"629","c11j.","SABA",1,"*SALBUTAMOL 4mg m/r tablets","asthma_drug"
-"630","c11f.","SABA",1,"*SALBUVENT 4mg tablets","asthma_drug"
-"631","c13k.","SABA",1,"*SALBUVENT RONDO spacer x1","asthma_drug"
-"632","c621.","SABA",1,"*VENTIDE inhaler","asthma_drug"
-"633","c623.","SABA",1,"*VENTIDE paediatric Rotacaps","asthma_drug"
-"634","c622.","SABA",1,"*VENTIDE Rotacaps","asthma_drug"
-"635","c119.","SABA",1,"*VENTOLIN 4mg tablets","asthma_drug"
-"636","c11A.","SABA",1,"*VENTOLIN CR 4mg m/r tablets","asthma_drug"
-"637","c11i.","SABA",1,"*VENTOLIN CR 4mg m/r tablets","asthma_drug"
-"638","c11C.","SABA",1,"*VENTOLIN CR 8mg m/r tablets","asthma_drug"
-"639","c11c.","SABA",1,"*VOLMAX 4mg m/r tablets","asthma_drug"
-"640","x00CE","SABA",1,"Aerolin 100micrograms Autohaler","asthma_drug"
-"641","c13n.","SABA",1,"Aerolin 100micrograms Autohaler 100d","asthma_drug"
-"642","c13l.","SABA",1,"AEROLIN 100micrograms Autohaler 200d","asthma_drug"
-"643","c13c.","SABA",1,"Aerolin Auto 100micrograms inhaler","asthma_drug"
-"644","c13a.","SABA",1,"Aerolin-400 100micrograms inhaler","asthma_drug"
-"645","c13V.","SABA",1,"Airomir 100micrograms CFC-free Autohaler","asthma_drug"
-"646","c13I.","SABA",1,"Airomir 100micrograms CFC-free inhaler","asthma_drug"
-"647","c253.","SABA",1,"ALUPENT 500microgram/1mL injection","asthma_drug"
-"648","g221.","SABA",1,"Alupent 5mg/10mL injection","asthma_drug"
-"649","c255.","SABA",1,"ALUPENT 750micrograms inhaler refill","asthma_drug"
-"650","c512.","SABA",1,"ALUPENT EXPECTORANT 20mg tablets","asthma_drug"
-"651","c13P.","SABA",1,"Asmasal 100micrograms Spacehaler","asthma_drug"
-"652","c13Q.","SABA",1,"Asmasal 95micrograms Clickhaler","asthma_drug"
-"653","c131.","SABA",1,"Asmaven 100micrograms inhaler","asthma_drug"
-"654","c111.","SABA",1,"Asmaven 2mg tablet","asthma_drug"
-"655","c112.","SABA",1,"Asmaven 4mg tablet","asthma_drug"
-"656","c152.","SABA",1,"BEROTEC 100mg/20mL respirator solution","asthma_drug"
-"657","c142.","SABA",1,"Bricanyl 1.5mg/5mL s/f syrup","asthma_drug"
-"658","c148.","SABA",1,"Bricanyl 100mg/10mL nebuliser solution","asthma_drug"
-"659","c14e.","SABA",1,"Bricanyl 2.5mg/5mL intravenous infusion","asthma_drug"
-"660","c14k.","SABA",1,"Bricanyl 200mg/20mL respirator solution","asthma_drug"
-"661","c144.","SABA",1,"Bricanyl 250micrograms inhaler","asthma_drug"
-"662","c145.","SABA",1,"Bricanyl 250micrograms inhaler refill","asthma_drug"
-"663","c146.","SABA",1,"Bricanyl 250micrograms spacer inhaler","asthma_drug"
-"664","c14f.","SABA",1,"Bricanyl 500micrograms Turbohaler","asthma_drug"
-"665","c143.","SABA",1,"Bricanyl 500micrograms/1mL injection","asthma_drug"
-"666","c141.","SABA",1,"Bricanyl 5mg tablet","asthma_drug"
-"667","c147.","SABA",1,"Bricanyl 5mg/2mL Respule","asthma_drug"
-"668","c149.","SABA",1,"Bricanyl SA 7.5mg m/r tablet","asthma_drug"
-"669","c132.","SABA",1,"Cobutolin 100micrograms inhaler","asthma_drug"
-"670","c113.","SABA",1,"Cobutolin 2mg tablet","asthma_drug"
-"671","c114.","SABA",1,"Cobutolin 4mg tablet","asthma_drug"
-"672","c1E7.","SABA",1,"Easyhaler Salbutamol 100mcg breath-actuated dry powder inh","asthma_drug"
-"673","c1E8.","SABA",1,"Easyhaler Salbutamol 200mcg breath-actuated dry powder inh","asthma_drug"
-"674","x01Cl","SABA",1,"Fenoterol","asthma_drug"
-"675","c15z.","SABA",1,"FENOTEROL 100mg/20mL respirator solution","asthma_drug"
-"676","c154.","SABA",1,"FENOTEROL 100micrograms inhaler","asthma_drug"
-"677","c15y.","SABA",1,"FENOTEROL 200micrograms inhaler","asthma_drug"
-"678","c15..","SABA",1,"FENOTEROL HYDROBROMIDE","asthma_drug"
-"679","x05Fi","SABA",1,"Inhaled salbutamol preparations","asthma_drug"
-"680","x006b","SABA",1,"Inhaled terbutaline","asthma_drug"
-"681","c11m.","SABA",1,"Libetist 2mg/5mL sugar free syrup","asthma_drug"
-"682","c13p.","SABA",1,"Maxivent 100micrograms inhaler","asthma_drug"
-"683","c13W.","SABA",1,"Maxivent 2.5mg/2.5mL Steripoule","asthma_drug"
-"684","c13X.","SABA",1,"Maxivent 5mg/2.5mL Steripoule","asthma_drug"
-"685","c14b.","SABA",1,"Monovent 1.5mg/5mL syrup","asthma_drug"
-"686","c14a.","SABA",1,"Monovent 5mg tablet","asthma_drug"
-"687","c14c.","SABA",1,"Monovent SA 7.5mg m/r tablet","asthma_drug"
-"688","x05Fg","SABA",1,"Oral salbutamol preparations","asthma_drug"
-"689","x01Cr","SABA",1,"Oral terbutaline","asthma_drug"
-"690","x01Cm","SABA",1,"Orciprenaline","asthma_drug"
-"691","c25x.","SABA",1,"ORCIPRENALINE 500microgram/1mL injection","asthma_drug"
-"692","g22z.","SABA",1,"Orciprenaline 5mg/10mL injection","asthma_drug"
-"693","c25y.","SABA",1,"ORCIPRENALINE 750micrograms inhaler","asthma_drug"
-"694","c25z.","SABA",1,"ORCIPRENALINE 750micrograms inhaler refill","asthma_drug"
-"695","c25..","SABA",1,"ORCIPRENALINE SULFATE [RESPIRATORY USE]","asthma_drug"
-"696","g22..","SABA",1,"Orciprenaline sulphate [obstetric use]","asthma_drug"
-"697","x05Fh","SABA",1,"Parenteral salbutamol preparations","asthma_drug"
-"698","x01Cs","SABA",1,"Parenteral terbutaline","asthma_drug"
-"699","c1E2.","SABA",1,"Pulvinal Salbutamol 200mcg breath-act dry powder inhaler","asthma_drug"
-"700","c138.","SABA",1,"ROTAHALER DEVICE","asthma_drug"
-"701","c13Z.","SABA",1,"Salamol 100micrograms CFC-free inhaler","asthma_drug"
-"702","c13H.","SABA",1,"Salamol 100micrograms inhaler","asthma_drug"
-"703","c13K.","SABA",1,"Salamol Easi-Breathe 100mcg breath-actuated aerosol inhaler","asthma_drug"
-"704","c1E1.","SABA",1,"Salamol Easi-Breathe 100mcg CFC-free breath-act aerosol inh","asthma_drug"
-"705","c11D.","SABA",1,"Salapin 2mg/5mL sugar free syrup","asthma_drug"
-"706","c13Y.","SABA",1,"Salbulin 100micrograms CFC-free inhaler","asthma_drug"
-"707","c133.","SABA",1,"Salbulin 100micrograms inhaler","asthma_drug"
-"708","c115.","SABA",1,"Salbulin 2mg tablet","asthma_drug"
-"709","c117.","SABA",1,"Salbulin 2mg/2mL liquid","asthma_drug"
-"710","c116.","SABA",1,"Salbulin 4mg tablet","asthma_drug"
-"711","c1E9.","SABA",1,"SALBULIN NOVOLIZER 100micrograms cartridge and inhaler","asthma_drug"
-"712","c1EB.","SABA",1,"SALBULIN NOVOLIZER 100micrograms dry powder cartridge refill","asthma_drug"
-"713","c1E..","SABA",1,"Salbutamol [inhalation preparations 2]","asthma_drug"
-"714","c13..","SABA",1,"Salbutamol [inhalation preparations]","asthma_drug"
-"715","g24..","SABA",1,"Salbutamol [obstetric]","asthma_drug"
-"716","c11..","SABA",1,"Salbutamol [oral preparations]","asthma_drug"
-"717","c12..","SABA",1,"Salbutamol [parenteral preparations]","asthma_drug"
-"718","c13U.","SABA",1,"Salbutamol 100mcg CFC-free breath-actuated aerosol inhaler","asthma_drug"
-"719","c13z.","SABA",1,"Salbutamol 100mg/20mL nebuliser solution","asthma_drug"
-"720","c13G.","SABA",1,"Salbutamol 100micrograms breath-actuated aerosol inhaler","asthma_drug"
-"721","c13R.","SABA",1,"Salbutamol 100micrograms breath-actuated dry powder inhaler","asthma_drug"
-"722","c13J.","SABA",1,"Salbutamol 100micrograms CFC-free inhaler","asthma_drug"
-"723","c1EA.","SABA",1,"SALBUTAMOL 100micrograms dry powder cartridge and inhaler","asthma_drug"
-"724","c1EC.","SABA",1,"SALBUTAMOL 100micrograms dry powder cartridge refill","asthma_drug"
-"725","c13v.","SABA",1,"Salbutamol 100micrograms inhaler","asthma_drug"
-"726","c13N.","SABA",1,"Salbutamol 100micrograms vortex metered dose inhaler","asthma_drug"
-"727","c13w.","SABA",1,"Salbutamol 2.5mg/2.5mL nebulisation unit","asthma_drug"
-"728","c13q.","SABA",1,"Salbutamol 200 Cyclocap","asthma_drug"
-"729","c13L.","SABA",1,"Salbutamol 200micrograms breath-actuated dry powder inhaler","asthma_drug"
-"730","c13x.","SABA",1,"Salbutamol 200micrograms inhalation capsule","asthma_drug"
-"731","c13E.","SABA",1,"Salbutamol 200micrograms/blister disks refill","asthma_drug"
-"732","c13C.","SABA",1,"Salbutamol 200micrograms/blister disks+disk inhaler","asthma_drug"
-"733","c12x.","SABA",1,"Salbutamol 250micrograms/5mL injection","asthma_drug"
-"734","c11x.","SABA",1,"Salbutamol 2mg tablet","asthma_drug"
-"735","c11w.","SABA",1,"Salbutamol 2mg/2mL liquid","asthma_drug"
-"736","c11z.","SABA",1,"Salbutamol 2mg/5mL sugar free syrup","asthma_drug"
-"737","c13r.","SABA",1,"Salbutamol 400 Cyclocap","asthma_drug"
-"738","c13y.","SABA",1,"Salbutamol 400micrograms inhalation capsule","asthma_drug"
-"739","c13F.","SABA",1,"Salbutamol 400micrograms/blister disks refill","asthma_drug"
-"740","c13D.","SABA",1,"Salbutamol 400micrograms/blister disks+disk inhaler","asthma_drug"
-"741","c11n.","SABA",1,"Salbutamol 4mg m/r capsule","asthma_drug"
-"742","c11v.","SABA",1,"Salbutamol 4mg tablet","asthma_drug"
-"743","c12y.","SABA",1,"Salbutamol 500micrograms/1mL injection","asthma_drug"
-"744","c1EE.","SABA",1,"SALBUTAMOL 50mg/10mL respirator solution","asthma_drug"
-"745","c13o.","SABA",1,"Salbutamol 5mg/2.5mL nebulisation unit","asthma_drug"
-"746","c12w.","SABA",1,"Salbutamol 5mg/50mL injection","asthma_drug"
-"747","c12z.","SABA",1,"Salbutamol 5mg/5mL intravenous infusion","asthma_drug"
-"748","c11o.","SABA",1,"Salbutamol 8mg m/r capsule","asthma_drug"
-"749","c11y.","SABA",1,"Salbutamol 8mg m/r tablet","asthma_drug"
-"750","c13S.","SABA",1,"Salbutamol 95micrograms breath-actuated dry powder inhaler","asthma_drug"
-"751","x00Af","SABA",1,"Salbutamol product","asthma_drug"
-"752","c13h.","SABA",1,"Salbuvent 100micrograms inhaler","asthma_drug"
-"753","c124.","SABA",1,"Salbuvent 250micrograms/5mL injection","asthma_drug"
-"754","c11e.","SABA",1,"Salbuvent 2mg tablet","asthma_drug"
-"755","c11g.","SABA",1,"Salbuvent 2mg/5mL syrup","asthma_drug"
-"756","c11h.","SABA",1,"Salbuvent 2mg/5mL syrup 2litre","asthma_drug"
-"757","c125.","SABA",1,"Salbuvent 500micrograms/1mL injection","asthma_drug"
-"758","c126.","SABA",1,"Salbuvent 5mg/5mL intravenous infusion","asthma_drug"
-"759","c13j.","SABA",1,"Salbuvent 5mg/mL respirator solution","asthma_drug"
-"760","c13i.","SABA",1,"Salbuvent Rondo 100micrograms inhaler","asthma_drug"
-"761","x00Aw","SABA",1,"Sodium cromoglicate+salbutamol","asthma_drug"
-"762","c72z.","SABA",1,"SODIUM CROMOGLICATE+SALBUTAMOL 1mg/100micrograms inhaler","asthma_drug"
-"763","c72y.","SABA",1,"SODIUM CROMOGLICATE+SALBUTAMOL 1mg/100micrograms inhaler + spacer device","asthma_drug"
-"764","c13A.","SABA",1,"Steri-Neb Salamol 2.5mg/2.5mL nebulisation unit","asthma_drug"
-"765","c13B.","SABA",1,"Steri-Neb Salamol 5mg/2.5mL nebulisation unit","asthma_drug"
-"766","x01Cq","SABA",1,"Terbutaline","asthma_drug"
-"767","c14g.","SABA",1,"Terbutaline 500micrograms inhaler","asthma_drug"
-"768","c14j.","SABA",1,"Terbutaline sulph 500mcg breath-actuated dry powder inhaler","asthma_drug"
-"769","g25..","SABA",1,"Terbutaline sulphate [myometrial relaxant]","asthma_drug"
-"770","c14..","SABA",1,"Terbutaline sulphate [respiratoty use]","asthma_drug"
-"771","c14z.","SABA",1,"Terbutaline sulphate 1.5mg/5mL syrup","asthma_drug"
-"772","c14x.","SABA",1,"Terbutaline sulphate 100mg/10mL nebuliser solution","asthma_drug"
-"773","c14h.","SABA",1,"Terbutaline sulphate 2.5mg/5mL intravenous infusion","asthma_drug"
-"774","c14i.","SABA",1,"Terbutaline sulphate 200mg/20mL nebuliser solution","asthma_drug"
-"775","c14t.","SABA",1,"Terbutaline sulphate 250micrograms inhaler","asthma_drug"
-"776","c14u.","SABA",1,"Terbutaline sulphate 250micrograms inhaler refill","asthma_drug"
-"777","c14v.","SABA",1,"Terbutaline sulphate 250micrograms spacer inhaler","asthma_drug"
-"778","c14s.","SABA",1,"Terbutaline sulphate 500micrograms/1mL injection","asthma_drug"
-"779","c14r.","SABA",1,"Terbutaline sulphate 5mg tablet","asthma_drug"
-"780","c14w.","SABA",1,"Terbutaline sulphate 5mg/2mL nebulisation unit","asthma_drug"
-"781","c14y.","SABA",1,"Terbutaline sulphate 7.5mg m/r tablet","asthma_drug"
-"782","c11p.","SABA",1,"Ventmax SR 4mg m/r capsule","asthma_drug"
-"783","c11q.","SABA",1,"Ventmax SR 8mg m/r capsule","asthma_drug"
-"784","x025i","SABA",1,"Ventodisks 200mcg/blister disks refill","asthma_drug"
-"785","c13f.","SABA",1,"Ventodisks 200micrograms disk refill 14x8","asthma_drug"
-"786","c1E5.","SABA",1,"Ventodisks 200micrograms disk refill 15x8","asthma_drug"
-"787","c13d.","SABA",1,"Ventodisks 200micrograms diskhaler 14x8","asthma_drug"
-"788","c1E3.","SABA",1,"Ventodisks 200micrograms diskhaler 15x8","asthma_drug"
-"789","x025g","SABA",1,"Ventodisks 200micrograms/blister disks+diskhaler","asthma_drug"
-"790","x025j","SABA",1,"Ventodisks 400mcg/blister disks refill","asthma_drug"
-"791","c13g.","SABA",1,"Ventodisks 400micrograms disk refill 14x8","asthma_drug"
-"792","c1E6.","SABA",1,"Ventodisks 400micrograms disk refill 15x8","asthma_drug"
-"793","c13e.","SABA",1,"Ventodisks 400micrograms diskhaler 14x8","asthma_drug"
-"794","c1E4.","SABA",1,"Ventodisks 400micrograms diskhaler 15x8","asthma_drug"
-"795","x025h","SABA",1,"Ventodisks 400micrograms/blister disks+diskhaler","asthma_drug"
-"796","c139.","SABA",1,"Ventolin 100mg/20mL nebuliser solution","asthma_drug"
-"797","c13T.","SABA",1,"Ventolin 100micrograms Evohaler","asthma_drug"
-"798","c134.","SABA",1,"Ventolin 100micrograms inhaler","asthma_drug"
-"799","c135.","SABA",1,"Ventolin 2.5mg/2.5mL Nebule","asthma_drug"
-"800","c13M.","SABA",1,"Ventolin 200micrograms Accuhaler","asthma_drug"
-"801","c136.","SABA",1,"Ventolin 200micrograms Rotacap","asthma_drug"
-"802","c121.","SABA",1,"Ventolin 250micrograms/5mL injection","asthma_drug"
-"803","c118.","SABA",1,"Ventolin 2mg tablet","asthma_drug"
-"804","c11b.","SABA",1,"Ventolin 2mg/5mL s/f syrup","asthma_drug"
-"805","c137.","SABA",1,"Ventolin 400micrograms Rotacap","asthma_drug"
-"806","c122.","SABA",1,"Ventolin 500micrograms/1mL injection","asthma_drug"
-"807","c1ED.","SABA",1,"VENTOLIN 50mg/10mL respirator solution","asthma_drug"
-"808","c13m.","SABA",1,"Ventolin 5mg/2.5mL Nebule","asthma_drug"
-"809","c123.","SABA",1,"Ventolin 5mg/5mL intravenous infusion","asthma_drug"
-"810","c11a.","SABA",1,"Ventolin 8mg m/r tablet","asthma_drug"
-"811","c11k.","SABA",1,"Ventolin CR 8mg m/r tablet","asthma_drug"
-"812","c13O.","SABA",1,"Ventolin Easi-Breathe 100microgram inhaler","asthma_drug"
-"813","c13s.","SABA",1,"Ventolin Rotahaler","asthma_drug"
-"814","c11d.","SABA",1,"Volmax 8mg m/r tablet","asthma_drug"
-"815","c51D.","SABASAMA",1,"Combivent inhaler","asthma_drug"
-"816","c51D.","SABASAMA",1,"Combivent inhaler","asthma_drug"
-"817","c51E.","SABASAMA",1,"Combivent Unit Dose Vial","asthma_drug"
-"818","c51x.","SABASAMA",1,"Duovent Autohaler","asthma_drug"
-"819","c51x.","SABASAMA",1,"Duovent Autohaler","asthma_drug"
-"820","c51i.","SABASAMA",1,"Duovent inhaler","asthma_drug"
-"821","c51i.","SABASAMA",1,"Duovent inhaler","asthma_drug"
-"822","x00zz","SABASAMA",1,"Duovent UDV nebuliser solution","asthma_drug"
-"823","c51v.","SABASAMA",1,"Duovent UDV nebuliser solution 4mL","asthma_drug"
-"824","c51w.","SABASAMA",1,"Fenoterol hydrobr+ipratropium br 500mcg/1.25mg neb unit 4mL","asthma_drug"
-"825","c51B.","SABASAMA",1,"Fenoterol+ipratropium 100mcg/40mcg breath-act aerosl inhaler","asthma_drug"
-"826","c51B.","SABASAMA",1,"Fenoterol+ipratropium 100mcg/40mcg breath-act aerosl inhaler","asthma_drug"
-"827","c51A.","SABASAMA",1,"Fenoterol+ipratropium 100micrograms/40micrograms inhaler","asthma_drug"
-"828","c51A.","SABASAMA",1,"Fenoterol+ipratropium 100micrograms/40micrograms inhaler","asthma_drug"
-"829","x0100","SABASAMA",1,"Fenoterol+ipratropium 500micrograms/1.25mg nebulisation unit","asthma_drug"
-"830","c531.","SABASAMA",1,"IPRAMOL STERI-NEB 2.5mg/500micrograms nebuliser soln 2.5mL","asthma_drug"
-"831","c51H.","SABASAMA",1,"IPRATROPIUM BROMIDE+SALBUTAMOL 500mcg/2.5mg nebuliser soln","asthma_drug"
-"832","c51C.","SABASAMA",1,"Salbutamol+ipratropium 100micrograms/20micrograms inhaler","asthma_drug"
-"833","c51C.","SABASAMA",1,"Salbutamol+ipratropium 100micrograms/20micrograms inhaler","asthma_drug"
-"834","c51F.","SABASAMA",1,"Salbutamol+ipratropium 2.5mg/500mcg nebulisation unit","asthma_drug"
-"835","c51G.","SABASAMA",1,"SALIPRANEB nebuliser solution 2.5mL","asthma_drug"
-"836","c315.","SAMA",1,"Atrovent 20micrograms Autohaler","asthma_drug"
-"837","c31G.","SAMA",1,"Atrovent 20micrograms CFC-free inhaler","asthma_drug"
-"838","c311.","SAMA",1,"Atrovent 20micrograms inhaler","asthma_drug"
-"839","c314.","SAMA",1,"Atrovent 250micrograms/1mL nebuliser solution unit dose vial","asthma_drug"
-"840","c318.","SAMA",1,"Atrovent 40micrograms Aerocap","asthma_drug"
-"841","c319.","SAMA",1,"Atrovent 40micrograms Aerocap+Aerohaler device","asthma_drug"
-"842","c312.","SAMA",1,"Atrovent 500micrograms/2mL nebuliser solution unit dose vial","asthma_drug"
-"843","c313.","SAMA",1,"Atrovent Forte 40micrograms inhaler","asthma_drug"
-"844","x01Db","SAMA",NA,"Ipratropium","asthma_drug"
-"845","c31y.","SAMA",1,"IPRATROPIUM 250micrograms/mL nebuliser solution","asthma_drug"
-"846","l86..","SAMA",NA,"IPRATROPIUM BROMIDE [2]","asthma_drug"
-"847","c31u.","SAMA",1,"Ipratropium bromide 20mcg breath-actuated aerosol inhaler","asthma_drug"
-"848","c31t.","SAMA",1,"Ipratropium bromide 20micrograms CFC-free inhaler","asthma_drug"
-"849","c31x.","SAMA",1,"Ipratropium bromide 20micrograms inhaler","asthma_drug"
-"850","c31v.","SAMA",1,"Ipratropium bromide 250micrograms/1mL nebuliser solution","asthma_drug"
-"851","c31B.","SAMA",1,"Ipratropium bromide 40micrograms capsule+inhaler device","asthma_drug"
-"852","c31A.","SAMA",1,"Ipratropium bromide 40micrograms inhalation capsule","asthma_drug"
-"853","c31z.","SAMA",1,"Ipratropium bromide 40micrograms inhaler","asthma_drug"
-"854","c31w.","SAMA",1,"Ipratropium bromide 500micrograms/2mL nebuliser solution","asthma_drug"
-"855","c31..","SAMA",1,"Ipratropium bromide product","asthma_drug"
-"856","c31C.","SAMA",1,"Respontin 250micrograms/1mL Nebule","asthma_drug"
-"857","c31D.","SAMA",1,"Respontin 500micrograms/2mL Nebule","asthma_drug"
-"858","c316.","SAMA",1,"Steri-Neb Ipratropium 250micrograms/1mL nebulisation unit","asthma_drug"
-"859","c317.","SAMA",1,"Steri-Neb Ipratropium 500micrograms/2mL nebulisation unit","asthma_drug"
-"860","c31E.","SAMA",1,"Tropiovent 250micrograms/1mL Steripoule","asthma_drug"
-"861","c31F.","SAMA",1,"Tropiovent 500micrograms/2mL Steripoule","asthma_drug"
-"862","c14d.","spacer",1,"*NEBUHALER spacer device","asthma_drug"
-"863","c646.","spacer",1,"*NEBUHALER spacer device","asthma_drug"
-"864","c618.","spacer",1,"*VOLUMATIC spacer device","asthma_drug"
+read_code,cat2,QOF,read_term,cat1
+c61..,ICS,Y,Beclometasone dipropionate [respiratory use],asthma_drug
+c611.,ICS,Y,Becloforte 250micrograms inhaler,asthma_drug
+c612.,ICS,Y,Becotide 50 inhaler,asthma_drug
+c613.,ICS,Y,Becotide 100micrograms Rotacap,asthma_drug
+c614.,ICS,Y,Becotide 200micrograms Rotacap,asthma_drug
+c615.,ICS,Y,Becotide Rotahaler,asthma_drug
+c616.,ICS,Y,Becotide 50micrograms/1mL nebuliser solution,asthma_drug
+c617.,ICS,Y,Becotide 100 inhaler,asthma_drug
+c619.,ICS,Y,Becodisk 100micrograms diskhaler 14x8,asthma_drug
+c61A.,ICS,Y,Beclometasone dipropionate 400mcg/blister disks+disk inh,asthma_drug
+c61a.,ICS,Y,Becodisk 200micrograms diskhaler 14x8,asthma_drug
+c61B.,ICS,Y,Beclometasone dipropionate 400mcg/blister disks refill,asthma_drug
+c61b.,ICS,Y,Becotide 400micrograms Rotacap,asthma_drug
+c61C.,ICS,Y,Beclomethasone dipropionate 250mcg inh+spacer(large volume),asthma_drug
+c61c.,ICS,Y,Becodisk 100micrograms disk refill 14x8,asthma_drug
+c61D.,ICS,Y,Beclometasone diprop 50mcg breath-actuated aerosol inhaler,asthma_drug
+c61d.,ICS,Y,Becodisk 200micrograms disk refill 14x8,asthma_drug
+c61E.,ICS,Y,Beclometasone diprop 250mcg breath-actuated aerosol inhaler,asthma_drug
+c61e.,ICS,Y,Becodisk 400micrograms diskhaler 7x8,asthma_drug
+c61F.,ICS,Y,Beclometasone diprop 100mcg breath-actuated aerosol inhaler,asthma_drug
+c61f.,ICS,Y,Becodisk 400micrograms disk refill 7x8,asthma_drug
+c61G.,ICS,Y,Filair 50 inhaler,asthma_drug
+c61g.,ICS,Y,Becloforte VM 250micrograms inhaler+spacer(large volume),asthma_drug
+c61H.,ICS,Y,Filair 100micrograms inhaler,asthma_drug
+c61h.,ICS,Y,Beclometasone dipropionate 400micrograms inhalation capsule,asthma_drug
+c61i.,ICS,Y,Becotide 200 inhaler,asthma_drug
+c61J.,ICS,Y,Filair Forte 250micrograms inhaler,asthma_drug
+c61j.,ICS,Y,Aerobec 50mcg Autohaler,asthma_drug
+c61K.,ICS,Y,Beclazone 50 inhaler,asthma_drug
+c61k.,ICS,Y,Aerobec Forte 250micrograms Autohaler,asthma_drug
+c61L.,ICS,Y,Beclazone 100 inhaler,asthma_drug
+c61l.,ICS,Y,Aerobec 100mcg Autohaler,asthma_drug
+c61M.,ICS,Y,Beclazone 250 inhaler,asthma_drug
+c61m.,ICS,Y,Becloforte diskhaler 400micrograms 14x8,asthma_drug
+c61N.,ICS,Y,Beclazone 50 Easi-Breathe inhaler,asthma_drug
+c61n.,ICS,Y,Becloforte disks 400micrograms disk refill 14x8,asthma_drug
+c61O.,ICS,Y,Beclazone 100 Easi-Breathe inhaler,asthma_drug
+c61P.,ICS,Y,Beclazone 250 Easi-Breathe inhaler,asthma_drug
+c61p.,ICS,Y,Beclometasone dipropionate 100mcg/blister disk+disk inhaler,asthma_drug
+c61Q.,ICS,Y,Becloforte Integra 250micrograms inhaler+compact spacer,asthma_drug
+c61q.,ICS,Y,Beclometasone dipropionate 200mcg/blister disk+disk inhaler,asthma_drug
+c61R.,ICS,Y,Becloforte Integra 250micrograms refill,asthma_drug
+c61r.,ICS,Y,Beclometasone dipropionate 100mcg/blister disks refill,asthma_drug
+c61S.,ICS,Y,Beclomethasone dipropionate 250mcg inh+compact spacer,asthma_drug
+c61s.,ICS,Y,Beclometasone dipropionate 200mcg/blister disks refill,asthma_drug
+c61T.,ICS,Y,Beclomethasone dipropionate 250mcg compact spacer refill,asthma_drug
+c61t.,ICS,Y,Beclometasone dipropionate 250micrograms inhaler,asthma_drug
+c61U.,ICS,Y,Beclometasone rotahaler device,asthma_drug
+c61u.,ICS,Y,Beclometasone dipropionate 200micrograms inhaler,asthma_drug
+c61V.,ICS,Y,Beclomethasone dipropionate 50mcg vortex metered dose inh,asthma_drug
+c61v.,ICS,Y,Beclometasone dipropionate 50micrograms inhaler,asthma_drug
+c61W.,ICS,Y,Asmabec 50micrograms Spacehaler,asthma_drug
+c61w.,ICS,Y,Beclometasone dipropionate 100micrograms inhalation capsule,asthma_drug
+c61X.,ICS,Y,Beclomethasone dipropionate 100mcg vortex metered dose inh,asthma_drug
+c61x.,ICS,Y,Beclometasone dipropionate 200micrograms inhalation capsule,asthma_drug
+c61Y.,ICS,Y,Asmabec 100micrograms Spacehaler,asthma_drug
+c61y.,ICS,Y,Beclomethasone dipropionate 50mcg/1mL nebuliser solution,asthma_drug
+c61Z.,ICS,Y,Beclomethasone dipropionate 250mcg vortex metered dose inh,asthma_drug
+c61z.,ICS,Y,Beclometasone dipropionate 100micrograms inhaler,asthma_drug
+c64..,ICS,Y,Budesonide [respiratory use],asthma_drug
+c641.,ICS,Y,Pulmicort 200micrograms inhaler 200dose,asthma_drug
+c642.,ICS,Y,Pulmicort 200micrograms refill 100dose,asthma_drug
+c643.,ICS,Y,Pulmicort 200micrograms refill 200dose,asthma_drug
+c644.,ICS,Y,Pulmicort LS 50micrograms inhaler,asthma_drug
+c645.,ICS,Y,Pulmicort LS 50micrograms inhaler refill,asthma_drug
+c647.,ICS,Y,Pulmicort 200micrograms inhaler 100dose,asthma_drug
+c648.,ICS,Y,Pulmicort 200micrograms Turbohaler 100dose,asthma_drug
+c649.,ICS,Y,Pulmicort 400micrograms Turbohaler 50dose,asthma_drug
+c64A.,ICS,Y,Budesonide 200micrograms inhaler refill,asthma_drug
+c64a.,ICS,Y,Pulmicort 500mcg Respules 2mL unit,asthma_drug
+c64B.,ICS,Y,BUDESONIDE 50micrograms spacer inhaler,asthma_drug
+c64b.,ICS,Y,Pulmicort 1mg Respules 2mL unit,asthma_drug
+c64C.,ICS,Y,PULMICORT 200micrograms spacer inhaler,asthma_drug
+c64c.,ICS,Y,Pulmicort 100micrograms Turbohaler 200dose,asthma_drug
+c64D.,ICS,Y,PULMICORT LS 50micrograms spacer inhaler,asthma_drug
+c64d.,ICS,Y,Budesonide 100micrograms breath-actuated dry powder inhaler,asthma_drug
+c64E.,ICS,Y,Pulmicort 200micrograms inhaler with NebuChamber,asthma_drug
+c64e.,ICS,Y,Budesonide 50micrograms inhaler refill,asthma_drug
+c64F.,ICS,Y,Budesonide 200micrograms/dose dry powder cartridge refill,asthma_drug
+c64G.,ICS,Y,Novolizer Budesonide 200micrograms/dose cartridge refill,asthma_drug
+c64g.,ICS,Y,Budesonide 200micrograms breath-actuated dry powder inhaler,asthma_drug
+c64H.,ICS,Y,Easyhaler Budesonide 100mcg breath-actuated dry powder inh,asthma_drug
+c64h.,ICS,Y,Budesonide 400micrograms breath-actuated dry powder inhaler,asthma_drug
+c64I.,ICS,Y,Easyhaler Budesonide 200mcg breath-actuated dry powder inh,asthma_drug
+c64i.,ICS,Y,Budesonide 500micrograms/2mL nebulisation unit,asthma_drug
+c64J.,ICS,Y,Easyhaler Budesonide 400mcg breath-actuated dry powder inh,asthma_drug
+c64j.,ICS,Y,Budesonide 1mg/2mL nebulisation unit,asthma_drug
+c64K.,ICS,Y,PULMICORT 100micrograms CFC-free inhaler,asthma_drug
+c64k.,ICS,Y,Budesonide 200 Cyclocap,asthma_drug
+c64L.,ICS,Y,BUDESONIDE 100micrograms CFC-free inhaler,asthma_drug
+c64l.,ICS,Y,Budesonide 400 Cyclocap,asthma_drug
+c64M.,ICS,Y,PULMICORT 200micrograms CFC-free inhaler,asthma_drug
+c64m.,ICS,Y,Budesonide 200micrograms inhalation capsule,asthma_drug
+c64N.,ICS,Y,BUDESONIDE 200micrograms CFC-free inhaler,asthma_drug
+c64n.,ICS,Y,Budesonide 400micrograms inhalation capsule,asthma_drug
+c64o.,ICS,Y,Budesonide 200micrograms inhaler with spacer device,asthma_drug
+c64p.,ICS,Y,Novolizer Budesonide 200micrograms/dose cartridge+inhaler,asthma_drug
+c64u.,ICS,Y,Budesonide 200micrograms/dose dry powder cartridge+inhaler,asthma_drug
+c64v.,ICS,Y,Budesonide 200micrograms inhaler,asthma_drug
+c64w.,ICS,Y,Budesonide refill 100dose,asthma_drug
+c64x.,ICS,Y,Budesonide refill 200dose,asthma_drug
+c64y.,ICS,Y,Budesonide 50micrograms inhaler,asthma_drug
+c64z.,ICS,Y,BUDESONIDE 200micrograms spacer inhaler,asthma_drug
+c65..,ICS,Y,Fluticasone propionate [respiratory use],asthma_drug
+c651.,ICS,Y,Flixotide 50micrograms/blister disks+diskhaler,asthma_drug
+c652.,ICS,Y,Flixotide 100micrograms/blister disks+diskhaler,asthma_drug
+c653.,ICS,Y,Flixotide 250micrograms/blister disks+diskhaler,asthma_drug
+c654.,ICS,Y,Fluticasone propionate 50mcg/blister disks+disk inhaler,asthma_drug
+c655.,ICS,Y,Fluticasone propionate 100mcg/blister disks+disk inhaler,asthma_drug
+c656.,ICS,Y,Fluticasone propionate 250mcg/blister disks+disk inhaler,asthma_drug
+c657.,ICS,Y,Flixotide 50micrograms/blister disks refill,asthma_drug
+c658.,ICS,Y,Flixotide 100micrograms/blister disks refill,asthma_drug
+c659.,ICS,Y,Flixotide 250micrograms/blister disks refill,asthma_drug
+c65A.,ICS,Y,Fluticasone propionate 50micrograms/blister disks refill,asthma_drug
+c65a.,ICS,Y,Flixotide 2mg/2mL Nebule,asthma_drug
+c65B.,ICS,Y,Fluticasone propionate 100micrograms/blister disks refill,asthma_drug
+c65b.,ICS,Y,Fluticasone propionate 125micrograms CFC-free inhaler,asthma_drug
+c65C.,ICS,Y,Fluticasone propionate 250micrograms/blister disks refill,asthma_drug
+c65c.,ICS,Y,Fluticasone propionate 250micrograms CFC-free inhaler,asthma_drug
+c65D.,ICS,Y,Flixotide 25micrograms inhaler,asthma_drug
+c65d.,ICS,Y,Flixotide 125micrograms Evohaler,asthma_drug
+c65E.,ICS,Y,Flixotide 50micrograms inhaler,asthma_drug
+c65e.,ICS,Y,Flixotide 250micrograms Evohaler,asthma_drug
+c65F.,ICS,Y,Flixotide 125micrograms inhaler,asthma_drug
+c65f.,ICS,Y,Fluticasone propionate 50micrograms CFC-free inhaler,asthma_drug
+c65G.,ICS,Y,Fluticasone propionate 25micrograms inhaler,asthma_drug
+c65g.,ICS,Y,Flixotide 50micrograms Evohaler,asthma_drug
+c65H.,ICS,Y,Fluticasone propionate 50micrograms inhaler,asthma_drug
+c65I.,ICS,Y,Fluticasone propionate 125micrograms inhaler,asthma_drug
+c65J.,ICS,Y,Fluticasone propionate 250micrograms inhaler,asthma_drug
+c65K.,ICS,Y,Flixotide 250micrograms inhaler,asthma_drug
+c65L.,ICS,Y,Flixotide 500micrograms disks+diskhaler,asthma_drug
+c65M.,ICS,Y,Flixotide 500micrograms disks refill,asthma_drug
+c65N.,ICS,Y,Fluticasone propionate 500mcg/blister disks+disk inhaler,asthma_drug
+c65O.,ICS,Y,Fluticasone propionate 500micrograms/blister disks refill,asthma_drug
+c65P.,ICS,Y,Fluticasone propionate 50mcg breath-actuated dry pdr inhaler,asthma_drug
+c65Q.,ICS,Y,Fluticasone propionate 100mcg breath-actuate dry pdr inhaler,asthma_drug
+c65R.,ICS,Y,Fluticasone propionate 250mcg breath-actuate dry pdr inhaler,asthma_drug
+c65S.,ICS,Y,Fluticasone propionate 500mcg breath-actuate dry pdr inhaler,asthma_drug
+c65T.,ICS,Y,Flixotide 50micrograms Accuhaler,asthma_drug
+c65U.,ICS,Y,Flixotide 100micrograms Accuhaler,asthma_drug
+c65V.,ICS,Y,Flixotide 250micrograms Accuhaler,asthma_drug
+c65W.,ICS,Y,Flixotide 500micrograms Accuhaler,asthma_drug
+c65X.,ICS,Y,Fluticasone propionate 0.5mg/2mL nebulisation unit,asthma_drug
+c65Y.,ICS,Y,Fluticasone propionate 2mg/2mL nebulisation unit,asthma_drug
+c65Z.,ICS,Y,Flixotide 0.5mg/2mL Nebule,asthma_drug
+c66..,ICS,Y,Beclometasone dipropionate [respiratory use 2],asthma_drug
+c661.,ICS,Y,Asmabec 250micrograms Spacehaler,asthma_drug
+c662.,ICS,Y,Becotide 50 Easi-Breathe inhaler,asthma_drug
+c663.,ICS,Y,Becotide 100 Easi-Breathe inhaler,asthma_drug
+c664.,ICS,Y,Becloforte Easi-Breathe 250micrograms inhaler,asthma_drug
+c665.,ICS,Y,Qvar 50 inhaler,asthma_drug
+c666.,ICS,Y,Qvar 100 inhaler,asthma_drug
+c667.,ICS,Y,Qvar 50 Autohaler,asthma_drug
+c668.,ICS,Y,Qvar 100 Autohaler,asthma_drug
+c669.,ICS,Y,Beclazone 200 inhaler,asthma_drug
+c66A.,ICS,Y,Beclometasone diprop 50mcg breath-actuated powder inhaler,asthma_drug
+c66a.,ICS,Y,Qvar Easi-Breathe 100mcg CFC-free breath-act dry pdr inhaler,asthma_drug
+c66B.,ICS,Y,Beclometasone diprop 100mcg breath-actuated powder inhaler,asthma_drug
+c66b.,ICS,Y,Easyhaler Beclometasone 200mcg breath-act dry powder inhaler,asthma_drug
+c66C.,ICS,Y,Beclometasone diprop 250mcg breath-actuated powder inhaler,asthma_drug
+c66c.,ICS,Y,CLENIL MODULITE 50micrograms CFC-free inhaler,asthma_drug
+c66D.,ICS,Y,Asmabec 50micrograms Clickhaler,asthma_drug
+c66d.,ICS,Y,CLENIL MODULITE 100micrograms CFC-free inhaler,asthma_drug
+c66E.,ICS,Y,Asmabec 100micrograms Clickhaler,asthma_drug
+c66e.,ICS,Y,CLENIL MODULITE 200micrograms CFC-free inhaler,asthma_drug
+c66F.,ICS,Y,Asmabec 250micrograms Clickhaler,asthma_drug
+c66f.,ICS,Y,CLENIL MODULITE 250micrograms CFC-free inhaler,asthma_drug
+c66G.,ICS,Y,Beclometasone diprop 400mcg breath-actuated powder inhaler,asthma_drug
+c66g.,ICS,Y,BECLOMETASONE DIPROPIONATE 200micrograms CFC-free inhaler,asthma_drug
+c66H.,ICS,Y,Beclometasone diprop 200mcg breath-actuated powder inhaler,asthma_drug
+c66h.,ICS,Y,BECLOMETASONE DIPROPIONATE 250micrograms CFC-free inhaler,asthma_drug
+c66I.,ICS,Y,Pulvinal Beclomethasone Diprop 100mcg breath-act dry pdr inh,asthma_drug
+c66J.,ICS,Y,Pulvinal Beclomethasone Diprop 200mcg breath-act dry pdr inh,asthma_drug
+c66K.,ICS,Y,Pulvinal Beclomethasone Diprop 400mcg breath-act dry pdr inh,asthma_drug
+c66L.,ICS,Y,Beclometasone 100 Cyclocap,asthma_drug
+c66M.,ICS,Y,Beclometasone 200 Cyclocap,asthma_drug
+c66N.,ICS,Y,Beclometasone 400 Cyclocap,asthma_drug
+c66P.,ICS,Y,Becodisk 100micrograms diskhaler 15x8,asthma_drug
+c66Q.,ICS,Y,Becodisk 200micrograms diskhaler 15x8,asthma_drug
+c66R.,ICS,Y,Becodisk 400microcgrams diskhaler 15x8,asthma_drug
+c66S.,ICS,Y,Becodisk 100micrograms disk refill 15x8,asthma_drug
+c66T.,ICS,Y,Becodisk 200micrograms disk refill 15x8,asthma_drug
+c66U.,ICS,Y,Becodisk 400micrograms disk refill 15x8,asthma_drug
+c66V.,ICS,Y,Beclometasone dipropionate 50micrograms CFC-free inhaler,asthma_drug
+c66W.,ICS,Y,Beclometasone dipropionate 100micrograms CFC-free inhaler,asthma_drug
+c66X.,ICS,Y,Beclometasone dipropionate 50mcg CFC-free br-act inhaler,asthma_drug
+c66Y.,ICS,Y,Beclometasone dipropionate 100mcg CFC-free br-act inhaler,asthma_drug
+c66Z.,ICS,Y,Qvar Easi-Breathe 50mcg CFC-free breath-act dry pdr inhaler,asthma_drug
+c681.,ICS,Y,Mometasone furoate 200mcg breath-actuated dry powder inhaler,asthma_drug
+c682.,ICS,Y,Mometasone furoate 400mcg breath-actuated dry powder inhaler,asthma_drug
+c683.,ICS,Y,Asmanex Twisthaler 200mcg breath-actuated dry powder inhaler,asthma_drug
+c684.,ICS,Y,Asmanex Twisthaler 400mcg breath-actuated dry powder inhaler,asthma_drug
+c691.,ICS,Y,Alvesco 160micrograms inhaler,asthma_drug
+c692.,ICS,Y,Alvesco 80micrograms inhaler,asthma_drug
+c69y.,ICS,Y,Ciclesonide 80micrograms inhaler,asthma_drug
+c69z.,ICS,Y,Ciclesonide 160micrograms inhaler,asthma_drug
+x00bU,ICS,Y,Pulmicort 500micrograms/2mL Respule,asthma_drug
+x00bV,ICS,Y,Pulmicort 1mg/2mL Respule,asthma_drug
+x00gE,ICS,Y,Pulmicort 100micrograms Turbohaler,asthma_drug
+x00gF,ICS,Y,Pulmicort 200micrograms Turbohaler,asthma_drug
+x00gG,ICS,Y,Pulmicort 400micrograms Turbohaler,asthma_drug
+x00Hx,ICS,Y,Becloforte 400micrograms/blister disks refill,asthma_drug
+x00Hy,ICS,Y,Becodisks 100micrograms/blister disks refill,asthma_drug
+x00Hz,ICS,Y,Becodisks 200micrograms/blister disks refill,asthma_drug
+x00I0,ICS,Y,Becodisks 400micrograms/blister disks refill,asthma_drug
+x00I1,ICS,Y,Becloforte 400micrograms/blister disks+diskhaler,asthma_drug
+x00I2,ICS,Y,Becodisks 100micrograms disks+diskhaler,asthma_drug
+x00I3,ICS,Y,Becodisks 200micrograms/blister disks+diskhaler,asthma_drug
+x00I4,ICS,Y,Becodisks 400micrograms/blister disks+diskhaler,asthma_drug
+x00QU,ICS,Y,Pulmicort 200micrograms inhaler,asthma_drug
+x00QV,ICS,Y,Pulmicort 200micrograms inhaler refill,asthma_drug
+x00z6,ICS,Y,Respiratory budesonide,asthma_drug
+x029g,ICS,Y,Budesonide refill,asthma_drug
+c67..,ICSLABA,Y,Budesonide+formoterol,asthma_drug
+c671.,ICSLABA,Y,Symbicort 100/6 Turbohaler,asthma_drug
+c672.,ICSLABA,Y,Symbicort 200/6 Turbohaler,asthma_drug
+c673.,ICSLABA,Y,Symbicort 400/12 Turbohaler,asthma_drug
+c674.,ICSLABA,Y,DUORESP SPIROMAX 160mcg/4.5mcg breath-act dry powder inhaler,asthma_drug
+c675.,ICSLABA,Y,DUORESP SPIROMAX 320mcg/9mcg breath-act dry powder inhaler,asthma_drug
+c67x.,ICSLABA,Y,Budesonide+formoterol fumarate 400/12mcg b-act dry pdr inh,asthma_drug
+c67y.,ICSLABA,Y,Budesonide+formoterol fumarate 200/6mcg bth-act dry pdr inh,asthma_drug
+c67z.,ICSLABA,Y,Budesonide+formoterol fumarate 100/6mcg bth-act dry pdr inh,asthma_drug
+c6B..,ICSLABA,Y,FLUTICASONE+VILANTEROL,asthma_drug
+c6B1.,ICSLABA,Y,RELVAR ELLIPTA 184micrograms/22micrograms inhaler,asthma_drug
+c6B2.,ICSLABA,Y,FLUTICASONE FUROATE+VILANTEROL 184mcg/22mcg dry pdr inhaler,asthma_drug
+c6B3.,ICSLABA,Y,RELVAR ELLIPTA 92micrograms/22micrograms inhaler,asthma_drug
+c6B4.,ICSLABA,Y,FLUTICASONE FUROATE+VILANTEROL 92mcg/22mcg dry pdr inhaler,asthma_drug
+c1D..,ICSLABA,Y,Salmeterol+fluticasone propionate,asthma_drug
+c1D1.,ICSLABA,Y,Seretide 100 Accuhaler,asthma_drug
+c1D2.,ICSLABA,Y,Seretide 250 Accuhaler,asthma_drug
+c1D3.,ICSLABA,Y,Seretide 500 Accuhaler,asthma_drug
+c1D4.,ICSLABA,Y,Seretide 50 Evohaler,asthma_drug
+c1D5.,ICSLABA,Y,Seretide 125 Evohaler,asthma_drug
+c1D6.,ICSLABA,Y,Seretide 250 Evohaler,asthma_drug
+c1Du.,ICSLABA,Y,Salmeterol+fluticasone propionate 25mcg/50mcg CFC-free inh,asthma_drug
+c1Dv.,ICSLABA,Y,Salmeterol+fluticasone propionate 25mcg/125mcg CFC-free inh,asthma_drug
+c1Dw.,ICSLABA,Y,Salmeterol+fluticasone propionate 25mcg/250mcg CFC-free inh,asthma_drug
+c1Dx.,ICSLABA,Y,Salmeterol+fluticasone propionate 50mcg/100mcg b-act pdr inh,asthma_drug
+c1Dy.,ICSLABA,Y,Salmeterol+fluticasone propionate 50mcg/250mcg b-act pdr inh,asthma_drug
+c1Dz.,ICSLABA,Y,Salmeterol+fluticasone propionate 50mcg/500mcg b-act pdr inh,asthma_drug
+c1c..,ICSLABA,Y,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE,asthma_drug
+c1c1.,ICSLABA,Y,FLUTIFORM 50micrograms/5micrograms inhaler,asthma_drug
+c1c2.,ICSLABA,Y,FLUTIFORM 125micrograms/5micrograms inhaler,asthma_drug
+c1c3.,ICSLABA,Y,FLUTIFORM 250micrograms/10micrograms inhaler,asthma_drug
+c1cx.,ICSLABA,Y,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 250mcg/10mcg inh,asthma_drug
+c1cy.,ICSLABA,Y,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 125mcg/5mcg inh,asthma_drug
+c1cz.,ICSLABA,Y,FLUTICASONE PROPIONATE+FORMOTEROL FUMARATE 50mcg/5mcg inh,asthma_drug
+c6A..,ICSLABA,Y,BECLOMETASONE+FORMOTEROL,asthma_drug
+c6A1.,ICSLABA,Y,FOSTAIR 100micrograms/6micrograms inhaler,asthma_drug
+c6A2.,ICSLABA,Y,FOSTAIR NEXTHALER 100micrograms/6micrograms powder inhaler,asthma_drug
+c6Ay.,ICSLABA,Y,BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 100mcg/6mcg pdr inh,asthma_drug
+c6Az.,ICSLABA,Y,BECLOMETASONE+FORMOTEROL 100micrograms/6micrograms inhaler,asthma_drug
+c1C..,LABA,Y,Formoterol,asthma_drug
+c1C1.,LABA,Y,Formoterol fumarate 12micrograms inhalation capsules+inhaler,asthma_drug
+c1C2.,LABA,Y,Foradil 12micrograms inhalation capsules+inhaler,asthma_drug
+c1C3.,LABA,Y,Formoterol fumarate 6micrograms breath-act dry powder inh,asthma_drug
+c1C4.,LABA,Y,Formoterol fumarate 12micrograms breath-act dry powder inh,asthma_drug
+c1C5.,LABA,Y,Oxis 6micrograms Turbohaler,asthma_drug
+c1C6.,LABA,Y,Oxis 12micrograms Turbohaler,asthma_drug
+c1C7.,LABA,Y,Atimos Modulite 12micrograms metered dose inhaler,asthma_drug
+c1C8.,LABA,Y,FORMOTEROL EASYHALER 12micrograms breath-act dry powder inh,asthma_drug
+c1Cy.,LABA,Y,FORMOTEROL FUMARATE DIHYDRATE 12mcg breath-act dry pdr inh,asthma_drug
+c1Cz.,LABA,Y,Formoterol fumarate dihydrate 12mcg metered dose inhaler,asthma_drug
+c19..,LABA,Y,Salmeterol product,asthma_drug
+c191.,LABA,Y,Salmeterol 25micrograms inhaler,asthma_drug
+c192.,LABA,Y,Serevent 25micrograms inhaler,asthma_drug
+c193.,LABA,Y,Serevent 50micrograms/blister disks+diskhaler,asthma_drug
+c194.,LABA,Y,Serevent 50micrograms/blister disks refill,asthma_drug
+c195.,LABA,Y,Salmeterol 50micrograms/blister disks+disk inhaler,asthma_drug
+c196.,LABA,Y,Salmeterol 50micrograms/blister disks refill,asthma_drug
+c197.,LABA,Y,Salmeterol 50micrograms breath-actuated dry powder inhaler,asthma_drug
+c198.,LABA,Y,Serevent 50micrograms Accuhaler,asthma_drug
+c199.,LABA,Y,Serevent 25micrograms Evohaler,asthma_drug
+c19A.,LABA,Y,NEOVENT 25micrograms CFC-free inhaler,asthma_drug
+c19B.,LABA,Y,VERTINE 25micrograms CFC-free inhaler,asthma_drug
+c19z.,LABA,Y,Salmeterol 25micrograms CFC-free inhaler,asthma_drug
+c1b..,LABA,N,INDACATEROL,asthma_drug
+c1b1.,LABA,N,ONBREZ BREEZHALER 150micrograms inhalation capsules+inhaler,asthma_drug
+c1b2.,LABA,N,INDACATEROL 150micrograms inhalation capsules+inhaler,asthma_drug
+c1b3.,LABA,N,ONBREZ BREEZHALER 300micrograms inhalation capsules+inhaler,asthma_drug
+c1b4.,LABA,N,INDACATEROL 300micrograms inhalation capsules+inhaler,asthma_drug
+c1d..,LABA,N,OLODATEROL,asthma_drug
+c1d1.,LABA,N,STRIVERDI RESPIMAT 2.5micrograms inhaler,asthma_drug
+c1d2.,LABA,N,OLODATEROL 2.5micrograms inhaler,asthma_drug
+cA...,LTRA,Y,Leukotriene receptor antagonist,asthma_drug
+cA1..,LTRA,Y,Montelukast product,asthma_drug
+cA11.,LTRA,Y,Montelukast 10mg tablet,asthma_drug
+cA12.,LTRA,Y,Montelukast 5mg chewable tablet,asthma_drug
+cA13.,LTRA,Y,Singulair 10mg tablet,asthma_drug
+cA14.,LTRA,Y,Singulair Paediatric 5mg chewable tablet,asthma_drug
+cA15.,LTRA,Y,Singulair Paediatric 4mg chewable tablet,asthma_drug
+cA16.,LTRA,Y,Singulair Paediatric 4mg/sachet granules,asthma_drug
+cA1y.,LTRA,Y,Montelukast 4mg/sachet granules,asthma_drug
+cA1z.,LTRA,Y,Montelukast 4mg chewable tablet,asthma_drug
+cA2..,LTRA,Y,Zafirlukast,asthma_drug
+cA21.,LTRA,Y,Zafirlukast 20mg tablet,asthma_drug
+cA22.,LTRA,Y,Accolate 20mg tablet,asthma_drug
+c43..,methylxanthine,Y,Theophylline product,asthma_drug
+c431.,methylxanthine,Y,Biophylline 125mg/5mL syrup,asthma_drug
+c432.,methylxanthine,Y,Nuelin 125mg tablet,asthma_drug
+c433.,methylxanthine,Y,Nuelin 60mg/5mL liquid,asthma_drug
+c434.,methylxanthine,Y,Lasma 300mg m/r tablet,asthma_drug
+c435.,methylxanthine,Y,Nuelin SA 175mg m/r tablet,asthma_drug
+c436.,methylxanthine,Y,Nuelin SA-250 m/r tablet,asthma_drug
+c437.,methylxanthine,Y,Pro-Vent 300mg m/r capsule,asthma_drug
+c438.,methylxanthine,Y,Slo-Phyllin 60mg m/r capsule,asthma_drug
+c439.,methylxanthine,Y,Slo-Phyllin 125mg m/r capsule,asthma_drug
+c43A.,methylxanthine,Y,Theophylline 200mg/10mL injection,asthma_drug
+c43B.,methylxanthine,Y,Theophylline 10mg/5mL s/f oral solution,asthma_drug
+c43a.,methylxanthine,Y,Slo-Phyllin 250mg m/r capsule,asthma_drug
+c43b.,methylxanthine,Y,Theo-Dur 200mg m/r tablet,asthma_drug
+c43c.,methylxanthine,Y,Theo-Dur 300mg m/r tablet,asthma_drug
+c43d.,methylxanthine,Y,Theograd 350mg m/r tablet,asthma_drug
+c43e.,methylxanthine,Y,Uniphyllin Continus 400mg m/r tablet,asthma_drug
+c43f.,methylxanthine,Y,Uniphyllin Continus 200mg m/r tablet,asthma_drug
+c43g.,methylxanthine,Y,Labophylline 200mg/10mL injection,asthma_drug
+c43h.,methylxanthine,Y,Uniphyllin Continus 300mg m/r tablet,asthma_drug
+c43i.,methylxanthine,Y,Biophylline 350mg m/r tablet,asthma_drug
+c43j.,methylxanthine,Y,Biophylline 500mg m/r tablet,asthma_drug
+c43k.,methylxanthine,Y,Theophylline 500mg m/r tablet,asthma_drug
+c43m.,methylxanthine,Y,Theophylline 125mg/5mL syrup,asthma_drug
+c43n.,methylxanthine,Y,Theophylline 125mg tablet,asthma_drug
+c43o.,methylxanthine,Y,Theophylline 60mg/5mL liquid,asthma_drug
+c43p.,methylxanthine,Y,Theophylline 175mg m/r tablet,asthma_drug
+c43q.,methylxanthine,Y,Theophylline 250mg m/r tablet,asthma_drug
+c43r.,methylxanthine,Y,Theophylline 300mg m/r capsule,asthma_drug
+c43s.,methylxanthine,Y,Theophylline 60mg m/r capsule,asthma_drug
+c43t.,methylxanthine,Y,Theophylline 125mg m/r capsule,asthma_drug
+c43u.,methylxanthine,Y,Theophylline 250mg m/r capsule,asthma_drug
+c43v.,methylxanthine,Y,Theophylline 200mg m/r tablet,asthma_drug
+c43w.,methylxanthine,Y,Theophylline 300mg m/r tablet,asthma_drug
+c43x.,methylxanthine,Y,Theophylline 350mg m/r tablet,asthma_drug
+c43y.,methylxanthine,Y,Theophylline 400mg m/r tablet,asthma_drug
+c43z.,methylxanthine,Y,Theophylline 200mg tablet,asthma_drug
+c41..,methylxanthine,Y,Aminophylline,asthma_drug
+c411.,methylxanthine,Y,Aminophylline 100mg tablet,asthma_drug
+c412.,methylxanthine,Y,Aminophylline 250mg/10mL injection,asthma_drug
+c413.,methylxanthine,Y,Aminophylline 500mg/2mL injection,asthma_drug
+c414.,methylxanthine,Y,Aminophylline 50mg suppository,asthma_drug
+c415.,methylxanthine,Y,Aminophylline 100mg suppository,asthma_drug
+c416.,methylxanthine,Y,Aminophylline 150mg suppository,asthma_drug
+c417.,methylxanthine,Y,Aminophylline 180mg suppository,asthma_drug
+c418.,methylxanthine,Y,Aminophylline 360mg suppository,asthma_drug
+c419.,methylxanthine,Y,Theodrox tablet,asthma_drug
+c41A.,methylxanthine,Y,Norphyllin 100mg tablet,asthma_drug
+c41B.,methylxanthine,Y,Norphyllin SR 225mg m/r tablet,asthma_drug
+c41C.,methylxanthine,Y,Norphyllin SR 350mg m/r tablet,asthma_drug
+c41a.,methylxanthine,Y,Phyllocontin Continus 225mg m/r tablet,asthma_drug
+c41b.,methylxanthine,Y,Phyllocontin Continus Forte 350mg m/r tablet,asthma_drug
+c41c.,methylxanthine,Y,Phyllocontin Continus 100mg paediatric m/r tablet,asthma_drug
+c41d.,methylxanthine,Y,Aminophylline 225mg m/r tablet,asthma_drug
+c41e.,methylxanthine,Y,Pecram 225mg m/r tablet,asthma_drug
+c41f.,methylxanthine,Y,Aminophylline 350mg m/r tablet,asthma_drug
+c41g.,methylxanthine,Y,Aminophylline 100mg m/r tablet,asthma_drug
+c41h.,methylxanthine,Y,Amnivent 225 SR m/r tablet,asthma_drug
+c41i.,methylxanthine,Y,Amnivent 350 SR m/r tablet,asthma_drug
+c41j.,methylxanthine,Y,Min-I-Jet Aminophylline 250mg/10mL prefilled syringe,asthma_drug
+c41k.,methylxanthine,Y,Aminophylline 250mg/10mL prefilled syringe,asthma_drug
+c41m.,methylxanthine,Y,Aminophylline hydrate 225mg m/r tablet,asthma_drug
+c42..,methylxanthine,N,Choline theophyllinate,asthma_drug
+c42w.,methylxanthine,N,Choline theophyllinate 100mg tablet,asthma_drug
+c421.,methylxanthine,N,Choledyl 100mg tablet,asthma_drug
+c42x.,methylxanthine,N,Choline theophyllinate 200mg tablet,asthma_drug
+c422.,methylxanthine,N,Choledyl 200mg tablet,asthma_drug
+c42z.,methylxanthine,N,Choline theophyllinate 424mg m/r tablet,asthma_drug
+c424.,methylxanthine,N,Sabidal SR-270 424mg m/r tablet,asthma_drug
+c42y.,methylxanthine,N,Choline theophyllinate 62.5mg/5mL syrup,asthma_drug
+c423.,methylxanthine,N,Choledyl 62.5mg/5mL syrup,asthma_drug
+x01Ej,methylxanthine,Y,Oral aminophylline,asthma_drug
+x01Ek,methylxanthine,Y,Parenteral aminophylline,asthma_drug
+fe6..,OCS,N,Prednisolone [endocrine use],asthma_drug
+fe3..,OCS,N,Dexamethasone [endocrine use],asthma_drug
+fe31.,OCS,N,Dexamethasone 500micrograms tablet,asthma_drug
+fe32.,OCS,N,Dexamethasone 2mg tablet,asthma_drug
+fe33.,OCS,N,Decadron 500micrograms tablet,asthma_drug
+fe36.,OCS,N,Oradexon 500micrograms tablet,asthma_drug
+fe37.,OCS,N,Oradexon 2mg tablet,asthma_drug
+fe3A.,OCS,N,Dexsol 2mg/5mL oral solution,asthma_drug
+fe3B.,OCS,N,DEXAMETHASONE 10mg/5mL oral solution,asthma_drug
+fe3C.,OCS,N,MARTAPAN 2mg/5mL oral solution,asthma_drug
+fe3r.,OCS,N,Dexamethasone 500micrograms/5mL oral solution,asthma_drug
+fe3s.,OCS,N,Dexamethasone 2mg/5mL s/f oral solution,asthma_drug
+fe3u.,OCS,N,Dexamethasone 2mg/5mL liquid,asthma_drug
+fe4..,OCS,N,Hydrocortisone product,asthma_drug
+fe41.,OCS,N,Hydrocortisone 10mg tablet,asthma_drug
+fe42.,OCS,N,Hydrocortisone 20mg tablet,asthma_drug
+fe43.,OCS,N,Hydrocortistab 20mg tablet,asthma_drug
+fe44.,OCS,N,Hydrocortone 10mg tablet,asthma_drug
+fe45.,OCS,N,Hydrocortone 20mg tablet,asthma_drug
+fe4e.,OCS,N,PLENADREN 5mg m/r tablets,asthma_drug
+fe4f.,OCS,N,HYDROCORTISONE 5mg m/r tablets,asthma_drug
+fe4g.,OCS,N,PLENADREN 20mg m/r tablets,asthma_drug
+fe4h.,OCS,N,HYDROCORTISONE 20mg m/r tablets,asthma_drug
+fe5..,OCS,N,Methylprednisolone [endocrine use],asthma_drug
+fe51.,OCS,N,Medrone 2mg tablet,asthma_drug
+fe52.,OCS,N,Medrone 4mg tablet,asthma_drug
+fe53.,OCS,N,Medrone 16mg tablet,asthma_drug
+fe5f.,OCS,N,Medrone 100mg tablet,asthma_drug
+fe5m.,OCS,N,Methylprednisolone 100mg tablet,asthma_drug
+fe5n.,OCS,N,Methylprednisolone 2mg tablet,asthma_drug
+fe5o.,OCS,N,Methylprednisolone 4mg tablet,asthma_drug
+fe5p.,OCS,N,Methylprednisolone 16mg tablet,asthma_drug
+fe61.,OCS,N,Prednisolone 1mg tablet,asthma_drug
+fe62.,OCS,N,Prednisolone 5mg tablet,asthma_drug
+fe64.,OCS,N,Delta-Phoricol 5mg tablet,asthma_drug
+fe65.,OCS,N,Deltacortril Enteric 2.5mg e/c tablet,asthma_drug
+fe66.,OCS,N,Deltacortril Enteric 5mg e/c tablet,asthma_drug
+fe67.,OCS,N,Deltalone 1mg tablet,asthma_drug
+fe68.,OCS,N,Deltalone 5mg tablet,asthma_drug
+fe69.,OCS,N,Deltastab 1mg tablet,asthma_drug
+fe6a.,OCS,N,Deltastab 5mg tablet,asthma_drug
+fe6c.,OCS,N,Precortisyl 1mg tablet,asthma_drug
+fe6d.,OCS,N,Precortisyl 5mg tablet,asthma_drug
+fe6e.,OCS,N,Precortisyl Forte 25mg tablet,asthma_drug
+fe6f.,OCS,N,Prednesol 5mg tablet,asthma_drug
+fe6g.,OCS,N,Sintisone 5mg tablet,asthma_drug
+fe6h.,OCS,N,Prednisolone 2.5mg e/c tablet,asthma_drug
+fe6i.,OCS,N,Prednisolone 5mg e/c tablet,asthma_drug
+fe6j.,OCS,N,Prednisolone 5mg soluble tablet,asthma_drug
+fe6k.,OCS,N,Prednisolone 50mg tablet,asthma_drug
+fe6l.,OCS,N,DILACORT 5mg gastro-resistant tablets,asthma_drug
+fe6m.,OCS,N,DILACORT 2.5mg gastro-resistant tablets,asthma_drug
+fe6n.,OCS,N,PEVANTI 2.5mg tablets,asthma_drug
+fe6o.,OCS,N,PEVANTI 25mg tablets,asthma_drug
+fe6p.,OCS,N,PEVANTI 5mg tablets,asthma_drug
+fe6q.,OCS,N,PEVANTI 10mg tablets,asthma_drug
+fe6r.,OCS,N,PEVANTI 20mg tablets,asthma_drug
+fe6s.,OCS,N,PREDNISOLONE 20mg tablets,asthma_drug
+fe6t.,OCS,N,PREDNISOLONE 10mg tablets,asthma_drug
+fe6v.,OCS,N,Prednisolone 2.5mg tablet,asthma_drug
+fe6w.,OCS,N,*PREDNISOLONE 2.5mg tablets,asthma_drug
+fe6z.,OCS,N,Prednisolone 25mg tablet,asthma_drug
+fe7..,OCS,N,Prednisone,asthma_drug
+fe71.,OCS,N,Prednisone 1mg tablet,asthma_drug
+fe72.,OCS,N,Prednisone 5mg tablet,asthma_drug
+fe73.,OCS,N,Decortisyl 5mg tablet,asthma_drug
+fe74.,OCS,N,Econosone 1mg tablet,asthma_drug
+fe75.,OCS,N,Econosone 5mg tablet,asthma_drug
+fe76.,OCS,N,Prednisone 20mg tablet,asthma_drug
+fe77.,OCS,N,LODOTRA 2mg m/r tablets,asthma_drug
+fe78.,OCS,N,LODOTRA 5mg m/r tablets,asthma_drug
+fe79.,OCS,N,LODOTRA 1mg m/r tablets,asthma_drug
+fe7x.,OCS,N,PREDNISONE 5mg m/r tablets,asthma_drug
+fe7y.,OCS,N,PREDNISONE 2mg m/r tablets,asthma_drug
+fe7z.,OCS,N,PREDNISONE 1mg m/r tablets,asthma_drug
+x00yP,OCS,N,Oral prednisolone,asthma_drug
+x01Mh,OCS,N,Oral dexamethasone,asthma_drug
+x01Na,OCS,N,Oral hydrocortisone,asthma_drug
+x01Nb,OCS,N,Oral methylprednisolone,asthma_drug
+fe11.,OCS,N,BETNELAN 500micrograms tablets,asthma_drug
+fe12.,OCS,N,*BETNESOL 500micrograms tabs,asthma_drug
+fe1x.,OCS,N,BETAMETHASONE 500micrograms soluble tablets,asthma_drug
+fe1y.,OCS,N,BETAMETHASONE 500microgram tablets,asthma_drug
+fe21.,OCS,N,*CORTISONE 5mg tablets,asthma_drug
+fe22.,OCS,N,*CORTISONE 25mg tablets,asthma_drug
+fe23.,OCS,N,*CORTELAN 25mg tablets,asthma_drug
+fe24.,OCS,N,*CORTISTAB 5mg tablets,asthma_drug
+fe25.,OCS,N,*CORTISTAB 25mg tablets,asthma_drug
+fe26.,OCS,N,*CORTISYL 25mg tablets,asthma_drug
+x01MW,OCS,N,Oral betamethasone,asthma_drug
+ck1..,biologic,Y,OMALIZUMAB,asthma_drug
+ck11.,biologic,Y,OMALIZUMAB 150mg injection(pdr for recon)+solvent,asthma_drug
+ck12.,biologic,Y,XOLAIR 150mg injection(pdr for recon)+solvent,asthma_drug
+ck13.,biologic,Y,OMALIZUMAB 75mg/0.5mL soln for injection prefilled syringe,asthma_drug
+ck14.,biologic,Y,XOLAIR 75mg/0.5mL solution for injection prefilled syringe,asthma_drug
+ck15.,biologic,Y,OMALIZUMAB 150mg/1mL soln for injection prefilled syringe,asthma_drug
+ck16.,biologic,Y,XOLAIR 150mg/1mL solution for injection prefilled syringe,asthma_drug
+x01Cq,SABA,Y,Terbutaline,asthma_drug
+x01Cr,SABA,Y,Oral terbutaline,asthma_drug
+c14r.,SABA,Y,Terbutaline sulphate 5mg tablet,asthma_drug
+c141.,SABA,Y,Bricanyl 5mg tablet,asthma_drug
+c14a.,SABA,Y,Monovent 5mg tablet,asthma_drug
+c14y.,SABA,Y,Terbutaline sulphate 7.5mg m/r tablet,asthma_drug
+c149.,SABA,Y,Bricanyl SA 7.5mg m/r tablet,asthma_drug
+c14c.,SABA,Y,Monovent SA 7.5mg m/r tablet,asthma_drug
+c14z.,SABA,Y,Terbutaline sulphate 1.5mg/5mL syrup,asthma_drug
+c142.,SABA,Y,Bricanyl 1.5mg/5mL s/f syrup,asthma_drug
+c14b.,SABA,Y,Monovent 1.5mg/5mL syrup,asthma_drug
+x006b,SABA,Y,Inhaled terbutaline,asthma_drug
+c14t.,SABA,Y,Terbutaline sulphate 250micrograms inhaler,asthma_drug
+c144.,SABA,Y,Bricanyl 250micrograms inhaler,asthma_drug
+c14u.,SABA,Y,Terbutaline sulphate 250micrograms inhaler refill,asthma_drug
+c145.,SABA,Y,Bricanyl 250micrograms inhaler refill,asthma_drug
+c14v.,SABA,Y,Terbutaline sulphate 250micrograms spacer inhaler,asthma_drug
+c146.,SABA,Y,Bricanyl 250micrograms spacer inhaler,asthma_drug
+c14j.,SABA,Y,Terbutaline sulph 500mcg breath-actuated dry powder inhaler,asthma_drug
+c14f.,SABA,Y,Bricanyl 500micrograms Turbohaler,asthma_drug
+c14w.,SABA,Y,Terbutaline sulphate 5mg/2mL nebulisation unit,asthma_drug
+c147.,SABA,Y,Bricanyl 5mg/2mL Respule,asthma_drug
+c14x.,SABA,Y,Terbutaline sulphate 100mg/10mL nebuliser solution,asthma_drug
+c14i.,SABA,Y,Terbutaline sulphate 200mg/20mL nebuliser solution,asthma_drug
+c14g.,SABA,Y,Terbutaline 500micrograms inhaler,asthma_drug
+x01Cs,SABA,Y,Parenteral terbutaline,asthma_drug
+c14s.,SABA,Y,Terbutaline sulphate 500micrograms/1mL injection,asthma_drug
+c143.,SABA,Y,Bricanyl 500micrograms/1mL injection,asthma_drug
+c14h.,SABA,Y,Terbutaline sulphate 2.5mg/5mL intravenous infusion,asthma_drug
+c14e.,SABA,Y,Bricanyl 2.5mg/5mL intravenous infusion,asthma_drug
+c14..,SABA,Y,Terbutaline sulphate [respiratoty use],asthma_drug
+c14k.,SABA,Y,Bricanyl 200mg/20mL respirator solution,asthma_drug
+c148.,SABA,Y,Bricanyl 100mg/10mL nebuliser solution,asthma_drug
+x00Af,SABA,Y,Salbutamol product,asthma_drug
+x05Fg,SABA,Y,Oral salbutamol preparations,asthma_drug
+c11x.,SABA,Y,Salbutamol 2mg tablet,asthma_drug
+c111.,SABA,Y,Asmaven 2mg tablet,asthma_drug
+c113.,SABA,Y,Cobutolin 2mg tablet,asthma_drug
+c115.,SABA,Y,Salbulin 2mg tablet,asthma_drug
+c11e.,SABA,Y,Salbuvent 2mg tablet,asthma_drug
+c118.,SABA,Y,Ventolin 2mg tablet,asthma_drug
+c11v.,SABA,Y,Salbutamol 4mg tablet,asthma_drug
+c112.,SABA,Y,Asmaven 4mg tablet,asthma_drug
+c114.,SABA,Y,Cobutolin 4mg tablet,asthma_drug
+c116.,SABA,Y,Salbulin 4mg tablet,asthma_drug
+c11y.,SABA,Y,Salbutamol 8mg m/r tablet,asthma_drug
+c11k.,SABA,Y,Ventolin CR 8mg m/r tablet,asthma_drug
+c11a.,SABA,Y,Ventolin 8mg m/r tablet,asthma_drug
+c11d.,SABA,Y,Volmax 8mg m/r tablet,asthma_drug
+c11n.,SABA,Y,Salbutamol 4mg m/r capsule,asthma_drug
+c11p.,SABA,Y,Ventmax SR 4mg m/r capsule,asthma_drug
+c11o.,SABA,Y,Salbutamol 8mg m/r capsule,asthma_drug
+c11q.,SABA,Y,Ventmax SR 8mg m/r capsule,asthma_drug
+c11w.,SABA,Y,Salbutamol 2mg/2mL liquid,asthma_drug
+c117.,SABA,Y,Salbulin 2mg/2mL liquid,asthma_drug
+c11z.,SABA,Y,Salbutamol 2mg/5mL sugar free syrup,asthma_drug
+c11m.,SABA,Y,Libetist 2mg/5mL sugar free syrup,asthma_drug
+c11D.,SABA,Y,Salapin 2mg/5mL sugar free syrup,asthma_drug
+c11g.,SABA,Y,Salbuvent 2mg/5mL syrup,asthma_drug
+c11h.,SABA,Y,Salbuvent 2mg/5mL syrup 2litre,asthma_drug
+c11b.,SABA,Y,Ventolin 2mg/5mL s/f syrup,asthma_drug
+x05Fi,SABA,Y,Inhaled salbutamol preparations,asthma_drug
+c13v.,SABA,Y,Salbutamol 100micrograms inhaler,asthma_drug
+c13a.,SABA,Y,Aerolin-400 100micrograms inhaler,asthma_drug
+c131.,SABA,Y,Asmaven 100micrograms inhaler,asthma_drug
+c132.,SABA,Y,Cobutolin 100micrograms inhaler,asthma_drug
+c13p.,SABA,Y,Maxivent 100micrograms inhaler,asthma_drug
+c13H.,SABA,Y,Salamol 100micrograms inhaler,asthma_drug
+c133.,SABA,Y,Salbulin 100micrograms inhaler,asthma_drug
+c13h.,SABA,Y,Salbuvent 100micrograms inhaler,asthma_drug
+c13i.,SABA,Y,Salbuvent Rondo 100micrograms inhaler,asthma_drug
+c134.,SABA,Y,Ventolin 100micrograms inhaler,asthma_drug
+c13J.,SABA,Y,Salbutamol 100micrograms CFC-free inhaler,asthma_drug
+c13I.,SABA,Y,Airomir 100micrograms CFC-free inhaler,asthma_drug
+c13Z.,SABA,Y,Salamol 100micrograms CFC-free inhaler,asthma_drug
+c13Y.,SABA,Y,Salbulin 100micrograms CFC-free inhaler,asthma_drug
+c13T.,SABA,Y,Ventolin 100micrograms Evohaler,asthma_drug
+c13R.,SABA,Y,Salbutamol 100micrograms breath-actuated dry powder inhaler,asthma_drug
+c1E7.,SABA,Y,Easyhaler Salbutamol 100mcg breath-actuated dry powder inh,asthma_drug
+c13N.,SABA,Y,Salbutamol 100micrograms vortex metered dose inhaler,asthma_drug
+c13P.,SABA,Y,Asmasal 100micrograms Spacehaler,asthma_drug
+c13G.,SABA,Y,Salbutamol 100micrograms breath-actuated aerosol inhaler,asthma_drug
+x00CE,SABA,Y,Aerolin 100micrograms Autohaler,asthma_drug
+c13c.,SABA,Y,Aerolin Auto 100micrograms inhaler,asthma_drug
+c13n.,SABA,Y,Aerolin 100micrograms Autohaler 100d,asthma_drug
+c13K.,SABA,Y,Salamol Easi-Breathe 100mcg breath-actuated aerosol inhaler,asthma_drug
+c13O.,SABA,Y,Ventolin Easi-Breathe 100microgram inhaler,asthma_drug
+c13U.,SABA,Y,Salbutamol 100mcg CFC-free breath-actuated aerosol inhaler,asthma_drug
+c13V.,SABA,Y,Airomir 100micrograms CFC-free Autohaler,asthma_drug
+c1E1.,SABA,Y,Salamol Easi-Breathe 100mcg CFC-free breath-act aerosol inh,asthma_drug
+c13S.,SABA,Y,Salbutamol 95micrograms breath-actuated dry powder inhaler,asthma_drug
+c13Q.,SABA,Y,Asmasal 95micrograms Clickhaler,asthma_drug
+c13L.,SABA,Y,Salbutamol 200micrograms breath-actuated dry powder inhaler,asthma_drug
+c1E8.,SABA,Y,Easyhaler Salbutamol 200mcg breath-actuated dry powder inh,asthma_drug
+c1E2.,SABA,Y,Pulvinal Salbutamol 200mcg breath-act dry powder inhaler,asthma_drug
+c13M.,SABA,Y,Ventolin 200micrograms Accuhaler,asthma_drug
+c13x.,SABA,Y,Salbutamol 200micrograms inhalation capsule,asthma_drug
+c13q.,SABA,Y,Salbutamol 200 Cyclocap,asthma_drug
+c136.,SABA,Y,Ventolin 200micrograms Rotacap,asthma_drug
+c13y.,SABA,Y,Salbutamol 400micrograms inhalation capsule,asthma_drug
+c13r.,SABA,Y,Salbutamol 400 Cyclocap,asthma_drug
+c137.,SABA,Y,Ventolin 400micrograms Rotacap,asthma_drug
+c13C.,SABA,Y,Salbutamol 200micrograms/blister disks+disk inhaler,asthma_drug
+x025g,SABA,Y,Ventodisks 200micrograms/blister disks+diskhaler,asthma_drug
+c13d.,SABA,Y,Ventodisks 200micrograms diskhaler 14x8,asthma_drug
+c1E3.,SABA,Y,Ventodisks 200micrograms diskhaler 15x8,asthma_drug
+c13D.,SABA,Y,Salbutamol 400micrograms/blister disks+disk inhaler,asthma_drug
+x025h,SABA,Y,Ventodisks 400micrograms/blister disks+diskhaler,asthma_drug
+c13e.,SABA,Y,Ventodisks 400micrograms diskhaler 14x8,asthma_drug
+c1E4.,SABA,Y,Ventodisks 400micrograms diskhaler 15x8,asthma_drug
+c13E.,SABA,Y,Salbutamol 200micrograms/blister disks refill,asthma_drug
+x025i,SABA,Y,Ventodisks 200mcg/blister disks refill,asthma_drug
+c13f.,SABA,Y,Ventodisks 200micrograms disk refill 14x8,asthma_drug
+c1E5.,SABA,Y,Ventodisks 200micrograms disk refill 15x8,asthma_drug
+c13F.,SABA,Y,Salbutamol 400micrograms/blister disks refill,asthma_drug
+x025j,SABA,Y,Ventodisks 400mcg/blister disks refill,asthma_drug
+c13g.,SABA,Y,Ventodisks 400micrograms disk refill 14x8,asthma_drug
+c1E6.,SABA,Y,Ventodisks 400micrograms disk refill 15x8,asthma_drug
+c13w.,SABA,Y,Salbutamol 2.5mg/2.5mL nebulisation unit,asthma_drug
+c13W.,SABA,Y,Maxivent 2.5mg/2.5mL Steripoule,asthma_drug
+c13A.,SABA,Y,Steri-Neb Salamol 2.5mg/2.5mL nebulisation unit,asthma_drug
+c135.,SABA,Y,Ventolin 2.5mg/2.5mL Nebule,asthma_drug
+c13o.,SABA,Y,Salbutamol 5mg/2.5mL nebulisation unit,asthma_drug
+c13X.,SABA,Y,Maxivent 5mg/2.5mL Steripoule,asthma_drug
+c13B.,SABA,Y,Steri-Neb Salamol 5mg/2.5mL nebulisation unit,asthma_drug
+c13m.,SABA,Y,Ventolin 5mg/2.5mL Nebule,asthma_drug
+c13z.,SABA,Y,Salbutamol 100mg/20mL nebuliser solution,asthma_drug
+c139.,SABA,Y,Ventolin 100mg/20mL nebuliser solution,asthma_drug
+c13j.,SABA,Y,Salbuvent 5mg/mL respirator solution,asthma_drug
+x05Fh,SABA,Y,Parenteral salbutamol preparations,asthma_drug
+c12x.,SABA,Y,Salbutamol 250micrograms/5mL injection,asthma_drug
+c124.,SABA,Y,Salbuvent 250micrograms/5mL injection,asthma_drug
+c121.,SABA,Y,Ventolin 250micrograms/5mL injection,asthma_drug
+c12y.,SABA,Y,Salbutamol 500micrograms/1mL injection,asthma_drug
+c125.,SABA,Y,Salbuvent 500micrograms/1mL injection,asthma_drug
+c122.,SABA,Y,Ventolin 500micrograms/1mL injection,asthma_drug
+c12z.,SABA,Y,Salbutamol 5mg/5mL intravenous infusion,asthma_drug
+c126.,SABA,Y,Salbuvent 5mg/5mL intravenous infusion,asthma_drug
+c123.,SABA,Y,Ventolin 5mg/5mL intravenous infusion,asthma_drug
+c12w.,SABA,Y,Salbutamol 5mg/50mL injection,asthma_drug
+c1E9.,SABA,Y,SALBULIN NOVOLIZER 100micrograms cartridge and inhaler,asthma_drug
+c1EA.,SABA,Y,SALBUTAMOL 100micrograms dry powder cartridge and inhaler,asthma_drug
+c1EB.,SABA,Y,SALBULIN NOVOLIZER 100micrograms dry powder cartridge refill,asthma_drug
+c1EC.,SABA,Y,SALBUTAMOL 100micrograms dry powder cartridge refill,asthma_drug
+c1ED.,SABA,Y,VENTOLIN 50mg/10mL respirator solution,asthma_drug
+c1EE.,SABA,Y,SALBUTAMOL 50mg/10mL respirator solution,asthma_drug
+c11..,SABA,Y,Salbutamol [oral preparations],asthma_drug
+c11A.,SABA,Y,*VENTOLIN CR 4mg m/r tablets,asthma_drug
+c11B.,SABA,Y,*SALBUTAMOL 4mg m/r tablets,asthma_drug
+c11C.,SABA,Y,*VENTOLIN CR 8mg m/r tablets,asthma_drug
+c13..,SABA,Y,Salbutamol [inhalation preparations],asthma_drug
+c138.,SABA,Y,ROTAHALER DEVICE,asthma_drug
+c13b.,SABA,Y,*ROTAHALER DEVICE,asthma_drug
+c13s.,SABA,Y,Ventolin Rotahaler,asthma_drug
+c12..,SABA,Y,Salbutamol [parenteral preparations],asthma_drug
+c1E..,SABA,Y,Salbutamol [inhalation preparations 2],asthma_drug
+c51H.,SABASAMA,Y,IPRATROPIUM BROMIDE+SALBUTAMOL 500mcg/2.5mg nebuliser soln,asthma_drug
+c51B.,SABASAMA,Y,Fenoterol+ipratropium 100mcg/40mcg breath-act aerosl inhaler,asthma_drug
+c51B.,SABASAMA,Y,Fenoterol+ipratropium 100mcg/40mcg breath-act aerosl inhaler,asthma_drug
+c51x.,SABASAMA,Y,Duovent Autohaler,asthma_drug
+c51x.,SABASAMA,Y,Duovent Autohaler,asthma_drug
+x0100,SABASAMA,Y,Fenoterol+ipratropium 500micrograms/1.25mg nebulisation unit,asthma_drug
+x00zz,SABASAMA,Y,Duovent UDV nebuliser solution,asthma_drug
+c51v.,SABASAMA,Y,Duovent UDV nebuliser solution 4mL,asthma_drug
+c51w.,SABASAMA,Y,Fenoterol hydrobr+ipratropium br 500mcg/1.25mg neb unit 4mL,asthma_drug
+c51C.,SABASAMA,Y,Salbutamol+ipratropium 100micrograms/20micrograms inhaler,asthma_drug
+c51C.,SABASAMA,Y,Salbutamol+ipratropium 100micrograms/20micrograms inhaler,asthma_drug
+c51D.,SABASAMA,Y,Combivent inhaler,asthma_drug
+c51D.,SABASAMA,Y,Combivent inhaler,asthma_drug
+c51F.,SABASAMA,Y,Salbutamol+ipratropium 2.5mg/500mcg nebulisation unit,asthma_drug
+c51E.,SABASAMA,Y,Combivent Unit Dose Vial,asthma_drug
+c531.,SABASAMA,Y,IPRAMOL STERI-NEB 2.5mg/500micrograms nebuliser soln 2.5mL,asthma_drug
+c51A.,SABASAMA,Y,Fenoterol+ipratropium 100micrograms/40micrograms inhaler,asthma_drug
+c51A.,SABASAMA,Y,Fenoterol+ipratropium 100micrograms/40micrograms inhaler,asthma_drug
+c51i.,SABASAMA,Y,Duovent inhaler,asthma_drug
+c51i.,SABASAMA,Y,Duovent inhaler,asthma_drug
+x01Db,SAMA,N,Ipratropium,asthma_drug
+c31..,SAMA,Y,Ipratropium bromide product,asthma_drug
+c31x.,SAMA,Y,Ipratropium bromide 20micrograms inhaler,asthma_drug
+c311.,SAMA,Y,Atrovent 20micrograms inhaler,asthma_drug
+c31z.,SAMA,Y,Ipratropium bromide 40micrograms inhaler,asthma_drug
+c313.,SAMA,Y,Atrovent Forte 40micrograms inhaler,asthma_drug
+c31t.,SAMA,Y,Ipratropium bromide 20micrograms CFC-free inhaler,asthma_drug
+c31G.,SAMA,Y,Atrovent 20micrograms CFC-free inhaler,asthma_drug
+c31u.,SAMA,Y,Ipratropium bromide 20mcg breath-actuated aerosol inhaler,asthma_drug
+c315.,SAMA,Y,Atrovent 20micrograms Autohaler,asthma_drug
+c31A.,SAMA,Y,Ipratropium bromide 40micrograms inhalation capsule,asthma_drug
+c318.,SAMA,Y,Atrovent 40micrograms Aerocap,asthma_drug
+c31B.,SAMA,Y,Ipratropium bromide 40micrograms capsule+inhaler device,asthma_drug
+c319.,SAMA,Y,Atrovent 40micrograms Aerocap+Aerohaler device,asthma_drug
+c31v.,SAMA,Y,Ipratropium bromide 250micrograms/1mL nebuliser solution,asthma_drug
+c314.,SAMA,Y,Atrovent 250micrograms/1mL nebuliser solution unit dose vial,asthma_drug
+c31C.,SAMA,Y,Respontin 250micrograms/1mL Nebule,asthma_drug
+c316.,SAMA,Y,Steri-Neb Ipratropium 250micrograms/1mL nebulisation unit,asthma_drug
+c31E.,SAMA,Y,Tropiovent 250micrograms/1mL Steripoule,asthma_drug
+c31w.,SAMA,Y,Ipratropium bromide 500micrograms/2mL nebuliser solution,asthma_drug
+c312.,SAMA,Y,Atrovent 500micrograms/2mL nebuliser solution unit dose vial,asthma_drug
+c31D.,SAMA,Y,Respontin 500micrograms/2mL Nebule,asthma_drug
+c317.,SAMA,Y,Steri-Neb Ipratropium 500micrograms/2mL nebulisation unit,asthma_drug
+c31F.,SAMA,Y,Tropiovent 500micrograms/2mL Steripoule,asthma_drug
+c31y.,SAMA,Y,IPRATROPIUM 250micrograms/mL nebuliser solution,asthma_drug
+l86..,SAMA,N,IPRATROPIUM BROMIDE [2],asthma_drug
+c51G.,SABASAMA,Y,SALIPRANEB nebuliser solution 2.5mL,asthma_drug
+c119.,SABA,Y,*VENTOLIN 4mg tablets,asthma_drug
+c11c.,SABA,Y,*VOLMAX 4mg m/r tablets,asthma_drug
+c11f.,SABA,Y,*SALBUVENT 4mg tablets,asthma_drug
+c11i.,SABA,Y,*VENTOLIN CR 4mg m/r tablets,asthma_drug
+c11j.,SABA,Y,*SALBUTAMOL 4mg m/r tablets,asthma_drug
+c13k.,SABA,Y,*SALBUVENT RONDO spacer x1,asthma_drug
+c13l.,SABA,Y,AEROLIN 100micrograms Autohaler 200d,asthma_drug
+c15..,SABA,Y,FENOTEROL HYDROBROMIDE,asthma_drug
+c151.,SABA,Y,*BEROTEC 200micrograms inhaler,asthma_drug
+c152.,SABA,Y,BEROTEC 100mg/20mL respirator solution,asthma_drug
+c153.,SABA,Y,*BEROTEC 100micrograms inhaler,asthma_drug
+c154.,SABA,Y,FENOTEROL 100micrograms inhaler,asthma_drug
+c15y.,SABA,Y,FENOTEROL 200micrograms inhaler,asthma_drug
+c15z.,SABA,Y,FENOTEROL 100mg/20mL respirator solution,asthma_drug
+c1B..,LABA,Y,BAMBUTEROL HYDROCHLORIDE,asthma_drug
+c1B1.,LABA,Y,BAMBEC 10mg tablets,asthma_drug
+c1B2.,LABA,Y,BAMBEC 20mg tablets,asthma_drug
+c1B3.,LABA,Y,BAMBUTEROL HYDROCHLORIDE 10mg tablets,asthma_drug
+c1B4.,LABA,Y,BAMBUTEROL HYDROCHLORIDE 20mg tablets,asthma_drug
+c1D7.,ICSLABA,Y,SIRDUPLA 25micrograms/125micrograms inhaler,asthma_drug
+c1D8.,ICSLABA,Y,SIRDUPLA 25micrograms/250micrograms inhaler,asthma_drug
+c25..,SABA,Y,ORCIPRENALINE SULFATE [RESPIRATORY USE],asthma_drug
+c251.,SABA,Y,*ALUPENT 20mg tablets,asthma_drug
+c252.,SABA,Y,*ALUPENT 10mg/5mL syrup,asthma_drug
+c253.,SABA,Y,ALUPENT 500microgram/1mL injection,asthma_drug
+c254.,SABA,Y,*ALUPENT 750micrograms inhaler,asthma_drug
+c255.,SABA,Y,ALUPENT 750micrograms inhaler refill,asthma_drug
+c25v.,SABA,Y,*ORCIPRENALINE 20mg tablets,asthma_drug
+c25w.,SABA,Y,*ORCIPRENALINE 10mg/5mL syrup,asthma_drug
+c25x.,SABA,Y,ORCIPRENALINE 500microgram/1mL injection,asthma_drug
+c25y.,SABA,Y,ORCIPRENALINE 750micrograms inhaler,asthma_drug
+c25z.,SABA,Y,ORCIPRENALINE 750micrograms inhaler refill,asthma_drug
+c33..,LAMA,Y,TIOTROPIUM,asthma_drug
+c331.,LAMA,Y,TIOTROPIUM 18micrograms inhalation capsules,asthma_drug
+c332.,LAMA,Y,TIOTROPIUM 18micrograms capsules with inhaler device,asthma_drug
+c333.,LAMA,Y,TIOTROPIUM 2.5micrograms inhalation cartridges with inhaler device,asthma_drug
+c33x.,LAMA,Y,SPIRIVA RESPIMAT 2.5micrograms inhalation cartridges with Respimat inhaler device,asthma_drug
+c33y.,LAMA,Y,SPIRIVA COMBOPACK 18micrograms capsules with HandiHaler inhaler device,asthma_drug
+c33z.,LAMA,Y,SPIRIVA 18micrograms inhalation capsules,asthma_drug
+c34..,LAMA,Y,ACLIDINIUM,asthma_drug
+c341.,LAMA,Y,EKLIRA GENUAIR 322micrograms/dose dry powder inhaler,asthma_drug
+c342.,LAMA,Y,ACLIDINIUM 322micrograms/dose dry powder inhaler,asthma_drug
+c35..,LAMA,Y,UMECLIDINIUM,asthma_drug
+c351.,LAMA,Y,INCRUSE ELLIPTA 55micrograms/dose dry powder inhaler,asthma_drug
+c352.,LAMA,Y,UMECLIDINIUM 55micrograms/dose dry powder inhaler,asthma_drug
+c512.,SABA,Y,ALUPENT EXPECTORANT 20mg tablets,asthma_drug
+c513.,SABA,Y,*ALUPENT EXPECTORANT mixture,asthma_drug
+c516.,SABA,Y,*BRICANYL COMPOUND tablets,asthma_drug
+c517.,SABA,Y,*BRICANYL EXPECTORANT elixir,asthma_drug
+c51I.,LABALAMA,Y,ANORO ELLIPTA 55micrograms/22micrograms dry powder inhaler,asthma_drug
+c51J.,LABALAMA,Y,UMECLIDINIUM+VILANTEROL 55mcg/22mcg dry powder inhaler,asthma_drug
+c51K.,LABALAMA,Y,DUAKLIR GENUAIR 340micrograms/12micrograms powder inhaler,asthma_drug
+c51L.,LABALAMA,Y,ACLIDINIUM+FORMOTEROL FUMARATE DIHYD 340mcg/12mcg pdr inh,asthma_drug
+c51m.,LABA,Y,*NETHAPRIN DOSPAN m/r tablets,asthma_drug
+c51q.,methylxanthine,Y,*TAUMASTHMAN tablets,asthma_drug
+c51r.,methylxanthine,Y,*TEDRAL tablets,asthma_drug
+c51s.,methylxanthine,Y,*TEDRAL elixir,asthma_drug
+c51t.,methylxanthine,Y,*FRANOL NEW 11mg/120mg tablets,asthma_drug
+c51u.,methylxanthine,Y,FRANOL PLUS NEW 15mg/120mg tablets,asthma_drug
+c621.,ICS,Y,*VENTIDE inhaler,asthma_drug
+c621.,SABA,Y,*VENTIDE inhaler,asthma_drug
+c622.,SABA,Y,*VENTIDE Rotacaps,asthma_drug
+c623.,SABA,Y,*VENTIDE paediatric Rotacaps,asthma_drug
+c624.,ICSSABA,Y,*VENTIDE Rotahaler device,asthma_drug
+c63..,ICS,Y,*BETAMETHASONE VALERATE,asthma_drug
+c631.,ICS,Y,*BEXTASOL 100microgram inhaler,asthma_drug
+c63z.,ICS,Y,BETAMETHASONE 100micrograms inhaler,asthma_drug
+c68..,ICS,Y,MOMETASONE [RESPIRATORY USE],asthma_drug
+c69..,ICS,Y,CICLESONIDE,asthma_drug
+c6A3.,ICSSABA,Y,FOSTAIR 200micrograms/6micrograms inhaler,asthma_drug
+c6A4.,ICSSABA,Y,FOSTAIR NEXTHALER 200micrograms/6micrograms powder inhaler,asthma_drug
+c6Aw.,ICSLABA,Y,BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg pdr inh,asthma_drug
+c6Ax.,ICSLABA,Y,BECLOMET DIPROP+FORMOTERL FUMARATE DIHYD 200mcg/6mcg inhaler,asthma_drug
+c722.,SABA,Y,*AEROCROM inhaler,asthma_drug
+c72y.,SABA,Y,SODIUM CROMOGLICATE+SALBUTAMOL 1mg/100micrograms inhaler + spacer device,asthma_drug
+c72z.,SABA,Y,SODIUM CROMOGLICATE+SALBUTAMOL 1mg/100micrograms inhaler,asthma_drug
+c75..,biologic,Y,MEPOLIZUMAB,asthma_drug
+c751.,biologic,Y,NUCALA 100mg powder for solution for injection,asthma_drug
+c752.,biologic,Y,MEPOLIZUMAB 100mg powder for solution for injection,asthma_drug
+c62x.,ICSSABA,Y,Beclomethasone dipropionate+salbutamol 200micrograms/400micrograms inhalation capsule,asthma_drug
+c62y.,ICSSABA,Y,Beclomethasone dipropionate+salbutamol 100micrograms/200micrograms paediatric inhalation capsule,asthma_drug
+c62z.,ICSSABA,Y,Beclomethasone dipropionate+salbutamol 50micrograms/100micrograms inhaler,asthma_drug
+g22..,SABA,Y,Orciprenaline sulphate [obstetric use],asthma_drug
+g221.,SABA,Y,Alupent 5mg/10mL injection,asthma_drug
+g22z.,SABA,Y,Orciprenaline 5mg/10mL injection,asthma_drug
+g24..,SABA,Y,Salbutamol [obstetric],asthma_drug
+g25..,SABA,Y,Terbutaline sulphate [myometrial relaxant],asthma_drug
+x0019,ICSSABA,Y,Beclometasone dipropionate+salbutamol,asthma_drug
+x00Aw,SABA,Y,Sodium cromoglicate+salbutamol,asthma_drug
+x00zA,ICS,Y,Respiratory beclomethasone,asthma_drug
+x01Ck,LABA,Y,Bambuterol,asthma_drug
+x01Cl,SABA,Y,Fenoterol,asthma_drug
+x01Cm,SABA,Y,Orciprenaline,asthma_drug
+x01NO,ICS,Y,Respiratory fluticasone,asthma_drug
+x05kq,ICS,Y,Respiratory mometasone,asthma_drug
+c1D9.,ICSLABA,Y,AIRFLUSAL FORSPIRO 50micrograms/500micrograms pdr inhaler,asthma_drug
+c61C.,spacer,Y,Beclomethasone dipropionate 250mcg inh+spacer(large volume),asthma_drug
+c61g.,spacer,Y,Becloforte VM 250micrograms inhaler+spacer(large volume),asthma_drug
+c61Q.,spacer,Y,Becloforte Integra 250micrograms inhaler+compact spacer,asthma_drug
+c61S.,spacer,Y,Beclomethasone dipropionate 250mcg inh+compact spacer,asthma_drug
+c61T.,spacer,Y,Beclomethasone dipropionate 250mcg compact spacer refill,asthma_drug
+c64B.,spacer,Y,BUDESONIDE 50micrograms spacer inhaler,asthma_drug
+c64C.,spacer,Y,PULMICORT 200micrograms spacer inhaler,asthma_drug
+c64D.,spacer,Y,PULMICORT LS 50micrograms spacer inhaler,asthma_drug
+c64o.,spacer,Y,Budesonide 200micrograms inhaler with spacer device,asthma_drug
+c64z.,spacer,Y,BUDESONIDE 200micrograms spacer inhaler,asthma_drug
+c14v.,spacer,Y,Terbutaline sulphate 250micrograms spacer inhaler,asthma_drug
+c146.,spacer,Y,Bricanyl 250micrograms spacer inhaler,asthma_drug
+c13k.,spacer,Y,*SALBUVENT RONDO spacer x1,asthma_drug
+c14d.,spacer,Y,*NEBUHALER spacer device,asthma_drug
+c618.,spacer,Y,*VOLUMATIC spacer device,asthma_drug
+c646.,spacer,Y,*NEBUHALER spacer device,asthma_drug
+c71d.,spacer,Y,INTAL FISONAIR 5mg inhaler + spacer device,asthma_drug
+c71e.,spacer,Y,SODIUM CROMOGLICATE 5mg inhaler + spacer device,asthma_drug
+c71g.,spacer,Y,INTAL SYNCRONER 5mg inhaler + spacer device 2x112dose,asthma_drug
+c723.,spacer,Y,AEROCROM SYNCRONER inhaler + spacer device,asthma_drug
+c72y.,spacer,Y,SODIUM CROMOGLICATE+SALBUTAMOL 1mg/100micrograms inhaler + spacer device,asthma_drug
+c745.,spacer,Y,NEDOCROMIL SODIUM 2mg inhaler + spacer,asthma_drug
+x01EG,spacer,Y,Intal Syncroner inhaler+spacer,asthma_drug

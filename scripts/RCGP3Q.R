@@ -7,19 +7,19 @@
 
 source('setup.R')
 
-rcgp_qof <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+rcgp_qof <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('_id')), any_vars(str_detect(., 'RCP')))
 
-rcgp_qof %>%
-  select(contains('_v2_')) %>%
-  filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
-  print(n=nrow(.))
-# all v2 the same
-rcgp_qof %>%
-  select(contains('_v3_')) %>%
-  filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
-  print(n=nrow(.))
-# all v3 the same
+# rcgp_qof %>%
+#   select(contains('_v2_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v2 the same
+# rcgp_qof %>%
+#   select(contains('_v3_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v3 the same
 
 rcgp_qof <- rcgp_qof %>%
   mutate(read_term = case_when(!is.na(v38_v2_term) ~ v38_v2_term,
@@ -48,7 +48,7 @@ rcgp3q <- bind_rows(rcgp_qof, rcgp_elsie) %>%
 # check for duplicates in read_code
 rcgp3q$read_code[duplicated(rcgp3q$read_code)]
 
-saveRDS(rcgp3q, file = 'lists_out/RCGP3Q.RDS', compress = FALSE)
+write_csv(rcgp3q, path = 'lists_out/RCGP3Q.csv')
 
 # latex tables
 rcgp3q_list <- rcgp3q %>%

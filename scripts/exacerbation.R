@@ -26,7 +26,7 @@ exacerbation <- exacerbation_elsie %>%
 # check for duplicates in read_code
 exacerbation$read_code[duplicated(exacerbation$read_code)]
 
-saveRDS(exacerbation, file = 'lists_out/exacerbation.RDS', compress = FALSE)
+write_csv(exacerbation, path = 'lists_out/exacerbation.csv')
 
 # table for appendix
 exacerbation %>% filter(cat2 %in% 'number')

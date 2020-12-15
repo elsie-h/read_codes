@@ -7,7 +7,7 @@
 
 source('setup.R')
 
-asthma_review <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+asthma_review <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('_id')), any_vars(. %in% 'REV_COD'))
 
 asthma_review %>%
@@ -32,7 +32,7 @@ asthma_review <- asthma_review %>%
 asthma_review$read_code[duplicated(asthma_review$read_code)]
 
 # save the code list
-saveRDS(asthma_review, file = 'lists_out/asthma_review.RDS', compress = FALSE)
+write_csv(asthma_review, path = 'lists_out/asthma_review.RDS')
 
 # table for appendix
 asthma_review %>%

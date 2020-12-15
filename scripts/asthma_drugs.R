@@ -7,7 +7,7 @@
 
 source('setup.R')
 
-QOF_drugs <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+QOF_drugs <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('_id')), any_vars(. %in% 'ASTTRT_COD')) %>%
   mutate(read_term = case_when(!is.na(v36_v2_term) ~ v36_v2_term,
                                !is.na(v36_v3_term) ~ v36_v3_term,
@@ -203,7 +203,7 @@ asthma_drugs <- asthma_drugs %>%
   bind_rows(spacer) %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y')))
 
-saveRDS(asthma_drugs, file = 'lists_out/asthma_drugs.RDS', compress = FALSE)
+write_csv(asthma_drugs, path = 'lists_out/asthma_drugs.csv')
 
 # latex tables
 drug_list <- asthma_drugs %>%

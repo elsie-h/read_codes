@@ -16,7 +16,7 @@ bmi <- read_csv("lists_in/Elsie/bmi_codes_elsie.csv") %>%
 # check for duplicates in read_code
 bmi$read_code[duplicated(bmi$read_code)]
 
-saveRDS(bmi, file = 'lists_out/BMI.RDS', compress = F)
+write_csv(bmi, path = 'lists_out/BMI.csv')
 
 # table for appendix
 bmi_table <- bmi %>%

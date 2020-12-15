@@ -20,7 +20,7 @@ smoking_nwaru <- tibble(read_code = c(current_smoker,
                               read_code %in% passive_smoking ~ 'passive smoking',
                               TRUE ~ NA_character_))
 
-smoking_QOF <- readRDS("lists_in/QOF/QOF_codes.RDS") %>%
+smoking_QOF <- read_csv("lists_in/QOF/QOF_codes.csv") %>%
   filter_at(vars(ends_with('id')), any_vars(. %in% 'SMOK_COD')) %>%
   mutate(read_term_QOF = if_else(is.na(v38_v2_term), v38_v3_term, v38_v2_term)) %>%
   distinct(read_code, read_term_QOF) %>%
@@ -89,7 +89,7 @@ smoking <- smoking_QOF %>%
 # check for duplicates in read_code
 smoking$read_code[duplicated(smoking$read_code)]
 
-saveRDS(smoking, file = 'lists_out/smoking.RDS', compress = FALSE)
+write_csv(smoking, path = 'lists_out/smoking.csv')
 
 # latex tables
 smoking_list <- smoking %>%

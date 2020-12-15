@@ -140,7 +140,7 @@ infections <- infections %>%
   filter(!(cat2 %in% 'exclude')) %>%
   mutate(cat1 = 'infections')
 
-saveRDS(infections, file = 'lists_out/infections.RDS', compress = FALSE)
+write_csv(infections, path = 'lists_out/infections.csv')
 
 # latex tables
 infections_list <- infections %>%

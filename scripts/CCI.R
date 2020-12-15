@@ -22,7 +22,7 @@ source('setup.R')
 #   distinct()
 
 # Read codes from Nwaru2020
-cci_nwaru <- readRDS(file = 'lists_in/Nwaru2020/cl_cci_nwaru.RDS')
+cci_nwaru <- read_csv(file = 'lists_in/Nwaru2020/cl_cci_nwaru.csv')
 
 # use the scores from the khan paper
 cci <- read_csv("lists_in/Khan2010/khan_2010_cci.csv") %>%
@@ -50,7 +50,7 @@ cci <- read_csv("lists_in/Khan2010/khan_2010_cci.csv") %>%
   distinct(read_code, score, cat1, cat2, .keep_all = TRUE)
 
 # save
-saveRDS(cci, file = 'lists_out/CCI.RDS', compress = FALSE)
+write_csv(cci, path = 'lists_out/CCI.csv')
 
 # latex tables
 cci_list <- cci %>% 

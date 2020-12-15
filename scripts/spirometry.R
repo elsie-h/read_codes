@@ -8,7 +8,7 @@
 source('setup.R')
 
 # QOF
-spirometry_qof <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+spirometry_qof <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('_id')), any_vars(. %in% 'ASTSPIR_COD')) %>%
   mutate(read_term = case_when(!is.na(v36_v2_term) ~ v36_v2_term,
                                !is.na(v36_v3_term) ~ v36_v3_term,
@@ -60,7 +60,7 @@ spirometry <- bind_rows(spirometry_qof, spirometry_elsie)
 # check for duplicates in read_code
 spirometry$read_code[duplicated(spirometry$read_code)]
 
-saveRDS(spirometry, file = 'lists_out/spirometry.RDS', compress = FALSE)
+write_csv(spirometry, path = 'lists_out/spirometry.csv')
 
 # table for appendix
 spirometry_table <- spirometry %>%

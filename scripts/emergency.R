@@ -22,7 +22,7 @@ emergency <- read_delim("lists_in/Elsie/cl_hospitalisation_elsie",
 # check for duplicates in read_code
 emergency$read_code[duplicated(emergency$read_code)]
 
-saveRDS(emergency, file = 'lists_out/emergency.RDS', compress = FALSE)
+write_csv(emergency, path = 'lists_out/emergency.csv')
 
 # table for appendix
 emergency %>%

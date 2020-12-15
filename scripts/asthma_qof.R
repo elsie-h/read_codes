@@ -2,7 +2,7 @@
 
 source('setup.R')
 
-asthma_qof <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+asthma_qof <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('id')), any_vars(. %in% 'AST_COD')) 
 
 # asthma_qof %>%
@@ -24,7 +24,7 @@ asthma_qof <- asthma_qof %>%
   mutate(cat1 = 'asthma', cat2 = NA_character_)
 
 # save the code list
-saveRDS(asthma_qof, file = 'lists_out/asthma_qof.RDS', compress = FALSE)
+write_csv(asthma_qof, path = 'lists_out/asthma_qof.csv')
 
 # table for appendix
 asthma_qof %>%

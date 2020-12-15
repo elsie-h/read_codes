@@ -11,7 +11,7 @@ ethnicity <- read_csv("lists_in/Elsie/rc_ethnicity_final.csv") %>%
   rename(cat2 = cat_final) %>%
   mutate(cat1 = 'ethnicity')
 
-saveRDS(ethnicity, file = 'lists_out/ethnicity.RDS', compress = FALSE)
+write_csv(ethnicity, path = 'lists_out/ethnicity.RDS')
 
 
 # latex tables

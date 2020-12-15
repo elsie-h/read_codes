@@ -285,8 +285,7 @@ allergies <- bind_rows(
                             'D2101', 'M1100', 'SN520'))) %>%
   mutate_at('cat2', list(~ if_else(. %in% 'other', 'other allergy', .)))
 
-saveRDS(allergies, fil = 'lists_out/allergies.RDS', compress = TRUE)
-# write.csv(allergies, file = 'lists_out/allergies.csv')
+write_csv(allergies, path = 'lists_out/allergies.csv')
 
 # latex tables
 allergies_list <- allergies %>%

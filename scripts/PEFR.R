@@ -7,7 +7,7 @@
 
 source('setup.R')
 
-pefr_qof <- readRDS(file = 'lists_in/QOF/QOF_codes.RDS') %>%
+pefr_qof <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   filter_at(vars(ends_with('_id')), any_vars(. %in% 'PEFR_COD')) %>%
   mutate(read_term = case_when(!is.na(v36_v2_term) ~ v36_v2_term,
                                !is.na(v36_v3_term) ~ v36_v3_term,
@@ -61,7 +61,7 @@ pefr_codes <- bind_rows(pefr_qof, pefr_manual)
 # check for duplicates in read_code
 pefr_codes$read_code[duplicated(pefr_codes$read_code)]
 
-saveRDS(pefr_codes, file = 'lists_out/PEFR.RDS', compress = FALSE)
+write_csv(pefr_codes, path = 'lists_out/PEFR.csv')
 
 # table for appendix: PEFR
 pefr_table <- pefr_codes %>%
