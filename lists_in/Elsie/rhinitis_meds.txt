@@ -1,0 +1,21 @@
+
+https://surreyandsussex.nhs.uk/trust-formulary/bnf-chapter-12/
+
+BECLOMETASONE DIPROPIONATE 50 microgram / Nasal Spray, BECONASE
+FLUTICASONE FUROATE 27.5 microgram / Nasal Spray, AVAMYS
+FLUTICASONE PROPIONATE 400 microgram/unit dose Nasal Drops (28 x 0.4ml units), RESTRICTED only for nasal polyp
+DYMISTA (fluticasone/azelastine), 
+RIAMCINOLONE ACETONIDE 55microgram / Aqueous Nasal Spray,
+TRIAMCINOLONE ACETONIDE 55microgram / Aqueous Nasal Spray, NASACORT
+MOMETASONE FUROATE 50 microgram / Aqueous Nasal Spray, NASONEX
+
+
+Holly:
+I looked for ciclesonide, fluticasone, beclometasone or budesonide with formulation SPRAY (else search nasal, nose, spray, nasule) 
+ 
+also brand names (but some come in eye drops and nasal sprays, so be careful)
+ 
+exclusion_brands<-c("NASONEX","FLIXONASE","AVAMYS",
+                    "RHINOCORT","NASOBEC","NASOFAN","RYNACROM","PIRINASE",
+                    "DYMISTA","POLLENASE","VIVIDRIN", "RINATEC", 
+                    "ENTOCORT", "BENACORT", "AIRCORT",  “AZELASTINE”)

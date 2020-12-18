@@ -2240,13 +2240,14 @@ rhinitis,Allergic rhinitis due to unspecified allergen,H172.
 rhinitis,Allergic rhinitis due to unspecified allergen,XE0Y7
 rhinitis,Allergic rhinitis NOS,H17z.
 rhinitis,Vasomotor rhinitis,H18..
-rhinitis,Acute irritant rhinitis,X00kx
-rhinitis,Rhinitis sicca,X00ky
+rhinitis,Hay fever with asthma,H3300
+rhinitis,Hay fever with asthma,X1020
 rhinitis,Hay fever - other allergen,X00l8
 rhinitis,Hay fever - unspecified allergen,X00l9
+rhinitis,Acute irritant rhinitis,X00kx
+rhinitis,Rhinitis sicca,X00ky
 rhinitis,Perennial allergic rhinitis,X00lA
 rhinitis,Perennial allergic rhinitis with seasonal variation,X00lB
-rhinitis,Hay fever with asthma,X1020
 rhinitis,(Allerg rhinitis: [NOS][perenn][season]) or (vasomotor rhin),XE0Z5
 rhinitis,Seasonal allergic rhinitis,Xa0lX
 rhinitis,Vasomotor and allergic rhinitis,Y9979

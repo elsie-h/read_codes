@@ -121,7 +121,15 @@ food <- join_read(data_v2 = food_v2,
 # Rhinitis
 rhinitis_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Rhinitis') %>%
-  select(read_code_v2 = read_code, read_term)
+  select(read_code_v2 = read_code, read_term) %>%
+  add_row(read_code_v2 = 'H170.',
+          read_term = 'Hay fever - pollens') %>%
+  add_row(read_code_v2 = 'H3300',
+          read_term = 'Hay fever with asthma') %>%
+  add_row(read_code_v2 = 'H171.',
+          read_term = 'Hay fever - other allergen') %>%
+  add_row(read_code_v2 = 'H172.',
+          read_term = 'Hay fever - unspecified allergen')
 
 rhinitis_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-rhinitis-allergic-2020-11-09T16-35-40.csv") 
 

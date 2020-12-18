@@ -1,0 +1,390 @@
+code,term
+bn2..,Cinnarizine [vasodilator]
+bn21.,Stugeron Forte 75mg capsule
+bn2z.,Cinnarizine 75mg capsule
+c8...,Antihistamines
+c81..,Astemizole
+c811.,Hismanal 10mg tablet
+c812.,Hismanal 5mg/5mL suspension
+c813.,Astemizole 10mg tablet
+c814.,Astemizole 5mg/5mL suspension
+c82..,Azatadine maleate
+c821.,Optimine 1mg tablet
+c822.,Optimine 500micrograms/5mL syrup
+c82y.,Azatadine maleate 1mg tablet
+c82z.,Azatadine maleate 500micrograms/5mL syrup
+c83..,Brompheniramine maleate
+c831.,Dimotane 4mg tablet
+c832.,Dimotane 2mg/5mL elixir
+c833.,Dimotane LA 12mg m/r tablet
+c83x.,Brompheniramine maleate 4mg tablet
+c83y.,Brompheniramine maleate 2mg/5mL elixir
+c83z.,Brompheniramine maleate 12mg m/r tablet
+c84..,Chlorpheniramine maleate
+c841.,Chlorphenamine maleate 4mg tablet
+c842.,Alunex 4mg tablet
+c843.,Piriton 4mg tablet
+c844.,Piriton 12mg m/r tablet
+c845.,Piriton 2mg/5mL syrup
+c846.,Piriject 10mg/1mL injection
+c847.,Pollenase Antihistamine 4mg tablet
+c848.,Rhino-syrup Allergy 2mg/5mL sugar free syrup
+c849.,Pollenase Allergy Syrup 2mg/5mL sugar free syrup
+c84A.,Allerief 2mg/5mL s/f oral solution
+c84B.,Vantage Antihistamine 4mg tablet
+c84C.,Hayleve 4mg tablet
+c84D.,Allergy Relief Antihistamine 4mg tablet
+c84E.,ALLERCALM 4mg tablets
+c84v.,Chlorphenamine maleate 2mg/5mL s/f oral solution
+c84w.,Chlorphenamine maleate 2mg/5mL sugar free syrup
+c84x.,Chlorpheniramine 12mg m/r tablet
+c84y.,Chlorphenamine maleate 2mg/5mL syrup
+c84z.,Chlorphenamine maleate 10mg/1mL injection
+c85..,Clemastine
+c851.,Tavegil 1mg tablet
+c852.,Tavegil 500micrograms/5mL elixir
+c853.,Aller-eze tablet
+c854.,Clemastine+phenylpropanolamine 0.5/25mg tablet
+c855.,Aller-eze Plus tablet
+c85y.,Clemastine 1mg tablet
+c85z.,Clemastine 500micrograms/5mL elixir
+c86..,Cyproheptadine hydrochloride
+c861.,Periactin 4mg tablet
+c862.,Periactin 2mg/5mL syrup
+c86y.,Cyproheptadine hydrochloride 4mg tablet
+c86z.,Cyproheptadine hydrochloride 2mg/5mL syrup
+c87..,Dimethindene maleate
+c871.,Fenostil Retard 2.5mg m/r tablet
+c87z.,Dimethindene maleate 2.5mg m/r tablet
+c88..,Diphenhydramine hydrochloride [antihistamine]
+c881.,Benadryl 25mg capsule
+c882.,Nytol 25mg Caplet
+c883.,Diphenhydramine hydrochloride 25mg tablet
+c884.,Diphenhydramine hydrochloride 10mg/5mL syrup
+c885.,Medinex 10mg/5mL syrup
+c886.,Nytol One-A-Night 50mg tablet
+c887.,Diphenhydramine hydrochloride 50mg tablet
+c888.,Nightcalm 25mg tablet
+c889.,Paxidorm 25mg tablet
+c88A.,Sleepia 50mg capsule
+c88B.,Dreemon 25mg tablet
+c88C.,Dreemon 10mg/5mL syrup
+c88D.,Histergan 10mg/5mL syrup
+c88E.,Histergan 25mg tablet
+c88F.,Mandalyn Paediatric 6.25mg/5mL syrup
+c88G.,Vantage Pharmacy Sleep Aid 50mg tablet
+c88H.,Care Night Time Sleep Aid 25mg tablet
+c88I.,GALPHARM ONE A NIGHT NIGHTCALM 50mg tablets
+c88x.,Diphenhydramine hydrochloride 6.25mg/5mL syrup
+c88y.,Diphenhydramine hydrochloride 50mg capsule
+c88z.,Diphenhydramine hydrochloride 25mg capsule
+c89..,Diphenylpyraline hydrochloride
+c891.,Histryl Spansule 5mg m/r capsule
+c892.,Histryl Paediatric Spansule 2.5mg m/r capsule
+c893.,Lergoban 5mg m/r tablet
+c89x.,Diphenylpyraline 5mg m/r capsule
+c89y.,Diphenylpyraline 2.5mg m/r capsule
+c89z.,Diphenylpyraline 5mg m/r tablet
+c8a..,Hydroxyzine hydrochloride [antihististamine]
+c8b..,Ketotifen [antihistamine]
+c8c..,Mebhydrolin
+c8c1.,Fabahistin 50mg tablet
+c8c2.,Fabahistin 50mg/5mL mixture
+c8cy.,Mebhydrolin 50mg tablet
+c8cz.,Mebhydrolin 50mg/5mL mixture
+c8d..,Mepyramine maleate [antihistamine]
+c8d1.,Anthisan 50mg tablet
+c8dz.,Mepyramine maleate 50mg tablet
+c8e..,Mequitazine
+c8e1.,Primalan 5mg tablet
+c8ez.,Mequitazine 5mg tablet
+c8f..,Oxatomide
+c8f1.,Tinset 30mg tablet
+c8fz.,Oxatomide 30mg tablet
+c8g..,Phenindamine tartrate
+c8g1.,Thephorin 25mg tablet
+c8gz.,Phenindamine tartrate 25mg tablet
+c8h..,Pheniramine maleate
+c8h1.,Daneral SA 75mg m/r tablet
+c8hz.,Pheniramine maleate 75mg m/r tablet
+c8i..,Promethazine hydrochhloride [antihistamine]
+c8i1.,Phenergan 10mg tablet
+c8i2.,Phenergan 25mg tablet
+c8i3.,Phenergan 5mg/5mL elixir
+c8i4.,Phenergan 25mg/1mL injection
+c8i5.,Phenergan 50mg/2mL injection
+c8i6.,Phenergan Nightime 25mg tablet
+c8i8.,Ziz Forte 25mg tablet
+c8i9.,SOMINEX 20mg tablets
+c8iu.,PROMETHAZINE 20mg tablets
+c8iv.,Promethazine hydrochloride 10mg tablet
+c8iw.,Promethazine hydrochloride 25mg tablet
+c8ix.,Promethazine hydrochloride 5mg/5mL elixir
+c8iy.,Promethazine hydrochloride 25mg/1mL injection
+c8iz.,Promethazine hydrochloride 50mg/2mL injection
+c8j..,Terfenadine product
+c8j1.,Triludan 60mg tablet
+c8j2.,Triludan 30mg/5mL suspension
+c8j3.,Triludan Forte 120mg tablet
+c8j4.,Triludan 30mg/5mL s/f suspension
+c8j5.,Terfenadine 120mg tablet
+c8j6.,Histafen 60mg tablet
+c8j7.,Terfinax 60mg tablet
+c8j8.,Antihistamine Forte 120mg tablet
+c8j9.,Histafen 120mg tablet
+c8jA.,Terfenadine 30mg tablet
+c8jB.,Terfenor 30mg tablet
+c8jC.,Terfenor Forte 120mg tablet
+c8jD.,Antihistamine 60mg tablet
+c8jE.,Terfinax 120mg tablet
+c8jF.,Aller-eze Clear tablet
+c8jy.,Terfenadine 60mg tablet
+c8jz.,Terfenadine 30mg/5mL s/f suspension
+c8k..,Trimeprazine tartrate [antihistamine]
+c8k1.,Vallergan 10mg tablet
+c8k2.,Vallergan 7.5mg/5mL syrup
+c8k3.,Vallergan Forte 30mg/5mL syrup
+c8k4.,Vallergan 10mg tablets 28CP
+c8kx.,Alimemazine tartrate 10mg tablet
+c8ky.,Alimemazine tartrate 7.5mg/5mL syrup
+c8kz.,Alimemazine tartrate 30mg/5mL syrup
+c8l..,Triprolidine hydrochloride
+c8l1.,Actidil 2.5mg tablet
+c8l2.,Actidil 2mg/5mL elixir
+c8l3.,Pro-actidil 10mg m/r tablet
+c8lx.,Triprolidine 2.5mg tablet
+c8ly.,Triprolidine 2mg/5mL elixir
+c8lz.,Triprolidine hydrochloride 10mg m/r tablet
+c8m..,Acrivastine
+c8m1.,Acrivastine 8mg capsule
+c8m2.,Semprex 8mg capsule
+c8m3.,Benadryl Allergy Relief 8mg capsule
+c8n..,Cetirizine hydrochloride
+c8n1.,Cetirizine dihydrochloride 10mg tablet
+c8n2.,Zirtek Allergy 10mg tablet
+c8n3.,Cetirizine dihydrochloride 1mg/1mL s/f oral solution
+c8n4.,Zirtek Allergy 1mg/mL s/f oral solution
+c8n5.,Cetirocol 10mg tablet
+c8n6.,Piriteze 10mg tablet
+c8n8.,Galpharm Hayfever and Allergy Relief 10mg tablet
+c8nA.,Zirtek Allergy Relief 10mg tablet
+c8nB.,Benadryl One A Day 10mg tablet
+c8nC.,Cetirizine 10mg Allergy Relief One A Day tablet
+c8nD.,Care Cetirizine Hayfever Relief 10mg tablet
+c8nE.,Benadryl Allergy 1mg/mL s/f oral solution
+c8nG.,Numark Hayfever and Allergy Relief 10mg tablet
+c8nH.,Piriteze Allergy Syrup 1mg/1mL s/f oral solution
+c8nI.,Galpharm Allergy Relief 1mg/1mL s/f oral solution
+c8nJ.,Vantage Hayfever and Allergy Relief 10mg tablet
+c8nK.,POLLENSHIELD HAYFEVER RELIEF 10mg tablets
+c8nL.,BENADRYL ALLERGY LIQUID RELEASE 10mg capsules
+c8nM.,CETIRIZINE 10mg capsules
+c8o..,Loratadine product
+c8o1.,Loratadine 10mg tablet
+c8o2.,Clarityn 10mg tablet
+c8o3.,Loratadine 5mg/5mL syrup
+c8o4.,Clarityn 5mg/5mL syrup
+c8o5.,Clarityn Allergy 5mg/5mL syrup
+c8o6.,Clarityn Allergy 10mg tablet
+c8o7.,Galpharm Non-Drowsy Allergy Relief 10mg tablet
+c8o8.,Numark Non-Drowsy Allergy Relief 10mg tablet
+c8o9.,Galpharm Non-Drowsy Hayfever & Allergy Relief 10mg tablet
+c8oA.,Galpharm Non-Drowsy Allergy Relief 5mg/5mL syrup
+c8oB.,Vantage Pharmacy Non-Drowsy Allergy Relief 10mg tablet
+c8oC.,Vantage Non-Drowsy Allergy Relief 5mg/5mL syrup
+c8p..,Fexofenadine
+c8p1.,Fexofenadine hydrochloride 120mg tablet
+c8p2.,Telfast 120 tablet
+c8p3.,Fexofenadine hydrochloride 180mg tablet
+c8p4.,Telfast 180 tablet
+c8p5.,Fexofenadine hydrochloride 30mg tablet
+c8p6.,Telfast 30 tablet
+c8q..,Mizolastine product
+c8q1.,Mizolastine 10mg m/r tablet
+c8q2.,Mizollen 10mg m/r tablet
+c8q3.,Mistamine 10mg m/r tablet
+c8r..,Desloratadine
+c8r1.,Neoclarityn 5mg tablet
+c8r2.,Neoclarityn 0.5mg/mL syrup
+c8r3.,NEOCLARITYN 2.5mg/5mL oral solution
+c8rx.,DESLORATADINE 2.5mg/5mL oral solution
+c8ry.,Desloratadine 0.5mg/mL syrup
+c8rz.,Desloratadine 5mg tablet
+c8s..,Levocetirizine
+c8s1.,Xyzal 5mg tablet
+c8s2.,XYZAL 500micrograms/mL oral solution
+c8sy.,LEVOCETIRIZINE DIHYDROCHLORIDE 500mcg/mL oral solution
+c8sz.,Levocetirizine dihydrochloride 5mg tablet
+c8t..,Epinastine
+c8t1.,Relestat 0.5mg/mL eye drops 5mL
+c8tz.,Epinastine hydrochloride 0.5mg/mL eye drops
+c8u..,RUPATADINE
+c8u1.,RUPAFIN 10mg tablets
+c8uz.,RUPATADINE 10mg tablets
+c8v..,BILASTINE
+c8v1.,ILAXTEN 20mg tablets
+c8v2.,BILASTINE 20mg tablets
+d19..,Promethazine hydrochloride [hypnotic] see section c8I..
+d28..,Hydroxyzine HCl [anxiolytic]
+d281.,Atarax 10mg tablet
+d282.,Atarax 25mg tablet
+d283.,Atarax 10mg/5mL syrup
+d284.,Ucerax 25mg tablet
+d285.,Ucerax 10mg/5mL syrup
+d28x.,Hydroxyzine hydrochloride 10mg tablet
+d28y.,Hydroxyzine hydrochloride 25mg tablet
+d28z.,Hydroxyzine hydrochloride 10mg/5mL syrup
+dh3..,Cinnarizine [nausea]
+dh31.,Stugeron 15mg tablet
+dh32.,Cinaziere 15mg tablet
+dh3z.,Cinnarizine 15mg tablet
+dh4..,Cyclizine
+dh41.,Valoid 50mg tablet
+dh42.,Valoid 50mg/1mL injection
+dh4y.,Cyclizine hydrochloride 50mg tablet
+dh4z.,Cyclizine lactate 50mg/1mL injection
+dh5..,Dimenhydrinate
+dh51.,Dramamine 50mg tablet
+dh5z.,Dimenhydrinate 50mg tablet
+dh6..,Diphenhydramine hydrochloride [nausea]
+dh9..,Meclozine hydrochloride
+dh91.,Ancoloxin tablet
+dh92.,Meclozine 12.5mg pastille
+dh93.,Traveleeze Soft and Chewy 12.5mg pastille
+dh94.,Meclozine hydrochloride 12.5mg tablet
+dh95.,Sea-Legs 12.5mg tablet
+dha..,Mepyramine maleate [nausea]
+dhf..,Promethazine [nausea] [see c8i..]
+dhg..,Promethazine theoclate
+dhg1.,Avomine 25mg tablet
+dhg2.,VERTIGON 25mg tablets
+dhgz.,Promethazine theoclate 25mg tablet
+dhr..,CINNARIZINE+DIMENHYDRINATE
+dhr1.,CINNARIZINE+DIMENHYDRINATE 20mg/40mg tablets
+dhr2.,ARLEVERT 20mg/40mg tablets
+dm3..,Pizotifen maleate
+dm31.,Sanomigran 500micrograms tablet
+dm32.,Sanomigran 1.5mg tablets x28
+dm33.,Sanomigran 250micrograms/5mL elixir
+dm3x.,Pizotifen 500micrograms tablet
+dm3y.,Pizotifen 1.5mg tablet
+dm3z.,Pizotifen 250micrograms/5mL elixir
+k61..,Antazoline
+k611.,Otrivine-Antistin eye drops 10mL
+k612.,Vasocon A eye drops 10mL
+k61y.,Antazoline sulphate+xylometazoline HCl 0.5/0.05% eye drops
+k61z.,Antazoline phosphate+naphazoline HCl 0.5/0.05% eye drops
+k6f..,Levocabastine hydrochloride [eye]
+k6f1.,Levocabastine 0.5mg/mL eye drops
+k6f2.,Livostin 0.5mg/mL eye drops 4mL
+k6f3.,Livostin Direct 0.5mg/mL eye drops 3mL
+k6h..,Azelastine hydrochloride [eye]
+k6h1.,Azelastine hydrochloride 0.05% eye drops
+k6h2.,Optilast 0.05% eye drops 6mL
+k6h3.,Aller-Eze 0.05% eye drops 6mL
+k6h4.,Optilast 0.05% eye drops 8mL
+k6i..,Emedastine [eye]
+k6i1.,Emadine 0.05% eye drops 5mL
+k6iz.,Emedastine 0.05% eye drops
+k6l..,Olopatadine
+k6l1.,Olopatadine 1mg/mL eye drops
+k6l2.,Opatanol 1mg/mL eye drops 5mL
+l87..,Azelastine hydrochloride
+l871.,Azelastine hydrochloride 0.1% nasal spray
+l872.,Rhinolast 0.1% nasal spray 10mL
+l873.,Rhinolast 0.1% nasal spray 20mL
+l874.,Rhinolast Hayfever 0.1% nasal spray 5mL
+l875.,Aller-Eze 0.1% nasal spray 5mL
+l876.,Rhinolast 0.1% nasal spray 22mL
+l877.,RHINOLAST ALLERGY 0.1% nasal spray 5mL
+l8A..,Levocabastine hydrochloride [nose]
+l8A1.,Levocabastine 0.5mg/mL nasal spray
+l8A2.,Livostin 0.5mg/ml nasal spray 10mL
+l8A3.,Livostin Direct 0.5mg/mL nasal spray 5mL
+l952.,Otrivine-Antistin nose drops
+l953.,Otrivine-Antistin nasal spray
+la17.,Vibrocil nose drops 15mL
+la18.,Vibrocil nose gel 12g
+la19.,Vibrocil Nasal spray 10mL
+m34..,Topical antihistamine
+m341.,Anthical cream 25g
+m342.,Anthisan cream 25g
+m343.,Caladryl cream 42g
+m344.,Caladryl lotion 125mL
+m345.,R.B.C. cream 25g
+m346.,Aller-eze cream 25g
+m347.,Diphenhydramine hydrochloride 2% cream
+m348.,Anthisan Plus Sting Relief spray
+m349.,Benadryl Skin Allergy Relief cream 42g
+m34A.,Benadryl Skin Allergy Relief lotion 125mL
+m34B.,Histergan 2% cream 25g
+m34y.,Mepyramine maleate+benzocaine 2%/2% spray
+m34z.,Mepyramine maleate 2% cream
+o59..,Promethazine HCl [anaesthesia]
+o5b..,Trimeprazine tartrate [anaesthesia]
+x0024,Clemastine+phenylpropanolamine
+x00A2,Promethazine product
+x00FS,Anthisan cream
+x00Fi,Caladryl cream
+x00HQ,R.B.C cream
+x00KG,Otrivine-Antistin eye drops
+x00L9,Vasocon A eye drops
+x00TB,Caladryl lotion
+x00ez,Calimal 4mg tablet
+x00f3,Clemastine 1.34mg tablet
+x00fo,Pollon-eze 10mg tablet
+x00ft,Promethazine hydrochloride 20mg tablet
+x00fx,Sanomigran 1.5mg tablet
+x00fy,Seldane 120mg tablet
+x00g1,Sominex 20mg tablet
+x01Dn,H1 antihistamine
+x01Do,Non-sedating antihistamine
+x01Dp,Azelastine
+x01Dq,Cetirizine
+x01Dr,Sedating antihistamine
+x01Ds,Azatadine
+x01Dt,Brompheniramine
+x01Du,Chlorphenamine
+x01Dv,Cinnarizine
+x01Dw,Cyproheptadine
+x01Dx,Dimethindene
+x01Dy,Vibrocil nasal spray
+x01Dz,Vibrocil nose gel
+x01E0,Vibrocil nose drops
+x01E1,Diphenhydramine product
+x01E2,Diphenylpyraline
+x01E3,Hydroxyzine
+x01E4,Mepyramine
+x01E5,Phenindamine
+x01E6,Pheniramine
+x01E7,Pizotifen
+x01E8,Oral promethazine
+x01E9,Parenteral promethazine
+x01EA,Triprolidine
+x01EB,Alimemazine
+x01EC,Anthical cream
+x01eh,Terfex 60mg tablet
+x02KI,Q-Mazine 5mg/5mL syrup
+x03am,Levocabastine product
+x03an,Livostin 0.5mg/mL eye drops
+x03ao,Livostin 0.5mg/mL nasal spray
+x03dj,Aller-eze cream
+x03lb,Rhinolast Allergy 0.1% nasal spray
+x046j,Antihistamine
+x046k,Antihistamine Forte
+x04pM,Optilast 0.05% eye drops
+x04xx,Emedastine
+x04xy,Emadine 0.05% eye drops
+x0583,Benadryl Skin Allergy Relief cream
+x0584,Benadryl Skin Allergy Relief lotion
+x05F6,Pollenase Antihistamine
+x05FI,Histergan 2% cream
+x05Zl,Livostin Direct 0.5mg/mL eye drops
+x05Zm,Livostin Direct 0.5mg/mL nasal spray
+x05gy,Vantage Antihistamine
+x05lY,Aller-Eze 0.05% eye drops
+x05lZ,Aller-Eze 0.1% nasal spray
+x05la,Opatanol 1mg/mL eye drops
+x05oU,Allergy Relief Antihistamine
+x05ro,Relestat 0.5mg/mL eye drops
+x05s1,Rhinolast 0.1% nasal spray

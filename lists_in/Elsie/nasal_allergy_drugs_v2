@@ -1,0 +1,95 @@
+l8...	00	NASAL ALLERGY DRUGS
+l81..	00	BECLOMETASONE DIPROPIONATE [NOSE]
+l811.	00	BECONASE 50micrograms nasal spray
+l812.	00	BECONASE AQUEOUS 50microgram nasal spray
+l813.	00	ZONIVENT AQUANASAL 50micrograms spray
+l814.	00	BECONASE HAYFEVER 50micrograms aqueous nasal spray
+l815.	00	NASOBEC AQUEOUS 50micrograms nasal spray
+l816.	00	NASOBEC HAYFEVER 50micrograms nasal spray
+l817.	00	*BECLO-AQUA 50 nasal spray
+l818.	00	BECLOMIST 50micrograms nasal spray
+l819.	00	VIVABEC 50micrograms nasal spray
+l81a.	00	CARE HAYFEVER RELIEF 50micrograms nasal spray
+l81b.	00	RINO CLENIL 50micrograms nasal spray
+l81c.	00	POLLENASE 50micrograms nasal spray
+l81d.	00	VANTAGE HAYFEVER RELIEF 50micrograms nasal spray
+l81e.	00	BECONASE HAYFEVER RELIEF FOR ADULTS 50micrograms nasal spray
+l81y.	00	BECLOMETHASONE 50micrograms nasal spray
+l81z.	00	BECLOMETASONE 50micrograms aqueous nasal spray
+l82..	00	BETAMETHASONE SOD PHOSPHATE [NOSE]
+l821.	00	*BETNESOL nose drops 5mL
+l822.	00	BETNESOL 0.1% nose drops 10mL
+l823.	00	VISTA-METHASONE 0.1% nose drops 5mL
+l824.	00	VISTA-METHASONE 0.1% nose drops 10mL
+l825.	00	BETNESOL-N nose drops 10mL
+l826.	00	BETAMETHASONE SODIUM PHOSPHATE+NEOMYCIN SULFATE 0.1%/0.5% nose drops
+l827.	00	VISTA-METHASONE N nose drops 5mL
+l828.	00	VISTA-METHASONE N nose drops 10mL
+l82z.	00	BETAMETHASONE 0.1% nose drops
+l83..	00	BUDESONIDE [NOSE]
+l831.	00	RHINOCORT 50micrograms nasal spray
+l832.	00	RHINOCORT AQUA 100micrograms nasal spray
+l833.	00	RHINOCORT AQUA 64micrograms nasal spray
+l83x.	00	BUDESONIDE 64micrograms aqueous nasal spray
+l83y.	00	BUDESONIDE 100micrograms aqueous nasal spray
+l83z.	00	BUDESONIDE 50micrograms nasal spray
+l84..	00	FLUNISOLIDE
+l841.	00	SYNTARIS 25micrograms nasal spray
+l84z.	00	FLUNISOLIDE 25micrograms nasal spray
+l85..	00	SODIUM CROMOGLICATE [NOSE]
+l851.	00	*RYNACROM 10mg cartridges
+l852.	00	*RYNACROM INSUFFLATOR
+l853.	00	*RYNACROM 2% nose drops 15mL
+l854.	00	*RYNACROM 2% nasal spray 26mL
+l855.	00	RYNACROM COMPOUND nasal spray 26mL
+l856.	00	RYNACROM 4% nasal spray 22mL
+l857.	00	*RESISTON ONE nasal spray
+l858.	00	VIVIDRIN 2% nasal spray
+l859.	00	RYNACROM ALLERGY nasal spray 10mL
+l85v.	00	SODIUM CROMOGLICATE 4% nasal spray
+l85w.	00	SOD CROMOGLYCATE 10mg cartridges
+l85x.	00	SOD CROMOGLYCATE 2% nose drops
+l85y.	00	SODIUM CROMOGLICATE 2% nasal spray
+l85z.	00	SODIUM CROMOGLICATE COMPOUND 2% nasal spray
+l86..	00	IPRATROPIUM BROMIDE [2]
+l861.	00	IPRATROPIUM 20micrograms nasal spray
+l862.	00	RINATEC 20micrograms nasal spray
+l863.	00	IPRATROPIUM 0.03% aqueous nasal spray
+l864.	00	RINATEC 0.03% aqueous nasal spray
+l865.	00	RINATEC 21micrograms nasal spray
+l866.	00	IPRATROPIUM BROMIDE 21micrograms nasal spray
+l87..	00	AZELASTINE HYDROCHLORIDE
+l871.	00	AZELASTINE 0.1% nasal spray
+l872.	00	RHINOLAST 0.1% nasal spray 10mL
+l873.	00	RHINOLAST 0.1% nasal spray 20mL
+l874.	00	RHINOLAST HAYFEVER 0.1% nasal spray 5mL
+l875.	00	ALLER-EZE 0.1% nasal spray 5mL
+l876.	00	RHINOLAST 0.1% nasal spray 22mL
+l877.	00	RHINOLAST ALLERGY 0.1% nasal spray 5mL
+l88..	00	FLUTICASONE [NOSE]
+l881.	00	FLUTICASONE PROPIONATE 50micrograms nasal spray
+l882.	00	FLIXONASE 50micrograms nasal spray
+l883.	00	FLIXONASE 400micrograms Nasules
+l884.	00	FLIXONASE ALLERGY 50micrograms nasal spray
+l885.	00	NASOFAN AQUEOUS 50micrograms nasal spray
+l886.	00	AVAMYS 27.5micrograms nasal spray
+l887.	00	FLUTICASONE FUROATE 27.5micrograms nasal spray
+l88z.	00	FLUTICASONE PROPIONATE 400micrograms single-use nasal drops
+l89..	00	NEDOCROMIL SODIUM [NOSE]
+l891.	00	NEDOCROMIL SODIUM 1% nasal spray
+l892.	00	*TILARIN 1% nasal spray
+l8A..	00	LEVOCABASTINE HYDROCHLORIDE [NOSE]
+l8A1.	00	LEVOCABASTINE 0.5mg/mL nasal spray
+l8A2.	00	LIVOSTIN 0.5mg/mL nasal spray 10mL
+l8A3.	00	LIVOSTIN DIRECT 0.5mg/mL nasal spray 5mL
+l8B..	00	TRIAMCINOLONE ACETONIDE [NOSE]
+l8B1.	00	TRIAMCINOLONE ACETONIDE 55micrograms aqueous nasal spray
+l8B2.	00	NASACORT 55micrograms aqueous nasal spray
+l8C..	00	TRAMAZOLINE HYDROCHLORIDE+DEXAMETHASONE ISONICOTINATE
+l8C1.	00	DEXA-RHINASPRAY DUO nasal spray
+l8D..	00	MOMETASONE FUROATE MONOHYDRATE [NOSE]
+l8D1.	00	NASONEX 0.05% aqueous nasal spray
+l8Dz.	00	MOMETASONE FUROATE MONOHYDRATE 0.05% aqueous nasal spray
+l8E..	00	AZELASTINE HYDROCHLORIDE+FLUTICASONE PROPIONATE
+l8E1.	00	DYMISTA 137micrograms/50micrograms nasal spray
+l8E2.	00	AZELASTINE HCL+FLUTICASONE PROPION 137mcg/50mcg nasal spray
