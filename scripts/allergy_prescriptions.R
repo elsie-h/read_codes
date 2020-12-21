@@ -2,6 +2,29 @@
 
 source('setup.R')
 
+nasal_allergy_drugs_v2 <- read_delim("lists_in/Elsie/nasal_allergy_drugs_v2", 
+                                     "\t", escape_double = FALSE,
+                                     trim_ws = TRUE, col_names = FALSE) %>%
+  select(read_code = X1, read_term = X3)
+
+antihistamines_v2 <- read_delim("lists_in/Elsie/antihistamines_v2", 
+                                     "\t", escape_double = FALSE,
+                                     trim_ws = TRUE, col_names = FALSE) %>%
+  select(read_code = X1, read_term = X3)
+
+nasal_allergy_drugs_v2 %>%
+  bind_rows(antihistamines_v2) %>%
+  distinct() %>% 
+  mutate_at('read_term', list(~ str_remove(., '^\\*'))) %>%
+  arrange(read_term) %>%
+  print(n=nrow(.))
+
+# ANTHISAN 50mg tablets for stings an bites
+
+all_v2 <- nasal_allergy_drugs_v2 %>%
+  bind_rows(antihistamines_v2) %>%
+  distinct()
+
 # better to be over-inclusive at this stage
 # can talk to clinician/consult the BNF and trim down based on read term
 # from googling, I don't think treatments in the hyposensitisation category are prescribed any more
@@ -10,6 +33,29 @@ source('setup.R')
 
 antihistamine_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-antihistamine-3ff1e284.csv")
 allergy_drugs_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-allergy-drug-533d3084.csv")
+
+all_v3 <- allergy_drugs_v3 %>%
+  bind_rows(antihistamine_v3) %>%
+  distinct()
+
+all <- all_v2 %>%
+  bind_rows(rename_all(all_v3, list(~ str_c('read_', .)))) %>%
+  distinct(read_code, .keep_all = TRUE) %>%
+  mutate_at('read_term', list(~ str_to_lower(str_remove(., '^\\*'))))  %>%
+  mutate(version = if_else(str_detect(read_code, '^w|^x'), 3, 2)) %>%
+  group_split(version)
+
+tmp <- all[[1]] %>%
+  rename(read_code_v2 = read_code) %>%
+  select(-version) %>%
+  full_join(all[[2]] %>%
+              rename(read_code_v3 = read_code) %>%
+              select(-version),
+            by = 'read_term')
+
+tmp %>% filter(str_detect(read_term, 'aller-eze'))
+
+
 
 antihistamine_v3 %>%
   mutate_at('code', 

@@ -21,7 +21,8 @@ comorbs <- c('anxiety',
              'GORD',
              'nasal_polyp',
              'osteoporosis',
-             'hypertension')
+             'hypertension',
+             'thyroid')
 
 #### from CPRD codes: (Kuan 2019) ####
 comorbs_data <- bind_rows(lapply(comorbs, 
@@ -31,6 +32,100 @@ comorbs_data <- bind_rows(lapply(comorbs,
                                           cat2 = x,
                                           version = 2))) 
 
+
+
+################################################################################
+#### Thyroid ####
+
+# use this existing V2 codelist as guide
+thyroid_v2 <- comorbs_data %>%
+  filter(cat2 %in% 'thyroid') %>%
+  mutate_at('cat2', list(~ case_when(str_detect(read_code, '^C00|^C01|^C02') ~ 'hyperthyroidism',
+                                     str_detect(read_code, '^C03|^C04') ~ 'hypothyroidism',
+                                     str_detect(read_term, regex('hyper|thyrotoxic|grave|basedow|exophthalmos', ignore_case = TRUE)) ~ 'hyperthyroidism',
+                                     str_detect(read_term, regex('hypo|myxoedema|hashimoto', ignore_case = TRUE)) ~ 'hypothyroidism',
+                                     read_term %in% c('TSH - thyroid-stimulating hormone deficiency',
+                                                      'Thyroid atrophy') ~ 'hypothyroidism',
+                                     TRUE ~ 'thyroid disorder'))) %>%
+  rename(read_term_v2 = read_term)
+
+# I created this codelist using te OpenSafely builder. It is over-inclusive so will have to be trimmed down.
+thyroid_os <- read_csv("lists_in/OpenSafely/elsie-horne-thyroid-disorder-5bb415af.csv") %>%
+  rename(read_code = code,
+         read_term_os = term) %>%
+  filter(!str_detect(read_term_os, regex('malignant|tumour|carcinoma|neoplasm|nodule|lump|infection|adenoma|metastasis', ignore_case = TRUE))) %>%
+  filter(!(read_code %in% c('4421.'))) %>%
+  filter(!str_detect(read_code, '^Xac9'))
+
+tmp <- thyroid_v2 %>%
+  full_join(thyroid_os, by = 'read_code') %>%
+  # flag the CPRD codes with v2
+  mutate(v2 = if_else(!is.na(cat1),
+                      1, 0),
+         # flag the OpenSafely codes that are also in the CPRD list with os_v2
+         os_v2 = if_else(!is.na(read_term_os) & !is.na(cat1),
+                                   1, 0),
+         read_term = if_else(!is.na(read_term_v2),
+                             read_term_v2,
+                             read_term_os)) %>%
+  select(read_code, read_term, v2, os_v2) %>%
+  mutate_at('read_term', tolower) %>%
+  mutate_at('read_term', list(~ str_replace(., 'first', '1st'))) %>%
+  mutate_at('read_term', list(~ str_replace(., 'second', '2nd'))) %>%
+  mutate_at('read_term', list(~ str_replace(., 'third', '3rd'))) %>%
+  # split such as 1st element is version 3 codes and second element version 2
+  group_split(v2)
+
+# check whether there are any version 2 code sin the OpenSafely codelist that are not in the COPD one
+tmp_joined <- tmp[[2]] %>%
+  select(-v2) %>%
+  rename(read_code_v2 = read_code) %>%
+  full_join(tmp[[1]] %>%
+              select(-v2, -os_v2) %>%
+              rename(read_code_v3 = read_code),
+            by = 'read_term')
+
+# identify the V2 codes that are in the OS codelist but not CPRD
+remove_term_list <- tmp[[1]] %>%
+  filter(!str_detect(read_code, '^X|^Y')) %>%
+  select(read_code, read_term) 
+
+# do these correspond to any V3 codes?
+tmp[[1]] %>%
+  anti_join(select(remove_term_list, read_code)) %>%
+  right_join(select(remove_term_list, read_term)) %>%
+  print(n = nrow(.))
+#  nope
+# so just remove the version 2 ones
+
+thyroid <- tmp_joined %>%
+  anti_join(select(remove_term_list, read_code), 
+            by = c('read_code_v3' = 'read_code')) %>%
+  arrange(read_code_v2, read_code_v3) %>%
+  mutate(cat2 = case_when(str_detect(read_code_v2, '^C00|^C01|^C02') ~ 'hyperthyroidism',
+                          str_detect(read_code_v2, '^C03|^C04') ~ 'hypothyroidism',
+                          str_detect(read_term, regex('hyper|thyrotoxic|grave|basedow|exophthalmos|eye|hashitoxicosis', ignore_case = TRUE)) ~ 'hyperthyroidism',
+                          str_detect(read_term, regex('hypo|myxoedema|hashimoto|struma lymphomatosis|thyroxine rx|tsh deficiency|iodine deficiency syndrome|atrophy', ignore_case = TRUE)) ~ 'hypothyroidism',
+                          read_term %in% c('tsh - thyroid-stimulating hormone deficiency') ~ 'hypothyroidism',
+                          str_detect(read_term, regex('thyroiditis|goitre|^thyroid', ignore_case = TRUE)) ~ 'thyroid disorder',
+                          read_term %in% c('disorder of thyroid gland',
+                                           'h/o: thyroid disorder',
+                                           'h/o: thyroid disorder nos') ~ 'thyroid disorder',
+                          TRUE ~ NA_character_)) %>%
+  filter(!is.na(cat2))
+
+thyroid_final <- thyroid %>%
+  select(read_code = read_code_v2,
+         read_term, cat2) %>%
+  filter(!is.na(read_code)) %>%
+  bind_rows(thyroid %>%
+              select(read_code = read_code_v3,
+                     read_term, cat2) %>%
+              filter(!is.na(read_code)))
+
+# I think it's fairly usual for patients to go hyper -> hypo,
+# but as far as I'm aware patients don't usually go hypo -> hyper
+# check this with clinician and check in results
 
 ################################################################################
 #### Diabetes ####
@@ -319,7 +414,8 @@ comorbidities_all <- bind_rows(depression %>% mutate(cat2 = 'Depression'),
                                gord %>% mutate(cat2 = 'GORD'),
                                hypertension %>% mutate(cat2 = 'Hypertension'),
                                nasal_polyp %>% mutate(cat2 = 'Nasal polyps'),
-                               osteoporosis %>% mutate(cat2 = 'Osteoporosis')) %>%
+                               osteoporosis %>% mutate(cat2 = 'Osteoporosis'),
+                               thyroid_final) %>%
   mutate(cat1 = 'comorbidities') %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', .)))
 

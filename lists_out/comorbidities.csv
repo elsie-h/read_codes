@@ -1197,3 +1197,253 @@ XaISx,No,Seen in osteoporosis clinic,Osteoporosis,comorbidities
 XaJdn,No,Referral to osteoporosis clinic,Osteoporosis,comorbidities
 XaQR9,No,Osteoporosis enhanced services administration,Osteoporosis,comorbidities
 X70CK,Yes,Osteoporotic vertebral collapse,Osteoporosis,comorbidities
+143..,No,h/o: thyroid disorder,thyroid disorder,comorbidities
+1431.,No,h/o: hyperthyroidism,hyperthyroidism,comorbidities
+1431.,No,h/o: thyrotoxicosis,hyperthyroidism,comorbidities
+1432.,No,h/o: hypothyroidism,hypothyroidism,comorbidities
+1433.,No,h/o: thyroid disorder nos,thyroid disorder,comorbidities
+212P.,No,hyperthyroidism resolved,hyperthyroidism,comorbidities
+66B..,No,thyroid disease monitoring,thyroid disorder,comorbidities
+66B4.,No,thyroid eye disease,hyperthyroidism,comorbidities
+66BB.,No,hypothyroidism annual review,hypothyroidism,comorbidities
+66BZ.,No,thyroid disease monitoring nos,thyroid disorder,comorbidities
+8CR5.,No,hypothyroidism clinical management plan,hypothyroidism,comorbidities
+9Oj..,No,hypothyroidism monitoring administration,hypothyroidism,comorbidities
+9Oj0.,No,hypothyroidism monitoring 1st letter,hypothyroidism,comorbidities
+9Oj1.,No,hypothyroidism monitoring 2nd letter,hypothyroidism,comorbidities
+9Oj2.,No,hypothyroidism monitoring 3rd letter,hypothyroidism,comorbidities
+9Oj3.,No,hypothyroidism monitoring verbal invite,hypothyroidism,comorbidities
+9Oj4.,No,hypothyroidism monitoring telephone invitation,hypothyroidism,comorbidities
+C02..,No,toxic goitre,hyperthyroidism,comorbidities
+C02..,No,thyrotoxicosis,hyperthyroidism,comorbidities
+C02..,No,hyperthyroidism,hyperthyroidism,comorbidities
+C020.,No,toxic diffuse goitre,hyperthyroidism,comorbidities
+C020.,No,basedow's disease,hyperthyroidism,comorbidities
+C020.,No,graves' disease,hyperthyroidism,comorbidities
+C0200,No,toxic diffuse goitre with no crisis,hyperthyroidism,comorbidities
+C0201,No,toxic diffuse goitre with crisis,hyperthyroidism,comorbidities
+C0202,No,thyroid-associated dermopathy,hyperthyroidism,comorbidities
+C020z,No,toxic diffuse goitre nos,hyperthyroidism,comorbidities
+C021.,No,toxic uninodular goitre,hyperthyroidism,comorbidities
+C0210,No,toxic uninodular goitre with no crisis,hyperthyroidism,comorbidities
+C021z,No,toxic uninodular goitre nos,hyperthyroidism,comorbidities
+C022.,No,toxic multinodular goitre,hyperthyroidism,comorbidities
+C0220,No,toxic multinodular goitre with no crisis,hyperthyroidism,comorbidities
+C022z,No,toxic multinodular goitre nos,hyperthyroidism,comorbidities
+C023.,No,toxic nodular goitre unspecified,hyperthyroidism,comorbidities
+C0230,No,toxic nodular goitre unspecified with no crisis,hyperthyroidism,comorbidities
+C0231,No,toxic nodular goitre unspecified with crisis,hyperthyroidism,comorbidities
+C023z,No,toxic nodular goitre nos,hyperthyroidism,comorbidities
+C02y.,No,thyrotoxicosis of other specified origin,hyperthyroidism,comorbidities
+C02y0,No,thyrotoxicosis of other specified origin with no crisis,hyperthyroidism,comorbidities
+C02y1,No,thyrotoxicosis of other specified origin with crisis,hyperthyroidism,comorbidities
+C02y3,No,thyroid crisis,hyperthyroidism,comorbidities
+C02yz,No,thyrotoxicosis of other specified origin nos,hyperthyroidism,comorbidities
+C02z.,No,thyrotoxicosis without mention of goitre or other cause,hyperthyroidism,comorbidities
+C02z0,No,thyrotoxicosis without mention of goitre or cause no crisis,hyperthyroidism,comorbidities
+C02z1,No,"thyrotoxicosis without mention of goitre, cause with crisis",hyperthyroidism,comorbidities
+C02zz,No,thyrotoxicosis nos,hyperthyroidism,comorbidities
+C04..,No,hypothyroidism,hypothyroidism,comorbidities
+C04..,No,acquired hypothyroidism,hypothyroidism,comorbidities
+C04..,No,myxoedema,hypothyroidism,comorbidities
+C04..,No,thyroid deficiency,hypothyroidism,comorbidities
+C040.,No,postsurgical hypothyroidism,hypothyroidism,comorbidities
+C040.,No,post ablative hypothyroidism,hypothyroidism,comorbidities
+C041.,No,other postablative hypothyroidism,hypothyroidism,comorbidities
+C0410,No,irradiation hypothyroidism,hypothyroidism,comorbidities
+C041z,No,postablative hypothyroidism nos,hypothyroidism,comorbidities
+C043.,No,other iatrogenic hypothyroidism,hypothyroidism,comorbidities
+C043z,No,iatrogenic hypothyroidism nos,hypothyroidism,comorbidities
+C046.,No,autoimmune myxoedema,hypothyroidism,comorbidities
+C04y.,No,other acquired hypothyroidism,hypothyroidism,comorbidities
+C04z.,No,"hypothyroid goitre, acquired",hypothyroidism,comorbidities
+C04z.,No,hypothyroidism nos,hypothyroidism,comorbidities
+C04z.,No,pretibial myxoedema - hypothyroid,hypothyroidism,comorbidities
+C04z.,No,thyroid insufficiency,hypothyroidism,comorbidities
+C04z0,No,premature puberty due to hypothyroidism,hypothyroidism,comorbidities
+C04z1,No,myxoedema coma,hypothyroidism,comorbidities
+C05..,No,thyroiditis,thyroid disorder,comorbidities
+C052.,No,autoimmune thyroiditis,thyroid disorder,comorbidities
+C052.,No,chronic lymphocytic thyroiditis,thyroid disorder,comorbidities
+C052.,No,hashimoto's disease,hypothyroidism,comorbidities
+C053.,No,chronic fibrous thyroiditis,thyroid disorder,comorbidities
+C05y.,No,other and unspecified chronic thyroiditis,thyroid disorder,comorbidities
+C05y4,No,chronic thyroiditis with transient thyrotoxicosis,hyperthyroidism,comorbidities
+C05z.,No,thyroiditis nos,thyroid disorder,comorbidities
+C06y1,No,thyroid atrophy,hypothyroidism,comorbidities
+C1343,No,tsh - thyroid-stimulating hormone deficiency,hypothyroidism,comorbidities
+Cyu11,No,[x]other sp cified hypothyroidism,hypothyroidism,comorbidities
+Cyu13,No,[x]other thyrotoxicosis,hyperthyroidism,comorbidities
+Cyu14,No,[x]other chronic thyroiditis,thyroid disorder,comorbidities
+F11x5,No,cerebral degeneration due to myxoedema,hypothyroidism,comorbidities
+F3814,No,myasthenic syndrome due to hypothyroidism,hypothyroidism,comorbidities
+F3816,No,myasthenic syndrome due to thyrotoxicosis,hyperthyroidism,comorbidities
+F3953,No,myopathy due to myxoedema,hypothyroidism,comorbidities
+F3954,No,myopathy due to thyrotoxicosis,hyperthyroidism,comorbidities
+F4G20,No,thyrotoxic exophthalmos,hyperthyroidism,comorbidities
+FyuBD,No,[x]dysthyroid exophthalmos,hyperthyroidism,comorbidities
+G5575,No,thyrotoxic heart disease,hyperthyroidism,comorbidities
+XM1RC,No,h/o: thyroid disorder,thyroid disorder,comorbidities
+XaKcQ,No,hyperthyroidism resolved,hyperthyroidism,comorbidities
+XS29G,No,thyroid eye disease,hyperthyroidism,comorbidities
+XaOjl,No,hypothyroidism annual review,hypothyroidism,comorbidities
+XaJYj,No,hypothyroidism clinical management plan,hypothyroidism,comorbidities
+XaJuE,No,hypothyroidism monitoring administration,hypothyroidism,comorbidities
+XaJuM,No,hypothyroidism monitoring 1st letter,hypothyroidism,comorbidities
+XaJuN,No,hypothyroidism monitoring 2nd letter,hypothyroidism,comorbidities
+XaJuO,No,hypothyroidism monitoring 3rd letter,hypothyroidism,comorbidities
+XaKbz,No,hypothyroidism monitoring verbal invite,hypothyroidism,comorbidities
+XaMFm,No,hypothyroidism monitoring telephone invitation,hypothyroidism,comorbidities
+X40Gj,No,toxic goitre,hyperthyroidism,comorbidities
+XE104,No,thyrotoxicosis,hyperthyroidism,comorbidities
+XE105,No,toxic diffuse goitre,hyperthyroidism,comorbidities
+X40OO,No,thyroid-associated dermopathy,hyperthyroidism,comorbidities
+XE106,No,thyrotoxicosis of other specified origin,hyperthyroidism,comorbidities
+X40H3,No,thyroid crisis,hyperthyroidism,comorbidities
+X40IQ,No,hypothyroidism,hypothyroidism,comorbidities
+XE108,No,acquired hypothyroidism,hypothyroidism,comorbidities
+X40HD,No,"hypothyroid goitre, acquired",hypothyroidism,comorbidities
+XE10A,No,hypothyroidism nos,hypothyroidism,comorbidities
+X005I,No,myxoedema coma,hypothyroidism,comorbidities
+XE10C,No,autoimmune thyroiditis,thyroid disorder,comorbidities
+XE10D,No,chronic fibrous thyroiditis,thyroid disorder,comorbidities
+X40Hd,No,chronic thyroiditis with transient thyrotoxicosis,hyperthyroidism,comorbidities
+X40Dj,No,postpartum thyroiditis,thyroid disorder,comorbidities
+X40Ge,No,diffuse goitre,thyroid disorder,comorbidities
+X40Gf,No,colloid goitre,thyroid disorder,comorbidities
+X40Gk,No,thyrotoxicosis due to graves' disease,hyperthyroidism,comorbidities
+X40Gl,No,thyrotoxicosis due to hashimoto's thyroiditis,hyperthyroidism,comorbidities
+X40Gm,No,hashitoxicosis - transient,hyperthyroidism,comorbidities
+X40Gn,No,thyrotoxicosis due to acute thyroiditis,hyperthyroidism,comorbidities
+X40Go,No,toxic nodular goitre,thyroid disorder,comorbidities
+X40Gt,No,borderline thyrotoxicosis,hyperthyroidism,comorbidities
+X40Gv,No,apathetic thyrotoxicosis,hyperthyroidism,comorbidities
+X40Gw,No,thyrotoxicosis in pregnancy,hyperthyroidism,comorbidities
+X40Gx,No,hcg-induced thyrotoxicosis,hyperthyroidism,comorbidities
+X40Gy,No,factitia thyrotoxicosis,hyperthyroidism,comorbidities
+X40Gz,No,iatrogenic thyrotoxicosis,hyperthyroidism,comorbidities
+X40H0,No,thyrotoxicosis on thyroxine therapy,hyperthyroidism,comorbidities
+X40H1,No,iodine-induced thyrotoxicosis,hyperthyroidism,comorbidities
+X40H2,No,amiodarone-induced thyrotoxicosis,hyperthyroidism,comorbidities
+X40H4,No,thyrotoxicosis due to inappropriate tsh secretion,hyperthyroidism,comorbidities
+X40H5,No,thyrotoxicosis due to tshoma,hyperthyroidism,comorbidities
+X40H7,No,thyrotoxicosis due to struma ovarii,hyperthyroidism,comorbidities
+X40H8,No,congenital hypothyroidism without goitre,hypothyroidism,comorbidities
+X40Ha,No,struma lymphomatosis,hypothyroidism,comorbidities
+X40HA,No,congenital thyroid hypoplasia,hypothyroidism,comorbidities
+X40HB,No,congenital atrophy of thyroid,hypothyroidism,comorbidities
+X40Hc,No,chronic thyroiditis,thyroid disorder,comorbidities
+X40HC,No,congenital hypothyroidism with ectopic thyroid,hypothyroidism,comorbidities
+X40He,No,riedel's thyroiditis,thyroid disorder,comorbidities
+X40HE,No,autoimmune hypothyroidism,hypothyroidism,comorbidities
+X40Hf,No,drug-induced thyroiditis,thyroid disorder,comorbidities
+X40HF,No,hypothyroidism due to hashimoto's thyroiditis,hypothyroidism,comorbidities
+X40Hg,No,ligneous thyroiditis,thyroid disorder,comorbidities
+X40HG,No,hypothyroidism due to tsh receptor blocking antibody,hypothyroidism,comorbidities
+X40Hh,No,silent thyroiditis,thyroid disorder,comorbidities
+X40HH,No,borderline hypothyroidism,hypothyroidism,comorbidities
+X40HI,No,compensated hypothyroidism,hypothyroidism,comorbidities
+X40Hj,No,thyroid hormone binding abnormality,thyroid disorder,comorbidities
+X40Hk,No,thyroid-binding globulin deficiency,thyroid disorder,comorbidities
+X40HL,No,iatrogenic hypothyroidism,hypothyroidism,comorbidities
+X40Hm,No,thyroid-binding globulin high,thyroid disorder,comorbidities
+X40HM,No,postablative hypothyroidism,hypothyroidism,comorbidities
+X40Hn,No,familial dysalbuminaemic hyperthyroxinaemia,hyperthyroidism,comorbidities
+X40HN,No,radioactive iodine-induced hypothyroidism,hypothyroidism,comorbidities
+X40Ho,No,thyroid pre-albumin binding abnormality,thyroid disorder,comorbidities
+X40HO,No,drug-induced hypothyroidism,hypothyroidism,comorbidities
+X40Hp,No,dysprealbuminaemic euthyroidal hyperthyroxinaemia,hyperthyroidism,comorbidities
+X40HP,No,post-infectious hypothyroidism,hypothyroidism,comorbidities
+X40Hq,No,euthyroid hypothyroxinaemia,hypothyroidism,comorbidities
+X40Hr,No,euthyroid hyperthyroxinamia,hyperthyroidism,comorbidities
+X40HR,No,acute viral thyroiditis,thyroid disorder,comorbidities
+X40Hs,No,c-cell hyperplasia of thyroid,hyperthyroidism,comorbidities
+X40HS,No,de quervain's thyroiditis,thyroid disorder,comorbidities
+X40Ht,No,hypersecretion of thyrocalcitonin,hyperthyroidism,comorbidities
+X40HT,No,giant-cell thyroiditis,thyroid disorder,comorbidities
+X40Hu,No,familial dyshormonogenetic goitre,thyroid disorder,comorbidities
+X40HU,No,granulomatous thyroiditis,thyroid disorder,comorbidities
+X40Hv,No,hypothyroidism due to iodide trapping defect,hypothyroidism,comorbidities
+X40HV,No,non-suppurative subacute thyroiditis,thyroid disorder,comorbidities
+X40Hw,No,hypothyroidism due to iodide organification defect,hypothyroidism,comorbidities
+X40HW,No,hashimoto's thyroiditis,hypothyroidism,comorbidities
+X40Hx,No,hypothyroidism due to coupling defect,hypothyroidism,comorbidities
+X40Hy,No,hypothyroidism due to deiodase defect,hypothyroidism,comorbidities
+X40HY,No,lymphadenoid goitre,thyroid disorder,comorbidities
+X40Hz,No,hypothyroidism due to thyroglobulin synthesis defect,hypothyroidism,comorbidities
+X40HZ,No,lymphocytic thyroiditis - autoimmune,thyroid disorder,comorbidities
+X40I1,No,atrophy of thyroid - acquired,hypothyroidism,comorbidities
+X40I2,No,thyroid hormone resistance syndrome,thyroid disorder,comorbidities
+X40I5,No,iodine deficiency syndrome,hypothyroidism,comorbidities
+X40I6,No,congenital iodine deficiency syndrome,hypothyroidism,comorbidities
+X40I7,No,congenital iodine deficiency hypothyroidism,hypothyroidism,comorbidities
+X40I8,No,congenital iodine deficiency syndrome - myxoedematous type,hypothyroidism,comorbidities
+X40I9,No,congenital iodine deficiency syndrome - mixed type,hypothyroidism,comorbidities
+X40IA,No,congenital iodine deficiency syndrome - neurological type,hypothyroidism,comorbidities
+X40IB,No,subclinical iodine deficiency hypothyroidism,hypothyroidism,comorbidities
+X40IE,No,uninodular goitre,thyroid disorder,comorbidities
+X40IG,No,multinodular goitre,thyroid disorder,comorbidities
+X40II,No,iodine-deficiency-related multinodular endemic goitre,thyroid disorder,comorbidities
+X40IJ,No,retrosternal goitre,thyroid disorder,comorbidities
+X40LB,No,isolated tsh deficiency,hypothyroidism,comorbidities
+X40LC,No,idiopathic tsh deficiency,hypothyroidism,comorbidities
+X40OP,No,pretibial myxoedema,hypothyroidism,comorbidities
+X40OQ,No,thyroid acropachy,thyroid disorder,comorbidities
+X40RF,No,hyperparathyroid bone disease,hyperthyroidism,comorbidities
+X74WT,No,thyroid disease monitoring status,thyroid disorder,comorbidities
+X769C,No,hypothyroid facies,hypothyroidism,comorbidities
+X76FB,No,goitre,thyroid disorder,comorbidities
+XA06Z,No,thyroid gland haematoma,thyroid disorder,comorbidities
+Xa08f,No,neonatal goitre,thyroid disorder,comorbidities
+Xa08g,No,transient neonatal hypothyroidism,hypothyroidism,comorbidities
+Xa09v,No,transient neonatal hyperthyroidism,hyperthyroidism,comorbidities
+Xa09w,No,transient hypothyroxinaemia,hypothyroidism,comorbidities
+Xa09x,No,transient hypothyrotropinaemia,hypothyroidism,comorbidities
+Xa0l7,No,congenital hypothyroidism with diffuse goitre,hypothyroidism,comorbidities
+Xa3ea,No,"goitre, non-toxic nos",thyroid disorder,comorbidities
+Xa3eb,No,thyrotoxicosis with or without goitre,hyperthyroidism,comorbidities
+Xa3ec,No,hypothyroidism - congenital and acquired,hypothyroidism,comorbidities
+Xa3ed,No,acquired hypothyroidism nos,hypothyroidism,comorbidities
+Xa9Am,No,hypersecretion of calcitonin,hyperthyroidism,comorbidities
+XaBwg,No,thyroxine rx started,hypothyroidism,comorbidities
+XaC2x,No,thyroxine rx stopped,hypothyroidism,comorbidities
+Xac7N,No,congenital hypothyroidism screening related finding,hypothyroidism,comorbidities
+XacML,No,thyroid monitoring sms text message invitation,thyroid disorder,comorbidities
+XacMM,No,thyroid monitoring sms text message 1st invitation,thyroid disorder,comorbidities
+XacMN,No,thyroid monitoring sms text message 2nd invitation,thyroid disorder,comorbidities
+XacMO,No,thyroid monitoring sms text message 3rd invitation,thyroid disorder,comorbidities
+XaJ9F,No,subclinical hypothyroidism,hypothyroidism,comorbidities
+XaJDU,No,did not attend hyperthyroidism clinic,hyperthyroidism,comorbidities
+XaJuI,No,hypothyroidism monitoring invitation,hypothyroidism,comorbidities
+XaLOz,No,thyroid monitoring call,thyroid disorder,comorbidities
+XaLP0,No,thyroid monitoring call 1st letter,thyroid disorder,comorbidities
+XaLP1,No,thyroid monitoring call 2nd letter,thyroid disorder,comorbidities
+XaLP2,No,thyroid monitoring call 3rd letter,thyroid disorder,comorbidities
+XaLUg,No,hypothyroidism review,hypothyroidism,comorbidities
+XaQbN,No,dysthyroid exophthalmos,hyperthyroidism,comorbidities
+XaZtG,No,subclinical hyperthyroidism,hyperthyroidism,comorbidities
+XC0fX,No,thyroid dysfunction,thyroid disorder,comorbidities
+XE100,No,disorder of thyroid gland,thyroid disorder,comorbidities
+XE101,No,simple goitre,thyroid disorder,comorbidities
+XE102,No,goitre nos,thyroid disorder,comorbidities
+XE103,No,non-toxic nodular goitre nos,thyroid disorder,comorbidities
+XE107,No,congenital hypothyroidism nos,hypothyroidism,comorbidities
+XE109,No,post-surgical hypothyroidism,hypothyroidism,comorbidities
+XE10B,No,subacute thyroiditis,thyroid disorder,comorbidities
+XE122,No,thyrotoxicosis: [+/- goitr][tox goitr][graves dis][thyr nod],hyperthyroidism,comorbidities
+XE124,No,hypothyroidism - congen and acquir (& [cretinism][myxoedem]),hypothyroidism,comorbidities
+XE126,No,chronic thyroiditis (& [hashimoto's disease]),hypothyroidism,comorbidities
+XE12c,No,"(pit,parathy,thym nos)(forbe-albr)(pit hypof [& nos])(sheeh)",hypothyroidism,comorbidities
+XE12W,No,(hypoparathyroidsm) or (pseud-hypoparathyroidsm) or (tetany),hypothyroidism,comorbidities
+XE1T4,No,thyroid disease treatment started,thyroid disorder,comorbidities
+XE1T5,No,thyroid disease treatment stopped,thyroid disorder,comorbidities
+XM0Ap,No,iodine-deficiency-related endemic goitre,thyroid disorder,comorbidities
+XM0tJ,No,thyroid disease in pregnancy,thyroid disorder,comorbidities
+Y1291,No,hypothyroidism review,hypothyroidism,comorbidities
+Y1575,No,thyroid monitoring 1st letter,thyroid disorder,comorbidities
+Y1576,No,thyroid monitoring 2nd letter,thyroid disorder,comorbidities
+Y1577,No,thyroid monitoring 3rd letter,thyroid disorder,comorbidities
+Y1578,No,thyroid monitoring offer default,thyroid disorder,comorbidities
+Y2707,No,hypothyroidism positive,hypothyroidism,comorbidities
+Y3828,No,congenital hypothyroidism test positive,hypothyroidism,comorbidities
+YA561,No,congenital hypothyroidism screening positive,hypothyroidism,comorbidities
