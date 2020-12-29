@@ -23,6 +23,9 @@ cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'HYP', # hypertension
                    'COPD', # copd
                    'CHD', # coronary heart disease
+                   'AFIB', # atrial fibrillation
+                   'HF', # heart failure
+                   'HFLVSD', # LVSD
                    'DM') # diabetes
 cluster_names <- str_c(cluster_names, '_COD')
 

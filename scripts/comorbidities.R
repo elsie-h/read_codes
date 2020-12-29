@@ -18,6 +18,7 @@ source('setup.R')
 comorbs <- c('anxiety',
              'copd',
              'depression',
+             'diabetes',
              'GORD',
              'nasal_polyp',
              'osteoporosis',
@@ -33,6 +34,57 @@ comorbs_data <- bind_rows(lapply(comorbs,
                                           version = 2))) 
 
 
+
+################################################################################
+#### Cardiovascular disease ####
+
+# CVD
+cvd_rms <- read_delim(file = "/Users/elsiehorne/Docs/read_codes/lists_in/RMS/cl_cardiovascular_disease_dx_rms.txt",
+           delim = '|')
+
+# Ischaemic heart disease
+
+ihd_rms <- read_delim(file = "/Users/elsiehorne/Docs/read_codes/lists_in/RMS/cl_ihd_dx_rms.txt",
+                      delim = '|')
+
+# Heart failure
+
+hf_rms <- read_delim(file = "/Users/elsiehorne/Docs/read_codes/lists_in/RMS/cl_heart_failure_dx_rms.txt",
+                      delim = '|')
+
+# Coronary Heart Disease 
+CVD_qof <- read_csv('lists_in/QOF/QOF_codes.csv')  %>%
+  filter_at(vars(ends_with('id')), any_vars(. %in% c('CHD_COD', 'AFIB_COD', 'HF_COD', 'HFLVSD_COD'))) 
+
+# CVD_qof %>%
+#   select(contains('_v2_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # all v2 the same
+# CVD_qof %>%
+#   select(contains('_v3_')) %>%
+#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
+#   print(n=nrow(.))
+# # one absent from v36 so use later version
+
+CVD_qof <- CVD_qof %>%
+  mutate(read_term_qof = case_when(!is.na(v38_v2_term) ~ v38_v2_term,
+                                   !is.na(v38_v3_term) ~ v38_v3_term,
+                                   TRUE ~ NA_character_)) %>%
+  distinct(read_code, read_term_qof) %>%
+  mutate(QOF = 'Yes')
+
+CVD <- cvd_rms %>% 
+  rename(cvd = read_term) %>% 
+  full_join(ihd_rms %>% rename(ihd = read_term), by = 'read_code') %>% 
+  full_join(hf_rms %>% rename(hf = read_term), by = 'read_code') %>%
+  full_join(CVD_qof, by = 'read_code') %>%
+  mutate(read_term = case_when(!is.na(cvd) ~ cvd,
+                               !is.na(ihd) ~ ihd,
+                               !is.na(hf) ~ hf,
+                               !is.na(read_term_qof) ~ read_term_qof,
+                               TRUE ~ NA_character_)) %>%
+  select(read_code, read_term, QOF) 
 
 ################################################################################
 #### Thyroid ####
@@ -91,12 +143,12 @@ remove_term_list <- tmp[[1]] %>%
   select(read_code, read_term) 
 
 # do these correspond to any V3 codes?
-tmp[[1]] %>%
-  anti_join(select(remove_term_list, read_code)) %>%
-  right_join(select(remove_term_list, read_term)) %>%
-  print(n = nrow(.))
-#  nope
-# so just remove the version 2 ones
+# tmp[[1]] %>%
+#   anti_join(select(remove_term_list, read_code)) %>%
+#   right_join(select(remove_term_list, read_term)) %>%
+#   print(n = nrow(.))
+# #  nope
+# # so just remove the version 2 ones
 
 thyroid <- tmp_joined %>%
   anti_join(select(remove_term_list, read_code), 
@@ -150,34 +202,39 @@ diabetes_qof <- diabetes_qof %>%
   distinct(read_code, read_term_qof) %>%
   mutate(QOF = 'Yes')
 
+diabetes_rms <- read_delim(file = "/Users/elsiehorne/Docs/read_codes/lists_in/RMS/cl_diabetes_non_specific_dx_rms.txt",
+                      delim = '|') %>%
+  rename(read_term_rms = read_term)
+
+diabetes_cprd <- comorbs_data %>%
+  filter(cat2 %in% 'diabetes') %>%
+  select(read_code, read_term_cprd = read_term)
+
+diabetes_os <- read_csv("lists_in/OpenSafely/opensafely-diabetes-2020-04-15.csv") %>%
+  filter(CTV3Source %in% c('CTV3Map_Code_And_Term',
+                           'QOF',
+                           'CTV3Map_Code_Only',
+                           'CTV3_Children')) %>%
+  select(read_code = CTV3ID, read_term_os = CTV3PreferredTermDesc)
+
 diabetes <- diabetes_qof %>%
-  rename(read_term = read_term_qof)
+  rename(read_term = read_term_qof) %>%
+  bind_rows(diabetes_os, diabetes_cprd, diabetes_rms) %>%
+  arrange(read_code, QOF) %>%
+  # if duplicate, will keep the QOF=Yes as NA goes last
+  distinct(read_code, .keep_all = TRUE) %>%
+  filter(!str_detect(read_term, regex('resolve', ignore_case = TRUE)))
 
-################################################################################
-#### Coronary Heart Disease ####
-CHD_qof <- read_csv('lists_in/QOF/QOF_codes.csv')  %>%
-  filter_at(vars(ends_with('id')), any_vars(. %in% 'CHD_COD')) 
-
-# CHD_qof %>%
-#   select(contains('_v2_')) %>%
-#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
-#   print(n=nrow(.))
-# # all v2 the same
-# CHD_qof %>%
-#   select(contains('_v3_')) %>%
-#   filter_at(vars(ends_with('term')), any_vars(!is.na(.))) %>%
-#   print(n=nrow(.))
-# # all v3 the same
-
-CHD_qof <- CHD_qof %>%
-  mutate(read_term_qof = case_when(!is.na(v38_v2_term) ~ v38_v2_term,
-                                   !is.na(v38_v3_term) ~ v38_v3_term,
-                                   TRUE ~ NA_character_)) %>%
-  distinct(read_code, read_term_qof) %>%
-  mutate(QOF = 'Yes')
-
-CHD <- CHD_qof %>%
-  rename(read_term = read_term_qof)
+diabetes <- diabetes_qof %>% 
+  full_join(diabetes_cprd, by = 'read_code') %>%
+  full_join(diabetes_rms, by = 'read_code') %>%
+  full_join(diabetes_os, by = 'read_code') %>%
+  mutate(read_term = case_when(!is.na(read_term_qof) ~ read_term_qof,
+                               !is.na(read_term_cprd) ~ read_term_cprd,
+                               !is.na(read_term_os) ~ read_term_os,
+                               !is.na(read_term_rms) ~ read_term_rms,
+                               TRUE ~ NA_character_)) %>%
+  select(read_code, read_term)
 
 ################################################################################
 #### Hypertension ####
@@ -330,6 +387,10 @@ copd <- copd_cprd %>%
 
 ################################################################################
 #### GORD ####
+gord_rms <- read_delim(file = "/Users/elsiehorne/Docs/read_codes/lists_in/RMS/cl_gerd_dx_rms.txt",
+                           delim = '|') %>%
+  rename(read_term_rms = read_term)
+
 gord_cprd <- comorbs_data %>%
   filter(cat2 %in% 'GORD') %>%
   select(read_code, read_term_cprd = read_term)
@@ -338,14 +399,13 @@ gord_os <- read_csv("lists_in/OpenSafely/elsie-horne-gord-2020-11-17T09-13-38.cs
   select(read_code = id, read_term_os = term) 
 
 gord <- gord_cprd %>% 
+  full_join(gord_rms, by = 'read_code') %>%
   full_join(gord_os, by = 'read_code') %>%
   mutate(read_term = case_when(!is.na(read_term_cprd) ~ read_term_cprd,
                                !is.na(read_term_os) ~ read_term_os,
+                               !is.na(read_term_rms) ~ read_term_rms,
                                TRUE ~ NA_character_)) %>%
   select(read_code, read_term) %>%
-  # add these version 2 read codes as they're included in the version 3 hierarchy
-  add_row(read_code = 'J10y6', read_term = 'Barrett\'s oesophagus') %>%
-  add_row(read_code = 'J1025', read_term = 'Barrett\'s ulcer of oesophagus') %>%
   mutate(QOF = 'No')
 
 ################################################################################
@@ -406,16 +466,17 @@ osteoporosis <- osteoporosis_cprd %>%
   select(read_code, read_term, QOF)
 
 
-comorbidities_all <- bind_rows(depression %>% mutate(cat2 = 'Depression'),
-                               anxiety %>% mutate(cat2 = 'Anxiety'),
-                               CHD %>% mutate(cat2 = 'CHD'),
-                               copd %>% mutate(cat2 = 'COPD'),
-                               diabetes %>% mutate(cat2 = 'Diabetes'),
-                               gord %>% mutate(cat2 = 'GORD'),
-                               hypertension %>% mutate(cat2 = 'Hypertension'),
-                               nasal_polyp %>% mutate(cat2 = 'Nasal polyps'),
-                               osteoporosis %>% mutate(cat2 = 'Osteoporosis'),
-                               thyroid_final) %>%
+comorbidities_all <- bind_rows(
+  depression %>% mutate(cat2 = 'Depression'),
+  anxiety %>% mutate(cat2 = 'Anxiety'),
+  copd %>% mutate(cat2 = 'COPD'),
+  diabetes %>% mutate(cat2 = 'Diabetes'),
+  gord %>% mutate(cat2 = 'GORD'),
+  # hypertension %>% mutate(cat2 = 'Hypertension'),
+  nasal_polyp %>% mutate(cat2 = 'Nasal polyps'),
+  # osteoporosis %>% mutate(cat2 = 'Osteoporosis'),
+  # thyroid_final,
+  CVD %>% mutate(cat2 = 'Cardiovascular disease')) %>%
   mutate(cat1 = 'comorbidities') %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', .)))
 

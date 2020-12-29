@@ -1,4 +1,23 @@
 read_code,v36_v2_id,v36_v2_term,v36_v2,v36_v3_id,v36_v3_term,v36_v3,v37_v2_id,v37_v2_term,v37_v2,v37_v3_id,v37_v3_term,v37_v3,v38_v2_id,v38_v2_term,v38_v2,v38_v3_id,v38_v3_term,v38_v3
+G573.,AFIB_COD,Atrial fibrillation and flutter,1,AFIB_COD,Atrial fibrillation and flutter,1,AFIB_COD,Atrial fibrillation and flutter,1,AFIB_COD,Atrial fibrillation and flutter,1,AFIB_COD,Atrial fibrillation and flutter,1,AFIB_COD,Atrial fibrillation and flutter,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5730,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1,AFIB_COD,Atrial fibrillation,1
+G5731,AFIB_COD,Atrial flutter,1,AFIB_COD,Atrial flutter,1,AFIB_COD,Atrial flutter,1,AFIB_COD,Atrial flutter,1,AFIB_COD,Atrial flutter,1,AFIB_COD,Atrial flutter,1
+G5732,AFIB_COD,Paroxysmal atrial fibrillation,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial fibrillation,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial fibrillation,1,NA,NA,NA
+G5733,AFIB_COD,Non-rheumatic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Non-rheumatic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Non-rheumatic atrial fibrillation,1,NA,NA,NA
+G5734,AFIB_COD,Permanent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Permanent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Permanent atrial fibrillation,1,NA,NA,NA
+G5735,AFIB_COD,Persistent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Persistent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Persistent atrial fibrillation,1,NA,NA,NA
+G5736,AFIB_COD,Paroxysmal atrial flutter,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial flutter,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial flutter,1,NA,NA,NA
+G5737,AFIB_COD,Chronic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Chronic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Chronic atrial fibrillation,1,NA,NA,NA
+G5738,AFIB_COD,Typical atrial flutter,1,NA,NA,NA,AFIB_COD,Typical atrial flutter,1,NA,NA,NA,AFIB_COD,Typical atrial flutter,1,NA,NA,NA
+G5739,AFIB_COD,Atypical atrial flutter,1,NA,NA,NA,AFIB_COD,Atypical atrial flutter,1,NA,NA,NA,AFIB_COD,Atypical atrial flutter,1,NA,NA,NA
+G573z,AFIB_COD,Atrial fibrillation and flutter NOS,1,AFIB_COD,Atrial fibrillation and flutter NOS,1,AFIB_COD,Atrial fibrillation and flutter NOS,1,AFIB_COD,Atrial fibrillation and flutter NOS,1,AFIB_COD,Atrial fibrillation and flutter NOS,1,AFIB_COD,Atrial fibrillation and flutter NOS,1
 173A.,AST_COD,Exercise induced asthma,1,AST_COD,Exercise-induced asthma,1,AST_COD,Exercise induced asthma,1,AST_COD,Exercise-induced asthma,1,AST_COD,Exercise induced asthma,1,AST_COD,Exercise-induced asthma,1
 H3120,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1
 H3120,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,AST_COD,Chronic asthmatic bronchitis,1,COPD_COD,Chronic asthmatic bronchitis,1
@@ -1149,6 +1168,26 @@ n47q.,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 15mcg/strain pfs 0.1mL,1,FLU_C
 n47v.,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL,1,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL,1,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL,1,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL,1,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL,1,FLU_COD,INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL,1
 n47y.,FLU_COD,INACTIVATED INFLUENZA VACCINE (SPLIT VIRION) prefilled syringe 0.25mL,1,FLU_COD,Inactivated Influenza vaccine (split virion) prefilled syringe 0.25mL,1,FLU_COD,INACTIVATED INFLUENZA VACCINE (SPLIT VIRION) prefilled syringe 0.25mL,1,FLU_COD,Inactivated Influenza vaccine (split virion) prefilled syringe 0.25mL,1,FLU_COD,INACTIVATED INFLUENZA VACCINE (SPLIT VIRION) prefilled syringe 0.25mL,1,FLU_COD,Inactivated Influenza vaccine (split virion) prefilled syringe 0.25mL,1
 n47z.,FLU_COD,INACTIVATED INFLUENZA VACCINE (SURFACE ANTIGEN VIROSOME) prefilled syringe 0.5mL,1,FLU_COD,Inactivated Influenza vaccine (surface antigen virosome) prefilled syringe 0.5mL,1,FLU_COD,INACTIVATED INFLUENZA VACCINE (SURFACE ANTIGEN VIROSOME) prefilled syringe 0.5mL,1,FLU_COD,Inactivated Influenza vaccine (surface antigen virosome) prefilled syringe 0.5mL,1,FLU_COD,INACTIVATED INFLUENZA VACCINE (SURFACE ANTIGEN VIROSOME) prefilled syringe 0.5mL,1,FLU_COD,Inactivated Influenza vaccine (surface antigen virosome) prefilled syringe 0.5mL,1
+662f.,HF_COD,New York Heart Association classification - class I,1,NA,NA,NA,HF_COD,New York Heart Association classification - class I,1,NA,NA,NA,HF_COD,New York Heart Association classification - class I,1,NA,NA,NA
+662g.,HF_COD,New York Heart Association classification - class II,1,NA,NA,NA,HF_COD,New York Heart Association classification - class II,1,NA,NA,NA,HF_COD,New York Heart Association classification - class II,1,NA,NA,NA
+662h.,HF_COD,New York Heart Association classification - class III,1,NA,NA,NA,HF_COD,New York Heart Association classification - class III,1,NA,NA,NA,HF_COD,New York Heart Association classification - class III,1,NA,NA,NA
+662i.,HF_COD,New York Heart Association classification - class IV,1,NA,NA,NA,HF_COD,New York Heart Association classification - class IV,1,NA,NA,NA,HF_COD,New York Heart Association classification - class IV,1,NA,NA,NA
+G1yz1,HF_COD,Rheumatic left ventricular failure,1,HF_COD,Rheumatic left ventricular failure,1,HF_COD,Rheumatic left ventricular failure,1,HF_COD,Rheumatic left ventricular failure,1,HF_COD,Rheumatic left ventricular failure,1,HF_COD,Rheumatic left ventricular failure,1
+G58..,HF_COD,Heart failure,1,HF_COD,Heart failure,1,HF_COD,Heart failure,1,HF_COD,Heart failure,1,HF_COD,Heart failure,1,HF_COD,Heart failure,1
+G580.,HF_COD,Congestive heart failure,1,HF_COD,Heart failure: [right] or [congestive],1,HF_COD,Congestive heart failure,1,HF_COD,Heart failure: [right] or [congestive],1,HF_COD,Congestive heart failure,1,HF_COD,Heart failure: [right] or [congestive],1
+G5800,HF_COD,Acute congestive heart failure,1,HF_COD,Acute congestive heart failure,1,HF_COD,Acute congestive heart failure,1,HF_COD,Acute congestive heart failure,1,HF_COD,Acute congestive heart failure,1,HF_COD,Acute congestive heart failure,1
+G5801,HF_COD,Chronic congestive heart failure,1,HF_COD,Chronic congestive heart failure,1,HF_COD,Chronic congestive heart failure,1,HF_COD,Chronic congestive heart failure,1,HF_COD,Chronic congestive heart failure,1,HF_COD,Chronic congestive heart failure,1
+G5802,HF_COD,Decompensated cardiac failure,1,HF_COD,Decompensated cardiac failure,1,HF_COD,Decompensated cardiac failure,1,HF_COD,Decompensated cardiac failure,1,HF_COD,Decompensated cardiac failure,1,HF_COD,Decompensated cardiac failure,1
+G5803,HF_COD,Compensated cardiac failure,1,HF_COD,Compensated cardiac failure,1,HF_COD,Compensated cardiac failure,1,HF_COD,Compensated cardiac failure,1,HF_COD,Compensated cardiac failure,1,HF_COD,Compensated cardiac failure,1
+G5804,HF_COD,Congestive heart failure due to valvular disease,1,NA,NA,NA,HF_COD,Congestive heart failure due to valvular disease,1,NA,NA,NA,HF_COD,Congestive heart failure due to valvular disease,1,NA,NA,NA
+G581.,HF_COD,Left ventricular failure,1,NA,NA,NA,HF_COD,Left ventricular failure,1,NA,NA,NA,HF_COD,Left ventricular failure,1,NA,NA,NA
+G5810,HF_COD,Acute left ventricular failure,1,HF_COD,Acute left ventricular failure,1,HF_COD,Acute left ventricular failure,1,HF_COD,Acute left ventricular failure,1,HF_COD,Acute left ventricular failure,1,HF_COD,Acute left ventricular failure,1
+G582.,HF_COD,Acute heart failure,1,HF_COD,Acute heart failure,1,HF_COD,Acute heart failure,1,HF_COD,Acute heart failure,1,HF_COD,Acute heart failure,1,HF_COD,Acute heart failure,1
+G583.,HF_COD,Heart failure with normal ejection fraction,1,NA,NA,NA,HF_COD,Heart failure with normal ejection fraction,1,NA,NA,NA,HF_COD,Heart failure with normal ejection fraction,1,NA,NA,NA
+G584.,HF_COD,Right ventricular failure,1,NA,NA,NA,HF_COD,Right ventricular failure,1,NA,NA,NA,HF_COD,Right ventricular failure,1,NA,NA,NA
+G58z.,HF_COD,Heart failure NOS,1,NA,NA,NA,HF_COD,Heart failure NOS,1,NA,NA,NA,HF_COD,Heart failure NOS,1,NA,NA,NA
+585f.,HFLVSD_COD,Echocardiogram shows left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Echocardiogram shows left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Echocardiogram shows left ventricular systolic dysfunction,1,NA,NA,NA
+G5yy9,HFLVSD_COD,Left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Left ventricular systolic dysfunction,1,NA,NA,NA
 G2...,HYP_COD,Hypertensive disease,1,HYP_COD,Hypertensive disease,1,HYP_COD,Hypertensive disease,1,HYP_COD,Hypertensive disease,1,HYP_COD,Hypertensive disease,1,HYP_COD,Hypertensive disease,1
 G20..,HYP_COD,Essential hypertension,1,NA,NA,NA,HYP_COD,Essential hypertension,1,NA,NA,NA,HYP_COD,Essential hypertension,1,NA,NA,NA
 G200.,HYP_COD,Malignant essential hypertension,1,HYP_COD,Malignant essential hypertension,1,HYP_COD,Malignant essential hypertension,1,HYP_COD,Malignant essential hypertension,1,HYP_COD,Malignant essential hypertension,1,HYP_COD,Malignant essential hypertension,1
@@ -1298,6 +1337,17 @@ NyuB8,OSTEO_COD,[X]Unspecified osteoporosis with pathological fracture,1,OSTEO_C
 8I2j.,SPEX_COD,Spirometry contraindicated,1,NA,NA,NA,SPEX_COD,Spirometry contraindicated,1,NA,NA,NA,SPEX_COD,Spirometry contraindicated,1,NA,NA,NA
 8I3b.,SPEX_COD,Spirometry test declined,1,NA,NA,NA,SPEX_COD,Spirometry test declined,1,NA,NA,NA,SPEX_COD,Spirometry test declined,1,NA,NA,NA
 8I6L.,SPEX_COD,Spirometry not indicated,1,NA,NA,NA,SPEX_COD,Spirometry not indicated,1,NA,NA,NA,SPEX_COD,Spirometry not indicated,1,NA,NA,NA
+X202R,NA,NA,NA,AFIB_COD,Lone atrial fibrillation,1,NA,NA,NA,AFIB_COD,Lone atrial fibrillation,1,NA,NA,NA,AFIB_COD,Lone atrial fibrillation,1
+X202S,NA,NA,NA,AFIB_COD,Non-rheumatic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Non-rheumatic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Non-rheumatic atrial fibrillation,1
+Xa2E8,NA,NA,NA,AFIB_COD,Paroxysmal atrial fibrillation,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial fibrillation,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial fibrillation,1
+Xa7nI,NA,NA,NA,AFIB_COD,Controlled atrial fibrillation,1,NA,NA,NA,AFIB_COD,Controlled atrial fibrillation,1,NA,NA,NA,AFIB_COD,Controlled atrial fibrillation,1
+XaaUH,NA,NA,NA,AFIB_COD,Paroxysmal atrial flutter,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial flutter,1,NA,NA,NA,AFIB_COD,Paroxysmal atrial flutter,1
+XaEga,NA,NA,NA,AFIB_COD,Rapid atrial fibrillation,1,NA,NA,NA,AFIB_COD,Rapid atrial fibrillation,1,NA,NA,NA,AFIB_COD,Rapid atrial fibrillation,1
+XaeUP,NA,NA,NA,AFIB_COD,Chronic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Chronic atrial fibrillation,1,NA,NA,NA,AFIB_COD,Chronic atrial fibrillation,1
+XaeUQ,NA,NA,NA,AFIB_COD,Typical atrial flutter,1,NA,NA,NA,AFIB_COD,Typical atrial flutter,1,NA,NA,NA,AFIB_COD,Typical atrial flutter,1
+XaeUR,NA,NA,NA,AFIB_COD,Atypical atrial flutter,1,NA,NA,NA,AFIB_COD,Atypical atrial flutter,1,NA,NA,NA,AFIB_COD,Atypical atrial flutter,1
+XaOfa,NA,NA,NA,AFIB_COD,Persistent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Persistent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Persistent atrial fibrillation,1
+XaOft,NA,NA,NA,AFIB_COD,Permanent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Permanent atrial fibrillation,1,NA,NA,NA,AFIB_COD,Permanent atrial fibrillation,1
 Ua1AX,NA,NA,NA,AST_COD,Brittle asthma,1,NA,NA,NA,AST_COD,Brittle asthma,1,NA,NA,NA,AST_COD,Brittle asthma,1
 X101t,NA,NA,NA,AST_COD,Childhood asthma,1,NA,NA,NA,AST_COD,Childhood asthma,1,NA,NA,NA,AST_COD,Childhood asthma,1
 X101u,NA,NA,NA,AST_COD,Late onset asthma,1,NA,NA,NA,AST_COD,Late onset asthma,1,NA,NA,NA,AST_COD,Late onset asthma,1
@@ -1761,6 +1811,21 @@ Xaeew,NA,NA,NA,FLU_COD,Second inactivated seasonal influenza vaccination given b
 XaZ0d,NA,NA,NA,FLU_COD,Seasonal influenza vaccination,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination,1
 XaZ0e,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by other healthcare provider,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by other healthcare provider,1
 XaZfY,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by pharmacist,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by pharmacist,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by pharmacist,1
+X202k,NA,NA,NA,HF_COD,Heart failure as a complication of care,1,NA,NA,NA,HF_COD,Heart failure as a complication of care,1,NA,NA,NA,HF_COD,Heart failure as a complication of care,1
+X202l,NA,NA,NA,HF_COD,Right ventricular failure,1,NA,NA,NA,HF_COD,Right ventricular failure,1,NA,NA,NA,HF_COD,Right ventricular failure,1
+XaEgY,NA,NA,NA,HF_COD,Refractory heart failure,1,NA,NA,NA,HF_COD,Refractory heart failure,1,NA,NA,NA,HF_COD,Refractory heart failure,1
+XaJ9G,NA,NA,NA,HF_COD,New York Heart Association classification - class I,1,NA,NA,NA,HF_COD,New York Heart Association classification - class I,1,NA,NA,NA,HF_COD,New York Heart Association classification - class I,1
+XaJ9H,NA,NA,NA,HF_COD,New York Heart Association classification - class II,1,NA,NA,NA,HF_COD,New York Heart Association classification - class II,1,NA,NA,NA,HF_COD,New York Heart Association classification - class II,1
+XaJ9I,NA,NA,NA,HF_COD,New York Heart Association classification - class III,1,NA,NA,NA,HF_COD,New York Heart Association classification - class III,1,NA,NA,NA,HF_COD,New York Heart Association classification - class III,1
+XaJ9J,NA,NA,NA,HF_COD,New York Heart Association classification - class IV,1,NA,NA,NA,HF_COD,New York Heart Association classification - class IV,1,NA,NA,NA,HF_COD,New York Heart Association classification - class IV,1
+XaO5n,NA,NA,NA,HF_COD,Congestive heart failure due to valvular disease,1,NA,NA,NA,HF_COD,Congestive heart failure due to valvular disease,1,NA,NA,NA,HF_COD,Congestive heart failure due to valvular disease,1
+XaWyi,NA,NA,NA,HF_COD,Heart failure with normal ejection fraction,1,NA,NA,NA,HF_COD,Heart failure with normal ejection fraction,1,NA,NA,NA,HF_COD,Heart failure with normal ejection fraction,1
+XE0V8,NA,NA,NA,HF_COD,Biventricular failure,1,NA,NA,NA,HF_COD,Biventricular failure,1,NA,NA,NA,HF_COD,Biventricular failure,1
+XE0V9,NA,NA,NA,HF_COD,Heart failure NOS,1,NA,NA,NA,HF_COD,Heart failure NOS,1,NA,NA,NA,HF_COD,Heart failure NOS,1
+XE0Wo,NA,NA,NA,HF_COD,(Congestive cardiac failure) or (dropsy) or (cardiac insufficiency) or (right heart failure) or (right ventricular failure),1,NA,NA,NA,HF_COD,(Congestive cardiac failure) or (dropsy) or (cardiac insufficiency) or (right heart failure) or (right ventricular failure),1,NA,NA,NA,HF_COD,(Congestive cardiac failure) or (dropsy) or (cardiac insufficiency) or (right heart failure) or (right ventricular failure),1
+XE2QG,NA,NA,NA,HF_COD,Left ventricular failure,1,NA,NA,NA,HF_COD,Left ventricular failure,1,NA,NA,NA,HF_COD,Left ventricular failure,1
+XaIIq,NA,NA,NA,HFLVSD_COD,Left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Left ventricular systolic dysfunction,1
+XaJ98,NA,NA,NA,HFLVSD_COD,Echocardiogram shows left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Echocardiogram shows left ventricular systolic dysfunction,1,NA,NA,NA,HFLVSD_COD,Echocardiogram shows left ventricular systolic dysfunction,1
 Xa0Cs,NA,NA,NA,HYP_COD,Labile hypertension,1,NA,NA,NA,HYP_COD,Labile hypertension,1,NA,NA,NA,HYP_COD,Labile hypertension,1
 Xa3fQ,NA,NA,NA,HYP_COD,Malignant hypertension,1,NA,NA,NA,HYP_COD,Malignant hypertension,1,NA,NA,NA,HYP_COD,Malignant hypertension,1
 Xab9L,NA,NA,NA,HYP_COD,Stage 1 hypertension (NICE 2011) without evidence of end organ damage,1,NA,NA,NA,HYP_COD,Stage 1 hypertension (NICE 2011) without evidence of end organ damage,1,NA,NA,NA,HYP_COD,Stage 1 hypertension (NICE 2011) without evidence of end organ damage,1
@@ -1863,6 +1928,7 @@ c1D9.,NA,NA,NA,NA,NA,NA,NA,NA,NA,ASTTRT_COD,AIRFLUSAL FORSPIRO 50micrograms/500m
 XafhP,NA,NA,NA,NA,NA,NA,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by midwife,1,NA,NA,NA,FLU_COD,Seasonal influenza vaccination given by midwife,1
 XafhQ,NA,NA,NA,NA,NA,NA,NA,NA,NA,FLU_COD,First inactivated seasonal influenza vaccination given by midwife,1,NA,NA,NA,FLU_COD,First inactivated seasonal influenza vaccination given by midwife,1
 XafhR,NA,NA,NA,NA,NA,NA,NA,NA,NA,FLU_COD,Second inactivated seasonal influenza vaccination given by midwife,1,NA,NA,NA,FLU_COD,Second inactivated seasonal influenza vaccination given by midwife,1
+XafeB,NA,NA,NA,NA,NA,NA,NA,NA,NA,HF_COD,Heart failure with reduced ejection fraction,1,NA,NA,NA,HF_COD,Heart failure with reduced ejection fraction,1
 XagU1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DEPR_COD,"Recurrent reactive depressive episodes, severe, with psychosis",1
 XagUK,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DEPR_COD,Prolonged single episode of reactive depression,1
 XagO3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SMOK_COD,Occasional tobacco smoker,1
