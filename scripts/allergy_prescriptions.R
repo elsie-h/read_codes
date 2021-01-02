@@ -9,48 +9,58 @@ nasal_allergy_drugs_v2 <- read_delim("lists_in/Elsie/nasal_allergy_drugs_v2",
                                      trim_ws = TRUE, col_names = FALSE) %>%
   select(read_code = X1, read_term = X3)
 
-# all starting c8...
-antihistamines_v2 <- read_delim("lists_in/Elsie/antihistamines_v2", 
+# subset of those starting k6...
+eye_allergy_drugs_v2 <- read_delim("lists_in/Elsie/eye_allergy_drugs_v2", 
                                      "\t", escape_double = FALSE,
                                      trim_ws = TRUE, col_names = FALSE) %>%
   select(read_code = X1, read_term = X3)
 
-all_v2 <- nasal_allergy_drugs_v2 %>%
-  bind_rows(antihistamines_v2) %>%
-  distinct()
+# all starting c8...
+oral_antihistamines_v2 <- read_delim("lists_in/Elsie/oral_antihistamines_v2", 
+                                     "\t", escape_double = FALSE,
+                                     trim_ws = TRUE, col_names = FALSE) %>%
+  select(read_code = X1, read_term = X3)
+
+# all starting m34..
+topical_antihistamines_v2 <- read_delim("lists_in/Elsie/topical_antihistamines_v2", 
+                                "\t", escape_double = FALSE,
+                                trim_ws = TRUE, col_names = FALSE) %>%
+  select(read_code = X1, read_term = X3)
 
 # better to be over-inclusive at this stage
 # can talk to clinician/consult the BNF and trim down based on read term
 # from googling, I don't think treatments in the hyposensitisation category are prescribed any more
 
 # these lists are over-inclusive and need to be trimmed down
-antihistamines_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-antihistamine-667f1587.csv") %>% 
+antihistamines_v3 <-  read_csv("lists_in/Elsie/elsie-horne-antihistamine-667f1587.csv") %>% 
   rename_all(list(~ str_c('read_', .)))
-allergy_drugs_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-allergy-drug-4d6fa252.csv") %>% 
+allergy_drugs_v3 <-  read_csv("lists_in/Elsie/elsie-horne-allergy-drug-4d6fa252.csv") %>% 
   rename_all(list(~ str_c('read_', .)))
 
 antihistamines_bnf <- read_csv("lists_in/OpenSafely/opensafely-antihistamines-oral-2020-10-22.csv")
 
-# check for read codes in v3 antihistamine list starting with x0 and with the 
-# first word of description matching one starting c8 from the v2 list
-antihistamine_check <- antihistamines_v3 %>%
+# label read codes in antihistamines_v3 starting with x0 as:
+# antihistamine (non-nasal), nasal allergy drug, other
+v3_codes <- antihistamines_v3 %>%
   bind_rows(allergy_drugs_v3 %>%
               # get rid of allergy kits, maintenence sets, treatment sets and vaccines
               filter(!(str_detect(read_term, '\\skit|\\svaccine|treatment\\sset|maintenance\\sset')))) %>%
   filter(str_detect(read_code, '^x0')) %>% 
-  mutate(read_term_full = read_term) %>%
-  mutate(antihistamine = str_detect(read_term, regex('antihistamine', ignore_case = TRUE))) %>%
-  mutate_at('read_term', list(~ str_remove_all(., '\\s\\S+'))) %>%
-  mutate_at('read_term', tolower) %>%
-  arrange(read_term) %>%
-  left_join(antihistamines_v2 %>%
+  mutate(read_term_trunc = read_term) %>%
+  # keep only first word of read_term in lowercase
+  mutate_at('read_term_trunc', list(~ str_remove_all(., '\\s\\S+'))) %>%
+  mutate_at('read_term_trunc', tolower) %>%
+  arrange(read_term_trunc) %>%
+  # join first word to first word of antihistamines_v2 read_term
+  left_join(oral_antihistamines_v2 %>%
               select(read_term) %>%
               mutate_at('read_term', list(~ str_remove(., '^\\*'))) %>%
               mutate_at('read_term', list(~ str_remove_all(., '\\s\\S+'))) %>%
               mutate_at('read_term', tolower) %>%
               distinct() %>%
               mutate(antihistamine_v2 = TRUE),
-            by = 'read_term') %>%
+            by = c('read_term_trunc' = 'read_term')) %>%
+  # join first word to first word of antihistamines_bnf read_term
   left_join(antihistamines_bnf %>%
               select(read_term = nm) %>%
               mutate_at('read_term', list(~ str_remove(., '^\\*'))) %>%
@@ -58,139 +68,76 @@ antihistamine_check <- antihistamines_v3 %>%
               mutate_at('read_term', tolower) %>%
               distinct() %>%
               mutate(antihistamine_bnf = TRUE),
-            by = 'read_term')  %>%
-  mutate_at('antihistamine', list(~ case_when(antihistamine_v2 | antihistamine_bnf ~ TRUE,
-                                              TRUE ~ .)))
+            by = c('read_term_trunc' = 'read_term')) %>%
+  mutate(antihistamine = case_when(str_detect(read_term, regex('antihistamine', ignore_case = TRUE)) ~ TRUE,
+                                   antihistamine_v2 | antihistamine_bnf ~ TRUE,
+                                   TRUE ~ FALSE),
+         nasal_allergy_drug = str_detect(read_term, regex('\\snose|\\snasal|spray', ignore_case = TRUE)),
+         eye_allergy_drug = str_detect(read_term, regex('\\seye', ignore_case = TRUE)),
+         topical_antihistamine = str_detect(read_term, regex('\\scream|\\slotion|\\sskin', ignore_case = TRUE)))
 
-antihistamine_check %>% 
-  filter(!antihistamine) %>%
+v3_codes %>%
+  filter_at(vars(c('antihistamine', 'nasal_allergy_drug', 'eye_allergy_drug', 'topical_antihistamine')),
+            all_vars(!.)) %>%
+  select(read_code, read_term, antihistamine:topical_antihistamine) %>%
   print(n=100)
 
-#  google search the rest to check if antihistamine
-antihistamine_check <- antihistamine_check %>%
-  mutate_at('antihistamine', list(~ case_when(str_detect(read_term, regex('^Alomide', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('^Azelastine', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('cinnarizine', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('emadine', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('emedastine', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('levocabastine', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('livostin', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('opatanol', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('optilast', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('oral', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('Otrivine-Antistin', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('parenteral', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('pollon-eze', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('rhinolast', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('seldane', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('vibrocil', ignore_case = TRUE)) ~ TRUE,
-                                              str_detect(read_term, regex('vasocon', ignore_case = TRUE)) ~ TRUE,
-                                              TRUE ~ .)))
+#  google search the rest to check if antihistamine (oral, nasal, eye, topical) or other nasal / eye allergy drug
+v3_codes <- v3_codes %>%
+  mutate(type = case_when(read_code %in%  'x05cW' ~ 'eye',
+                          read_code %in%  'x01Dp' ~ 'eye and nose',
+                          read_code %in%  'x05By' ~ 'nose',
+                          read_code %in%  'x01Dv' ~ 'no',
+                          read_code %in%  'x04xx' ~ 'eye',
+                          read_code %in%  'x05lt' ~ 'nose',
+                          read_code %in%  c('x03am', 'x044U', 'x05j3') ~ 'eye',
+                          read_code %in%  'x01E8' ~ 'oral antihistamine',
+                          read_code %in%  'x01E9' ~ 'parenteral antihistamine',
+                          read_code %in%  'x04ov' ~ 'no', # wasp venom extract
+                          read_code %in%  'x01E7' ~ 'no', # for headaches
+                          read_code %in%  'x0564' ~ 'no',
+                          read_code %in%  'x0566' ~ 'no',
+                          read_code %in%  'x00fo' ~ 'oral antihistamine',
+                          read_code %in%  'x02KI' ~ 'no',
+                          read_code %in%  c('x05FH', 'x04r6') ~ 'nose',
+                          read_code %in%  'x00fx' ~ 'no',
+                          read_code %in%  'x00fy' ~ 'oral antihistamine',
+                          read_code %in%  'x01eh' ~ 'no',
+                          TRUE ~ NA_character_)) %>%
+  mutate_at('nasal_allergy_drug', list(~ case_when(str_detect(read_term, regex('nasal|nose', ignore_case = TRUE)) ~ TRUE,
+                                                   str_detect(type, regex('nose', ignore_case = TRUE)) ~ TRUE,
+                                                   antihistamine ~ FALSE,
+                                                   TRUE ~ .))) %>%
+  mutate_at('eye_allergy_drug', list(~ case_when(str_detect(read_term, regex('eye', ignore_case = TRUE)) ~ TRUE,
+                                                 str_detect(type, regex('eye', ignore_case = TRUE)) ~ TRUE,
+                                                 antihistamine ~ FALSE,
+                                                   TRUE ~ .))) %>%
+  mutate_at('topical_antihistamine', list(~ case_when(str_detect(read_term, regex('cream|lotion|skin', ignore_case = TRUE)) ~ TRUE,
+                                                      antihistamine ~ FALSE,
+                                                      TRUE ~ .))) %>%
+  mutate(oral_antihistamine = case_when(nasal_allergy_drug | eye_allergy_drug | topical_antihistamine ~ FALSE,
+                                        antihistamine_v2 | antihistamine_bnf ~ TRUE,
+                                        TRUE ~ FALSE)) 
 
-antihistamines_v3 <- antihistamine_check %>% 
-  filter(antihistamine) %>%
-  select(read_code) %>%
-  left_join(antihistamines_v3, by = 'read_code') %>%
-  left_join(allergy_drugs_v3, by = 'read_code') %>%
-  mutate(read_term = if_else(!is.na(read_term.x), read_term.x, read_term.y)) %>%
-  select(read_code, read_term)
-
-
-###############
-#  do the same for nasal allergy drugs
-nasal_allergy_check <- allergy_drugs_v3 %>%
-  filter(str_detect(read_code, '^x0')) %>%
-  # get rid of allergy kits, maintenence sets, treatment sets, vaccines, cream, lotions and eye drops
-  filter(!(str_detect(read_term, '\\skit|\\svaccine|\\seye\\sdrop|treatment\\sset|maintenance\\sset|\\scream|\\slotion'))) %>%
-  mutate(nasal_allergy = FALSE) %>%
-  mutate(read_term_full = read_term) %>%
-  mutate_at('read_term', list(~ str_remove_all(., '\\s\\S+'))) %>%
-  mutate_at('read_term', tolower) %>%
-  arrange(read_term) %>%
-  left_join(nasal_allergy_drugs_v2 %>%
-              select(read_term) %>%
-              mutate_at('read_term', list(~ str_remove(., '^\\*'))) %>%
-              mutate_at('read_term', list(~ str_remove_all(., '\\s\\S+'))) %>%
-              mutate_at('read_term', tolower) %>%
-              distinct() %>%
-              mutate(nasal_allergy_v2 = TRUE),
-            by = 'read_term') %>% print(n=Inf)
-  mutate_at('nasal_allergy', list(~ case_when(nasal_allergy_v2 ~ TRUE,
-                                              TRUE ~ .)))
-
-
-
-
-
-all_v3 <- allergy_drugs_v3 %>%
-  bind_rows(antihistamines_v3) %>%
-  distinct()
-
-all <- all_v2 %>%
-  bind_rows(rename_all(all_v3, list(~ str_c('read_', .)))) %>%
-  distinct(read_code, .keep_all = TRUE) %>%
-  mutate_at('read_term', list(~ str_to_lower(str_remove(., '^\\*'))))  %>%
-  mutate(version = if_else(str_detect(read_code, '^w|^x'), 3, 2)) %>%
-  group_split(version)
-
-tmp <- all[[1]] %>%
-  rename(read_code_v2 = read_code) %>%
-  select(-version) %>%
-  full_join(all[[2]] %>%
-              rename(read_code_v3 = read_code) %>%
-              select(-version),
-            by = 'read_term')
-
-tmp %>% filter(str_detect(read_term, 'aller-eze'))
-
-
-
-antihistamine_v3 %>%
-  mutate_at('code', 
-            list(~ str_trunc(., width = 2, side = 'right', ellipsis = ''))) %>%
-  group_by(code) %>% count()
-
-allergy_drugs_v3 %>%
-  mutate_at('code', 
-            list(~ str_trunc(., width = 2, side = 'right', ellipsis = ''))) %>%
-  group_by(code) %>% count()
-
-both <- antihistamine_v3 %>%
-  rename(term_antihistamine = term) %>%
-  full_join(allergy_drugs_v3 %>%
-              rename(term_allergy_drugs = term),
-            by = 'code')
-
-
-both %>%
-  mutate_at('code', 
-            list(~ str_trunc(., width = 2, side = 'right', ellipsis = ''))) %>%
-  group_by(code) %>% count()
-# 1  bn        3 = peripheral vasodilators
-# 2  c8      222 = antihistamines
-# 3  c9       50 = hyposensitisation
-# 4  d1        1 = hypnotics
-# 5  d2        9 = anxiolytics
-# 6  dh       28 = nausea and vertugo drugs
-# 7  dm        7 = prophylaxis of migraine
-# 8  k6       28 = corticosteroids + anti-infl (eye)
-# 9  l8       19 = nasal allergy drugs
-# 10 l9        2 = topical nasal decongestants
-# 11 la        3 = anti-infective nasal preps
-# 12 lA        1 = other nasal preparations
-# 13 m3       14 = LOCAL ANAESTHETIC/ANTIPRURITIC
-# 14 m9        1 = SUNSCREENING PREPARATIONS
-# 15 o5        2 = PERIOPERATIVE ANXIOLYTICS/NEUROLEPTICS
-# 16 wy        1 = V3
-# 17 x0      166 = V3
-
-tmp <- both %>%
-  mutate(term = if_else(!is.na(term_antihistamine), term_antihistamine, term_allergy_drugs)) %>%
-  select(code, term) %>%
-  mutate(version = if_else(str_detect(code, '^w|^x'), 3, 2)) %>%
-  group_split(version)
-
-tmp[[1]] %>%
-  select(code_3 = code, term) %>%
-  full_join(tmp[[2]] %>%
-              select(code_2 = code, term), by = 'term')
+allergy_drugs <- bind_rows(oral_antihistamines_v2 %>%
+                             bind_rows(v3_codes %>%
+                                         filter(oral_antihistamine) %>%
+                                         select(read_code, read_term)) %>%
+                                         mutate(cat2 = 'oral antihistamines'),
+                           nasal_allergy_drugs_v2 %>%
+                             bind_rows(v3_codes %>%
+                                         filter(nasal_allergy_drug) %>%
+                                         select(read_code, read_term)) %>%
+                                         mutate(cat2 = 'nasal allergy drug'),
+                           eye_allergy_drugs_v2 %>%
+                             bind_rows(v3_codes %>%
+                                         filter(eye_allergy_drug) %>%
+                                         select(read_code, read_term)) %>%
+                                         mutate(cat2 = 'eye allergy drug'),
+                           topical_antihistamines_v2 %>%
+                             bind_rows(v3_codes %>%
+                                         filter(topical_antihistamine) %>%
+                                         select(read_code, read_term)) %>%
+                                         mutate(cat2 = 'topical antihistamines')) %>%
+  mutate(cat1 = 'allergy drugs')
+  
