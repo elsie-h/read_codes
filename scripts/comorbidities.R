@@ -23,7 +23,8 @@ comorbs <- c('anxiety',
              'nasal_polyp',
              'osteoporosis',
              'hypertension',
-             'thyroid')
+             'thyroid'
+             )
 
 #### from CPRD codes: (Kuan 2019) ####
 comorbs_data <- bind_rows(lapply(comorbs, 
@@ -84,7 +85,10 @@ CVD <- cvd_rms %>%
                                !is.na(hf) ~ hf,
                                !is.na(read_term_qof) ~ read_term_qof,
                                TRUE ~ NA_character_)) %>%
-  select(read_code, read_term, QOF) 
+  select(read_code, read_term, QOF) %>%
+  arrange(read_code, QOF) %>%
+  distinct(read_code, .keep_all = TRUE)
+  
 
 ################################################################################
 #### Thyroid ####
@@ -102,7 +106,7 @@ thyroid_v2 <- comorbs_data %>%
   rename(read_term_v2 = read_term)
 
 # I created this codelist using te OpenSafely builder. It is over-inclusive so will have to be trimmed down.
-thyroid_os <- read_csv("lists_in/OpenSafely/elsie-horne-thyroid-disorder-5bb415af.csv") %>%
+thyroid_os <- read_csv("lists_in/Elsie/elsie-horne-thyroid-disorder-5bb415af.csv") %>%
   rename(read_code = code,
          read_term_os = term) %>%
   filter(!str_detect(read_term_os, regex('malignant|tumour|carcinoma|neoplasm|nodule|lump|infection|adenoma|metastasis', ignore_case = TRUE))) %>%
@@ -140,7 +144,7 @@ tmp_joined <- tmp[[2]] %>%
 # identify the V2 codes that are in the OS codelist but not CPRD
 remove_term_list <- tmp[[1]] %>%
   filter(!str_detect(read_code, '^X|^Y')) %>%
-  select(read_code, read_term) 
+  select(read_code, read_term)
 
 # do these correspond to any V3 codes?
 # tmp[[1]] %>%
@@ -151,7 +155,7 @@ remove_term_list <- tmp[[1]] %>%
 # # so just remove the version 2 ones
 
 thyroid <- tmp_joined %>%
-  anti_join(select(remove_term_list, read_code), 
+  anti_join(select(remove_term_list, read_code),
             by = c('read_code_v3' = 'read_code')) %>%
   arrange(read_code_v2, read_code_v3) %>%
   mutate(cat2 = case_when(str_detect(read_code_v2, '^C00|^C01|^C02') ~ 'hyperthyroidism',
@@ -173,9 +177,10 @@ thyroid_final <- thyroid %>%
   bind_rows(thyroid %>%
               select(read_code = read_code_v3,
                      read_term, cat2) %>%
-              filter(!is.na(read_code)))
+              filter(!is.na(read_code))) %>%
+  distinct(read_code, cat2, .keep_all = TRUE)
 
-# I think it's fairly usual for patients to go hyper -> hypo,
+# I think it's possible for patients to go hyper -> hypo,
 # but as far as I'm aware patients don't usually go hypo -> hyper
 # check this with clinician and check in results
 
@@ -234,7 +239,8 @@ diabetes <- diabetes_qof %>%
                                !is.na(read_term_os) ~ read_term_os,
                                !is.na(read_term_rms) ~ read_term_rms,
                                TRUE ~ NA_character_)) %>%
-  select(read_code, read_term)
+  select(read_code, read_term) %>%
+  distinct(read_code, .keep_all = TRUE)
 
 ################################################################################
 #### Hypertension ####
@@ -267,7 +273,6 @@ hypertension_qof <- hypertension_qof %>%
   mutate(QOF = 'Yes')
 
 # all codes in CPRD, QOF and OpenSafely
-# remove H/O and resolved
 hypertension <- comorbs_data %>% 
   filter(cat2 %in% 'hypertension') %>%
   select(read_code, read_term_cprd = read_term) %>%
@@ -277,8 +282,11 @@ hypertension <- comorbs_data %>%
                                !is.na(Description) ~ Description, 
                                !is.na(read_term_cprd) ~ read_term_cprd,
                                TRUE ~ NA_character_)) %>%
-  distinct(read_code, read_term, QOF) %>%
-  filter(!str_detect(read_term, regex('resolve|H/O|deleted', ignore_case = TRUE)))
+  select(read_code, read_term, QOF) %>%
+  arrange(read_code, QOF) %>%
+  distinct(read_code, .keep_all = TRUE)
+# keep resolved or deleted as this would still fit the 'ever' rule
+  # filter(!str_detect(read_term, regex('resolve|deleted', ignore_case = TRUE)))
 
 ################################################################################
 #### Depression ####
@@ -317,12 +325,15 @@ depression <- comorbs_data %>%
                                !is.na(Description) ~ Description, 
                                !is.na(read_term_cprd) ~ read_term_cprd,
                                TRUE ~ NA_character_)) %>%
-  distinct(read_code, read_term, QOF) %>%
-  filter(!str_detect(read_term, regex('resolve|H/O', ignore_case = TRUE)))
+  select(read_code, read_term, QOF) %>%
+  arrange(read_code, QOF) %>% 
+  distinct(read_code, .keep_all = TRUE)
+# keep resolved or deleted as this would still fit the 'ever' rule
+  # filter(!str_detect(read_term, regex('resolve|H/O', ignore_case = TRUE)))
 
 ################################################################################
 #### Anxiety ####
-anxiety_os <- read_csv("lists_in/OpenSafely/elsie-horne-anxiety-2020-11-16T18-20-06.csv") %>%
+anxiety_os <- read_csv("lists_in/Elsie/elsie-horne-anxiety-2020-11-16T18-20-06.csv") %>%
   rename(read_code = id,
          read_term_os = term)
 # no QOF codes for anxiety
@@ -337,8 +348,10 @@ anxiety <- comorbs_data %>%
   # add this as it seems appropriate
   add_row(read_code = '173f.',
           read_term = 'Anxiety about breathlessness') %>%
-  distinct(read_code, read_term) %>%
-  filter(!str_detect(read_term, regex('resolve|H/O|F/H', ignore_case = TRUE))) %>%
+  select(read_code, read_term) %>%
+  distinct(read_code, .keep_all = TRUE) %>%
+  # keep resolved or deleted as this would still fit the 'ever' rule
+  # filter(!str_detect(read_term, regex('resolve|H/O|F/H', ignore_case = TRUE))) %>%
   mutate(QOF = 'No')
 
 ################################################################################
@@ -380,10 +393,15 @@ copd <- copd_cprd %>%
                                TRUE ~ NA_character_
                                )) %>%
   select(read_code, read_term, QOF) %>%
+  arrange(read_code, QOF) %>%
   distinct(read_code, .keep_all = TRUE) %>%
   filter(!str_detect(read_term, 
-                     regex('resolve|history|H/O|F/H', 
+                     regex('F/H', 
                            ignore_case = TRUE))) 
+# keep resolved or deleted as this would still fit the 'ever' rule
+  # filter(!str_detect(read_term, 
+  #                    regex('resolve|history|H/O', 
+  #                          ignore_case = TRUE))) 
 
 ################################################################################
 #### GORD ####
@@ -395,7 +413,7 @@ gord_cprd <- comorbs_data %>%
   filter(cat2 %in% 'GORD') %>%
   select(read_code, read_term_cprd = read_term)
 
-gord_os <- read_csv("lists_in/OpenSafely/elsie-horne-gord-2020-11-17T09-13-38.csv") %>%
+gord_os <- read_csv("lists_in/Elsie/elsie-horne-gord-2020-11-17T09-13-38.csv") %>%
   select(read_code = id, read_term_os = term) 
 
 gord <- gord_cprd %>% 
@@ -406,6 +424,7 @@ gord <- gord_cprd %>%
                                !is.na(read_term_rms) ~ read_term_rms,
                                TRUE ~ NA_character_)) %>%
   select(read_code, read_term) %>%
+  distinct(read_code, .keep_all = TRUE) %>%
   mutate(QOF = 'No')
 
 ################################################################################
@@ -414,7 +433,7 @@ nasal_polyp_cprd <- comorbs_data %>%
   filter(cat2 %in% 'nasal_polyp') %>%
   select(read_code, read_term_cprd = read_term)
 
-nasal_polyp_os <- read_csv("lists_in/OpenSafely/elsie-horne-nasal-polyp-2020-11-17T09-39-41.csv") %>%
+nasal_polyp_os <- read_csv("lists_in/Elsie/elsie-horne-nasal-polyp-2020-11-17T09-39-41.csv") %>%
   select(read_code = id, read_term_os = term) 
 
 nasal_polyp <- nasal_polyp_cprd %>% 
@@ -423,6 +442,7 @@ nasal_polyp <- nasal_polyp_cprd %>%
                                !is.na(read_term_os) ~ read_term_os,
                                TRUE ~ NA_character_)) %>%
   select(read_code, read_term) %>%
+  distinct(read_code, .keep_all = TRUE) %>%
   mutate(QOF = 'No')
 
 ################################################################################
@@ -432,7 +452,7 @@ osteoporosis_cprd <- comorbs_data %>%
   filter(cat2 %in% 'osteoporosis') %>%
   select(read_code, read_term_cprd = read_term)
 
-osteoporosis_os <- read_csv("lists_in/OpenSafely/elsie-horne-osteoporosis-2020-11-17T09-50-06.csv") %>%
+osteoporosis_os <- read_csv("lists_in/Elsie/elsie-horne-osteoporosis-2020-11-17T09-50-06.csv") %>%
   select(read_code = id, read_term_os = term) 
 
 osteoporosis_qof <- read_csv('lists_in/QOF/QOF_codes.csv')  %>% 
@@ -463,9 +483,11 @@ osteoporosis <- osteoporosis_cprd %>%
                                !is.na(read_term_os) ~ read_term_os,
                                !is.na(read_term_qof) ~ read_term_qof,
                                TRUE ~ NA_character_)) %>%
-  select(read_code, read_term, QOF)
+  select(read_code, read_term, QOF) %>%
+  arrange(read_code, QOF) %>%
+  distinct(read_code, .keep_all = TRUE)
 
-
+###############################################################################
 comorbidities_all <- bind_rows(
   depression %>% mutate(cat2 = 'Depression'),
   anxiety %>% mutate(cat2 = 'Anxiety'),
@@ -482,6 +504,7 @@ comorbidities_all <- bind_rows(
 
 write_csv(comorbidities_all, path = 'lists_out/comorbidities.csv')
 
+###############################################################################
 # latex tables
 comorbidities_list <- comorbidities_all %>%
   group_split(cat2)

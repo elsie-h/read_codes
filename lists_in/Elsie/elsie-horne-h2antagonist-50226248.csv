@@ -1,0 +1,146 @@
+code,term
+a24x.,Pepcidtwo chewable indigestion tablet
+a61..,Cimetidine
+a611.,Tagamet 200mg tablet
+a612.,Tagamet 400mg tablet
+a613.,Tagamet 800mg tablet
+a614.,Tagamet 200mg/5mL syrup
+a615.,Tagamet 200mg/2mL injection
+a616.,Tagamet 400mg/100mL infusion
+a617.,Dyspamet Chewtab 200mg chewable tablet
+a618.,Dyspamet 200mg/5mL suspension
+a619.,Cimetidine 200mg/5mL suspension 600mL
+a61A.,Galenamet 200mg tablet
+a61B.,Galenamet 400mg tablet
+a61C.,Galenamet 800mg tablet
+a61D.,Cimetidine 400mg effervescent tablet
+a61E.,Cimetidine 200mg chewable tablet
+a61F.,Phimetin 200mg tablet
+a61G.,Phimetin 400mg tablet
+a61H.,Phimetin 800mg tablet
+a61I.,Cimetidine 200mg/5mL s/f oral solution
+a61J.,Cimetidine 400mg/100mL infusion
+a61K.,Zita 200mg tablet
+a61L.,Zita 400mg tablet
+a61M.,Zita 800mg tablet
+a61N.,Ultec 200mg tablet
+a61O.,Ultec 400mg tablet
+a61P.,Ultec 800mg tablet
+a61Q.,Acitak 200 tablet
+a61R.,Acitak 400 tablet
+a61S.,Acitak 800 tablet
+a61T.,Tagamet Dual Action liquid 200mL
+a61U.,Tagamet Dual Action liquid 600mL
+a61a.,Algitec chewable tablet
+a61b.,Algitec 100mg/250mg/5mL suspension 600mL
+a61c.,Cimetidine compound suspension
+a61d.,Tagamet 400mg effervescent tablet
+a61e.,Peptimax 200 tablet
+a61f.,Peptimax 400 tablet
+a61g.,Peptimax 800 tablet
+a61s.,Cimetidine+alginic acid 200mg/500mg chewable tablet
+a61t.,Cimetidine+sodium alginate 100mg/250mg/5mL oral suspension
+a61u.,Cimetidine 200mg tablet
+a61v.,Cimetidine 400mg tablet
+a61w.,Cimetidine 800mg tablet
+a61x.,Cimetidine 200mg/5mL syrup
+a61y.,Cimetidine 200mg/2mL injection
+a61z.,Cimetidine 4mg/mL intravenous infusion
+a62..,Ranitidine hydrochloride
+a621.,Zantac 150mg tablet
+a622.,Zantac 150mg dispersible tablet
+a623.,Zantac 300mg tablet
+a624.,Zantac 50mg/2mL injection
+a625.,Zantac 150mg/10mL sugar free syrup 300mL
+a626.,Zantac 150mg effervescent tablet
+a627.,Zantac 300mg effervescent tablet
+a628.,Ranitidine 150mg effervescent tablet
+a629.,Ranitidine 300mg effervescent tablet
+a62A.,Raciran 150mg tablet
+a62B.,Raciran 300mg tablet
+a62C.,Zaedoc 150 tablet
+a62D.,Zaedoc 300 tablet
+a62E.,Rantec 150mg tablet
+a62F.,Rantec 300mg tablet
+a62G.,Ranitic 150mg tablet
+a62H.,Ranitic 300mg tablet
+a62I.,Histac 150mg tablet
+a62J.,Histac 300mg tablet
+a62K.,Ranitil 150mg tablet
+a62L.,Ranitil 300mg tablet
+a62M.,Zantac 75 Dissolve effervescent tablet
+a62N.,Ranitidine 75mg tablet
+a62O.,Gavilast-P 75mg tablet
+a62P.,Ranzac 75mg tablet
+a62Q.,Zantac 75 tablet
+a62u.,Ranitidine 75mg effervescent tablet
+a62v.,Ranitidine 75mg/5mL sugar free syrup
+a62w.,Ranitidine 150mg tablet
+a62x.,Ranitidine 150mg dispersible tablet
+a62y.,Ranitidine 300mg tablet
+a62z.,Ranitidine 50mg/2mL injection
+a68..,Famotidine
+a681.,Famotidine 20mg tablet
+a682.,Famotidine 40mg tablet
+a683.,Pepcid 20mg tablet
+a684.,Pepcid 40mg tablet
+a69..,Nizatidine
+a691.,Nizatidine 150mg capsule
+a692.,Nizatidine 300mg capsule
+a693.,Axid 150mg capsule
+a694.,Axid 300mg capsule
+a695.,Axid 100mg/4mL injection
+a696.,Nizatidine 100mg/4mL injection
+a697.,Zinga 150mg capsule
+a698.,Zinga 300mg capsule
+a6d..,Ranitidine bismuth citrate
+a6d1.,Ranitidine bismuth citrate 400mg tablet
+a6d2.,Pylorid 400mg tablet
+x00Xy,Cimetidine 200mg/5mL oral suspension
+x00eJ,Algitec suspension
+x00em,Zantac 75mg/5mL sugar free syrup
+x019N,Oral cimetidine
+x019O,Parenteral cimetidine
+x019P,Cimetidine+alginate
+x019Q,Ranitidine
+x019R,Oral ranitidine
+x019S,Parenteral ranitidine
+x02AK,Famotidine 10mg tablet
+x02AL,Pepcid AC indigestion tablet
+x02AM,Cimetidine 100mg tablet
+x02AN,Tagamet 100 tablet
+x02Sf,Acitak
+x02TC,Algitec
+x02Ur,Axid
+x02aq,Dyspamet
+x02db,Galenamet
+x02nB,Pepcid
+x02nC,Pepcid AC
+x02nD,Peptimax
+x02nP,Phimetin
+x02op,Pylorid
+x02s6,Tagamet
+x02uu,Zantac
+x02v5,Zinga
+x02v8,Zita
+x03dL,Tagamet Dual Action liquid
+x03n4,Raciran
+x03ug,Peptimax 200
+x03uh,Peptimax 400
+x03ui,Peptimax 800
+x03yG,Tagamet 100
+x03yH,Tagamet Dual Action
+x047P,Acitak 200
+x047Q,Acitak 400
+x047R,Acitak 800
+x049w,Zantac 75
+x04cM,Zaedoc 150
+x04cN,Zaedoc 300
+x04sG,Rantec
+x054I,Ranitic
+x05Er,Ranzac
+x05G6,Histac
+x05Xr,Ranitil
+x05mC,Zantac Dissolve
+x05mn,Pepcidtwo
+x05pc,Gavilast-P

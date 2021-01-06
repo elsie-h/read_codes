@@ -26,7 +26,9 @@ cluster_names <- c('ASTEXC', # Exception reporting from asthma monitoring
                    'AFIB', # atrial fibrillation
                    'HF', # heart failure
                    'HFLVSD', # LVSD
-                   'DM') # diabetes
+                   'DM', # diabetes
+                   'LBB', # beta-blockers
+                   'STAT') # statins
 cluster_names <- str_c(cluster_names, '_COD')
 
 clean_QOF <- function(.data, 

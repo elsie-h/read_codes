@@ -293,7 +293,7 @@ allergies <- bind_rows(
                             'D2101', 'M1100', 'SN520'))) %>%
   mutate_at('cat2', list(~ if_else(. %in% 'other', 'other allergy', .)))
 
-write_csv(allergies, path = 'lists_out/allergies.csv')
+write_csv(allergies, path = 'lists_out/allergic_conditions.csv')
 
 # latex tables
 allergies_list <- allergies %>%

@@ -1,0 +1,38 @@
+code,coding_system,description,entity,list_name,upload_date
+d1...,Read,hypnotics,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d11..,Read,chloral hydrate,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d12..,Read,clomethiazole ed. [hypnot],drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d13..,Read,*dichloralphenazone,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d14..,Read,*flunitrazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d15..,Read,flurazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d16..,Read,loprazolam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d17..,Read,lormetazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d18..,Read,nitrazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d1a..,Read,temazepam [hypnotic],drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d1b..,Read,triazolam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d1c..,Read,triclofos sodium,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d1d..,Read,zoplicone,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d1f..,Read,zolpidem,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d1g..,Read,zaleplon,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2...,Read,anxiolytics,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d21..,Read,diazepam [anxiolytic],drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d22..,Read,alprazolam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d23..,Read,bromazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d24..,Read,chlordiazepoxide,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d25..,Read,chlormezanone,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d26..,Read,clobazam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d29..,Read,*ketazolam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2a..,Read,lorazepam [anxiolytic],drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2b..,Read,*medazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2c..,Read,meprobamate,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2d..,Read,oxazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2e..,Read,*prazepam,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d2f..,Read,buspirone hydrochloride,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d3..,Read,barbiturates/methyprylone,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d31..,Read,barbiturates,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+d32..,Read,methyprylone,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+dC1..,Read,sodium oxybate,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+dn4..,Read,clonazepam [epilepsy control],drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+dn6..,Read,methylphenobarbital,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+dn7..,Read,phenobarbital,drug,639 - res55: anxiolytic_hypnotic,2017-03-15
+dnc..,Read,clobazam [epilepsy only],drug,639 - res55: anxiolytic_hypnotic,2017-03-15

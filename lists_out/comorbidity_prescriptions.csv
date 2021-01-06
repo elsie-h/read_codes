@@ -1,0 +1,209 @@
+read_code,read_term,cat2,cat1
+a61..,cimetidine,h2-antagonist,comorbidity prescription
+a611.,tagamet 200mg tablets,h2-antagonist,comorbidity prescription
+a612.,tagamet 400mg tablets,h2-antagonist,comorbidity prescription
+a613.,tagamet 800mg tablets,h2-antagonist,comorbidity prescription
+a614.,tagamet 200mg/5ml syrup,h2-antagonist,comorbidity prescription
+a617.,dyspamet chewtab 200mg chewable tablets,h2-antagonist,comorbidity prescription
+a618.,dyspamet 200mg/5ml suspension,h2-antagonist,comorbidity prescription
+a619.,cimetidine 200mg/5ml suspension 600ml,h2-antagonist,comorbidity prescription
+a61A.,galenamet 200mg tablets,h2-antagonist,comorbidity prescription
+a61B.,galenamet 400mg tablets,h2-antagonist,comorbidity prescription
+a61C.,galenamet 800mg tablets,h2-antagonist,comorbidity prescription
+a61D.,cimetidine 400mg effervescent tablets,h2-antagonist,comorbidity prescription
+a61E.,cimetidine 200mg chewable tablets,h2-antagonist,comorbidity prescription
+a61F.,phimetin 200mg tablets,h2-antagonist,comorbidity prescription
+a61G.,phimetin 400mg tablets,h2-antagonist,comorbidity prescription
+a61H.,phimetin 800mg tablets,h2-antagonist,comorbidity prescription
+a61I.,cimetidine 200mg/5ml sugar free oral solution,h2-antagonist,comorbidity prescription
+a61K.,zita 200mg tablets,h2-antagonist,comorbidity prescription
+a61L.,zita 400mg tablets,h2-antagonist,comorbidity prescription
+a61M.,zita 800mg tablets,h2-antagonist,comorbidity prescription
+a61N.,ultec 200mg tablets,h2-antagonist,comorbidity prescription
+a61O.,ultec 400mg tablets,h2-antagonist,comorbidity prescription
+a61P.,ultec 800mg tablets,h2-antagonist,comorbidity prescription
+a61Q.,acitak-200 tablets,h2-antagonist,comorbidity prescription
+a61R.,acitak-400 tablets,h2-antagonist,comorbidity prescription
+a61S.,acitak-800 tablets,h2-antagonist,comorbidity prescription
+a61T.,tagamet dual action liquid 200ml,h2-antagonist,comorbidity prescription
+a61U.,tagamet dual action liquid 600ml,h2-antagonist,comorbidity prescription
+a61a.,algitec 200mg/500mg chewable tablets,h2-antagonist,comorbidity prescription
+a61b.,algitec 100mg/250mg/5ml suspension 600ml,h2-antagonist,comorbidity prescription
+a61c.,cimetidine compound suspension,h2-antagonist,comorbidity prescription
+a61d.,tagamet effervescent 400mg tablets,h2-antagonist,comorbidity prescription
+a61e.,peptimax 200mg tablets,h2-antagonist,comorbidity prescription
+a61f.,peptimax 400mg tablets,h2-antagonist,comorbidity prescription
+a61g.,peptimax 800mg tablets,h2-antagonist,comorbidity prescription
+a61s.,cimetidine+alginic acid 200mg/500mg chewable tablets,h2-antagonist,comorbidity prescription
+a61t.,cimetidine+sodium alginate 100/250mg/5ml suspension,h2-antagonist,comorbidity prescription
+a61u.,cimetidine 200mg tablets,h2-antagonist,comorbidity prescription
+a61v.,cimetidine 400mg tablets,h2-antagonist,comorbidity prescription
+a61w.,cimetidine 800mg tablets,h2-antagonist,comorbidity prescription
+a61x.,cimetidine 200mg/5ml syrup,h2-antagonist,comorbidity prescription
+a62..,ranitidine,h2-antagonist,comorbidity prescription
+a621.,zantac 150mg tablets,h2-antagonist,comorbidity prescription
+a622.,zantac 150mg dispersible tablets,h2-antagonist,comorbidity prescription
+a623.,zantac 300mg tablets,h2-antagonist,comorbidity prescription
+a625.,zantac 150mg/10ml sugar free syrup 300ml,h2-antagonist,comorbidity prescription
+a626.,zantac effervescent 150mg tablets,h2-antagonist,comorbidity prescription
+a627.,zantac effervescent 300mg tablets,h2-antagonist,comorbidity prescription
+a628.,ranitidine 150mg effervescent tablets,h2-antagonist,comorbidity prescription
+a629.,ranitidine 300mg effervescent tablets,h2-antagonist,comorbidity prescription
+a62A.,raciran 150mg tablets,h2-antagonist,comorbidity prescription
+a62B.,raciran 300mg tablets,h2-antagonist,comorbidity prescription
+a62C.,zaedoc 150 tablets,h2-antagonist,comorbidity prescription
+a62D.,zaedoc 300 tablets,h2-antagonist,comorbidity prescription
+a62E.,rantec 150mg tablets,h2-antagonist,comorbidity prescription
+a62F.,rantec 300mg tablets,h2-antagonist,comorbidity prescription
+a62G.,ranitic 150mg tablets,h2-antagonist,comorbidity prescription
+a62H.,ranitic 300mg tablets,h2-antagonist,comorbidity prescription
+a62I.,histac 150mg tablets,h2-antagonist,comorbidity prescription
+a62J.,histac 300mg tablets,h2-antagonist,comorbidity prescription
+a62K.,ranitil 150mg tablets,h2-antagonist,comorbidity prescription
+a62L.,ranitil 300mg tablets,h2-antagonist,comorbidity prescription
+a62M.,zantac 75 dissolve effervescent tablets,h2-antagonist,comorbidity prescription
+a62N.,ranitidine 75mg tablets,h2-antagonist,comorbidity prescription
+a62O.,gavilast-p 75mg tablets,h2-antagonist,comorbidity prescription
+a62P.,ranzac 75mg tablets,h2-antagonist,comorbidity prescription
+a62Q.,zantac 75 tablets,h2-antagonist,comorbidity prescription
+a62u.,ranitidine 75mg effervescent tablets,h2-antagonist,comorbidity prescription
+a62v.,ranitidine 150mg/10ml sugar free syrup,h2-antagonist,comorbidity prescription
+a62w.,ranitidine 150mg tablets,h2-antagonist,comorbidity prescription
+a62x.,ranitidine 150mg dispersible tablets,h2-antagonist,comorbidity prescription
+a62y.,ranitidine 300mg tablets,h2-antagonist,comorbidity prescription
+a68..,famotidine,h2-antagonist,comorbidity prescription
+a681.,famotidine 20mg tablets,h2-antagonist,comorbidity prescription
+a682.,famotidine 40mg tablets,h2-antagonist,comorbidity prescription
+a683.,pepcid 20mg tablets,h2-antagonist,comorbidity prescription
+a684.,pepcid 40mg tablets,h2-antagonist,comorbidity prescription
+a69..,nizatidine,h2-antagonist,comorbidity prescription
+a691.,nizatidine 150mg capsules,h2-antagonist,comorbidity prescription
+a692.,nizatidine 300mg capsules,h2-antagonist,comorbidity prescription
+a693.,axid 150mg capsules,h2-antagonist,comorbidity prescription
+a694.,axid 300mg capsules,h2-antagonist,comorbidity prescription
+a697.,zinga 150mg capsules,h2-antagonist,comorbidity prescription
+a698.,zinga 300mg capsules,h2-antagonist,comorbidity prescription
+a6d..,ranitidine bismuth citrate,h2-antagonist,comorbidity prescription
+a6d1.,ranitidine bismuth citrate 400mg tablets,h2-antagonist,comorbidity prescription
+a6d2.,pylorid 400mg tablets,h2-antagonist,comorbidity prescription
+a616.,tagamet 400mg/100ml infusion,h2-antagonist,comorbidity prescription
+a61J.,cimetidine 400mg/100ml infusion,h2-antagonist,comorbidity prescription
+x00Xy,cimetidine 200mg/5ml oral suspension,h2-antagonist,comorbidity prescription
+x00eJ,algitec suspension,h2-antagonist,comorbidity prescription
+x00em,zantac 75mg/5ml sugar free syrup,h2-antagonist,comorbidity prescription
+x019N,oral cimetidine,h2-antagonist,comorbidity prescription
+x019O,parenteral cimetidine,h2-antagonist,comorbidity prescription
+x019P,cimetidine+alginate,h2-antagonist,comorbidity prescription
+x019Q,ranitidine,h2-antagonist,comorbidity prescription
+x019R,oral ranitidine,h2-antagonist,comorbidity prescription
+x019S,parenteral ranitidine,h2-antagonist,comorbidity prescription
+x02AK,famotidine 10mg tablet,h2-antagonist,comorbidity prescription
+x02AL,pepcid ac indigestion tablet,h2-antagonist,comorbidity prescription
+x02AM,cimetidine 100mg tablet,h2-antagonist,comorbidity prescription
+x02AN,tagamet 100 tablet,h2-antagonist,comorbidity prescription
+x02Sf,acitak,h2-antagonist,comorbidity prescription
+x02TC,algitec,h2-antagonist,comorbidity prescription
+x02Ur,axid,h2-antagonist,comorbidity prescription
+x02aq,dyspamet,h2-antagonist,comorbidity prescription
+x02db,galenamet,h2-antagonist,comorbidity prescription
+x02nB,pepcid,h2-antagonist,comorbidity prescription
+x02nC,pepcid ac,h2-antagonist,comorbidity prescription
+x02nD,peptimax,h2-antagonist,comorbidity prescription
+x02nP,phimetin,h2-antagonist,comorbidity prescription
+x02op,pylorid,h2-antagonist,comorbidity prescription
+x02s6,tagamet,h2-antagonist,comorbidity prescription
+x02uu,zantac,h2-antagonist,comorbidity prescription
+x02v5,zinga,h2-antagonist,comorbidity prescription
+x02v8,zita,h2-antagonist,comorbidity prescription
+x03dL,tagamet dual action liquid,h2-antagonist,comorbidity prescription
+x03n4,raciran,h2-antagonist,comorbidity prescription
+x03ug,peptimax 200,h2-antagonist,comorbidity prescription
+x03uh,peptimax 400,h2-antagonist,comorbidity prescription
+x03ui,peptimax 800,h2-antagonist,comorbidity prescription
+x03yG,tagamet 100,h2-antagonist,comorbidity prescription
+x03yH,tagamet dual action,h2-antagonist,comorbidity prescription
+x047P,acitak 200,h2-antagonist,comorbidity prescription
+x047Q,acitak 400,h2-antagonist,comorbidity prescription
+x047R,acitak 800,h2-antagonist,comorbidity prescription
+x049w,zantac 75,h2-antagonist,comorbidity prescription
+x04cM,zaedoc 150,h2-antagonist,comorbidity prescription
+x04cN,zaedoc 300,h2-antagonist,comorbidity prescription
+x04sG,rantec,h2-antagonist,comorbidity prescription
+x054I,ranitic,h2-antagonist,comorbidity prescription
+x05Er,ranzac,h2-antagonist,comorbidity prescription
+x05G6,histac,h2-antagonist,comorbidity prescription
+x05Xr,ranitil,h2-antagonist,comorbidity prescription
+x05mC,zantac dissolve,h2-antagonist,comorbidity prescription
+x05mn,pepcidtwo,h2-antagonist,comorbidity prescription
+x05pc,gavilast-p,h2-antagonist,comorbidity prescription
+a6h5.,emozul 20mg gastro-resistant capsules,proton pump inhibitor,comorbidity prescription
+a6h6.,emozul 40mg gastro-resistant capsules,proton pump inhibitor,comorbidity prescription
+a6h..,esomeprazole,proton pump inhibitor,comorbidity prescription
+a6h1.,nexium 20mg tablets,proton pump inhibitor,comorbidity prescription
+a6h2.,nexium 40mg tablets,proton pump inhibitor,comorbidity prescription
+a6h4.,nexium 10mg gastro-resistant granules for oral suspension,proton pump inhibitor,comorbidity prescription
+a6hu.,esomeprazole 40mg gastro-resistant capsules,proton pump inhibitor,comorbidity prescription
+a6hv.,esomeprazole 20mg gastro-resistant capsules,proton pump inhibitor,comorbidity prescription
+a6hw.,esomeprazole 10mg gastro-resistant granules for oral susp,proton pump inhibitor,comorbidity prescription
+a6hy.,esomeprazole 40mg tablets,proton pump inhibitor,comorbidity prescription
+a6hz.,esomeprazole 20mg tablets,proton pump inhibitor,comorbidity prescription
+j2cZ.,naproxen+esomeprazole 500mg/20mg m/r tablets,proton pump inhibitor,comorbidity prescription
+a6c..,lansoprazole,proton pump inhibitor,comorbidity prescription
+a6c1.,zoton 30mg capsules,proton pump inhibitor,comorbidity prescription
+a6c2.,lansoprazole 30mg capsules,proton pump inhibitor,comorbidity prescription
+a6c3.,lansoprazole 15mg capsules,proton pump inhibitor,comorbidity prescription
+a6c4.,zoton 15mg capsules,proton pump inhibitor,comorbidity prescription
+a6c5.,lansoprazole 30mg oral suspension,proton pump inhibitor,comorbidity prescription
+a6c6.,zoton 30mg oral suspension,proton pump inhibitor,comorbidity prescription
+a6c7.,lansoprazole 15mg oro-dispersible tablets,proton pump inhibitor,comorbidity prescription
+a6c8.,lansoprazole 30mg oro-dispersible tablets,proton pump inhibitor,comorbidity prescription
+a6c9.,zoton fastab 15mg oro-dispersible tablets,proton pump inhibitor,comorbidity prescription
+a6cA.,zoton fastab 30mg oro-dispersible tablets,proton pump inhibitor,comorbidity prescription
+a6b6.,losec 10mg capsules,proton pump inhibitor,comorbidity prescription
+a6b3.,losec 20mg capsules,proton pump inhibitor,comorbidity prescription
+a6b4.,losec 40mg capsules,proton pump inhibitor,comorbidity prescription
+a6bC.,losec mups 10mg tablets,proton pump inhibitor,comorbidity prescription
+a6bD.,losec mups 20mg tablets,proton pump inhibitor,comorbidity prescription
+a6bE.,losec mups 40mg tablets,proton pump inhibitor,comorbidity prescription
+a6bO.,mepradec 10mg e/c capsules,proton pump inhibitor,comorbidity prescription
+a6bP.,mepradec 20mg e/c capsules,proton pump inhibitor,comorbidity prescription
+a6bQ.,mezzopram 10mg gastro-resistant tablets,proton pump inhibitor,comorbidity prescription
+a6bR.,mezzopram 20mg gastro-resistant tablets,proton pump inhibitor,comorbidity prescription
+a6bS.,mezzopram 40mg gastro-resistant tablets,proton pump inhibitor,comorbidity prescription
+a6b..,omeprazole,proton pump inhibitor,comorbidity prescription
+a6b1.,omeprazole 20mg e/c capsules,proton pump inhibitor,comorbidity prescription
+a6b2.,losec 20mg capsules x28,proton pump inhibitor,comorbidity prescription
+a6b5.,omeprazole 40mg e/c capsules,proton pump inhibitor,comorbidity prescription
+a6b7.,omeprazole 10mg e/c capsules,proton pump inhibitor,comorbidity prescription
+a6bF.,omeran 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bG.,omeran 20mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bH.,omeran 40mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bI.,zanprol 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bJ.,galpharm heartburn relief 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bK.,unichem heartburn relief 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bL.,vantage pharmacy heartburn relief 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bM.,care heartburn relief 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bN.,numark heartburn relief 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bu.,omeprazole 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bv.,omeprazole 20mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bw.,omeprazole 40mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6bx.,omeprazole 10mg tablets,proton pump inhibitor,comorbidity prescription
+a6by.,omeprazole 20mg tablets,proton pump inhibitor,comorbidity prescription
+a6bz.,omeprazole 40mg tablets,proton pump inhibitor,comorbidity prescription
+a6e7.,pantoloc control 20mg gastro-resistant tablets,proton pump inhibitor,comorbidity prescription
+a6e..,pantoprazole,proton pump inhibitor,comorbidity prescription
+a6e1.,pantoprazole 40mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6e2.,protium 40mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6e5.,pantoprazole 20mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6e6.,protium 20mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6f4.,pariet 20mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6f3.,pariet 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6f..,rabeprazole sodium,proton pump inhibitor,comorbidity prescription
+a6f1.,rabeprazole sodium 10mg e/c tablets,proton pump inhibitor,comorbidity prescription
+a6f2.,rabeprazole sodium 20mg e/c tablets,proton pump inhibitor,comorbidity prescription
+x02hx,losec,proton pump inhibitor,comorbidity prescription
+x02vD,zoton,proton pump inhibitor,comorbidity prescription
+x03ij,protium,proton pump inhibitor,comorbidity prescription
+x05BT,nexium,proton pump inhibitor,comorbidity prescription
+x05i0,omeran,proton pump inhibitor,comorbidity prescription
+x05sN,zanprol,proton pump inhibitor,comorbidity prescription

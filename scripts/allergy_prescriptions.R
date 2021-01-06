@@ -242,7 +242,7 @@ allergy_drugs <- allergy_drugs %>%
 
 write_csv(allergy_drugs, path = 'lists_out/allergy_prescriptions.csv')
 
-# latex tables
+# latex tables for thesis
 allergies_list <- allergy_drugs %>%
   group_split(cat2)
 
