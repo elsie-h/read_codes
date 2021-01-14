@@ -19,7 +19,7 @@ QOF_drugs <- read_csv('lists_in/QOF/QOF_codes.csv') %>%
   distinct(read_code, read_term) %>%
   mutate(QOF = 1)
 
-opensafely_asthma_drugs <- read_csv("lists_in/OpenSafely/elsie-horne-asthma-drugs-all-2020-11-10T15-42-33.csv") %>%
+opensafely_asthma_drugs <- read_csv("lists_in/Elsie/elsie-horne-asthma-drugs-all-2020-11-10T15-42-33.csv") %>%
   rename(read_code = id, read_term = term) %>%
   distinct()
 
@@ -148,6 +148,7 @@ asthma_drugs %>%
 
 # the codes from QOF that are not in the Nwaru list are not categorised by drug group
 # I did this manually - confirm the ?? with Susannah
+# The ?? are all drugs that are no longer in use
 asthma_drugs <- asthma_drugs %>%
   mutate_at('cat2', list(~ case_when(!is.na(.) ~ .,
                                      str_detect(read_term, regex('ventolin', ignore_case = T)) ~ 'SABA',

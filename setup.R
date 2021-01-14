@@ -13,7 +13,7 @@ read_cprd <- function(name) {
   # although file name is allergic, the list includes codes for allergic and chronic
   if (name == 'rhinitis') name <- 'allergic_rhinitis'
   else if (name == 'dermatitis') name <- 'derm_merge'
-  file <- str_c('lists_in/CPRD/CPRD_', name, '.csv')
+  file <- str_c('lists_in/Kuan2019/CPRD_', name, '.csv')
   rc_ <- suppressMessages(read_csv(file)) %>%
     select(read_code = `Read code`,
            read_term = Descr) %>%

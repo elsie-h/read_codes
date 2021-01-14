@@ -7,20 +7,6 @@
 
 source('setup.R')
 
-# codelist OPCRD Risk Model Scripts
-# unfortunately no Read terms
-# actually turns out this list is exactly the same as the Khan one below,
-# so no need to load.
-# cl_cci_codes <- read_delim("lists_in/RMS/cl_cci_codes_rms.txt", 
-#                            "|", escape_double = FALSE, trim_ws = TRUE) %>%
-#   select(read_code, cat2 = list) %>%
-#   mutate(cat1 = 'cci',
-#          RMS = 1) %>%
-#   mutate_at('read_code', list(~ str_extract(., '^.{5}'))) %>%
-#   # remove non-Read codes with spaces in them
-#   right_join(CCI_nwaru, by = 'read_code') %>%
-#   distinct()
-
 # Read codes from Nwaru2020
 cci_nwaru <- read_csv(file = 'lists_in/Nwaru2020/cl_cci_nwaru.csv')
 

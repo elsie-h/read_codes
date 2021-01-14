@@ -9,7 +9,7 @@ source('setup.R')
 lrti_rms <- read_delim("lists_in/RMS/cl_lrti_rms.txt", "|", escape_double = FALSE, trim_ws = TRUE) %>%
   mutate(cat2 = 'LRTI')
 
-# lrti_cc <- read_csv("lists_in/ClinicalCodes/res70-lrti.csv") 
+# lrti_cc <- read_csv("lists_in/ClinicalCodes/res70-lrti.csv") # better to use the RMS one as more exhaustive and already mapped to CTV3
 urti_cc <- read_csv("lists_in/ClinicalCodes/res70-urti.csv") 
 cold_cc <- read_csv("lists_in/ClinicalCodes/res70-coughcold.csv") 
 throat_cc <- read_csv("lists_in/ClinicalCodes/res70-sore-throat.csv") 
@@ -59,13 +59,13 @@ infections_v2 <- bind_rows(
   bind_rows(mutate(influenza_v2, cat1 = 'infection', cat2 = 'influenza'))
 
 
-cold_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-common-cold-2020-11-18T14-55-04.csv")
-cough_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-cough-2020-11-18T15-03-44.csv")
-lrti_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-lrti-2020-11-23T08-05-18.csv")
-urti_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-urti-2-2020-11-23T08-06-45.csv")
-influenza_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-influenza-2020-11-19T16-17-53.csv")
-sorethroat_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-sore-throat-2020-11-19T17-41-44.csv")
-sorethroat_other_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-sore-throat-other-2020-11-19T17-49-18.csv")
+cold_v3 <- read_csv("lists_in/Elsie/elsie-horne-common-cold-2020-11-18T14-55-04.csv")
+cough_v3 <- read_csv("lists_in/Elsie/elsie-horne-cough-2020-11-18T15-03-44.csv")
+lrti_v3 <- read_csv("lists_in/Elsie/elsie-horne-lrti-2020-11-23T08-05-18.csv")
+urti_v3 <- read_csv("lists_in/Elsie/elsie-horne-urti-2-2020-11-23T08-06-45.csv")
+influenza_v3 <- read_csv("lists_in/Elsie/elsie-horne-influenza-2020-11-19T16-17-53.csv")
+sorethroat_v3 <- read_csv("lists_in/Elsie/elsie-horne-sore-throat-2020-11-19T17-41-44.csv")
+sorethroat_other_v3 <- read_csv("lists_in/Elsie/elsie-horne-sore-throat-other-2020-11-19T17-49-18.csv")
 
 infections_v3 <- bind_rows(mutate(cold_v3, cat2 = 'URTI'),
                            mutate(cough_v3, cat2 = 'URTI'),

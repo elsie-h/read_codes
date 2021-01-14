@@ -32,7 +32,7 @@ asthma_review <- asthma_review %>%
 asthma_review$read_code[duplicated(asthma_review$read_code)]
 
 # save the code list
-write_csv(asthma_review, path = 'lists_out/asthma_review.RDS')
+write_csv(asthma_review, path = 'lists_out/asthma_review.csv')
 
 # table for appendix
 asthma_review %>%
