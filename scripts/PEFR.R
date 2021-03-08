@@ -61,7 +61,29 @@ pefr_codes <- bind_rows(pefr_qof, pefr_manual)
 # check for duplicates in read_code
 pefr_codes$read_code[duplicated(pefr_codes$read_code)]
 
-write_csv(pefr_codes, path = 'lists_out/PEFR.csv')
+write_csv(pefr_codes, 
+          path = file.path(opcrd_analysis_path, 'PEFR.csv'))
+write_csv(pefr_codes %>%
+            filter(cat2 %in% 'home_monitoring') %>%
+            arrange(read_code) %>%
+            select(`Read code` = read_code,
+                   Term = read_term) %>%
+            mutate(QOF = 'Y'), 
+          path = 'lists_out/PEFR_home.csv')
+write_csv(pefr_codes %>%
+            filter(!(cat2 %in% 'home_monitoring')) %>%
+            mutate_at('cat2', factor,
+                      levels = c('PEFR', 'post', 
+                                 'predicted PEFR', '% predicted PEFR', 
+                                 '<60% PEFR', '60-80% PEFR', '>80% PEFR')) %>%
+            arrange(cat2, read_code) %>%
+            select(Category = cat2,
+                   `Read code` = read_code,
+                   Term = read_term,
+                   QOF) %>%
+            mutate_at('QOF', list(~ case_when(. %in% 1 ~ 'Y',
+                                              TRUE ~ 'N'))), 
+          path = 'lists_out/PEFR.csv')
 
 # table for appendix: PEFR
 pefr_table <- pefr_codes %>%

@@ -1,6 +1,5 @@
 Allergic condition,Read code,Term
 anaphylaxis,14M5.,H/O: anaphylactic shock
-anaphylaxis,XaL31,H/O: anaphylactic shock
 anaphylaxis,D3100,Anaphylactoid purpura
 anaphylaxis,K0323,Anaphylactoid glomerulonephritis
 anaphylaxis,SN50.,Anaphylactic shock
@@ -9,10 +8,7 @@ anaphylaxis,SN501,Anaphylactic shock due to adverse effect of correct drug or me
 anaphylaxis,SN593,Anaphylactic shock due to bee sting
 anaphylaxis,SN594,Anaphylactic shock due to wasp sting
 anaphylaxis,SP0G.,Anaphylactoid reaction due to haemodialysis
-anaphylaxis,XaZmp,Anaphylactoid reaction due to haemodialysis
 anaphylaxis,SP34.,Anaphylactic shock due to serum
-anaphylaxis,ZV1B3,[V]Personal history of food induced anaphylaxis
-anaphylaxis,XaG0G,[V]Personal history of food induced anaphylaxis
 anaphylaxis,X208h,Anaphylactoid shock
 anaphylaxis,X30Lt,Anaphylactoid reaction to dialysis
 anaphylaxis,X70vi,Venom-induced anaphylaxis
@@ -42,14 +38,61 @@ anaphylaxis,X70w6,Dialysis membrane-induced anaphylactoid reaction
 anaphylaxis,X70w7,Exercise anaphylaxis
 anaphylaxis,X70w8,Cholinergic anaphylactoid reaction
 anaphylaxis,X70w9,Idiopathic anaphylaxis
+anaphylaxis,XaG0G,[V]Personal history of food induced anaphylaxis
+anaphylaxis,XaL31,H/O: anaphylactic shock
+anaphylaxis,XaZmp,Anaphylactoid reaction due to haemodialysis
+anaphylaxis,ZV1B3,[V]Personal history of food induced anaphylaxis
 angioedema or urticaria,C3760,Hereditary angio-oedema
+angioedema or urticaria,M28..,Urticaria
+angioedema or urticaria,M280.,Allergic urticaria
+angioedema or urticaria,M281.,Idiopathic urticaria
+angioedema or urticaria,M282.,Urticaria due to cold and heat
+angioedema or urticaria,M2820,Cold urticaria
+angioedema or urticaria,M2821,Thermal urticaria
+angioedema or urticaria,M282z,Urticaria due to cold and heat NOS
+angioedema or urticaria,M283.,Dermatographic urticaria
+angioedema or urticaria,M284.,Vibratory urticaria
+angioedema or urticaria,M285.,Cholinergic urticaria
+angioedema or urticaria,M286.,Contact urticaria
+angioedema or urticaria,M287.,Physical urticaria
+angioedema or urticaria,M28y.,Other specified urticaria
+angioedema or urticaria,M28y0,Urticaria geographica
+angioedema or urticaria,M28y1,Menstrual urticaria
+angioedema or urticaria,M28y2,Urticaria persistans
+angioedema or urticaria,M28yz,Other specified urticaria NOS
+angioedema or urticaria,M28z.,Urticaria NOS
+angioedema or urticaria,Myu4.,[X]Urticaria and erythema
+angioedema or urticaria,Myu40,[X]Other urticaria
+angioedema or urticaria,Myu42,[X]Other chronic figurate erythema
+angioedema or urticaria,PH321,Urticaria pigmentosa
+angioedema or urticaria,Q47y0,Urticaria neonatorum
 angioedema or urticaria,SN51.,Angioneurotic oedema
 angioedema or urticaria,SN510,Acquired C1 esterase inhibitor deficiency
-angioedema or urticaria,X70wB,Acquired C1 esterase inhibitor deficiency
 angioedema or urticaria,SN511,Hereditary C1 esterase inhibitor deficiency
+angioedema or urticaria,SP354,Urticaria due to serum
 angioedema or urticaria,X20IJ,Hereditary C1 esterase inhibitor defic - deficient factor
 angioedema or urticaria,X20IK,Hereditary C1 esterase inhib defic - dysfunctional factor
+angioedema or urticaria,X504R,Cold erythema - disorder
+angioedema or urticaria,X5050,Solar urticaria
+angioedema or urticaria,X506B,Non-immunological contact urticaria
 angioedema or urticaria,X508a,Vibratory angio-oedema
+angioedema or urticaria,X508b,Aquagenic urticaria
+angioedema or urticaria,X508c,Aquagenic pruritus
+angioedema or urticaria,X508e,Immune complex urticaria
+angioedema or urticaria,X508N,Drug-induced urticaria
+angioedema or urticaria,X508O,Erythema fugax
+angioedema or urticaria,X508P,Physical urticaria
+angioedema or urticaria,X508Q,Symptomatic dermographism
+angioedema or urticaria,X508R,Delayed dermographism
+angioedema or urticaria,X508S,Delayed pressure urticaria
+angioedema or urticaria,X508T,Familial cold urticaria
+angioedema or urticaria,X508U,Cold reflex urticaria
+angioedema or urticaria,X508V,Delayed cold sensitivity
+angioedema or urticaria,X508W,Persisting cholinergic urticaria
+angioedema or urticaria,X508X,Cholinergic pruritus
+angioedema or urticaria,X508Z,Reflex urticaria
+angioedema or urticaria,X70w7,Exercise anaphylaxis
+angioedema or urticaria,X70wB,Acquired C1 esterase inhibitor deficiency
 angioedema or urticaria,X70wC,Venom-induced angio-oedema-urticaria
 angioedema or urticaria,X70wD,Food-induced angio-oedema-urticaria
 angioedema or urticaria,X70wE,Drug-aggravated angio-oedema-urticaria
@@ -61,80 +104,37 @@ angioedema or urticaria,X70wJ,Azo-dye-induced angio-oedema-urticaria
 angioedema or urticaria,X70wK,Sodium benzoate-induced angio-oedema-urticaria
 angioedema or urticaria,X70wL,Latex-induced angio-oedema-urticaria
 angioedema or urticaria,Xa0WK,Penicillin-induced angio-oedema-urticaria
-angioedema or urticaria,M28..,Urticaria
-angioedema or urticaria,M280.,Allergic urticaria
-angioedema or urticaria,XE1BR,Allergic urticaria
-angioedema or urticaria,M281.,Idiopathic urticaria
-angioedema or urticaria,M282.,Urticaria due to cold and heat
-angioedema or urticaria,M2820,Cold urticaria
-angioedema or urticaria,M2821,Thermal urticaria
-angioedema or urticaria,M282z,Urticaria due to cold and heat NOS
-angioedema or urticaria,M283.,Dermatographic urticaria
-angioedema or urticaria,M284.,Vibratory urticaria
-angioedema or urticaria,M285.,Cholinergic urticaria
-angioedema or urticaria,M286.,Contact urticaria
-angioedema or urticaria,M287.,Physical urticaria
-angioedema or urticaria,X508P,Physical urticaria
-angioedema or urticaria,M28y.,Other specified urticaria
-angioedema or urticaria,XE1BS,Other specified urticaria
-angioedema or urticaria,M28y0,Urticaria geographica
-angioedema or urticaria,M28y1,Menstrual urticaria
-angioedema or urticaria,M28y2,Urticaria persistans
-angioedema or urticaria,M28yz,Other specified urticaria NOS
-angioedema or urticaria,M28z.,Urticaria NOS
-angioedema or urticaria,XE1BT,Urticaria NOS
-angioedema or urticaria,Myu4.,[X]Urticaria and erythema
-angioedema or urticaria,Myu40,[X]Other urticaria
-angioedema or urticaria,Myu42,[X]Other chronic figurate erythema
-angioedema or urticaria,PH321,Urticaria pigmentosa
-angioedema or urticaria,Q47y0,Urticaria neonatorum
-angioedema or urticaria,SP354,Urticaria due to serum
-angioedema or urticaria,X504R,Cold erythema - disorder
-angioedema or urticaria,X5050,Solar urticaria
-angioedema or urticaria,X506B,Non-immunological contact urticaria
-angioedema or urticaria,X508N,Drug-induced urticaria
-angioedema or urticaria,X508O,Erythema fugax
-angioedema or urticaria,X508Q,Symptomatic dermographism
-angioedema or urticaria,X508R,Delayed dermographism
-angioedema or urticaria,X508S,Delayed pressure urticaria
-angioedema or urticaria,X508T,Familial cold urticaria
-angioedema or urticaria,X508U,Cold reflex urticaria
-angioedema or urticaria,X508V,Delayed cold sensitivity
-angioedema or urticaria,X508W,Persisting cholinergic urticaria
-angioedema or urticaria,X508X,Cholinergic pruritus
-angioedema or urticaria,X508Z,Reflex urticaria
-angioedema or urticaria,X508b,Aquagenic urticaria
-angioedema or urticaria,X508c,Aquagenic pruritus
-angioedema or urticaria,X508e,Immune complex urticaria
-angioedema or urticaria,X70w7,Exercise anaphylaxis
-angioedema or urticaria,XC0si,Minimal urticarial dose
-angioedema or urticaria,XE1D0,(Urticaria NOS) or (hives) or (pachydermia)
-angioedema or urticaria,XE1tH,(Angioneurotic oedema) or (urticaria)
-angioedema or urticaria,XE2aJ,Dermographism
-angioedema or urticaria,Xa8EW,Acute idiopathic urticaria
-angioedema or urticaria,Xa8EX,Chronic idiopathic urticaria
-angioedema or urticaria,Xa8EY,Idiopathic micropapular urticaria
 angioedema or urticaria,Xa8Ea,Idiopathic cold urticaria
 angioedema or urticaria,Xa8Eb,Cold urticaria with agglutinins
 angioedema or urticaria,Xa8Ec,Cold urticaria with cryoglobulins
 angioedema or urticaria,Xa8Ef,Bullous urticaria
 angioedema or urticaria,Xa8Eg,Arthus reaction
+angioedema or urticaria,Xa8EW,Acute idiopathic urticaria
+angioedema or urticaria,Xa8EX,Chronic idiopathic urticaria
+angioedema or urticaria,Xa8EY,Idiopathic micropapular urticaria
 angioedema or urticaria,Xa9DQ,Urticarial transfusion reaction
-conjunctivitis,F4C06,Acute atopic conjunctivitis
-conjunctivitis,F4C13,Vernal conjunctivitis
+angioedema or urticaria,XC0si,Minimal urticarial dose
+angioedema or urticaria,XE1BR,Allergic urticaria
+angioedema or urticaria,XE1BS,Other specified urticaria
+angioedema or urticaria,XE1BT,Urticaria NOS
+angioedema or urticaria,XE1D0,(Urticaria NOS) or (hives) or (pachydermia)
+angioedema or urticaria,XE1tH,(Angioneurotic oedema) or (urticaria)
+angioedema or urticaria,XE2aJ,Dermographism
 conjunctivitis,F4A31,Vernal conjunctivitis
-conjunctivitis,F4C14,Other chronic allergic conjunctivitis
-conjunctivitis,XE16b,Other chronic allergic conjunctivitis
-conjunctivitis,F4C1z,Chronic conjunctivitis NOS
+conjunctivitis,F4C06,Acute atopic conjunctivitis
 conjunctivitis,F4C1.,Chronic conjunctivitis
 conjunctivitis,F4C10,Unspecified chronic conjunctivitis
 conjunctivitis,F4C11,Simple chronic conjunctivitis
 conjunctivitis,F4C12,Chronic follicular conjunctivitis
+conjunctivitis,F4C13,Vernal conjunctivitis
+conjunctivitis,F4C14,Other chronic allergic conjunctivitis
+conjunctivitis,F4C1z,Chronic conjunctivitis NOS
 conjunctivitis,X00Zi,Atopic conjunctivitis
 conjunctivitis,X00Zj,Seasonal allergic conjunctivitis
 conjunctivitis,X00Zk,Perennial allergic conjunctivitis
 conjunctivitis,X00Zl,Giant papillary conjunctivitis
 conjunctivitis,XaF7u,Contact lens related giant papillary conjunctivitis
+conjunctivitis,XE16b,Other chronic allergic conjunctivitis
 drug allergy,14L..,H/O: drug allergy
 drug allergy,14L1.,H/O: penicillin allergy
 drug allergy,14L2.,H/O: antibiotic allergy NOS
@@ -155,70 +155,31 @@ drug allergy,14LG.,H/O: metronidazole allergy
 drug allergy,14LH.,H/O: nalidixic acid allergy
 drug allergy,14LI.,H/O: nitrofurantoin allergy
 drug allergy,14LJ.,H/O: influenza vaccine allergy
-drug allergy,XaIAA,H/O: influenza vaccine allergy
 drug allergy,14LK.,H/O: aspirin allergy
-drug allergy,XaIpk,H/O: aspirin allergy
 drug allergy,14LL.,H/O: betablocker allergy
-drug allergy,XaJ5x,H/O: betablocker allergy
 drug allergy,14LM.,H/O: angiotensin converting enzyme inhibitor allergy
-drug allergy,XaJ5y,H/O: angiotensin converting enzyme inhibitor allergy
 drug allergy,14LN.,H/O: angiotensin II receptor antagonist allergy
-drug allergy,XaJ5z,H/O: angiotensin II receptor antagonist allergy
 drug allergy,14LP.,H/O: warfarin allergy
-drug allergy,XaJ60,H/O: warfarin allergy
 drug allergy,14LQ.,H/O: clopidogrel allergy
-drug allergy,XaJ3e,H/O: clopidogrel allergy
 drug allergy,14LR.,H/O: pneumococcal vaccine allergy
-drug allergy,XaKFa,H/O: pneumococcal vaccine allergy
 drug allergy,14LS.,H/O: combined calcium and vitamin D3 preparation allergy
-drug allergy,XaKap,H/O: combined calcium and vitamin D3 preparation allergy
 drug allergy,14LV.,H/O: selective oestrogen receptor modulator allergy
-drug allergy,XaKas,H/O: selective oestrogen receptor modulator allergy
 drug allergy,14LW.,H/O: strontium ranelate allergy
-drug allergy,XaKat,H/O: strontium ranelate allergy
 drug allergy,14LX.,H/O: dipyridamole allergy
-drug allergy,XaLHt,H/O: dipyridamole allergy
 drug allergy,14LZ.,H/O: drug allergy NOS
 drug allergy,66G4.,Allergy drug side effect
+drug allergy,SN501,Anaphylactic shock due to adverse effect of correct drug or medicament properly administered
 drug allergy,SN52.,Drug hypersensitivity NOS
-drug allergy,XE1os,Drug hypersensitivity NOS
-drug allergy,ZV14.,[V]Personal history of drug allergy
-drug allergy,ZV140,[V]Personal history of penicillin allergy
-drug allergy,ZV141,[V]Personal history of other antibiotic allergy
-drug allergy,ZV142,[V]Personal history of sulphonamide allergy
-drug allergy,ZV143,[V]Personal history of other anti-infective agent allergy
-drug allergy,ZV144,[V]Personal history of anaesthetic agent allergy
-drug allergy,ZV145,[V]Personal history of narcotic agent allergy
-drug allergy,ZV146,[V]Personal history of analgesic agent allergy
-drug allergy,ZV147,[V]Personal history of serum or vaccine allergy
-drug allergy,ZV148,[V]Personal history of aspirin allergy
-drug allergy,XaDzd,[V]Personal history of aspirin allergy
-drug allergy,ZV149,[V]Personal history of co-proxamol allergy
-drug allergy,XaDze,[V]Personal history of co-proxamol allergy
-drug allergy,ZV14A,[V]Personal history of warfarin allergy
-drug allergy,XaJ8B,[V]Personal history of warfarin allergy
-drug allergy,ZV14B,[V]Personal history of clopidogrel allergy
-drug allergy,XaJ8V,[V]Personal history of clopidogrel allergy
-drug allergy,ZV14C,[V]Personal history of betablocker allergy
-drug allergy,XaJ8U,[V]Personal history of betablocker allergy
-drug allergy,ZV14D,[V]Personal history of angiotensin-converting-enzyme inhibitor allergy
-drug allergy,ZV14E,[V]Personal history of angiotensin II receptor antagonist allergy
-drug allergy,ZV14F,[V]Personal history of influenza vaccine allergy
-drug allergy,XaJ8X,[V]Personal history of influenza vaccine allergy
-drug allergy,ZV14G,[V]Personal history of pneumococcal vaccine allergy
-drug allergy,XaKJr,[V]Personal history of pneumococcal vaccine allergy
-drug allergy,ZV14H,[V]Personal history of strontium ranelate allergy
-drug allergy,XaKdj,[V]Personal history of strontium ranelate allergy
-drug allergy,ZV14J,[V]Personal history of selective oestrogen receptor modulator allergy
-drug allergy,ZV14K,[V]Personal history of bisphosphonate allergy
-drug allergy,XaKdW,[V]Personal history of bisphosphonate allergy
-drug allergy,ZV14L,[V]Personal history of calcium allergy
-drug allergy,XaKdX,[V]Personal history of calcium allergy
-drug allergy,ZV14M,[V]Personal history of vitamin D3 allergy
-drug allergy,XaKdY,[V]Personal history of vitamin D3 allergy
-drug allergy,ZV14y,[V]Personal history of other specified drug allergy
-drug allergy,ZV14z,[V]Personal history of unspecified drug allergy
-drug allergy,XE1tJ,Drug hypersensitivity (& [NOS])
+drug allergy,X508N,Drug-induced urticaria
+drug allergy,X70vr,Drug-induced anaphylaxis
+drug allergy,X70vs,Penicillin-induced anaphylaxis
+drug allergy,X70w2,Drug-induced anaphylactoid reaction
+drug allergy,X70w3,NSAID-induced anaphylactoid reaction
+drug allergy,X70w4,Aspirin-induced anaphylactoid reaction
+drug allergy,X70wE,Drug-aggravated angio-oedema-urticaria
+drug allergy,X70wF,NSAID-induced angio-oedema-urticaria
+drug allergy,X70wG,Aspirin-induced angio-oedema-urticaria
+drug allergy,Xa0WK,Penicillin-induced angio-oedema-urticaria
 drug allergy,Xa1pS,Allergic reaction to drug
 drug allergy,Xa5dk,Allergy to over-the-counter drug
 drug allergy,Xa5dl,Analgesics and non-steroidal anti-inflammatory drug allergy
@@ -246,58 +207,58 @@ drug allergy,Xa5e6,Opium alkaloid allergy
 drug allergy,Xa5e7,Pethidine analogue allergy
 drug allergy,Xa5e8,Alfentanil allergy
 drug allergy,Xa5e9,Fentanyl allergy
-drug allergy,Xa5eA,Pethidine allergy
-drug allergy,Xa5eB,Phenoperidine allergy
-drug allergy,Xa5eC,Meptazinol allergy
-drug allergy,Xa5eD,Levorphanol allergy
-drug allergy,Xa5eE,Non-steroidal anti-inflammatory drug allergy
-drug allergy,Xa5eF,Acemetacin allergy
-drug allergy,Xa5eG,Azapropazone allergy
-drug allergy,Xa5eH,Diclofenac allergy
-drug allergy,Xa5eI,Etodolac allergy
-drug allergy,Xa5eJ,Felbinac allergy
-drug allergy,Xa5eK,Fenbufen allergy
-drug allergy,Xa5eL,Fenoprofen allergy
-drug allergy,Xa5eM,Flurbiprofen allergy
-drug allergy,Xa5eN,Ibuprofen allergy
-drug allergy,Xa5eO,Indometacin allergy
-drug allergy,Xa5eP,Ketoprofen allergy
-drug allergy,Xa5eQ,Ketorolac allergy
-drug allergy,Xa5eR,Mefenamic acid allergy
-drug allergy,Xa5eS,Nabumetone allergy
-drug allergy,Xa5eT,Naproxen allergy
-drug allergy,Xa5eU,Nefopam allergy
-drug allergy,Xa5eV,Oxyphenbutazone allergy
-drug allergy,Xa5eW,Phenylbutazone allergy
-drug allergy,Xa5eX,Piroxicam allergy
-drug allergy,Xa5eY,Sulindac allergy
-drug allergy,Xa5eZ,Tenoxicam allergy
 drug allergy,Xa5ea,Tiaprofenic acid allergy
+drug allergy,Xa5eA,Pethidine allergy
 drug allergy,Xa5eb,Tolmetin allergy
+drug allergy,Xa5eB,Phenoperidine allergy
 drug allergy,Xa5ec,Diagnostic agent allergy
+drug allergy,Xa5eC,Meptazinol allergy
 drug allergy,Xa5ed,Tuberculin allergy
+drug allergy,Xa5eD,Levorphanol allergy
 drug allergy,Xa5ee,Radiopharmaceutical allergy
+drug allergy,Xa5eE,Non-steroidal anti-inflammatory drug allergy
 drug allergy,Xa5ef,Contrast media allergy
+drug allergy,Xa5eF,Acemetacin allergy
 drug allergy,Xa5eg,X-ray contrast media allergy
+drug allergy,Xa5eG,Azapropazone allergy
 drug allergy,Xa5eh,Magnetic resonance imaging contrast media allergy
+drug allergy,Xa5eH,Diclofenac allergy
 drug allergy,Xa5ei,Allergen extract vaccine allergy
+drug allergy,Xa5eI,Etodolac allergy
 drug allergy,Xa5ej,Diagnostic dye allergy
+drug allergy,Xa5eJ,Felbinac allergy
 drug allergy,Xa5ek,Drug groups primarily affecting gastrointestin syst allergy
+drug allergy,Xa5eK,Fenbufen allergy
 drug allergy,Xa5el,Ulcer healing drug allergy
+drug allergy,Xa5eL,Fenoprofen allergy
 drug allergy,Xa5em,Bismuth chelate allergy
+drug allergy,Xa5eM,Flurbiprofen allergy
 drug allergy,Xa5en,Sucralfate allergy
+drug allergy,Xa5eN,Ibuprofen allergy
 drug allergy,Xa5eo,Liquorice allergy
+drug allergy,Xa5eO,Indometacin allergy
 drug allergy,Xa5ep,Misoprostol allergy
+drug allergy,Xa5eP,Ketoprofen allergy
 drug allergy,Xa5eq,H2 receptor antagonist allergy
+drug allergy,Xa5eQ,Ketorolac allergy
 drug allergy,Xa5er,Cimetidine allergy
+drug allergy,Xa5eR,Mefenamic acid allergy
 drug allergy,Xa5es,Famotidine allergy
+drug allergy,Xa5eS,Nabumetone allergy
 drug allergy,Xa5et,Nizatidine allergy
+drug allergy,Xa5eT,Naproxen allergy
 drug allergy,Xa5eu,Ranitidine allergy
+drug allergy,Xa5eU,Nefopam allergy
 drug allergy,Xa5ev,Proton pump inhibitor allergy
+drug allergy,Xa5eV,Oxyphenbutazone allergy
 drug allergy,Xa5ew,Omeprazole allergy
+drug allergy,Xa5eW,Phenylbutazone allergy
 drug allergy,Xa5ex,Lansoprazole allergy
+drug allergy,Xa5eX,Piroxicam allergy
 drug allergy,Xa5ey,Carbenoxolone allergy
+drug allergy,Xa5eY,Sulindac allergy
 drug allergy,Xa5ez,Pirenzepine allergy
+drug allergy,Xa5eZ,Tenoxicam allergy
 drug allergy,Xa5f0,Pancreatin allergy
 drug allergy,Xa5f1,5-aminosalicylic acid allergy
 drug allergy,Xa5f2,Mesalazine allergy
@@ -308,58 +269,58 @@ drug allergy,Xa5f6,Magnesium trisilicate allergy
 drug allergy,Xa5f7,Aluminium hydroxide allergy
 drug allergy,Xa5f8,Antidiarrhoeal drug allergy
 drug allergy,Xa5f9,Loperamide allergy
-drug allergy,Xa5fA,Kaolin allergy
-drug allergy,Xa5fB,Motility stimulant allergy
-drug allergy,Xa5fC,Cisapride allergy
-drug allergy,Xa5fD,Antiemetic allergy
-drug allergy,Xa5fE,Nabilone allergy
-drug allergy,Xa5fF,Domperidone allergy
-drug allergy,Xa5fG,Metoclopramide allergy
-drug allergy,Xa5fH,5-HT3-receptor antagonist allergy
-drug allergy,Xa5fI,Laxative allergy
-drug allergy,Xa5fJ,Bisacodyl allergy
-drug allergy,Xa5fK,Dantron allergy
-drug allergy,Xa5fL,Sodium picosulfate allergy
-drug allergy,Xa5fM,Lactulose allergy
-drug allergy,Xa5fN,Magnesium sulphate allergy
-drug allergy,Xa5fO,Bulk-forming laxative allergy
-drug allergy,Xa5fP,Anthraquinone laxative allergy
-drug allergy,Xa5fQ,Cascara allergy
-drug allergy,Xa5fR,Senna allergy
-drug allergy,Xa5fS,Docusate allergy
-drug allergy,Xa5fT,Antispasmodic allergy
-drug allergy,Xa5fU,Hyoscine butylbromide allergy
-drug allergy,Xa5fV,Peppermint oil allergy
-drug allergy,Xa5fW,Alverine allergy
-drug allergy,Xa5fX,Mebeverine allergy
-drug allergy,Xa5fY,Dicycloverine allergy
-drug allergy,Xa5fZ,Mepenzolate allergy
 drug allergy,Xa5fa,Pipenzolate allergy
+drug allergy,Xa5fA,Kaolin allergy
 drug allergy,Xa5fb,Poldine allergy
+drug allergy,Xa5fB,Motility stimulant allergy
 drug allergy,Xa5fc,Propantheline allergy
+drug allergy,Xa5fC,Cisapride allergy
 drug allergy,Xa5fd,Bile agent allergy
+drug allergy,Xa5fD,Antiemetic allergy
 drug allergy,Xa5fe,Chenodeoxycholic acid allergy
+drug allergy,Xa5fE,Nabilone allergy
 drug allergy,Xa5ff,Dehydrocholic acid allergy
+drug allergy,Xa5fF,Domperidone allergy
 drug allergy,Xa5fg,Ursodeoxycholic acid allergy
+drug allergy,Xa5fG,Metoclopramide allergy
 drug allergy,Xa5fh,Chenodeoxycholic and ursodeoxycholic acid allergy
+drug allergy,Xa5fH,5-HT3-receptor antagonist allergy
 drug allergy,Xa5fi,Anaesthetics and medical gases allergy
+drug allergy,Xa5fI,Laxative allergy
 drug allergy,Xa5fj,General anaesthetic drug allergy
+drug allergy,Xa5fJ,Bisacodyl allergy
 drug allergy,Xa5fk,Intravenous anaesthetics allergy
+drug allergy,Xa5fK,Dantron allergy
 drug allergy,Xa5fl,Etomidate allergy
+drug allergy,Xa5fL,Sodium picosulfate allergy
 drug allergy,Xa5fm,Ketamine allergy
+drug allergy,Xa5fM,Lactulose allergy
 drug allergy,Xa5fn,Propofol allergy
+drug allergy,Xa5fN,Magnesium sulphate allergy
 drug allergy,Xa5fo,Thiopental allergy
+drug allergy,Xa5fO,Bulk-forming laxative allergy
 drug allergy,Xa5fp,Methohexitone allergy
+drug allergy,Xa5fP,Anthraquinone laxative allergy
 drug allergy,Xa5fq,Inhalational anaesthetics allergy
+drug allergy,Xa5fQ,Cascara allergy
 drug allergy,Xa5fr,Enflurane allergy
+drug allergy,Xa5fR,Senna allergy
 drug allergy,Xa5fs,"Ether, anaesthetic allergy"
+drug allergy,Xa5fS,Docusate allergy
 drug allergy,Xa5ft,Halothane allergy
+drug allergy,Xa5fT,Antispasmodic allergy
 drug allergy,Xa5fu,Isoflurane allergy
+drug allergy,Xa5fU,Hyoscine butylbromide allergy
 drug allergy,Xa5fv,Trichloroethylene allergy
+drug allergy,Xa5fV,Peppermint oil allergy
 drug allergy,Xa5fw,Desflurane allergy
+drug allergy,Xa5fW,Alverine allergy
 drug allergy,Xa5fx,Local anaesthetic drug allergy
+drug allergy,Xa5fX,Mebeverine allergy
 drug allergy,Xa5fy,Bupivacaine allergy
+drug allergy,Xa5fY,Dicycloverine allergy
 drug allergy,Xa5fz,Cinchocaine allergy
+drug allergy,Xa5fZ,Mepenzolate allergy
 drug allergy,Xa5g0,Prilocaine allergy
 drug allergy,Xa5g1,Lidocaine allergy
 drug allergy,Xa5g2,Cocaine allergy
@@ -370,58 +331,58 @@ drug allergy,Xa5g6,Procaine allergy
 drug allergy,Xa5g7,Proxymetacaine allergy
 drug allergy,Xa5g8,Antineoplastic/immunosuppressant/immunostimulant allergy
 drug allergy,Xa5g9,Immunostimulant allergy
-drug allergy,Xa5gA,Amifostine allergy
-drug allergy,Xa5gB,Aldesleukin allergy
-drug allergy,Xa5gC,Colony stimulating factors allergy
-drug allergy,Xa5gD,Molgramostim allergy
-drug allergy,Xa5gE,Lenograstim allergy
-drug allergy,Xa5gF,Filgrastim allergy
-drug allergy,Xa5gG,Levamisole allergy
-drug allergy,Xa5gH,Antineoplastic allergy
-drug allergy,Xa5gI,Alkylating drug allergy
-drug allergy,Xa5gJ,Mitobronitol allergy
-drug allergy,Xa5gK,Busulfan allergy
-drug allergy,Xa5gL,Treosulfan allergy
-drug allergy,Xa5gM,Thiotepa allergy
-drug allergy,Xa5gN,Nitrogen mustard derivative allergy
-drug allergy,Xa5gO,Chlorambucil allergy
-drug allergy,Xa5gP,Cyclophosphamide allergy
-drug allergy,Xa5gQ,Ethoglucid allergy
-drug allergy,Xa5gR,Ifosfamide allergy
-drug allergy,Xa5gS,Melphalan allergy
-drug allergy,Xa5gT,Estramustine allergy
-drug allergy,Xa5gU,Chlormethine allergy
-drug allergy,Xa5gV,Nitrosurea allergy
-drug allergy,Xa5gW,Carmustine allergy
-drug allergy,Xa5gX,Lomustine allergy
-drug allergy,Xa5gY,Triazene antineoplastic allergy
-drug allergy,Xa5gZ,Dacarbazine allergy
 drug allergy,Xa5ga,Cytotoxic antibiotic allergy
+drug allergy,Xa5gA,Amifostine allergy
 drug allergy,Xa5gb,Dactinomycin allergy
+drug allergy,Xa5gB,Aldesleukin allergy
 drug allergy,Xa5gc,Bleomycin allergy
+drug allergy,Xa5gC,Colony stimulating factors allergy
 drug allergy,Xa5gd,Mitomycin allergy
+drug allergy,Xa5gD,Molgramostim allergy
 drug allergy,Xa5ge,Plicamycin allergy
+drug allergy,Xa5gE,Lenograstim allergy
 drug allergy,Xa5gf,Aclarubicin allergy
+drug allergy,Xa5gF,Filgrastim allergy
 drug allergy,Xa5gg,Mitoxantrone allergy
+drug allergy,Xa5gG,Levamisole allergy
 drug allergy,Xa5gh,Doxorubicin allergy
+drug allergy,Xa5gH,Antineoplastic allergy
 drug allergy,Xa5gi,Epirubicin allergy
+drug allergy,Xa5gI,Alkylating drug allergy
 drug allergy,Xa5gj,Idarubicin allergy
+drug allergy,Xa5gJ,Mitobronitol allergy
 drug allergy,Xa5gk,Antimetabolite allergy
+drug allergy,Xa5gK,Busulfan allergy
 drug allergy,Xa5gl,Mercuric oxide allergy
+drug allergy,Xa5gL,Treosulfan allergy
 drug allergy,Xa5gm,Methotrexate allergy
+drug allergy,Xa5gM,Thiotepa allergy
 drug allergy,Xa5gn,Mercaptopurine allergy
+drug allergy,Xa5gN,Nitrogen mustard derivative allergy
 drug allergy,Xa5go,Tioguanine allergy
+drug allergy,Xa5gO,Chlorambucil allergy
 drug allergy,Xa5gp,Pentostatin allergy
+drug allergy,Xa5gP,Cyclophosphamide allergy
 drug allergy,Xa5gq,Cytarabine allergy
+drug allergy,Xa5gQ,Ethoglucid allergy
 drug allergy,Xa5gr,Fluorouracil allergy
+drug allergy,Xa5gR,Ifosfamide allergy
 drug allergy,Xa5gs,Etoposide allergy
+drug allergy,Xa5gS,Melphalan allergy
 drug allergy,Xa5gt,Amsacrine allergy
+drug allergy,Xa5gT,Estramustine allergy
 drug allergy,Xa5gu,Carboplatin allergy
+drug allergy,Xa5gU,Chlormethine allergy
 drug allergy,Xa5gv,Cisplatin allergy
+drug allergy,Xa5gV,Nitrosurea allergy
 drug allergy,Xa5gw,Hydroxycarbamide allergy
+drug allergy,Xa5gW,Carmustine allergy
 drug allergy,Xa5gx,Procarbazine allergy
+drug allergy,Xa5gX,Lomustine allergy
 drug allergy,Xa5gy,Razoxane allergy
+drug allergy,Xa5gY,Triazene antineoplastic allergy
 drug allergy,Xa5gz,Crisantaspase allergy
+drug allergy,Xa5gZ,Dacarbazine allergy
 drug allergy,Xa5h0,Paclitaxel allergy
 drug allergy,Xa5h1,Fludarabine allergy
 drug allergy,Xa5h2,Aminoglutethimide allergy
@@ -432,58 +393,58 @@ drug allergy,Xa5h6,Formestane allergy
 drug allergy,Xa5h7,Vinca alkaloid allergy
 drug allergy,Xa5h8,Vinblastine allergy
 drug allergy,Xa5h9,Vincristine allergy
-drug allergy,Xa5hA,Vindesine allergy
-drug allergy,Xa5hB,Dimethyl sulfoxide allergy
-drug allergy,Xa5hC,Immunosuppressant allergy
-drug allergy,Xa5hD,Ciclosporin allergy
-drug allergy,Xa5hE,Azathioprine allergy
-drug allergy,Xa5hF,Drug groups primarily affect central nervous system allergy
-drug allergy,Xa5hG,Centrally acting appetite suppressant allergy
-drug allergy,Xa5hH,Mazindol allergy
-drug allergy,Xa5hI,Phentermine allergy
-drug allergy,Xa5hJ,Dexfenfluramine allergy
-drug allergy,Xa5hK,Diethylpropion allergy
-drug allergy,Xa5hL,Fenfluramine allergy
-drug allergy,Xa5hM,Dopaminergic drug used in parkinsonism allergy
-drug allergy,Xa5hN,Levodopa allergy
-drug allergy,Xa5hO,Co-beneldopa allergy
-drug allergy,Xa5hP,Co-careldopa allergy
-drug allergy,Xa5hQ,Amantadine allergy
-drug allergy,Xa5hR,Apomorphine allergy
-drug allergy,Xa5hS,Lisuride allergy
-drug allergy,Xa5hT,Pergolide allergy
-drug allergy,Xa5hU,Bromocriptine allergy
-drug allergy,Xa5hV,Antidepressant drug allergy
-drug allergy,Xa5hW,Lithium allergy
-drug allergy,Xa5hX,Lithium carbonate allergy
-drug allergy,Xa5hY,Lithium citrate allergy
-drug allergy,Xa5hZ,Tricyclic antidepressant drug allergy
 drug allergy,Xa5ha,Butriptyline allergy
+drug allergy,Xa5hA,Vindesine allergy
 drug allergy,Xa5hb,Doxepin allergy
+drug allergy,Xa5hB,Dimethyl sulfoxide allergy
 drug allergy,Xa5hc,Iprindole allergy
+drug allergy,Xa5hC,Immunosuppressant allergy
 drug allergy,Xa5hd,Lofepramine allergy
+drug allergy,Xa5hD,Ciclosporin allergy
 drug allergy,Xa5he,Nortriptyline allergy
+drug allergy,Xa5hE,Azathioprine allergy
 drug allergy,Xa5hf,Trimipramine allergy
+drug allergy,Xa5hF,Drug groups primarily affect central nervous system allergy
 drug allergy,Xa5hg,Amoxapine allergy
+drug allergy,Xa5hG,Centrally acting appetite suppressant allergy
 drug allergy,Xa5hh,Amitriptyline allergy
+drug allergy,Xa5hH,Mazindol allergy
 drug allergy,Xa5hi,Clomipramine allergy
+drug allergy,Xa5hI,Phentermine allergy
 drug allergy,Xa5hj,Desipramine allergy
+drug allergy,Xa5hJ,Dexfenfluramine allergy
 drug allergy,Xa5hk,Dosulepin allergy
+drug allergy,Xa5hK,Diethylpropion allergy
 drug allergy,Xa5hl,Imipramine allergy
+drug allergy,Xa5hL,Fenfluramine allergy
 drug allergy,Xa5hm,Protriptyline allergy
+drug allergy,Xa5hM,Dopaminergic drug used in parkinsonism allergy
 drug allergy,Xa5hn,Monoamine oxidase inhibitor allergy
+drug allergy,Xa5hN,Levodopa allergy
 drug allergy,Xa5ho,Phenelzine allergy
+drug allergy,Xa5hO,Co-beneldopa allergy
 drug allergy,Xa5hp,Iproniazid allergy
+drug allergy,Xa5hP,Co-careldopa allergy
 drug allergy,Xa5hq,Isocarboxazid allergy
+drug allergy,Xa5hQ,Amantadine allergy
 drug allergy,Xa5hr,Tranylcypromine allergy
+drug allergy,Xa5hR,Apomorphine allergy
 drug allergy,Xa5hs,Moclobemide allergy
+drug allergy,Xa5hS,Lisuride allergy
 drug allergy,Xa5ht,Compound antidepressants allergy
+drug allergy,Xa5hT,Pergolide allergy
 drug allergy,Xa5hu,Tryptophan allergy
+drug allergy,Xa5hU,Bromocriptine allergy
 drug allergy,Xa5hv,Venlafaxine allergy
+drug allergy,Xa5hV,Antidepressant drug allergy
 drug allergy,Xa5hw,Selective serotonin re-uptake inhibitor allergy
+drug allergy,Xa5hW,Lithium allergy
 drug allergy,Xa5hx,Sertraline allergy
+drug allergy,Xa5hX,Lithium carbonate allergy
 drug allergy,Xa5hy,Paroxetine allergy
+drug allergy,Xa5hY,Lithium citrate allergy
 drug allergy,Xa5hz,Nefazodone allergy
+drug allergy,Xa5hZ,Tricyclic antidepressant drug allergy
 drug allergy,Xa5i0,Citalopram allergy
 drug allergy,Xa5i1,Fluoxetine allergy
 drug allergy,Xa5i2,Fluvoxamine allergy
@@ -494,58 +455,58 @@ drug allergy,Xa5i6,Trazodone allergy
 drug allergy,Xa5i7,Viloxazine allergy
 drug allergy,Xa5i8,Antiepileptic allergy
 drug allergy,Xa5i9,Beclamide allergy
-drug allergy,Xa5iA,Lamotrigine allergy
-drug allergy,Xa5iB,Piracetam allergy
-drug allergy,Xa5iC,Gabapentin allergy
-drug allergy,Xa5iD,Sodium valproate allergy
-drug allergy,Xa5iE,Barbiturate antiepileptic allergy
-drug allergy,Xa5iF,Methylphenobarbital allergy
-drug allergy,Xa5iG,Phenobarbital allergy
-drug allergy,Xa5iH,Primidone allergy
-drug allergy,Xa5iI,Carbamazepine allergy
-drug allergy,Xa5iJ,Vigabatrin allergy
-drug allergy,Xa5iK,Phenytoin allergy
-drug allergy,Xa5iL,Ethosuximide allergy
-drug allergy,Xa5iM,Clonazepam allergy
-drug allergy,Xa5iN,Sedative/neuroleptic allergy
-drug allergy,Xa5iO,Sedative allergy
-drug allergy,Xa5iP,Zopiclone allergy
-drug allergy,Xa5iQ,Zolpidem allergy
-drug allergy,Xa5iR,Chlormezanone allergy
-drug allergy,Xa5iS,Methyprylone allergy
-drug allergy,Xa5iT,Paraldehyde allergy
-drug allergy,Xa5iU,Barbiturate sedative allergy
-drug allergy,Xa5iV,Amobarbital allergy
-drug allergy,Xa5iW,Butobarbital allergy
-drug allergy,Xa5iX,Cyclobarbitone allergy
-drug allergy,Xa5iY,Amobarbital sodium allergy
-drug allergy,Xa5iZ,Secobarbital allergy
 drug allergy,Xa5ia,Benzodiazepine sedative allergy
+drug allergy,Xa5iA,Lamotrigine allergy
 drug allergy,Xa5ib,Flunitrazepam allergy
+drug allergy,Xa5iB,Piracetam allergy
 drug allergy,Xa5ic,Flurazepam allergy
+drug allergy,Xa5iC,Gabapentin allergy
 drug allergy,Xa5id,Loprazolam allergy
+drug allergy,Xa5iD,Sodium valproate allergy
 drug allergy,Xa5ie,Lormetazepam allergy
+drug allergy,Xa5iE,Barbiturate antiepileptic allergy
 drug allergy,Xa5if,Nitrazepam allergy
+drug allergy,Xa5iF,Methylphenobarbital allergy
 drug allergy,Xa5ig,Triazolam allergy
+drug allergy,Xa5iG,Phenobarbital allergy
 drug allergy,Xa5ih,Alprazolam allergy
+drug allergy,Xa5iH,Primidone allergy
 drug allergy,Xa5ii,Bromazepam allergy
+drug allergy,Xa5iI,Carbamazepine allergy
 drug allergy,Xa5ij,Chlordiazepoxide allergy
+drug allergy,Xa5iJ,Vigabatrin allergy
 drug allergy,Xa5ik,Clobazam allergy
+drug allergy,Xa5iK,Phenytoin allergy
 drug allergy,Xa5il,Dipotassium clorazepate allergy
+drug allergy,Xa5iL,Ethosuximide allergy
 drug allergy,Xa5im,Ketazolam allergy
+drug allergy,Xa5iM,Clonazepam allergy
 drug allergy,Xa5in,Medazepam allergy
+drug allergy,Xa5iN,Sedative/neuroleptic allergy
 drug allergy,Xa5io,Oxazepam allergy
+drug allergy,Xa5iO,Sedative allergy
 drug allergy,Xa5ip,Prazepam allergy
+drug allergy,Xa5iP,Zopiclone allergy
 drug allergy,Xa5iq,Midazolam allergy
+drug allergy,Xa5iQ,Zolpidem allergy
 drug allergy,Xa5ir,Diazepam allergy
+drug allergy,Xa5iR,Chlormezanone allergy
 drug allergy,Xa5is,Lorazepam allergy
+drug allergy,Xa5iS,Methyprylone allergy
 drug allergy,Xa5it,Temazepam allergy
+drug allergy,Xa5iT,Paraldehyde allergy
 drug allergy,Xa5iu,Carbamate sedative allergy
+drug allergy,Xa5iU,Barbiturate sedative allergy
 drug allergy,Xa5iv,Meprobamate allergy
+drug allergy,Xa5iV,Amobarbital allergy
 drug allergy,Xa5iw,Chloral sedative allergy
+drug allergy,Xa5iW,Butobarbital allergy
 drug allergy,Xa5ix,Chloral hydrate allergy
+drug allergy,Xa5iX,Cyclobarbitone allergy
 drug allergy,Xa5iy,Dichloralphenazone allergy
+drug allergy,Xa5iY,Amobarbital sodium allergy
 drug allergy,Xa5iz,Triclofos sodium allergy
+drug allergy,Xa5iZ,Secobarbital allergy
 drug allergy,Xa5j0,Buspirone allergy
 drug allergy,Xa5j1,Clomethiazole allergy
 drug allergy,Xa5j2,Neuroleptic allergy
@@ -556,58 +517,58 @@ drug allergy,Xa5j6,Risperidone allergy
 drug allergy,Xa5j7,Tetrabenazine allergy
 drug allergy,Xa5j8,Butyrophenone allergy
 drug allergy,Xa5j9,Benperidol allergy
-drug allergy,Xa5jA,Trifluperidol allergy
-drug allergy,Xa5jB,Haloperidol decanoate allergy
-drug allergy,Xa5jC,Droperidol allergy
-drug allergy,Xa5jD,Haloperidol allergy
-drug allergy,Xa5jE,Diphenylbutylpiperidine allergy
-drug allergy,Xa5jF,Pimozide allergy
-drug allergy,Xa5jG,Fluspirilene allergy
-drug allergy,Xa5jH,Phenothiazine allergy
-drug allergy,Xa5jI,Levomepromazine allergy
-drug allergy,Xa5jJ,Pericyazine allergy
-drug allergy,Xa5jK,Fluphenazine decanoate allergy
-drug allergy,Xa5jL,Fluphenazine enanthate allergy
-drug allergy,Xa5jM,Thiethylperazine allergy
-drug allergy,Xa5jN,Fluphenazine allergy
-drug allergy,Xa5jO,Chlorpromazine allergy
-drug allergy,Xa5jP,Pipotiazine allergy
-drug allergy,Xa5jQ,Promazine allergy
-drug allergy,Xa5jR,Thioridazine allergy
-drug allergy,Xa5jS,Perphenazine allergy
-drug allergy,Xa5jT,Prochlorperazine allergy
-drug allergy,Xa5jU,Trifluoperazine allergy
-drug allergy,Xa5jV,Thioxanthene allergy
-drug allergy,Xa5jW,Chlorprothixene allergy
-drug allergy,Xa5jX,Flupentixol decanoate allergy
-drug allergy,Xa5jY,Zuclopenthixol decanoate allergy
-drug allergy,Xa5jZ,Zuclopenthixol allergy
 drug allergy,Xa5ja,Flupentixol allergy
+drug allergy,Xa5jA,Trifluperidol allergy
 drug allergy,Xa5jb,Oxypertine allergy
+drug allergy,Xa5jB,Haloperidol decanoate allergy
 drug allergy,Xa5jc,Remoxipride allergy
+drug allergy,Xa5jC,Droperidol allergy
 drug allergy,Xa5jd,Decarboxylase inhibitor allergy
+drug allergy,Xa5jD,Haloperidol allergy
 drug allergy,Xa5je,Selegiline allergy
+drug allergy,Xa5jE,Diphenylbutylpiperidine allergy
 drug allergy,Xa5jf,Central stimulant allergy
+drug allergy,Xa5jF,Pimozide allergy
 drug allergy,Xa5jg,Pemoline allergy
+drug allergy,Xa5jG,Fluspirilene allergy
 drug allergy,Xa5jh,Methylphenidate allergy
+drug allergy,Xa5jH,Phenothiazine allergy
 drug allergy,Xa5ji,Prolintane allergy
+drug allergy,Xa5jI,Levomepromazine allergy
 drug allergy,Xa5jj,Amfetamine group allergy
+drug allergy,Xa5jJ,Pericyazine allergy
 drug allergy,Xa5jk,Dexamfetamine allergy
+drug allergy,Xa5jK,Fluphenazine decanoate allergy
 drug allergy,Xa5jl,Alcohol metabolism modifier allergy
+drug allergy,Xa5jL,Fluphenazine enanthate allergy
 drug allergy,Xa5jm,Disulfiram allergy
+drug allergy,Xa5jM,Thiethylperazine allergy
 drug allergy,Xa5jn,Drug groups prim affecting autonomic nervous system allergy
+drug allergy,Xa5jN,Fluphenazine allergy
 drug allergy,Xa5jo,Beta-adrenoceptor blocking drug allergy
+drug allergy,Xa5jO,Chlorpromazine allergy
 drug allergy,Xa5jp,Cardioselective beta-blocker allergy
+drug allergy,Xa5jP,Pipotiazine allergy
 drug allergy,Xa5jq,Acebutolol allergy
+drug allergy,Xa5jQ,Promazine allergy
 drug allergy,Xa5jr,Atenolol allergy
+drug allergy,Xa5jR,Thioridazine allergy
 drug allergy,Xa5js,Betaxolol allergy
+drug allergy,Xa5jS,Perphenazine allergy
 drug allergy,Xa5jt,Bisoprolol allergy
+drug allergy,Xa5jT,Prochlorperazine allergy
 drug allergy,Xa5ju,Celiprolol allergy
+drug allergy,Xa5jU,Trifluoperazine allergy
 drug allergy,Xa5jv,Esmolol allergy
+drug allergy,Xa5jV,Thioxanthene allergy
 drug allergy,Xa5jw,Metoprolol allergy
+drug allergy,Xa5jW,Chlorprothixene allergy
 drug allergy,Xa5jx,Non-cardioselective beta-blocker allergy
+drug allergy,Xa5jX,Flupentixol decanoate allergy
 drug allergy,Xa5jy,Nadolol allergy
+drug allergy,Xa5jY,Zuclopenthixol decanoate allergy
 drug allergy,Xa5jz,Pindolol allergy
+drug allergy,Xa5jZ,Zuclopenthixol allergy
 drug allergy,Xa5k0,Carvedilol allergy
 drug allergy,Xa5k1,Metipranolol allergy
 drug allergy,Xa5k2,Carteolol allergy
@@ -618,58 +579,58 @@ drug allergy,Xa5k6,Penbutolol allergy
 drug allergy,Xa5k7,Practolol allergy
 drug allergy,Xa5k8,Propranolol allergy
 drug allergy,Xa5k9,Sotalol allergy
-drug allergy,Xa5kA,Timolol allergy
-drug allergy,Xa5kB,Alpha-adrenoceptor blocking drug allergy
-drug allergy,Xa5kC,Alfuzosin allergy
-drug allergy,Xa5kD,Doxazosin allergy
-drug allergy,Xa5kE,Indoramin allergy
-drug allergy,Xa5kF,Phenoxybenzamine allergy
-drug allergy,Xa5kG,Phentolamine allergy
-drug allergy,Xa5kH,Prazosin allergy
-drug allergy,Xa5kI,Terazosin allergy
-drug allergy,Xa5kJ,Nicotine allergy
-drug allergy,Xa5kK,Calcium-channel blocker allergy
-drug allergy,Xa5kL,Lidoflazine allergy
-drug allergy,Xa5kM,Nifedipine allergy
-drug allergy,Xa5kN,Prenylamine allergy
-drug allergy,Xa5kO,Isradipine allergy
-drug allergy,Xa5kP,Felodipine allergy
-drug allergy,Xa5kQ,Lacidipine allergy
-drug allergy,Xa5kR,Nimodipine allergy
-drug allergy,Xa5kS,Amlodipine allergy
-drug allergy,Xa5kT,Diltiazem allergy
-drug allergy,Xa5kU,Nicardipine allergy
-drug allergy,Xa5kV,Verapamil allergy
-drug allergy,Xa5kW,Parasympathomimetic allergy
-drug allergy,Xa5kX,Pilocarpine allergy
-drug allergy,Xa5kY,Acetylcholine chloride allergy
-drug allergy,Xa5kZ,Methacholine allergy
 drug allergy,Xa5ka,Anticholinesterase parasympathomimetic allergy
+drug allergy,Xa5kA,Timolol allergy
 drug allergy,Xa5kb,Physostigmine allergy
+drug allergy,Xa5kB,Alpha-adrenoceptor blocking drug allergy
 drug allergy,Xa5kc,Demecarium allergy
+drug allergy,Xa5kC,Alfuzosin allergy
 drug allergy,Xa5kd,Distigmine allergy
+drug allergy,Xa5kD,Doxazosin allergy
 drug allergy,Xa5ke,Ecothiopate allergy
+drug allergy,Xa5kE,Indoramin allergy
 drug allergy,Xa5kf,Edrophonium allergy
+drug allergy,Xa5kF,Phenoxybenzamine allergy
 drug allergy,Xa5kg,Pyridostigmine allergy
+drug allergy,Xa5kG,Phentolamine allergy
 drug allergy,Xa5kh,Neostigmine allergy
+drug allergy,Xa5kH,Prazosin allergy
 drug allergy,Xa5ki,Bethanechol allergy
+drug allergy,Xa5kI,Terazosin allergy
 drug allergy,Xa5kj,Carbachol allergy
+drug allergy,Xa5kJ,Nicotine allergy
 drug allergy,Xa5kk,Sympathomimetic allergy
+drug allergy,Xa5kK,Calcium-channel blocker allergy
 drug allergy,Xa5kl,Isoetharine hydrochloride allergy
+drug allergy,Xa5kL,Lidoflazine allergy
 drug allergy,Xa5km,Phenylpropanolamine hydrochloride allergy
+drug allergy,Xa5kM,Nifedipine allergy
 drug allergy,Xa5kn,Pseudoephedrine allergy
+drug allergy,Xa5kN,Prenylamine allergy
 drug allergy,Xa5ko,Alpha-adrenoceptor agonist allergy
+drug allergy,Xa5kO,Isradipine allergy
 drug allergy,Xa5kp,Oxedrine tartrate allergy
+drug allergy,Xa5kP,Felodipine allergy
 drug allergy,Xa5kq,Metaraminol allergy
+drug allergy,Xa5kQ,Lacidipine allergy
 drug allergy,Xa5kr,Methoxamine allergy
+drug allergy,Xa5kR,Nimodipine allergy
 drug allergy,Xa5ks,Naphazoline allergy
+drug allergy,Xa5kS,Amlodipine allergy
 drug allergy,Xa5kt,Noradrenaline allergy
+drug allergy,Xa5kT,Diltiazem allergy
 drug allergy,Xa5ku,Phenylephrine allergy
+drug allergy,Xa5kU,Nicardipine allergy
 drug allergy,Xa5kv,Xylometazoline allergy
+drug allergy,Xa5kV,Verapamil allergy
 drug allergy,Xa5kw,Beta-adrenoceptor agonist allergy
+drug allergy,Xa5kW,Parasympathomimetic allergy
 drug allergy,Xa5kx,Selective beta-2 adrenoceptor stimulants allergy
+drug allergy,Xa5kX,Pilocarpine allergy
 drug allergy,Xa5ky,Pirbuterol allergy
+drug allergy,Xa5kY,Acetylcholine chloride allergy
 drug allergy,Xa5kz,Salmeterol allergy
+drug allergy,Xa5kZ,Methacholine allergy
 drug allergy,Xa5l0,Salbutamol allergy
 drug allergy,Xa5l1,Bambuterol allergy
 drug allergy,Xa5l2,Fenoterol allergy
@@ -680,58 +641,58 @@ drug allergy,Xa5l6,Ritodrine allergy
 drug allergy,Xa5l7,Terbutaline allergy
 drug allergy,Xa5l8,Tulobuterol allergy
 drug allergy,Xa5l9,Selective beta-1 adrenoceptor stimulants allergy
-drug allergy,Xa5lA,Dobutamine allergy
-drug allergy,Xa5lB,Dopexamine allergy
-drug allergy,Xa5lC,Isoprenaline allergy
-drug allergy,Xa5lD,Oral isoprenaline allergy
-drug allergy,Xa5lE,Inhaled isoprenaline allergy
-drug allergy,Xa5lF,Parenteral isoprenaline allergy
-drug allergy,Xa5lG,Central alpha-adrenoceptor agonist allergy
-drug allergy,Xa5lH,Methyldopa allergy
-drug allergy,Xa5lI,Methyldopa and diuretic allergy
-drug allergy,Xa5lJ,Apraclonidine allergy
-drug allergy,Xa5lK,Clonidine allergy
-drug allergy,Xa5lL,Lofexidine allergy
-drug allergy,Xa5lM,Dipivefrine allergy
-drug allergy,Xa5lN,Dopamine allergy
-drug allergy,Xa5lO,Ephedrine allergy
-drug allergy,Xa5lP,Oxymetazoline allergy
-drug allergy,Xa5lQ,Xamoterol allergy
-drug allergy,Xa5lR,Anticholinergic allergy
-drug allergy,Xa5lS,Antimuscarinic allergy
-drug allergy,Xa5lT,Belladonna alkaloids allergy
-drug allergy,Xa5lU,Piperidolate hydrochloride allergy
-drug allergy,Xa5lV,Biperiden allergy
-drug allergy,Xa5lW,Emepronium bromide allergy
-drug allergy,Xa5lX,Terodiline hydrochloride allergy
-drug allergy,Xa5lY,Lachesine chloride allergy
-drug allergy,Xa5lZ,Tropicamide allergy
 drug allergy,Xa5la,Hyoscine allergy
+drug allergy,Xa5lA,Dobutamine allergy
 drug allergy,Xa5lb,Hyoscine hydrobromide allergy
+drug allergy,Xa5lB,Dopexamine allergy
 drug allergy,Xa5lc,Atropine allergy
+drug allergy,Xa5lC,Isoprenaline allergy
 drug allergy,Xa5ld,Trihexyphenidyl allergy
+drug allergy,Xa5lD,Oral isoprenaline allergy
 drug allergy,Xa5le,Benzatropine allergy
+drug allergy,Xa5lE,Inhaled isoprenaline allergy
 drug allergy,Xa5lf,Cyclopentolate allergy
+drug allergy,Xa5lF,Parenteral isoprenaline allergy
 drug allergy,Xa5lg,Glycopyrronium allergy
+drug allergy,Xa5lG,Central alpha-adrenoceptor agonist allergy
 drug allergy,Xa5lh,Homatropine allergy
+drug allergy,Xa5lH,Methyldopa allergy
 drug allergy,Xa5li,Ipratropium allergy
+drug allergy,Xa5lI,Methyldopa and diuretic allergy
 drug allergy,Xa5lj,Methixene allergy
+drug allergy,Xa5lJ,Apraclonidine allergy
 drug allergy,Xa5lk,Orphenadrine allergy
+drug allergy,Xa5lK,Clonidine allergy
 drug allergy,Xa5ll,Orphenadrine hydrochloride allergy
+drug allergy,Xa5lL,Lofexidine allergy
 drug allergy,Xa5lm,Orphenadrine citrate allergy
+drug allergy,Xa5lM,Dipivefrine allergy
 drug allergy,Xa5ln,Oxitropium allergy
+drug allergy,Xa5lN,Dopamine allergy
 drug allergy,Xa5lo,Oxybutynin allergy
+drug allergy,Xa5lO,Ephedrine allergy
 drug allergy,Xa5lp,Procyclidine allergy
+drug allergy,Xa5lP,Oxymetazoline allergy
 drug allergy,Xa5lq,Drug groups primarily affecting respiratory system allergy
+drug allergy,Xa5lQ,Xamoterol allergy
 drug allergy,Xa5lr,Dornase alfa allergy
+drug allergy,Xa5lR,Anticholinergic allergy
 drug allergy,Xa5ls,Mucolytics allergy
+drug allergy,Xa5lS,Antimuscarinic allergy
 drug allergy,Xa5lt,Tyloxapol allergy
+drug allergy,Xa5lT,Belladonna alkaloids allergy
 drug allergy,Xa5lu,Bromhexine hydrochloride allergy
+drug allergy,Xa5lU,Piperidolate hydrochloride allergy
 drug allergy,Xa5lv,Carbocisteine allergy
+drug allergy,Xa5lV,Biperiden allergy
 drug allergy,Xa5lw,Methylcysteine allergy
+drug allergy,Xa5lW,Emepronium bromide allergy
 drug allergy,Xa5lx,Acetylcysteine allergy
+drug allergy,Xa5lX,Terodiline hydrochloride allergy
 drug allergy,Xa5ly,Respiratory stimulant allergy
+drug allergy,Xa5lY,Lachesine chloride allergy
 drug allergy,Xa5lz,Nikethamide allergy
+drug allergy,Xa5lZ,Tropicamide allergy
 drug allergy,Xa5m0,Ethamivan allergy
 drug allergy,Xa5m1,Doxapram allergy
 drug allergy,Xa5m2,Respiratory surfactant allergy
@@ -742,58 +703,58 @@ drug allergy,Xa5m6,Colfosceril allergy
 drug allergy,Xa5m7,Antiallergenic drug allergy
 drug allergy,Xa5m8,Topical antihistamine allergy
 drug allergy,Xa5m9,H1 antihistamine allergy
-drug allergy,Xa5mA,Non-sedating antihistamine allergy
-drug allergy,Xa5mB,Astemizole allergy
-drug allergy,Xa5mC,Terfenadine allergy
-drug allergy,Xa5mD,Acrivastine allergy
-drug allergy,Xa5mE,Loratadine allergy
-drug allergy,Xa5mF,Azelastine allergy
-drug allergy,Xa5mG,Cetirizine allergy
-drug allergy,Xa5mH,Sedating antihistamine allergy
-drug allergy,Xa5mI,Clemastine allergy
-drug allergy,Xa5mJ,Mebhydrolin allergy
-drug allergy,Xa5mK,Mequitazine allergy
-drug allergy,Xa5mL,Oxatomide allergy
-drug allergy,Xa5mM,Cyclizine allergy
-drug allergy,Xa5mN,Dimenhydrinate allergy
-drug allergy,Xa5mO,Meclozine hydrochloride allergy
-drug allergy,Xa5mP,Antazoline allergy
-drug allergy,Xa5mQ,Promethazine allergy
-drug allergy,Xa5mR,Azatadine allergy
-drug allergy,Xa5mS,Brompheniramine allergy
-drug allergy,Xa5mT,Chlorphenamine allergy
-drug allergy,Xa5mU,Cinnarizine allergy
-drug allergy,Xa5mV,Cyproheptadine allergy
-drug allergy,Xa5mW,Dimethindene allergy
-drug allergy,Xa5mX,Diphenhydramine allergy
-drug allergy,Xa5mY,Diphenylpyraline allergy
-drug allergy,Xa5mZ,Hydroxyzine allergy
 drug allergy,Xa5ma,Mepyramine allergy
+drug allergy,Xa5mA,Non-sedating antihistamine allergy
 drug allergy,Xa5mb,Phenindamine allergy
+drug allergy,Xa5mB,Astemizole allergy
 drug allergy,Xa5mc,Pheniramine allergy
+drug allergy,Xa5mC,Terfenadine allergy
 drug allergy,Xa5md,Triprolidine allergy
+drug allergy,Xa5mD,Acrivastine allergy
 drug allergy,Xa5me,Alimemazine allergy
+drug allergy,Xa5mE,Loratadine allergy
 drug allergy,Xa5mf,Cromoglycate and related antiallergenic allergy
+drug allergy,Xa5mF,Azelastine allergy
 drug allergy,Xa5mg,Nedocromil allergy
+drug allergy,Xa5mG,Cetirizine allergy
 drug allergy,Xa5mh,Sodium cromoglicate allergy
+drug allergy,Xa5mH,Sedating antihistamine allergy
 drug allergy,Xa5mi,Ketotifen allergy
+drug allergy,Xa5mI,Clemastine allergy
 drug allergy,Xa5mj,Lodoxamide allergy
+drug allergy,Xa5mJ,Mebhydrolin allergy
 drug allergy,Xa5mk,Cough/decongestant preparation allergy
+drug allergy,Xa5mK,Mequitazine allergy
 drug allergy,Xa5ml,Cough suppressant allergy
+drug allergy,Xa5mL,Oxatomide allergy
 drug allergy,Xa5mm,Isoaminile allergy
+drug allergy,Xa5mM,Cyclizine allergy
 drug allergy,Xa5mn,Morphinian cough suppressant allergy
+drug allergy,Xa5mN,Dimenhydrinate allergy
 drug allergy,Xa5mo,Dextromethorphan hydrobromide allergy
+drug allergy,Xa5mO,Meclozine hydrochloride allergy
 drug allergy,Xa5mp,Noscapine allergy
+drug allergy,Xa5mP,Antazoline allergy
 drug allergy,Xa5mq,Pholcodine allergy
+drug allergy,Xa5mQ,Promethazine allergy
 drug allergy,Xa5mr,Compound cough suppressant allergy
+drug allergy,Xa5mR,Azatadine allergy
 drug allergy,Xa5ms,Proprietary decongestant allergy
+drug allergy,Xa5mS,Brompheniramine allergy
 drug allergy,Xa5mt,Expectorant allergy
+drug allergy,Xa5mT,Chlorphenamine allergy
 drug allergy,Xa5mu,Xanthine allergy
+drug allergy,Xa5mU,Cinnarizine allergy
 drug allergy,Xa5mv,Aminophylline allergy
+drug allergy,Xa5mV,Cyproheptadine allergy
 drug allergy,Xa5mw,Choline theophyllinate allergy
+drug allergy,Xa5mW,Dimethindene allergy
 drug allergy,Xa5mx,Theophylline allergy
+drug allergy,Xa5mX,Diphenhydramine allergy
 drug allergy,Xa5my,Bronchodilator preparations allergy
+drug allergy,Xa5mY,Diphenylpyraline allergy
 drug allergy,Xa5mz,Allergy to inhaled corticosteroids
+drug allergy,Xa5mZ,Hydroxyzine allergy
 drug allergy,Xa5n0,Drug groups and agents primarily acting on the skin allergy
 drug allergy,Xa5n1,Topical dermatological preparation allergy
 drug allergy,Xa5n2,Urea creams allergy
@@ -804,58 +765,58 @@ drug allergy,Xa5n6,Coal tar allergy
 drug allergy,Xa5n7,Coal tar scalp preparations allergy
 drug allergy,Xa5n8,Coal tar bath preparations allergy
 drug allergy,Xa5n9,Bufexamac allergy
-drug allergy,Xa5nA,Dithranol allergy
-drug allergy,Xa5nB,Dithranol ointment allergy
-drug allergy,Xa5nC,Dithranol cream allergy
-drug allergy,Xa5nD,Dithranol paste allergy
-drug allergy,Xa5nE,Ichthammol allergy
-drug allergy,Xa5nF,Calcipotriol allergy
-drug allergy,Xa5nG,Sulphur allergy
-drug allergy,Xa5nH,Azelaic acid allergy
-drug allergy,Xa5nI,Bromine complexes allergy
-drug allergy,Xa5nJ,Podophyllum resin allergy
-drug allergy,Xa5nK,Podophyllotoxin allergy
-drug allergy,Xa5nL,Sunscreening preparations allergy
-drug allergy,Xa5nM,Camouflaging preparations allergy
-drug allergy,Xa5nN,Benzoic acid allergy
-drug allergy,Xa5nO,Desloughing agents allergy
-drug allergy,Xa5nP,Aserbine allergy
-drug allergy,Xa5nQ,Surgical tissue adhesive allergy
-drug allergy,Xa5nR,Enbucrilate allergy
-drug allergy,Xa5nS,Collodion allergy
-drug allergy,Xa5nT,Counter irritants allergy
-drug allergy,Xa5nU,Emollient allergy
-drug allergy,Xa5nV,Poultices allergy
-drug allergy,Xa5nW,Anionic surfactant allergy
-drug allergy,Xa5nX,Alkali metal soap allergy
-drug allergy,Xa5nY,Astringent allergy
-drug allergy,Xa5nZ,Aluminium astringent allergy
 drug allergy,Xa5na,Topical selenium allergy
+drug allergy,Xa5nA,Dithranol allergy
 drug allergy,Xa5nb,Crotamiton allergy
+drug allergy,Xa5nB,Dithranol ointment allergy
 drug allergy,Xa5nc,Topical salicylic acid allergy
+drug allergy,Xa5nC,Dithranol cream allergy
 drug allergy,Xa5nd,Topical abrasive agent allergy
+drug allergy,Xa5nD,Dithranol paste allergy
 drug allergy,Xa5ne,Benzoyl peroxide allergy
+drug allergy,Xa5nE,Ichthammol allergy
 drug allergy,Xa5nf,Silver nitrate allergy
+drug allergy,Xa5nF,Calcipotriol allergy
 drug allergy,Xa5ng,Oral dermatological agent allergy
+drug allergy,Xa5nG,Sulphur allergy
 drug allergy,Xa5nh,Gamolenic acid allergy
+drug allergy,Xa5nH,Azelaic acid allergy
 drug allergy,Xa5ni,Retinoid allergy
+drug allergy,Xa5nI,Bromine complexes allergy
 drug allergy,Xa5nj,Etretinate allergy
+drug allergy,Xa5nJ,Podophyllum resin allergy
 drug allergy,Xa5nk,Acitretin allergy
+drug allergy,Xa5nK,Podophyllotoxin allergy
 drug allergy,Xa5nl,Tretinoin allergy
+drug allergy,Xa5nL,Sunscreening preparations allergy
 drug allergy,Xa5nm,Isotretinoin allergy
+drug allergy,Xa5nM,Camouflaging preparations allergy
 drug allergy,Xa5nn,Drug groups primarily affect musculoskeletal system allergy
+drug allergy,Xa5nN,Benzoic acid allergy
 drug allergy,Xa5no,Drug for the treatment of gout allergy
+drug allergy,Xa5nO,Desloughing agents allergy
 drug allergy,Xa5np,Colchicum alkaloid allergy
+drug allergy,Xa5nP,Aserbine allergy
 drug allergy,Xa5nq,Colchicine allergy
+drug allergy,Xa5nQ,Surgical tissue adhesive allergy
 drug allergy,Xa5nr,Uricosuric agent allergy
+drug allergy,Xa5nR,Enbucrilate allergy
 drug allergy,Xa5ns,Probenecid allergy
+drug allergy,Xa5nS,Collodion allergy
 drug allergy,Xa5nt,Sulfinpyrazone allergy
+drug allergy,Xa5nT,Counter irritants allergy
 drug allergy,Xa5nu,Xanthine oxidase inhibitor allergy
+drug allergy,Xa5nU,Emollient allergy
 drug allergy,Xa5nv,Allopurinol allergy
+drug allergy,Xa5nV,Poultices allergy
 drug allergy,Xa5nw,Skeletal muscle relaxant allergy
+drug allergy,Xa5nW,Anionic surfactant allergy
 drug allergy,Xa5nx,Neuromuscular transmission drug allergy
+drug allergy,Xa5nX,Alkali metal soap allergy
 drug allergy,Xa5ny,Depolarising muscle relaxant allergy
+drug allergy,Xa5nY,Astringent allergy
 drug allergy,Xa5nz,Suxamethonium allergy
+drug allergy,Xa5nZ,Aluminium astringent allergy
 drug allergy,Xa5o0,Non-depolarising muscle relaxant allergy
 drug allergy,Xa5o1,Mivacurium allergy
 drug allergy,Xa5o2,Alcuronium allergy
@@ -866,58 +827,58 @@ drug allergy,Xa5o6,Tubocurarine allergy
 drug allergy,Xa5o7,Vecuronium allergy
 drug allergy,Xa5o8,Rocuronium allergy
 drug allergy,Xa5o9,Baclofen allergy
-drug allergy,Xa5oA,Carisoprodol allergy
-drug allergy,Xa5oB,Methocarbamol allergy
-drug allergy,Xa5oC,Dantrolene allergy
-drug allergy,Xa5oD,Gold allergy
-drug allergy,Xa5oE,Sodium aurothiomalate allergy
-drug allergy,Xa5oF,Auranofin allergy
-drug allergy,Xa5oG,Smooth muscle relaxant allergy
-drug allergy,Xa5oH,Papaverine allergy
-drug allergy,Xa5oI,Flavoxate allergy
-drug allergy,Xa5oJ,Drug groups prim used in obstets gynae.+ut disorders allergy
-drug allergy,Xa5oK,Mifepristone allergy
-drug allergy,Xa5oL,Non-ionic surfactant allergy
-drug allergy,Xa5oM,Nonoxinol allergy
-drug allergy,Xa5oN,Octoxinol allergy
-drug allergy,Xa5oO,Prostaglandin allergy
-drug allergy,Xa5oP,A series prostaglandin allergy
-drug allergy,Xa5oQ,E series prostaglandin allergy
-drug allergy,Xa5oR,Dinoprostone allergy
-drug allergy,Xa5oS,Gemeprost allergy
-drug allergy,Xa5oT,Alprostadil allergy
-drug allergy,Xa5oU,F series prostaglandin allergy
-drug allergy,Xa5oV,Dinoprost allergy
-drug allergy,Xa5oW,Carboprost allergy
-drug allergy,Xa5oX,I series prostaglandin allergy
-drug allergy,Xa5oY,Epoprostenol allergy
-drug allergy,Xa5oZ,Terpenes allergy
 drug allergy,Xa5oa,Chelating agents and antidotes allergy
+drug allergy,Xa5oA,Carisoprodol allergy
 drug allergy,Xa5ob,Antidote allergy
+drug allergy,Xa5oB,Methocarbamol allergy
 drug allergy,Xa5oc,Ipecacuanha allergy
+drug allergy,Xa5oC,Dantrolene allergy
 drug allergy,Xa5od,Charcoal-activated allergy
+drug allergy,Xa5oD,Gold allergy
 drug allergy,Xa5oe,Sodium nitrite allergy
+drug allergy,Xa5oE,Sodium aurothiomalate allergy
 drug allergy,Xa5of,Sodium thiosulphate allergy
+drug allergy,Xa5oF,Auranofin allergy
 drug allergy,Xa5og,Digoxin-specific-antibody allergy
+drug allergy,Xa5oG,Smooth muscle relaxant allergy
 drug allergy,Xa5oh,Mesna allergy
+drug allergy,Xa5oH,Papaverine allergy
 drug allergy,Xa5oi,Benzodiazepine antagonist allergy
+drug allergy,Xa5oI,Flavoxate allergy
 drug allergy,Xa5oj,Flumazenil allergy
+drug allergy,Xa5oJ,Drug groups prim used in obstets gynae.+ut disorders allergy
 drug allergy,Xa5ok,Cholinesterase reactivator allergy
+drug allergy,Xa5oK,Mifepristone allergy
 drug allergy,Xa5ol,Pralidoxime allergy
+drug allergy,Xa5oL,Non-ionic surfactant allergy
 drug allergy,Xa5om,Hydrofluoric acid burn antidote allergy
+drug allergy,Xa5oM,Nonoxinol allergy
 drug allergy,Xa5on,Opioid antagonist allergy
+drug allergy,Xa5oN,Octoxinol allergy
 drug allergy,Xa5oo,Naltrexone allergy
+drug allergy,Xa5oO,Prostaglandin allergy
 drug allergy,Xa5op,Naloxone allergy
+drug allergy,Xa5oP,A series prostaglandin allergy
 drug allergy,Xa5oq,Protamine allergy
+drug allergy,Xa5oQ,E series prostaglandin allergy
 drug allergy,Xa5or,Antidotes for pesticides allergy
+drug allergy,Xa5oR,Dinoprostone allergy
 drug allergy,Xa5os,Fullers earth powder allergy
+drug allergy,Xa5oS,Gemeprost allergy
 drug allergy,Xa5ot,Bentonite powder allergy
+drug allergy,Xa5oT,Alprostadil allergy
 drug allergy,Xa5ou,Chelating agent allergy
+drug allergy,Xa5oU,F series prostaglandin allergy
 drug allergy,Xa5ov,Dimercaprol allergy
+drug allergy,Xa5oV,Dinoprost allergy
 drug allergy,Xa5ow,Desferrioxamine allergy
+drug allergy,Xa5oW,Carboprost allergy
 drug allergy,Xa5ox,Edetate allergy
+drug allergy,Xa5oX,I series prostaglandin allergy
 drug allergy,Xa5oy,Dicobalt edetate allergy
+drug allergy,Xa5oY,Epoprostenol allergy
 drug allergy,Xa5oz,Sodium calcium edetate allergy
+drug allergy,Xa5oZ,Terpenes allergy
 drug allergy,Xa5p0,Trisodium edetate allergy
 drug allergy,Xa5p1,Disodium edetate allergy
 drug allergy,Xa5p2,Trientine allergy
@@ -928,58 +889,58 @@ drug allergy,Xa5p6,Anthroposophical medicine allergy
 drug allergy,Xa5p7,Herbal medicine allergy
 drug allergy,Xa5p8,Miscellaneous fluids and solutions allergy
 drug allergy,Xa5p9,Sodium hyaluronate allergy
-drug allergy,Xa5pA,Glycine allergy
-drug allergy,Xa5pB,Dialysis fluid allergy
-drug allergy,Xa5pC,Peritoneal dialysis solution allergy
-drug allergy,Xa5pD,Haemodialysis fluid allergy
-drug allergy,Xa5pE,Haemofiltration solution allergy
-drug allergy,Xa5pF,Cardioplegia solution allergy
-drug allergy,Xa5pG,Miscellaneous topical preparations allergy
-drug allergy,Xa5pH,Dimethyl-ether propane allergy
-drug allergy,Xa5pI,Citrate allergy
-drug allergy,Xa5pJ,Haemorrhoid preparation allergy
-drug allergy,Xa5pK,Ear wax removal preparation allergy
-drug allergy,Xa5pL,Topical potassium allergy
-drug allergy,Xa5pM,Topical zinc allergy
-drug allergy,Xa5pN,Oropharyngeal preparations allergy
-drug allergy,Xa5pO,Artificial saliva allergy
-drug allergy,Xa5pP,Allergy to bases and inactive substances
-drug allergy,Xa5pQ,Fixed oil allergy
-drug allergy,Xa5pR,Olive oil allergy
-drug allergy,Xa5pS,Arachis oil allergy
-drug allergy,Xa5pT,Castor oil allergy
-drug allergy,Xa5pU,Glycerol/glycol/macrogol allergy
-drug allergy,Xa5pV,Glycerol allergy
-drug allergy,Xa5pW,Lubricant allergy
-drug allergy,Xa5pX,Base allergy
-drug allergy,Xa5pY,Barrier preparation allergy
-drug allergy,Xa5pZ,Paraffin allergy
 drug allergy,Xa5pa,Paraffin-yellow soft allergy
+drug allergy,Xa5pA,Glycine allergy
 drug allergy,Xa5pb,Paraffin-white soft allergy
+drug allergy,Xa5pB,Dialysis fluid allergy
 drug allergy,Xa5pc,Liquid paraffin allergy
+drug allergy,Xa5pC,Peritoneal dialysis solution allergy
 drug allergy,Xa5pd,Silicone allergy
+drug allergy,Xa5pD,Haemodialysis fluid allergy
 drug allergy,Xa5pe,Dimethicone allergy
+drug allergy,Xa5pE,Haemofiltration solution allergy
 drug allergy,Xa5pf,Wool alcohol allergy
+drug allergy,Xa5pF,Cardioplegia solution allergy
 drug allergy,Xa5pg,Viscosity modifier allergy
+drug allergy,Xa5pG,Miscellaneous topical preparations allergy
 drug allergy,Xa5ph,Polyvinyl alcohol allergy
+drug allergy,Xa5pH,Dimethyl-ether propane allergy
 drug allergy,Xa5pi,Carbomer-940 allergy
+drug allergy,Xa5pI,Citrate allergy
 drug allergy,Xa5pj,Cellulose-derived viscosity modifier allergy
+drug allergy,Xa5pJ,Haemorrhoid preparation allergy
 drug allergy,Xa5pk,Hypromellose allergy
+drug allergy,Xa5pK,Ear wax removal preparation allergy
 drug allergy,Xa5pl,Hypromellose eye drops allergy
+drug allergy,Xa5pL,Topical potassium allergy
 drug allergy,Xa5pm,Hydroxyethylcellulose allergy
+drug allergy,Xa5pM,Topical zinc allergy
 drug allergy,Xa5pn,Hydroxypropylmethylcellulose allergy
+drug allergy,Xa5pN,Oropharyngeal preparations allergy
 drug allergy,Xa5po,Carmellose allergy
+drug allergy,Xa5pO,Artificial saliva allergy
 drug allergy,Xa5pp,Anti-infectives allergy
+drug allergy,Xa5pP,Allergy to bases and inactive substances
 drug allergy,Xa5pq,Antifungal drug allergy
+drug allergy,Xa5pQ,Fixed oil allergy
 drug allergy,Xa5pr,Flucytosine allergy
+drug allergy,Xa5pR,Olive oil allergy
 drug allergy,Xa5ps,Terbinafine allergy
+drug allergy,Xa5pS,Arachis oil allergy
 drug allergy,Xa5pt,Nitrophenol allergy
+drug allergy,Xa5pT,Castor oil allergy
 drug allergy,Xa5pu,Tolnaftate allergy
+drug allergy,Xa5pU,Glycerol/glycol/macrogol allergy
 drug allergy,Xa5pv,Amorolfine allergy
+drug allergy,Xa5pV,Glycerol allergy
 drug allergy,Xa5pw,Antibiotic antifungal allergy
+drug allergy,Xa5pW,Lubricant allergy
 drug allergy,Xa5px,Griseofulvin allergy
+drug allergy,Xa5pX,Base allergy
 drug allergy,Xa5py,Amphotericin allergy
+drug allergy,Xa5pY,Barrier preparation allergy
 drug allergy,Xa5pz,Natamycin allergy
+drug allergy,Xa5pZ,Paraffin allergy
 drug allergy,Xa5q0,Nystatin allergy
 drug allergy,Xa5q1,Azole antifungal allergy
 drug allergy,Xa5q2,Undecenoates allergy
@@ -990,58 +951,58 @@ drug allergy,Xa5q6,Tioconazole allergy
 drug allergy,Xa5q7,Econazole allergy
 drug allergy,Xa5q8,Isoconazole allergy
 drug allergy,Xa5q9,Sulconazole allergy
-drug allergy,Xa5qA,Ketoconazole allergy
-drug allergy,Xa5qB,Miconazole allergy
-drug allergy,Xa5qC,Triazole antifungals allergy
-drug allergy,Xa5qD,Fluconazole allergy
-drug allergy,Xa5qE,Itraconazole allergy
-drug allergy,Xa5qF,Antiviral drug allergy
-drug allergy,Xa5qG,Inosine pranobex allergy
-drug allergy,Xa5qH,Zidovudine allergy
-drug allergy,Xa5qI,Ganciclovir allergy
-drug allergy,Xa5qJ,Famciclovir allergy
-drug allergy,Xa5qK,Didanosine allergy
-drug allergy,Xa5qL,Zalcitabine allergy
-drug allergy,Xa5qM,Valaciclovir allergy
-drug allergy,Xa5qN,Interferons allergy
-drug allergy,Xa5qO,Human interferon gamma-1b allergy
-drug allergy,Xa5qP,Interferon-A-2a allergy
-drug allergy,Xa5qQ,Interferon-A-2b allergy
-drug allergy,Xa5qR,Interferon-A-N1 allergy
-drug allergy,Xa5qS,Ribavirin allergy
-drug allergy,Xa5qT,Trifluorothymidine allergy
-drug allergy,Xa5qU,Foscarnet allergy
-drug allergy,Xa5qV,Vidarabine allergy
-drug allergy,Xa5qW,Aciclovir allergy
-drug allergy,Xa5qX,Idoxuridine allergy
-drug allergy,Xa5qY,Idoxuridine in dimethylsulphoxide allergy
-drug allergy,Xa5qZ,Antimalarial drug allergy
 drug allergy,Xa5qa,Pyrimethamine allergy
+drug allergy,Xa5qA,Ketoconazole allergy
 drug allergy,Xa5qb,Aminoquinoline antimalarial allergy
+drug allergy,Xa5qB,Miconazole allergy
 drug allergy,Xa5qc,Amodiaquine allergy
+drug allergy,Xa5qC,Triazole antifungals allergy
 drug allergy,Xa5qd,Primaquine allergy
+drug allergy,Xa5qD,Fluconazole allergy
 drug allergy,Xa5qe,Mefloquine allergy
+drug allergy,Xa5qE,Itraconazole allergy
 drug allergy,Xa5qf,Hydroxychloroquine allergy
+drug allergy,Xa5qF,Antiviral drug allergy
 drug allergy,Xa5qg,Chloroquine allergy
+drug allergy,Xa5qG,Inosine pranobex allergy
 drug allergy,Xa5qh,Biguanide antimalarial allergy
+drug allergy,Xa5qH,Zidovudine allergy
 drug allergy,Xa5qi,Proguanil allergy
+drug allergy,Xa5qI,Ganciclovir allergy
 drug allergy,Xa5qj,Cinchona antimalarial allergy
+drug allergy,Xa5qJ,Famciclovir allergy
 drug allergy,Xa5qk,Quinine allergy
+drug allergy,Xa5qK,Didanosine allergy
 drug allergy,Xa5ql,Halofantrine allergy
+drug allergy,Xa5qL,Zalcitabine allergy
 drug allergy,Xa5qm,Mepacrine allergy
+drug allergy,Xa5qM,Valaciclovir allergy
 drug allergy,Xa5qn,Lactobacill acidophil vaccine allergy
+drug allergy,Xa5qN,Interferons allergy
 drug allergy,Xa5qo,Anti-infective nasal preparations allergy
+drug allergy,Xa5qO,Human interferon gamma-1b allergy
 drug allergy,Xa5qp,Disinfectants and cleansers allergy
+drug allergy,Xa5qP,Interferon-A-2a allergy
 drug allergy,Xa5qq,Acetic acid allergy
+drug allergy,Xa5qQ,Interferon-A-2b allergy
 drug allergy,Xa5qr,Hydragaphen allergy
+drug allergy,Xa5qR,Interferon-A-N1 allergy
 drug allergy,Xa5qs,Polynoxylin allergy
+drug allergy,Xa5qS,Ribavirin allergy
 drug allergy,Xa5qt,Hexetidine allergy
+drug allergy,Xa5qT,Trifluorothymidine allergy
 drug allergy,Xa5qu,Sodium perborate allergy
+drug allergy,Xa5qU,Foscarnet allergy
 drug allergy,Xa5qv,Chlorinated solutions allergy
+drug allergy,Xa5qV,Vidarabine allergy
 drug allergy,Xa5qw,Potassium permanganate allergy
+drug allergy,Xa5qW,Aciclovir allergy
 drug allergy,Xa5qx,Bismuth subnitrate and iodoform paste impregn gauze allergy
+drug allergy,Xa5qX,Idoxuridine allergy
 drug allergy,Xa5qy,Phenolics allergy
+drug allergy,Xa5qY,Idoxuridine in dimethylsulphoxide allergy
 drug allergy,Xa5qz,Thymol allergy
+drug allergy,Xa5qZ,Antimalarial drug allergy
 drug allergy,Xa5r0,Chlorinated phenol disinfectant allergy
 drug allergy,Xa5r1,Chloroxylenol allergy
 drug allergy,Xa5r2,Hexachlorophene allergy
@@ -1052,58 +1013,58 @@ drug allergy,Xa5r6,Alcohol products allergy
 drug allergy,Xa5r7,Industrial methylated spirit allergy
 drug allergy,Xa5r8,Aldehyde disinfectant allergy
 drug allergy,Xa5r9,Glutaraldehyde allergy
-drug allergy,Xa5rA,Formaldehyde and related compounds allergy
-drug allergy,Xa5rB,Noxythiolin allergy
-drug allergy,Xa5rC,Formaldehyde allergy
-drug allergy,Xa5rD,Amidine disinfectant allergy
-drug allergy,Xa5rE,Propamidine isethionate allergy
-drug allergy,Xa5rF,Dibrompropamidine isethionate allergy
-drug allergy,Xa5rG,Biguanide disinfectant allergy
-drug allergy,Xa5rH,Chlorhexidine allergy
-drug allergy,Xa5rI,Chlorhexidine hydrochloride and neomycin sulphate allergy
-drug allergy,Xa5rJ,Borate allergy
-drug allergy,Xa5rK,Boric acid allergy
-drug allergy,Xa5rL,Cationic surfactant allergy
-drug allergy,Xa5rM,Quaternary ammonium surfactant allergy
-drug allergy,Xa5rN,Cetrimide allergy
-drug allergy,Xa5rO,Benzalkonium allergy
-drug allergy,Xa5rP,Domiphen allergy
-drug allergy,Xa5rQ,Quaternary pyridinium surfactant allergy
-drug allergy,Xa5rR,Cetylpyridinium allergy
-drug allergy,Xa5rS,Quaternary quinolinium surfactant allergy
-drug allergy,Xa5rT,Dequalinium allergy
-drug allergy,Xa5rU,Disinfectant dye allergy
-drug allergy,Xa5rV,Acridine azo disinfectant dye allergy
-drug allergy,Xa5rW,Triphenylmethane azo disinfectant dye allergy
-drug allergy,Xa5rX,Crystal violet allergy
-drug allergy,Xa5rY,Brilliant green allergy
-drug allergy,Xa5rZ,Hydrogen peroxide allergy
 drug allergy,Xa5ra,Anthelmintics allergy
+drug allergy,Xa5rA,Formaldehyde and related compounds allergy
 drug allergy,Xa5rb,Piperazine allergy
+drug allergy,Xa5rB,Noxythiolin allergy
 drug allergy,Xa5rc,Pyrantel allergy
+drug allergy,Xa5rC,Formaldehyde allergy
 drug allergy,Xa5rd,Niclosamide allergy
+drug allergy,Xa5rD,Amidine disinfectant allergy
 drug allergy,Xa5re,Bephenium allergy
+drug allergy,Xa5rE,Propamidine isethionate allergy
 drug allergy,Xa5rf,Diethylcarbamazine allergy
+drug allergy,Xa5rF,Dibrompropamidine isethionate allergy
 drug allergy,Xa5rg,Benzimidazole anthelmintic allergy
+drug allergy,Xa5rG,Biguanide disinfectant allergy
 drug allergy,Xa5rh,Mebendazole allergy
+drug allergy,Xa5rH,Chlorhexidine allergy
 drug allergy,Xa5ri,Albendazole allergy
+drug allergy,Xa5rI,Chlorhexidine hydrochloride and neomycin sulphate allergy
 drug allergy,Xa5rj,Tiabendazole allergy
+drug allergy,Xa5rJ,Borate allergy
 drug allergy,Xa5rk,Antibacterial drug allergy
+drug allergy,Xa5rK,Boric acid allergy
 drug allergy,Xa5rl,Aminoglycosides allergy
+drug allergy,Xa5rL,Cationic surfactant allergy
 drug allergy,Xa5rm,Amikacin allergy
+drug allergy,Xa5rM,Quaternary ammonium surfactant allergy
 drug allergy,Xa5rn,Kanamycin allergy
+drug allergy,Xa5rN,Cetrimide allergy
 drug allergy,Xa5ro,Netilmicin allergy
+drug allergy,Xa5rO,Benzalkonium allergy
 drug allergy,Xa5rp,Streptomycin allergy
+drug allergy,Xa5rP,Domiphen allergy
 drug allergy,Xa5rq,Framycetin allergy
+drug allergy,Xa5rQ,Quaternary pyridinium surfactant allergy
 drug allergy,Xa5rr,Neomycin allergy
+drug allergy,Xa5rR,Cetylpyridinium allergy
 drug allergy,Xa5rs,Gentamicin allergy
+drug allergy,Xa5rS,Quaternary quinolinium surfactant allergy
 drug allergy,Xa5rt,Tobramycin allergy
+drug allergy,Xa5rT,Dequalinium allergy
 drug allergy,Xa5ru,Macrolide allergy
+drug allergy,Xa5rU,Disinfectant dye allergy
 drug allergy,Xa5rv,Erythromycin allergy
+drug allergy,Xa5rV,Acridine azo disinfectant dye allergy
 drug allergy,Xa5rw,Clarithromycin allergy
+drug allergy,Xa5rW,Triphenylmethane azo disinfectant dye allergy
 drug allergy,Xa5rx,Azithromycin allergy
+drug allergy,Xa5rX,Crystal violet allergy
 drug allergy,Xa5ry,Sodium fusidate allergy
+drug allergy,Xa5rY,Brilliant green allergy
 drug allergy,Xa5rz,Spectinomycin allergy
+drug allergy,Xa5rZ,Hydrogen peroxide allergy
 drug allergy,Xa5s0,Vancomycin allergy
 drug allergy,Xa5s1,Teicoplanin allergy
 drug allergy,Xa5s2,Trimethoprim allergy
@@ -1114,58 +1075,58 @@ drug allergy,Xa5s6,Nitrofurazone allergy
 drug allergy,Xa5s7,Fusidic acid allergy
 drug allergy,Xa5s8,4-quinolones allergy
 drug allergy,Xa5s9,Acrosoxacin allergy
-drug allergy,Xa5sA,Cinoxacin allergy
-drug allergy,Xa5sB,Nalidixic acid allergy
-drug allergy,Xa5sC,Ciprofloxacin allergy
-drug allergy,Xa5sD,Enoxacin allergy
-drug allergy,Xa5sE,Ofloxacin allergy
-drug allergy,Xa5sF,Norfloxacin allergy
-drug allergy,Xa5sG,Temafloxacin allergy
-drug allergy,Xa5sH,Penicillin allergy
-drug allergy,Xa5sI,Penicillinase-sensitive penicillins allergy
-drug allergy,Xa5sJ,Benethamine penicillin allergy
-drug allergy,Xa5sK,Benzathine penicillin allergy
-drug allergy,Xa5sL,Phenethicillin allergy
-drug allergy,Xa5sM,Phenoxymethylpenicillin allergy
-drug allergy,Xa5sN,Procaine benzylpenicillin allergy
-drug allergy,Xa5sO,Benzylpenicillin allergy
-drug allergy,Xa5sP,Penicillinase-resistant penicillins allergy
-drug allergy,Xa5sQ,Cloxacillin allergy
-drug allergy,Xa5sR,Flucloxacillin allergy
-drug allergy,Xa5sS,Methicillin allergy
-drug allergy,Xa5sT,Broad spectrum penicillins allergy
-drug allergy,Xa5sU,Amoxicillin allergy
-drug allergy,Xa5sV,Ampicillin allergy
-drug allergy,Xa5sW,Ciclacillin allergy
-drug allergy,Xa5sX,Mezlocillin allergy
-drug allergy,Xa5sY,Pivampicillin allergy
-drug allergy,Xa5sZ,Carbenicillin allergy
 drug allergy,Xa5sa,Bacampicillin allergy
+drug allergy,Xa5sA,Cinoxacin allergy
 drug allergy,Xa5sb,Talampicillin allergy
+drug allergy,Xa5sB,Nalidixic acid allergy
 drug allergy,Xa5sc,Antipseudomonal penicillins allergy
+drug allergy,Xa5sC,Ciprofloxacin allergy
 drug allergy,Xa5sd,Temocillin allergy
+drug allergy,Xa5sD,Enoxacin allergy
 drug allergy,Xa5se,Piperacillin allergy
+drug allergy,Xa5sE,Ofloxacin allergy
 drug allergy,Xa5sf,Azlocillin allergy
+drug allergy,Xa5sF,Norfloxacin allergy
 drug allergy,Xa5sg,Ticarcillin allergy
+drug allergy,Xa5sG,Temafloxacin allergy
 drug allergy,Xa5sh,Carfecillin allergy
+drug allergy,Xa5sH,Penicillin allergy
 drug allergy,Xa5si,Mecillinam allergy
+drug allergy,Xa5sI,Penicillinase-sensitive penicillins allergy
 drug allergy,Xa5sj,Pivmecillinam allergy
+drug allergy,Xa5sJ,Benethamine penicillin allergy
 drug allergy,Xa5sk,Combined penicillin preparation allergy
+drug allergy,Xa5sK,Benzathine penicillin allergy
 drug allergy,Xa5sl,Ampicillin and cloxacillin allergy
+drug allergy,Xa5sL,Phenethicillin allergy
 drug allergy,Xa5sm,Co-amoxiclav allergy
+drug allergy,Xa5sM,Phenoxymethylpenicillin allergy
 drug allergy,Xa5sn,Co-fluampicil allergy
+drug allergy,Xa5sN,Procaine benzylpenicillin allergy
 drug allergy,Xa5so,Piperacillin and tazobactam allergy
+drug allergy,Xa5sO,Benzylpenicillin allergy
 drug allergy,Xa5sp,Pivampicillin and pivmecillinam allergy
+drug allergy,Xa5sP,Penicillinase-resistant penicillins allergy
 drug allergy,Xa5sq,Ticarcillin and clavulanic acid allergy
+drug allergy,Xa5sQ,Cloxacillin allergy
 drug allergy,Xa5sr,Polymyxins allergy
+drug allergy,Xa5sR,Flucloxacillin allergy
 drug allergy,Xa5ss,Colistin allergy
+drug allergy,Xa5sS,Methicillin allergy
 drug allergy,Xa5st,Polymyxin B allergy
+drug allergy,Xa5sT,Broad spectrum penicillins allergy
 drug allergy,Xa5su,Carbapenem allergy
+drug allergy,Xa5sU,Amoxicillin allergy
 drug allergy,Xa5sv,Cephalosporin allergy
+drug allergy,Xa5sV,Ampicillin allergy
 drug allergy,Xa5sw,First generation cephalosporin allergy
+drug allergy,Xa5sW,Ciclacillin allergy
 drug allergy,Xa5sx,Cefadroxil allergy
+drug allergy,Xa5sX,Mezlocillin allergy
 drug allergy,Xa5sy,Cefalexin allergy
+drug allergy,Xa5sY,Pivampicillin allergy
 drug allergy,Xa5sz,Cephalothin allergy
+drug allergy,Xa5sZ,Carbenicillin allergy
 drug allergy,Xa5t0,Cefazolin allergy
 drug allergy,Xa5t1,Cefradine allergy
 drug allergy,Xa5t2,Latamoxef allergy
@@ -1176,58 +1137,58 @@ drug allergy,Xa5t6,Cephamandole allergy
 drug allergy,Xa5t7,Third generation cephalosporin allergy
 drug allergy,Xa5t8,Cefotaxime allergy
 drug allergy,Xa5t9,Ceftazidime allergy
-drug allergy,Xa5tA,Ceftizoxime allergy
-drug allergy,Xa5tB,Cefixime allergy
-drug allergy,Xa5tC,Cefodizime allergy
-drug allergy,Xa5tD,Cefpodoxime allergy
-drug allergy,Xa5tE,Ceftriaxone allergy
-drug allergy,Xa5tF,Ceftibuten allergy
-drug allergy,Xa5tG,Cefsulodin allergy
-drug allergy,Xa5tH,Fourth generation cephalosporin allergy
-drug allergy,Xa5tI,Cefpirome allergy
-drug allergy,Xa5tJ,Cephamycin allergy
-drug allergy,Xa5tK,Cefoxitin allergy
-drug allergy,Xa5tL,Fosfomycin allergy
-drug allergy,Xa5tM,Lincomycin and derivatives allergy
-drug allergy,Xa5tN,Clindamycin allergy
-drug allergy,Xa5tO,Lincomycin allergy
-drug allergy,Xa5tP,Mandelic acid allergy
-drug allergy,Xa5tQ,Monobactam allergy
-drug allergy,Xa5tR,Aztreonam allergy
-drug allergy,Xa5tS,Nitroimidazole allergy
-drug allergy,Xa5tT,Metronidazole allergy
-drug allergy,Xa5tU,Tinidazole allergy
-drug allergy,Xa5tV,Nimorazole allergy
-drug allergy,Xa5tW,Sulphonamide allergy
-drug allergy,Xa5tX,Calcium sulphaloxate allergy
-drug allergy,Xa5tY,Phthalylsulfathiazole allergy
-drug allergy,Xa5tZ,Sulfametopyrazine allergy
 drug allergy,Xa5ta,Sulfadiazine allergy
+drug allergy,Xa5tA,Ceftizoxime allergy
 drug allergy,Xa5tb,Sulphadimethoxine allergy
+drug allergy,Xa5tB,Cefixime allergy
 drug allergy,Xa5tc,Sulfadimidine allergy
+drug allergy,Xa5tC,Cefodizime allergy
 drug allergy,Xa5td,Sulphafurazole allergy
+drug allergy,Xa5tD,Cefpodoxime allergy
 drug allergy,Xa5te,Sulphaguanidine allergy
+drug allergy,Xa5tE,Ceftriaxone allergy
 drug allergy,Xa5tf,Sulphaurea allergy
+drug allergy,Xa5tF,Ceftibuten allergy
 drug allergy,Xa5tg,Mafenide allergy
+drug allergy,Xa5tG,Cefsulodin allergy
 drug allergy,Xa5th,Silver sulfadiazine allergy
+drug allergy,Xa5tH,Fourth generation cephalosporin allergy
 drug allergy,Xa5ti,Combined sulphonamides allergy
+drug allergy,Xa5tI,Cefpirome allergy
 drug allergy,Xa5tj,Sulfacetamide allergy
+drug allergy,Xa5tJ,Cephamycin allergy
 drug allergy,Xa5tk,Tetracyclines group allergy
+drug allergy,Xa5tK,Cefoxitin allergy
 drug allergy,Xa5tl,Clomocycline sodium allergy
+drug allergy,Xa5tL,Fosfomycin allergy
 drug allergy,Xa5tm,Doxycycline allergy
+drug allergy,Xa5tM,Lincomycin and derivatives allergy
 drug allergy,Xa5tn,Lymecycline allergy
+drug allergy,Xa5tN,Clindamycin allergy
 drug allergy,Xa5to,Minocycline allergy
+drug allergy,Xa5tO,Lincomycin allergy
 drug allergy,Xa5tp,Oxytetracycline allergy
+drug allergy,Xa5tP,Mandelic acid allergy
 drug allergy,Xa5tq,Compound tetracycline preparations allergy
+drug allergy,Xa5tQ,Monobactam allergy
 drug allergy,Xa5tr,Chlortetracycline allergy
+drug allergy,Xa5tR,Aztreonam allergy
 drug allergy,Xa5ts,Demeclocycline allergy
+drug allergy,Xa5tS,Nitroimidazole allergy
 drug allergy,Xa5tt,Tetracycline allergy
+drug allergy,Xa5tT,Metronidazole allergy
 drug allergy,Xa5tu,Chloramphenicol allergy
+drug allergy,Xa5tU,Tinidazole allergy
 drug allergy,Xa5tv,Co-trimoxazole allergy
+drug allergy,Xa5tV,Nimorazole allergy
 drug allergy,Xa5tw,Antiprotozoal drug allergy
+drug allergy,Xa5tW,Sulphonamide allergy
 drug allergy,Xa5tx,Atovaquone allergy
+drug allergy,Xa5tX,Calcium sulphaloxate allergy
 drug allergy,Xa5ty,Antimony antiprotozoal allergy
+drug allergy,Xa5tY,Phthalylsulfathiazole allergy
 drug allergy,Xa5tz,Sodium stibogluconate allergy
+drug allergy,Xa5tZ,Sulfametopyrazine allergy
 drug allergy,Xa5u0,Diamidine antiprotozoal allergy
 drug allergy,Xa5u1,Pentamidine allergy
 drug allergy,Xa5u2,Dichloroacetamide antiprotozoal allergy
@@ -1238,58 +1199,58 @@ drug allergy,Xa5u6,Antimycobacterial agent allergy
 drug allergy,Xa5u7,Antituberculous drug allergy
 drug allergy,Xa5u8,Pyrazinamide allergy
 drug allergy,Xa5u9,Antibiotic antituberculosis drug allergy
-drug allergy,Xa5uA,Capreomycin allergy
-drug allergy,Xa5uB,Cycloserine allergy
-drug allergy,Xa5uC,Rifampicin allergy
-drug allergy,Xa5uD,Rifabutin allergy
-drug allergy,Xa5uE,Hydrazide antituberculosis drug allergy
-drug allergy,Xa5uF,Isoniazid allergy
-drug allergy,Xa5uG,Ethambutolol allergy
-drug allergy,Xa5uH,Antileprotic drug allergy
-drug allergy,Xa5uI,Dapsone allergy
-drug allergy,Xa5uJ,Clofazimine allergy
-drug allergy,Xa5uK,Pesticide allergy
-drug allergy,Xa5uL,Benzyl benzoate allergy
-drug allergy,Xa5uM,Monosulfiram allergy
-drug allergy,Xa5uN,Carbamate pesticide allergy
-drug allergy,Xa5uO,Carbaryl allergy
-drug allergy,Xa5uP,Chlorinated pesticide allergy
-drug allergy,Xa5uQ,Lindane allergy
-drug allergy,Xa5uR,Organophosphate pesticide allergy
-drug allergy,Xa5uS,Malathion allergy
-drug allergy,Xa5uT,Pyrethroid pesticides allergy
-drug allergy,Xa5uU,Phenothrin allergy
-drug allergy,Xa5uV,Permethrin allergy
-drug allergy,Xa5uW,"Vaccine, immunoglobulins and antisera allergy"
-drug allergy,Xa5uX,Immunoglobulin products allergy
-drug allergy,Xa5uY,Human immunoglobulin allergy
-drug allergy,Xa5uZ,Intramuscular immunoglobulin allergy
 drug allergy,Xa5ua,Intravenous immunoglobulin allergy
+drug allergy,Xa5uA,Capreomycin allergy
 drug allergy,Xa5ub,Anti-D (Rh) immunoglobulin allergy
+drug allergy,Xa5uB,Cycloserine allergy
 drug allergy,Xa5uc,Hepatitis B immunoglobulin allergy
+drug allergy,Xa5uC,Rifampicin allergy
 drug allergy,Xa5ud,Tetanus immunoglobulin allergy
+drug allergy,Xa5uD,Rifabutin allergy
 drug allergy,Xa5ue,Varicella-zoster immunoglobulin allergy
+drug allergy,Xa5uE,Hydrazide antituberculosis drug allergy
 drug allergy,Xa5uf,Vaccines allergy
+drug allergy,Xa5uF,Isoniazid allergy
 drug allergy,Xa5ug,Anthrax vaccine allergy
+drug allergy,Xa5uG,Ethambutolol allergy
 drug allergy,Xa5uh,Diphtheria vaccines allergy
+drug allergy,Xa5uH,Antileprotic drug allergy
 drug allergy,Xa5ui,Diphtheria single antigen vaccine allergy
+drug allergy,Xa5uI,Dapsone allergy
 drug allergy,Xa5uj,Diphtheria and tetanus vaccine allergy
+drug allergy,Xa5uJ,Clofazimine allergy
 drug allergy,Xa5uk,Diphtheria and tetanus and pertussis vaccine allergy
+drug allergy,Xa5uK,Pesticide allergy
 drug allergy,Xa5ul,Hepatitis B vaccine allergy
+drug allergy,Xa5uL,Benzyl benzoate allergy
 drug allergy,Xa5um,Influenza vaccine allergy
+drug allergy,Xa5uM,Monosulfiram allergy
 drug allergy,Xa5un,Influenza split virion vaccine allergy
+drug allergy,Xa5uN,Carbamate pesticide allergy
 drug allergy,Xa5uo,Influenza surface antigen vaccine allergy
+drug allergy,Xa5uO,Carbaryl allergy
 drug allergy,Xa5up,Mumps vaccine allergy
+drug allergy,Xa5uP,Chlorinated pesticide allergy
 drug allergy,Xa5uq,Pertussis vaccine allergy
+drug allergy,Xa5uQ,Lindane allergy
 drug allergy,Xa5ur,Pneumococcal vaccine allergy
+drug allergy,Xa5uR,Organophosphate pesticide allergy
 drug allergy,Xa5us,Poliomyelitis vaccine allergy
+drug allergy,Xa5uS,Malathion allergy
 drug allergy,Xa5ut,Rabies vaccine allergy
+drug allergy,Xa5uT,Pyrethroid pesticides allergy
 drug allergy,Xa5uu,Rubella vaccine allergy
+drug allergy,Xa5uU,Phenothrin allergy
 drug allergy,Xa5uv,Smallpox vaccine allergy
+drug allergy,Xa5uV,Permethrin allergy
 drug allergy,Xa5uw,Tetanus vaccine allergy
+drug allergy,Xa5uW,"Vaccine, immunoglobulins and antisera allergy"
 drug allergy,Xa5ux,Typhoid vaccine allergy
+drug allergy,Xa5uX,Immunoglobulin products allergy
 drug allergy,Xa5uy,Typhoid polysaccharide vaccine allergy
+drug allergy,Xa5uY,Human immunoglobulin allergy
 drug allergy,Xa5uz,Typhoid whole cell vaccine allergy
+drug allergy,Xa5uZ,Intramuscular immunoglobulin allergy
 drug allergy,Xa5v0,Measles/mumps/rubella vaccine allergy
 drug allergy,Xa5v1,Hepatitis A vaccine allergy
 drug allergy,Xa5v2,Haemophilus influenzae Type B vaccine allergy
@@ -1300,58 +1261,58 @@ drug allergy,Xa5v6,Botulism antitoxin allergy
 drug allergy,Xa5v7,Diphtheria antitoxin allergy
 drug allergy,Xa5v8,"Hormones, synthetic substitutes and antagonists allergy"
 drug allergy,Xa5v9,Glucagon allergy
-drug allergy,Xa5vA,Antithyroid drug allergy
-drug allergy,Xa5vB,Thiourea antithyroid agent allergy
-drug allergy,Xa5vC,Carbimazole allergy
-drug allergy,Xa5vD,Thiouracil antithyroid agent allergy
-drug allergy,Xa5vE,Propylthiouracil allergy
-drug allergy,Xa5vF,Corticosteroids allergy
-drug allergy,Xa5vG,Betamethasone allergy
-drug allergy,Xa5vH,Hydrocortisone allergy
-drug allergy,Xa5vI,Topical hydrocortisone allergy
-drug allergy,Xa5vJ,Topical compound hydrocortisone preparation allergy
-drug allergy,Xa5vK,Prednisone allergy
-drug allergy,Xa5vL,Fluorometholone allergy
-drug allergy,Xa5vM,Flunisolide allergy
-drug allergy,Xa5vN,Desonide allergy
-drug allergy,Xa5vO,Desoximetasone allergy
-drug allergy,Xa5vP,Fluocinonide allergy
-drug allergy,Xa5vQ,Fluocortolone allergy
-drug allergy,Xa5vR,Fludroxycortide allergy
-drug allergy,Xa5vS,Halcinonide allergy
-drug allergy,Xa5vT,Alclometasone allergy
-drug allergy,Xa5vU,Beclometasone allergy
-drug allergy,Xa5vV,Clobetasol allergy
-drug allergy,Xa5vW,Clobetasone allergy
-drug allergy,Xa5vX,Cortisone allergy
-drug allergy,Xa5vY,Diflucortolone allergy
-drug allergy,Xa5vZ,Fluclorolone allergy
 drug allergy,Xa5va,Fludrocortisone allergy
+drug allergy,Xa5vA,Antithyroid drug allergy
 drug allergy,Xa5vb,Fluocinolone allergy
+drug allergy,Xa5vB,Thiourea antithyroid agent allergy
 drug allergy,Xa5vc,Fluticasone allergy
+drug allergy,Xa5vC,Carbimazole allergy
 drug allergy,Xa5vd,Mometasone allergy
+drug allergy,Xa5vD,Thiouracil antithyroid agent allergy
 drug allergy,Xa5ve,Dexamethasone allergy
+drug allergy,Xa5vE,Propylthiouracil allergy
 drug allergy,Xa5vf,Topical dexamethasone allergy
+drug allergy,Xa5vF,Corticosteroids allergy
 drug allergy,Xa5vg,Topical compound dexamethasone preparation allergy
+drug allergy,Xa5vG,Betamethasone allergy
 drug allergy,Xa5vh,Methylprednisolone allergy
+drug allergy,Xa5vH,Hydrocortisone allergy
 drug allergy,Xa5vi,Prednisolone allergy
+drug allergy,Xa5vI,Topical hydrocortisone allergy
 drug allergy,Xa5vj,Topical prednisolone allergy
+drug allergy,Xa5vJ,Topical compound hydrocortisone preparation allergy
 drug allergy,Xa5vk,Prednisolone drops allergy
+drug allergy,Xa5vK,Prednisone allergy
 drug allergy,Xa5vl,Rectal prednisolone preparations allergy
+drug allergy,Xa5vL,Fluorometholone allergy
 drug allergy,Xa5vm,Triamcinolone allergy
+drug allergy,Xa5vM,Flunisolide allergy
 drug allergy,Xa5vn,Budesonide allergy
+drug allergy,Xa5vN,Desonide allergy
 drug allergy,Xa5vo,Topical budesonide allergy
+drug allergy,Xa5vO,Desoximetasone allergy
 drug allergy,Xa5vp,Insulin allergy
+drug allergy,Xa5vP,Fluocinonide allergy
 drug allergy,Xa5vq,Soluble neutral insulin allergy
+drug allergy,Xa5vQ,Fluocortolone allergy
 drug allergy,Xa5vr,Biphasic insulin allergy
+drug allergy,Xa5vR,Fludroxycortide allergy
 drug allergy,Xa5vs,Insulin zinc suspension allergy
+drug allergy,Xa5vS,Halcinonide allergy
 drug allergy,Xa5vt,Insulin zinc suspension (amorphous) allergy
+drug allergy,Xa5vT,Alclometasone allergy
 drug allergy,Xa5vu,Insulin zinc suspension (crystalline) allergy
+drug allergy,Xa5vU,Beclometasone allergy
 drug allergy,Xa5vv,Isophane insulin allergy
+drug allergy,Xa5vV,Clobetasol allergy
 drug allergy,Xa5vw,Protamine zinc insulin allergy
+drug allergy,Xa5vW,Clobetasone allergy
 drug allergy,Xa5vx,Biphasic isophane insulin allergy
+drug allergy,Xa5vX,Cortisone allergy
 drug allergy,Xa5vy,Humulin insulin allergy
+drug allergy,Xa5vY,Diflucortolone allergy
 drug allergy,Xa5vz,Initard insulin allergy
+drug allergy,Xa5vZ,Fluclorolone allergy
 drug allergy,Xa5w0,Pur-In-Mix insulin allergy
 drug allergy,Xa5w1,Mixtard insulin allergy
 drug allergy,Xa5w2,Oral hypoglycaemic allergy
@@ -1362,58 +1323,58 @@ drug allergy,Xa5w6,Glibenclamide allergy
 drug allergy,Xa5w7,Glibornuride allergy
 drug allergy,Xa5w8,Gliclazide allergy
 drug allergy,Xa5w9,Glipizide allergy
-drug allergy,Xa5wA,Gliquidone allergy
-drug allergy,Xa5wB,Glymidine allergy
-drug allergy,Xa5wC,Tolazamide allergy
-drug allergy,Xa5wD,Tolbutamide allergy
-drug allergy,Xa5wE,Biguanide allergy
-drug allergy,Xa5wF,Metformin allergy
-drug allergy,Xa5wG,Guar gum allergy
-drug allergy,Xa5wH,Acarbose allergy
-drug allergy,Xa5wI,Sex hormones allergy
-drug allergy,Xa5wJ,Progestogen allergy
-drug allergy,Xa5wK,Allyloestrenol allergy
-drug allergy,Xa5wL,Dydrogesterone allergy
-drug allergy,Xa5wM,Progesterone allergy
-drug allergy,Xa5wN,Gestonorone allergy
-drug allergy,Xa5wO,Hydroxyprogesterone allergy
-drug allergy,Xa5wP,Megestrol allergy
-drug allergy,Xa5wQ,Norethisterone allergy
-drug allergy,Xa5wR,Etynodiol diacetate allergy
-drug allergy,Xa5wS,Levonorgestrel allergy
-drug allergy,Xa5wT,Medroxyprogesterone allergy
-drug allergy,Xa5wU,Anabolic steroids allergy
-drug allergy,Xa5wV,Tibolone allergy
-drug allergy,Xa5wW,Drostanolone propionate allergy
-drug allergy,Xa5wX,Oxymetholone allergy
-drug allergy,Xa5wY,Nandrolone allergy
-drug allergy,Xa5wZ,Stanozolol allergy
 drug allergy,Xa5wa,Cyclofenil allergy
+drug allergy,Xa5wA,Gliquidone allergy
 drug allergy,Xa5wb,Danazol allergy
+drug allergy,Xa5wB,Glymidine allergy
 drug allergy,Xa5wc,Gestrinone allergy
+drug allergy,Xa5wC,Tolazamide allergy
 drug allergy,Xa5wd,Anti-androgens allergy
+drug allergy,Xa5wD,Tolbutamide allergy
 drug allergy,Xa5we,Finasteride allergy
+drug allergy,Xa5wE,Biguanide allergy
 drug allergy,Xa5wf,Flutamide allergy
+drug allergy,Xa5wF,Metformin allergy
 drug allergy,Xa5wg,Bicalutamide allergy
+drug allergy,Xa5wG,Guar gum allergy
 drug allergy,Xa5wh,Cyproterone acetate and ethinylestradiol allergy
+drug allergy,Xa5wH,Acarbose allergy
 drug allergy,Xa5wi,Cyproterone allergy
+drug allergy,Xa5wI,Sex hormones allergy
 drug allergy,Xa5wj,Combined oral contraceptive allergy
+drug allergy,Xa5wJ,Progestogen allergy
 drug allergy,Xa5wk,Androgen allergy
+drug allergy,Xa5wK,Allyloestrenol allergy
 drug allergy,Xa5wl,Mesterolone allergy
+drug allergy,Xa5wL,Dydrogesterone allergy
 drug allergy,Xa5wm,Methyltestosterone allergy
+drug allergy,Xa5wM,Progesterone allergy
 drug allergy,Xa5wn,Testosterone allergy
+drug allergy,Xa5wN,Gestonorone allergy
 drug allergy,Xa5wo,Testosterone implant allergy
+drug allergy,Xa5wO,Hydroxyprogesterone allergy
 drug allergy,Xa5wp,Intramuscular testosterone allergy
+drug allergy,Xa5wP,Megestrol allergy
 drug allergy,Xa5wq,Oral testosterone allergy
+drug allergy,Xa5wQ,Norethisterone allergy
 drug allergy,Xa5wr,Testosterone patch allergy
+drug allergy,Xa5wR,Etynodiol diacetate allergy
 drug allergy,Xa5ws,Oestrogen allergy
+drug allergy,Xa5wS,Levonorgestrel allergy
 drug allergy,Xa5wt,Estradiol allergy
+drug allergy,Xa5wT,Medroxyprogesterone allergy
 drug allergy,Xa5wu,Oral estradiol allergy
+drug allergy,Xa5wU,Anabolic steroids allergy
 drug allergy,Xa5wv,Estradiol implant allergy
+drug allergy,Xa5wV,Tibolone allergy
 drug allergy,Xa5ww,Topical estradiol allergy
+drug allergy,Xa5wW,Drostanolone propionate allergy
 drug allergy,Xa5wx,Piperazine estrone sulphate allergy
+drug allergy,Xa5wX,Oxymetholone allergy
 drug allergy,Xa5wy,Quinestradol allergy
+drug allergy,Xa5wY,Nandrolone allergy
 drug allergy,Xa5wz,Quinestrol allergy
+drug allergy,Xa5wZ,Stanozolol allergy
 drug allergy,Xa5x0,Dienestrol allergy
 drug allergy,Xa5x1,Polyestradiol phosphate allergy
 drug allergy,Xa5x2,Fosfestrol allergy
@@ -1424,58 +1385,58 @@ drug allergy,Xa5x6,Conjugated oestrogens allergy
 drug allergy,Xa5x7,Diethylstilbestrol allergy
 drug allergy,Xa5x8,Oestrogen and progestogen preparation allergy
 drug allergy,Xa5x9,Clomifene allergy
-drug allergy,Xa5xA,Ergoline drug allergy
-drug allergy,Xa5xB,Cabergoline allergy
-drug allergy,Xa5xC,Quinagolide allergy
-drug allergy,Xa5xD,Thyroid agent allergy
-drug allergy,Xa5xE,Liothyronine allergy
-drug allergy,Xa5xF,Thyroxine allergy
-drug allergy,Xa5xG,Hypothalamic/pituitary hormone allergy
-drug allergy,Xa5xH,Antidiuretic hormone allergy
-drug allergy,Xa5xI,Desmopressin allergy
-drug allergy,Xa5xJ,Lypressin allergy
-drug allergy,Xa5xK,Terlipressin allergy
-drug allergy,Xa5xL,Vasopressin allergy
-drug allergy,Xa5xM,Corticotrophic hormone allergy
-drug allergy,Xa5xN,Corticotropins allergy
-drug allergy,Xa5xO,Tetracosactide allergy
-drug allergy,Xa5xP,Gonad regulating hormone allergy
-drug allergy,Xa5xQ,Gonadorelin allergy
-drug allergy,Xa5xR,Nafarelin allergy
-drug allergy,Xa5xS,Buserelin allergy
-drug allergy,Xa5xT,Goserelin allergy
-drug allergy,Xa5xU,Triptorelin allergy
-drug allergy,Xa5xV,Gonadotrophic hormone allergy
-drug allergy,Xa5xW,Leuprorelin allergy
-drug allergy,Xa5xX,Oxytocic hormone allergy
-drug allergy,Xa5xY,Oxytocin allergy
-drug allergy,Xa5xZ,Oxytocin and ergometrine allergy
 drug allergy,Xa5xa,Somatrophic hormone allergy
+drug allergy,Xa5xA,Ergoline drug allergy
 drug allergy,Xa5xb,Octreotide allergy
+drug allergy,Xa5xB,Cabergoline allergy
 drug allergy,Xa5xc,Growth hormone allergy
+drug allergy,Xa5xC,Quinagolide allergy
 drug allergy,Xa5xd,Thyrotrophic hormone allergy
+drug allergy,Xa5xD,Thyroid agent allergy
 drug allergy,Xa5xe,Protirelin allergy
+drug allergy,Xa5xE,Liothyronine allergy
 drug allergy,Xa5xf,Thyrotrophin allergy
+drug allergy,Xa5xF,Thyroxine allergy
 drug allergy,Xa5xg,Calcium regulating agent allergy
+drug allergy,Xa5xG,Hypothalamic/pituitary hormone allergy
 drug allergy,Xa5xh,Biphosphonates allergy
+drug allergy,Xa5xH,Antidiuretic hormone allergy
 drug allergy,Xa5xi,Disodium etidronate allergy
+drug allergy,Xa5xI,Desmopressin allergy
 drug allergy,Xa5xj,Disodium pamidronate allergy
+drug allergy,Xa5xJ,Lypressin allergy
 drug allergy,Xa5xk,Sodium clodronate allergy
+drug allergy,Xa5xK,Terlipressin allergy
 drug allergy,Xa5xl,Disodium etidronate and calcium carbonate allergy
+drug allergy,Xa5xL,Vasopressin allergy
 drug allergy,Xa5xm,Calcium regulating hormone allergy
+drug allergy,Xa5xM,Corticotrophic hormone allergy
 drug allergy,Xa5xn,Calcitonin allergy
+drug allergy,Xa5xN,Corticotropins allergy
 drug allergy,Xa5xo,Calcitonin (salmon) allergy
+drug allergy,Xa5xO,Tetracosactide allergy
 drug allergy,Xa5xp,Calcitonin (pork) allergy
+drug allergy,Xa5xP,Gonad regulating hormone allergy
 drug allergy,Xa5xq,Haematological agents allergy
+drug allergy,Xa5xQ,Gonadorelin allergy
 drug allergy,Xa5xr,Erythropoietin allergy
+drug allergy,Xa5xR,Nafarelin allergy
 drug allergy,Xa5xs,Epoetin alfa allergy
+drug allergy,Xa5xS,Buserelin allergy
 drug allergy,Xa5xt,Epoetin beta allergy
+drug allergy,Xa5xT,Goserelin allergy
 drug allergy,Xa5xu,Plasma substitutes allergy
+drug allergy,Xa5xU,Triptorelin allergy
 drug allergy,Xa5xv,Gelatin allergy
+drug allergy,Xa5xV,Gonadotrophic hormone allergy
 drug allergy,Xa5xw,Hetastarch allergy
+drug allergy,Xa5xW,Leuprorelin allergy
 drug allergy,Xa5xx,Pentastarch allergy
+drug allergy,Xa5xX,Oxytocic hormone allergy
 drug allergy,Xa5xy,Dextran allergy
+drug allergy,Xa5xY,Oxytocin allergy
 drug allergy,Xa5xz,Perfluorochemical allergy
+drug allergy,Xa5xZ,Oxytocin and ergometrine allergy
 drug allergy,Xa5y0,Plasma protein solution allergy
 drug allergy,Xa5y1,Blood derivative allergy
 drug allergy,Xa5y2,Albumin solution allergy
@@ -1486,58 +1447,58 @@ drug allergy,Xa5y6,Factor IX fraction products allergy
 drug allergy,Xa5y7,Activated factor VII products allergy
 drug allergy,Xa5y8,Acset allergy
 drug allergy,Xa5y9,Factor IX by-passing fraction products allergy
-drug allergy,Xa5yA,Factor V concentrate products allergy
-drug allergy,Xa5yB,Factor VII concentrate products allergy
-drug allergy,Xa5yC,Factor VIII by-passing fraction products allergy
-drug allergy,Xa5yD,Factor XI products allergy
-drug allergy,Xa5yE,Factor XIII products allergy
-drug allergy,Xa5yF,von Willebrand factor products allergy
-drug allergy,Xa5yG,Anticoagulant allergy
-drug allergy,Xa5yH,Direct acting anticoagulant allergy
-drug allergy,Xa5yI,Ancrod allergy
-drug allergy,Xa5yJ,Heparin allergy
-drug allergy,Xa5yK,Enoxaparin allergy
-drug allergy,Xa5yL,Dalteparin allergy
-drug allergy,Xa5yM,Tinzaparin allergy
-drug allergy,Xa5yN,Heparinoid allergy
-drug allergy,Xa5yO,Danaparoid sodium allergy
-drug allergy,Xa5yP,Indirect acting anticoagulant allergy
-drug allergy,Xa5yQ,Coumarin anticoagulant allergy
-drug allergy,Xa5yR,Acenocoumarol allergy
-drug allergy,Xa5yS,Warfarin allergy
-drug allergy,Xa5yT,Indanedione anticoagulant allergy
-drug allergy,Xa5yU,Phenindione allergy
-drug allergy,Xa5yV,Haemostatic allergy
-drug allergy,Xa5yW,Etamsylate allergy
-drug allergy,Xa5yX,Thromboplastin allergy
-drug allergy,Xa5yY,Tranexamic acid allergy
-drug allergy,Xa5yZ,Collagen allergy
 drug allergy,Xa5ya,Aprotinin allergy
+drug allergy,Xa5yA,Factor V concentrate products allergy
 drug allergy,Xa5yb,"Foods, vitamins, electrolytes and inorganic salts allergy"
+drug allergy,Xa5yB,Factor VII concentrate products allergy
 drug allergy,Xa5yc,Iron allergy
+drug allergy,Xa5yC,Factor VIII by-passing fraction products allergy
 drug allergy,Xa5yd,Iron and folic acid allergy
+drug allergy,Xa5yD,Factor XI products allergy
 drug allergy,Xa5ye,Polysaccharide iron complex allergy
+drug allergy,Xa5yE,Factor XIII products allergy
 drug allergy,Xa5yf,Sodium feredetate allergy
+drug allergy,Xa5yF,von Willebrand factor products allergy
 drug allergy,Xa5yg,Compound iron preparations allergy
+drug allergy,Xa5yG,Anticoagulant allergy
 drug allergy,Xa5yh,Iron sorbitol allergy
+drug allergy,Xa5yH,Direct acting anticoagulant allergy
 drug allergy,Xa5yi,Ferrous salt allergy
+drug allergy,Xa5yI,Ancrod allergy
 drug allergy,Xa5yj,Ferrous fumarate allergy
+drug allergy,Xa5yJ,Heparin allergy
 drug allergy,Xa5yk,Ferrous gluconate allergy
+drug allergy,Xa5yK,Enoxaparin allergy
 drug allergy,Xa5yl,Ferrous glycine sulphate allergy
+drug allergy,Xa5yL,Dalteparin allergy
 drug allergy,Xa5ym,Ferrous succinate allergy
+drug allergy,Xa5yM,Tinzaparin allergy
 drug allergy,Xa5yn,Ferrous sulphate allergy
+drug allergy,Xa5yN,Heparinoid allergy
 drug allergy,Xa5yo,Ferrous phosphate allergy
+drug allergy,Xa5yO,Danaparoid sodium allergy
 drug allergy,Xa5yp,Intravenous nutrition allergy
+drug allergy,Xa5yP,Indirect acting anticoagulant allergy
 drug allergy,Xa5yq,Supplementary preparations for parenteral nutrition allergy
+drug allergy,Xa5yQ,Coumarin anticoagulant allergy
 drug allergy,Xa5yr,Intravenous nutrition (electrolytes/trace elements) allergy
+drug allergy,Xa5yR,Acenocoumarol allergy
 drug allergy,Xa5ys,Intravenous nutrition (vitamins) allergy
+drug allergy,Xa5yS,Warfarin allergy
 drug allergy,Xa5yt,Intravenous nutrition (amino acids) allergy
+drug allergy,Xa5yT,Indanedione anticoagulant allergy
 drug allergy,Xa5yu,Intravenous nutrition (carbohydrate) allergy
+drug allergy,Xa5yU,Phenindione allergy
 drug allergy,Xa5yv,Intravenous nutrition (fats) allergy
+drug allergy,Xa5yV,Haemostatic allergy
 drug allergy,Xa5yw,Intravenous nutrition (ready mixed) allergy
+drug allergy,Xa5yW,Etamsylate allergy
 drug allergy,Xa5yx,L-Carnitine allergy
+drug allergy,Xa5yX,Thromboplastin allergy
 drug allergy,Xa5yy,Iodine compounds allergy
+drug allergy,Xa5yY,Tranexamic acid allergy
 drug allergy,Xa5yz,Iodine allergy
+drug allergy,Xa5yZ,Collagen allergy
 drug allergy,Xa5z0,Iodophore allergy
 drug allergy,Xa5z1,Povidone iodine allergy
 drug allergy,Xa5z2,Multiple electrolyte infusion allergy
@@ -1548,58 +1509,58 @@ drug allergy,Xa5z6,Multivitamin and mineral preparations allergy
 drug allergy,Xa5z7,Fat soluble vitamin allergy
 drug allergy,Xa5z8,Vitamin A allergy
 drug allergy,Xa5z9,Vitamin D allergy
-drug allergy,Xa5zA,Vitamin K allergy
-drug allergy,Xa5zB,Alpha-tocopheryl allergy
-drug allergy,Xa5zC,Water soluble vitamin allergy
-drug allergy,Xa5zD,Vitamin B group allergy
-drug allergy,Xa5zE,Nicotinic acid allergy
-drug allergy,Xa5zF,Folic acid allergy
-drug allergy,Xa5zG,Folinic acid allergy
-drug allergy,Xa5zH,Vitamin B12 preparation allergy
-drug allergy,Xa5zI,Hydroxocobalamin allergy
-drug allergy,Xa5zJ,Cyanocobalamin allergy
-drug allergy,Xa5zK,Nicotinamide allergy
-drug allergy,Xa5zL,Vitamin B complex preparations allergy
-drug allergy,Xa5zM,Inositol allergy
-drug allergy,Xa5zN,Pyridoxine preparation allergy
-drug allergy,Xa5zO,Thiamine preparation allergy
-drug allergy,Xa5zP,Ascorbic acid allergy
-drug allergy,Xa5zQ,Ion exchange resin allergy
-drug allergy,Xa5zR,Cation exchange resin allergy
-drug allergy,Xa5zS,Sodium cellulose phosphate allergy
-drug allergy,Xa5zT,Calcium polystyrene sulphonate allergy
-drug allergy,Xa5zU,Sodium polystyrene sulphonate allergy
-drug allergy,Xa5zV,Potassium allergy
-drug allergy,Xa5zW,Oral potassium allergy
-drug allergy,Xa5zX,Parenteral potassium allergy
-drug allergy,Xa5zY,Electrolyte anion allergy
-drug allergy,Xa5zZ,Zinc allergy
 drug allergy,Xa5za,Fluoride allergy
+drug allergy,Xa5zA,Vitamin K allergy
 drug allergy,Xa5zb,Sodium fluoride allergy
+drug allergy,Xa5zB,Alpha-tocopheryl allergy
 drug allergy,Xa5zc,Drug groups primarily affecting cardiovascular syst allergy
+drug allergy,Xa5zC,Water soluble vitamin allergy
 drug allergy,Xa5zd,Lipid-lowering drug allergy
+drug allergy,Xa5zD,Vitamin B group allergy
 drug allergy,Xa5ze,Dextrothyroxine sodium allergy
+drug allergy,Xa5zE,Nicotinic acid allergy
 drug allergy,Xa5zf,Gemfibrozil allergy
+drug allergy,Xa5zF,Folic acid allergy
 drug allergy,Xa5zg,Probucol allergy
+drug allergy,Xa5zG,Folinic acid allergy
 drug allergy,Xa5zh,Acipimox allergy
+drug allergy,Xa5zH,Vitamin B12 preparation allergy
 drug allergy,Xa5zi,Anion exchange resins allergy
+drug allergy,Xa5zI,Hydroxocobalamin allergy
 drug allergy,Xa5zj,Colestipol allergy
+drug allergy,Xa5zJ,Cyanocobalamin allergy
 drug allergy,Xa5zk,Colestyramine allergy
+drug allergy,Xa5zK,Nicotinamide allergy
 drug allergy,Xa5zl,Clofibrate group allergy
+drug allergy,Xa5zL,Vitamin B complex preparations allergy
 drug allergy,Xa5zm,Bezafibrate allergy
+drug allergy,Xa5zM,Inositol allergy
 drug allergy,Xa5zn,Clofibrate allergy
+drug allergy,Xa5zN,Pyridoxine preparation allergy
 drug allergy,Xa5zo,Fenofibrate allergy
+drug allergy,Xa5zO,Thiamine preparation allergy
 drug allergy,Xa5zp,Ciprofibrate allergy
+drug allergy,Xa5zP,Ascorbic acid allergy
 drug allergy,Xa5zq,Fish oils allergy
+drug allergy,Xa5zQ,Ion exchange resin allergy
 drug allergy,Xa5zr,Omega 3-marine triglycerides allergy
+drug allergy,Xa5zR,Cation exchange resin allergy
 drug allergy,Xa5zs,HMG COA reductase inhibitor allergy
+drug allergy,Xa5zS,Sodium cellulose phosphate allergy
 drug allergy,Xa5zt,Simvastatin allergy
+drug allergy,Xa5zT,Calcium polystyrene sulphonate allergy
 drug allergy,Xa5zu,Fluvastatin allergy
+drug allergy,Xa5zU,Sodium polystyrene sulphonate allergy
 drug allergy,Xa5zv,Pravastatin allergy
+drug allergy,Xa5zV,Potassium allergy
 drug allergy,Xa5zw,Antiarrhythmic drug allergy
+drug allergy,Xa5zW,Oral potassium allergy
 drug allergy,Xa5zx,Adenosine allergy
+drug allergy,Xa5zX,Parenteral potassium allergy
 drug allergy,Xa5zy,Class I antiarrhythmic allergy
+drug allergy,Xa5zY,Electrolyte anion allergy
 drug allergy,Xa5zz,Disopyramide allergy
+drug allergy,Xa5zZ,Zinc allergy
 drug allergy,Xa600,Quinidine allergy
 drug allergy,Xa601,Flecainide allergy
 drug allergy,Xa602,Mexiletine allergy
@@ -1610,58 +1571,58 @@ drug allergy,Xa606,Tocainide allergy
 drug allergy,Xa607,Class II antiarrhythmic allergy
 drug allergy,Xa608,Bretylium allergy
 drug allergy,Xa609,Class III antiarrhythmic allergy
-drug allergy,Xa60A,Amiodarone allergy
-drug allergy,Xa60B,Class IV antiarrhythmic allergy
-drug allergy,Xa60C,Diuretic allergy
-drug allergy,Xa60D,Thiazide diuretic allergy
-drug allergy,Xa60E,Bendroflumethiazide allergy
-drug allergy,Xa60F,Chlorothiazide allergy
-drug allergy,Xa60G,Cyclopenthiazide allergy
-drug allergy,Xa60H,Hydrochlorothiazide allergy
-drug allergy,Xa60I,Hydroflumethiazide allergy
-drug allergy,Xa60J,Methyclothiazide allergy
-drug allergy,Xa60K,Polythiazide allergy
-drug allergy,Xa60L,Loop diuretic allergy
-drug allergy,Xa60M,Furosemide allergy
-drug allergy,Xa60N,Bumetanide allergy
-drug allergy,Xa60O,Etacrynic acid allergy
-drug allergy,Xa60P,Piretanide allergy
-drug allergy,Xa60Q,Torasemide allergy
-drug allergy,Xa60R,Potassium sparing diuretic allergy
-drug allergy,Xa60S,Triamterene allergy
-drug allergy,Xa60T,Aldosterone antagonists allergy
-drug allergy,Xa60U,Potassium canrenoate allergy
-drug allergy,Xa60V,Spironolactone allergy
-drug allergy,Xa60W,Amiloride allergy
-drug allergy,Xa60X,Potassium sparing compound diuretic allergy
-drug allergy,Xa60Y,Amiloride and loop diuretic allergy
-drug allergy,Xa60Z,Amiloride and thiazide diuretic allergy
 drug allergy,Xa60a,Spironolactone and loop diuretic allergy
+drug allergy,Xa60A,Amiodarone allergy
 drug allergy,Xa60b,Spironolactone and thiazide diuretic allergy
+drug allergy,Xa60B,Class IV antiarrhythmic allergy
 drug allergy,Xa60c,Triamterene and loop diuretic allergy
+drug allergy,Xa60C,Diuretic allergy
 drug allergy,Xa60d,Triamterene and thiazide diuretic allergy
+drug allergy,Xa60D,Thiazide diuretic allergy
 drug allergy,Xa60e,Osmotic diuretic allergy
+drug allergy,Xa60E,Bendroflumethiazide allergy
 drug allergy,Xa60f,Mannitol allergy
+drug allergy,Xa60F,Chlorothiazide allergy
 drug allergy,Xa60g,Mercurial diuretic allergy
+drug allergy,Xa60G,Cyclopenthiazide allergy
 drug allergy,Xa60h,Mersalyl allergy
+drug allergy,Xa60H,Hydrochlorothiazide allergy
 drug allergy,Xa60i,Thiazide-related diuretic allergy
+drug allergy,Xa60I,Hydroflumethiazide allergy
 drug allergy,Xa60j,Chlortalidone allergy
+drug allergy,Xa60J,Methyclothiazide allergy
 drug allergy,Xa60k,Indapamide allergy
+drug allergy,Xa60K,Polythiazide allergy
 drug allergy,Xa60l,Mefruside allergy
+drug allergy,Xa60L,Loop diuretic allergy
 drug allergy,Xa60m,Metolazone allergy
+drug allergy,Xa60M,Furosemide allergy
 drug allergy,Xa60n,Xipamide allergy
+drug allergy,Xa60N,Bumetanide allergy
 drug allergy,Xa60o,Carbonic anhydrase inhibitor allergy
+drug allergy,Xa60O,Etacrynic acid allergy
 drug allergy,Xa60p,Dichlorphenamide allergy
+drug allergy,Xa60P,Piretanide allergy
 drug allergy,Xa60q,Acetazolamide allergy
+drug allergy,Xa60Q,Torasemide allergy
 drug allergy,Xa60r,Antihypertensive allergy
+drug allergy,Xa60R,Potassium sparing diuretic allergy
 drug allergy,Xa60s,Adrenergic neurone blocking drug allergy
+drug allergy,Xa60S,Triamterene allergy
 drug allergy,Xa60t,Bethanidine allergy
+drug allergy,Xa60T,Aldosterone antagonists allergy
 drug allergy,Xa60u,Debrisoquine allergy
+drug allergy,Xa60U,Potassium canrenoate allergy
 drug allergy,Xa60v,Guanethidine allergy
+drug allergy,Xa60V,Spironolactone allergy
 drug allergy,Xa60w,Angiotensin-converting-enzyme inhibitor allergy
+drug allergy,Xa60W,Amiloride allergy
 drug allergy,Xa60x,Captopril allergy
+drug allergy,Xa60X,Potassium sparing compound diuretic allergy
 drug allergy,Xa60y,Lisinopril allergy
+drug allergy,Xa60Y,Amiloride and loop diuretic allergy
 drug allergy,Xa60z,Quinapril allergy
+drug allergy,Xa60Z,Amiloride and thiazide diuretic allergy
 drug allergy,Xa610,Ramipril allergy
 drug allergy,Xa611,Cilazapril allergy
 drug allergy,Xa612,Trandolapril allergy
@@ -1672,58 +1633,58 @@ drug allergy,Xa616,Ganglion-blocking drug allergy
 drug allergy,Xa617,Trimetaphan allergy
 drug allergy,Xa618,Metirosine allergy
 drug allergy,Xa619,Losartan allergy
-drug allergy,Xa61A,Rauwolfia antihypertensive allergy
-drug allergy,Xa61B,Cardiac inotropic agent allergy
-drug allergy,Xa61C,Cardiac glycoside allergy
-drug allergy,Xa61D,Digoxin allergy
-drug allergy,Xa61E,Digitoxin allergy
-drug allergy,Xa61F,Lanatoside C allergy
-drug allergy,Xa61G,Medigoxin allergy
-drug allergy,Xa61H,Ouabain allergy
-drug allergy,Xa61I,Phosphodiesterase inhibitor allergy
-drug allergy,Xa61J,Enoximone allergy
-drug allergy,Xa61K,Milrinone allergy
-drug allergy,Xa61L,Vasoconstrictor allergy
-drug allergy,Xa61M,Ergot compound allergy
-drug allergy,Xa61N,Co-dergocrine allergy
-drug allergy,Xa61O,Ergot alkaloid allergy
-drug allergy,Xa61P,Dihydroergotamine mesylate allergy
-drug allergy,Xa61Q,Ergometrine allergy
-drug allergy,Xa61R,Vasodilator allergy
-drug allergy,Xa61S,Vasodilator antihypertensive drug allergy
-drug allergy,Xa61T,Minoxidil allergy
-drug allergy,Xa61U,Sodium nitroprusside allergy
-drug allergy,Xa61V,Flosequinan allergy
-drug allergy,Xa61W,Diazoxide allergy
-drug allergy,Xa61X,Hydralazine allergy
-drug allergy,Xa61Y,Nicorandil allergy
-drug allergy,Xa61Z,Dipyridamole allergy
 drug allergy,Xa61a,Nitrate vasodilator allergy
+drug allergy,Xa61A,Rauwolfia antihypertensive allergy
 drug allergy,Xa61b,Glyceryl trinitrate allergy
+drug allergy,Xa61B,Cardiac inotropic agent allergy
 drug allergy,Xa61c,Oral glyceryl trinitrate allergy
+drug allergy,Xa61C,Cardiac glycoside allergy
 drug allergy,Xa61d,Modified release GTN allergy
+drug allergy,Xa61D,Digoxin allergy
 drug allergy,Xa61e,Parenteral glyceryl trinitrate allergy
+drug allergy,Xa61E,Digitoxin allergy
 drug allergy,Xa61f,Transdermal glyceryl trinitrate allergy
+drug allergy,Xa61F,Lanatoside C allergy
 drug allergy,Xa61g,Glyceryl trinitrate spray allergy
+drug allergy,Xa61G,Medigoxin allergy
 drug allergy,Xa61h,Isosorbide dinitrate allergy
+drug allergy,Xa61H,Ouabain allergy
 drug allergy,Xa61i,Parenteral isosorbide dinitrate allergy
+drug allergy,Xa61I,Phosphodiesterase inhibitor allergy
 drug allergy,Xa61j,Oral isosorbide dinitrate allergy
+drug allergy,Xa61J,Enoximone allergy
 drug allergy,Xa61k,Modified release isosorbide dinitrate allergy
+drug allergy,Xa61K,Milrinone allergy
 drug allergy,Xa61l,Isosorbide mononitrate allergy
+drug allergy,Xa61L,Vasoconstrictor allergy
 drug allergy,Xa61m,Modified release isosorbide mononitrate allergy
+drug allergy,Xa61M,Ergot compound allergy
 drug allergy,Xa61n,Pentaerithrityl tetranitrate allergy
+drug allergy,Xa61N,Co-dergocrine allergy
 drug allergy,Xa61o,Peripheral/cerebral vasodilator allergy
+drug allergy,Xa61O,Ergot alkaloid allergy
 drug allergy,Xa61p,Bamethan sulphate allergy
+drug allergy,Xa61P,Dihydroergotamine mesylate allergy
 drug allergy,Xa61q,Pentoxifylline allergy
+drug allergy,Xa61Q,Ergometrine allergy
 drug allergy,Xa61r,Cyclandelate allergy
+drug allergy,Xa61R,Vasodilator allergy
 drug allergy,Xa61s,Nicofuranose allergy
+drug allergy,Xa61S,Vasodilator antihypertensive drug allergy
 drug allergy,Xa61t,Inositol nicotinate allergy
+drug allergy,Xa61T,Minoxidil allergy
 drug allergy,Xa61u,Isoxsuprine allergy
+drug allergy,Xa61U,Sodium nitroprusside allergy
 drug allergy,Xa61v,Naftidrofuryl allergy
+drug allergy,Xa61V,Flosequinan allergy
 drug allergy,Xa61w,Nicotinyl alcohol allergy
+drug allergy,Xa61W,Diazoxide allergy
 drug allergy,Xa61x,Alpha blocking vasodilator allergy
+drug allergy,Xa61X,Hydralazine allergy
 drug allergy,Xa61y,Moxisylyte allergy
+drug allergy,Xa61Y,Nicorandil allergy
 drug allergy,Xa61z,Betahistine allergy
+drug allergy,Xa61Z,Dipyridamole allergy
 drug allergy,Xa620,Antivaricose agent allergy
 drug allergy,Xa621,Sodium tetradecyl sulphate allergy
 drug allergy,Xa622,Ethanolamine allergy
@@ -1738,11 +1699,40 @@ drug allergy,Xa62A,Hyaluronidase allergy
 drug allergy,Xa62B,Streptokinase streptodornase allergy
 drug allergy,Xa62C,Chymotrypsin allergy
 drug allergy,Xa6mG,Paracetamol and dextropropoxyphene allergy
+drug allergy,XaadN,H/O: rotavirus vaccine allergy
+drug allergy,XacIR,Aliskiren allergy
+drug allergy,XacIS,Prasugrel allergy
+drug allergy,XacIT,Ticagrelor allergy
+drug allergy,Xad9o,Rivaroxaban allergy
+drug allergy,Xad9p,Apixaban allergy
+drug allergy,XaDzd,[V]Personal history of aspirin allergy
+drug allergy,XaDze,[V]Personal history of co-proxamol allergy
+drug allergy,XaIAA,H/O: influenza vaccine allergy
+drug allergy,XaIpk,H/O: aspirin allergy
+drug allergy,XaJ3e,H/O: clopidogrel allergy
+drug allergy,XaJ5x,H/O: betablocker allergy
+drug allergy,XaJ5y,H/O: angiotensin converting enzyme inhibitor allergy
+drug allergy,XaJ5z,H/O: angiotensin II receptor antagonist allergy
+drug allergy,XaJ60,H/O: warfarin allergy
+drug allergy,XaJ8B,[V]Personal history of warfarin allergy
+drug allergy,XaJ8U,[V]Personal history of betablocker allergy
+drug allergy,XaJ8V,[V]Personal history of clopidogrel allergy
 drug allergy,XaJ8W,[V]PH of angiotensin II receptor antagonist allergy
+drug allergy,XaJ8X,[V]Personal history of influenza vaccine allergy
 drug allergy,XaJ8Y,[V]PH angiotensin-converting-enzyme inhibitor allergy
+drug allergy,XaKap,H/O: combined calcium and vitamin D3 preparation allergy
 drug allergy,XaKar,H/O: bisphosphonate allergy
+drug allergy,XaKas,H/O: selective oestrogen receptor modulator allergy
+drug allergy,XaKat,H/O: strontium ranelate allergy
+drug allergy,XaKdj,[V]Personal history of strontium ranelate allergy
 drug allergy,XaKdR,[V]PH of selective oestrogen receptor modulator allergy
+drug allergy,XaKdW,[V]Personal history of bisphosphonate allergy
+drug allergy,XaKdX,[V]Personal history of calcium allergy
+drug allergy,XaKdY,[V]Personal history of vitamin D3 allergy
+drug allergy,XaKFa,H/O: pneumococcal vaccine allergy
+drug allergy,XaKJr,[V]Personal history of pneumococcal vaccine allergy
 drug allergy,XaLGR,Transfer-degraded drug allergy
+drug allergy,XaLHt,H/O: dipyridamole allergy
 drug allergy,XaRAf,Myroxylon pereirae allergy
 drug allergy,XaXgz,Phosphodiesterase-5 inhibitor allergy
 drug allergy,XaYOi,Tramadol allergy
@@ -1755,43 +1745,63 @@ drug allergy,XaZej,H/O calcitonin allergy
 drug allergy,XaZfi,H/O disodium etidronate allergy
 drug allergy,XaZfj,H/O alendronic acid allergy
 drug allergy,XaZfk,H/O risedronate sodium allergy
-drug allergy,XaadN,H/O: rotavirus vaccine allergy
-drug allergy,XacIR,Aliskiren allergy
-drug allergy,XacIS,Prasugrel allergy
-drug allergy,XacIT,Ticagrelor allergy
-drug allergy,Xad9o,Rivaroxaban allergy
-drug allergy,Xad9p,Apixaban allergy
+drug allergy,XE1os,Drug hypersensitivity NOS
+drug allergy,XE1tJ,Drug hypersensitivity (& [NOS])
 drug allergy,Y077d,Transfer-degraded drug allergy
+drug allergy,ZV14.,[V]Personal history of drug allergy
+drug allergy,ZV140,[V]Personal history of penicillin allergy
+drug allergy,ZV141,[V]Personal history of other antibiotic allergy
+drug allergy,ZV142,[V]Personal history of sulphonamide allergy
+drug allergy,ZV143,[V]Personal history of other anti-infective agent allergy
+drug allergy,ZV144,[V]Personal history of anaesthetic agent allergy
+drug allergy,ZV145,[V]Personal history of narcotic agent allergy
+drug allergy,ZV146,[V]Personal history of analgesic agent allergy
+drug allergy,ZV147,[V]Personal history of serum or vaccine allergy
+drug allergy,ZV148,[V]Personal history of aspirin allergy
+drug allergy,ZV149,[V]Personal history of co-proxamol allergy
+drug allergy,ZV14A,[V]Personal history of warfarin allergy
+drug allergy,ZV14B,[V]Personal history of clopidogrel allergy
+drug allergy,ZV14C,[V]Personal history of betablocker allergy
+drug allergy,ZV14D,[V]Personal history of angiotensin-converting-enzyme inhibitor allergy
+drug allergy,ZV14E,[V]Personal history of angiotensin II receptor antagonist allergy
+drug allergy,ZV14F,[V]Personal history of influenza vaccine allergy
+drug allergy,ZV14G,[V]Personal history of pneumococcal vaccine allergy
+drug allergy,ZV14H,[V]Personal history of strontium ranelate allergy
+drug allergy,ZV14J,[V]Personal history of selective oestrogen receptor modulator allergy
+drug allergy,ZV14K,[V]Personal history of bisphosphonate allergy
+drug allergy,ZV14L,[V]Personal history of calcium allergy
+drug allergy,ZV14M,[V]Personal history of vitamin D3 allergy
+drug allergy,ZV14y,[V]Personal history of other specified drug allergy
+drug allergy,ZV14z,[V]Personal history of unspecified drug allergy
 drug allergy,ZVu6M,[X]Personal history of allergy to other antibiotic agents
 drug allergy,ZVu6N,[X]Personal history/allergy to other anti-infective agents
-drug allergy,SN501,Anaphylactic shock due to adverse effect of correct drug or medicament properly administered
-drug allergy,X70vr,Drug-induced anaphylaxis
-drug allergy,X70vs,Penicillin-induced anaphylaxis
-drug allergy,X70w2,Drug-induced anaphylactoid reaction
-drug allergy,X70w3,NSAID-induced anaphylactoid reaction
-drug allergy,X70w4,Aspirin-induced anaphylactoid reaction
-drug allergy,X70wE,Drug-aggravated angio-oedema-urticaria
-drug allergy,X70wF,NSAID-induced angio-oedema-urticaria
-drug allergy,X70wG,Aspirin-induced angio-oedema-urticaria
-drug allergy,Xa0WK,Penicillin-induced angio-oedema-urticaria
-drug allergy,X508N,Drug-induced urticaria
 eczema,14F1.,H/O: eczema
+eczema,F4D3.,Non-infectious dermatosis of eyelid
 eczema,F4D31,Contact eczema - eyelids
+eczema,F4D32,Ichthyosis of eyelid
+eczema,F4D3z,Non-infected eyelid dermatoses NOS
+eczema,F4D5.,Other eyelid infective dermatitis
+eczema,M100.,Seborrhoeic dermatitis of scalp
+eczema,M101.,Seborrhoeic dermatitis (& capitis)
+eczema,M104.,Pityriasis simplex
+eczema,M11..,Atopic dermatitis and related conditions
+eczema,M110.,Napkin dermatitis
 eczema,M111.,Atopic dermatitis/eczema
 eczema,M112.,Infantile eczema
 eczema,M113.,Flexural eczema
 eczema,M114.,Allergic (intrinsic) eczema
+eczema,M115.,Besnier's prurigo
+eczema,M116.,Brocq's neurodermatitis
+eczema,M117.,Atopic neurodermatitis
+eczema,M118.,Infantile seborrhoeic dermatitis
+eczema,M1180,Cradle cap
+eczema,M118z,Infantile seborrhoeic dermatitis NOS
 eczema,M119.,Discoid eczema
-eczema,M1y0.,Discoid eczema
-eczema,X505j,Discoid eczema
 eczema,M11A.,Asteatotic eczema
-eczema,M21A.,Asteatotic eczema
-eczema,X506Q,Asteatotic eczema
 eczema,M11z.,Atopic dermatitis NOS
 eczema,M12..,Contact eczema
 eczema,M120.,Contact dermatitis due to detergents
 eczema,M121.,Contact dermatitis due to oils and greases
-eczema,XE1Aq,Contact dermatitis due to oils and greases
 eczema,M122.,Contact dermatitis due to solvents
 eczema,M1220,Contact dermatitis due to chlorocompound
 eczema,M1221,Contact dermatitis due to cyclohexane
@@ -1814,7 +1824,6 @@ eczema,M123z,Contact dermatitis due to medicament NOS
 eczema,M124.,Contact dermatitis due to other chemical products
 eczema,M1240,Contact dermatitis due to acids
 eczema,M1241,Contact dermatitis due to adhesive plaster
-eczema,XE1Ar,Contact dermatitis due to adhesive plaster
 eczema,M1242,Contact dermatitis due to alkalis
 eczema,M1243,Contact dermatitis due to caustics
 eczema,M1244,Contact dermatitis due to dichromate
@@ -1831,7 +1840,6 @@ eczema,M1253,Contact dermatitis due to fruit
 eczema,M1254,Contact dermatitis due to meat
 eczema,M1255,Contact dermatitis due to milk
 eczema,M125z,Contact dermatitis due to food NOS
-eczema,XE1As,Contact dermatitis due to food NOS
 eczema,M126.,Contact dermatitis due to plants
 eczema,M1260,Contact dermatitis due to lacquer tree
 eczema,M1261,Contact dermatitis due to poison-ivy
@@ -1843,9 +1851,9 @@ eczema,M1266,Contact dermatitis due to ragweed
 eczema,M126z,Contact dermatitis due to plants NOS
 eczema,M127.,Contact dermatitis due to solar radiation
 eczema,M1270,Unspecified contact dermatitis due to solar radiation
+eczema,M1272,Hydroa aestivale
 eczema,M127z,Contact dermatitis due to solar radn NOS
 eczema,M128.,Allergic contact dermatitis
-eczema,X505x,Allergic contact dermatitis
 eczema,M1280,Allergic contact dermatitis due to adhesives
 eczema,M1281,Allergic contact dermatitis due to cosmetics
 eczema,M1282,Allergic contact dermatitis due to drugs in contact with the skin
@@ -1854,7 +1862,6 @@ eczema,M1284,Allergic contact dermatitis due to other chemical products
 eczema,M1285,Allergic contact dermatitis due to food in contact with the skin
 eczema,M1286,"Allergic contact dermatitis due to plants, except food"
 eczema,M129.,Irritant contact dermatitis
-eczema,X5063,Irritant contact dermatitis
 eczema,M1290,Irritant contact dermatitis due to cosmetics
 eczema,M1291,Irritant contact dermatitis due to drugs in contact with the skin
 eczema,M1292,Irritant contact dermatitis due to other chemical products
@@ -1862,7 +1869,6 @@ eczema,M1293,Irritant contact dermatitis due to food in contact with the skin
 eczema,M1294,"Irritant contact dermatitis due to plants, except food"
 eczema,M12y.,Contact dermatitis due to other specified agents
 eczema,M12y0,Contact dermatitis due to cosmetics
-eczema,XE1At,Contact dermatitis due to cosmetics
 eczema,M12y1,Contact dermatitis due to cold weather
 eczema,M12y2,Contact dermatitis due to dyes
 eczema,M12y3,Contact dermatitis due to furs
@@ -1871,7 +1877,6 @@ eczema,M12y5,Contact dermatitis due to infra-red rays
 eczema,M12y6,Contact dermatitis due to jewellery
 eczema,M12y7,Contact dermatitis due to light (excluding sunlight)
 eczema,M12y8,Contact dermatitis due to metals
-eczema,XE1Au,Contact dermatitis due to metals
 eczema,M12y9,Contact dermatitis due to preservatives
 eczema,M12yA,Contact dermatitis due to radiation NOS
 eczema,M12yB,Contact dermatitis due to ultra-violet rays (excluding sunlight)
@@ -1881,26 +1886,8 @@ eczema,M12yz,Contact dermatitis: specified agent NOS
 eczema,M12z.,Contact dermatitis NOS
 eczema,M12z0,Dermatitis NOS
 eczema,M12z1,Eczema NOS
-eczema,XE1Av,Eczema NOS
 eczema,M12z3,Hand eczema
-eczema,X505L,Hand eczema
 eczema,M12zz,Contact dermatitis NOS
-eczema,F4D3.,Non-infectious dermatosis of eyelid
-eczema,F4D32,Ichthyosis of eyelid
-eczema,F4D3z,Non-infected eyelid dermatoses NOS
-eczema,F4D5.,Other eyelid infective dermatitis
-eczema,M100.,Seborrhoeic dermatitis of scalp
-eczema,M101.,Seborrhoeic dermatitis (& capitis)
-eczema,M104.,Pityriasis simplex
-eczema,M11..,Atopic dermatitis and related conditions
-eczema,M110.,Napkin dermatitis
-eczema,M115.,Besnier's prurigo
-eczema,M116.,Brocq's neurodermatitis
-eczema,M117.,Atopic neurodermatitis
-eczema,M118.,Infantile seborrhoeic dermatitis
-eczema,M1180,Cradle cap
-eczema,M118z,Infantile seborrhoeic dermatitis NOS
-eczema,M1272,Hydroa aestivale
 eczema,M13..,Ingestion dermatitis
 eczema,M131.,Ingestion dermatitis due to food
 eczema,M13y.,Ingestion dermatitis due to other specified substance
@@ -1919,6 +1906,8 @@ eczema,M1830,Prurigo nodularis
 eczema,M1831,Lichen simplex
 eczema,M1832,Lichen simplex
 eczema,M183z,Lichenification NOS
+eczema,M1y0.,Discoid eczema
+eczema,M21A.,Asteatotic eczema
 eczema,M2520,Dyshidrosis unspecified
 eczema,M2521,Pompholyx unspecified
 eczema,M2522,Cheiropompholyx
@@ -1937,28 +1926,12 @@ eczema,Myu29,[X]Dermatitis due to unspecified substance taken internally
 eczema,Myu2A,[X]Other prurigo
 eczema,Myu2C,[X]Other specified dermatitis
 eczema,Ua1AR,Occupational eczema
-eczema,X00YO,Seborrhoeic blepharitis
 eczema,X00iS,Neurodermatitis of external ear
+eczema,X00YO,Seborrhoeic blepharitis
 eczema,X30Cp,Peristomal dermatitis
 eczema,X40Fx,Nipple eczema
 eczema,X504O,Fibreglass dermatitis
 eczema,X504v,Photoallergic eczema
-eczema,X505H,Cactus dermatitis
-eczema,X505K,Eczema
-eczema,X505M,Constitutional eczema
-eczema,X505N,Atopic dermatitis of hands
-eczema,X505O,Inverse pattern atopic dermatitis
-eczema,X505P,Discoid atopic dermatitis
-eczema,X505Q,Erythrodermic atopic dermatitis
-eczema,X505R,Follicular atopic dermatitis
-eczema,X505S,Pruriginous atopic dermatitis
-eczema,X505T,Photosensitive atopic dermatitis
-eczema,X505U,Photoaggravated atopic dermatitis
-eczema,X505V,Constitutional eczema of hands and feet
-eczema,X505W,Acute cheiropodopompholyx
-eczema,X505X,Hyperkeratotic eczema of hands and feet
-eczema,X505Y,Discoid eczema of hands and feet
-eczema,X505Z,Constitutional eczema of hands
 eczema,X505a,Apron pattern of vesicular eczema of hands
 eczema,X505b,Hyperkeratotic fissured hand eczema
 eczema,X505c,Hyperkeratotic eczema of palms
@@ -1967,23 +1940,43 @@ eczema,X505e,Constitutional fingertip eczema
 eczema,X505f,Constitutional eczema of feet
 eczema,X505g,Acute podopompholyx
 eczema,X505h,Chronic podopompholyx
+eczema,X505H,Cactus dermatitis
 eczema,X505i,Hyperkeratotic eczema of soles
+eczema,X505j,Discoid eczema
 eczema,X505k,Discoid hand eczema
+eczema,X505K,Eczema
 eczema,X505l,Psoriasiform eczema
+eczema,X505L,Hand eczema
+eczema,X505M,Constitutional eczema
+eczema,X505N,Atopic dermatitis of hands
 eczema,X505o,Truncal seborrhoeic dermatitis
+eczema,X505O,Inverse pattern atopic dermatitis
 eczema,X505p,Flexural seborrhoeic dermatitis
+eczema,X505P,Discoid atopic dermatitis
 eczema,X505q,Seborrhoeide
+eczema,X505Q,Erythrodermic atopic dermatitis
 eczema,X505r,Grease contact dermatitis
+eczema,X505R,Follicular atopic dermatitis
 eczema,X505s,Oil contact dermatitis
+eczema,X505S,Pruriginous atopic dermatitis
 eczema,X505t,Elastoplast contact dermatitis
+eczema,X505T,Photosensitive atopic dermatitis
 eczema,X505u,Egg contact dermatitis
+eczema,X505U,Photoaggravated atopic dermatitis
 eczema,X505v,Lanolin contact dermatitis
+eczema,X505V,Constitutional eczema of hands and feet
 eczema,X505w,Perfume contact dermatitis
+eczema,X505W,Acute cheiropodopompholyx
+eczema,X505x,Allergic contact dermatitis
+eczema,X505X,Hyperkeratotic eczema of hands and feet
 eczema,X505y,Nickel sensitivity
+eczema,X505Y,Discoid eczema of hands and feet
 eczema,X505z,Implant allergic nickel contact dermatitis
+eczema,X505Z,Constitutional eczema of hands
 eczema,X5060,Ingested allergen contact dermatitis
 eczema,X5061,Photoallergic contact dermatitis
 eczema,X5062,Occupational allergic contact dermatitis
+eczema,X5063,Irritant contact dermatitis
 eczema,X5064,Acute irritant contact dermatitis
 eczema,X5065,Subacute irritant contact dermatitis
 eczema,X5066,Chronic irritant contact dermatitis
@@ -2001,35 +1994,22 @@ eczema,X506L,Chronic superficial scaly dermatitis
 eczema,X506M,Eosinophilic pustular folliculitis
 eczema,X506N,Exudative discoid and lichenoid dermatosis
 eczema,X506O,Papular eczema with elimination of papillary oedema
+eczema,X506Q,Asteatotic eczema
 eczema,X506T,Erythroderma
 eczema,X506U,Site-specific eczema
 eczema,X50Gj,Eczematous drug eruption
 eczema,X50Gk,Seborrhoeic eczema-like eruption
 eczema,X50Gm,Drug-induced erythroderma
-eczema,XE16i,Contact or allergic eyelid dermatitis
-eczema,XE1An,Seborrhoeic dermatitis
-eczema,XE1Ap,Contact dermatitis and other eczemas
-eczema,XE1Aw,Ingestion dermatitis due to drugs
-eczema,XE1C4,Seborrhoeic dermatitis/eczema NOS
-eczema,XE1C6,Atopic eczema/dermatitis NOS
-eczema,XE1C8,Contact dermat/eczema (& [extrins allerg ecz][occupat ecz])
-eczema,XE1CA,Contact dermatitis: [chemicals] or [elastoplast allergy]
-eczema,XE1CE,Contact dermatitis: metals(& [nickel])
-eczema,XE1CG,(Contact dermat NOS) or (discoid eczema) or (nummul eczema)
-eczema,XE1CI,Dermatitis &/or eczemas NOS
-eczema,XE1CW,Neurodermatitis
-eczema,XE1Cu,(Pompholyx) or (cheiropompholyx) or (podopompholyx)
-eczema,XM1GA,Pompholyx
-eczema,Xa0WJ,Swimming pool dermatitis
-eczema,Xa0Wg,Baboon syndrome
 eczema,Xa0p8,Dermatitis of eyelid
+eczema,Xa0Wg,Baboon syndrome
+eczema,Xa0WJ,Swimming pool dermatitis
 eczema,Xa13g,Coral dermatitis
 eczema,Xa1dl,Unclassifiable eczema
 eczema,Xa3gI,Contact dermatitis - chemicals
 eczema,Xa3gJ,Contact dermatitis - foods/plants
 eczema,Xa4jb,Nipple eczema
-eczema,Xa7lZ,Eczema of face
 eczema,Xa7lb,Eczema of wrist
+eczema,Xa7lZ,Eczema of face
 eczema,Xa9Bb,Contact dermatitis of eyelid
 eczema,Xa9CV,Contact dermatitis
 eczema,XaBml,Eczema of leg
@@ -2042,45 +2022,43 @@ eczema,XaINM,Exacerbation of eczema
 eczema,XaL2Q,Periocular dermatitis
 eczema,XaY4a,Pustular eczema
 eczema,XaYX9,Irritant contact dermatitis due to incontinence
+eczema,XE16i,Contact or allergic eyelid dermatitis
+eczema,XE1An,Seborrhoeic dermatitis
+eczema,XE1Ap,Contact dermatitis and other eczemas
+eczema,XE1Aq,Contact dermatitis due to oils and greases
+eczema,XE1Ar,Contact dermatitis due to adhesive plaster
+eczema,XE1As,Contact dermatitis due to food NOS
+eczema,XE1At,Contact dermatitis due to cosmetics
+eczema,XE1Au,Contact dermatitis due to metals
+eczema,XE1Av,Eczema NOS
+eczema,XE1Aw,Ingestion dermatitis due to drugs
+eczema,XE1C4,Seborrhoeic dermatitis/eczema NOS
+eczema,XE1C6,Atopic eczema/dermatitis NOS
+eczema,XE1C8,Contact dermat/eczema (& [extrins allerg ecz][occupat ecz])
+eczema,XE1CA,Contact dermatitis: [chemicals] or [elastoplast allergy]
+eczema,XE1CE,Contact dermatitis: metals(& [nickel])
+eczema,XE1CG,(Contact dermat NOS) or (discoid eczema) or (nummul eczema)
+eczema,XE1CI,Dermatitis &/or eczemas NOS
+eczema,XE1Cu,(Pompholyx) or (cheiropompholyx) or (podopompholyx)
+eczema,XE1CW,Neurodermatitis
+eczema,XM1GA,Pompholyx
 eczema,Y033e,Contact dermatitis due to dressing
 eczema,Y3295,Other atopic dermatitis
 eczema,Y7351,Intrinsic (allergic) eczema
 food allergy,14M1.,H/O: food allergy
+food allergy,SN500,Anaphylactic shock due to adverse food reaction
 food allergy,SN58.,Food allergy
-food allergy,Xa1aX,Food allergy
 food allergy,SN580,Egg allergy
-food allergy,Xa1nm,Egg allergy
 food allergy,SN581,Egg protein allergy
 food allergy,SN582,Peanut allergy
-food allergy,Xa1no,Peanut allergy
 food allergy,SN583,Nut allergy
-food allergy,Xa7lJ,Nut allergy
 food allergy,SN584,Wheat allergy
-food allergy,XaOYT,Wheat allergy
 food allergy,SN585,Fish allergy
-food allergy,XaQaY,Fish allergy
 food allergy,SN586,Seafood allergy
-food allergy,Xa1np,Seafood allergy
 food allergy,SN587,Shellfish allergy
-food allergy,Xa7lO,Shellfish allergy
 food allergy,SN588,Mushroom allergy
-food allergy,XaXYk,Mushroom allergy
 food allergy,SN589,Allergy to strawberries
-food allergy,Xa7lI,Allergy to strawberries
 food allergy,SN58A,Allergy to soya
-food allergy,Xaa0d,Allergy to soya
-food allergy,Xa1nn,Cow's milk allergy
-food allergy,Xa2hN,Dietary education for food allergy
-food allergy,Xa7lN,Chocolate allergy
-food allergy,Xa7lP,Cheese allergy
-food allergy,XaPlY,Non-coeliac gluten sensitivity
-food allergy,XaYPH,Gluten sensitivity
-food allergy,XabWn,Allergy to banana
-food allergy,Xad15,Allergy to tomato
-food allergy,Y06ac,Wheat Allergy
-food allergy,SN500,Anaphylactic shock due to adverse food reaction
-food allergy,ZV1B3,[V]Personal history of food induced anaphylaxis
-food allergy,XaG0G,[V]Personal history of food induced anaphylaxis
 food allergy,X70vm,Food-induced anaphylaxis
 food allergy,X70vn,Peanut-induced anaphylaxis
 food allergy,X70vo,Seafood-induced anaphylaxis
@@ -2088,11 +2066,32 @@ food allergy,X70vp,Egg white-induced anaphylaxis
 food allergy,X70vq,Cow's milk protein-induced anaphylaxis
 food allergy,X70w1,Food-induced anaphylactoid reaction
 food allergy,X70wD,Food-induced angio-oedema-urticaria
+food allergy,Xa1aX,Food allergy
+food allergy,Xa1nm,Egg allergy
+food allergy,Xa1nn,Cow's milk allergy
+food allergy,Xa1no,Peanut allergy
+food allergy,Xa1np,Seafood allergy
+food allergy,Xa2hN,Dietary education for food allergy
+food allergy,Xa7lI,Allergy to strawberries
+food allergy,Xa7lJ,Nut allergy
+food allergy,Xa7lN,Chocolate allergy
+food allergy,Xa7lO,Shellfish allergy
+food allergy,Xa7lP,Cheese allergy
+food allergy,Xaa0d,Allergy to soya
+food allergy,XabWn,Allergy to banana
+food allergy,Xad15,Allergy to tomato
+food allergy,XaG0G,[V]Personal history of food induced anaphylaxis
+food allergy,XaOYT,Wheat allergy
+food allergy,XaPlY,Non-coeliac gluten sensitivity
+food allergy,XaQaY,Fish allergy
+food allergy,XaXYk,Mushroom allergy
+food allergy,XaYPH,Gluten sensitivity
+food allergy,Y06ac,Wheat Allergy
+food allergy,ZV1B3,[V]Personal history of food induced anaphylaxis
 other allergy,14M..,H/O: non-drug allergy
 other allergy,14M2.,H/O: plant allergy
 other allergy,14M3.,H/O: multiple allergies
 other allergy,14M4.,H/O: cat allergy
-other allergy,XaIO5,H/O: cat allergy
 other allergy,3354.,Skin: type 3 delayed reaction
 other allergy,3355.,Skin: type 1 immediate reaction
 other allergy,3356.,Skin: type 4 late reaction
@@ -2104,7 +2103,6 @@ other allergy,66G2.,Allergic dis. follow-up assess
 other allergy,66G3.,Allergic dis.- symptom change
 other allergy,66G5.,Allergy treatment changed
 other allergy,66G6.,Allergy dis.treatment started
-other allergy,Y5367,Allergy dis.treatment started
 other allergy,66G7.,Allergy dis.treatment stopped
 other allergy,66G8.,Carries adrenaline preloaded injection pen
 other allergy,66GZ.,Allergic dis. monitoring NOS
@@ -2114,6 +2112,8 @@ other allergy,D310z,Allergic purpura NOS
 other allergy,D4033,Allergic eosinophilia
 other allergy,F5130,Chronic allergic otitis media
 other allergy,F5140,Allergic otitis media NOS
+other allergy,H1710,Allergy to animal
+other allergy,H1711,Dog allergy
 other allergy,H35..,Extrinsic allergic alveolitis
 other allergy,H350.,Farmers' lung
 other allergy,H351.,Bagassosis
@@ -2161,7 +2161,6 @@ other allergy,N0629,Allergic arthritis of multiple sites
 other allergy,N062z,Allergic arthritis NOS
 other allergy,SN53.,Allergy
 other allergy,SN530,Allergic reaction
-venom allergy,SN591,Allergic reaction to insect bite
 other allergy,X00l3,Cat allergy
 other allergy,X00l4,Dander (animal) allergy
 other allergy,X00l5,Feather allergy
@@ -2169,28 +2168,23 @@ other allergy,X00l6,House dust allergy
 other allergy,X00l7,House dust mite allergy
 other allergy,X70vh,Acute allergic reaction
 other allergy,X79pp,Allergy - mechanism
-other allergy,XE14s,Purpura: [allergic] or [Henoch-Schonlein allergy]
-other allergy,XE1ot,"Allergy, unspecified"
-other allergy,XM0xz,Allergic reaction NOS
-other allergy,XSIe5,Atopy
 other allergy,Xa1pQ,Allergic disorder
 other allergy,Xa1zh,Allergic reaction to substance
-venom allergy,Xa1zi,Allergic reaction to venom
-venom allergy,Xa1zj,Allergic reaction to insect venom
-venom allergy,Xa1zk,Allergic reaction to bee sting
 other allergy,Xa7lH,Perfume allergy
-venom allergy,Xa7lK,Allergic reaction to wasp sting
 other allergy,Xa7lL,Allergy to pollen
 other allergy,Xa7lM,Allergy to animal hair
 other allergy,Xa7lQ,Metal allergy
 other allergy,Xa7lR,Latex allergy
-other allergy,XaANA,Admission to clinical allergy department
-other allergy,XaAVM,Seen by clinical allergy - service
+other allergy,Xaacn,Referral to paediatric allergy service
 other allergy,XaAcO,Referral to clinical allergy service
 other allergy,XaAlN,Discharge from clinical allergy service
+other allergy,XaANA,Admission to clinical allergy department
+other allergy,XaAVM,Seen by clinical allergy - service
 other allergy,XaB3a,Allergic skin rash
-other allergy,XaIRZ,Dust allergy
+other allergy,XaeXG,Allergy to stainless steel
+other allergy,XaIO5,H/O: cat allergy
 other allergy,XaIpW,Allergy to animal
+other allergy,XaIRZ,Dust allergy
 other allergy,XaJKf,Allergy - specialty
 other allergy,XaLGS,Transfer-degraded non-drug allergy
 other allergy,XaLKU,Allergy to plasters
@@ -2203,58 +2197,64 @@ other allergy,XaQag,[X]Personal history of allergy to carvedilol
 other allergy,XaQah,[X]Personal history of allergy to nebivolol
 other allergy,XaYzE,Allergy to cosmetic product
 other allergy,XaZu1,Private referral to allergy specialist
-other allergy,Xaacn,Referral to paediatric allergy service
-other allergy,XaeXG,Allergy to stainless steel
+other allergy,XE14s,Purpura: [allergic] or [Henoch-Schonlein allergy]
+other allergy,XE1ot,"Allergy, unspecified"
+other allergy,XM0xz,Allergic reaction NOS
+other allergy,XSIe5,Atopy
 other allergy,Y016b,Dog allergy
 other allergy,Y077f,Transfer-degraded non-drug Allergy
 other allergy,Y1367,Allergy to Plasters
 other allergy,Y1fe0,Reason for vaccine non-administration: Egg Allergy
 other allergy,Y203f,Verification of allergy status
 other allergy,Y2199,Lentil Allergy
+other allergy,Y5367,Allergy dis.treatment started
 other allergy,Y6997,H/O: gentamycin allergy
 other allergy,ZV150,[V]Personal history of non-drug allergy
 other allergy,ZVu6P,[X]Personal history/allergy/other drugs+biologicl substances
 other allergy,ZVu6T,"[X]Personl history/allergy,oth than/drugs+biologicl substnce"
-rhinitis,Hyu20,Other seasonal allergic rhinitis
-rhinitis,Hyu21,Other allergic rhinitis
 rhinitis,H00..,Rhinitis - acute
 rhinitis,H120.,Chronic rhinitis
-rhinitis,XE0Xx,Chronic rhinitis
 rhinitis,H1200,Chronic simple rhinitis
 rhinitis,H1201,Chronic catarrhal rhinitis
-rhinitis,XE0Xy,Chronic catarrhal rhinitis
 rhinitis,H1202,Chronic hypertrophic rhinitis
 rhinitis,H1203,Chronic atrophic rhinitis
 rhinitis,H1206,Chronic membranous rhinitis
 rhinitis,H1207,Chronic fibrinous rhinitis
 rhinitis,H120z,Chronic rhinitis NOS
 rhinitis,H17..,Allergic rhinitis
-rhinitis,XE0Y5,Allergic rhinitis
 rhinitis,H170.,Allergic rhinitis due to pollens
-rhinitis,XE2QI,Allergic rhinitis due to pollens
 rhinitis,H171.,Allergic rhinitis due to other allergens
-rhinitis,XE0Y6,Allergic rhinitis due to other allergens
-other allergy,H1710,Allergy to animal
-other allergy,H1711,Dog allergy
 rhinitis,H172.,Allergic rhinitis due to unspecified allergen
-rhinitis,XE0Y7,Allergic rhinitis due to unspecified allergen
 rhinitis,H17z.,Allergic rhinitis NOS
 rhinitis,H18..,Vasomotor rhinitis
 rhinitis,H3300,Hay fever with asthma
-rhinitis,X1020,Hay fever with asthma
-rhinitis,X00l8,Hay fever - other allergen
-rhinitis,X00l9,Hay fever - unspecified allergen
+rhinitis,Hyu20,Other seasonal allergic rhinitis
+rhinitis,Hyu21,Other allergic rhinitis
 rhinitis,X00kx,Acute irritant rhinitis
 rhinitis,X00ky,Rhinitis sicca
+rhinitis,X00l8,Hay fever - other allergen
+rhinitis,X00l9,Hay fever - unspecified allergen
 rhinitis,X00lA,Perennial allergic rhinitis
 rhinitis,X00lB,Perennial allergic rhinitis with seasonal variation
-rhinitis,XE0Z5,(Allerg rhinitis: [NOS][perenn][season]) or (vasomotor rhin)
+rhinitis,X1020,Hay fever with asthma
 rhinitis,Xa0lX,Seasonal allergic rhinitis
+rhinitis,XE0Xx,Chronic rhinitis
+rhinitis,XE0Xy,Chronic catarrhal rhinitis
+rhinitis,XE0Y5,Allergic rhinitis
+rhinitis,XE0Y6,Allergic rhinitis due to other allergens
+rhinitis,XE0Y7,Allergic rhinitis due to unspecified allergen
+rhinitis,XE0Z5,(Allerg rhinitis: [NOS][perenn][season]) or (vasomotor rhin)
+rhinitis,XE2QI,Allergic rhinitis due to pollens
 rhinitis,Y9979,Vasomotor and allergic rhinitis
 venom allergy,SN59.,Venom allergy
+venom allergy,SN591,Allergic reaction to insect bite
 venom allergy,SN593,Anaphylactic shock due to bee sting
 venom allergy,SN594,Anaphylactic shock due to wasp sting
 venom allergy,X70vi,Venom-induced anaphylaxis
 venom allergy,X70vj,Bee sting-induced anaphylaxis
 venom allergy,X70vk,Wasp sting-induced anaphylaxis
 venom allergy,X70wC,Venom-induced angio-oedema-urticaria
+venom allergy,Xa1zi,Allergic reaction to venom
+venom allergy,Xa1zj,Allergic reaction to insect venom
+venom allergy,Xa1zk,Allergic reaction to bee sting
+venom allergy,Xa7lK,Allergic reaction to wasp sting

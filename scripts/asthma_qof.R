@@ -24,7 +24,13 @@ asthma_qof <- asthma_qof %>%
   mutate(cat1 = 'asthma', cat2 = NA_character_)
 
 # save the code list
-write_csv(asthma_qof, path = 'lists_out/asthma_qof.csv')
+write_csv(asthma_qof, 
+          path = file.path(opcrd_analysis_path, 'asthma_qof.csv'))
+write_csv(asthma_qof %>%
+            arrange(read_code, read_term) %>%
+            select(`Read code` = read_code,
+                   Term = read_term) %>%
+            mutate(QOF = 'Y'), path = 'lists_out/asthma_qof.csv')
 
 # table for appendix
 asthma_qof %>%

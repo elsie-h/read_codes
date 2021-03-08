@@ -11,7 +11,14 @@ ethnicity <- read_csv("lists_in/Elsie/rc_ethnicity_final.csv") %>%
   rename(cat2 = cat_final) %>%
   mutate(cat1 = 'ethnicity')
 
-write_csv(ethnicity, path = 'lists_out/ethnicity.csv')
+write_csv(ethnicity, 
+          path = file.path(opcrd_analysis_path, 'ethnicity.csv'))
+write_csv(ethnicity %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(Category = cat2,
+                   `Read code` = read_code,
+                   Term = read_term),
+          path = 'lists_out/ethnicity.csv')
 
 
 # latex tables

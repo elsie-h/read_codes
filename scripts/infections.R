@@ -140,7 +140,14 @@ infections <- infections %>%
   filter(!(cat2 %in% 'exclude')) %>%
   mutate(cat1 = 'infections')
 
-write_csv(infections, path = 'lists_out/infections.csv')
+write_csv(infections, 
+          path = file.path(opcrd_analysis_path, 'infections.csv'))
+write_csv(infections %>%
+            arrange(cat2, read_code) %>%
+            select(Infection = cat2,
+                   `Read code` = read_code,
+                   Term = read_term),
+          path = 'lists_out/infections.csv')
 
 # latex tables
 infections_list <- infections %>%

@@ -177,7 +177,14 @@ comorbidity_prescriptions <- bind_rows(h2antagonist,
   mutate(cat1 = 'comorbidity prescription') 
 
 # save list
-write_csv(comorbidity_prescriptions, path = 'lists_out/comorbidity_prescriptions.csv')
+write_csv(comorbidity_prescriptions, 
+          path = file.path(opcrd_analysis_path, 'comorbidity_prescriptions.csv'))
+write_csv(comorbidity_prescriptions %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(Comedication = cat2,
+                   `Read code` = read_code,
+                   Term = read_term),
+          path = 'lists_out/comorbidity_prescriptions.csv')
 
 # latex tables for thesis
 drug_list <- comorbidity_prescriptions %>%

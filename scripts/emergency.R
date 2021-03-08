@@ -22,7 +22,12 @@ emergency <- read_delim("lists_in/Elsie/cl_hospitalisation_elsie",
 # check for duplicates in read_code
 emergency$read_code[duplicated(emergency$read_code)]
 
-write_csv(emergency, path = 'lists_out/emergency.csv')
+write_csv(emergency, 
+          path = file.path(opcrd_analysis_path, 'emergency.csv'))
+write_csv(emergency %>%
+            select(`Read code` = read_code,
+                   Term = read_term),
+          path = 'lists_out/emergency.csv')
 
 # table for appendix
 emergency %>%

@@ -48,7 +48,17 @@ rcp3q <- bind_rows(rcp_qof, rcp_elsie) %>%
 # check for duplicates in read_code
 rcp3q$read_code[duplicated(rcp3q$read_code)]
 
-write_csv(rcp3q, path = 'lists_out/RCP3Q.csv')
+write_csv(rcp3q, 
+          path = file.path(opcrd_analysis_path, 'RCP3Q.csv'))
+write_csv(rcp3q %>%
+           arrange(cat2, score, read_code) %>%
+           select(Category = cat2,
+                  `Read code` = read_code,
+                  Term = read_term,
+                  score,
+                  QOF) %>%
+           mutate_at('QOF', list(~ str_extract(., '.{1}'))), 
+         path = 'lists_out/RCP3Q.csv')
 
 # latex tables
 rcp3q_list <- rcp3q %>%

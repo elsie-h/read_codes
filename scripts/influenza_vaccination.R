@@ -27,7 +27,13 @@ fluvac_qof <- fluvac_qof %>%
   distinct(read_code, read_term) %>%
   mutate(cat1 = 'influenza_vaccination', cat2 = NA_character_)
 
-write_csv(fluvac_qof, path = 'lists_out/influenza_vaccination.csv')
+write_csv(fluvac_qof,
+          path = file.path(opcrd_analysis_path, 'influenza_vaccination.csv'))
+write_csv(fluvac_qof %>%
+            arrange(read_code) %>%
+            select(`Read code` = read_code,
+                   Term = read_term),
+          path = 'lists_out/influenza_vaccination.csv')
 
 # table for appendix
 fluvac_qof %>%

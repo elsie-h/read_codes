@@ -8,6 +8,8 @@ library(readxl)
 library(tidyr)
 library(xtable)
 
+opcrd_analysis_path <- "/Users/elsiehorne/Docs/opcrd_analysis/read_codes"
+
 #### Functions ####
 read_cprd <- function(name) {
   # although file name is allergic, the list includes codes for allergic and chronic

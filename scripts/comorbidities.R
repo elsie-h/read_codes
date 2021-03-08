@@ -502,7 +502,16 @@ comorbidities_all <- bind_rows(
   mutate(cat1 = 'comorbidities') %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', .)))
 
-write_csv(comorbidities_all, path = 'lists_out/comorbidities.csv')
+write_csv(comorbidities_all, 
+          path = file.path(opcrd_analysis_path, 'comorbidities.csv'))
+write_csv(comorbidities_all %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(Disease = cat2,
+                   `Read code` = read_code,
+                   Term = read_term,
+                   QOF) %>%
+            mutate_at('QOF', list(~ str_extract(., '.{1}'))),
+          path = 'lists_out/comorbidities.csv')
 
 ###############################################################################
 # latex tables

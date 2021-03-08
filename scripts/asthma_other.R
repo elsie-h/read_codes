@@ -1,5 +1,7 @@
 #### asthma_other ####
 
+#### This list is not being used and is not final
+
 # Description: read codes corresponding to asthma that are not included in:
 # asthma_review, RCGP3Q, asthma_plan, exacerbation, emergency
 # cat1: asthma_other
@@ -56,11 +58,11 @@ asthma_other <- bind_rows(asthma_V3, CPRD_asthma) %>%
           read_term = 'Asthma trigger - warm air') %>%
   add_row(read_code = '1782.',
           read_term = 'Asthma trigger - tobacco smoke') %>%
-  anti_join(readRDS('lists_out/asthma_review.RDS'), by = 'read_code') %>%
-  anti_join(readRDS('lists_out/asthma_plan.RDS'), by = 'read_code') %>%
-  anti_join(readRDS('lists_out/RCGP3Q.RDS'), by = 'read_code') %>%
-  anti_join(readRDS('lists_out/exacerbation.RDS'), by = 'read_code') %>%
-  anti_join(readRDS('lists_out/emergency.RDS'), by = 'read_code') %>%
+  anti_join(read_csv('lists_out/asthma_review.csv'), by = 'read_code') %>%
+  anti_join(read_csv('lists_out/asthma_plan.csv'), by = 'read_code') %>%
+  anti_join(read_csv('lists_out/RCP3Q.csv'), by = 'read_code') %>%
+  anti_join(read_csv('lists_out/exacerbation.csv'), by = 'read_code') %>%
+  anti_join(read_csv('lists_out/emergency.csv'), by = 'read_code') %>%
   # get rid of 'asthma resolved'
   filter(!(read_term %in% 'Asthma resolved')) %>%
   # tidy up duplicate read_code with different read_term
@@ -92,6 +94,6 @@ asthma_other <- asthma_other %>%
   select(read_code, read_term, cat1, cat2, score) %>%
   distinct()
 
-saveRDS(asthma_other, file = 'lists_out/asthma_other.RDS', compress = FALSE)
+saveRDS(asthma_other, file = 'lists_out/asthma_other.csv', compress = FALSE)
 
 

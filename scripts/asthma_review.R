@@ -32,7 +32,14 @@ asthma_review <- asthma_review %>%
 asthma_review$read_code[duplicated(asthma_review$read_code)]
 
 # save the code list
-write_csv(asthma_review, path = 'lists_out/asthma_review.csv')
+write_csv(asthma_review, 
+          path = file.path(opcrd_analysis_path, 'asthma_review.csv'))
+write_csv(asthma_review %>%
+            arrange(read_code, read_term) %>%
+            select(`Read code` = read_code,
+                   Term = read_term) %>%
+            mutate(QOF = 'Y'),
+          path = 'lists_out/asthma_review.csv')
 
 # table for appendix
 asthma_review %>%

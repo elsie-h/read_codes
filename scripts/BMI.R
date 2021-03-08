@@ -16,7 +16,20 @@ bmi <- read_csv("lists_in/Elsie/bmi_codes_elsie.csv") %>%
 # check for duplicates in read_code
 bmi$read_code[duplicated(bmi$read_code)]
 
-write_csv(bmi, path = 'lists_out/BMI.csv')
+write_csv(bmi, 
+          path = file.path(opcrd_analysis_path, 'BMI.csv'))
+write_csv(bmi %>%
+            mutate_at('cat2', list(~ if_else(is.na(cat2), 'numeric', .))) %>%
+            mutate_at('cat2', list(~ case_when(. %in% '25+' ~ '25-29',
+                                               . %in% '30+' ~ '30-34',
+                                               TRUE ~ .))) %>%
+            mutate_at('cat2', factor,
+                      levels = c('numeric', '<20', '20-24', '25-29', '30-34', '35-39', '40+')) %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(`Read code` = read_code,
+                   Term = read_term,
+                   Category = cat2), 
+          path = 'lists_out/BMI.csv')
 
 # table for appendix
 bmi_table <- bmi %>%

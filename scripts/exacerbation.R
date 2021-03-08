@@ -12,7 +12,7 @@ exacerbation_elsie <- read_delim("lists_in/Elsie/cl_exacerbation_elsie",
                            escape_double = FALSE, 
                            trim_ws = TRUE) 
 
-exacerbation_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-asthma-attack-2020-11-05T13-33-34.csv") %>%
+exacerbation_v3 <- read_csv("lists_in/Elsie/elsie-horne-asthma-attack-2020-11-05T13-33-34.csv") %>%
   rename(read_code = id, read_term = term)
 
 exacerbation <- exacerbation_elsie %>%
@@ -26,7 +26,15 @@ exacerbation <- exacerbation_elsie %>%
 # check for duplicates in read_code
 exacerbation$read_code[duplicated(exacerbation$read_code)]
 
-write_csv(exacerbation, path = 'lists_out/exacerbation.csv')
+write_csv(exacerbation, 
+          path = file.path(opcrd_analysis_path, 'exacerbation.csv'))
+write_csv(exacerbation %>%
+            mutate_at('cat2', list(~ if_else(is.na(.), 'occurence', .))) %>%
+            arrange(cat2, read_code) %>%
+            select(`Read code` = read_code,
+                   Term = read_term,
+                   Category = cat2), 
+          path = 'lists_out/exacerbation.csv')
 
 # table for appendix
 exacerbation %>% filter(cat2 %in% 'number')

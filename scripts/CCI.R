@@ -36,7 +36,15 @@ cci <- read_csv("lists_in/Khan2010/khan_2010_cci.csv") %>%
   distinct(read_code, score, cat1, cat2, .keep_all = TRUE)
 
 # save
-write_csv(cci, path = 'lists_out/CCI.csv')
+write_csv(cci, 
+          path = file.path(opcrd_analysis_path, 'CCI.csv'))
+write_csv(cci %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(Disease = cat2,
+                   `Read code` = read_code,
+                   Term = read_term,
+                   weight = score),
+          path = 'lists_out/CCI.csv')
 
 # latex tables
 cci_list <- cci %>% 

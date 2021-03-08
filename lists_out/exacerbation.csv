@@ -1,21 +1,21 @@
-read_code,cat1,cat2,read_term
-H333.,exacerbation,NA,Exacerbation of asthma
-663y.,exacerbation,number,Number of asthma exacerbations in past year
-XaINh,exacerbation,number,Number of asthma exacerbations in past year
-Xafdj,exacerbation,NA,Acute severe exacerbation of asthma
-Xafdy,exacerbation,NA,Moderate acute exacerbation of asthma
-Xafdz,exacerbation,NA,Life threatening acute exacerbation of asthma
-Xa1hD,exacerbation,NA,Exacerbation of asthma
-X101y,exacerbation,NA,Extrinsic asthma with asthma attack
-X1022,exacerbation,NA,Intrinsic asthma with asthma attack
-XE0YW,exacerbation,NA,Asthma attack
-XM0s2,exacerbation,NA,Asthma attack NOS
-H3301,exacerbation,NA,Extrinsic asthma with asthma attack
-H3311,exacerbation,NA,Intrinsic asthma with asthma attack
-H33z0,exacerbation,NA,Severe asthma attack
-H33z1,exacerbation,NA,Asthma attack NOS
-XE0ZT,exacerbation,NA,Asthma: [NOS] or [attack]
-Y138a,exacerbation,NA,Indicators - asthma attack
-Y139d,exacerbation,NA,Indicators - asthma attack
-Y13a8,exacerbation,NA,Asthma attack - reliever use more frequent than every
-Y13a9,exacerbation,NA,Asthma attack - peak flow less than
+Read code,Term,Category
+663y.,Number of asthma exacerbations in past year,number
+XaINh,Number of asthma exacerbations in past year,number
+H3301,Extrinsic asthma with asthma attack,occurence
+H3311,Intrinsic asthma with asthma attack,occurence
+H333.,Exacerbation of asthma,occurence
+H33z0,Severe asthma attack,occurence
+H33z1,Asthma attack NOS,occurence
+X101y,Extrinsic asthma with asthma attack,occurence
+X1022,Intrinsic asthma with asthma attack,occurence
+Xa1hD,Exacerbation of asthma,occurence
+Xafdj,Acute severe exacerbation of asthma,occurence
+Xafdy,Moderate acute exacerbation of asthma,occurence
+Xafdz,Life threatening acute exacerbation of asthma,occurence
+XE0YW,Asthma attack,occurence
+XE0ZT,Asthma: [NOS] or [attack],occurence
+XM0s2,Asthma attack NOS,occurence
+Y138a,Indicators - asthma attack,occurence
+Y139d,Indicators - asthma attack,occurence
+Y13a8,Asthma attack - reliever use more frequent than every,occurence
+Y13a9,Asthma attack - peak flow less than,occurence

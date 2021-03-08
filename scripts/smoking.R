@@ -89,7 +89,16 @@ smoking <- smoking_QOF %>%
 # check for duplicates in read_code
 smoking$read_code[duplicated(smoking$read_code)]
 
-write_csv(smoking, path = 'lists_out/smoking.csv')
+write_csv(smoking, 
+          path = file.path(opcrd_analysis_path, 'smoking.csv'))
+write_csv(smoking %>%
+            arrange(cat2, read_code) %>%
+            select(Category = cat2,
+                   `Read code` = read_code,
+                   Term = read_term,
+                   QOF) %>%
+            mutate_at('QOF', list(~ str_extract(., '.{1}'))), 
+          path = 'lists_out/smoking.csv')
 
 # latex tables
 smoking_list <- smoking %>%

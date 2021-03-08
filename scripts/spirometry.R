@@ -60,7 +60,24 @@ spirometry <- bind_rows(spirometry_qof, spirometry_elsie)
 # check for duplicates in read_code
 spirometry$read_code[duplicated(spirometry$read_code)]
 
-write_csv(spirometry, path = 'lists_out/spirometry.csv')
+write_csv(spirometry, 
+          path = file.path(opcrd_analysis_path, 'spirometry.csv'))
+write_csv(spirometry %>%
+            mutate_at('cat2', list(~ factor(if_else(is.na(.), 'other', .),
+                                            levels = c('FEV1', 'predicted FEV1', 'ppFEV1',
+                                                       'FVC', 'predicted FVC',
+                                                       'FEV1FVC ratio or percent',
+                                                       'FEV1FVC < 70%', 'FEV1FVC > 70%',
+                                                       'FEV1FVC abnormal', 'FEV1FVC normal',
+                                                       'other')))) %>%
+            arrange(cat2, read_code) %>%
+            select(Category = cat2,
+                   `Read code` = read_code,
+                   Term = read_term,
+                   QOF) %>%
+            mutate_at('QOF', list(~ case_when(. %in% 1 ~ 'Y', 
+                                              TRUE ~ 'N'))), 
+          path = 'lists_out/spirometry.csv')
 
 # table for appendix
 spirometry_table <- spirometry %>%

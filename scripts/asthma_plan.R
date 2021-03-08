@@ -26,7 +26,13 @@ asthma_plan <- read_delim("lists_in/Elsie/cl_asthma_plan_elsie",
 # check for duplicates in read_code
 asthma_plan$read_code[duplicated(asthma_plan$read_code)]
 
-write_csv(asthma_plan, path = 'lists_out/asthma_plan.csv')
+write_csv(asthma_plan, 
+          path = file.path(opcrd_analysis_path, 'asthma_plan.csv'))
+write_csv(asthma_plan %>%
+            arrange(read_code, read_term) %>%
+            select(`Read code` = read_code,
+                   Term = read_term),
+          path = 'lists_out/asthma_plan.csv')
 
 # table for appendix
 asthma_plan %>%

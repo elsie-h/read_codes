@@ -47,7 +47,7 @@ anaphylaxis_v2 <- mukherjee %>%
   select(read_code_v2 = read_code, read_term)
 
 #### Codes for anaphylaxis from manual search of CTV3 ####
-anaphylaxis_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-anaphylaxis-2020-11-09T13-56-17.csv")
+anaphylaxis_v3 <-  read_csv("lists_in/Elsie/elsie-horne-anaphylaxis-2020-11-09T13-56-17.csv")
   
 # join to check how well the two lists correspond
 anaphylaxis <- join_read(data_v2 = anaphylaxis_v2,
@@ -61,7 +61,7 @@ angioedema_v2 <- mukherjee %>%
   select(read_code_v2 = read_code, read_term)
 
 #### Codes for Angioedema from manual search of CTV3 ####
-angioedema_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-angioedema-2020-11-09T13-43-48.csv")
+angioedema_v3 <-  read_csv("lists_in/Elsie/elsie-horne-angioedema-2020-11-09T13-43-48.csv")
 
 # join to check how well the two lists correspond
 angioedema <- join_read(data_v2 = angioedema_v2,
@@ -74,7 +74,7 @@ conjunctivitis_v2 <- mukherjee %>%
   select(read_code_v2 = read_code, read_term)
 
 #### Codes for allergic conjunctivits from manual search of CTV3 ####
-conjunctivitis_v3 <-  read_csv("lists_in/OpenSafely/elsie-horne-conjunctivitis-2020-11-09T13-18-07.csv")
+conjunctivitis_v3 <-  read_csv("lists_in/Elsie/elsie-horne-conjunctivitis-2020-11-09T13-18-07.csv")
 
 # join to check how well the two lists correspond
 conjunctivitis <- join_read(data_v2 = conjunctivitis_v2,
@@ -86,7 +86,7 @@ drug_allergy_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Drug allergy') %>%
   select(read_code_v2 = read_code, read_term)
 
-drug_allergy_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-drug-allergy-2020-11-05T08-48-21.csv") 
+drug_allergy_v3 <- read_csv("lists_in/Elsie/elsie-horne-drug-allergy-2020-11-05T08-48-21.csv") 
 
 # join to check how well the two lists correspond
 drug_allergy <- join_read(data_v2 = drug_allergy_v2,
@@ -98,7 +98,7 @@ eczema_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Eczema') %>%
   select(read_code_v2 = read_code, read_term)
 
-eczema_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-eczema-allergy-2020-11-09T13-28-09.csv") 
+eczema_v3 <- read_csv("lists_in/Elsie/elsie-horne-eczema-allergy-2020-11-09T13-28-09.csv") 
 
 # join to check how well the two lists correspond
 eczema <- join_read(data_v2 = eczema_v2,
@@ -111,7 +111,7 @@ food_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Food allergy') %>%
   select(read_code_v2 = read_code, read_term)
 
-food_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-food-allergy-2020-11-09T16-28-48.csv") 
+food_v3 <- read_csv("lists_in/Elsie/elsie-horne-food-allergy-2020-11-09T16-28-48.csv") 
 
 # join to check how well the two lists correspond
 food <- join_read(data_v2 = food_v2,
@@ -131,7 +131,7 @@ rhinitis_v2 <- mukherjee %>%
   add_row(read_code_v2 = 'H172.',
           read_term = 'Hay fever - unspecified allergen')
 
-rhinitis_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-rhinitis-allergic-2020-11-09T16-35-40.csv") 
+rhinitis_v3 <- read_csv("lists_in/Elsie/elsie-horne-rhinitis-allergic-2020-11-09T16-35-40.csv") 
 
 # join to check how well the two lists correspond
 rhinitis <- join_read(data_v2 = rhinitis_v2,
@@ -143,7 +143,7 @@ urticaria_v2 <- mukherjee %>%
   filter(`Disease Area` %in% 'Urticaria') %>%
   select(read_code_v2 = read_code, read_term)
 
-urticaria_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-urticaria-2020-11-09T13-40-47.csv") 
+urticaria_v3 <- read_csv("lists_in/Elsie/elsie-horne-urticaria-2020-11-09T13-40-47.csv") 
 
 # join to check how well the two lists correspond
 urticaria <- join_read(data_v2 = urticaria_v2,
@@ -168,7 +168,7 @@ other_v2 <- mukherjee %>%
                        'Hypersens. skin test: no react')))%>%
   select(read_code_v2 = read_code, read_term)
 
-other_v3 <- read_csv("lists_in/OpenSafely/elsie-horne-other-allergy-2020-11-09T17-09-26.csv") 
+other_v3 <- read_csv("lists_in/Elsie/elsie-horne-other-allergy-2020-11-09T17-09-26.csv") 
 
 # remove any that have appeared in other code lists
 all <- bind_rows(anaphylaxis,
@@ -293,7 +293,14 @@ allergies <- bind_rows(
                             'D2101', 'M1100', 'SN520'))) %>%
   mutate_at('cat2', list(~ if_else(. %in% 'other', 'other allergy', .)))
 
-write_csv(allergies, path = 'lists_out/allergic_conditions.csv')
+write_csv(allergies, 
+          path = file.path(opcrd_analysis_path, 'allergic_conditions.csv'))
+write_csv(allergies %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(`Allergic condition` = cat2,
+                   `Read code` = read_code, 
+                   `Term` = read_term), 
+          path = 'lists_out/allergic_conditions.csv')
 
 # latex tables
 allergies_list <- allergies %>%

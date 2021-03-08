@@ -1,6 +1,6 @@
 #### asthma_drugs ####
 
-# Description: codes corresponding to asthma drugs
+# Description: codes corresponding to asthma prescriptions
 # cat1: asthma_drugs
 # cat2: ICS, ICSLABA, LABA, LTRA, methylxanthine, OCS, omalizumab, SABA, SABASAMA, SAMA
 # score: NA
@@ -204,7 +204,15 @@ asthma_drugs <- asthma_drugs %>%
   bind_rows(spacer) %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y')))
 
-write_csv(asthma_drugs, path = 'lists_out/asthma_drugs.csv')
+write_csv(asthma_drugs, 
+          path = file.path(opcrd_analysis_path, 'asthma_prescriptions.csv'))
+write_csv(asthma_drugs %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(`Asthma prescription` = cat2,
+                   `Read code` = read_code,
+                   `Term` = read_term,
+                   QOF),
+          path = 'lists_out/asthma_prescriptions.csv')
 
 # latex tables
 drug_list <- asthma_drugs %>%

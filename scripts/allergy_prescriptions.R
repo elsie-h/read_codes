@@ -239,10 +239,16 @@ allergy_drugs <- allergy_drugs %>%
   distinct()
 
 ####
+write_csv(allergy_drugs, 
+          path = file.path(opcrd_analysis_path, 'allergy_prescriptions.csv'))
+write_csv(allergy_drugs %>%
+            arrange(cat2, read_code, read_term) %>%
+            select(`Allergy prescription` = cat2,
+                   `Read code` = read_code,
+                   `Term` = read_term), 
+          path = 'lists_out/allergy_prescriptions.csv')
 
-write_csv(allergy_drugs, path = 'lists_out/allergy_prescriptions.csv')
-
-# latex tables for thesis
+#### latex tables for thesis
 allergies_list <- allergy_drugs %>%
   group_split(cat2)
 
