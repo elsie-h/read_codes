@@ -1,4 +1,10 @@
-Category,Read code,Term,score,QOF
+Category,Read code,Term,Score,QOF
+numeric,388t.,Royal College of Physicians asthma assessment,NA,N
+numeric,388t0,Royal College of Physicians asthma assessment three questions score,NA,N
+numeric,66Yp.,Asthma review using Royal College of Physicians three questions,NA,N
+numeric,XaNKw,RCP (Royal College of Physicians) three questions,NA,N
+numeric,XaX3n,Asthma review using Royal College of Physicians three questions,NA,N
+numeric,XaXa0,Royal College of Physicians asthma assessment three questions score,NA,N
 activities,663f.,Asthma never restricts exercise,0,Y
 activities,663Q.,Asthma not limiting activities,0,Y
 activities,6635.,Increasing exercise wheeze,1,Y
@@ -26,12 +32,6 @@ day,XaIIZ,Asthma daytime symptoms,1,Y
 day,XaINb,Asthma causes daytime symptoms 1 to 2 times per month,1,Y
 day,XaINc,Asthma causes daytime symptoms 1 to 2 times per week,1,Y
 day,XaINd,Asthma causes daytime symptoms most days,1,Y
-general,388t.,Royal College of Physicians asthma assessment,NA,N
-general,388t0,Royal College of Physicians asthma assessment three questions score,NA,N
-general,66Yp.,Asthma review using Royal College of Physicians three questions,NA,N
-general,XaNKw,RCP (Royal College of Physicians) three questions,NA,N
-general,XaX3n,Asthma review using Royal College of Physicians three questions,NA,N
-general,XaXa0,Royal College of Physicians asthma assessment three questions score,NA,N
 sleep,663O.,Asthma not disturbing sleep,0,Y
 sleep,663O0,Asthma never disturbs sleep,0,Y
 sleep,66Ys.,Asthma never causes night symptoms,0,Y

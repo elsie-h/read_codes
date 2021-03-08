@@ -51,11 +51,14 @@ rcp3q$read_code[duplicated(rcp3q$read_code)]
 write_csv(rcp3q, 
           path = file.path(opcrd_analysis_path, 'RCP3Q.csv'))
 write_csv(rcp3q %>%
+            mutate_at('cat2', list(~ factor(case_when(. %in% 'general' ~ 'numeric',
+                                                      TRUE ~ .),
+                                            levels = c('numeric', 'activities', 'day', 'sleep')))) %>%
            arrange(cat2, score, read_code) %>%
            select(Category = cat2,
                   `Read code` = read_code,
                   Term = read_term,
-                  score,
+                  Score = score,
                   QOF) %>%
            mutate_at('QOF', list(~ str_extract(., '.{1}'))), 
          path = 'lists_out/RCP3Q.csv')

@@ -99,14 +99,14 @@ other_prescriptions <- bind_rows(bb, NSAID, paracetemol, statin) %>%
 # save list
 write_csv(other_prescriptions, 
           path = file.path(opcrd_analysis_path, 'comedications.csv'))
-write_csv(other_prescriptions %>%
-            arrange(cat2, read_code) %>%
-            select(Comedication = cat2,
-                   `Read code` = read_code,
-                   Term = read_term,
-                   QOF) %>%
-            mutate_at('QOF', list(~ toupper(str_extract(., '.{1}')))), 
-          path = 'lists_out/comedications.csv')
+# write_csv(other_prescriptions %>%
+#             arrange(cat2, read_code) %>%
+#             select(Comedication = cat2,
+#                    `Read code` = read_code,
+#                    Term = read_term,
+#                    QOF) %>%
+#             mutate_at('QOF', list(~ toupper(str_extract(., '.{1}')))), 
+#           path = 'lists_out/comedications.csv')
 
 # latex tables for thesis
 drug_list <- other_prescriptions %>%
