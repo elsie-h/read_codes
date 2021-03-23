@@ -1,4 +1,4 @@
-#### asthma_other ####
+#### asthma_all ####
 
 #### This is not a final list, it is just used as a lookup when read codes or terms are missing.
 
@@ -23,7 +23,7 @@ CPRD_asthma <- read_cprd('asthma') %>%
   mutate(cat1 = 'asthma_other',
          cat2 = NA_character_)
 
-asthma_other <- bind_rows(asthma_V3, CPRD_asthma) %>%
+asthma_all <- bind_rows(asthma_V3, CPRD_asthma) %>%
   add_row(read_code = '38DL.', 
           read_term = 'Asthma control test') %>%
   add_row(read_code =  '679J.', 
@@ -58,16 +58,16 @@ asthma_other <- bind_rows(asthma_V3, CPRD_asthma) %>%
           read_term = 'Asthma trigger - warm air') %>%
   add_row(read_code = '1782.',
           read_term = 'Asthma trigger - tobacco smoke') %>%
-  anti_join(read_csv('lists_out/asthma_review.csv') %>%
+  full_join(read_csv('lists_out/asthma_review.csv') %>%
               rename(read_code = `Read code`), 
             by = 'read_code') %>%
-  anti_join(read_csv('lists_out/asthma_plan.csv')  %>%
+  full_join(read_csv('lists_out/asthma_plan.csv')  %>%
               rename(read_code = `Read code`),  by = 'read_code') %>%
-  anti_join(read_csv('lists_out/RCP3Q.csv') %>%
+  full_join(read_csv('lists_out/RCP3Q.csv') %>%
               rename(read_code = `Read code`),  by = 'read_code') %>%
-  anti_join(read_csv('lists_out/exacerbation.csv') %>%
+  full_join(read_csv('lists_out/exacerbation.csv') %>%
               rename(read_code = `Read code`),  by = 'read_code') %>%
-  anti_join(read_csv('lists_out/emergency.csv') %>%
+  full_join(read_csv('lists_out/emergency.csv') %>%
               rename(read_code = `Read code`),  by = 'read_code') %>%
   # get rid of 'asthma resolved'
   filter(!(read_term %in% 'Asthma resolved')) %>%
@@ -84,16 +84,14 @@ asthma_other <- bind_rows(asthma_V3, CPRD_asthma) %>%
                                       str_detect(read_term, 'trigger') ~ 'trigger',
                                       str_detect(read_term, 'Health education') ~ 'health_education',
                                       TRUE ~ NA_character_))) %>%
-  mutate(cat1 = 'asthma_other',
-         score = NA_real_) %>%
   select(read_code, read_term) %>%
   distinct()
 
 # check for duplicates in read_code
-asthma_other$read_code[duplicated(asthma_other$read_code)]
+asthma_all$read_code[duplicated(asthma_all$read_code)]
 
 # sort duplicates
-asthma_other <- asthma_other %>%
+asthma_all <- asthma_all %>%
   mutate_at('read_term', list(~ case_when(read_code %in% 'H33z.' ~'Asthma unspecified',
                                           read_code %in% 'H33..' ~ 'Asthma',
                                           TRUE ~ .))) %>%
@@ -101,6 +99,6 @@ asthma_other <- asthma_other %>%
   select(read_code, read_term) %>%
   distinct()
 
-write_csv(asthma_other, path = 'lists_out/asthma_other.csv')
+write_csv(asthma_all, path = 'lists_out/asthma_all.csv')
 
 
