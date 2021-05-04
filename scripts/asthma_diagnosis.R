@@ -53,7 +53,8 @@ asthma_QOF_v2 <- QOF_codes %>%
                                !is.na(v37_v2_term) ~ v37_v2_term,
                                !is.na(v38_v2_term) ~ v38_v2_term,
                                TRUE ~ NA_character_)) %>%
-  distinct(read_code, read_term)
+  distinct(read_code, read_term) %>%
+  mutate_at('read_term', tolower)
 
 # final list
 asthma_diagnosis <- asthma_diagnosis_v3 %>%

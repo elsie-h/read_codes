@@ -1,6 +1,5 @@
 Read code,Term
 173A.,exercise induced asthma
-173A.,Exercise induced asthma
 173A.,exercise-induced asthma
 173c.,occupational asthma
 173d.,work aggravated asthma
@@ -62,58 +61,40 @@ Read code,Term
 9OJA.,asthma monitored (& check done)
 9Q21.,patient in asthma study
 H3120,chronic asthmatic bronchitis
-H3120,Chronic asthmatic bronchitis
 H33..,asthma
-H33..,Asthma
 H330.,asthma: [extrins - atop][allerg][pollen][childh][+ hay fev]
 H330.,extrinsic (atopic) asthma
-H330.,Extrinsic (atopic) asthma
 H330.,pollen asthma
 H3300,(hay fever + asthma) or (extr asthma without status asthmat)
 H3300,extrinsic asthma without status asthmaticus
-H3300,Extrinsic asthma without status asthmaticus
 H3301,extrins asthma with: [asthma attack] or [status asthmaticus]
 H3301,extrinsic asthma with asthma attack
 H3301,extrinsic asthma with status asthmaticus
-H3301,Extrinsic asthma with status asthmaticus
 H330z,extrinsic asthma nos
-H330z,Extrinsic asthma NOS
 H331.,(intrinsic asthma) or (late onset asthma)
 H331.,intrinsic asthma
-H331.,Intrinsic asthma
 H3310,intrinsic asthma without status asthmaticus
-H3310,Intrinsic asthma without status asthmaticus
 H3311,intrins asthma with: [asthma attack] or [status asthmaticus]
 H3311,intrinsic asthma with asthma attack
 H3311,intrinsic asthma with status asthmaticus
-H3311,Intrinsic asthma with status asthmaticus
 H331z,intrinsic asthma nos
-H331z,Intrinsic asthma NOS
 H332.,mixed asthma
-H332.,Mixed asthma
 H333.,acute exacerbation of asthma
 H334.,brittle asthma
-H334.,Brittle asthma
 H335.,chronic asthma with fixed airflow obstruction
-H335.,Chronic asthma with fixed airflow obstruction
 H33z.,asthma unspecified
-H33z.,Asthma unspecified
 H33z0,(severe asthma attack) or (status asthmaticus nos)
 H33z0,severe asthma attack
 H33z0,status asthmaticus nos
-H33z0,Status asthmaticus NOS
 H33z1,asthma attack
-H33z1,Asthma attack
 H33z1,asthma attack (& nos)
 H33z1,asthma attack nos
 H33z2,late onset asthma
 H33z2,late-onset asthma
-H33z2,Late-onset asthma
 H33zz,(asthma:[exerc ind][allerg nec][nos]) or (allerg bronch nec)
 H33zz,asthma nos
-H33zz,Asthma NOS
 H33zz,exercise induced asthma
-H3B..,Asthma-chronic obstructive pulmonary disease overlap syndrome
+H3B..,asthma-chronic obstructive pulmonary disease overlap syndrome
 H47y0,detergent asthma
 Ua1AX,brittle asthma
 X101t,childhood asthma
