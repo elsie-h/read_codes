@@ -23,6 +23,12 @@ asthma_qof <- asthma_qof %>%
   distinct(read_code, read_term) %>%
   mutate(cat1 = 'asthma', cat2 = NA_character_)
 
+# make sure all Read codes are 5 characters and fix if not
+asthma_qof %>%
+  filter(str_length(read_code)<5)
+asthma_qof <- asthma_qof %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # save the code list
 write_csv(asthma_qof, 
           path = file.path(opcrd_analysis_path, 'asthma_qof.csv'))

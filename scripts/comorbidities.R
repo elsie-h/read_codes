@@ -502,6 +502,12 @@ comorbidities_all <- bind_rows(
   mutate(cat1 = 'comorbidities') %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', .)))
 
+# make sure all Read codes are 5 characters and fix if not
+comorbidities_all %>%
+  filter(str_length(read_code)<5)
+comorbidities_all <- comorbidities_all %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(comorbidities_all, 
           path = file.path(opcrd_analysis_path, 'comorbidities.csv'))
 write_csv(comorbidities_all %>%

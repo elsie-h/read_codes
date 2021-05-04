@@ -238,6 +238,12 @@ allergy_drugs <- allergy_drugs %>%
   mutate_at('read_term', list(~ str_remove(tolower(.), '^\\*'))) %>%
   distinct()
 
+# make sure all Read codes are 5 characters and fix if not
+allergy_drugs %>%
+  filter(str_length(read_code)<5)
+allergy_drugs <- allergy_drugs %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 ####
 write_csv(allergy_drugs, 
           path = file.path(opcrd_analysis_path, 'allergy_prescriptions.csv'))

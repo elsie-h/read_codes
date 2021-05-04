@@ -58,6 +58,12 @@ pefr_manual <- read_csv("lists_in/Elsie/pef_codes_elsie.csv") %>%
 # bind Elsie list and QOF list
 pefr_codes <- bind_rows(pefr_qof, pefr_manual)
 
+# make sure all Read codes are 5 characters and fix if not
+pefr_codes %>%
+  filter(str_length(read_code)<5)
+pefr_codes <- pefr_codes %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 pefr_codes$read_code[duplicated(pefr_codes$read_code)]
 

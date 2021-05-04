@@ -45,6 +45,12 @@ rcp3q <- bind_rows(rcp_qof, rcp_elsie) %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', .))) %>%
   mutate(cat1 = 'RCP3Q')
 
+# make sure all Read codes are 5 characters and fix if not
+rcp3q %>%
+  filter(str_length(read_code)<5)
+rcp3q <- rcp3q %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 rcp3q$read_code[duplicated(rcp3q$read_code)]
 

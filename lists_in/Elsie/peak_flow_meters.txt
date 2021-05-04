@@ -1,0 +1,86 @@
+p461.	00	*STANDARD PEAK FLOW meter
+p462.	00	*LOW RANGE PEAK FLOW meter
+p463.	00	*ADULT PEAK FLOW mouthpiece
+p464.	00	*SMALL PEAK FLOW mouthpiece
+p465.	00	PEAK FLOW mouthpiece adaptor
+p466.	00	PEAK FLOW METER mouthpiece
+p467.	00	MINI WRIGHT standard peak flow meter
+p468.	00	MINI WRIGHT low range peak flow meter
+p469.	00	*MINI WRIGHT ADULT mouthpiece
+p46A.	00	MINI-WRIGHT 3104708 low range peak flow meter
+p46B.	00	VITALOGRAPH 43602 standard range peak flow meter
+p46C.	00	VITALOGRAPH CHILD 43703 standard range peak flow meter
+p46D.	00	VITALOGRAPH 43704 low range peak flow meter
+p46E.	00	STANDARD RANGE EN13826 peak flow meter
+p46F.	00	LOW RANGE EN13826 peak flow meter
+p46G.	00	MICROPEAK MPE8200EU standard range peak flow meter
+p46H.	00	RESPIRONICS PERSONAL BEST 755EU standard range peak flow meter
+p46I.	00	RESPIRONICS PERSONAL BEST 756EU low range peak flow meter
+p46J.	00	AIRZONE 3130160 standard range peak flow meter
+p46K.	00	VITALOGRAPH ASMA-1 40000 peak flow meter
+p46L.	00	FYNE DYNAMICS PINNACLE 72000EU standard peak flow meter
+p46M.	00	PERSONALBEST 1022973 standard range peak flow meter
+p46N.	00	MEDI 60482 standard range peak flow meter
+p46O.	00	MEDI 60536 low range peak flow meter
+p46P.	00	VITALOGRAPH MYPEF 43950 standard range peak flow meter
+p46a.	00	*MINI WRIGHT SMALL mouthpiece
+p46b.	00	MINI WRIGHT MOUTHPIECE adaptor
+p46c.	00	VITALOGRAPH PULMO-AIDE standard peak flow meter
+p46d.	00	VITALOGRAPH PULMO-AIDE low range peak flow meter
+p46e.	00	VITALOGRAPH PULMO-AIDE mouthpiece
+p46f.	00	FERRARIS 206 standard peak flow meter
+p46g.	00	*FERRARIS PF mouthpiece
+p46h.	00	FERRARIS 207 low range peak flow meter
+p46i.	00	FERRARIS PF paediatric mouthpiece
+p46j.	00	MINI WRIGHT universal mouthpiece
+p46k.	00	FERRARIS PF standard mouthpiece
+p46m.	00	ASMAPLAN standard peak flow meter
+p46n.	00	MINI WRIGHT Aerodynamic Flow System low range peak flow meter
+p46p.	00	FERRARIS POCKETPEAK 208 standard peak flow meter
+p46q.	00	FERRARIS POCKETPEAK 209 low range peak flow meter
+p46r.	00	FERRARIS POCKETPEAK peak flow meter universal mouthpiece
+p46s.	00	PERSONAL BEST standard range peak flow meter
+p46t.	00	PERSONAL BEST low range peak flow meter
+p46u.	00	MICROPEAK MPE7200 standard range peak flow meter
+p46v.	00	MICROPEAK PSA2200 peak flow meter universal mouthpiece
+p46w.	00	PIKO-1 346005-EU electronic standard range peak flow meter
+p46x.	00	POCKETPEAK 208(EU)/F standard range peak flow meter
+p46y.	00	POCKETPEAK 209(EU)/F low range peak flow meter
+p46z.	00	MINI-WRIGHT 3103388 standard range peak flow meter
+p466.	00	PEAK FLOW METER mouthpiece
+p465.	00	PEAK FLOW mouthpiece adaptor
+p46F.	00	LOW RANGE EN13826 peak flow meter
+p46E.	00	STANDARD RANGE EN13826 peak flow meter
+p466.	y04dN	Peak flow meter mouthpiece
+p46r.	y09lU	Ferraris Pocketpeak peak flow meter universal mouthpiece
+p46k.	y04dQ	Ferraris PF standard mouthpiece
+p46g.	y04dR	Ferraris PF mouthpiece
+p46v.	y0EnB	MicroPeak PSA2200 peak flow meter universal mouthpiece
+p46j.	y04dS	Mini Wright mouthpiece
+p469.	y04dT	Mini Wright adult mouthpiece
+p46a.	y04dU	Mini Wright small mouthpiece
+p46e.	y04dV	Vitalograph Pulmo-Aide mouthpiece
+p46i.	y04dW	Ferraris PF paediatric mouthpiece
+p463.	y04dO	Adult peak flow mouthpiece
+p464.	y04dP	Small peak flow meter mouthpiece
+p463.	y04dO	Adult peak flow mouthpiece
+p464.	y04dP	Small peak flow meter mouthpiece
+p465.	y04dX	Peak flow meter mouthpiece adaptor
+p46b.	y04dY	Mini Wright mouthpiece adaptor
+x01UG	y04dM	Replacement parts for peak flow meters
+p466.	y04dN	Peak flow meter mouthpiece
+p46r.	y09lU	Ferraris Pocketpeak peak flow meter universal mouthpiece
+p46k.	y04dQ	Ferraris PF standard mouthpiece
+p46g.	y04dR	Ferraris PF mouthpiece
+p46v.	y0EnB	MicroPeak PSA2200 peak flow meter universal mouthpiece
+p46j.	y04dS	Mini Wright mouthpiece
+p469.	y04dT	Mini Wright adult mouthpiece
+p46a.	y04dU	Mini Wright small mouthpiece
+p46e.	y04dV	Vitalograph Pulmo-Aide mouthpiece
+p46i.	y04dW	Ferraris PF paediatric mouthpiece
+p463.	y04dO	Adult peak flow mouthpiece
+p464.	y04dP	Small peak flow meter mouthpiece
+p465.	y04dX	Peak flow meter mouthpiece adaptor
+p46b.	y04dY	Mini Wright mouthpiece adaptor
+p46v.	y0EnB	MicroPeak PSA2200 peak flow meter universal mouthpiece
+p46r.	y09lU	Ferraris Pocketpeak peak flow meter universal mouthpiece

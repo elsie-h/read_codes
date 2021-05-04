@@ -86,6 +86,12 @@ smoking <- smoking_QOF %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', 'Yes'))) %>%
   distinct(read_code, read_term, cat2, score, QOF)
 
+# make sure all Read codes are 5 characters and fix if not
+smoking %>%
+  filter(str_length(read_code)<5)
+smoking <- smoking %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 smoking$read_code[duplicated(smoking$read_code)]
 

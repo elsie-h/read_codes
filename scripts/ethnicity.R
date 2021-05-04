@@ -11,6 +11,12 @@ ethnicity <- read_csv("lists_in/Elsie/rc_ethnicity_final.csv") %>%
   rename(cat2 = cat_final) %>%
   mutate(cat1 = 'ethnicity')
 
+# make sure all Read codes are 5 characters and fix if not
+ethnicity %>%
+  filter(str_length(read_code)<5)
+ethnicity <- ethnicity %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(ethnicity, 
           path = file.path(opcrd_analysis_path, 'ethnicity.csv'))
 write_csv(ethnicity %>%

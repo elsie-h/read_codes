@@ -75,4 +75,10 @@ qof_codes <- qof_v36_v2 %>%
   full_join(qof_v38_v2, by = 'read_code') %>%
   full_join(qof_v38_v3, by = 'read_code')
 
+# make sure all Read codes are 5 characters and fix if not
+qof_codes %>%
+  filter(str_length(read_code)<5)
+qof_codes <- qof_codes %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(qof_codes, path = 'lists_in/QOF/QOF_codes.csv')

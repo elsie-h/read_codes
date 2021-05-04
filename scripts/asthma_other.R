@@ -101,6 +101,12 @@ asthma_other <- asthma_other %>%
   select(read_code, read_term) %>%
   distinct()
 
+# make sure all Read codes are 5 characters and fix if not
+asthma_other %>%
+  filter(str_length(read_code)<5)
+asthma_other <- asthma_other %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(asthma_other, path = 'lists_out/asthma_other.csv')
 
 

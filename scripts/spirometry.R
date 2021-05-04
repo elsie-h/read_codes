@@ -57,6 +57,12 @@ spirometry_elsie <- read_delim("lists_in/Elsie/cl_spirometry_elsie",
 
 spirometry <- bind_rows(spirometry_qof, spirometry_elsie)
 
+# make sure all Read codes are 5 characters and fix if not
+spirometry %>%
+  filter(str_length(read_code)<5)
+spirometry <- spirometry %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 spirometry$read_code[duplicated(spirometry$read_code)]
 

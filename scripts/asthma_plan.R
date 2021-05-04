@@ -23,6 +23,12 @@ asthma_plan <- read_delim("lists_in/Elsie/cl_asthma_plan_elsie",
   select(read_code, read_term, cat1, cat2, score) %>%
   distinct()
 
+# make sure all Read codes are 5 characters and fix if not
+asthma_plan %>%
+  filter(str_length(read_code)<5)
+asthma_plan <- asthma_plan %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 asthma_plan$read_code[duplicated(asthma_plan$read_code)]
 

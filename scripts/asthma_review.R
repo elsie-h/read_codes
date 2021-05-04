@@ -28,6 +28,12 @@ asthma_review <- asthma_review %>%
          QOF = 1) %>%
   distinct()
 
+# make sure all Read codes are 5 characters and fix if not
+asthma_review %>%
+  filter(str_length(read_code)<5)
+asthma_review <- asthma_review %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 asthma_review$read_code[duplicated(asthma_review$read_code)]
 

@@ -293,6 +293,12 @@ allergies <- bind_rows(
                             'D2101', 'M1100', 'SN520'))) %>%
   mutate_at('cat2', list(~ if_else(. %in% 'other', 'other allergy', .)))
 
+# make sure all Read codes are 5 characters and fix if not
+allergies %>%
+  filter(str_length(read_code)<5)
+allergies <- allergies %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(allergies, 
           path = file.path(opcrd_analysis_path, 'allergic_conditions.csv'))
 write_csv(allergies %>%

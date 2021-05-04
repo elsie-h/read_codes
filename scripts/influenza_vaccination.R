@@ -27,6 +27,12 @@ fluvac_qof <- fluvac_qof %>%
   distinct(read_code, read_term) %>%
   mutate(cat1 = 'influenza_vaccination', cat2 = NA_character_)
 
+# make sure all Read codes are 5 characters and fix if not
+fluvac_qof %>%
+  filter(str_length(read_code)<5)
+fluvac_qof <- fluvac_qof %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(fluvac_qof,
           path = file.path(opcrd_analysis_path, 'influenza_vaccination.csv'))
 write_csv(fluvac_qof %>%

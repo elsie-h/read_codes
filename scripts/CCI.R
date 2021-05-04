@@ -35,6 +35,12 @@ cci <- read_csv("lists_in/Khan2010/khan_2010_cci.csv") %>%
   # if there are multiple terms for a Read code, select one term (the first one listed)
   distinct(read_code, score, cat1, cat2, .keep_all = TRUE)
 
+# make sure all Read codes are 5 characters and fix if not
+cci %>%
+  filter(str_length(read_code)<5)
+cci <- cci %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # save
 write_csv(cci, 
           path = file.path(opcrd_analysis_path, 'CCI.csv'))

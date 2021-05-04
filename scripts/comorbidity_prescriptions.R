@@ -176,6 +176,12 @@ comorbidity_prescriptions <- bind_rows(h2antagonist,
                                        anxiety_prescriptions) %>%
   mutate(cat1 = 'comorbidity prescription') 
 
+# make sure all Read codes are 5 characters and fix if not
+comorbidity_prescriptions %>%
+  filter(str_length(read_code)<5)
+comorbidity_prescriptions <- comorbidity_prescriptions %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # save list
 write_csv(comorbidity_prescriptions, 
           path = file.path(opcrd_analysis_path, 'comorbidity_prescriptions.csv'))

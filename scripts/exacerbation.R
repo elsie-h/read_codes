@@ -23,6 +23,12 @@ exacerbation <- exacerbation_elsie %>%
   distinct(read_code, read_term, cat1, cat2) %>%
   mutate(cat1 = 'exacerbation') 
 
+# make sure all Read codes are 5 characters and fix if not
+exacerbation %>%
+  filter(str_length(read_code)<5)
+exacerbation <- exacerbation %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 exacerbation$read_code[duplicated(exacerbation$read_code)]
 

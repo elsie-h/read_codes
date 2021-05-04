@@ -204,6 +204,12 @@ asthma_drugs <- asthma_drugs %>%
   bind_rows(spacer) %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y')))
 
+# make sure all Read codes are 5 characters and fix if not
+asthma_drugs %>%
+  filter(str_length(read_code)<5)
+asthma_drugs <- asthma_drugs %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(asthma_drugs, 
           path = file.path(opcrd_analysis_path, 'asthma_prescriptions.csv'))
 write_csv(asthma_drugs %>%

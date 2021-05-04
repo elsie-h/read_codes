@@ -140,6 +140,12 @@ infections <- infections %>%
   filter(!(cat2 %in% 'exclude')) %>%
   mutate(cat1 = 'infections')
 
+# make sure all Read codes are 5 characters and fix if not
+infections %>%
+  filter(str_length(read_code)<5)
+infections <- infections %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 write_csv(infections, 
           path = file.path(opcrd_analysis_path, 'infections.csv'))
 write_csv(infections %>%

@@ -1,5 +1,5 @@
 Category,Read code,Term,QOF
-PEFR,3395,Peak flow rate,N
+PEFR,3395.,Peak flow rate,N
 PEFR,339A.,Peak flow rate before bronchodilation,Y
 PEFR,339c.,Peak expiratory flow rate pre steroids,Y
 PEFR,339o.,Peak expiratory flow rate measured using EN 13826 device,N

@@ -13,6 +13,12 @@ bmi <- read_csv("lists_in/Elsie/bmi_codes_elsie.csv") %>%
   mutate(cat1 = 'bmi') %>%
   distinct()
 
+# make sure all Read codes are 5 characters and fix if not
+bmi %>%
+  filter(str_length(read_code)<5)
+bmi <- bmi %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 bmi$read_code[duplicated(bmi$read_code)]
 

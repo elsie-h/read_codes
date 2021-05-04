@@ -19,6 +19,12 @@ emergency <- read_delim("lists_in/Elsie/cl_hospitalisation_elsie",
   select(read_code, read_term, cat1, cat2, score) %>%
   distinct()
 
+# make sure all Read codes are 5 characters and fix if not
+emergency %>%
+  filter(str_length(read_code)<5)
+emergency <- emergency %>%
+  mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
 # check for duplicates in read_code
 emergency$read_code[duplicated(emergency$read_code)]
 
