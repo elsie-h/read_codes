@@ -1,5 +1,7 @@
 Read code,Term
 173A.,exercise induced asthma
+173A.,Exercise induced asthma
+173A.,exercise-induced asthma
 173c.,occupational asthma
 173d.,work aggravated asthma
 1780.,aspirin induced asthma
@@ -15,6 +17,8 @@ Read code,Term
 178A.,asthma trigger - airborne dust
 178B.,asthma trigger - exercise
 1O2..,asthma confirmed
+21262,asthma resolved
+212G.,asthma resolved
 38DL.,asthma control test
 663..,asthma monitoring
 663d.,emergency asthma admission since last appointment
@@ -27,14 +31,20 @@ Read code,Term
 663N0,asthma causing night waking
 663N1,asthma disturbs sleep weekly
 663N2,asthma disturbs sleep frequently
+663O.,asthma not disturbing sleep
 663O0,asthma never disturbs sleep
 663P.,asthma limiting activities
+663Q.,asthma not limiting activities
 663U.,asthma management plan given
 663V.,asthma severity
 663V0,occasional asthma
 663V1,mild asthma
 663V2,moderate asthma
 663V3,severe asthma
+663W.,asthma prophylactic medication used
+679J.,health education - asthma
+8791.,further asthma - drug prevention
+8793.,asthma control step 0
 8794.,asthma control step 1
 8795.,asthma control step 2
 8796.,asthma control step 3
@@ -42,44 +52,112 @@ Read code,Term
 8798.,asthma control step 5
 8H2P.,"emergency admission, asthma"
 9OJ1.,attends asthma monitoring
+9OJ3.,asthma monitor offer default
+9OJ4.,asthma monitoring call first letter
+9OJ5.,asthma monitoring call second letter
+9OJ6.,asthma monitoring call third letter
+9OJ7.,asthma monitoring call verbal invite
+9OJ8.,asthma monitoring call telephone invite
+9OJ9.,asthma monitoring deleted
+9OJA.,asthma monitored (& check done)
+9Q21.,patient in asthma study
 H3120,chronic asthmatic bronchitis
+H3120,Chronic asthmatic bronchitis
 H33..,asthma
+H33..,Asthma
+H330.,asthma: [extrins - atop][allerg][pollen][childh][+ hay fev]
 H330.,extrinsic (atopic) asthma
+H330.,Extrinsic (atopic) asthma
 H330.,pollen asthma
+H3300,(hay fever + asthma) or (extr asthma without status asthmat)
 H3300,extrinsic asthma without status asthmaticus
+H3300,Extrinsic asthma without status asthmaticus
+H3301,extrins asthma with: [asthma attack] or [status asthmaticus]
 H3301,extrinsic asthma with asthma attack
 H3301,extrinsic asthma with status asthmaticus
+H3301,Extrinsic asthma with status asthmaticus
 H330z,extrinsic asthma nos
+H330z,Extrinsic asthma NOS
+H331.,(intrinsic asthma) or (late onset asthma)
 H331.,intrinsic asthma
+H331.,Intrinsic asthma
 H3310,intrinsic asthma without status asthmaticus
+H3310,Intrinsic asthma without status asthmaticus
+H3311,intrins asthma with: [asthma attack] or [status asthmaticus]
 H3311,intrinsic asthma with asthma attack
 H3311,intrinsic asthma with status asthmaticus
+H3311,Intrinsic asthma with status asthmaticus
 H331z,intrinsic asthma nos
+H331z,Intrinsic asthma NOS
+H332.,mixed asthma
+H332.,Mixed asthma
 H333.,acute exacerbation of asthma
 H334.,brittle asthma
+H334.,Brittle asthma
 H335.,chronic asthma with fixed airflow obstruction
+H335.,Chronic asthma with fixed airflow obstruction
 H33z.,asthma unspecified
+H33z.,Asthma unspecified
+H33z0,(severe asthma attack) or (status asthmaticus nos)
 H33z0,severe asthma attack
 H33z0,status asthmaticus nos
+H33z0,Status asthmaticus NOS
 H33z1,asthma attack
+H33z1,Asthma attack
+H33z1,asthma attack (& nos)
 H33z1,asthma attack nos
 H33z2,late onset asthma
 H33z2,late-onset asthma
+H33z2,Late-onset asthma
+H33zz,(asthma:[exerc ind][allerg nec][nos]) or (allerg bronch nec)
 H33zz,asthma nos
+H33zz,Asthma NOS
 H33zz,exercise induced asthma
-H35y6,sequoiosis (red cedar asthma)
-H35y7,wood asthma
+H3B..,Asthma-chronic obstructive pulmonary disease overlap syndrome
 H47y0,detergent asthma
 Ua1AX,brittle asthma
+X101t,childhood asthma
+X101u,late onset asthma
 X101u,late-onset asthma
 X101x,allergic asthma
 X101y,extrinsic asthma with asthma attack
 X101z,allergic asthma nec
 X1020,hay fever with asthma
+X1021,allergic non-atopic asthma
 X1022,intrinsic asthma with asthma attack
+X1023,drug-induced asthma
+X1024,aspirin-sensitive asthma with nasal polyps
 X1025,occupational asthma
+X1026,baker's asthma
+X1027,colophony asthma
+X1028,grain worker's asthma
+X1029,sulphite-induced asthma
+X102D,status asthmaticus
+X102G,asthmatic pulmonary eosinophilia
+Xa0lZ,asthmatic bronchitis
+Xa1hD,exacerbation of asthma
+Xa8Hn,asthma control steps
+Xa9zf,acute asthma
 Xaa7B,chronic asthma with fixed airflow obstruction
+Xaa7Q,no asthma trigger identified by subject
+XaBAQ,recent asthma management
+Xabiu,asthma monitorng invit sms (short message servce) txt messge
+Xabj3,asthma monitoring invitation email
+XaBU2,asthma monitoring call
+XaBU3,asthma monitoring status
+Xac33,asthma-chronic obstructive pulmonary disease overlap syndrom
+Xac33,asthma-chronic obstructive pulmonary disease overlap syndrome
+Xac8r,telehealth asthma monitoring
+XacLz,asthma monitoring sms text message 1st invitation
+XacM0,asthma monitoring sms text message 2nd invitation
+XacM1,asthma monitoring sms text message 3rd invitation
+XacXj,at risk of severe asthma exacerbation
 XaDvK,asthma - currently active
+XaDvL,asthma - currently dormant
+Xafdj,acute severe exacerbation of asthma
+Xafdy,moderate acute exacerbation of asthma
+Xafdz,life threatening acute exacerbation of asthma
+Xaff0,use of asthma symptom diary
 XaIeq,asthma annual review
 XaIer,asthma follow-up
 XaIfK,asthma medication review
@@ -96,13 +174,17 @@ XaINg,asthma limits walking on the flat
 XaINh,number of asthma exacerbations in past year
 XaINZ,asthma causes night symptoms 1 to 2 times per month
 XaIoE,asthma night-time symptoms
+XaIOV,asthma finding
 XaIQ4,change in asthma management plan
 XaIQD,step up change in asthma management plan
 XaIQE,step down change in asthma management plan
 XaIR3,absent from work or school due to asthma
+XaIRN,asthma monitoring due
 XaIu5,asthma monitoring by nurse
 XaIu6,asthma monitoring by doctor
 XaIuG,asthma confirmed
+XaIww,asthma trigger
+XaJFG,aspirin-induced asthma
 XaJYe,asthma clinical management plan
 XaKdk,work aggravated asthma
 XaLIm,asthma trigger - respiratory infection
@@ -111,6 +193,7 @@ XaLIr,asthma trigger - animals
 XaLJS,asthma trigger - cold air
 XaLJT,asthma trigger - damp
 XaLJU,asthma trigger - emotion
+XaLPE,nocturnal asthma
 XaNKw,royal college of physicians asthma assessment
 XaObi,asthma trigger - airborne dust
 XaObj,asthma trigger - exercise
@@ -121,6 +204,7 @@ XaQHq,asthma control test
 XaQig,asthma control questionnaire
 XaQih,mini asthma quality of life questionnaire
 XaQij,under care of asthma specialist nurse
+XaR8K,did not attend asthma review
 XaRFi,patient has a written asthma personal action plan
 XaRFj,health education - asthma self management
 XaRFk,health education - structured asthma discussion
@@ -134,13 +218,38 @@ XaXZu,asthma limits activities 1 to 2 times per week
 XaXZx,asthma limits activities most days
 XaY2V,asthma never causes night symptoms
 XaYb8,asthma self-management plan agreed
+XaYja,asthma trigger - wind
+XaYpF,asthma trigger - perfume
 XaYZB,asthma self-management plan review
 XaYZh,number days absent from school due to asthma in past 6 month
+XE0YQ,allergic atopic asthma
 XE0YR,extrinsic asthma without status asthmaticus
 XE0YS,extrinsic asthma with status asthmaticus
+XE0YT,non-allergic asthma
 XE0YU,intrinsic asthma with status asthmaticus
 XE0YV,status asthmaticus nos
 XE0YW,asthma attack
 XE0YX,asthma nos
+XE0ZP,extrinsic asthma - atopy (& pollen)
+XE0ZR,asthma: [intrinsic] or [late onset]
+XE0ZT,asthma: [nos] or [attack]
+XE2Nb,asthma monitoring check done
 XM0s2,asthma attack nos
 XM1Xb,asthma monitoring
+Y0017,nocturnal asthma
+Y137e,asthma guidance
+Y137f,indicators - worsening asthma
+Y138a,indicators - asthma attack
+Y139b,asthma guidance
+Y139c,indicators - worsening asthma
+Y139d,indicators - asthma attack
+Y13a1,worsening asthma - preventer inhaler increased dose
+Y13a2,worsening asthma - reliever inhaler increased dose 4 hourly
+Y13a3,worsening asthma - steroid rescue dose prednisolone
+Y13a4,worsening asthma - steroid rescue dose prednisolone no. 5mg tabs
+Y13a5,worsening asthma - steroid rescue dose prednisolone no. days treatment
+Y13a7,peak flow - worsening asthma - less than
+Y13a8,asthma attack - reliever use more frequent than every
+Y13a9,asthma attack - peak flow less than
+Y1b24,acute severe exacerbation of allergic asthma
+Y1f90,quality and outcomes framework asthma quality indicator-related care invitation (procedure)
