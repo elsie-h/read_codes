@@ -12,8 +12,11 @@ Xa1hD,Exacerbation of asthma,occurence
 Xafdj,Acute severe exacerbation of asthma,occurence
 Xafdy,Moderate acute exacerbation of asthma,occurence
 Xafdz,Life threatening acute exacerbation of asthma,occurence
+XE0YU,Intrinsic asthma with status asthmaticus,occurence
+XE0YV,Status asthmaticus NOS,occurence
 XE0YW,Asthma attack,occurence
 XE0ZT,Asthma: [NOS] or [attack],occurence
+XEOYS,Extrinsic asthma with status asthmaticus,occurence
 XM0s2,Asthma attack NOS,occurence
 Y138a,Indicators - asthma attack,occurence
 Y139d,Indicators - asthma attack,occurence

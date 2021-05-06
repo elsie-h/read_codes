@@ -13,7 +13,11 @@ exacerbation_elsie <- read_delim("lists_in/Elsie/cl_exacerbation_elsie",
                            trim_ws = TRUE) 
 
 exacerbation_v3 <- read_csv("lists_in/Elsie/elsie-horne-asthma-attack-2020-11-05T13-33-34.csv") %>%
-  rename(read_code = id, read_term = term)
+  rename(read_code = id, read_term = term) %>%
+  # add 'status asthmaticus' ones from the Newby paper
+  add_row(read_code = 'XE0YV', read_term = 'Status asthmaticus NOS') %>%
+  add_row(read_code = 'XEOYS', read_term = 'Extrinsic asthma with status asthmaticus') %>%
+  add_row(read_code = 'XE0YU', read_term = 'Intrinsic asthma with status asthmaticus') 
 
 exacerbation <- exacerbation_elsie %>%
   full_join(exacerbation_v3, by = 'read_code') %>%

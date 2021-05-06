@@ -22,11 +22,19 @@ asthma_review %>%
 asthma_review <- asthma_review %>%
   mutate(read_term = if_else(!is.na(v36_v2_term), v36_v2_term, v36_v3_term)) %>%
   select(read_code, read_term) %>%
+  mutate(QOF = 1) %>%
+  distinct() %>%
+  # add those from Newby paper
+  add_row(read_code = 'XM1Xb', read_term = 'Asthma monitoring', QOF = 0) %>%
+  add_row(read_code = '9N1d.', read_term = 'Seen in asthma clinic', QOF = 0) %>%
+  add_row(read_code = 'XaX3n', read_term = 'Asthma review using Royal College of Physicians three questions', QOF = 1) %>%
+  add_row(read_code = '66Yp.', read_term = 'Asthma review using Royal College of Physicians three questions', QOF = 1) %>%
+  add_row(read_code = '9NI8.', read_term = 'Asthma outreach clinic', QOF = 0) %>%
+  add_row(read_code = 'XaBU2', read_term = 'Asthma monitoring call', QOF = 0) %>%
+  add_row(read_code = '9OJ1.', read_term = 'Attends asthma monitoring', QOF = 0) %>%
   mutate(cat1 = 'asthma_review',
          cat2 = NA_character_,
-         score = NA_real_,
-         QOF = 1) %>%
-  distinct()
+         score = NA_real_) 
 
 # make sure all Read codes are 5 characters and fix if not
 asthma_review %>%
