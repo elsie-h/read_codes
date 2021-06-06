@@ -80,6 +80,37 @@ asthma_diagnosis %>%
 asthma_diagnosis <- asthma_diagnosis %>%
   mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
 
+# check mapping
+# map V2 -> CTV3
+asthma_diagnosis %>% map_V2_CTV3()
+# map CTV3 -> V2
+asthma_diagnosis %>% map_CTV3_V2()
+
+# Do not add as could be COPD etc
+# XE1Sw	Respiratory disease monitoring
+# XM1Xg	Chronic respiratory disease monitoring
+
+asthma_diagnosis <- asthma_diagnosis %>%
+  bind_rows(asthma_diagnosis %>% 
+              map_CTV3_V2() %>%
+              filter((str_detect(V2_CONCEPTID, '^66') & !(V2_CONCEPTID %in% '663h.'))|
+                       (str_detect(V2_CONCEPTID, '^9') & !(V2_CONCEPTID %in% c('9Ni..', '9....', '9m...')))|
+                       (str_detect(V2_CONCEPTID, '^3'))|
+                       (str_detect(V2_CONCEPTID, '^67'))|
+                       ((str_detect(V2_CONCEPTID, '^8')) & !(V2_CONCEPTID %in% '8....'))|
+                       (V2_CONCEPTID %in% c('178..', '14Ok0'))) %>%
+              rename(read_code = V2_CONCEPTID, read_term = Term))
+
+# check mapping again
+# map V2 -> CTV3
+asthma_diagnosis %>% map_V2_CTV3()
+# map CTV3 -> V2
+asthma_diagnosis %>% map_CTV3_V2()
+
+asthma_diagnosis <- asthma_diagnosis %>%
+  add_row(read_code = 'XE2Na', read_term = 'Asthma monitoring admin.') %>%
+  add_row(read_code = 'XM1U3', read_term = 'Asthma clinic administration')
+
 write_csv(asthma_diagnosis, 
           path = file.path(opcrd_analysis_path, 'asthma_diagnosis.csv'))
 write_csv(asthma_diagnosis %>%

@@ -1,8 +1,10 @@
 Read code,Term
+14Ok0,At risk of severe asthma exacerbation
 173A.,exercise induced asthma
 173A.,exercise-induced asthma
 173c.,occupational asthma
 173d.,work aggravated asthma
+178..,Asthma trigger
 1780.,aspirin induced asthma
 1781.,asthma trigger - pollen
 1782.,asthma trigger - tobacco smoke
@@ -18,7 +20,13 @@ Read code,Term
 1O2..,asthma confirmed
 21262,asthma resolved
 212G.,asthma resolved
+388t.,RCP (Royal College of Physicians) three questions
+388t0,RCP asth assess 3 quest score
 38DL.,asthma control test
+38DT.,Asthma control questionnaire
+38DV.,Mini asthma QOL questionnaire
+661M1,Asthma self-manage plan agreed
+661N1,Asthma self-manage plan review
 663..,asthma monitoring
 663d.,emergency asthma admission since last appointment
 663e.,asthma restricts exercise
@@ -26,22 +34,56 @@ Read code,Term
 663e1,asthma severely restricts exercise
 663f.,asthma never restricts exercise
 663j.,asthma - currently active
+663m.,Asth A&E attend since last vis
+663n.,Asth treat compliance satisfac
 663N.,asthma disturbing sleep
 663N0,asthma causing night waking
 663N1,asthma disturbs sleep weekly
 663N2,asthma disturbs sleep frequently
 663O.,asthma not disturbing sleep
 663O0,asthma never disturbs sleep
+663p.,Asth treat compliance unsatisf
 663P.,asthma limiting activities
+663P0,Asthma limit act 1-2 time mth
+663P1,Asth limit activ 1 - 2 time wk
+663P2,Asthma limits activit most day
+663q.,Asthma daytime symptoms
 663Q.,asthma not limiting activities
+663r.,Asthma causes night symptoms 1 to 2 times per month
+663s.,Asthma never causes day symps
+663t.,Asthma causes daytime symptoms 1 to 2 times per month
+663u.,Asthma causes daytime symptoms 1 to 2 times per week
 663U.,asthma management plan given
+663v.,Asthma causes daytime symptoms most days
 663V.,asthma severity
 663V0,occasional asthma
 663V1,mild asthma
 663V2,moderate asthma
 663V3,severe asthma
+663w.,Asthm limits walk hills/stairs
 663W.,asthma prophylactic medication used
+663x.,Asthma limits walking on flat
+663y.,Num asthm exacs in past year
+66Y5.,Change in asthma management plan
+66Y9.,Step up change in asthma management plan
+66YA.,Step down change in asthma management plan
+66YC.,Absent from work or school due to asthma
+66YE.,Asthma monitoring due
+66YJ.,Asthma annual review
+66YK.,Asthma follow-up
+66Yp.,Asthma review RCP 3 questions
+66YP.,Asthma night-time symptoms
+66Yq.,Asthma causes night time symptoms 1 to 2 times per week
+66YQ.,Asthma monitoring by nurse
+66Yr.,Asthma cause sympt most nights
+66YR.,Asthma monitoring by doctor
+66Ys.,Asthma never caus night symptm
+66Yu.,Num dy abs sch asthma pst 6 mn
+66Yz5,Telehealth asthma monitoring
 679J.,health education - asthma
+679J0,Health educ - asthm self manag
+679J1,Heal educ - struct asthma disc
+679J2,Heal educ - struc foc ast disc
 8791.,further asthma - drug prevention
 8793.,asthma control step 0
 8794.,asthma control step 1
@@ -49,7 +91,12 @@ Read code,Term
 8796.,asthma control step 3
 8797.,asthma control step 4
 8798.,asthma control step 5
+8B3j.,Asthma medication review
+8CMA0,Pat writt asthma pers act plan
+8CR0.,Asthma clin management plan
 8H2P.,"emergency admission, asthma"
+9NNX.,Under care asthma spclst nurse
+9OJ..,Asthma clinic administration
 9OJ1.,attends asthma monitoring
 9OJ3.,asthma monitor offer default
 9OJ4.,asthma monitoring call first letter
@@ -59,6 +106,11 @@ Read code,Term
 9OJ8.,asthma monitoring call telephone invite
 9OJ9.,asthma monitoring deleted
 9OJA.,asthma monitored (& check done)
+9OJB.,Asthma monitoring invitation SMS (short message service) text message
+9OJB0,Asthma monitoring SMS (short message service) text message first invitation
+9OJB1,Asthma monitoring SMS (short message service) text message second invitation
+9OJB2,Asthma monitoring SMS (short message service) text message third invitation
+9OJC.,Asthma monitoring invitation email
 9Q21.,patient in asthma study
 H3120,chronic asthmatic bronchitis
 H33..,asthma
@@ -214,8 +266,10 @@ XE0YX,asthma nos
 XE0ZP,extrinsic asthma - atopy (& pollen)
 XE0ZR,asthma: [intrinsic] or [late onset]
 XE0ZT,asthma: [nos] or [attack]
+XE2Na,Asthma monitoring admin.
 XE2Nb,asthma monitoring check done
 XM0s2,asthma attack nos
+XM1U3,Asthma clinic administration
 XM1Xb,asthma monitoring
 Y0017,nocturnal asthma
 Y137e,asthma guidance

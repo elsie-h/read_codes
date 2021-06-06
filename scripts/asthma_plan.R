@@ -17,11 +17,26 @@ asthma_plan <- read_delim("lists_in/Elsie/cl_asthma_plan_elsie",
           read_term = 'Asthma clinical management plan') %>%
   add_row(read_code = '661M1',
           read_term = 'Asthma self-management plan agreed') %>%
+  add_row(read_code = '66Y5.',
+          read_term = 'Change in asthma management plan') %>%
+  # additions based on mapping
+  add_row(read_code = '66Y9.',
+          read_term = 'Step up change in asthma management plan') %>%
+  add_row(read_code = '66YA.',
+         read_term = 'Step down change in asthma management plan') %>%
+  add_row(read_code = '661N1',
+          read_term = 'Asthma self-management plan review') %>%
   mutate(cat1 = 'asthma_plan',
          score = NA_real_) %>%
   mutate_at('cat2', as.character)  %>%
   select(read_code, read_term, cat1, cat2, score) %>%
   distinct()
+
+# check mapping
+# map V2 -> CTV3
+asthma_plan %>% map_V2_CTV3()
+# map CTV3 -> V2
+asthma_plan %>% map_CTV3_V2()
 
 # make sure all Read codes are 5 characters and fix if not
 asthma_plan %>%
@@ -39,14 +54,3 @@ write_csv(asthma_plan %>%
             select(`Read code` = read_code,
                    Term = read_term),
           path = 'lists_out/asthma_plan.csv')
-
-# table for appendix
-asthma_plan %>%
-  arrange(read_term) %>%
-  select(`Read code` = read_code, 
-         `Term` = read_term) %>%
-  xtable(caption = 'Read codes from emergency asthma management plan (see \\nameref{cha:ehr:methods:pre:asthma_plan} for methods)',
-         label = 'tab:app:rc_asthma_plan',
-         align=c('l',"p{2cm}","p{10cm}")) %>%
-  print_xtable_multi(filename = 'asthma_plan')
-
