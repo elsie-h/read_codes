@@ -1,5 +1,6 @@
 Allergic condition,Read code,Term
 anaphylaxis,14M5.,H/O: anaphylactic shock
+anaphylaxis,66G8.,Carries adrenaline preloaded injection pen
 anaphylaxis,D3100,Anaphylactoid purpura
 anaphylaxis,K0323,Anaphylactoid glomerulonephritis
 anaphylaxis,SN50.,Anaphylactic shock
@@ -39,10 +40,12 @@ anaphylaxis,X70w7,Exercise anaphylaxis
 anaphylaxis,X70w8,Cholinergic anaphylactoid reaction
 anaphylaxis,X70w9,Idiopathic anaphylaxis
 anaphylaxis,XaG0G,[V]Personal history of food induced anaphylaxis
+anaphylaxis,XaIPo,Carries adrenaline preloaded injection pen
 anaphylaxis,XaL31,H/O: anaphylactic shock
 anaphylaxis,XaZmp,Anaphylactoid reaction due to haemodialysis
 anaphylaxis,ZV1B3,[V]Personal history of food induced anaphylaxis
 angioedema or urticaria,C3760,Hereditary angio-oedema
+angioedema or urticaria,M12A2,Solar urticaria
 angioedema or urticaria,M28..,Urticaria
 angioedema or urticaria,M280.,Allergic urticaria
 angioedema or urticaria,M281.,Idiopathic urticaria
@@ -135,19 +138,25 @@ conjunctivitis,X00Zk,Perennial allergic conjunctivitis
 conjunctivitis,X00Zl,Giant papillary conjunctivitis
 conjunctivitis,XaF7u,Contact lens related giant papillary conjunctivitis
 conjunctivitis,XE16b,Other chronic allergic conjunctivitis
+drug allergy,_NONE,NA
 drug allergy,14L..,H/O: drug allergy
 drug allergy,14L1.,H/O: penicillin allergy
 drug allergy,14L2.,H/O: antibiotic allergy NOS
 drug allergy,14L3.,H/O: anaesthetic allergy
 drug allergy,14L4.,H/O: analgesic allergy
 drug allergy,14L5.,H/O: vaccine allergy
+drug allergy,14L50,H/O: rotavirus vaccine allergy
 drug allergy,14L6.,H/O: serum allergy
 drug allergy,14L7.,H/O: cephalosporin allergy
 drug allergy,14L8.,H/O: tetracycline allergy
 drug allergy,14L9.,H/O: gentamicin allergy
+drug allergy,14La.,H/O: raloxifene allergy
 drug allergy,14LA.,H/O: erythromycin allergy
+drug allergy,14Lb.,H/O: teriparatide allergy
 drug allergy,14LB.,H/O: neomycin allergy
+drug allergy,14Lc.,H/O denosumab allergy
 drug allergy,14LC.,H/O: chloramphenicol allergy
+drug allergy,14Ld.,H/O calcitonin allergy
 drug allergy,14LD.,H/O: sulphonamide allergy
 drug allergy,14LE.,H/O: trimethoprim allergy
 drug allergy,14LF.,H/O: co-trimoxazole allergy
@@ -163,14 +172,35 @@ drug allergy,14LP.,H/O: warfarin allergy
 drug allergy,14LQ.,H/O: clopidogrel allergy
 drug allergy,14LR.,H/O: pneumococcal vaccine allergy
 drug allergy,14LS.,H/O: combined calcium and vitamin D3 preparation allergy
+drug allergy,14LT.,H/O: bisphosphonate allergy
+drug allergy,14LT0,H/O ibandronic acid allergy
+drug allergy,14LT1,H/O zoledronc ac monohy allerg
+drug allergy,14LT2,H/O disodium etidronate aller
+drug allergy,14LT3,H/O alendronic acid allergy
+drug allergy,14LT4,H/O risedronate sodium allergy
 drug allergy,14LV.,H/O: selective oestrogen receptor modulator allergy
 drug allergy,14LW.,H/O: strontium ranelate allergy
 drug allergy,14LX.,H/O: dipyridamole allergy
+drug allergy,14LY.,Phosphodiesteras-5 inhib aller
 drug allergy,14LZ.,H/O: drug allergy NOS
+drug allergy,1Z40.,Aliskiren allergy
+drug allergy,1Z41.,Prasugrel allergy
+drug allergy,1Z42.,Ticagrelor allergy
+drug allergy,1Z43.,Anticoagulant allergy
+drug allergy,1Z430,Rivaroxaban allergy
+drug allergy,1Z431,Apixaban allergy
 drug allergy,66G4.,Allergy drug side effect
+drug allergy,9bJ4.,Transfer-degraded drug allergy
+drug allergy,M130.,Ingestion dermatitis due to drugs
+drug allergy,M1300,Generalized skin eruption due to drugs and medicaments
+drug allergy,M1301,Localized skin eruption due to drugs and medicaments
+drug allergy,M1302,Drug-induced erythroderma
 drug allergy,SN501,Anaphylactic shock due to adverse effect of correct drug or medicament properly administered
 drug allergy,SN52.,Drug hypersensitivity NOS
+drug allergy,TJ280,AR - carbimazole
 drug allergy,X508N,Drug-induced urticaria
+drug allergy,X50Ge,Drug eruption
+drug allergy,X50Gm,Drug-induced erythroderma
 drug allergy,X70vr,Drug-induced anaphylaxis
 drug allergy,X70vs,Penicillin-induced anaphylaxis
 drug allergy,X70w2,Drug-induced anaphylactoid reaction
@@ -1733,6 +1763,9 @@ drug allergy,XaKFa,H/O: pneumococcal vaccine allergy
 drug allergy,XaKJr,[V]Personal history of pneumococcal vaccine allergy
 drug allergy,XaLGR,Transfer-degraded drug allergy
 drug allergy,XaLHt,H/O: dipyridamole allergy
+drug allergy,XaQaf,[X]Personal history of allergy to bisoprolol
+drug allergy,XaQag,[X]Personal history of allergy to carvedilol
+drug allergy,XaQah,[X]Personal history of allergy to nebivolol
 drug allergy,XaRAf,Myroxylon pereirae allergy
 drug allergy,XaXgz,Phosphodiesterase-5 inhibitor allergy
 drug allergy,XaYOi,Tramadol allergy
@@ -1745,6 +1778,7 @@ drug allergy,XaZej,H/O calcitonin allergy
 drug allergy,XaZfi,H/O disodium etidronate allergy
 drug allergy,XaZfj,H/O alendronic acid allergy
 drug allergy,XaZfk,H/O risedronate sodium allergy
+drug allergy,XE1Aw,Ingestion dermatitis due to drugs
 drug allergy,XE1os,Drug hypersensitivity NOS
 drug allergy,XE1tJ,Drug hypersensitivity (& [NOS])
 drug allergy,Y077d,Transfer-degraded drug allergy
@@ -1773,10 +1807,16 @@ drug allergy,ZV14L,[V]Personal history of calcium allergy
 drug allergy,ZV14M,[V]Personal history of vitamin D3 allergy
 drug allergy,ZV14y,[V]Personal history of other specified drug allergy
 drug allergy,ZV14z,[V]Personal history of unspecified drug allergy
+drug allergy,ZVu6i,[X]Pers hist allerg bisoprolol
 drug allergy,ZVu6M,[X]Personal history of allergy to other antibiotic agents
 drug allergy,ZVu6N,[X]Personal history/allergy to other anti-infective agents
+drug allergy,ZVu6o,[X]Pers hist allerg carvedilol
+drug allergy,ZVu6q,[X]Pers hist allergy nebivolol
 eczema,14F1.,H/O: eczema
+eczema,26C4.,Nipple eczema
+eczema,F4D02,Squamous blepharitis
 eczema,F4D3.,Non-infectious dermatosis of eyelid
+eczema,F4D30,Eczematous eyelid dermatitis
 eczema,F4D31,Contact eczema - eyelids
 eczema,F4D32,Ichthyosis of eyelid
 eczema,F4D3z,Non-infected eyelid dermatoses NOS
@@ -1852,6 +1892,7 @@ eczema,M126z,Contact dermatitis due to plants NOS
 eczema,M127.,Contact dermatitis due to solar radiation
 eczema,M1270,Unspecified contact dermatitis due to solar radiation
 eczema,M1272,Hydroa aestivale
+eczema,M1273,Photodermatitis
 eczema,M127z,Contact dermatitis due to solar radn NOS
 eczema,M128.,Allergic contact dermatitis
 eczema,M1280,Allergic contact dermatitis due to adhesives
@@ -1887,11 +1928,15 @@ eczema,M12z.,Contact dermatitis NOS
 eczema,M12z0,Dermatitis NOS
 eczema,M12z1,Eczema NOS
 eczema,M12z3,Hand eczema
+eczema,M12z4,Erythrodermic eczema
 eczema,M12zz,Contact dermatitis NOS
 eczema,M13..,Ingestion dermatitis
+eczema,M130.,Ingestion dermatitis due to drugs
+eczema,M1302,Drug-induced erythroderma
 eczema,M131.,Ingestion dermatitis due to food
 eczema,M13y.,Ingestion dermatitis due to other specified substance
 eczema,M13z.,Ingestion dermatitis NOS
+eczema,M1536,Periocular dermatitis
 eczema,M1650,Pityriasis alba
 eczema,M17y.,Other lichen NEC
 eczema,M17yz,Other lichen NEC NOS
@@ -1906,7 +1951,9 @@ eczema,M1830,Prurigo nodularis
 eczema,M1831,Lichen simplex
 eczema,M1832,Lichen simplex
 eczema,M183z,Lichenification NOS
+eczema,M1B..,Juvenile plantar dermatosis
 eczema,M1y0.,Discoid eczema
+eczema,M1y2.,Gravitational eczema
 eczema,M21A.,Asteatotic eczema
 eczema,M2520,Dyshidrosis unspecified
 eczema,M2521,Pompholyx unspecified
@@ -1916,6 +1963,7 @@ eczema,M252z,Dyshidrosis NOS
 eczema,Myu2.,[X]Dermatitis and eczema
 eczema,Myu20,[X]Other seborrhoeic dermatitis
 eczema,Myu21,[X]Allergic contact dermatitis due to oth chemical products
+eczema,Myu22,[X]Exacerbation of eczema
 eczema,Myu23,[X]Allergic contact dermatitis due to other agents
 eczema,Myu24,[X]Irritant contact dermatitis due to oth chemical products
 eczema,Myu25,[X]Irritant contact dermatitis due to other agents
@@ -2046,6 +2094,7 @@ eczema,Y033e,Contact dermatitis due to dressing
 eczema,Y3295,Other atopic dermatitis
 eczema,Y7351,Intrinsic (allergic) eczema
 food allergy,14M1.,H/O: food allergy
+food allergy,8CA4S,Dietary education for food allergy
 food allergy,SN500,Anaphylactic shock due to adverse food reaction
 food allergy,SN58.,Food allergy
 food allergy,SN580,Egg allergy
@@ -2059,6 +2108,8 @@ food allergy,SN587,Shellfish allergy
 food allergy,SN588,Mushroom allergy
 food allergy,SN589,Allergy to strawberries
 food allergy,SN58A,Allergy to soya
+food allergy,SN58B,Allergy to banana
+food allergy,SN58C,Allergy to tomato
 food allergy,X70vm,Food-induced anaphylaxis
 food allergy,X70vn,Peanut-induced anaphylaxis
 food allergy,X70vo,Seafood-induced anaphylaxis
@@ -2104,8 +2155,12 @@ other allergy,66G3.,Allergic dis.- symptom change
 other allergy,66G5.,Allergy treatment changed
 other allergy,66G6.,Allergy dis.treatment started
 other allergy,66G7.,Allergy dis.treatment stopped
-other allergy,66G8.,Carries adrenaline preloaded injection pen
 other allergy,66GZ.,Allergic dis. monitoring NOS
+other allergy,8Hld.,Refer to clinical allergy serv
+other allergy,8HVK0,Private ref allergy specialist
+other allergy,9b9W.,Allergy - specialty 
+other allergy,9bJ5.,Trans-degrade non-drug allergy
+other allergy,9NlX.,Seen by clinic allergy - serv
 other allergy,D310.,Allergic purpura
 other allergy,D3101,Henoch-Schonlein nephritis
 other allergy,D310z,Allergic purpura NOS
@@ -2161,16 +2216,36 @@ other allergy,N0629,Allergic arthritis of multiple sites
 other allergy,N062z,Allergic arthritis NOS
 other allergy,SN53.,Allergy
 other allergy,SN530,Allergic reaction
+other allergy,SN531,Latex allergy
+other allergy,SN532,Allergic reaction tattoo ink
+other allergy,SN533,Atopy
+other allergy,SN59.,Venom allergy
+other allergy,SN590,Allergic reaction to bee sting
+other allergy,SN591,Allergic reaction to insect bite
+other allergy,SN592,Allergic reaction to wasp sting
+other allergy,SN593,Anaphylactic shock due to bee sting
+other allergy,SN594,Anaphylactic shock due to wasp sting
+other allergy,SN5A.,Oral allergy syndrome
+other allergy,SN5B.,Allergy to stainless steel
 other allergy,X00l3,Cat allergy
 other allergy,X00l4,Dander (animal) allergy
 other allergy,X00l5,Feather allergy
 other allergy,X00l6,House dust allergy
 other allergy,X00l7,House dust mite allergy
+other allergy,X30Bq,Allergic diarrhoea
 other allergy,X70vh,Acute allergic reaction
+other allergy,X70vi,Venom-induced anaphylaxis
+other allergy,X70vj,Bee sting-induced anaphylaxis
+other allergy,X70vk,Wasp sting-induced anaphylaxis
+other allergy,X70wC,Venom-induced angio-oedema-urticaria
 other allergy,X79pp,Allergy - mechanism
 other allergy,Xa1pQ,Allergic disorder
 other allergy,Xa1zh,Allergic reaction to substance
+other allergy,Xa1zi,Allergic reaction to venom
+other allergy,Xa1zj,Allergic reaction to insect venom
+other allergy,Xa1zk,Allergic reaction to bee sting
 other allergy,Xa7lH,Perfume allergy
+other allergy,Xa7lK,Allergic reaction to wasp sting
 other allergy,Xa7lL,Allergy to pollen
 other allergy,Xa7lM,Allergy to animal hair
 other allergy,Xa7lQ,Metal allergy
@@ -2192,11 +2267,9 @@ other allergy,XaNfE,Oral allergy syndrome
 other allergy,XaO5S,Allergic reaction to tattoo ink
 other allergy,XaOb5,Allergy to dog dander
 other allergy,XaOj7,Allergy to grass pollen
-other allergy,XaQaf,[X]Personal history of allergy to bisoprolol
-other allergy,XaQag,[X]Personal history of allergy to carvedilol
-other allergy,XaQah,[X]Personal history of allergy to nebivolol
 other allergy,XaYzE,Allergy to cosmetic product
 other allergy,XaZu1,Private referral to allergy specialist
+other allergy,XE0al,Allergic gastroenteritis and colitis
 other allergy,XE14s,Purpura: [allergic] or [Henoch-Schonlein allergy]
 other allergy,XE1ot,"Allergy, unspecified"
 other allergy,XM0xz,Allergic reaction NOS
@@ -2211,6 +2284,7 @@ other allergy,Y5367,Allergy dis.treatment started
 other allergy,Y6997,H/O: gentamycin allergy
 other allergy,ZV150,[V]Personal history of non-drug allergy
 other allergy,ZVu6P,[X]Personal history/allergy/other drugs+biologicl substances
+other allergy,ZVu6s,[X]Pers hist allergy cosmetic
 other allergy,ZVu6T,"[X]Personl history/allergy,oth than/drugs+biologicl substnce"
 rhinitis,H00..,Rhinitis - acute
 rhinitis,H120.,Chronic rhinitis
@@ -2246,15 +2320,3 @@ rhinitis,XE0Y7,Allergic rhinitis due to unspecified allergen
 rhinitis,XE0Z5,(Allerg rhinitis: [NOS][perenn][season]) or (vasomotor rhin)
 rhinitis,XE2QI,Allergic rhinitis due to pollens
 rhinitis,Y9979,Vasomotor and allergic rhinitis
-venom allergy,SN59.,Venom allergy
-venom allergy,SN591,Allergic reaction to insect bite
-venom allergy,SN593,Anaphylactic shock due to bee sting
-venom allergy,SN594,Anaphylactic shock due to wasp sting
-venom allergy,X70vi,Venom-induced anaphylaxis
-venom allergy,X70vj,Bee sting-induced anaphylaxis
-venom allergy,X70vk,Wasp sting-induced anaphylaxis
-venom allergy,X70wC,Venom-induced angio-oedema-urticaria
-venom allergy,Xa1zi,Allergic reaction to venom
-venom allergy,Xa1zj,Allergic reaction to insect venom
-venom allergy,Xa1zk,Allergic reaction to bee sting
-venom allergy,Xa7lK,Allergic reaction to wasp sting
