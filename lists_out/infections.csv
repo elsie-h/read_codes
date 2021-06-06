@@ -1,5 +1,8 @@
 Infection,Read code,Term
 influenza,16L..,Influenza-like symptoms
+influenza,4JUF.,Hum parainfluenza vir detected
+influenza,F0308,Enceph due to influ-vir not id
+influenza,F030A,Enceph due to influ-virus id
 influenza,G5203,Acute myocarditis - influenzal
 influenza,H0608,Acute haemophilus influenzae bronchitis
 influenza,H060C,Acute parainfluenza virus bronchitis
@@ -23,6 +26,11 @@ influenza,H27z.,Influenza NOS
 influenza,H27z.,Influenza like illness
 influenza,H27z.,(Influenza like illness) or (influenza NOS)
 influenza,H29..,Avian influenza
+influenza,H2A..,Infl due Infl A vir subtp H1N1
+influenza,H2D..,Flu due to zoonotic virus
+influenza,H2E..,Flu due to pandemic virus
+influenza,H2F0.,Inflnza wth pmn due sesnl vir
+influenza,H2Fz.,Influenza with other manifestations due to seasonal influenza virus
 influenza,H2y..,Other specified pneumonia or influenza
 influenza,H2z..,Pneumonia or influenza NOS
 influenza,Hyu04,"[X]Flu+oth respiratory manifestations,'flu virus identified"
@@ -85,6 +93,7 @@ LRTI,A11y.,Other specified pulmonary tuberculosis
 LRTI,A11z.,Pulmonary tuberculosis NOS
 LRTI,A11z.,Pulmonary tuberculosis NOS
 LRTI,A120.,Tuberculosis of pleura
+LRTI,A1201,Tuberculous empyema
 LRTI,A1202,Tuberculous hydrothorax
 LRTI,A1202,Tuberculous hydrothorax
 LRTI,A120z,Tuberculous pleurisy NOS
@@ -108,6 +117,7 @@ LRTI,A204.,Secondary pneumonic plague
 LRTI,A204.,Secondary pneumonic plague
 LRTI,A205.,"Pneumonic plague, unspecified"
 LRTI,A205.,"Pneumonic plague, unspecified"
+LRTI,A3100,Pulm mycob avium-intracell inf
 LRTI,A33..,Whooping cough
 LRTI,A330.,Bordetella pertussis
 LRTI,A331.,Bordetella parapertussis
@@ -121,6 +131,8 @@ LRTI,A33yz,Other whooping cough NOS
 LRTI,A33z.,Whooping cough NOS
 LRTI,A33z.,Whooping cough NOS
 LRTI,A33z.,Whooping cough NOS
+LRTI,A36..,Meningococcal infection
+LRTI,A3B1.,Staphylococcal infection
 LRTI,A3B3.,Friedlander's bacillus infection
 LRTI,A3BX4,Streptococ pneumon/cause/disease classified/oth chapters
 LRTI,A3BXA,Mycoplasma pneumoniae [PPLO] cause/dis classifd/oth chaptr
@@ -130,26 +142,34 @@ LRTI,A3By1,Eaton's agent infection
 LRTI,A3By4,Mycoplasmal pneumonia
 LRTI,A3By4,Pleuropneumonia-like organism (PPLO) infection
 LRTI,A521.,Chickenpox pneumonia
+LRTI,A54x4,Herpes simplex pneumonia
+LRTI,A73..,Ornithosis - psittacosis
 LRTI,A73x.,Ornithosis with other specified complications
 LRTI,A73x.,Ornithosis with other specified complications
 LRTI,A73y.,Ornithosis with unspecified complications
 LRTI,A73y.,Ornithosis with unspecified complications
 LRTI,A73z.,Unspecified Ornithosis
 LRTI,A73z.,Unspecified Ornithosis
+LRTI,A78B.,Hantavir cardio-pulmonary synd
 LRTI,AB24.,Candidiasis of lung
 LRTI,AB30.,Primary pulmonary coccidioidomycosis
 LRTI,AB30.,Primary pulmonary coccidioidomycosis
+LRTI,AB301,Chron pulm coccidioidomycosis
 LRTI,AB405,Histoplasma capsulatum with pneumonia
 LRTI,AB405,Histoplasma capsulatum with pneumonia
+LRTI,AB406,Ac pulm histoplasmosis capsul
+LRTI,AB407,Chron pulm histoplasmosis caps
 LRTI,AB415,Pulmonary African histoplasmosis
 LRTI,AB415,Histoplasma duboisii with pneumonia
 LRTI,AB501,Primary pulmonary blastomycosis
 LRTI,AB501,Primary pulmonary blastomycosis
 LRTI,AB504,Acute pulmonary blastomycosis
 LRTI,AB504,Acute pulmonary blastomycosis
+LRTI,AB506,Pulmonary blastomycosis
 LRTI,AB511,Pulmonary paracoccidioidomycosis
 LRTI,AB511,Pulmonary paracoccidioidomycosis
 LRTI,AB636,Aspergillus bronchitis
+LRTI,AB670,Pulmonary mucormycosis
 LRTI,AD04.,Toxoplasma pneumonitis
 LRTI,AD04.,Toxoplasma pneumonitis
 LRTI,Ayu39,[X]Whooping cough due to other Bordetella species
@@ -158,6 +178,9 @@ LRTI,Ayu39,[X]Whooping cough due to other Bordetella species
 LRTI,Ayu3A,"[X]Whooping cough, unspecified"
 LRTI,Ayu3A,"[X]Whooping cough, unspecified"
 LRTI,Ayu3A,"[X]Whooping cough, unspecified"
+LRTI,AyuK3,[X]Streptococcus pneumoniae as the cause of diseases classified to other chapters
+LRTI,AyuK9,[X]Mycoplasma pneumoniae [pplo] as the cause of diseases classified to other chapters
+LRTI,AyuKA,[X]Klebsiella pneumoniae as the cause of diseases classified to other chapters
 LRTI,H06..,Acute bronchitis and bronchiolitis
 LRTI,H06..,Acute bronchitis and bronchiolitis
 LRTI,H060.,Acute bronchitis
@@ -204,6 +227,7 @@ LRTI,H0615,Acute bronchiolitis due to respiratory syncytial virus
 LRTI,H0615,Acute bronchiolitis due to respiratory syncytial virus
 LRTI,H0616,Acute bronchiolitis due to other specified organisms
 LRTI,H0616,Acute bronchiolitis due to other specified organisms
+LRTI,H0617,Ac bronchiol due hum metapneum
 LRTI,H061z,Acute bronchiolitis NOS
 LRTI,H062.,Acute lower respiratory tract infection
 LRTI,H06z.,Acute bronchitis or bronchiolitis NOS
@@ -256,6 +280,7 @@ LRTI,H22y1,Proteus pneumonia
 LRTI,H22y1,Pneumonia due to proteus
 LRTI,H22y2,Legionella pneumonia
 LRTI,H22y2,Pneumonia - Legionella
+LRTI,H22y3,Pneumonia due to Gram neg bact
 LRTI,H22yX,Pneumonia due to other aerobic gram-negative bacteria
 LRTI,H22yz,Pneumonia due to bacteria NOS
 LRTI,H22yz,Pneumonia due to bacteria NOS
@@ -414,11 +439,13 @@ LRTI,Hyu10,[X]Acute bronchitis due to other specified organisms
 LRTI,Hyu11,[X]Acute bronchiolitis due to other specified organisms
 LRTI,Hyu11,[X]Acute bronchiolitis due to other specified organisms
 LRTI,Hyu6.,[X]Suppurative & necrotic conditions of lower respir tract
+LRTI,Q310.,Congenital pneumonia
 LRTI,Q3100,Congenital staphylococcal pneumonia
 LRTI,Q3101,Congenital group A haemolytic streptococcal pneumonia
 LRTI,Q3102,Congenital group B haemolytic streptococcal pneumonia
 LRTI,Q3103,Congenital Escherichia coli pneumonia
 LRTI,Q3104,Congenital pseudomonal pneumonia
+LRTI,Q3105,Cong pneumonia due viral agent
 LRTI,Q3106,Congenital chlamydial pneumonia
 LRTI,Qyu31,[X]Congenital pneumonia due to other bacterial agents
 LRTI,Qyu32,[X]Congenital pneumonia due to other organisms
@@ -490,6 +517,7 @@ LRTI,X104k,Bronchial sepsis
 LRTI,X104k,Bronchial sepsis
 LRTI,X104U,Tracheal sepsis
 LRTI,X104U,Tracheal sepsis
+LRTI,X70I8,Bordetella infection
 LRTI,X70Ra,Chronic pulmonary African histoplasmosis
 LRTI,X70Ra,Chronic pulmonary African histoplasmosis
 LRTI,X70Rg,Chronic pulmonary blastomycosis
@@ -516,6 +544,8 @@ LRTI,Xa7nN,Right lower zone pneumonia
 LRTI,Xa7nP,Left upper zone pneumonia
 LRTI,Xa7nT,Right middle zone pneumonia
 LRTI,Xa7nU,Right upper zone pneumonia
+LRTI,Xa7u5,Lung consolidation
+LRTI,Xa7u5,Lung consolidation
 LRTI,Xa97Y,Tuberculosis of trachea
 LRTI,Xa97Z,Pulmonary mycobacterium avium-intracellulare infection
 LRTI,Xa97Z,Pulmonary mycobacterium avium-intracellulare infection
@@ -545,7 +575,9 @@ LRTI,XaEW2,Infective pleurisy
 LRTI,XaEW3,Bacterial pleurisy
 LRTI,XaEW4,Viral pleurisy
 LRTI,XaFrU,Postoperative pneumonia
+LRTI,XaIzV,Severe acute respiratory syndrome
 LRTI,XaJEl,Bilateral pneumonia
+LRTI,XaL2O,"Pneumonitis, unspecified"
 LRTI,XaREU,Aspergillus bronchitis
 LRTI,XaYby,Hantavirus pulmonary syndrome
 LRTI,XaYby,Hantavirus pulmonary syndrome
@@ -602,7 +634,9 @@ URTI,171A.,Chronic cough
 URTI,171B.,Persistent cough
 URTI,171C.,Morning cough
 URTI,171D.,Evening cough
+URTI,171E.,Unexplained cough
 URTI,171F.,Cough with fever
+URTI,171G.,Bovine cough
 URTI,171Z.,Cough symptom NOS
 URTI,173B.,Nocturnal cough / wheeze
 URTI,1C9..,Sore throat symptom
@@ -627,7 +661,9 @@ URTI,A341.,Scarlet fever - scarlatina
 URTI,A341.,Scarlet fever
 URTI,A34z.,Streptococcal sore throat with scarlatina NOS
 URTI,A740.,Herpangina
+URTI,A75..,Glandular fever
 URTI,A772.,Viral pharyngoconjunctivitis
+URTI,A78A1,Chlamydial infection of pharynx
 URTI,A986.,Gonococcal pharyngitis
 URTI,AA1..,Vincent's angina
 URTI,AA1..,(Vincent's angina) or (trench mouth)
@@ -638,6 +674,7 @@ URTI,AA12.,Vincent's pharyngitis
 URTI,AA12.,Vincent's angina - pharyngitis
 URTI,AA1z.,Vincent's angina NOS
 URTI,AA1z.,Vincent's: [angina NOS] or [laryngitis] or [tonsillitis]
+URTI,AB20.,Candidiasis mouth/oesophagus
 URTI,Ayu39,[X]Whooping cough due to other Bordetella species
 URTI,Ayu3A,"[X]Whooping cough, unspecified"
 URTI,H0...,Acute respiratory infections
@@ -729,6 +766,7 @@ URTI,J0836,Uvulitis
 URTI,R041.,[D]Throat pain
 URTI,R062.,[D]Cough
 URTI,R2...,cold
+URTI,X00kv,Acute rhinitis
 URTI,X00mG,Pharyngitis
 URTI,X00mH,Acute herpes simplex pharyngitis
 URTI,X00mI,Acute herpes zoster pharyngitis
@@ -747,12 +785,15 @@ URTI,X1003,Viral upper respiratory tract infection NOS
 URTI,X20RL,Streptococcal stomatitis
 URTI,X5021,Staphylococcal scarlatina
 URTI,X70IA,Cutaneous streptococcal ulcer
+URTI,X70Pk,Vincents infection
 URTI,X73mX,Rhinovirus
 URTI,X73mY,Human rhinovirus
 URTI,X76bv,Supraglottic abscess
 URTI,X76c1,Subglottic abscess
 URTI,X76Hy,Productive cough
 URTI,X76Hz,Nocturnal cough
+URTI,Xa05b,Acute laryngitis and tracheitis
+URTI,Xa0lc,Acute necrotising ulcerative gingivitis
 URTI,Xa1sb,Viral upper respiratory tract infection
 URTI,Xa2kc,Persistent cough
 URTI,Xa2o8,Infection of the upper respiratory tract
@@ -767,27 +808,34 @@ URTI,Xa7uB,Effective cough
 URTI,Xa86D,Acute viral laryngotracheitis
 URTI,Xa9Bu,Acute lingual tonsillitis
 URTI,Xa9zW,Sore throat
-URTI,XaBmo,Cough on exercise
 URTI,XaDuG,Infective pharyngitis
 URTI,XaDuH,Infective laryngitis
 URTI,XaDuI,Infective tonsillitis
 URTI,XaFwR,Unexplained cough
 URTI,XaIO1,Cough with fever
+URTI,XaKyZ,Acute obstructive laryngitis
+URTI,XE0aG,Oral cellulitis and abscess NOS
 URTI,XE0qn,Cough
 URTI,XE0qo,Productive cough NOS
 URTI,XE0Qw,Whooping cough
+URTI,XE0S4,Acute necrotising ulcerative gingivostomatitis
+URTI,XE0S4,Acute necrotising ulcerative gingivostomatitis
 URTI,XE0S5,Vincent's angina NOS
 URTI,XE0sE,Sore throat symptom
 URTI,XE0vJ,Throat symptoms (& sore throat symptom)
 URTI,XE0Xl,Common cold
 URTI,XE0Xn,Acute pharyngitis
+URTI,XE0Xo,Acute laryngotracheitis
+URTI,XE0Xp,Acute epiglottitis (non-streptococcal)
 URTI,XE0Xq,Upper respiratory infection NOS
 URTI,XE0Yn,(Ac nasopharyng)/(com cold)/(ac coryza)/(ac rhinit)/(sniffl)
 URTI,XE0Yr,Throat: [acute pharyngitis] or [infection NOS] or [sore]
 URTI,XE0Yv,Ac resp infec: [NOS][pharyngotracheitis][tracheopharyngitis]
 URTI,XE2aC,Acute tonsillitis
 URTI,XM0Ch,C/O - cough
+URTI,XM1QS,Laryngotracheitis
 URTI,XM1QU,Nasal infection
+URTI,XM1QW,Respiratory tract infection
 URTI,Y01ed,Acute cough
 URTI,Y210b,Infection of upper respiratory tract caused by severe acute respiratory syndrome coronavirus 2 (disorder)
 URTI,Y5293,Acute recurrent tonsillitis

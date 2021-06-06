@@ -67,6 +67,30 @@ pefr_codes <- pefr_codes %>%
 # check for duplicates in read_code
 pefr_codes$read_code[duplicated(pefr_codes$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+pefr_codes %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+pefr_codes %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
+pefr_codes <- pefr_codes %>%
+  add_row(read_code = 'X77RP',
+          read_term = 'Less than 60% of predicted peak expiratory flow rate',
+          cat2 = '<60% PEFR') %>%
+  add_row(read_code = 'X77RQ',
+          read_term = 'Less than 60% of predicted peak expiratory flow rate',
+          cat2 = '60-80% PEFR') %>%
+  add_row(read_code = 'X77RR',
+          read_term = 'More than 80% of predicted peak expiratory flow rate',
+          cat2 = '>80% PEFR') %>%
+  add_row(read_code = 'XE2ws',
+          read_term = 'Peak flow rate after bronchodilation',
+          cat2 = 'post') %>%
+  add_row(read_code = 'XE2xQ',
+          read_term = 'Peak flow rate before bronchodilation',
+          cat2 = 'PEFR') %>%
+  mutate(cat1 = 'PEFR')
+
 write_csv(pefr_codes, 
           path = file.path(opcrd_analysis_path, 'PEFR.csv'))
 write_csv(pefr_codes %>%
@@ -90,63 +114,3 @@ write_csv(pefr_codes %>%
             mutate_at('QOF', list(~ case_when(. %in% 1 ~ 'Y',
                                               TRUE ~ 'N'))), 
           path = 'lists_out/PEFR.csv')
-
-# table for appendix: PEFR
-pefr_table <- pefr_codes %>%
-  filter(!(cat2 %in% 'home_monitoring')) %>%
-  mutate_at('cat2', list(~ case_when(. %in% 'predicted PEFR' ~ 'pPEFR',
-                                     . %in% '% predicted PEFR' ~ 'ppPEFR',
-                                     str_detect(., '% P') ~ str_replace(., '% P', '% ppP'),
-                                     TRUE ~ .))) %>%
-  mutate_at('cat2', factor, 
-            levels = c('PEFR',
-                       'pPEFR', 
-                       'ppPEFR', 
-                       '<60% ppPEFR', 
-                       '60-80% ppPEFR',
-                       '>80% ppPEFR', 
-                       'post')) %>%
-  mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y'))) %>%
-  arrange(cat2, read_term) %>%
-  select(Category = cat2,
-         `Read code` = read_code, 
-         Term = read_term,
-         QOF) %>%
-  mutate(order = as.numeric(Category)) %>%
-  mutate_at('Category', as.character)
-
-# split on value column
-split_list <- pefr_table %>% 
-  group_split(order)
-new_col <- character()
-# loop for removing duplicate labels
-for (i in seq_along(unique(pefr_table$Category))) {
-  tmp <- c(split_list[[i]]$Category[1], 
-           rep('', length.out = length(split_list[[i]]$Category[-1])))
-  new_col <- c(new_col, tmp)
-}
-
-# produce table
-pefr_table <- pefr_table %>%
-  mutate(Category = new_col) %>%
-  arrange(order, Term) %>%
-  select(-order)
-
-pefr_table %>%
-  xtable(caption = 'Read codes for identifiying PEFR events (see \\nameref{cha:ehr:methods:pre:PEFR} for methods)',
-         label = 'tab:app:rc_pefr',
-         align=c('l',"p{3cm}","p{2cm}","p{6cm}", "p{1cm}")) %>%
-  print_xtable_multi(filename = 'pefr')
-
-# table for appendix: PEFR home monitoring
-home_table <- pefr_codes %>%
-  filter(cat2 %in% 'home_monitoring') %>%
-  arrange(read_term) %>%
-  select(`Read code` = read_code, 
-         `Term` = read_term,
-         QOF) %>%
-  mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y'))) %>%
-  xtable(caption = 'Read codes indicating PEFR home monitoring (see \\nameref{cha:ehr:methods:pre:PEFRhome} for methods)',
-         label = 'tab:app:rc_pefr_home',
-         align=c('l',"p{2cm}","p{9cm}", "p{1cm}")) %>%
-  print_xtable_multi(filename = 'pefr_home')

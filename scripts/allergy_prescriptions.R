@@ -1,5 +1,4 @@
 #  allergy drugs
-
 source('setup.R')
 
 # version 2 code lists
@@ -241,6 +240,7 @@ allergy_drugs <- allergy_drugs %>%
 # make sure all Read codes are 5 characters and fix if not
 allergy_drugs %>%
   filter(str_length(read_code)<5)
+
 allergy_drugs <- allergy_drugs %>%
   mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
 

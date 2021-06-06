@@ -445,7 +445,7 @@ comorbidities_all <- bind_rows(
   diabetes %>% mutate(cat2 = 'Diabetes'),
   gord %>% mutate(cat2 = 'GORD'),
   nasal_polyp %>% mutate(cat2 = 'Nasal polyps'),
-  CVD %>% mutate(cat2 = 'Chronic cardiac disease')) %>%
+  CCD %>% mutate(cat2 = 'Chronic cardiac disease')) %>%
   mutate(cat1 = 'comorbidities') %>%
   mutate_at('QOF', list(~ if_else(is.na(.), 'No', .)))
 

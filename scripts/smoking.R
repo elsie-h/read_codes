@@ -95,6 +95,17 @@ smoking <- smoking %>%
 # check for duplicates in read_code
 smoking$read_code[duplicated(smoking$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+smoking %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+smoking %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
+smoking <- smoking %>%
+  add_row(read_code = 'XaRFh', 
+          read_term = 'Smoking cessation advice declined',
+          cat2 = 'current smoker', score = 2)
+
 write_csv(smoking, 
           path = file.path(opcrd_analysis_path, 'smoking.csv'))
 write_csv(smoking %>%
@@ -105,33 +116,3 @@ write_csv(smoking %>%
                    QOF) %>%
             mutate_at('QOF', list(~ str_extract(., '.{1}'))), 
           path = 'lists_out/smoking.csv')
-
-# latex tables
-smoking_list <- smoking %>%
-  select(-score) %>%
-  group_split(cat2)
-
-smoking_latex_table <- function(.data) {
-  category <- .data %>%
-    distinct(cat2) %>% 
-    unlist() %>% 
-    unname()
-  
-  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
-  
-  caption <- str_c('Read codes for \\emph{\'', category, '\'} status (return to \\nameref{cha:ehr:methods:pre:smoking} methods)')
-  label <- str_c('tab:app:rc_', category_)
-  
-  table <- .data %>%
-    arrange(read_term) %>%
-    select(`Read code` = read_code, 
-           `Term` = read_term,
-           QOF) %>%
-    xtable(caption = caption,
-           label = label,
-           align=c('l',"p{2cm}","p{8cm}", 'p{2cm}')) %>%
-    print_xtable_multi(filename = category_)
-  
-}
-
-lapply(smoking_list, smoking_latex_table)

@@ -8,10 +8,12 @@ PEFR,XaEHe,Peak expiratory flow rate before bronchodilation,Y
 PEFR,XaIxS,Peak expiratory flow rate pre steroids,Y
 PEFR,XaK6I,Peak expiratory flow rate measured using EN 13826 device,N
 PEFR,XE2wr,Peak expiratory flow rate,N
+PEFR,XE2xQ,Peak flow rate before bronchodilation,N
 post,339B.,Peak flow rate after bronchodilation,Y
 post,339d.,Peak expiratory flow rate post steroids,Y
 post,XaEGA,Peak expiratory flow rate after bronchodilation,Y
 post,XaIxT,Peak expiratory flow rate post steroids,Y
+post,XE2ws,Peak flow rate after bronchodilation,N
 predicted PEFR,339C.,Expected peak flow rate,N
 predicted PEFR,339H.,Predicted peak flow,N
 predicted PEFR,339p.,Predicted peak expiratory flow rate using EN 13826 standard,N
@@ -21,8 +23,11 @@ predicted PEFR,XE2wt,Expected peak flow rate,N
 % predicted PEFR,339V.,Recorded/predicted peak expiratory flow rate ratio,N
 % predicted PEFR,XaIL1,Recorded/predicted peak expiratory flow rate ratio,N
 <60% PEFR,339G.,Less than 60% of predicted peak flow rate,N
+<60% PEFR,X77RP,Less than 60% of predicted peak expiratory flow rate,N
 <60% PEFR,XE2rQ,Less than 60% of predicted peak flow rate,N
 60-80% PEFR,339F.,60-80% of predicted peak flow rate,N
+60-80% PEFR,X77RQ,Less than 60% of predicted peak expiratory flow rate,N
 60-80% PEFR,XE2rP,60-80% of predicted peak flow rate,N
 >80% PEFR,339E.,More than 80% of predicted peak flow rate,N
+>80% PEFR,X77RR,More than 80% of predicted peak expiratory flow rate,N
 >80% PEFR,XE2rO,More than 80% of predicted peak flow rate,N

@@ -11,6 +11,12 @@ peak_flow_meters <- read_delim("lists_in/Elsie/peak_flow_meters.txt",
   distinct() %>%
   mutate(cat1='peak_flow_meters', cat2 = NA_character_)
 
+# check mapping
+# map V2 -> CTV3
+peak_flow_meters %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+peak_flow_meters %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
 write_csv(peak_flow_meters, 
           path = file.path(opcrd_analysis_path, 'peak_flow_meter.csv'))
 write_csv(peak_flow_meters %>%

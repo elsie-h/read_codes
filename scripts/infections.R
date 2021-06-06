@@ -138,13 +138,102 @@ infections <- infections %>%
           read_term = 'Whooping cough pneumonia',
           cat2 = 'LRTI') %>%
   filter(!(cat2 %in% 'exclude')) %>%
-  mutate(cat1 = 'infections')
+  mutate(cat1 = 'infections') %>%
+  filter(!(read_code %in% c('XaBmo')))
 
 # make sure all Read codes are 5 characters and fix if not
 infections %>%
   filter(str_length(read_code)<5)
 infections <- infections %>%
   mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
+
+# check mapping
+# map V2 -> CTV3
+infections %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+infections %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
+infections <- infections %>%
+  add_row(read_code = 'AyuK3', 
+          read_term = '[X]Streptococcus pneumoniae as the cause of diseases classified to other chapters',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'AyuK9', 
+          read_term = '[X]Mycoplasma pneumoniae [pplo] as the cause of diseases classified to other chapters',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'AyuKA', 
+          read_term = '[X]Klebsiella pneumoniae as the cause of diseases classified to other chapters',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'X00kv',
+          read_term = 'Acute rhinitis',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'X70I8',
+          read_term = 'Bordetella infection',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'X70Pk',
+          read_term = 'Vincents infection',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'Xa05b', 
+          read_term = 'Acute laryngitis and tracheitis',
+          cat2 = 'URTI')  %>%
+  add_row(read_code = 'Xa0lc', 
+          read_term = 'Acute necrotising ulcerative gingivitis',
+          cat2 = 'URTI')  %>%
+  add_row(read_code = 'XaKyZ', 
+          read_term = 'Acute obstructive laryngitis',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'Xa7u5', 
+          read_term = 'Lung consolidation',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'Xa7u5', 
+          read_term = 'Lung consolidation',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'XaIzV', 
+          read_term = 'Severe acute respiratory syndrome',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'XaL2O', 
+          read_term = 'Pneumonitis, unspecified',
+          cat2 = 'LRTI') %>%
+  add_row(read_code = 'XE0aG', 
+          read_term = 'Oral cellulitis and abscess NOS',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'XE0S4', 
+          read_term = 'Acute necrotising ulcerative gingivostomatitis',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'XE0S4', 
+          read_term = 'Acute necrotising ulcerative gingivostomatitis',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'XE0Xo', 
+          read_term = 'Acute laryngotracheitis',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'XE0Xp', 
+          read_term = 'Acute epiglottitis (non-streptococcal)',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'XM1QS', 
+          read_term = 'Laryngotracheitis',
+          cat2 = 'URTI') %>%
+  add_row(read_code = 'XM1QW', 
+          read_term = 'Respiratory tract infection',
+          cat2 = 'URTI')
+
+# note if some parent codes could be either LRTI or URTI, I assigned the 
+# category based on the number of child codes in each category
+infections <- infections %>%
+  bind_rows(infections %>% map_CTV3_V2() %>% 
+              rename(read_code = V2_CONCEPTID, read_term = Term) %>%
+              mutate(cat2 = case_when(read_code %in% c('171E.', '171G.', 'A75..', 'A78A1', 'AB20.') 
+                                      ~ 'URTI',
+                                      read_code %in% c('4JUF.', 'F0308', 'F030A', 'H2A..', 'H2D..', 'H2E..', 'H2F0.', 'H2Fz.') 
+                                      ~ 'influenza',
+                                      read_code %in% c('A1201', 'A3100', 'A36..', 'A3B1.', 'A54x4', 'A73..', 'A78B.', 'AB301', 'AB406', 'AB407', 'AB506', 'AB670', 'H0617', 'H22y3', 'Q310.', 'Q3105') 
+                                      ~ 'LRTI',
+                                      TRUE ~ NA_character_)) %>%
+              filter(!is.na(cat2)) %>%
+              mutate(cat1 = 'infections'))
+
+
+# XE2nX	[D]Cause of morbidity and mortality unsure and ill-defined
+# XM00h	Rhinorrhoea
+# XM1QW	Respiratory tract infection
 
 write_csv(infections, 
           path = file.path(opcrd_analysis_path, 'infections.csv'))
@@ -154,31 +243,3 @@ write_csv(infections %>%
                    `Read code` = read_code,
                    Term = read_term),
           path = 'lists_out/infections.csv')
-
-# latex tables
-infections_list <- infections %>%
-  group_split(cat2)
-
-infections_latex_table <- function(.data) {
-  category <- .data %>%
-    distinct(cat2) %>% 
-    unlist() %>% 
-    unname()
-  
-  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
-  
-  caption <- str_c('Read codes for ', category, ' (return to \\nameref{cha:ehr:methods:pre:infections} methods)')
-  label <- str_c('tab:app:rc_', category_)
-  
-  table <- .data %>%
-    arrange(read_term) %>%
-    select(`Read code` = read_code, 
-           `Term` = read_term) %>%
-    xtable(caption = caption,
-           label = label,
-           align=c('l',"p{2cm}","p{10cm}")) %>%
-    print_xtable_multi(filename = category_)
-  
-}
-
-lapply(infections_list, infections_latex_table)

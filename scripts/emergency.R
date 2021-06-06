@@ -28,19 +28,15 @@ emergency <- emergency %>%
 # check for duplicates in read_code
 emergency$read_code[duplicated(emergency$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+emergency %>% map_V2_CTV3()
+# map CTV3 -> V2
+emergency %>% map_CTV3_V2()
+
 write_csv(emergency, 
           path = file.path(opcrd_analysis_path, 'emergency.csv'))
 write_csv(emergency %>%
             select(`Read code` = read_code,
                    Term = read_term),
           path = 'lists_out/emergency.csv')
-
-# table for appendix
-emergency %>%
-  arrange(read_term) %>%
-  select(`Read code` = read_code, 
-         `Term` = read_term) %>%
-  xtable(caption = 'Read codes from emergency asthma events (see \\nameref{cha:ehr:methods:pre:emergency} for methods)',
-         label = 'tab:app:rc_emergency',
-         align=c('l',"p{2cm}","p{10cm}")) %>%
-  print_xtable_multi(filename = 'emergency')

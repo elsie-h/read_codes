@@ -17,6 +17,15 @@ ethnicity %>%
 ethnicity <- ethnicity %>%
   mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
 
+# check mapping
+# map V2 -> CTV3
+ethnicity %>% map_V2_CTV3()
+# map CTV3 -> V2
+ethnicity %>% map_CTV3_V2()
+
+ethnicity <- ethnicity %>%
+  add_row(read_code = '9T2..', read_term = 'Traveller - gypsy, ', cat1 = 'ethnicity', cat2 = 'White')
+
 write_csv(ethnicity, 
           path = file.path(opcrd_analysis_path, 'ethnicity.csv'))
 write_csv(ethnicity %>%
@@ -25,32 +34,3 @@ write_csv(ethnicity %>%
                    `Read code` = read_code,
                    Term = read_term),
           path = 'lists_out/ethnicity.csv')
-
-
-# latex tables
-ethncity_list <- ethnicity %>%
-  group_split(cat2)
-
-ethnicity_latex_table <- function(.data) {
-  category <- .data %>%
-    distinct(cat2) %>% 
-    unlist() %>% 
-    unname()
-  
-  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
-  
-  caption <- str_c('Read codes for \\emph{\'', category, '\'} category (return to \\nameref{cha:ehr:methods:pre:ethnicity} methods)')
-  label <- str_c('tab:app:rc_', category_)
-  
-  table <- .data %>%
-    arrange(read_term) %>%
-    select(`Read code` = read_code, 
-           `Term` = read_term) %>%
-    xtable(caption = caption,
-           label = label,
-           align=c('l',"p{2cm}","p{10cm}")) %>%
-    print_xtable_multi(filename = category_)
-  
-}
-
-lapply(ethncity_list, ethnicity_latex_table)

@@ -66,6 +66,24 @@ spirometry <- spirometry %>%
 # check for duplicates in read_code
 spirometry$read_code[duplicated(spirometry$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+spirometry %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+spirometry %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
+spirometry <- spirometry %>%
+  bind_rows(tribble(~read_code, ~read_term, ~cat2,
+                    'XaJ5w',	'FVC/Expected FVC percent', NA_character_,
+                    '33963',  'FVC after change of bronchodilator', NA_character_,
+                    '339h.', 'FVC after bronchodilation', NA_character_,
+                    '339h0', 'FVC post bronchodi percnt chng', NA_character_,
+                    '339s.', 'FVC before bronchodilation', 'FVC') %>%
+              mutate(cat1 = 'spirometry')) %>%
+  filter(!is.na(cat1)) %>%
+  select(read_code, read_term, cat1, cat2)
+
+
 write_csv(spirometry, 
           path = file.path(opcrd_analysis_path, 'spirometry.csv'))
 write_csv(spirometry %>%
@@ -79,60 +97,5 @@ write_csv(spirometry %>%
             arrange(cat2, read_code) %>%
             select(Category = cat2,
                    `Read code` = read_code,
-                   Term = read_term,
-                   QOF) %>%
-            mutate_at('QOF', list(~ case_when(. %in% 1 ~ 'Y', 
-                                              TRUE ~ 'N'))), 
+                   Term = read_term),
           path = 'lists_out/spirometry.csv')
-
-# table for appendix
-spirometry_table <- spirometry %>%
-  mutate_at('cat2', list(~ case_when(. %in% 'FEV1FVC ratio or percent' ~ 'FEV1/FVC',
-                                     . %in% '% predicted PEFR' ~ 'ppPEFR',
-                                     str_detect(., 'predicted F') ~ str_replace(., 'predicted F', 'pF'),
-                                     str_detect(., 'FEV1FVC') ~ str_replace(., 'FEV1FVC', 'FEV1/FVC'),
-                                     is.na(.) ~ 'none',
-                                     TRUE ~ .))) %>% 
-  mutate_at('cat2', factor, 
-            levels = c('FEV1',
-                       'pFEV1', 
-                       'ppFEV1', 
-                       'FVC', 
-                       'pFVC',
-                       'FEV1/FVC', 
-                       'FEV1/FVC > 70%',
-                       'FEV1/FVC < 70%',
-                       'FEV1/FVC normal',
-                       'FEV1/FVC abnormal',
-                       'none')) %>%
-  mutate_at('QOF', list(~ if_else(is.na(.), 'N', 'Y'))) %>%
-  arrange(cat2, read_term) %>%
-  select(Category = cat2,
-         `Read code` = read_code, 
-         Term = read_term,
-         QOF) %>%
-  mutate(order = as.numeric(Category)) %>%
-  mutate_at('Category', as.character)
-
-# split on value column
-split_list <- spirometry_table %>% 
-  group_split(order)
-new_col <- character()
-# loop for removing duplicate labels
-for (i in seq_along(unique(spirometry_table$Category))) {
-  tmp <- c(split_list[[i]]$Category[1], 
-           rep('', length.out = length(split_list[[i]]$Category[-1])))
-  new_col <- c(new_col, tmp)
-}
-
-# produce table
-spirometry_table <- spirometry_table %>%
-  mutate(Category = new_col) %>%
-  arrange(order, Term) %>%
-  select(-order)
-
-spirometry_table %>%
-  xtable(caption = 'Read codes for identifiying spirometry events (see \\nameref{cha:ehr:methods:pre:spirometry} for methods)',
-         label = 'tab:app:rc_spirometry',
-         align=c('l',"p{3cm}","p{2cm}","p{6cm}", "p{1cm}")) %>%
-  print_xtable_multi(filename = 'spirometry')

@@ -33,6 +33,12 @@ fluvac_qof %>%
 fluvac_qof <- fluvac_qof %>%
   mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
 
+# check mapping
+# map V2 -> CTV3
+fluvac_qof %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+fluvac_qof %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
 write_csv(fluvac_qof,
           path = file.path(opcrd_analysis_path, 'influenza_vaccination.csv'))
 write_csv(fluvac_qof %>%
@@ -40,13 +46,3 @@ write_csv(fluvac_qof %>%
             select(`Read code` = read_code,
                    Term = read_term),
           path = 'lists_out/influenza_vaccination.csv')
-
-# table for appendix
-fluvac_qof %>%
-  arrange(read_term) %>%
-  select(`Read code` = read_code, 
-         `Term` = read_term) %>%
-  xtable(caption = 'Read codes to indicate influenza vaccination given (see \\sectionref{cha:ehr:methods:pre:influenza_vaccination} for methods)',
-         label = 'tab:app:rc_influenza_vaccination',
-         align=c('l',"p{2cm}","p{10cm}")) %>%
-  print_xtable_multi(filename = 'influenza_vaccination')

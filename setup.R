@@ -10,6 +10,8 @@ library(xtable)
 
 opcrd_analysis_path <- "/Users/elsiehorne/Docs/opcrd_analysis/read_codes"
 
+source('map_functions.R')
+
 rctctv3map <- read_table2("nhs_datamigration_29/Mapping Tables/Updated/Clinically Assured/rctctv3map_uk_20200401000001.txt")
 ctv3rctmap <- read_table2("nhs_datamigration_29/Mapping Tables/Updated/Clinically Assured/ctv3rctmap_uk_20200401000002.txt")
 rctermsctmap <- read_delim("nhs_datamigration_29/Mapping Tables/Updated/Not Clinically Assured/rctermsctmap_uk_20200401000001.txt", 

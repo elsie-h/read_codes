@@ -54,6 +54,13 @@ rcp3q <- rcp3q %>%
 # check for duplicates in read_code
 rcp3q$read_code[duplicated(rcp3q$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+rcp3q %>% map_V2_CTV3() %>% arrange(CTV3_CONCEPTID) %>% print(n=Inf)
+# map CTV3 -> V2
+rcp3q %>% map_CTV3_V2() %>% arrange(V2_CONCEPTID) %>% print(n=Inf)
+
+
 write_csv(rcp3q, 
           path = file.path(opcrd_analysis_path, 'RCP3Q.csv'))
 write_csv(rcp3q %>%
@@ -68,44 +75,3 @@ write_csv(rcp3q %>%
                   QOF) %>%
            mutate_at('QOF', list(~ str_extract(., '.{1}'))), 
          path = 'lists_out/RCP3Q.csv')
-
-# latex tables
-rcp3q_list <- rcp3q %>%
-  group_split(cat2)
-
-rcp3q_latex_table <- function(.data) {
-  category <- .data %>%
-    distinct(cat2) %>% 
-    unlist() %>% 
-    unname()
-  
-  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
-  
-  label <- str_c('tab:app:rc_', category_)
-  
-  if (category == 'general') {
-    caption <- str_c('Read codes for RCP 3 questions score (return to \\nameref{cha:ehr:methods:pre:rcp3q} methods)')
-    table <- .data %>%
-      arrange(read_term) %>%
-      select(`Read code` = read_code, 
-             `Term` = read_term) %>%
-      xtable(caption = caption,
-             label = label,
-             align=c('l',"p{2cm}","p{10cm}")) %>%
-      print_xtable_multi(filename = category_)
-  } else {
-    caption <- str_c('Read codes for \\emph{\'', category, '\'} questions (return to \\nameref{cha:ehr:methods:pre:rcp3q} methods)')
-    table <- .data %>%
-      arrange(score, read_term) %>%
-      select(`Read code` = read_code, 
-             `Term` = read_term,
-             score) %>%
-      xtable(caption = caption,
-             label = label,
-             align=c('l',"p{2cm}","p{8cm}", "p{2cm}")) %>%
-      print_xtable_multi(filename = category_)
-  }
-}
-
-lapply(rcp3q_list, rcp3q_latex_table)
-

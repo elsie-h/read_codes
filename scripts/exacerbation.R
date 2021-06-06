@@ -16,7 +16,7 @@ exacerbation_v3 <- read_csv("lists_in/Elsie/elsie-horne-asthma-attack-2020-11-05
   rename(read_code = id, read_term = term) %>%
   # add 'status asthmaticus' ones from the Newby paper
   add_row(read_code = 'XE0YV', read_term = 'Status asthmaticus NOS') %>%
-  add_row(read_code = 'XEOYS', read_term = 'Extrinsic asthma with status asthmaticus') %>%
+  add_row(read_code = 'XE0YS', read_term = 'Extrinsic asthma with status asthmaticus') %>%
   add_row(read_code = 'XE0YU', read_term = 'Intrinsic asthma with status asthmaticus') 
 
 exacerbation <- exacerbation_elsie %>%
@@ -36,6 +36,12 @@ exacerbation <- exacerbation %>%
 # check for duplicates in read_code
 exacerbation$read_code[duplicated(exacerbation$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+exacerbation %>% map_V2_CTV3()
+# map CTV3 -> V2
+exacerbation %>% map_CTV3_V2()
+
 write_csv(exacerbation, 
           path = file.path(opcrd_analysis_path, 'exacerbation.csv'))
 write_csv(exacerbation %>%
@@ -45,16 +51,3 @@ write_csv(exacerbation %>%
                    Term = read_term,
                    Category = cat2), 
           path = 'lists_out/exacerbation.csv')
-
-# table for appendix
-exacerbation %>% filter(cat2 %in% 'number')
-
-exacerbation %>%
-  arrange(read_term) %>%
-  filter(!(cat2 %in% 'number')) %>%
-  select(`Read code` = read_code, 
-         `Term` = read_term) %>%
-  xtable(caption = 'Read codes from asthma exacerbations (see \\nameref{cha:ehr:methods:pre:exacerbation} for methods)',
-         label = 'tab:app:rc_exacerbation',
-         align=c('l',"p{2cm}","p{10cm}")) %>%
-  print_xtable_multi(filename = 'exacerbation')

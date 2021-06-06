@@ -41,6 +41,18 @@ cci %>%
 cci <- cci %>%
   mutate_at('read_code', list(~ str_pad(., width=5, side='right', pad='.')))
 
+# map V2 to CTV3
+cci_v3 <- cci %>%
+  left_join(rctctv3map %>% 
+              distinct(V2_CONCEPTID, CTV3_CONCEPTID), 
+            by = c('read_code' = 'V2_CONCEPTID')) %>%
+  select(-read_code) %>%
+  rename(read_code = CTV3_CONCEPTID, mapped_read_term = read_term)
+
+cci <- cci %>%
+  bind_rows(cci_v3) %>%
+  distinct()
+
 # save
 write_csv(cci, 
           path = file.path(opcrd_analysis_path, 'CCI.csv'))
@@ -51,31 +63,3 @@ write_csv(cci %>%
                    Term = read_term,
                    weight = score),
           path = 'lists_out/CCI.csv')
-
-# latex tables
-cci_list <- cci %>% 
-  group_split(cat2)
-
-cci_latex_table <- function(.data) {
-  category <- .data %>%
-    distinct(cat2) %>%
-    unlist() %>% 
-    unname()
-  
-  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
-
-  caption <- str_c('Read codes for \\emph{\'', category, '\'} category (return to \\nameref{cha:ehr:methods:pre:cci} methods)')
-  label <- str_c('tab:app:rc_', category_)
-
-  table <- .data %>%
-    arrange(read_term) %>%
-    select(`Read code` = read_code,
-           `Term` = read_term) %>%
-    xtable(caption = caption,
-           label = label,
-           align=c('l',"p{2cm}","p{10cm}")) %>%
-    print_xtable_multi(filename = category_)
-  
-}
-
-lapply(cci_list, cci_latex_table)

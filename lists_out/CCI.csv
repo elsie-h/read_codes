@@ -17,6 +17,7 @@ AIDS,A7890,HIV disease resulting in mycobacterial infection,6
 AIDS,A7891,HIV disease resulting in cytomegaloviral disease,6
 AIDS,A7892,HIV disease resulting in candidiasis,6
 AIDS,A7893,HIV disease resulting in Pneumocystis carinii pneumonia,6
+AIDS,A7894,[X]HIV disease resulting in multiple infections,6
 AIDS,A7894,HIV disease resulting in multiple infections,6
 AIDS,A7895,HIV disease resulting in Kaposi's sarcoma,6
 AIDS,A7896,HIV disease resulting in Burkitt's lymphoma,6
@@ -31,14 +32,22 @@ AIDS,AyuC2,[X]HIV disease resulting in other mycoses,6
 AIDS,AyuC3,[X]HIV disease resulting in multiple infections,6
 AIDS,AyuC4,[X]HIV disease resulting/other infectious diseases,6
 AIDS,AyuC5,[X]HIV disease resulting/unspcf infectious disease,6
+AIDS,AyuC5,HIV disease resulting/unspcf infectious disease,6
 AIDS,AyuC6,[X]HIV disease resulting in other non-Hodgkin's lymphoma,6
 AIDS,AyuC7,"[X]HIV dis reslt/oth mal neopl/lymph,h'matopoetc tissu",6
+AIDS,AyuC7,"HIV dis reslt/oth mal neopl/lymph,h'matopoetc tissu",6
 AIDS,AyuC8,[X]HIV disease resulting in other malignant neoplasms,6
 AIDS,AyuC9,[X]HIV disease resulting in unspecified malignant neoplasm,6
+AIDS,AyuC9,HIV disease resulting in unspecified malignant neoplasm,6
 AIDS,AyuCA,[X]HIV disease resulting in multiple diseases CE,6
+AIDS,AyuCA,HIV disease resulting in multiple diseases CE,6
 AIDS,AyuCB,"[X]HIV disease result/haematological abnorms,NEC",6
+AIDS,AyuCB,"HIV disease result/haematological abnorms,NEC",6
 AIDS,AyuCC,[X]HIV disease resulting in other specified conditions,6
 AIDS,AyuCD,[X]Unspecified human immunodeficiency virus [HIV] disease,6
+AIDS,X70M6,Acquired immune deficiency syndrome,6
+AIDS,X70O1,HIV disease resulting in wasting syndrome,6
+AIDS,XE0RX,Acquired immune deficiency syndrome,6
 cancer,B....,Cancers,2
 cancer,B0...,"Carcinoma of lip, oral cavity and pharynx",2
 cancer,B00..,Malignant neoplasm of lip,2
@@ -49,8 +58,11 @@ cancer,B000z,"Malignant neoplasm of upper lip, vermilion border NOS",2
 cancer,B001.,"Malignant neoplasm of lower lip, vermilion border",2
 cancer,B0010,"Malignant neoplasm of lower lip, external",2
 cancer,B0011,"Malignant neoplasm of lower lip, lipstick area",2
+cancer,B0011,"Malignant neoplasm of lower lip, vermilion border",2
 cancer,B001z,"Malignant neoplasm of lower lip, vermilion border NOS",2
 cancer,B002.,"Malignant neoplasm of upper lip, inner aspect",2
+cancer,B002.,"Malignant neoplasm of upper lip, mucosa",2
+cancer,B002.,"Malignant neoplasm of upper lip, oral aspect",2
 cancer,B0020,"Malignant neoplasm of upper lip, buccal aspect",2
 cancer,B0021,"Malignant neoplasm of upper lip, frenulum",2
 cancer,B0022,"Malignant neoplasm of upper lip, mucosa",2
@@ -65,6 +77,7 @@ cancer,B003z,"Malignant neoplasm of lower lip, inner aspect NOS",2
 cancer,B004.,"Malignant neoplasm of lip unspecified, inner aspect",2
 cancer,B0040,"Malignant neoplasm of lip unspecified, buccal aspect",2
 cancer,B0041,"Malignant neoplasm of lip unspecified, frenulum",2
+cancer,B0042,"Malignant neoplasm of lip unspecified, buccal aspect",2
 cancer,B0042,"Malignant neoplasm of lip unspecified, mucosa",2
 cancer,B0043,"Malignant neoplasm of lip, oral aspect",2
 cancer,B004z,"Malignant neoplasm of lip, inner aspect NOS",2
@@ -140,6 +153,8 @@ cancer,B0601,Malignant neoplasm of palatine tonsil,2
 cancer,B0602,Malignant neoplasm of overlapping lesion of tonsil,2
 cancer,B060z,Malignant neoplasm tonsil NOS,2
 cancer,B061.,Malignant neoplasm of tonsillar fossa,2
+cancer,B062.,Malignant neoplasm of faucial pillar,2
+cancer,B062.,Malignant neoplasm of palatopharyngeal arch,2
 cancer,B062.,Malignant neoplasm of tonsillar pillar,2
 cancer,B0620,Malignant neoplasm of faucial pillar,2
 cancer,B0621,Malignant neoplasm of glossopalatine fold,2
@@ -162,6 +177,7 @@ cancer,B07..,Malignant neoplasm of nasopharynx,2
 cancer,B070.,Malignant neoplasm of roof of nasopharynx,2
 cancer,B071.,Malignant neoplasm of posterior wall of nasopharynx,2
 cancer,B0710,Malignant neoplasm of adenoid,2
+cancer,B0710,Malignant neoplasm of pharyngeal tonsil,2
 cancer,B0711,Malignant neoplasm of pharyngeal tonsil,2
 cancer,B071z,Malignant neoplasm of posterior wall of nasopharynx NOS,2
 cancer,B072.,Malignant neoplasm of lateral wall of nasopharynx,2
@@ -177,6 +193,7 @@ cancer,B074.,"Malignant neoplasm, overlapping lesion of nasopharynx",2
 cancer,B07y.,Malignant neoplasm of other specified site of nasopharynx,2
 cancer,B07z.,Malignant neoplasm of nasopharynx NOS,2
 cancer,B08..,Malignant neoplasm of hypopharynx,2
+cancer,B08..,Malignant neoplasm of laryngopharynx,2
 cancer,B080.,Malignant neoplasm of postcricoid region,2
 cancer,B081.,Malignant neoplasm of pyriform sinus,2
 cancer,B082.,"Malignant neoplasm aryepiglottic fold, hypopharyngeal aspect",2
@@ -192,6 +209,7 @@ cancer,B0zy.,"Malignant neoplasm of other sites lip, oral cavity, pharynx",2
 cancer,B0zz.,"Malignant neoplasm of lip, oral cavity and pharynx NOS",2
 cancer,B1...,Carcinoma of digestive organs and peritoneum,2
 cancer,B10..,Malignant neoplasm of oesophagus,2
+cancer,B10..,Malignant neoplasm of oesophagus NOS,2
 cancer,B100.,Malignant neoplasm of cervical oesophagus,2
 cancer,B101.,Malignant neoplasm of thoracic oesophagus,2
 cancer,B102.,Malignant neoplasm of abdominal oesophagus,2
@@ -230,6 +248,7 @@ cancer,B124.,"Malignant neoplasm, overlapping lesion of small intestine",2
 cancer,B12y.,Malignant neoplasm of other specified site small intestine,2
 cancer,B12z.,Malignant neoplasm of small intestine NOS,2
 cancer,B13..,Malignant neoplasm of colon,2
+cancer,B13..,Malignant neoplasm of colon NOS,2
 cancer,B130.,Malignant neoplasm of hepatic flexure of colon,2
 cancer,B131.,Malignant neoplasm of transverse colon,2
 cancer,B132.,Malignant neoplasm of descending colon,2
@@ -396,9 +415,12 @@ cancer,B243.,Malignant neoplasm of posterior mediastinum,2
 cancer,B24X.,"Malignant neoplasm of mediastinum, part unspecified",2
 cancer,B24y.,"Malig neop of other site of heart, thymus and mediastinum",2
 cancer,B24z.,"Malignant neoplasm of heart, thymus and mediastinum NOS",2
+cancer,B25..,"[X]Malignant neoplasm/overlap lesion/heart,mediastinm",2
 cancer,B25..,"Malig neo, overlapping lesion of heart, mediastinum & pleura",2
+cancer,B26..,[X]Malignant neopl/overlapping les/resp organs,2
 cancer,B26..,"Malignant neoplasm, overlap lesion of resp & intrathor orgs",2
 cancer,B2z..,Malig neop other/ill-defined sites resp/intrathoracic organs,2
+cancer,B2z0.,"[X]Malignant neoplasm/upper resp tract, part unspecified",2
 cancer,B2z0.,"Malig neop of upper respiratory tract, part unspecified",2
 cancer,B2zy.,Malignant neoplasm of other site of respiratory tract,2
 cancer,B2zz.,Malignant neoplasm of respiratory tract NOS,2
@@ -541,6 +563,7 @@ cancer,B322.,Malignant melanoma of ear and external auricular canal,2
 cancer,B3220,Malignant melanoma of auricle (ear),2
 cancer,B3221,Malignant melanoma of external auditory meatus,2
 cancer,B322z,Malignant melanoma of ear and external auricular canal NOS,2
+cancer,B323.,[X]Malignant melanoma of other parts of face,2
 cancer,B323.,Malignant melanoma of other and unspecified parts of face,2
 cancer,B3230,Malignant melanoma of external surface of cheek,2
 cancer,B3231,Malignant melanoma of chin,2
@@ -798,6 +821,7 @@ cancer,B504.,Malignant neoplasm of cornea,2
 cancer,B505.,Malignant neoplasm of retina,2
 cancer,B506.,Malignant neoplasm of choroid,2
 cancer,B507.,Malignant neoplasm of lacrimal duct,2
+cancer,B507.,Malignant neoplasm of lacrimal gland,2
 cancer,B5070,Malignant neoplasm of lacrimal sac,2
 cancer,B5071,Malignant neoplasm of nasolacrimal duct,2
 cancer,B507z,Malignant neoplasm of lacrimal duct NOS,2
@@ -918,6 +942,8 @@ cancer,B55y1,Malignant neoplasm of trunk NOS,2
 cancer,B55y2,Malignant neoplasm of flank NOS,2
 cancer,B55yz,Malignant neoplasm of specified site NOS,2
 cancer,B55z.,Malignant neoplasm of other and ill defined site NOS,2
+cancer,B592.,[X]Malignant neoplasms/independent (primary) multiple sites,2
+cancer,B592.,[X]Malignant neoplasms/independent(primary)multiple sites,2
 cancer,B59zX,"Kaposi's sarcoma, unspecified",2
 cancer,B6...,Malignant neoplasm of lymphatic and haemopoietic tissue,2
 cancer,B60..,Lymphosarcoma and reticulosarcoma,2
@@ -1080,6 +1106,7 @@ cancer,B6227,Sezary's disease of spleen,2
 cancer,B6228,Sezary's disease of lymph nodes of multiple sites,2
 cancer,B622z,Sezary's disease NOS,2
 cancer,B623.,Malignant histiocytosis,2
+cancer,B623.,Malignant reticulosis,2
 cancer,B6230,Malignant histiocytosis of unspecified site,2
 cancer,B6231,"Malignant histiocytosis of lymph nodes head, face and neck",2
 cancer,B6232,Malignant histiocytosis of intrathoracic lymph nodes,2
@@ -1237,6 +1264,8 @@ cancer,B6y0.,Myeloproliferative disease,2
 cancer,B6y1.,Myelosclerosis with myeloid metaplasia,2
 cancer,B6z..,Malignant neoplasm lymphatic or haematopoietic tissue NOS,2
 cancer,B6z0.,Kaposi's sarcoma of lymph nodes,2
+cancer,BB16.,Epithelioma,2
+cancer,BBP1.,Mesothelioma of pleura,2
 cancer,By...,Neoplasms otherwise specified,2
 cancer,Byu..,[X]Additional neoplasm classification terms,2
 cancer,Byu0.,"[X]Malignant neoplasm of lip, oral cavity and pharynx",2
@@ -1252,10 +1281,13 @@ cancer,Byu22,"[X]Malignant neoplasm/upper resp tract, part unspecified",2
 cancer,Byu23,[X]Malignant neopl/overlapping les/resp organs,2
 cancer,Byu24,[X]Malignant neoplasm/ill-defined sites within resp system,2
 cancer,Byu25,"[X]Malignant neoplasm of mediastinum, part unspecified",2
+cancer,Byu25,"Malignant neoplasm of mediastinum, part unspecified",2
 cancer,Byu3.,[X]Malignant neoplasm of bone and articular cartilage,2
 cancer,Byu30,[X]Mal neoplasm/overlap lesion/bone cartilage/limb,2
 cancer,Byu31,"[X]Malignant neoplasm/bones cartilage/limb,unspfd",2
+cancer,Byu31,"Malignant neoplasm/bones cartilage/limb,unspfd",2
 cancer,Byu32,[X]Malignant neoplasm/overlap lesion/bone cartilage,2
+cancer,Byu32,Malignant neoplasm/overlap lesion/bone cartilage,2
 cancer,Byu33,"[X]Malignant neoplasm/bone cartilage, unspecified",2
 cancer,Byu4.,[X]Melanoma and other malignant neoplasms of skin,2
 cancer,Byu40,[X]Malignant melanoma of other parts of face,2
@@ -1267,18 +1299,23 @@ cancer,Byu50,[X]Mesothelioma of lung,2
 cancer,Byu51,"[X]Mesothelioma, unspecified",2
 cancer,Byu52,[X]Kaposi's sarcoma of multiple organs,2
 cancer,Byu53,"[X]Kaposi's sarcoma, unspecified",2
+cancer,Byu53,"Kaposi's sarcoma, unspecified",2
 cancer,Byu54,"[X]Malignant neoplasm/peripheral nerves of trunk,unspecified",2
+cancer,Byu54,"Malignant neoplasm/peripheral nerves of trunk,unspecified",2
 cancer,Byu55,[X]Mal neoplasm/overlap les/periph nerv nerv systm,2
 cancer,Byu56,"[X]Mal neoplasm/periph nerves nervous system,unspc",2
+cancer,Byu56,"Mal neoplasm/periph nerves nervous system,unspc",2
 cancer,Byu57,"[X]Malignant neoplasm of peritoneum, unspecified",2
 cancer,Byu58,"[X]Mal neoplasm/connective tissue of trunk,unspecified",2
 cancer,Byu59,"[X]Malignant neoplasm/connective  soft tissue,unspecified",2
 cancer,Byu5A,[X]Malignant neoplasm overlapping lesion of skin,2
+cancer,Byu5A,Malignant neoplasm overlapping lesion of skin,2
 cancer,Byu6.,[X]Malignant neoplasm of breast,2
 cancer,Byu7.,[X]Malignant neoplasm of female genital organs,2
 cancer,Byu70,"[X]Malignant neoplasm of uterine adnexa, unspecified",2
 cancer,Byu71,[X]Malignant neoplasm/other specified female genital organs,2
 cancer,Byu72,[X]Malignant neoplasm/overlapping lesion/feml genital organs,2
+cancer,Byu72,Malignant neoplasm/overlapping lesion/feml genital organs,2
 cancer,Byu73,"[X]Malignant neoplasm of female genital organ, unspecified",2
 cancer,Byu8.,[X]Malignant neoplasm of male genital organs,2
 cancer,Byu80,[X]Malignant neoplasm/other specified male genital organs,2
@@ -1290,7 +1327,10 @@ cancer,ByuA.,"[X]Malignant neoplasm of eye, brain and other parts of cent",2
 cancer,ByuA0,[X]Malignant neoplasm/other and unspecified cranial nerves,2
 cancer,ByuA1,"[X]Malignant neoplasm/central nervous system, unspecified",2
 cancer,ByuA2,"[X]Malignant neoplasm of meninges, unspecified",2
+cancer,ByuA2,"Malignant neoplasm of meninges, unspecified",2
 cancer,ByuA3,"[X]Malig neopl, overlap lesion brain & other part of CNS",2
+cancer,ByuA3,"Malig neopl, overlap lesion brain & other part of CNS",2
+cancer,ByuB0,"Malignant neoplasm-pluriglandular involvement,unspecified",2
 cancer,ByuC0,[X]Malignant neoplasm of other specified sites,2
 cancer,ByuD.,"[X]Malignant neoplasms of lymphoid, haematopoietic and rela",2
 cancer,ByuD0,[X]Other Hodgkin's disease,2
@@ -1305,12 +1345,132 @@ cancer,ByuD8,[X]Other specified leukaemias,2
 cancer,ByuD9,[X]Other leukaemia of unspecified cell type,2
 cancer,ByuDA,"[X]Oth spcf mal neoplsm/lymphoid,haematopoietic tissue",2
 cancer,ByuDC,"[X]Diffuse non-Hodgkin's lymphoma, unspecified",2
+cancer,ByuDC,"Diffuse non-Hodgkin's lymphoma, unspecified",2
 cancer,ByuDD,[X]Oth and unspecif peripheral & cutaneous T-cell lymphomas,2
+cancer,ByuDD,Oth and unspecif peripheral & cutaneous T-cell lymphomas,2
 cancer,ByuDE,[X]Unspecified B-cell non-Hodgkin's lymphoma,2
+cancer,ByuDE,Unspecified B-cell non-Hodgkin's lymphoma,2
 cancer,ByuDF,"[X]Non-Hodgkin's lymphoma, unspecified type",2
 cancer,ByuE.,[X]Malignant neoplasms/independent (primary) multiple sites,2
 cancer,ByuE0,[X]Malignant neoplasms/independent(primary)multiple sites,2
+cancer,Bz...,Cancers,2
 cancer,Bz...,Neoplasms NOS,2
+cancer,X3023,Malignant neoplasm of stomach,2
+cancer,X77mu,Epithelioma,2
+cancer,X77ou,Mesothelioma,2
+cancer,X78ag,Malignant neoplasm of optic nerve,2
+cancer,X78ap,Malignant neoplasm of acoustic nerve,2
+cancer,X78ef,Cancers,2
+cancer,X78eg,Malignant neoplasm of genitourinary organ,2
+cancer,X78eh,"Carcinoma of bone, connective tissue, skin and breast",2
+cancer,X78ei,"Carcinoma of bone, connective tissue, skin and breast",2
+cancer,X78ej,"Carcinoma of lip, oral cavity and pharynx",2
+cancer,X78g0,Carcinoma of respiratory tract and intrathoracic organs,2
+cancer,X78ga,Malignant neoplasm of common bile duct,2
+cancer,X78gM,Carcinoma of caecum,2
+cancer,X78gp,Malignant neoplasm of carpal bones,2
+cancer,X78gq,Malignant neoplasm of carpal bones,2
+cancer,X78gS,Anal carcinoma,2
+cancer,X78gY,Carcinoma gallbladder,2
+cancer,X78h1,Epithelioma,2
+cancer,X78h7,Epithelioma,2
+cancer,X78ha,Kaposi's sarcoma of skin,2
+cancer,X78io,Malignant neoplasm of testis NOS,2
+cancer,X78ip,Malignant neoplasm of testis NOS,2
+cancer,X78iu,Malig neop of kidney and other unspecified urinary organs,2
+cancer,X78lF,Malignant neoplasm of other and unspecified sites,2
+cancer,X78OK,Rectal carcinoma,2
+cancer,X78OW,Malignant neoplasm of cloacogenic zone,2
+cancer,X78P0,Primary angiosarcoma of liver,2
+cancer,X78Qc,Mesothelioma of pleura,2
+cancer,X78RR,Malignant neoplasm of skin NOS,2
+cancer,X78SS,Epithelioma,2
+cancer,X78VS,Mesothelioma of peritoneum,2
+cancer,X78VT,Mesothelioma of pericardium,2
+cancer,Xa0bg,"Malignant neoplasm of upper lobe, bronchus or lung",2
+cancer,Xa0D9,Dermatofibrosarcoma protuberans,2
+cancer,Xa0KG,Lung cancer,2
+cancer,Xa0So,Acute myelofibrosis,2
+cancer,Xa0SP,Myeloproliferative disease,2
+cancer,Xa0TD,Follicular non-Hodgkin's small cleaved cell lymphoma,2
+cancer,Xa0Th,Peripheral T-cell lymphoma,2
+cancer,Xa0Ti,T-zone lymphoma,2
+cancer,Xa0Tj,Lymphoepithelioid lymphoma,2
+cancer,Xa0To,Malignant reticuloendotheliosis,2
+cancer,Xa0TX,Follicular non-Hodgkin's large cell lymphoma,2
+cancer,Xa0Ty,True histiocytic lymphoma,2
+cancer,Xa98G,Epithelioma,2
+cancer,Xa99n,Diffuse non-Hodgkin's centroblastic lymphoma,2
+cancer,Xa99P,Phaeochromocytoma,2
+cancer,Xa9AA,Solitary myeloma,2
+cancer,Xa9AU,Chondroma,2
+cancer,Xa9AY,Chondroma,2
+cancer,XaBAl,Di Guglielmo's disease,2
+cancer,XaBB3,Plasma cell leukaemia,2
+cancer,XaBBt,Myelosclerosis with myeloid metaplasia,2
+cancer,XaBLv,Malignant neoplasm of epiglottis NOS,2
+cancer,XaBLw,Follicular lymphoma NOS,2
+cancer,XaBLx,Plasmacytoma NOS,2
+cancer,XaC1Q,"Malignant neoplasm, overlapping lesion of brain",2
+cancer,XaC2J,"Malignant neoplasm of lip, unspecified",2
+cancer,XaCIv,Malignant melanoma of back,2
+cancer,XaCKx,Malignant neoplasm of canthus,2
+cancer,XaD2P,Malignant neoplasm of pinna NEC,2
+cancer,XaD2Q,Malignant neoplasm of skin of scapular region,2
+cancer,XaEGU,Malignant melanoma of chest wall,2
+cancer,XaEGV,Malignant neoplasm of upper eyelid,2
+cancer,XaEGW,Malignant neoplasm of lower eyelid,2
+cancer,XaELI,Lambda light chain myeloma,2
+cancer,XaELJ,Seminoma of undescended testis,2
+cancer,XaELK,Seminoma of descended testis,2
+cancer,XaELL,Teratoma of descended testis,2
+cancer,XaELM,Teratoma of undescended testis,2
+cancer,XaEY9,Malignant neoplasm of mesentery,2
+cancer,XaJM3,Osteosarcoma,2
+cancer,XaKWz,Malignant sacral teratoma,2
+cancer,XE1vb,"Malignant neoplasm of upper lobe, bronchus or lung",2
+cancer,XE1vc,Lung cancer,2
+cancer,XE1vd,Chondroma,2
+cancer,XE1ve,Malignant neoplasm of carpal bones,2
+cancer,XE1vf,Malignant neoplasm of short bones of leg,2
+cancer,XE1vh,Epithelioma,2
+cancer,XE1vi,Malignant neoplasm of cervix uteri,2
+cancer,XE1vj,Malignant neoplasm of vulva unspecified,2
+cancer,XE1vk,Malignant neoplasm of testis NOS,2
+cancer,XE1vl,Phaeochromocytoma,2
+cancer,XE1vN,Cancers,2
+cancer,XE1vo,Malignant neoplasm of lymphatic and haemopoietic tissue,2
+cancer,XE1vO,Malignant neoplasm of lip,2
+cancer,XE1vp,Reticulosarcoma - follicular or nodular,2
+cancer,XE1vP,Carcinoma of digestive organs and peritoneum,2
+cancer,XE1vq,Lymphoid and histiocytic malignancy NOS,2
+cancer,XE1vQ,Malignant neoplasm of oesophagus NOS,2
+cancer,XE1vr,Heilmeyer - Schoner disease,2
+cancer,XE1vR,Malignant neoplasm of stomach,2
+cancer,XE1vU,Carcinoma of caecum,2
+cancer,XE1vV,Malignant neoplasm of colon NOS,2
+cancer,XE1vW,Rectal carcinoma,2
+cancer,XE1vX,Anal carcinoma,2
+cancer,XE1vY,Carcinoma gallbladder,2
+cancer,XE1vZ,Carcinoma of respiratory tract and intrathoracic organs,2
+cancer,XE1wg,[X]Mesothelioma of lung,2
+cancer,XE1wn,Malignant neoplasm of lip,2
+cancer,XE2rk,"[X]Malignant neoplasm of lip, oral cavity and pharynx",2
+cancer,XE2rk,"Carcinoma of lip, oral cavity and pharynx",2
+cancer,XE2t9,"[X]Non-Hodgkin's lymphoma, unspecified type",2
+cancer,XE2vi,Di Guglielmo's disease,2
+cancer,XE2vN,Malignant neoplasm of common bile duct,2
+cancer,XE2vO,"Carcinoma of bone, connective tissue, skin and breast",2
+cancer,XE2vP,Malignant neoplasm of genitourinary organ,2
+cancer,XE2vQ,Malig neop of kidney and other unspecified urinary organs,2
+cancer,XE2vR,Malignant neoplasm of other and unspecified sites,2
+cancer,XE2vS,Malignant neoplasm of brain,2
+cancer,XM00E,"Malignant neoplasm of lower lip, inner aspect",2
+cancer,XM00E,"Malignant neoplasm of lower lip, oral aspect",2
+cancer,XM1ML,Epithelioma,2
+cancer,XM1P4,Malignant neoplasm of vulva unspecified,2
+cancer,XM1Ps,Malignant neoplasm of brain,2
+cancer,XM1Qz,Lymphoid and histiocytic malignancy NOS,2
 cancer,ZV10.,[V]Personal history of malignant neoplasm,2
 cancer,ZV100,[V]Personal history of malignant neoplasm of stomach,2
 cancer,ZV101,[V]Personal history of malignant neoplasm of lung,2
@@ -1326,6 +1486,7 @@ cerebrovascular disease,14A7.,H/O: CVA/stroke,1
 cerebrovascular disease,662M.,Stroke monitoring,1
 cerebrovascular disease,70043,Evacuation of intracerebral haematoma NEC,1
 cerebrovascular disease,F11x2,Cerebral degeneration due to cerebrovascular disease,1
+cerebrovascular disease,G6...,[X]Cerebrovascular diseases,1
 cerebrovascular disease,G6...,Cerebrovascular disease,1
 cerebrovascular disease,G60..,Subarachnoid haemorrhage,1
 cerebrovascular disease,G600.,Ruptured berry aneurysm,1
@@ -1352,6 +1513,7 @@ cerebrovascular disease,G633.,Multiple and bilateral precerebral arterial occlus
 cerebrovascular disease,G63y.,Other precerebral artery occlusion,1
 cerebrovascular disease,G63z.,Precerebral artery occlusion NOS,1
 cerebrovascular disease,G64..,Stroke due to cerebral arterial occlusion,1
+cerebrovascular disease,G640.,Stroke due to cerebral arterial occlusion,1
 cerebrovascular disease,G6410,Cerebral infarction due to embolism of cerebral arteries,1
 cerebrovascular disease,G65..,Transient cerebral ischaemia,1
 cerebrovascular disease,G65y.,Other transient cerebral ischaemia,1
@@ -1382,18 +1544,58 @@ cerebrovascular disease,G6y..,Other specified cerebrovascular disease,1
 cerebrovascular disease,G6z..,Cerebrovascular disease NOS,1
 cerebrovascular disease,Gyu6.,[X]Cerebrovascular diseases,1
 cerebrovascular disease,Gyu60,[X]Subarachnoid haemorrhage from other intracranial arteries,1
+cerebrovascular disease,Gyu60,Subarachnoid haemorrhage from anterior communicating artery,1
+cerebrovascular disease,Gyu60,Subarachnoid haemorrhage from middle cerebral artery,1
+cerebrovascular disease,Gyu60,Subarachnoid haemorrhage from posterior communicating artery,1
 cerebrovascular disease,Gyu61,[X]Other subarachnoid haemorrhage,1
 cerebrovascular disease,Gyu62,[X]Other intracerebral haemorrhage,1
 cerebrovascular disease,Gyu65,[X]Occlusion and stenosis of other precerebral arteries,1
 cerebrovascular disease,Gyu66,[X]Occlusion and stenosis of other cerebral arteries,1
 cerebrovascular disease,Gyu67,[X]Other specified cerebrovascular diseases,1
 cerebrovascular disease,Gyu6D,[X]Sequelae/other  unspecified cerebrovascular diseases,1
+cerebrovascular disease,Gyu6D,Sequelae/other  unspecified cerebrovascular diseases,1
+cerebrovascular disease,Gyu6E,"Subarachnoid haemorrh from intracranial artery, unspecif",1
 cerebrovascular disease,Gyu6F,"[X]Intracerebral haemorrhage in hemisphere, unspecified",1
+cerebrovascular disease,Gyu6F,"Intracerebral haemorrhage in hemisphere, unspecified",1
 cerebrovascular disease,S62..,Subarachnoid haemorrhage following injury,1
 cerebrovascular disease,S620.,Closed traumatic subarachnoid haemorrhage,1
 cerebrovascular disease,S621.,Open traumatic subarachnoid haemorrhage,1
 cerebrovascular disease,S627.,Traumatic subarachnoid haemorrhage,1
+cerebrovascular disease,S628.,Subarachnoid haemorrhage following injury,1
 cerebrovascular disease,S628.,Traumatic subdural haemorrhage,1
+cerebrovascular disease,X00D1,CVA unspecified,1
+cerebrovascular disease,X00D3,Stroke due to cerebral arterial occlusion,1
+cerebrovascular disease,X00D4,Stenosis of precerebral arteries,1
+cerebrovascular disease,X00DB,Pure motor lacunar syndrome,1
+cerebrovascular disease,X00DC,Pure sensory lacunar syndrome,1
+cerebrovascular disease,X00DW,Transient cerebral ischaemia,1
+cerebrovascular disease,X203V,Stenosis of precerebral arteries,1
+cerebrovascular disease,Xa00T,Transient cerebral ischaemia,1
+cerebrovascular disease,Xa01h,Subarachnoid haemorrhage from middle cerebral artery,1
+cerebrovascular disease,Xa01j,Subarachnoid haemorrhage from anterior communicating artery,1
+cerebrovascular disease,Xa01k,Subarachnoid haemorrhage from posterior communicating artery,1
+cerebrovascular disease,Xa01l,Subarachnoid haemorrhage from basilar artery,1
+cerebrovascular disease,XA0B9,Closed traumatic subarachnoid haemorrhage,1
+cerebrovascular disease,XA0BH,Subarachnoid haemorrhage following injury,1
+cerebrovascular disease,XA0BH,Traumatic subarachnoid haemorrhage,1
+cerebrovascular disease,Xa0kZ,Stroke due to cerebral arterial occlusion,1
+cerebrovascular disease,Xa1uW,Subarachnoid haemorrhage,1
+cerebrovascular disease,XaBE2,"Cerebral palsy, not congenital or infantile, acute",1
+cerebrovascular disease,XaBM4,"Left sided intracerebral haemorrhage, unspecified",1
+cerebrovascular disease,XaBM5,"Right sided intracerebral haemorrhage, unspecified",1
+cerebrovascular disease,XaKK3,Subdural haemorrhage NOS,1
+cerebrovascular disease,XaQbK,Pure motor lacunar syndrome,1
+cerebrovascular disease,XaQbM,Pure sensory lacunar syndrome,1
+cerebrovascular disease,XE0VF,CVA - cerebrovascular accid due to intracerebral haemorrhage,1
+cerebrovascular disease,XE0VG,Stenosis of precerebral arteries,1
+cerebrovascular disease,XE0VI,Stroke due to cerebral arterial occlusion,1
+cerebrovascular disease,XE0VK,Transient cerebral ischaemia,1
+cerebrovascular disease,XE1m2,Subarachnoid haemorrhage following injury,1
+cerebrovascular disease,XE1m3,Closed traumatic subarachnoid haemorrhage,1
+cerebrovascular disease,XE2aB,CVA unspecified,1
+cerebrovascular disease,XE2te,H/O: CVA/stroke,1
+cerebrovascular disease,XM1R2,H/O: CVA/stroke,1
+cerebrovascular disease,XM1R3,H/O: CVA/stroke,1
 chronic pulmonary disease,14B4.,H/O: asthma,1
 chronic pulmonary disease,173A.,Exercise induced asthma,1
 chronic pulmonary disease,173c.,Occupational asthma,1
@@ -1421,10 +1623,12 @@ chronic pulmonary disease,66YP.,Asthma night-time symptoms,1
 chronic pulmonary disease,8H2P.,"Emergency admission, asthma",1
 chronic pulmonary disease,9OJ1.,Attends asthma monitoring,1
 chronic pulmonary disease,9OJA.,Asthma monitored,1
+chronic pulmonary disease,H3...,Obstructive chronic bronchitis,1
 chronic pulmonary disease,H30..,Chest infection - unspecified bronchitis,1
 chronic pulmonary disease,H300.,Tracheobronchitis NOS,1
 chronic pulmonary disease,H30z.,Bronchitis NOS,1
 chronic pulmonary disease,H31..,Chronic bronchitis,1
+chronic pulmonary disease,H310.,Chronic catarrhal bronchitis,1
 chronic pulmonary disease,H310.,Simple chronic bronchitis,1
 chronic pulmonary disease,H3100,Chronic catarrhal bronchitis,1
 chronic pulmonary disease,H3101,Smokers' cough,1
@@ -1434,8 +1638,10 @@ chronic pulmonary disease,H3110,Purulent chronic bronchitis,1
 chronic pulmonary disease,H3111,Fetid chronic bronchitis,1
 chronic pulmonary disease,H311z,Mucopurulent chronic bronchitis NOS,1
 chronic pulmonary disease,H312.,Obstructive chronic bronchitis,1
+chronic pulmonary disease,H3120,Chest infection - unspecified bronchitis,1
 chronic pulmonary disease,H3120,Chronic asthmatic bronchitis,1
 chronic pulmonary disease,H3121,Emphysematous bronchitis,1
+chronic pulmonary disease,H312z,Obstructive chronic bronchitis,1
 chronic pulmonary disease,H312z,Obstructive chronic bronchitis NOS,1
 chronic pulmonary disease,H313.,Mixed simple and mucopurulent chronic bronchitis,1
 chronic pulmonary disease,H31y.,Other chronic bronchitis,1
@@ -1453,6 +1659,7 @@ chronic pulmonary disease,H32y.,Other emphysema,1
 chronic pulmonary disease,H32y0,Acute vesicular emphysema,1
 chronic pulmonary disease,H32y1,Atrophic (senile) emphysema,1
 chronic pulmonary disease,H32y2,MacLeod's unilateral emphysema,1
+chronic pulmonary disease,H32y2,Other emphysema NOS,1
 chronic pulmonary disease,H32yz,Other emphysema NOS,1
 chronic pulmonary disease,H32z.,Emphysema NOS,1
 chronic pulmonary disease,H33..,Asthma,1
@@ -1463,6 +1670,7 @@ chronic pulmonary disease,H330z,Extrinsic asthma NOS,1
 chronic pulmonary disease,H331.,Intrinsic asthma,1
 chronic pulmonary disease,H3310,Intrinsic asthma without status asthmaticus,1
 chronic pulmonary disease,H3311,Intrinsic asthma with status asthmaticus,1
+chronic pulmonary disease,H331z,Intrinsic asthma,1
 chronic pulmonary disease,H331z,Intrinsic asthma NOS,1
 chronic pulmonary disease,H332.,Mixed asthma,1
 chronic pulmonary disease,H333.,Acute exacerbation of asthma,1
@@ -1526,6 +1734,7 @@ chronic pulmonary disease,H4y10,Chronic pulmonary fibrosis following radiation,1
 chronic pulmonary disease,H4z..,Lung disease due to external agents NOS,1
 chronic pulmonary disease,H57y.,Lung disease with diseases EC,1
 chronic pulmonary disease,H57yz,Lung disease with diseases EC NOS,1
+chronic pulmonary disease,H581.,Atrophic (senile) emphysema,1
 chronic pulmonary disease,H581.,Interstitial emphysema,1
 chronic pulmonary disease,H582.,Compensatory emphysema,1
 chronic pulmonary disease,Hyu30,[X]Other emphysema,1
@@ -1533,6 +1742,56 @@ chronic pulmonary disease,Hyu40,[X]Pneumoconiosis due to other dust containing s
 chronic pulmonary disease,Hyu41,[X]Pneumoconiosis due to other specified inorganic dusts,1
 chronic pulmonary disease,Hyu43,[X]Hypersensitivity pneumonitis due to other organic dusts,1
 chronic pulmonary disease,SK07.,Subcutaneous emphysema,1
+chronic pulmonary disease,Ua1AX,Brittle asthma,1
+chronic pulmonary disease,X1006,Chest infection - unspecified bronchitis,1
+chronic pulmonary disease,X101s,Subcutaneous emphysema,1
+chronic pulmonary disease,X101t,Pollen asthma,1
+chronic pulmonary disease,X101u,Intrinsic asthma,1
+chronic pulmonary disease,X101u,Late-onset asthma,1
+chronic pulmonary disease,X101U,Pleural plaque disease due to asbestosis,1
+chronic pulmonary disease,X101x,Pollen asthma,1
+chronic pulmonary disease,X101y,Extrinsic asthma with asthma attack,1
+chronic pulmonary disease,X101z,Exercise induced asthma,1
+chronic pulmonary disease,X1020,Hay fever with asthma,1
+chronic pulmonary disease,X1020,Pollen asthma,1
+chronic pulmonary disease,X1022,Intrinsic asthma with status asthmaticus,1
+chronic pulmonary disease,X1025,Occupational asthma,1
+chronic pulmonary disease,Xa0lZ,Exercise induced asthma,1
+chronic pulmonary disease,Xa1hD,Acute exacerbation of asthma,1
+chronic pulmonary disease,Xa9zf,Acute exacerbation of asthma,1
+chronic pulmonary disease,Xa9zf,Severe asthma attack,1
+chronic pulmonary disease,XaDvL,Asthma - currently dormant,1
+chronic pulmonary disease,XaEKI,Flax-dressers' disease,1
+chronic pulmonary disease,Xafdj,Severe asthma attack,1
+chronic pulmonary disease,XaIIZ,Asthma daytime symptoms,1
+chronic pulmonary disease,XaINa,Asthma never causes daytime symptoms,1
+chronic pulmonary disease,XaINb,Asthma causes daytime symptoms 1 to 2 times per month,1
+chronic pulmonary disease,XaINc,Asthma causes daytime symptoms 1 to 2 times per week,1
+chronic pulmonary disease,XaINd,Asthma causes daytime symptoms most days,1
+chronic pulmonary disease,XaINZ,Asthma causes night symptoms 1 to 2 times per month,1
+chronic pulmonary disease,XaIoE,Asthma night-time symptoms,1
+chronic pulmonary disease,XaIQg,Atrophic (senile) emphysema,1
+chronic pulmonary disease,XaIQg,Interstitial emphysema,1
+chronic pulmonary disease,XaIQh,Interstitial emphysema,1
+chronic pulmonary disease,XaIR3,Absent from work or school due to asthma,1
+chronic pulmonary disease,XaIuG,Asthma confirmed,1
+chronic pulmonary disease,XE0YL,Chest infection - unspecified bronchitis,1
+chronic pulmonary disease,XE0YM,Fetid chronic bronchitis,1
+chronic pulmonary disease,XE0YM,Purulent chronic bronchitis,1
+chronic pulmonary disease,XE0YO,Atrophic (senile) emphysema,1
+chronic pulmonary disease,XE0YP,Other emphysema NOS,1
+chronic pulmonary disease,XE0YQ,Pollen asthma,1
+chronic pulmonary disease,XE0YR,Hay fever with asthma,1
+chronic pulmonary disease,XE0YS,Extrinsic asthma with asthma attack,1
+chronic pulmonary disease,XE0YT,Intrinsic asthma,1
+chronic pulmonary disease,XE0YU,Intrinsic asthma with status asthmaticus,1
+chronic pulmonary disease,XE0YV,Severe asthma attack,1
+chronic pulmonary disease,XE0YW,Asthma attack NOS,1
+chronic pulmonary disease,XE0YW,Severe asthma attack,1
+chronic pulmonary disease,XE0YX,Exercise induced asthma,1
+chronic pulmonary disease,XE1oC,Subcutaneous emphysema,1
+chronic pulmonary disease,XE2Nb,Asthma monitored,1
+chronic pulmonary disease,XM0s2,Asthma attack NOS,1
 congestive heart disease,14A6.,H/O: heart failure,1
 congestive heart disease,14AM.,H/O: Heart failure in last year,1
 congestive heart disease,1O1..,Heart failure confirmed,1
@@ -1542,6 +1801,7 @@ congestive heart disease,8CL3.,Heart failure care plan discussed with patient,1
 congestive heart disease,8H2S.,Admit heart failure emergency,1
 congestive heart disease,G232.,Hypertensive heart&renal dis wth (congestive) heart failure,1
 congestive heart disease,G5540,Congestive cardiomyopathy,1
+congestive heart disease,G58..,Cardiac failure NOS,1
 congestive heart disease,G58..,Heart failure,1
 congestive heart disease,G580.,Right heart failure,1
 congestive heart disease,G5800,Acute congestive heart failure,1
@@ -1553,19 +1813,40 @@ congestive heart disease,G5810,Acute left ventricular failure,1
 congestive heart disease,G582.,Acute heart failure,1
 congestive heart disease,G58z.,Cardiac failure NOS,1
 congestive heart disease,SP111,Heart failure as a complication of care,1
+congestive heart disease,X102X,Left ventricular failure,1
+congestive heart disease,X102Y,Left ventricular failure,1
+congestive heart disease,X201W,Congestive cardiomyopathy,1
+congestive heart disease,X202k,Heart failure as a complication of care,1
+congestive heart disease,X202l,Right heart failure,1
+congestive heart disease,XaBLt,Cardiac failure therapy,1
+congestive heart disease,XaBwi,H/O: Heart failure in last year,1
+congestive heart disease,XaIpn,Heart failure confirmed,1
+congestive heart disease,XaIQN,Heart failure annual review,1
+congestive heart disease,XaKNW,Admit heart failure emergency,1
+congestive heart disease,XaLNA,Heart failure care plan discussed with patient,1
+congestive heart disease,XE0Uz,Congestive cardiomyopathy,1
+congestive heart disease,XE0V8,Right heart failure,1
+congestive heart disease,XE0V9,Cardiac failure NOS,1
+congestive heart disease,XE1p9,Heart failure as a complication of care,1
+congestive heart disease,XE2QG,Left ventricular failure,1
+congestive heart disease,XM1Qn,Left ventricular failure,1
 dementia,E00..,Senile/presenile dementia,1
 dementia,E000.,Uncomplicated senile dementia,1
+dementia,E001.,[X] Senile dementia NOS,1
 dementia,E001.,Presenile dementia,1
 dementia,E0010,Uncomplicated presenile dementia,1
 dementia,E001z,Presenile dementia NOS,1
+dementia,E002.,[X] Senile dementia NOS,1
 dementia,E004.,Multi infarct dementia,1
 dementia,E0040,Uncomplicated arteriosclerotic dementia,1
 dementia,E0041,Arteriosclerotic dementia with delirium,1
 dementia,E0042,Arteriosclerotic dementia with paranoia,1
 dementia,E0043,Arteriosclerotic dementia with depression,1
 dementia,E004z,Arteriosclerotic dementia NOS,1
+dementia,E00z.,[X] Senile dementia NOS,1
 dementia,E041.,Dementia in conditions EC,1
 dementia,Eu00.,[X]Dementia in Alzheimer's disease,1
+dementia,Eu00.,"[X]Senile dementia,Alzheimer's type",1
 dementia,Eu000,"[X]Presenile dementia,Alzheimer's type",1
 dementia,Eu001,"[X]Senile dementia,Alzheimer's type",1
 dementia,Eu002,"[X]Dementia in Alzheimer's dis, atypical or mixed type",1
@@ -1581,6 +1862,25 @@ dementia,Eu02.,[X]Dementia in other diseases classified elsewhere,1
 dementia,Eu025,[X]Lewy body dementia,1
 dementia,Eu02y,[X]Dementia in other specified diseases classif elsewhere,1
 dementia,Eu02z,[X] Senile dementia NOS,1
+dementia,X002w,Senile/presenile dementia,1
+dementia,X002x,"[X]Presenile dementia,Alzheimer's type",1
+dementia,X0030,"[X]Senile dementia,Alzheimer's type",1
+dementia,X003R,[X]Vascular dementia of acute onset,1
+dementia,X003T,[X]Subcortical vascular dementia,1
+dementia,X003V,[X]Mixed cortical and subcortical vascular dementia,1
+dementia,X00R2,[X] Senile dementia NOS,1
+dementia,X00R2,Senile/presenile dementia,1
+dementia,Xa0lH,[X]Predominantly cortical dementia,1
+dementia,Xa0lH,Multi infarct dementia,1
+dementia,Xa1GB,[X] Senile dementia NOS,1
+dementia,Xa3ez,Senile/presenile dementia,1
+dementia,XaIKC,"[X]Senile dementia,Alzheimer's type",1
+dementia,XaKyY,[X]Lewy body dementia,1
+dementia,XE1Xr,[X] Senile dementia NOS,1
+dementia,XE1Xr,Senile/presenile dementia,1
+dementia,XE1Xs,[X]Arteriosclerotic dementia,1
+dementia,XE1Xs,Multi infarct dementia,1
+dementia,XE1Z6,[X] Senile dementia NOS,1
 diabetes,66A5.,Diabetic on insulin,1
 diabetes,66AI.,Diabetic - good control,1
 diabetes,66AJ.,Unstable diabetes,1
@@ -1591,14 +1891,22 @@ diabetes,66AV.,Diabetic on insulin and oral treatment,1
 diabetes,8A13.,Diabetic stabilisation,1
 diabetes,8BL2.,Patient on maximal tolerated therapy for diabetes,1
 diabetes,8H2J.,Admit diabetic emergency,1
+diabetes,C10..,[X]Diabetes mellitus,1
 diabetes,C10..,Diabetes mellitus,1
+diabetes,C10..,Insulin dependent diabetes mellitus,1
+diabetes,C10..,Type 1 diabetes mellitus,1
+diabetes,C10..,Type 1 diabetes mellitus maturity onset,1
+diabetes,C10..,Type I diabetes mellitus maturity onset,1
 diabetes,C100.,Diabetes mellitus with no mention of complication,1
+diabetes,C100.,Type 1 diabetes mellitus without complication,1
 diabetes,C1000,Insulin dependent diabetes mellitus,1
 diabetes,C1001,Maturity onset diabetes,1
 diabetes,C100z,Diabetes mellitus NOS with no mention of complication,1
 diabetes,C101.,Diabetes mellitus with ketoacidosis,1
 diabetes,C1010,"Diabetes mellitus, juvenile type, with ketoacidosis",1
+diabetes,C1010,Type I diabetes mellitus with ketoacidosis,1
 diabetes,C1011,"Diabetes mellitus, adult onset, with ketoacidosis",1
+diabetes,C1011,Type 2 diabetes mellitus with ketoacidosis,1
 diabetes,C101y,Other specified diabetes mellitus with ketoacidosis,1
 diabetes,C101z,Diabetes mellitus NOS with ketoacidosis,1
 diabetes,C102.,Diabetes mellitus with hyperosmolar coma,1
@@ -1607,6 +1915,8 @@ diabetes,C1021,"Diabetes mellitus, adult onset, with hyperosmolar coma",1
 diabetes,C102z,Diabetes mellitus NOS with hyperosmolar coma,1
 diabetes,C103.,Diabetes mellitus with ketoacidotic coma,1
 diabetes,C1030,"Diabetes mellitus, juvenile type, with ketoacidotic coma",1
+diabetes,C1030,Type 1 diabetes mellitus with ketoacidotic coma,1
+diabetes,C1031,Type 2 diabetes mellitus with ketoacidotic coma,1
 diabetes,C103y,Other specified diabetes mellitus with coma,1
 diabetes,C103z,Diabetes mellitus NOS with ketoacidotic coma,1
 diabetes,C107.,Diabetes mellitus with gangrene,1
@@ -1614,13 +1924,18 @@ diabetes,C1070,"Diabetes mellitus, juvenile  circulatory disorder",1
 diabetes,C1071,"Diabetes mellitus, adult,  peripheral circulatory disorder",1
 diabetes,C1072,"Diabetes mellitus, adult with gangrene",1
 diabetes,C1073,IDDM with peripheral circulatory disorder,1
+diabetes,C1073,Insulin dependent diab mell with peripheral angiopathy,1
+diabetes,C1073,Type 1 diabetes mellitus with peripheral angiopathy,1
 diabetes,C1074,NIDDM with peripheral circulatory disorder,1
 diabetes,C107z,Diabetes mellitus NOS with peripheral circulatory disorder,1
 diabetes,C108.,Insulin dependent diabetes mellitus,1
 diabetes,C1084,Unstable insulin dependent diabetes mellitus,1
 diabetes,C1085,Insulin dependent diabetes mellitus with ulcer,1
+diabetes,C1085,Type 1 diabetes mellitus with ulcer,1
 diabetes,C1086,Insulin dependent diabetes mellitus with gangrene,1
+diabetes,C1086,Type 1 diabetes mellitus with gangrene,1
 diabetes,C1088,Type 1 diabetes mellitus - poor control,1
+diabetes,C1089,Type 1 diabetes mellitus maturity onset,1
 diabetes,C1089,Type I diabetes mellitus maturity onset,1
 diabetes,C108E,Type 1 diabetes mellitus with hypoglycaemic coma,1
 diabetes,C108G,Insulin dependent diab mell with peripheral angiopathy,1
@@ -1628,6 +1943,8 @@ diabetes,C109.,NIDDM - Non-insulin dependent diabetes mellitus,1
 diabetes,C1093,Non-insulin-dependent diabetes mellitus with multiple comps,1
 diabetes,C1094,Type 2 diabetes mellitus with ulcer,1
 diabetes,C1095,Non-insulin dependent diabetes mellitus with gangrene,1
+diabetes,C1095,Type 2 diabetes mellitus with gangrene,1
+diabetes,C1097,Type 2 diabetes mellitus - poor control,1
 diabetes,C1097,Type II diabetes mellitus - poor control,1
 diabetes,C1099,Non-insulin-dependent diabetes mellitus without complication,1
 diabetes,C109D,Type 2 diabetes mellitus with hypoglycaemic coma,1
@@ -1684,6 +2001,56 @@ diabetes,G73y0,Diabetic peripheral angiopathy,1
 diabetes,L1805,"Pre-existing diabetes mellitus, insulin-dependent",1
 diabetes,L1806,"Pre-existing diabetes mellitus, non-insulin-dependent",1
 diabetes,L180X,"Pre-existing diabetes mellitus, unspecified",1
+diabetes,Lyu29,"Pre-existing diabetes mellitus, insulin-dependent",1
+diabetes,Lyu29,"Pre-existing diabetes mellitus, unspecified",1
+diabetes,M27..,Insulin dependent diabetes mellitus with ulcer,1
+diabetes,M27..,Type 1 diabetes mellitus with ulcer,1
+diabetes,X40J4,Insulin dependent diabetes mellitus,1
+diabetes,X40J4,Type 1 diabetes mellitus,1
+diabetes,X40J5,Maturity onset diabetes,1
+diabetes,X40J5,NIDDM - Non-insulin dependent diabetes mellitus,1
+diabetes,X40J5,Type II diabetes mellitus,1
+diabetes,X40J6,Insulin treated Type 2 diabetes mellitus,1
+diabetes,X40J6,Insulin treated Type II diabetes mellitus,1
+diabetes,X40J7,Malnutrition-related diabetes mellitus,1
+diabetes,X40JA,Secondary diabetes mellitus,1
+diabetes,X40JB,Secondary pancreatic diabetes mellitus,1
+diabetes,X40JJ,Diabetes mellitus autosomal dominant type 2,1
+diabetes,X40Jq,Type 1 diabetes mellitus with hypoglycaemic coma,1
+diabetes,Xa4g7,Unstable insulin dependent diabetes mellitus,1
+diabetes,Xa4g7,Unstable type 1 diabetes mellitus,1
+diabetes,XaEgI,Diabetic on insulin and oral treatment,1
+diabetes,XaELP,Type 1 diabetes mellitus without complication,1
+diabetes,XaELQ,Non-insulin-dependent diabetes mellitus without complication,1
+diabetes,XaELQ,Type 2 diabetes mellitus without complication,1
+diabetes,XaFmK,Insulin dependent diab mell with peripheral angiopathy,1
+diabetes,XaFmK,Type 1 diabetes mellitus with peripheral angiopathy,1
+diabetes,XaFn7,Type 2 diabetes mellitus with peripheral angiopathy,1
+diabetes,XaFn8,Type 2 diabetes mellitus with arthropathy,1
+diabetes,XaFn8,Type II diabetes mellitus with arthropathy,1
+diabetes,XaFWG,Type 1 diabetes mellitus with hypoglycaemic coma,1
+diabetes,XaFWI,Type 2 diabetes mellitus with hypoglycaemic coma,1
+diabetes,Xagk3,Insulin dependent diabetes mellitus with ulcer,1
+diabetes,Xagk3,Type 1 diabetes mellitus with ulcer,1
+diabetes,XaIrf,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,1
+diabetes,XaIzM,Type 1 diabetes mellitus with persistent proteinuria,1
+diabetes,XaIzN,Type 1 diabetes mellitus with persistent microalbuminuria,1
+diabetes,XaIzQ,Type 2 diabetes mellitus with persistent proteinuria,1
+diabetes,XaIzR,Type 2 diabetes mellitus with persistent microalbuminuria,1
+diabetes,XaJ5j,Patient on maximal tolerated therapy for diabetes,1
+diabetes,XaJUI,Diabetes mellitus induced by non-steroid drugs,1
+diabetes,XE10E,Insulin dependent diabetes mellitus,1
+diabetes,XE10F,Maturity onset diabetes,1
+diabetes,XE10I,Diabetes mellitus with gangrene,1
+diabetes,XE1T3,Type 1 diabetes mellitus - poor control,1
+diabetes,XE1T3,Unstable diabetes,1
+diabetes,XM1Qx,Diabetes mellitus with gangrene,1
+diabetes,XM1Qx,Insulin dependent diabetes mellitus with gangrene,1
+diabetes,XM1Qx,Type 1 diabetes mellitus with gangrene,1
+diabetes,XM1Xk,Unstable diabetes,1
+diabetes,XM1Xk,Unstable insulin dependent diabetes mellitus,1
+diabetes,XM1Xk,Unstable type 1 diabetes mellitus,1
+diabetes,XSETe,Lipoatrophic diabetes mellitus,1
 diabetes with complications,2BBk.,O/E - right eye stable treated prolif diabetic retinopathy,2
 diabetes with complications,2BBL.,O/E - diabetic maculopathy present both eyes,2
 diabetes with complications,2BBP.,O/E - right eye background diabetic retinopathy,2
@@ -1695,7 +2062,11 @@ diabetes with complications,C104.,Diabetic nephropathy,2
 diabetes with complications,C1040,"Diabetes mellitus, juvenile type, with renal manifestation",2
 diabetes with complications,C104y,Other specified diabetes mellitus with renal complications,2
 diabetes with complications,C104z,Diabetes mellitis with nephropathy NOS,2
+diabetes with complications,C104z,Insulin dependent diabetes mellitus with nephropathy,2
+diabetes with complications,C104z,Type 1 diabetes mellitus with nephropathy,2
 diabetes with complications,C105.,Diabetes mellitus with ophthalmic manifestation,2
+diabetes with complications,C105.,Insulin-dependent diabetes mellitus with ophthalmic comps,2
+diabetes with complications,C105.,Type 1 diabetes mellitus with ophthalmic complications,2
 diabetes with complications,C1050,"Diabetes mellitus, juvenile type,  ophthalmic manifestation",2
 diabetes with complications,C1051,"Diabetes mellitus, adult onset,  ophthalmic manifestation",2
 diabetes with complications,C105y,Other specified diabetes mellitus with ophthalmic complicatn,2
@@ -1705,8 +2076,11 @@ diabetes with complications,C1061,"Diabetes mellitus, adult onset,  neurological
 diabetes with complications,C106y,Other specified diabetes mellitus with neurological comps,2
 diabetes with complications,C106z,Diabetes mellitus NOS with neurological manifestation,2
 diabetes with complications,C1080,Insulin-dependent diabetes mellitus with renal complications,2
+diabetes with complications,C1080,Type 1 diabetes mellitus with renal complications,2
 diabetes with complications,C1081,Insulin-dependent diabetes mellitus with ophthalmic comps,2
+diabetes with complications,C1081,Type 1 diabetes mellitus with ophthalmic complications,2
 diabetes with complications,C1082,Insulin-dependent diabetes mellitus with neurological comps,2
+diabetes with complications,C1082,Type 1 diabetes mellitus with neurological complications,2
 diabetes with complications,C1087,Type 1 diabetes mellitus with retinopathy,2
 diabetes with complications,C108B,Insulin dependent diabetes mellitus with mononeuropathy,2
 diabetes with complications,C108C,Type I diabetes mellitus with polyneuropathy,2
@@ -1715,9 +2089,11 @@ diabetes with complications,C108F,Type I diabetes mellitus with diabetic catarac
 diabetes with complications,C108H,Insulin dependent diabetes mellitus with arthropathy,2
 diabetes with complications,C108J,Type 1 diabetes mellitus with neuropathic arthropathy,2
 diabetes with complications,C1090,Type II diabetes mellitus with renal complications,2
+diabetes with complications,C1091,Type 2 diabetes mellitus with ophthalmic complications,2
 diabetes with complications,C1091,Type II diabetes mellitus with ophthalmic complications,2
 diabetes with complications,C1092,Type 2 diabetes mellitus with neurological complications,2
 diabetes with complications,C1096,Type 2 diabetes mellitus with retinopathy,2
+diabetes with complications,C1096,Type II diabetes mellitus with retinopathy,2
 diabetes with complications,C109A,Type II diabetes mellitus with mononeuropathy,2
 diabetes with complications,C109B,Non-insulin dependent diabetes mellitus with polyneuropathy,2
 diabetes with complications,C109C,Non-insulin dependent diabetes mellitus with nephropathy,2
@@ -1746,6 +2122,7 @@ diabetes with complications,F374z,Polyneuropathy in disease NOS,2
 diabetes with complications,F3813,Myasthenic syndrome due to diabetic amyotrophy,2
 diabetes with complications,F3y0.,Diabetic mononeuropathy,2
 diabetes with complications,F420.,Diabetic retinopathy,2
+diabetes with complications,F420.,Type 1 diabetes mellitus with retinopathy,2
 diabetes with complications,F4201,Proliferative diabetic retinopathy,2
 diabetes with complications,F4202,Preproliferative diabetic retinopathy,2
 diabetes with complications,F4203,Advanced diabetic maculopathy,2
@@ -1755,7 +2132,65 @@ diabetes with complications,F4207,High risk proliferative diabetic retinopathy,2
 diabetes with complications,F4208,High risk non proliferative diabetic retinopathy,2
 diabetes with complications,F420z,Diabetic retinopathy NOS,2
 diabetes with complications,F4640,Diabetic cataract,2
+diabetes with complications,F4640,Type 1 diabetes mellitus with diabetic cataract,2
+diabetes with complications,F4640,Type I diabetes mellitus with diabetic cataract,2
 diabetes with complications,K01x1,Kimmelstiel - Wilson disease,2
+diabetes with complications,N030.,Insulin dependent diabetes mellitus with arthropathy,2
+diabetes with complications,N0301,Type 1 diabetes mellitus with neuropathic arthropathy,2
+diabetes with complications,X00Ag,Diabetes mellitus with polyneuropathy,2
+diabetes with complications,X00Ag,Diabetic neuropathy,2
+diabetes with complications,X00Al,Diabetic mononeuropathy,2
+diabetes with complications,X00Al,Insulin dependent diabetes mellitus with mononeuropathy,2
+diabetes with complications,X00Al,Type 1 diabetes mellitus with mononeuropathy,2
+diabetes with complications,X00dG,Diabetic maculopathy,2
+diabetes with complications,X30Kk,Diabetic nephropathy,2
+diabetes with complications,Xa0lK,Diabetes mellitus with polyneuropathy,2
+diabetes with complications,Xa0lK,Myasthenic syndrome due to diabetic amyotrophy,2
+diabetes with complications,XaE5X,High risk proliferative diabetic retinopathy,2
+diabetes with complications,XaEnn,Insulin dependent diabetes mellitus with mononeuropathy,2
+diabetes with complications,XaEnn,Type 1 diabetes mellitus with mononeuropathy,2
+diabetes with complications,XaEno,Type 1 diabetes mellitus with polyneuropathy,2
+diabetes with complications,XaEno,Type I diabetes mellitus with polyneuropathy,2
+diabetes with complications,XaEnp,Type 2 diabetes mellitus with mononeuropathy,2
+diabetes with complications,XaEnp,Type II diabetes mellitus with mononeuropathy,2
+diabetes with complications,XaEnq,Non-insulin dependent diabetes mellitus with polyneuropathy,2
+diabetes with complications,XaEnq,Type 2 diabetes mellitus with polyneuropathy,2
+diabetes with complications,XaF04,Insulin dependent diabetes mellitus with nephropathy,2
+diabetes with complications,XaF04,Type 1 diabetes mellitus with nephropathy,2
+diabetes with complications,XaF05,Non-insulin dependent diabetes mellitus with nephropathy,2
+diabetes with complications,XaF05,Type 2 diabetes mellitus with nephropathy,2
+diabetes with complications,XaFm8,Type 1 diabetes mellitus with diabetic cataract,2
+diabetes with complications,XaFm8,Type I diabetes mellitus with diabetic cataract,2
+diabetes with complications,XaFmA,Type 2 diabetes mellitus with diabetic cataract,2
+diabetes with complications,XaFmA,Type II diabetes mellitus with diabetic cataract,2
+diabetes with complications,XaFmL,Insulin dependent diabetes mellitus with arthropathy,2
+diabetes with complications,XaFmM,Type 1 diabetes mellitus with neuropathic arthropathy,2
+diabetes with complications,XaFn9,Non-insulin dependent d m with neuropathic arthropathy,2
+diabetes with complications,XaFn9,Type 2 diabetes mellitus with neuropathic arthropathy,2
+diabetes with complications,XaIP5,Non proliferative diabetic retinopathy,2
+diabetes with complications,XaIPk,O/E - diabetic maculopathy present both eyes,2
+diabetes with complications,XaIW8,High risk non proliferative diabetic retinopathy,2
+diabetes with complications,XaJOg,O/E - right eye background diabetic retinopathy,2
+diabetes with complications,XaJOh,O/E - left eye background diabetic retinopathy,2
+diabetes with complications,XaJOi,O/E - right eye preproliferative diabetic retinopathy,2
+diabetes with complications,XaJOj,O/E - left eye preproliferative diabetic retinopathy,2
+diabetes with complications,XaJOl,O/E - left eye proliferative diabetic retinopathy,2
+diabetes with complications,XaKDG,O/E - right eye stable treated prolif diabetic retinopathy,2
+diabetes with complications,XaKyW,Type 1 diabetes mellitus with gastroparesis,2
+diabetes with complications,XaKyX,Type 2 diabetes mellitus with gastroparesis,2
+diabetes with complications,XaPmX,Diabetes mellitus with polyneuropathy,2
+diabetes with complications,XaPmX,Myasthenic syndrome due to diabetic amyotrophy,2
+diabetes with complications,XE10G,Diabetic nephropathy,2
+diabetes with complications,XE10G,Insulin-dependent diabetes mellitus with renal complications,2
+diabetes with complications,XE10G,Type 1 diabetes mellitus with renal complications,2
+diabetes with complications,XE10H,Diabetes mellitus with polyneuropathy,2
+diabetes with complications,XE10H,Insulin-dependent diabetes mellitus with neurological comps,2
+diabetes with complications,XE10H,Type 1 diabetes mellitus with neurological complications,2
+diabetes with complications,XE15k,Diabetes mellitus with polyneuropathy,2
+diabetes with complications,XE15k,Diabetic neuropathy,2
+diabetes with complications,XE15k,Type 1 diabetes mellitus with polyneuropathy,2
+diabetes with complications,XE15k,Type I diabetes mellitus with polyneuropathy,2
+diabetes with complications,XE15n,Myasthenic syndrome due to diabetic amyotrophy,2
 hemiplegia,F141.,Hereditary spastic paraplegia,2
 hemiplegia,F22..,Hemiplegia,2
 hemiplegia,F220.,Flaccid hemiplegia,2
@@ -1768,6 +2203,16 @@ hemiplegia,F2300,Congenital paraplegia,2
 hemiplegia,F241.,Paraplegia,2
 hemiplegia,F2410,Flaccid paraplegia,2
 hemiplegia,F2411,Spastic paraplegia,2
+hemiplegia,X00Ep,Paraplegia - congenital,2
+hemiplegia,X76n9,Hemiplegia,2
+hemiplegia,Xa0fr,Right hemiplegia,2
+hemiplegia,Xa0fs,Left hemiplegia,2
+hemiplegia,Xa0ft,Right hemiplegia,2
+hemiplegia,Xa0fu,Left hemiplegia,2
+hemiplegia,XaB3o,Spastic hemiplegia,2
+hemiplegia,XE15T,Hemiplegia,2
+hemiplegia,XE15U,Spastic hemiplegia,2
+hemiplegia,XM1Px,Paraplegia - congenital,2
 metastatic tumour,B153.,Secondary malignant neoplasm of liver,6
 metastatic tumour,B56..,Lymph node metastases,6
 metastatic tumour,B560.,Secondary and unspec malig neop lymph nodes head/face/neck,6
@@ -1841,6 +2286,7 @@ metastatic tumour,B5761,Secondary malignant neoplasm of peritoneum,6
 metastatic tumour,B5762,Malignant ascites,6
 metastatic tumour,B576z,Secondary malig neop of retroperitoneum or peritoneum NOS,6
 metastatic tumour,B577.,Liver metastases,6
+metastatic tumour,B577.,Secondary malignant neoplasm of liver,6
 metastatic tumour,B57y.,Secondary malignant neoplasm of other digestive organ,6
 metastatic tumour,B57z.,Secondary malig neop of respiratory or digestive system NOS,6
 metastatic tumour,B58..,Secondary malignant neoplasm of other specified sites,6
@@ -1892,6 +2338,7 @@ metastatic tumour,B594.,Secondary malignant neoplasm of unknown site,6
 metastatic tumour,B59z.,Malignant neoplasm of unspecified site NOS,6
 metastatic tumour,B5y..,Malignant neoplasm of other and unspecified site OS,6
 metastatic tumour,B5z..,Malignant neoplasm of other and unspecified site NOS,6
+metastatic tumour,Byu52,Kaposi's sarcoma of multiple organs,6
 metastatic tumour,ByuC.,"[X]Malignant neoplasm of ill-defined, secondary and unspeci",6
 metastatic tumour,ByuC1,[X]Malignant neoplasm/overlap lesion/otherdefined sites,6
 metastatic tumour,ByuC2,[X]2ndry malignant neoplasm lymph nodes/multi regions,6
@@ -1901,6 +2348,22 @@ metastatic tumour,ByuC5,[X]2ndry malignant neoplasm/bladder urinary organs,6
 metastatic tumour,ByuC6,[X]2ndry malignant neoplasm/oth parts/nervous system,6
 metastatic tumour,ByuC7,[X]Secondary malignant neoplasm of other specified sites,6
 metastatic tumour,ByuC8,[X]Malignant neoplasm without specification of site,6
+metastatic tumour,X30AD,Malignant ascites,6
+metastatic tumour,X78kS,Secondary carcinoma of respiratory and/or digestive systems,6
+metastatic tumour,X78l7,Secondary malignant neoplasm of other specified sites,6
+metastatic tumour,Xa980,Lymph node metastases,6
+metastatic tumour,XaBAn,Carcinomatosis,6
+metastatic tumour,XaC0y,Secondary malignant neoplasm of tongue,6
+metastatic tumour,XaCJ1,Primary malignant neoplasm of unknown site,6
+metastatic tumour,XaIJA,Pathological fracture due to metastatic bone disease,6
+metastatic tumour,XaXQk,Secondary malignant neoplasm of large intestine and rectum,6
+metastatic tumour,XE1vm,Secondary carcinoma of respiratory and/or digestive systems,6
+metastatic tumour,XE1vn,Carcinomatosis,6
+metastatic tumour,XE2vT,Secondary malignant neoplasm of other specified sites,6
+metastatic tumour,XE2xB,Lymph node metastases,6
+metastatic tumour,XM0pv,Secondary malignant neoplasm of unknown site,6
+metastatic tumour,XM1Pr,Cerebral metastasis,6
+mild liver disease,C310.,Glycogenosis with hepatic cirrhosis,1
 mild liver disease,C3104,Glycogenosis with hepatic cirrhosis,1
 mild liver disease,C3500,Pigmentary cirrhosis of liver,1
 mild liver disease,J6002,Acute yellow atrophy,1
@@ -1919,11 +2382,14 @@ mild liver disease,J6150,Unilobular portal cirrhosis,1
 mild liver disease,J6151,Multilobular portal cirrhosis,1
 mild liver disease,J6153,Diffuse nodular cirrhosis,1
 mild liver disease,J6154,Fatty portal cirrhosis,1
+mild liver disease,J6155,"Laennec's cirrhosis, non-alcoholic",1
+mild liver disease,J6155,Multilobular portal cirrhosis,1
 mild liver disease,J6157,Cardiac portal cirrhosis,1
 mild liver disease,J615A,Pipe-stem portal cirrhosis,1
 mild liver disease,J615B,Toxic portal cirrhosis,1
 mild liver disease,J615C,Xanthomatous portal cirrhosis,1
 mild liver disease,J615F,Syphilitic portal cirrhosis,1
+mild liver disease,J615y,Alcoholic cirrhosis of liver,1
 mild liver disease,J615y,Portal cirrhosis unspecified,1
 mild liver disease,J615z,"Laennec's cirrhosis, non-alcoholic",1
 mild liver disease,J616.,Biliary cirrhosis,1
@@ -1935,6 +2401,20 @@ mild liver disease,J61y3,Portal fibrosis without cirrhosis,1
 mild liver disease,J633.,Hepatitis unspecified,1
 mild liver disease,J6356,Toxic liver disease with fibrosis and cirrhosis of liver,1
 mild liver disease,Jyu71,[X]Other and unspecified cirrhosis of liver,1
+mild liver disease,X307M,"Laennec's cirrhosis, non-alcoholic",1
+mild liver disease,X307N,Alcoholic cirrhosis of liver,1
+mild liver disease,X307O,"Laennec's cirrhosis, non-alcoholic",1
+mild liver disease,X307R,Portal cirrhosis,1
+mild liver disease,X307S,"Laennec's cirrhosis, non-alcoholic",1
+mild liver disease,X307W,"Laennec's cirrhosis, non-alcoholic",1
+mild liver disease,Xa9C7,Cardiac portal cirrhosis,1
+mild liver disease,XaBE3,Chronic alcoholic hepatitis,1
+mild liver disease,XE0b4,Alcoholic cirrhosis of liver,1
+mild liver disease,XE0b5,Portal cirrhosis,1
+mild liver disease,XE0b6,Multilobular portal cirrhosis,1
+mild liver disease,XE0b7,Cardiac portal cirrhosis,1
+mild liver disease,XE0bA,"Laennec's cirrhosis, non-alcoholic",1
+mild liver disease,XE2up,Xanthomatous portal cirrhosis,1
 moderate liver disease,760F3,Rigid oesophagoscopic injection sclerotherapy oesoph varices,3
 moderate liver disease,A704z,Other specified viral hepatitis with hepatic coma NOS,3
 moderate liver disease,G85..,Oesophageal varices,3
@@ -1953,6 +2433,17 @@ moderate liver disease,J623.,Portal hypertension,3
 moderate liver disease,J624.,Hepatorenal syndrome,3
 moderate liver disease,J62y.,Other sequelae of chronic liver disease,3
 moderate liver disease,J62z.,Liver abscess and chronic liver disease causing sequelae NOS,3
+moderate liver disease,X0058,Hepatic coma,3
+moderate liver disease,X2063,Oesophageal varices,3
+moderate liver disease,X3076,Other sequelae of chronic liver disease,3
+moderate liver disease,X3077,Other sequelae of chronic liver disease,3
+moderate liver disease,X3078,Other sequelae of chronic liver disease,3
+moderate liver disease,XaBM6,Oesophageal varices in cirrhosis of the liver,3
+moderate liver disease,XaC1d,Oesophageal varices in alcoholic cirrhosis of the liver,3
+moderate liver disease,XaE6u,Oesophageal varices NOS,3
+moderate liver disease,XE0bB,Hepatic coma,3
+moderate liver disease,XE0bC,Other sequelae of chronic liver disease,3
+moderate liver disease,XE0Vc,Oesophageal varices,3
 myocardial infarction,14AH.,H/O: Myocardial infarction in last year,1
 myocardial infarction,G30..,Heart attack,1
 myocardial infarction,G300.,Acute anterolateral infarction,1
@@ -1969,6 +2460,17 @@ myocardial infarction,G30y.,Other acute myocardial infarction,1
 myocardial infarction,G30yz,Other acute myocardial infarction NOS,1
 myocardial infarction,G30z.,Acute myocardial infarction NOS,1
 myocardial infarction,G32..,Personal history of myocardial infarction,1
+myocardial infarction,X200a,Heart attack,1
+myocardial infarction,X200e,Heart attack,1
+myocardial infarction,X200E,Heart attack,1
+myocardial infarction,X203v,Heart attack,1
+myocardial infarction,XaAzi,Acute non-Q wave infarction,1
+myocardial infarction,XaBL1,H/O: Myocardial infarction in last year,1
+myocardial infarction,XaIwM,Acute ST segment elevation myocardial infarction,1
+myocardial infarction,XaIwY,Acute non-ST segment elevation myocardial infarction,1
+myocardial infarction,XaQk7,Personal history of myocardial infarction,1
+myocardial infarction,XE0Uh,Heart attack,1
+myocardial infarction,XE2aA,Personal history of myocardial infarction,1
 peptic ulcer disease,76121,Balfour excision of gastric ulcer,1
 peptic ulcer disease,76125,Resection of gastric ulcer by cautery,1
 peptic ulcer disease,761D6,Endoscopic injection haemostasis of gastric ulcer,1
@@ -2085,6 +2587,29 @@ peptic ulcer disease,J14y4,Unspecified gastrojejunal ulcer with obstruction,1
 peptic ulcer disease,J14yy,Unspec gastrojejunal ulcer; unspec haemorrhage/perforation,1
 peptic ulcer disease,J14yz,Unspecified gastrojejunal ulcer NOS,1
 peptic ulcer disease,J14z.,Gastrojejunal ulcer NOS,1
+peptic ulcer disease,X301M,Gastric ulcer NOS,1
+peptic ulcer disease,X302b,Duodenal ulcer disease,1
+peptic ulcer disease,X302G,Duodenal erosion,1
+peptic ulcer disease,Xa1qA,Stomal ulcer,1
+peptic ulcer disease,Xa1qB,Stomal ulcer,1
+peptic ulcer disease,Xa1qC,Stomal ulcer,1
+peptic ulcer disease,Xa3u7,Balfour excision of gastric ulcer,1
+peptic ulcer disease,Xa6ot,Pyloric ulcer,1
+peptic ulcer disease,Xa84h,Pyloric ulcer,1
+peptic ulcer disease,XaCLu,[V] Personal history of gastric ulcer,1
+peptic ulcer disease,XaELE,Gastric ulcer NOS,1
+peptic ulcer disease,XaFBs,Endoscopic injection haemostasis of gastric ulcer,1
+peptic ulcer disease,XaLWq,Anti-platelet induced gastric ulcer,1
+peptic ulcer disease,XE0aP,Pyloric ulcer,1
+peptic ulcer disease,XE0aQ,Gastric ulcer NOS,1
+peptic ulcer disease,XE0aR,Peptic ulcer - (PU) site unspecified,1
+peptic ulcer disease,XE0aS,Stomal ulcer,1
+peptic ulcer disease,XE0Cf,Balfour excision of gastric ulcer,1
+peptic ulcer disease,XE0Cr,Suture of ulcer of stomach NEC,1
+peptic ulcer disease,XE0qB,[V]Personal history of peptic ulcer,1
+peptic ulcer disease,XE24Y,[V]Personal history of peptic ulcer,1
+peptic ulcer disease,XM1I9,Suture of ulcer of stomach NEC,1
+peptic ulcer disease,XM1RN,[V]Personal history of peptic ulcer,1
 peptic ulcer disease,ZV127,[V]Personal history of peptic ulcer,1
 peptic ulcer disease,ZV12C,[V] Personal history of gastric ulcer,1
 peripheral vascular disease,14AE.,H/O: aortic aneurysm,1
@@ -2133,6 +2658,27 @@ peripheral vascular disease,R0540,"[D]Gangrene, spreading cutaneous",1
 peripheral vascular disease,R0542,[D]Gangrene of toe in diabetic,1
 peripheral vascular disease,R0543,[D]Widespread diabetic foot gangrene,1
 peripheral vascular disease,R054z,[D]Gangrene NOS,1
+peripheral vascular disease,X015i,Aortic aneurysm repair,1
+peripheral vascular disease,X015v,Y graft of abdominal Aortic aneurysm (emergency),1
+peripheral vascular disease,X015x,Tube graft of Abdominal aortic aneurysm,1
+peripheral vascular disease,X015y,Tube graft abdominal Aortic aneurysm (emergency),1
+peripheral vascular disease,X203Q,Other peripheral vascular disease,1
+peripheral vascular disease,X203T,Other peripheral vascular disease,1
+peripheral vascular disease,XaBL7,H/O: Peripheral vascular disease procedure,1
+peripheral vascular disease,XaEed,Ruptured suprarenal aortic aneurysm,1
+peripheral vascular disease,XaEef,Juxtarenal aortic aneurysm,1
+peripheral vascular disease,XaEeg,Inflammatory abdominal aortic aneurysm,1
+peripheral vascular disease,XE0Ey,Y graft of abdominal Aortic aneurysm (emergency),1
+peripheral vascular disease,XE0Ez,Y graft abdominal Aortic aneurysm,1
+peripheral vascular disease,XE0F2,Tube graft abdominal Aortic aneurysm (emergency),1
+peripheral vascular disease,XE0F3,Aortic aneurysm repair,1
+peripheral vascular disease,XE0F4,Tube graft of Abdominal aortic aneurysm,1
+peripheral vascular disease,XE0VP,Other peripheral vascular disease,1
+peripheral vascular disease,XE0VR,Intermittent claudication,1
+peripheral vascular disease,XE10I,Diabetes with gangrene,1
+peripheral vascular disease,XM1Ib,Y graft abdominal Aortic aneurysm,1
+peripheral vascular disease,XM1Qu,Intermittent claudication,1
+peripheral vascular disease,XM1Qx,Diabetes with gangrene,1
 renal disease,14D1.,H/O: nephritis,2
 renal disease,1Z10.,Chronic kidney disease stage 1,2
 renal disease,1Z11.,Chronic kidney disease stage 2,2
@@ -2144,6 +2690,8 @@ renal disease,K001.,Acute nephritis with lesions of necrotising glomerulitis,2
 renal disease,K012.,Nephrotic syndrome glomerulonephritis,2
 renal disease,K019.,"Nephrotic syn,diffuse mesangiocapillary glomerulonephritis",2
 renal disease,K02..,Nephropathy - chronic,2
+renal disease,K020.,Chron neph syn difus mesangial prolifrtiv glomerulonephritis,2
+renal disease,K021.,Chron nephritic syndrom difuse membranous glomerulonephritis,2
 renal disease,K021.,Chronic membranous glomerulonephritis,2
 renal disease,K022.,Chronic membranoproliferative glomerulonephritis,2
 renal disease,K023.,Chronic rapidly progressive glomerulonephritis,2
@@ -2175,8 +2723,10 @@ renal disease,K0803,Renal rickets,2
 renal disease,K080z,Renal osteodystrophy NOS,2
 renal disease,K081.,Nephrogenic diabetes insipidus,2
 renal disease,K08y0,Hypokalaemic nephropathy,2
+renal disease,K08y4,Other impaired renal function disorder NOS,2
 renal disease,K08yz,Other impaired renal function disorder NOS,2
 renal disease,K08z.,Impaired renal function disorder NOS,2
+renal disease,K0A3.,Nephropathy - chronic,2
 renal disease,K0A32,Chron nephritic syndrom difuse membranous glomerulonephritis,2
 renal disease,K0A33,Chron neph syn difus mesangial prolifrtiv glomerulonephritis,2
 renal disease,K0A34,Chron neph syn difuse endocap prolifrativ glomerulonephritis,2
@@ -2190,6 +2740,31 @@ renal disease,K1011,Acute pyelonephritis with medullary necrosis,2
 renal disease,Kyu2.,[X]Renal failure,2
 renal disease,Kyu20,[X]Other acute renal failure,2
 renal disease,Kyu21,[X]Other chronic renal failure,2
+renal disease,X30Hf,Other impaired renal function disorder NOS,2
+renal disease,X30Hg,Nephritis and nephropathy unspecified,2
+renal disease,X30Hg,Nephropathy - chronic,2
+renal disease,X30I3,Nephritis unsp membranoprolif glomerulonephritis lesion,2
+renal disease,X30I4,Nephritis unsp membranoprolif glomerulonephritis lesion,2
+renal disease,X30I5,Nephritis unsp membranoprolif glomerulonephritis lesion,2
+renal disease,X30I6,Nephritis unsp membranoprolif glomerulonephritis lesion,2
+renal disease,X30Il,Impaired renal function,2
+renal disease,X30In,Chronic renal failure,2
+renal disease,X30Io,[X]Renal failure,2
+renal disease,X30IR,Nephritis unsp membranoprolif glomerulonephritis lesion,2
+renal disease,X30J0,Chronic renal failure,2
+renal disease,X30J0,End stage renal failure,2
+renal disease,XaLHG,Chronic kidney disease stage 1,2
+renal disease,XaLHH,Chronic kidney disease stage 2,2
+renal disease,XaLHI,Chronic kidney disease stage 3,2
+renal disease,XaLHJ,Chronic kidney disease stage 4,2
+renal disease,XaLHK,Chronic kidney disease stage 5,2
+renal disease,XE0db,Nephropathy - chronic,2
+renal disease,XE0dc,Nephritis and nephropathy unspecified,2
+renal disease,XE0de,Nephritis unsp membranoprolif glomerulonephritis lesion,2
+renal disease,XE0df,Chronic renal failure,2
+renal disease,XE0dg,Renal failure unspecified,2
+renal disease,XE0dh,Other impaired renal function disorder NOS,2
+renal disease,XE2QM,Acute renal medullary necrosis,2
 rheumatological disease,2A42.,SYSTEMIC LUPUS ERYTHEMATOSUS WITH RENAL,1
 rheumatological disease,F3712,Polyneuropathy in rheumatoid arthritis,1
 rheumatological disease,F3961,Myopathy due to disseminated lupus erythematosus,1
@@ -2201,6 +2776,7 @@ rheumatological disease,H572.,Lung disease with systemic sclerosis,1
 rheumatological disease,H57y1,Lung disease with polymyositis,1
 rheumatological disease,H57y4,Lung disease with systemic lupus erythematosus,1
 rheumatological disease,K01x4,Lupus nephritis,1
+rheumatological disease,N000.,Disseminated lupus erythematosus,1
 rheumatological disease,N000.,Systemic lupus erythematosus,1
 rheumatological disease,N0000,Disseminated lupus erythematosus,1
 rheumatological disease,N0001,Libman-Sacks disease,1
@@ -2237,6 +2813,8 @@ rheumatological disease,N040M,Rheumatoid arthritis of IP joint of toe,1
 rheumatological disease,N040P,Seronegative rheumatoid arthritis,1
 rheumatological disease,N040T,Flare of rheumatoid arthritis,1
 rheumatological disease,N041.,Felty's syndrome,1
+rheumatological disease,N0421,Caplan's syndrome,1
+rheumatological disease,N0421,Rheumatoid lung,1
 rheumatological disease,N0421,Rheumatoid lung disease,1
 rheumatological disease,N047.,Seropositive errosive rheumatoid arthritis,1
 rheumatological disease,N04X.,"Seropositive rheumatoid arthritis, unspecified",1
@@ -2257,5 +2835,23 @@ rheumatological disease,Nyu10,[X]Rheumatoid arthritis organs or systems,1
 rheumatological disease,Nyu11,[X]Other seropositive rheumatoid arthritis,1
 rheumatological disease,Nyu12,[X]Other specified rheumatoid arthritis,1
 rheumatological disease,Nyu1G,"[X]Seropositive rheumatoid arthritis, unspecified",1
+rheumatological disease,Nyu1G,"Seropositive rheumatoid arthritis, unspecified",1
 rheumatological disease,Nyu43,[X]Other forms of systemic lupus erythematosus,1
 rheumatological disease,Nyu45,[X]Other forms of systemic sclerosis,1
+rheumatological disease,X103Y,Caplan's syndrome,1
+rheumatological disease,X701i,Seronegative rheumatoid arthritis,1
+rheumatological disease,X701k,Caplan's syndrome,1
+rheumatological disease,X702I,Rheumatoid arthritis and other inflammatory polyarthropathy,1
+rheumatological disease,X704X,Systemic lupus erythematosus with organ or sys involv,1
+rheumatological disease,X705l,Giant cell arteritis with polymyalgia rheumatica,1
+rheumatological disease,Xa0AR,Systemic sclerosis,1
+rheumatological disease,Xa1jE,Progressive systemic sclerosis,1
+rheumatological disease,Xa1jE,Systemic sclerosis,1
+rheumatological disease,XaBMO,Seropositive errosive rheumatoid arthritis,1
+rheumatological disease,XaC1J,Systemic lupus erythematosus with pericarditis,1
+rheumatological disease,XaQbV,Progressive systemic sclerosis,1
+rheumatological disease,XE0da,Lupus nephritis,1
+rheumatological disease,XE1DF,Systemic sclerosis,1
+rheumatological disease,XE1DU,Rheumatoid arthritis and other inflammatory polyarthropathy,1
+rheumatological disease,XE1FJ,Polymyalgia rheumatica,1
+rheumatological disease,XE2Qb,Endemic polyarthritis,1
