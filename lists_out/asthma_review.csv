@@ -1,4 +1,5 @@
 Read code,Term,QOF
+663..,Respiratory disease monitoring,Y
 66YJ.,Asthma annual review,Y
 66YK.,Asthma follow-up,Y
 66Yp.,Asthma review using Royal College of Physicians three questions,Y
@@ -8,6 +9,7 @@ Read code,Term,QOF
 9N1d.,Seen in asthma clinic,Y
 9NI8.,Asthma outreach clinic,Y
 9OJ1.,Attends asthma monitoring,Y
+9OJ1.,Attends asthma monitoring,Y
 9OJA.,Asthma monitoring check done,Y
 XaBU2,Asthma monitoring call,Y
 XaIeq,Asthma annual review,Y
@@ -15,6 +17,9 @@ XaIer,Asthma follow-up,Y
 XaIfK,Asthma medication review,Y
 XaIu5,Asthma monitoring by nurse,Y
 XaIu6,Asthma monitoring by doctor,Y
+XaL05,Asthma outreach clinic,Y
 XaX3n,Asthma review using Royal College of Physicians three questions,Y
+XE1Sw,Respiratory disease monitoring,Y
 XE2Nb,Asthma monitoring check done,Y
 XM1Xb,Asthma monitoring,Y
+XM1Xg,Chronic respiratory disease monitoring,Y

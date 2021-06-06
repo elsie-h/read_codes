@@ -32,6 +32,11 @@ asthma_review <- asthma_review %>%
   add_row(read_code = '9NI8.', read_term = 'Asthma outreach clinic', QOF = 0) %>%
   add_row(read_code = 'XaBU2', read_term = 'Asthma monitoring call', QOF = 0) %>%
   add_row(read_code = '9OJ1.', read_term = 'Attends asthma monitoring', QOF = 0) %>%
+  add_row(read_code = 'XaL05', read_term = 'Asthma outreach clinic', QOF = 0) %>%
+  add_row(read_code = '663..', read_term = 'Respiratory disease monitoring', QOF = 0) %>%
+  add_row(read_code = 'XE1Sw', read_term = 'Respiratory disease monitoring', QOF = 0) %>%
+  add_row(read_code = 'XM1Xg', read_term = 'Chronic respiratory disease monitoring', QOF = 0) %>%
+  add_row(read_code = '9OJ1.', read_term = 'Attends asthma monitoring', QOF = 0) %>%
   mutate(cat1 = 'asthma_review',
          cat2 = NA_character_,
          score = NA_real_) 
@@ -45,6 +50,12 @@ asthma_review <- asthma_review %>%
 # check for duplicates in read_code
 asthma_review$read_code[duplicated(asthma_review$read_code)]
 
+# check mapping
+# map V2 -> CTV3
+asthma_review %>% map_V2_CTV3()
+# map CTV3 -> V2
+asthma_review %>% map_CTV3_V2()
+
 # save the code list
 write_csv(asthma_review, 
           path = file.path(opcrd_analysis_path, 'asthma_review.csv'))
@@ -54,14 +65,3 @@ write_csv(asthma_review %>%
                    Term = read_term) %>%
             mutate(QOF = 'Y'),
           path = 'lists_out/asthma_review.csv')
-
-# table for appendix
-asthma_review %>%
-  arrange(read_term) %>%
-  select(`Read code` = read_code, 
-         `Term` = read_term) %>%
-  xtable(caption = 'Asthma review Read codes from QOF business rules (see \\sectionref{cha:ehr:methods} for methods)',
-         label = 'tab:app:rc_asthma_review',
-         align=c('l',"p{2cm}","p{10cm}")) %>%
-  print_xtable_multi(filename = 'asthma_reviews')
-
