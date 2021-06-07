@@ -2,7 +2,7 @@
 
 source('setup.R')
 
-# beta-blockers, paracetemol, NASID, statins
+# beta-blockers, paracetamol, NASID, statins
 
 # beta-blockers
 bb_rms <- read_delim("lists_in/RMS/dl_beta_blockers_rms.txt", 
@@ -40,13 +40,13 @@ bb <- bb_rms %>%
   distinct(read_code, .keep_all = TRUE) %>%
   mutate(cat2 = 'beta-blocker')
 
-# paracetemol
-paracetemol <- read_delim("lists_in/RMS/dl_paracetemol_rms.txt", 
+# paracetamol
+paracetamol <- read_delim("lists_in/RMS/dl_paracetamol_rms.txt", 
                  "|", escape_double = FALSE,
                  trim_ws = TRUE, col_names = TRUE) %>%
   mutate_at('read_term', list(~ str_remove(tolower(.), '^\\*'))) %>%
   distinct(read_code, .keep_all = TRUE) %>%
-  mutate(cat2 = 'paracetemol')
+  mutate(cat2 = 'paracetamol')
 
 # NSAID
 NSAID <- read_delim("lists_in/RMS/dl_nsaid_rms.txt", 
@@ -92,7 +92,7 @@ statin <- bind_rows(statin_qof, statin_rms) %>%
   mutate(cat2 = 'statin')
 
 # bind all
-other_prescriptions <- bind_rows(bb, NSAID, paracetemol, statin) %>%
+other_prescriptions <- bind_rows(bb, NSAID, paracetamol, statin) %>%
   mutate(cat1 = 'other prescription') %>%
   mutate_at('QOF', list(~ if_else(. %in% 'yes', ., 'no')))
 
@@ -113,32 +113,3 @@ write_csv(other_prescriptions %>%
                    QOF) %>%
             mutate_at('QOF', list(~ toupper(str_extract(., '.{1}')))),
           path = 'lists_out/comedications.csv')
-
-# latex tables for thesis
-drug_list <- other_prescriptions %>%
-  group_split(cat2)
-
-drug_latex_table <- function(.data) {
-  category <- .data %>%
-    distinct(cat2) %>% 
-    unlist() %>% 
-    unname()
-  
-  category_ <- str_to_lower(str_replace_all(category, ' ', '_'))
-  
-  caption <- str_c('Read codes for \\emph{\'', category, '\'} prescription group (return to \\nameref{cha:ehr:methods:pre:other_prescriptions} methods)')
-  label <- str_c('tab:app:rc_', category_)
-  
-  table <- .data %>%
-    arrange(read_term) %>%
-    select(`Read code` = read_code, 
-           `Term` = read_term,
-           QOF) %>%
-    xtable(caption = caption,
-           label = label,
-           align=c('l',"p{2cm}","p{8cm}","p{2cm}")) %>%
-    print_xtable_multi(filename = category_)
-  
-}
-
-lapply(drug_list, drug_latex_table)
